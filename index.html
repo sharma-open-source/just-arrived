@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Just Arrived — GitHub repos before they trend</title>
+<meta name="description" content="Discover brand-new, fast-growing GitHub repositories before they hit Trending.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+<style>
+:root {
+  --surface-1: #fcfcfb;
+  --page: #f9f9f7;
+  --ink-1: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #898781;
+  --grid: #e1e0d9;
+  --baseline: #c3c2b7;
+  --border: rgba(11,11,11,0.10);
+  --accent: #2a78d6;
+  --accent-soft: #cde2fb;
+  --seq-250: #86b6ef;
+  --seq-450: #2a78d6;
+  --seq-650: #104281;
+  --good: #006300;
+  --hot: #d03b3b;
+  --gem: #4a3aa7;
+  --grow: #1baf7a;
+  --card-shadow: 0 1px 2px rgba(11,11,11,0.05), 0 4px 16px rgba(11,11,11,0.05);
+  --card-shadow-hover: 0 2px 4px rgba(11,11,11,0.08), 0 12px 32px rgba(11,11,11,0.10);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --ink-1: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255,255,255,0.10);
+    --accent: #3987e5;
+    --accent-soft: #184f95;
+    --seq-250: #1c5cab;
+    --seq-450: #3987e5;
+    --seq-650: #86b6ef;
+    --good: #0ca30c;
+    --hot: #e66767;
+    --gem: #9085e9;
+    --grow: #199e70;
+    --card-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 4px 16px rgba(0,0,0,0.3);
+    --card-shadow-hover: 0 2px 4px rgba(0,0,0,0.5), 0 12px 32px rgba(0,0,0,0.45);
+  }
+}
+:root[data-theme="light"] {
+  --surface-1: #fcfcfb; --page: #f9f9f7; --ink-1: #0b0b0b; --ink-2: #52514e;
+  --muted: #898781; --grid: #e1e0d9; --baseline: #c3c2b7; --border: rgba(11,11,11,0.10);
+  --accent: #2a78d6; --accent-soft: #cde2fb; --seq-250: #86b6ef; --seq-450: #2a78d6; --seq-650: #104281;
+  --good: #006300; --hot: #d03b3b; --gem: #4a3aa7; --grow: #1baf7a;
+  --card-shadow: 0 1px 2px rgba(11,11,11,0.05), 0 4px 16px rgba(11,11,11,0.05);
+  --card-shadow-hover: 0 2px 4px rgba(11,11,11,0.08), 0 12px 32px rgba(11,11,11,0.10);
+}
+:root[data-theme="dark"] {
+  --surface-1: #1a1a19; --page: #0d0d0d; --ink-1: #ffffff; --ink-2: #c3c2b7;
+  --muted: #898781; --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+  --accent: #3987e5; --accent-soft: #184f95; --seq-250: #1c5cab; --seq-450: #3987e5; --seq-650: #86b6ef;
+  --good: #0ca30c; --hot: #e66767; --gem: #9085e9; --grow: #199e70;
+  --card-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 4px 16px rgba(0,0,0,0.3);
+  --card-shadow-hover: 0 2px 4px rgba(0,0,0,0.5), 0 12px 32px rgba(0,0,0,0.45);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--page);
+  color: var(--ink-1);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { font: inherit; cursor: pointer; }
+
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px 80px; }
+
+/* ---------- header ---------- */
+header {
+  padding: 36px 0 8px;
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.brand h1 { font-size: 1.9rem; letter-spacing: -0.02em; }
+.brand h1 .rocket { display: inline-block; animation: liftoff 3s ease-in-out infinite; }
+@keyframes liftoff {
+  0%,100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-4px) rotate(-6deg); }
+}
+.brand p { color: var(--ink-2); font-size: 0.95rem; max-width: 560px; }
+.header-actions { display: flex; gap: 8px; align-items: center; }
+.icon-btn {
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+  padding: 8px 12px; color: var(--ink-1); font-size: 0.9rem;
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.icon-btn:hover { transform: translateY(-1px); box-shadow: var(--card-shadow); }
+.icon-btn.spin .refresh-glyph { animation: spin 0.9s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- stat tiles ---------- */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 20px 0; }
+.stat {
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 14px;
+  padding: 14px 16px; box-shadow: var(--card-shadow);
+}
+.stat .label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.stat .value { font-size: 1.7rem; font-weight: 700; letter-spacing: -0.02em; margin-top: 2px; }
+.stat .sub { font-size: 0.8rem; color: var(--ink-2); }
+
+/* ---------- controls ---------- */
+.controls {
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 16px;
+  padding: 14px 16px; box-shadow: var(--card-shadow);
+  display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: flex-end;
+  position: sticky; top: 10px; z-index: 30;
+}
+.ctl { display: flex; flex-direction: column; gap: 4px; }
+.ctl label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.ctl select, .ctl input[type="search"], .ctl input[type="password"] {
+  background: var(--page); color: var(--ink-1); border: 1px solid var(--border);
+  border-radius: 8px; padding: 7px 10px; font: inherit; font-size: 0.9rem; min-width: 120px;
+}
+.ctl input[type="search"] { min-width: 180px; }
+.ctl input[type="range"] { accent-color: var(--accent); width: 130px; }
+.range-val { font-size: 0.8rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.ctl-grow { flex: 1; }
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.seg button {
+  background: var(--page); color: var(--ink-2); border: none; padding: 7px 12px; font-size: 0.85rem;
+}
+.seg button + button { border-left: 1px solid var(--border); }
+.seg button.active { background: var(--accent); color: #fff; }
+
+/* ---------- tabs ---------- */
+.tabs { display: flex; gap: 8px; margin: 22px 0 14px; flex-wrap: wrap; }
+.tab {
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 999px;
+  padding: 8px 16px; font-size: 0.92rem; color: var(--ink-2);
+  transition: transform .15s ease, box-shadow .15s ease;
+  display: inline-flex; align-items: center; gap: 7px;
+}
+.tab:hover { transform: translateY(-1px); box-shadow: var(--card-shadow); }
+.tab.active { border-color: var(--accent); color: var(--ink-1); box-shadow: inset 0 0 0 1px var(--accent); }
+.tab .count {
+  background: var(--page); border: 1px solid var(--border); border-radius: 999px;
+  font-size: 0.72rem; padding: 1px 8px; font-variant-numeric: tabular-nums;
+}
+.tab.active .count { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+/* ---------- grid & cards ---------- */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+.grid.list-view { grid-template-columns: 1fr; }
+.card {
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 16px;
+  padding: 16px; box-shadow: var(--card-shadow);
+  display: flex; flex-direction: column; gap: 10px;
+  transition: transform .18s ease, box-shadow .18s ease;
+  animation: pop-in .35s ease backwards;
+  position: relative;
+}
+.card:hover { transform: translateY(-3px); box-shadow: var(--card-shadow-hover); }
+@keyframes pop-in { from { opacity: 0; transform: translateY(10px) scale(0.98); } }
+.card-top { display: flex; align-items: center; gap: 10px; }
+.card-top img { width: 36px; height: 36px; border-radius: 9px; border: 1px solid var(--border); }
+.repo-name { font-weight: 650; font-size: 1rem; line-height: 1.25; word-break: break-word; }
+.repo-owner { font-size: 0.78rem; color: var(--muted); }
+.badges { display: flex; gap: 6px; flex-wrap: wrap; position: absolute; top: -9px; right: 12px; }
+.badge {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.03em;
+  border-radius: 999px; padding: 3px 9px; color: #fff;
+  box-shadow: var(--card-shadow);
+}
+.badge.trend { background: var(--hot); }
+.badge.gem { background: var(--gem); }
+.badge.new { background: var(--accent); }
+.badge.grow { background: var(--grow); color: #073; color: #fff; }
+.desc {
+  color: var(--ink-2); font-size: 0.88rem;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  min-height: 2.6em;
+}
+.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.82rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.meta .lang-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; border: 1px solid var(--border); }
+.velocity { display: flex; align-items: center; gap: 10px; }
+.velocity .bar-track {
+  flex: 1; height: 8px; border-radius: 4px; background: var(--grid); overflow: hidden;
+}
+.velocity .bar-fill {
+  height: 100%; border-radius: 4px;
+  background: linear-gradient(90deg, var(--seq-250), var(--seq-450), var(--seq-650));
+  width: 0; transition: width .8s cubic-bezier(.2,.8,.2,1);
+}
+.velocity .v-label { font-size: 0.78rem; color: var(--ink-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.score-row { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--grid); padding-top: 9px; }
+.score-pill {
+  font-size: 0.8rem; font-weight: 700; font-variant-numeric: tabular-nums;
+  background: var(--accent-soft); color: var(--ink-1);
+  border-radius: 999px; padding: 3px 11px;
+}
+.age { font-size: 0.78rem; color: var(--muted); }
+
+/* ---------- table view ---------- */
+.table-wrap { overflow-x: auto; background: var(--surface-1); border: 1px solid var(--border); border-radius: 16px; box-shadow: var(--card-shadow); }
+table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 760px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--grid); }
+th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); position: sticky; top: 0; background: var(--surface-1); cursor: pointer; user-select: none; }
+td { font-variant-numeric: tabular-nums; }
+tr:hover td { background: var(--page); }
+
+/* ---------- states ---------- */
+.state { text-align: center; padding: 60px 20px; color: var(--ink-2); }
+.state .big { font-size: 2.4rem; }
+.loader { display: inline-block; width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--grid); border-top-color: var(--accent); animation: spin .8s linear infinite; }
+.error-box {
+  background: var(--surface-1); border: 1px solid var(--hot); border-radius: 12px;
+  padding: 14px 16px; margin: 16px 0; color: var(--ink-2); font-size: 0.9rem;
+}
+
+/* ---------- token dialog ---------- */
+dialog {
+  background: var(--surface-1); color: var(--ink-1); border: 1px solid var(--border);
+  border-radius: 16px; padding: 24px; max-width: 440px; box-shadow: var(--card-shadow-hover);
+}
+dialog::backdrop { background: rgba(0,0,0,0.45); }
+dialog h3 { margin-bottom: 8px; }
+dialog p { font-size: 0.88rem; color: var(--ink-2); margin-bottom: 12px; }
+dialog input { width: 100%; margin-bottom: 12px; background: var(--page); color: var(--ink-1); border: 1px solid var(--border); border-radius: 8px; padding: 9px 10px; font: inherit; }
+dialog .row { display: flex; gap: 8px; justify-content: flex-end; }
+.btn-primary { background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 8px 16px; }
+.btn-ghost { background: transparent; color: var(--ink-2); border: 1px solid var(--border); border-radius: 8px; padding: 8px 16px; }
+
+footer { margin-top: 48px; color: var(--muted); font-size: 0.8rem; text-align: center; }
+footer a { color: var(--ink-2); }
+
+@media (max-width: 640px) {
+  .controls { position: static; }
+  .brand h1 { font-size: 1.5rem; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand">
+    <h1><span class="rocket">🚀</span> Just Arrived</h1>
+    <p>Brand-new GitHub repositories, ranked by growth velocity — catch them <em>before</em> they hit Trending. Live data from the GitHub Search API.</p>
+  </div>
+  <div class="header-actions">
+    <button class="icon-btn" id="themeBtn" title="Toggle light / dark">🌗 Theme</button>
+    <button class="icon-btn" id="tokenBtn" title="Add a GitHub token for higher rate limits">🔑 Token</button>
+    <button class="icon-btn" id="refreshBtn" title="Refresh data"><span class="refresh-glyph">↻</span> Refresh</button>
+  </div>
+</header>
+
+<div class="stats" id="stats" hidden>
+  <div class="stat"><div class="label">Repos discovered</div><div class="value" id="stTotal">–</div><div class="sub" id="stWindow"></div></div>
+  <div class="stat"><div class="label">Fastest riser</div><div class="value" id="stFastest">–</div><div class="sub" id="stFastestSub"></div></div>
+  <div class="stat"><div class="label">Median ★ / day</div><div class="value" id="stMedian">–</div><div class="sub">across current results</div></div>
+  <div class="stat"><div class="label">Top language</div><div class="value" id="stLang">–</div><div class="sub" id="stLangSub"></div></div>
+</div>
+
+<div class="controls">
+  <div class="ctl">
+    <label for="ageSel">Created within</label>
+    <select id="ageSel">
+      <option value="7">7 days</option>
+      <option value="14" selected>14 days</option>
+      <option value="30">30 days</option>
+      <option value="90">90 days</option>
+    </select>
+  </div>
+  <div class="ctl">
+    <label for="langSel">Language</label>
+    <select id="langSel"><option value="">All languages</option></select>
+  </div>
+  <div class="ctl">
+    <label for="minStars">Min stars <span class="range-val" id="minStarsVal">50</span></label>
+    <input type="range" id="minStars" min="0" max="500" step="10" value="50">
+  </div>
+  <div class="ctl">
+    <label for="sortSel">Sort by</label>
+    <select id="sortSel">
+      <option value="score" selected>Trend score</option>
+      <option value="velocity">★ per day</option>
+      <option value="stars">Total stars</option>
+      <option value="forks">Forks</option>
+      <option value="newest">Newest</option>
+    </select>
+  </div>
+  <div class="ctl ctl-grow">
+    <label for="searchBox">Search</label>
+    <input type="search" id="searchBox" placeholder="name, description, topic…">
+  </div>
+  <div class="ctl">
+    <label>View</label>
+    <span class="seg" id="viewSeg">
+      <button data-view="grid" class="active" title="Card grid">▦ Cards</button>
+      <button data-view="list" title="Single column">☰ List</button>
+      <button data-view="table" title="Accessible data table">⊞ Table</button>
+    </span>
+  </div>
+  <div class="ctl">
+    <label>Play</label>
+    <span class="seg">
+      <button id="shuffleBtn" title="Show me something random">🎲 Surprise</button>
+      <button id="autoBtn" title="Auto-refresh every 5 minutes">▶ Auto</button>
+    </span>
+  </div>
+</div>
+
+<div class="tabs" id="tabs">
+  <button class="tab active" data-tab="all">✨ All <span class="count">0</span></button>
+  <button class="tab" data-tab="new">🚀 New this week <span class="count">0</span></button>
+  <button class="tab" data-tab="growing">📈 Fastest growing <span class="count">0</span></button>
+  <button class="tab" data-tab="gems">💎 Hidden gems <span class="count">0</span></button>
+  <button class="tab" data-tab="trend">🔥 About to trend <span class="count">0</span></button>
+</div>
+
+<div id="errorBox" class="error-box" hidden></div>
+<div id="content"><div class="state"><span class="loader"></span><p style="margin-top:12px">Scanning GitHub for fresh arrivals…</p></div></div>
+
+<footer>
+  Data: <a href="https://docs.github.com/en/rest/search" target="_blank" rel="noopener">GitHub Search API</a> · refreshed on demand, cached 5 min ·
+  score = ★/day × 0.5 + forks/day × 0.2 + push-freshness × 0.2 + community × 0.1 ·
+  built with Claude Code
+</footer>
+</div>
+
+<dialog id="tokenDialog">
+  <h3>🔑 GitHub token (optional)</h3>
+  <p>Without a token the GitHub Search API allows 10 requests/min. Paste a
+  <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">fine-grained personal access token</a>
+  (no scopes needed — public read only) to raise the limit to 30/min. It is stored only in your browser's localStorage.</p>
+  <input type="password" id="tokenInput" placeholder="github_pat_…" autocomplete="off">
+  <div class="row">
+    <button class="btn-ghost" id="tokenClear">Clear</button>
+    <button class="btn-ghost" id="tokenCancel">Cancel</button>
+    <button class="btn-primary" id="tokenSave">Save</button>
+  </div>
+</dialog>
+
+<script>
+"use strict";
+/* ============ state ============ */
+const $ = (s) => document.querySelector(s);
+const state = {
+  repos: [],            // enriched repo objects
+  tab: "all",
+  view: "grid",
+  lang: "",
+  minStars: 50,
+  ageDays: 14,
+  sort: "score",
+  q: "",
+  auto: null,
+};
+const CACHE_KEY = "ja-cache-v1";
+const TOKEN_KEY = "ja-token";
+const THEME_KEY = "ja-theme";
+const CACHE_TTL = 5 * 60 * 1000;
+
+/* GitHub language colors (common subset; fallback gray) */
+const LANG_COLORS = {
+  JavaScript:"#f1e05a", TypeScript:"#3178c6", Python:"#3572A5", Go:"#00ADD8",
+  Rust:"#dea584", Java:"#b07219", "C++":"#f34b7d", C:"#555555", "C#":"#178600",
+  Ruby:"#701516", PHP:"#4F5D95", Swift:"#F05138", Kotlin:"#A97BFF", Dart:"#00B4AB",
+  Shell:"#89e051", HTML:"#e34c26", CSS:"#563d7c", Vue:"#41b883", Svelte:"#ff3e00",
+  Zig:"#ec915c", Lua:"#000080", Elixir:"#6e4a7e", Haskell:"#5e5086", R:"#198CE7",
+  Julia:"#a270ba", "Jupyter Notebook":"#DA5B0B", MDX:"#fcb32c", Nix:"#7e7eff",
+  "Objective-C":"#438eff", Scala:"#c22d40", Perl:"#0298c3", OCaml:"#ef7a08",
+};
+
+/* ============ theming ============ */
+const savedTheme = localStorage.getItem(THEME_KEY);
+if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+$("#themeBtn").addEventListener("click", () => {
+  const cur = document.documentElement.dataset.theme ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const next = cur === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  localStorage.setItem(THEME_KEY, next);
+});
+
+/* ============ token dialog ============ */
+const dlg = $("#tokenDialog");
+$("#tokenBtn").addEventListener("click", () => {
+  $("#tokenInput").value = localStorage.getItem(TOKEN_KEY) || "";
+  dlg.showModal();
+});
+$("#tokenCancel").addEventListener("click", () => dlg.close());
+$("#tokenClear").addEventListener("click", () => { localStorage.removeItem(TOKEN_KEY); dlg.close(); });
+$("#tokenSave").addEventListener("click", () => {
+  const v = $("#tokenInput").value.trim();
+  if (v) localStorage.setItem(TOKEN_KEY, v);
+  dlg.close();
+  fetchData(true);
+});
+
+/* ============ fetching ============ */
+function apiHeaders() {
+  const h = { Accept: "application/vnd.github+json" };
+  const t = localStorage.getItem(TOKEN_KEY);
+  if (t) h.Authorization = "Bearer " + t;
+  return h;
+}
+
+function daysAgoISO(days) {
+  const d = new Date(Date.now() - days * 864e5);
+  return d.toISOString().slice(0, 10);
+}
+
+async function fetchPage(query, page) {
+  const url = "https://api.github.com/search/repositories?q=" +
+    encodeURIComponent(query) + "&sort=stars&order=desc&per_page=100&page=" + page;
+  const res = await fetch(url, { headers: apiHeaders() });
+  if (res.status === 403 || res.status === 429) {
+    const reset = res.headers.get("x-ratelimit-reset");
+    const wait = reset ? Math.max(0, Math.ceil((reset * 1000 - Date.now()) / 1000)) : 60;
+    throw new Error("GitHub rate limit reached. Try again in ~" + wait + "s, or add a token (🔑) for 3× the limit.");
+  }
+  if (!res.ok) throw new Error("GitHub API error " + res.status);
+  return (await res.json()).items || [];
+}
+
+function enrich(item) {
+  const created = new Date(item.created_at);
+  const pushed = new Date(item.pushed_at);
+  const ageDays = Math.max((Date.now() - created) / 864e5, 0.25);
+  const daysSincePush = (Date.now() - pushed) / 864e5;
+  const starsPerDay = item.stargazers_count / ageDays;
+  const forksPerDay = item.forks_count / ageDays;
+  // push freshness 0..10: pushed within the hour ≈ 10, a week ago ≈ 0
+  const pushFresh = Math.max(0, 10 - daysSincePush * 1.5);
+  // community proxy 0..10 from open issues+PRs (search API has no contributor count)
+  const community = Math.min(10, Math.sqrt(item.open_issues_count || 0) * 2);
+  const score = starsPerDay * 0.5 + forksPerDay * 0.2 + pushFresh * 0.2 + community * 0.1;
+  return {
+    id: item.id,
+    fullName: item.full_name,
+    name: item.name,
+    owner: item.owner.login,
+    avatar: item.owner.avatar_url + "&s=72",
+    url: item.html_url,
+    desc: item.description || "",
+    lang: item.language || "",
+    topics: item.topics || [],
+    stars: item.stargazers_count,
+    forks: item.forks_count,
+    issues: item.open_issues_count,
+    createdAt: item.created_at,
+    pushedAt: item.pushed_at,
+    ageDays, starsPerDay, forksPerDay, score,
+    isNew: ageDays <= 7,
+    aboutToTrend: ageDays < 14 && item.stargazers_count > 50 && starsPerDay > 20,
+    hiddenGem: item.stargazers_count < 500 && starsPerDay > 8,
+  };
+}
+
+async function fetchData(force) {
+  const btn = $("#refreshBtn");
+  btn.classList.add("spin");
+  $("#errorBox").hidden = true;
+  try {
+    const cacheId = CACHE_KEY + "-" + state.ageDays;
+    if (!force) {
+      try {
+        const c = JSON.parse(localStorage.getItem(cacheId) || "null");
+        if (c && Date.now() - c.at < CACHE_TTL) {
+          state.repos = c.repos;
+          render();
+          return;
+        }
+      } catch (e) { /* stale/corrupt cache — refetch */ }
+    }
+    const query = "created:>" + daysAgoISO(state.ageDays) + " stars:>10";
+    const [p1, p2] = await Promise.all([fetchPage(query, 1), fetchPage(query, 2)]);
+    const seen = new Set();
+    state.repos = p1.concat(p2)
+      .filter((r) => !seen.has(r.id) && seen.add(r.id))
+      .map(enrich);
+    try { localStorage.setItem(cacheId, JSON.stringify({ at: Date.now(), repos: state.repos })); } catch (e) {}
+    render();
+  } catch (err) {
+    $("#errorBox").textContent = "⚠ " + err.message;
+    $("#errorBox").hidden = false;
+    if (!state.repos.length) $("#content").innerHTML =
+      '<div class="state"><div class="big">🛰️</div><p>Nothing loaded yet — see the message above.</p></div>';
+  } finally {
+    btn.classList.remove("spin");
+  }
+}
+
+/* ============ filtering / sections ============ */
+function currentSet() {
+  let rs = state.repos.filter((r) => r.stars >= state.minStars);
+  if (state.lang) rs = rs.filter((r) => r.lang === state.lang);
+  if (state.q) {
+    const q = state.q.toLowerCase();
+    rs = rs.filter((r) =>
+      r.fullName.toLowerCase().includes(q) ||
+      r.desc.toLowerCase().includes(q) ||
+      r.topics.some((t) => t.includes(q)));
+  }
+  switch (state.tab) {
+    case "new":     rs = rs.filter((r) => r.isNew); break;
+    case "growing": rs = rs.filter((r) => r.starsPerDay >= 15); break;
+    case "gems":    rs = rs.filter((r) => r.hiddenGem); break;
+    case "trend":   rs = rs.filter((r) => r.aboutToTrend); break;
+  }
+  const cmp = {
+    score:    (a, b) => b.score - a.score,
+    velocity: (a, b) => b.starsPerDay - a.starsPerDay,
+    stars:    (a, b) => b.stars - a.stars,
+    forks:    (a, b) => b.forks - a.forks,
+    newest:   (a, b) => new Date(b.createdAt) - new Date(a.createdAt),
+  }[state.sort];
+  return rs.sort(cmp);
+}
+
+function tabCounts() {
+  let base = state.repos.filter((r) => r.stars >= state.minStars);
+  if (state.lang) base = base.filter((r) => r.lang === state.lang);
+  if (state.q) {
+    const q = state.q.toLowerCase();
+    base = base.filter((r) =>
+      r.fullName.toLowerCase().includes(q) ||
+      r.desc.toLowerCase().includes(q) ||
+      r.topics.some((t) => t.includes(q)));
+  }
+  return {
+    all: base.length,
+    new: base.filter((r) => r.isNew).length,
+    growing: base.filter((r) => r.starsPerDay >= 15).length,
+    gems: base.filter((r) => r.hiddenGem).length,
+    trend: base.filter((r) => r.aboutToTrend).length,
+  };
+}
+
+/* ============ rendering ============ */
+const fmt = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(Math.round(n));
+const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const agoStr = (d) => d < 1 ? "today" : d < 2 ? "1 day old" : Math.round(d) + " days old";
+
+function badgesFor(r) {
+  const b = [];
+  if (r.aboutToTrend) b.push('<span class="badge trend">🔥 about to trend</span>');
+  else if (r.hiddenGem) b.push('<span class="badge gem">💎 hidden gem</span>');
+  else if (r.starsPerDay >= 15) b.push('<span class="badge grow">📈 growing</span>');
+  else if (r.isNew) b.push('<span class="badge new">🚀 new</span>');
+  return b.join("");
+}
+
+function cardHTML(r, i, maxVel) {
+  const pct = Math.max(3, Math.round((r.starsPerDay / maxVel) * 100));
+  const langDot = r.lang
+    ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.lang] || "#8b949e"}"></span>${esc(r.lang)}</span>` : "";
+  return `<article class="card" style="animation-delay:${Math.min(i * 30, 400)}ms">
+    <div class="badges">${badgesFor(r)}</div>
+    <div class="card-top">
+      <img src="${r.avatar}" alt="" loading="lazy">
+      <div>
+        <div class="repo-name"><a href="${r.url}" target="_blank" rel="noopener">${esc(r.name)}</a></div>
+        <div class="repo-owner">${esc(r.owner)}</div>
+      </div>
+    </div>
+    <p class="desc">${esc(r.desc) || "<em>No description.</em>"}</p>
+    <div class="meta">
+      ${langDot}
+      <span title="Stars">★ ${fmt(r.stars)}</span>
+      <span title="Forks">⑂ ${fmt(r.forks)}</span>
+      <span title="Open issues + PRs">◎ ${fmt(r.issues)}</span>
+    </div>
+    <div class="velocity" title="Star velocity relative to the fastest repo in view">
+      <div class="bar-track"><div class="bar-fill" data-w="${pct}"></div></div>
+      <span class="v-label">${r.starsPerDay.toFixed(1)} ★/day</span>
+    </div>
+    <div class="score-row">
+      <span class="score-pill" title="stars/day×0.5 + forks/day×0.2 + push-freshness×0.2 + community×0.1">score ${r.score.toFixed(1)}</span>
+      <span class="age">${agoStr(r.ageDays)}</span>
+    </div>
+  </article>`;
+}
+
+function tableHTML(rs) {
+  const rows = rs.map((r) => `<tr>
+    <td><a href="${r.url}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
+    <td>${esc(r.lang) || "–"}</td>
+    <td>${fmt(r.stars)}</td>
+    <td>${r.starsPerDay.toFixed(1)}</td>
+    <td>${fmt(r.forks)}</td>
+    <td>${fmt(r.issues)}</td>
+    <td>${Math.round(r.ageDays)}d</td>
+    <td>${r.score.toFixed(1)}</td>
+  </tr>`).join("");
+  return `<div class="table-wrap"><table>
+    <thead><tr><th>Repository</th><th>Language</th><th>Stars</th><th>★/day</th><th>Forks</th><th>Issues</th><th>Age</th><th>Score</th></tr></thead>
+    <tbody>${rows}</tbody></table></div>`;
+}
+
+function render() {
+  const rs = currentSet();
+
+  // tab counts
+  const counts = tabCounts();
+  document.querySelectorAll(".tab").forEach((t) => {
+    t.querySelector(".count").textContent = counts[t.dataset.tab];
+  });
+
+  // stat tiles
+  $("#stats").hidden = false;
+  $("#stTotal").textContent = counts.all;
+  $("#stWindow").textContent = "created in the last " + state.ageDays + " days";
+  const base = state.repos.filter((r) => r.stars >= state.minStars);
+  if (base.length) {
+    const fastest = base.reduce((a, b) => (b.starsPerDay > a.starsPerDay ? b : a));
+    $("#stFastest").textContent = fastest.name;
+    $("#stFastestSub").textContent = fastest.starsPerDay.toFixed(0) + " ★/day · " + fastest.owner;
+    const vels = base.map((r) => r.starsPerDay).sort((a, b) => a - b);
+    $("#stMedian").textContent = vels[Math.floor(vels.length / 2)].toFixed(1);
+    const langCount = {};
+    base.forEach((r) => { if (r.lang) langCount[r.lang] = (langCount[r.lang] || 0) + 1; });
+    const top = Object.entries(langCount).sort((a, b) => b[1] - a[1])[0];
+    $("#stLang").textContent = top ? top[0] : "–";
+    $("#stLangSub").textContent = top ? top[1] + " repos" : "";
+  }
+
+  // language dropdown (preserve selection)
+  const langs = [...new Set(state.repos.map((r) => r.lang).filter(Boolean))].sort();
+  const sel = $("#langSel");
+  const cur = state.lang;
+  sel.innerHTML = '<option value="">All languages</option>' +
+    langs.map((l) => `<option value="${esc(l)}"${l === cur ? " selected" : ""}>${esc(l)}</option>`).join("");
+
+  // body
+  const content = $("#content");
+  if (!rs.length) {
+    content.innerHTML = '<div class="state"><div class="big">🌌</div><p>No repos match these filters. Loosen the star threshold or widen the window.</p></div>';
+    return;
+  }
+  if (state.view === "table") {
+    content.innerHTML = tableHTML(rs);
+  } else {
+    const maxVel = Math.max(...rs.map((r) => r.starsPerDay), 1);
+    content.innerHTML = `<div class="grid${state.view === "list" ? " list-view" : ""}">` +
+      rs.map((r, i) => cardHTML(r, i, maxVel)).join("") + "</div>";
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      content.querySelectorAll(".bar-fill").forEach((el) => { el.style.width = el.dataset.w + "%"; });
+    }));
+  }
+}
+
+/* ============ wiring ============ */
+$("#ageSel").addEventListener("change", (e) => { state.ageDays = +e.target.value; fetchData(); });
+$("#langSel").addEventListener("change", (e) => { state.lang = e.target.value; render(); });
+$("#minStars").addEventListener("input", (e) => {
+  state.minStars = +e.target.value;
+  $("#minStarsVal").textContent = e.target.value;
+  render();
+});
+$("#sortSel").addEventListener("change", (e) => { state.sort = e.target.value; render(); });
+let qTimer;
+$("#searchBox").addEventListener("input", (e) => {
+  clearTimeout(qTimer);
+  qTimer = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 200);
+});
+$("#refreshBtn").addEventListener("click", () => fetchData(true));
+
+$("#tabs").addEventListener("click", (e) => {
+  const t = e.target.closest(".tab");
+  if (!t) return;
+  document.querySelectorAll(".tab").forEach((x) => x.classList.toggle("active", x === t));
+  state.tab = t.dataset.tab;
+  render();
+});
+
+$("#viewSeg").addEventListener("click", (e) => {
+  const b = e.target.closest("button");
+  if (!b) return;
+  document.querySelectorAll("#viewSeg button").forEach((x) => x.classList.toggle("active", x === b));
+  state.view = b.dataset.view;
+  render();
+});
+
+$("#shuffleBtn").addEventListener("click", () => {
+  const rs = currentSet();
+  if (!rs.length) return;
+  const pick = rs[Math.floor(Math.random() * rs.length)];
+  window.open(pick.url, "_blank", "noopener");
+});
+
+$("#autoBtn").addEventListener("click", (e) => {
+  if (state.auto) {
+    clearInterval(state.auto); state.auto = null;
+    e.target.textContent = "▶ Auto"; e.target.classList.remove("active");
+  } else {
+    state.auto = setInterval(() => fetchData(true), CACHE_TTL);
+    e.target.textContent = "⏸ Auto"; e.target.classList.add("active");
+  }
+});
+
+/* table header sorting */
+document.addEventListener("click", (e) => {
+  const th = e.target.closest("th");
+  if (!th) return;
+  const map = ["fullName", "lang", "stars", "velocity", "forks", "issues", "newest", "score"];
+  const key = map[[...th.parentNode.children].indexOf(th)];
+  if (["stars", "velocity", "forks", "score", "newest"].includes(key)) {
+    state.sort = key === "issues" ? state.sort : key;
+    $("#sortSel").value = ["stars","velocity","forks","score","newest"].includes(state.sort) ? state.sort : "score";
+    render();
+  }
+});
+
+fetchData();
+</script>
+</body>
+</html>
