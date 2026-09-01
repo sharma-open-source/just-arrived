@@ -401,7 +401,8 @@ footer a { color: var(--ink-2); }
 </section>
 
 <footer>
-  Data: <a href="https://docs.github.com/en/rest/search" target="_blank" rel="noopener">GitHub Search API</a> · refreshed on demand, cached 5 min ·
+  Data: <a href="https://docs.github.com/en/rest/search" target="_blank" rel="noopener">GitHub Search API</a>,
+  auto-refreshed every ~30 min <span id="dataAsOf"></span> ·
   score = ★/day × 0.5 + forks/day × 0.2 + push-freshness × 0.2 + community × 0.1 ·
   built with Claude Code
 </footer>
@@ -434,6 +435,7 @@ const state = {
   sort: "score",
   q: "",
   auto: null,
+  dataAsOf: null,
 };
 const CACHE_KEY = "ja-cache-v1";
 const TOKEN_KEY = "ja-token";
@@ -537,6 +539,30 @@ function enrich(item) {
   };
 }
 
+let snapshotPromise = null;
+function loadSnapshot() {
+  // Same-origin static file refreshed every ~30 min by a GitHub Actions job
+  // (see scripts/fetch-data.mjs) — lets normal page loads skip the
+  // rate-limited GitHub Search API entirely.
+  if (!snapshotPromise) {
+    snapshotPromise = fetch("data.json", { cache: "no-store" }).then((res) => {
+      if (!res.ok) throw new Error("no snapshot");
+      return res.json();
+    });
+  }
+  return snapshotPromise;
+}
+
+function setDataAsOf(iso) {
+  state.dataAsOf = iso;
+  const el = $("#dataAsOf");
+  if (!el) return;
+  if (!iso) { el.textContent = ""; return; }
+  const mins = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
+  const age = mins < 1 ? "just now" : mins === 1 ? "1 min ago" : mins + " min ago";
+  el.textContent = "· data as of " + age;
+}
+
 async function fetchData(force) {
   const btn = $("#refreshBtn");
   btn.classList.add("spin");
@@ -548,10 +574,27 @@ async function fetchData(force) {
         const c = JSON.parse(localStorage.getItem(cacheId) || "null");
         if (c && Date.now() - c.at < CACHE_TTL) {
           state.repos = c.repos;
+          setDataAsOf(c.dataAsOf || null);
           render();
           return;
         }
       } catch (e) { /* stale/corrupt cache — refetch */ }
+
+      try {
+        const snap = await loadSnapshot();
+        const items = snap.windows && snap.windows[String(state.ageDays)];
+        if (items && items.length) {
+          state.repos = items.map(enrich);
+          try {
+            localStorage.setItem(cacheId, JSON.stringify({
+              at: Date.now(), repos: state.repos, dataAsOf: snap.generatedAt,
+            }));
+          } catch (e) {}
+          setDataAsOf(snap.generatedAt);
+          render();
+          return;
+        }
+      } catch (e) { /* no snapshot available — fall back to a live fetch */ }
     }
     const query = "created:>" + daysAgoISO(state.ageDays) + " stars:>10";
     const [p1, p2] = await Promise.all([fetchPage(query, 1), fetchPage(query, 2)]);
@@ -559,7 +602,11 @@ async function fetchData(force) {
     state.repos = p1.concat(p2)
       .filter((r) => !seen.has(r.id) && seen.add(r.id))
       .map(enrich);
-    try { localStorage.setItem(cacheId, JSON.stringify({ at: Date.now(), repos: state.repos })); } catch (e) {}
+    const now = new Date().toISOString();
+    try {
+      localStorage.setItem(cacheId, JSON.stringify({ at: Date.now(), repos: state.repos, dataAsOf: now }));
+    } catch (e) {}
+    setDataAsOf(now);
     render();
   } catch (err) {
     $("#errorBox").textContent = "⚠ " + err.message;

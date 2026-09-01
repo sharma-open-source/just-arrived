@@ -2,8 +2,11 @@
 
 **Discover GitHub repositories before they hit Trending.**
 
-A single-page dashboard that surfaces brand-new, fast-growing repos by querying
-the GitHub Search API live from your browser — no backend, no build step.
+A single-page dashboard that surfaces brand-new, fast-growing repos from the
+GitHub Search API — no backend, no server. A GitHub Actions job refreshes a
+static `data.json` snapshot every ~30 min so a normal page load never has to
+make a rate-limited API call itself; hit 🔑 Refresh for a live, up-to-the-
+second query instead.
 
 **Live site:** https://sharma-open-source.github.io/just-arrived/
 
@@ -39,3 +42,11 @@ so push recency and issue/PR activity are used as lightweight proxies.
 ## Run locally
 
 Just open `index.html` — or serve it: `python3 -m http.server`.
+
+## Data snapshot
+
+`scripts/fetch-data.mjs` pulls the newest/fastest-growing repos for each
+supported age window and writes `data.json`. `.github/workflows/refresh-data.yml`
+runs it on a 30-minute schedule (and on demand via `workflow_dispatch`) and
+commits the result. Run it yourself with `GITHUB_TOKEN=<token> node
+scripts/fetch-data.mjs`.
