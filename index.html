@@ -3,9 +3,54 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Just Arrived — GitHub repos before they trend</title>
-<meta name="description" content="Discover brand-new, fast-growing GitHub repositories before they hit Trending.">
+<title>Just Arrived — Discover GitHub Repos Before They Trend</title>
+<meta name="description" content="Find brand-new, fast-growing GitHub repositories before they hit Trending. A free, live velocity-ranked dashboard covering new repos, fastest growers, hidden gems, and about-to-trend projects — no signup required.">
+<meta name="keywords" content="github trending, github trending alternative, new github repos, trending repositories, hidden gems github, rising open source projects, pre-trending repos">
+<meta name="author" content="Sharma SK">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://sharma-open-source.github.io/just-arrived/">
+<meta name="theme-color" content="#0d0d0d">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Just Arrived">
+<meta property="og:title" content="Just Arrived — Discover GitHub Repos Before They Trend">
+<meta property="og:description" content="Brand-new, fast-growing GitHub repositories ranked by growth velocity — catch them before they hit Trending. Live data, no signup.">
+<meta property="og:url" content="https://sharma-open-source.github.io/just-arrived/">
+<meta property="og:image" content="https://sharma-open-source.github.io/just-arrived/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Just Arrived — discover GitHub repos before they trend">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Just Arrived — Discover GitHub Repos Before They Trend">
+<meta name="twitter:description" content="Brand-new, fast-growing GitHub repositories ranked by growth velocity — catch them before they hit Trending.">
+<meta name="twitter:image" content="https://sharma-open-source.github.io/just-arrived/og-image.png">
+
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Just Arrived",
+  "alternateName": "Just Arrived — GitHub pre-trending discovery dashboard",
+  "url": "https://sharma-open-source.github.io/just-arrived/",
+  "description": "Discover brand-new, fast-growing GitHub repositories before they hit Trending. Live velocity-ranked dashboard covering newest repos, fastest growers, hidden gems, and about-to-trend projects.",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Any (web browser)",
+  "browserRequirements": "Requires JavaScript",
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Sharma SK"
+  }
+}
+</script>
 <style>
 :root {
   --surface-1: #fcfcfb;
@@ -326,8 +371,33 @@ footer a { color: var(--ink-2); }
   <button class="tab" data-tab="trend">🔥 About to trend <span class="count">0</span></button>
 </div>
 
+<noscript>
+  <p style="max-width:760px;margin:16px auto;padding:16px;border:1px solid #c3c2b7;border-radius:8px;">
+    Just Arrived needs JavaScript to fetch live results from the GitHub Search API.
+    It surfaces brand-new, fast-growing GitHub repositories before they hit GitHub Trending —
+    grouped into New this week, Fastest growing, Hidden gems, and About to trend — ranked by a
+    stars/day and forks/day growth-velocity score. Please enable JavaScript to use the dashboard.
+  </p>
+</noscript>
+
 <div id="errorBox" class="error-box" hidden></div>
 <div id="content"><div class="state"><span class="loader"></span><p style="margin-top:12px">Scanning GitHub for fresh arrivals…</p></div></div>
+
+<section style="max-width:860px;margin:40px auto 0;color:var(--ink-2);font-size:0.95rem;line-height:1.7">
+  <h2 style="font-size:1.1rem;color:var(--ink-1);margin-bottom:8px">About Just Arrived</h2>
+  <p>
+    <strong>Just Arrived</strong> is a free GitHub Trending alternative that catches rising repositories
+    earlier — while they're still gaining momentum, not after they've already peaked. It scans the
+    <a href="https://docs.github.com/en/rest/search" target="_blank" rel="noopener">GitHub Search API</a>
+    live in your browser and ranks results by a growth-velocity score, so you can find hidden gems and
+    about-to-trend projects days or weeks before they show up on the official Trending page.
+  </p>
+  <p>
+    Filter by language, age window (7–90 days), and minimum stars, then sort by trend score, star
+    velocity, or forks. No account, no backend, no tracking — your optional GitHub token (for a higher
+    API rate limit) stays in your browser's localStorage only.
+  </p>
+</section>
 
 <footer>
   Data: <a href="https://docs.github.com/en/rest/search" target="_blank" rel="noopener">GitHub Search API</a> · refreshed on demand, cached 5 min ·
