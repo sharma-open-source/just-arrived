@@ -492,6 +492,12 @@ function daysAgoISO(days) {
   return d.toISOString().slice(0, 10);
 }
 
+// GitHub search only sorts by total stars, so a single stars-desc query is
+// dominated by mega-viral repos and never surfaces low-star/high-velocity
+// "hidden gems" (they rank too low to make the top pages). Querying separate
+// star bands and merging keeps the sample spread across the whole spectrum.
+const STAR_BANDS = ["10..49", "50..199", "200..999", ">=1000"];
+
 async function fetchPage(query, page) {
   const url = "https://api.github.com/search/repositories?q=" +
     encodeURIComponent(query) + "&sort=stars&order=desc&per_page=100&page=" + page;
@@ -596,10 +602,12 @@ async function fetchData(force) {
         }
       } catch (e) { /* no snapshot available — fall back to a live fetch */ }
     }
-    const query = "created:>" + daysAgoISO(state.ageDays) + " stars:>10";
-    const [p1, p2] = await Promise.all([fetchPage(query, 1), fetchPage(query, 2)]);
+    const created = daysAgoISO(state.ageDays);
+    const bandResults = await Promise.all(
+      STAR_BANDS.map((band) => fetchPage("created:>" + created + " stars:" + band, 1))
+    );
     const seen = new Set();
-    state.repos = p1.concat(p2)
+    state.repos = bandResults.flat()
       .filter((r) => !seen.has(r.id) && seen.add(r.id))
       .map(enrich);
     const now = new Date().toISOString();

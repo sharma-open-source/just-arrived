@@ -5,6 +5,11 @@
 import { writeFile } from "node:fs/promises";
 
 const WINDOWS = [7, 14, 30, 90];
+// GitHub search only sorts by total stars, so a single stars-desc query is
+// dominated by mega-viral repos and never surfaces low-star/high-velocity
+// "hidden gems" (they rank too low to make the top pages). Querying separate
+// star bands and merging keeps the sample spread across the whole spectrum.
+const STAR_BANDS = ["10..49", "50..199", "200..999", ">=1000"];
 const token = process.env.GITHUB_TOKEN;
 
 function daysAgoISO(days) {
@@ -49,11 +54,13 @@ function trim(item) {
 }
 
 async function fetchWindow(days) {
-  const query = "created:>" + daysAgoISO(days) + " stars:>10";
-  const [p1, p2] = await Promise.all([fetchPage(query, 1), fetchPage(query, 2)]);
+  const created = daysAgoISO(days);
+  const bandResults = await Promise.all(
+    STAR_BANDS.map((band) => fetchPage("created:>" + created + " stars:" + band, 1))
+  );
   const seen = new Set();
-  return p1
-    .concat(p2)
+  return bandResults
+    .flat()
     .filter((r) => !seen.has(r.id) && seen.add(r.id))
     .map(trim);
 }
