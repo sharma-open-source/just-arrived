@@ -10,6 +10,7 @@
 <meta name="google-site-verification" content="dS9IIF0rU-_oanifhCWbrHS5hOkqJWdt_hqmvXbVPaE" />
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://sharma-open-source.github.io/just-arrived/">
+<link rel="alternate" type="application/atom+xml" title="Just Arrived — About to trend" href="feed.xml">
 <meta name="theme-color" content="#0d0d0d">
 
 <meta property="og:type" content="website">
@@ -219,6 +220,14 @@ header {
 .card-top img { width: 36px; height: 36px; border-radius: 9px; border: 1px solid var(--border); }
 .repo-name { font-weight: 650; font-size: 1rem; line-height: 1.25; word-break: break-word; }
 .repo-owner { font-size: 0.78rem; color: var(--muted); }
+.bookmark-btn {
+  margin-left: auto; background: none; border: none; font-size: 1.15rem; line-height: 1;
+  color: var(--muted); padding: 2px; flex-shrink: 0;
+}
+.bookmark-btn.active { color: var(--accent); }
+.bookmark-btn:hover { color: var(--accent); }
+.hist { display: flex; align-items: center; gap: 6px; font-size: 0.75rem; color: var(--ink-2); }
+.hist .spark { display: block; flex-shrink: 0; }
 .badges { display: flex; gap: 6px; flex-wrap: wrap; position: absolute; top: -9px; right: 12px; }
 .badge {
   font-size: 0.68rem; font-weight: 700; letter-spacing: 0.03em;
@@ -370,6 +379,7 @@ footer a { color: var(--ink-2); }
   <button class="tab" data-tab="growing">📈 Fastest growing <span class="count">0</span></button>
   <button class="tab" data-tab="gems">💎 Hidden gems <span class="count">0</span></button>
   <button class="tab" data-tab="trend">🔥 About to trend <span class="count">0</span></button>
+  <button class="tab" data-tab="saved">💾 Saved <span class="count">0</span></button>
 </div>
 
 <noscript>
@@ -404,6 +414,7 @@ footer a { color: var(--ink-2); }
   Data: <a href="https://docs.github.com/en/rest/search" target="_blank" rel="noopener">GitHub Search API</a>,
   auto-refreshed every ~30 min <span id="dataAsOf"></span> ·
   score = ★/day × 0.5 + forks/day × 0.2 + push-freshness × 0.2 + community × 0.1 ·
+  <a href="feed.xml">📡 RSS feed</a> ·
   built with Claude Code
 </footer>
 </div>
@@ -436,10 +447,12 @@ const state = {
   q: "",
   auto: null,
   dataAsOf: null,
+  history: {},
 };
 const CACHE_KEY = "ja-cache-v1";
 const TOKEN_KEY = "ja-token";
 const THEME_KEY = "ja-theme";
+const SAVED_KEY = "ja-saved-v1";
 const CACHE_TTL = 5 * 60 * 1000;
 
 /* GitHub language colors (common subset; fallback gray) */
@@ -497,8 +510,24 @@ function daysAgoISO(days) {
 // "hidden gems" (they rank too low to make the top pages). Querying separate
 // star bands and merging keeps the sample spread across the whole spectrum.
 const STAR_BANDS = ["10..49", "50..199", "200..999", ">=1000"];
+// A band can have far more than 100 matches (one page's worth); page a few
+// deep so a popular band isn't silently truncated to just its first 100.
+const MAX_PAGES_PER_BAND = 3;
+
+// The Search API's request-per-minute limit is separate from — and much
+// stricter than — GitHub's general limits (10/min unauthenticated, 30/min
+// with a token). Paginated bands fetched concurrently can burst past it, so
+// every request is routed through one shared, serialized gap.
+let throttleQueue = Promise.resolve();
+function throttle(gapMs) {
+  const turn = throttleQueue.then(() => new Promise((r) => setTimeout(r, gapMs)));
+  throttleQueue = turn;
+  return turn;
+}
 
 async function fetchPage(query, page) {
+  const gapMs = localStorage.getItem(TOKEN_KEY) ? 2100 : 6500;
+  await throttle(gapMs);
   const url = "https://api.github.com/search/repositories?q=" +
     encodeURIComponent(query) + "&sort=stars&order=desc&per_page=100&page=" + page;
   const res = await fetch(url, { headers: apiHeaders() });
@@ -508,7 +537,18 @@ async function fetchPage(query, page) {
     throw new Error("GitHub rate limit reached. Try again in ~" + wait + "s, or add a token (🔑) for 3× the limit.");
   }
   if (!res.ok) throw new Error("GitHub API error " + res.status);
-  return (await res.json()).items || [];
+  return res.json();
+}
+
+async function fetchBand(query) {
+  let items = [];
+  for (let page = 1; page <= MAX_PAGES_PER_BAND; page++) {
+    const json = await fetchPage(query, page);
+    const pageItems = json.items || [];
+    items = items.concat(pageItems);
+    if (pageItems.length < 100 || items.length >= (json.total_count ?? 0)) break;
+  }
+  return items;
 }
 
 function enrich(item) {
@@ -543,6 +583,48 @@ function enrich(item) {
     aboutToTrend: ageDays < 14 && item.stargazers_count > 50 && starsPerDay > 20,
     hiddenGem: item.stargazers_count < 500 && starsPerDay > 8,
   };
+}
+
+/* ============ saved / bookmarks ============ */
+// Stores the raw (pre-enrich) shape so saved repos re-run through enrich()
+// at render time, the same as a fresh window — badges, age, and score stay
+// correct instead of freezing at whatever they were the moment of saving.
+function getSavedMap() {
+  try { return JSON.parse(localStorage.getItem(SAVED_KEY) || "{}"); } catch (e) { return {}; }
+}
+function toRaw(r) {
+  return {
+    id: r.id, full_name: r.fullName, name: r.name,
+    owner: { login: r.owner, avatar_url: r.avatar.replace(/&s=\d+$/, "") },
+    html_url: r.url, description: r.desc, language: r.lang, topics: r.topics,
+    stargazers_count: r.stars, forks_count: r.forks, open_issues_count: r.issues,
+    created_at: r.createdAt, pushed_at: r.pushedAt,
+  };
+}
+function savedRepos() {
+  return Object.values(getSavedMap()).map(enrich);
+}
+function toggleSaved(id) {
+  const map = getSavedMap();
+  if (map[id]) {
+    delete map[id];
+  } else {
+    const r = state.repos.find((x) => x.id === id);
+    if (!r) return;
+    map[id] = toRaw(r);
+  }
+  localStorage.setItem(SAVED_KEY, JSON.stringify(map));
+  render();
+}
+// Keeps a saved repo's stored snapshot fresh whenever it also shows up in a
+// freshly loaded window, so bookmarks don't quietly go stale for months.
+function refreshSavedFromLoaded() {
+  const map = getSavedMap();
+  let changed = false;
+  for (const r of state.repos) {
+    if (map[r.id]) { map[r.id] = toRaw(r); changed = true; }
+  }
+  if (changed) localStorage.setItem(SAVED_KEY, JSON.stringify(map));
 }
 
 let snapshotPromise = null;
@@ -603,11 +685,13 @@ async function fetchData(force) {
       } catch (e) { /* no snapshot available — fall back to a live fetch */ }
     }
     const created = daysAgoISO(state.ageDays);
-    const bandResults = await Promise.all(
-      STAR_BANDS.map((band) => fetchPage("created:>" + created + " stars:" + band, 1))
+    const bandResults = await Promise.allSettled(
+      STAR_BANDS.map((band) => fetchBand("created:>" + created + " stars:" + band))
     );
+    const fulfilled = bandResults.filter((r) => r.status === "fulfilled");
+    if (!fulfilled.length) throw bandResults[0].reason;
     const seen = new Set();
-    state.repos = bandResults.flat()
+    state.repos = fulfilled.flatMap((r) => r.value)
       .filter((r) => !seen.has(r.id) && seen.add(r.id))
       .map(enrich);
     const now = new Date().toISOString();
@@ -627,8 +711,8 @@ async function fetchData(force) {
 }
 
 /* ============ filtering / sections ============ */
-function currentSet() {
-  let rs = state.repos.filter((r) => r.stars >= state.minStars);
+function applyCommonFilters(list) {
+  let rs = list.filter((r) => r.stars >= state.minStars);
   if (state.lang) rs = rs.filter((r) => r.lang === state.lang);
   if (state.q) {
     const q = state.q.toLowerCase();
@@ -637,6 +721,12 @@ function currentSet() {
       r.desc.toLowerCase().includes(q) ||
       r.topics.some((t) => t.includes(q)));
   }
+  return rs;
+}
+
+function currentSet() {
+  const source = state.tab === "saved" ? savedRepos() : state.repos;
+  let rs = applyCommonFilters(source);
   switch (state.tab) {
     case "new":     rs = rs.filter((r) => r.isNew); break;
     case "growing": rs = rs.filter((r) => r.starsPerDay >= 15); break;
@@ -654,21 +744,15 @@ function currentSet() {
 }
 
 function tabCounts() {
-  let base = state.repos.filter((r) => r.stars >= state.minStars);
-  if (state.lang) base = base.filter((r) => r.lang === state.lang);
-  if (state.q) {
-    const q = state.q.toLowerCase();
-    base = base.filter((r) =>
-      r.fullName.toLowerCase().includes(q) ||
-      r.desc.toLowerCase().includes(q) ||
-      r.topics.some((t) => t.includes(q)));
-  }
+  const base = applyCommonFilters(state.repos);
+  const savedBase = applyCommonFilters(savedRepos());
   return {
     all: base.length,
     new: base.filter((r) => r.isNew).length,
     growing: base.filter((r) => r.starsPerDay >= 15).length,
     gems: base.filter((r) => r.hiddenGem).length,
     trend: base.filter((r) => r.aboutToTrend).length,
+    saved: savedBase.length,
   };
 }
 
@@ -676,6 +760,37 @@ function tabCounts() {
 const fmt = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(Math.round(n));
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const agoStr = (d) => d < 1 ? "today" : d < 2 ? "1 day old" : Math.round(d) + " days old";
+
+/* ============ trend history / sparkline ============ */
+let historyPromise = null;
+function loadHistory() {
+  if (!historyPromise) {
+    historyPromise = fetch("history.json", { cache: "no-store" })
+      .then((res) => (res.ok ? res.json() : {}))
+      .catch(() => ({}));
+  }
+  return historyPromise;
+}
+
+function sparklineHTML(hist) {
+  if (!hist || hist.length < 2) return "";
+  const vals = hist.map((p) => p.s);
+  const min = Math.min(...vals), max = Math.max(...vals);
+  const w = 64, h = 20, pad = 2, range = Math.max(1, max - min);
+  const pts = hist.map((p, i) => {
+    const x = pad + (i / (hist.length - 1)) * (w - pad * 2);
+    const y = h - pad - ((p.s - min) / range) * (h - pad * 2);
+    return x.toFixed(1) + "," + y.toFixed(1);
+  }).join(" ");
+  const delta = vals[vals.length - 1] - vals[0];
+  const color = delta >= 0 ? "var(--grow)" : "var(--muted)";
+  const svg = `<svg class="spark" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-hidden="true">
+    <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>`;
+  return `<div class="hist" title="${delta >= 0 ? "+" : ""}${delta} ★ over the last ${hist.length} days">
+    ${svg}<span>${delta >= 0 ? "+" : ""}${fmt(delta)} / ${hist.length}d</span>
+  </div>`;
+}
 
 function badgesFor(r) {
   const b = [];
@@ -690,6 +805,7 @@ function cardHTML(r, i, maxVel) {
   const pct = Math.max(3, Math.round((r.starsPerDay / maxVel) * 100));
   const langDot = r.lang
     ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.lang] || "#8b949e"}"></span>${esc(r.lang)}</span>` : "";
+  const saved = !!getSavedMap()[r.id];
   return `<article class="card" style="animation-delay:${Math.min(i * 30, 400)}ms">
     <div class="badges">${badgesFor(r)}</div>
     <div class="card-top">
@@ -698,6 +814,7 @@ function cardHTML(r, i, maxVel) {
         <div class="repo-name"><a href="${r.url}" target="_blank" rel="noopener">${esc(r.name)}</a></div>
         <div class="repo-owner">${esc(r.owner)}</div>
       </div>
+      <button class="bookmark-btn${saved ? " active" : ""}" data-id="${r.id}" title="${saved ? "Remove from saved" : "Save for later"}">${saved ? "★" : "☆"}</button>
     </div>
     <p class="desc">${esc(r.desc) || "<em>No description.</em>"}</p>
     <div class="meta">
@@ -710,6 +827,7 @@ function cardHTML(r, i, maxVel) {
       <div class="bar-track"><div class="bar-fill" data-w="${pct}"></div></div>
       <span class="v-label">${r.starsPerDay.toFixed(1)} ★/day</span>
     </div>
+    ${sparklineHTML(state.history[r.id])}
     <div class="score-row">
       <span class="score-pill" title="stars/day×0.5 + forks/day×0.2 + push-freshness×0.2 + community×0.1">score ${r.score.toFixed(1)}</span>
       <span class="age">${agoStr(r.ageDays)}</span>
@@ -718,7 +836,9 @@ function cardHTML(r, i, maxVel) {
 }
 
 function tableHTML(rs) {
-  const rows = rs.map((r) => `<tr>
+  const rows = rs.map((r) => {
+    const saved = !!getSavedMap()[r.id];
+    return `<tr>
     <td><a href="${r.url}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
     <td>${esc(r.lang) || "–"}</td>
     <td>${fmt(r.stars)}</td>
@@ -727,13 +847,16 @@ function tableHTML(rs) {
     <td>${fmt(r.issues)}</td>
     <td>${Math.round(r.ageDays)}d</td>
     <td>${r.score.toFixed(1)}</td>
-  </tr>`).join("");
+    <td><button class="bookmark-btn${saved ? " active" : ""}" data-id="${r.id}" title="${saved ? "Remove from saved" : "Save for later"}">${saved ? "★" : "☆"}</button></td>
+  </tr>`;
+  }).join("");
   return `<div class="table-wrap"><table>
-    <thead><tr><th>Repository</th><th>Language</th><th>Stars</th><th>★/day</th><th>Forks</th><th>Issues</th><th>Age</th><th>Score</th></tr></thead>
+    <thead><tr><th>Repository</th><th>Language</th><th>Stars</th><th>★/day</th><th>Forks</th><th>Issues</th><th>Age</th><th>Score</th><th></th></tr></thead>
     <tbody>${rows}</tbody></table></div>`;
 }
 
 function render() {
+  refreshSavedFromLoaded();
   const rs = currentSet();
 
   // tab counts
@@ -770,7 +893,10 @@ function render() {
   // body
   const content = $("#content");
   if (!rs.length) {
-    content.innerHTML = '<div class="state"><div class="big">🌌</div><p>No repos match these filters. Loosen the star threshold or widen the window.</p></div>';
+    content.innerHTML = state.tab === "saved"
+      ? '<div class="state"><div class="big">💾</div><p>Nothing saved yet — click ☆ on a repo to keep it here.</p></div>'
+      : '<div class="state"><div class="big">🌌</div><p>No repos match these filters. Loosen the star threshold or widen the window.</p></div>';
+    syncURLFromState();
     return;
   }
   if (state.view === "table") {
@@ -783,9 +909,60 @@ function render() {
       content.querySelectorAll(".bar-fill").forEach((el) => { el.style.width = el.dataset.w + "%"; });
     }));
   }
+  syncURLFromState();
+}
+
+/* ============ shareable URL state ============ */
+const VALID_TABS = ["all", "new", "growing", "gems", "trend", "saved"];
+const VALID_VIEWS = ["grid", "list", "table"];
+const VALID_SORTS = ["score", "velocity", "stars", "forks", "newest"];
+
+function syncURLFromState() {
+  const p = new URLSearchParams();
+  if (state.tab !== "all") p.set("tab", state.tab);
+  if (state.ageDays !== 14) p.set("window", state.ageDays);
+  if (state.lang) p.set("lang", state.lang);
+  if (state.minStars !== 50) p.set("stars", state.minStars);
+  if (state.sort !== "score") p.set("sort", state.sort);
+  if (state.q) p.set("q", state.q);
+  if (state.view !== "grid") p.set("view", state.view);
+  const qs = p.toString();
+  history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + location.hash);
+}
+
+function readStateFromURL() {
+  const p = new URLSearchParams(location.search);
+  if (VALID_TABS.includes(p.get("tab"))) state.tab = p.get("tab");
+  const w = +p.get("window");
+  if ([7, 14, 30, 90].includes(w)) state.ageDays = w;
+  if (p.has("lang")) state.lang = p.get("lang");
+  if (p.has("stars")) {
+    const s = +p.get("stars");
+    if (!Number.isNaN(s)) state.minStars = Math.min(500, Math.max(0, s));
+  }
+  if (VALID_SORTS.includes(p.get("sort"))) state.sort = p.get("sort");
+  if (p.has("q")) state.q = p.get("q");
+  if (VALID_VIEWS.includes(p.get("view"))) state.view = p.get("view");
+}
+
+function initFromURL() {
+  readStateFromURL();
+  $("#ageSel").value = state.ageDays;
+  $("#minStars").value = state.minStars;
+  $("#minStarsVal").textContent = state.minStars;
+  $("#sortSel").value = state.sort;
+  $("#searchBox").value = state.q;
+  document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("active", t.dataset.tab === state.tab));
+  document.querySelectorAll("#viewSeg button").forEach((b) => b.classList.toggle("active", b.dataset.view === state.view));
 }
 
 /* ============ wiring ============ */
+$("#content").addEventListener("click", (e) => {
+  const b = e.target.closest(".bookmark-btn");
+  if (!b) return;
+  e.preventDefault();
+  toggleSaved(+b.dataset.id);
+});
 $("#ageSel").addEventListener("change", (e) => { state.ageDays = +e.target.value; fetchData(); });
 $("#langSel").addEventListener("change", (e) => { state.lang = e.target.value; render(); });
 $("#minStars").addEventListener("input", (e) => {
@@ -847,7 +1024,15 @@ document.addEventListener("click", (e) => {
   }
 });
 
+initFromURL();
 fetchData();
+// Re-render only if fetchData already painted cards — otherwise this would
+// briefly flash an empty state over the loading spinner, and fetchData's
+// own render() call will pick up state.history via closure once it lands.
+loadHistory().then((h) => {
+  state.history = h;
+  if (state.repos.length) render();
+});
 </script>
 </body>
 </html>
