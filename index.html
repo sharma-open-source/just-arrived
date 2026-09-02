@@ -825,6 +825,22 @@ const fmt = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" :
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const agoStr = (d) => d < 1 ? "today" : d < 2 ? "1 day old" : Math.round(d) + " days old";
 
+// Tags every outbound repo/homepage link so referrals from here are visible
+// in the destination's analytics. Uses URL/searchParams rather than string
+// concat so it merges correctly with a URL that already has a query string
+// or a fragment (e.g. the README link's "#readme").
+function withUTM(url) {
+  try {
+    const u = new URL(url);
+    u.searchParams.set("utm_source", "just-arrived");
+    u.searchParams.set("utm_medium", "referral");
+    u.searchParams.set("utm_campaign", "repo_discovery");
+    return u.toString();
+  } catch (e) {
+    return url; // not an absolute URL (e.g. safeHref's "#" fallback) — leave it alone
+  }
+}
+
 /* ============ trend history / sparkline ============ */
 let historyPromise = null;
 function loadHistory() {
@@ -875,7 +891,7 @@ function cardHTML(r, i, maxVel) {
     <div class="card-top">
       <img src="${r.avatar}" alt="" loading="lazy">
       <div>
-        <div class="repo-name"><a href="${r.url}" target="_blank" rel="noopener">${esc(r.name)}</a></div>
+        <div class="repo-name"><a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a></div>
         <div class="repo-owner">${esc(r.owner)}</div>
       </div>
       <button class="bookmark-btn${saved ? " active" : ""}" data-id="${r.id}" title="${saved ? "Remove from saved" : "Save for later"}">${saved ? "★" : "☆"}</button>
@@ -903,7 +919,7 @@ function tableHTML(rs) {
   const rows = rs.map((r) => {
     const saved = !!getSavedMap()[r.id];
     return `<tr data-id="${r.id}">
-    <td><a href="${r.url}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
+    <td><a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
     <td>${esc(r.lang) || "–"}</td>
     <td>${fmt(r.stars)}</td>
     <td>${r.starsPerDay.toFixed(1)}</td>
@@ -941,7 +957,7 @@ function previewHTML(r) {
   const topics = r.topics.slice(0, 8).map((t) => `<span class="topic-pill">${esc(t)}</span>`).join("");
   const links = [];
   if (r.homepage) {
-    links.push(`<a href="${esc(safeHref(r.homepage))}" target="_blank" rel="noopener">🔗 ${esc(r.homepage.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</a>`);
+    links.push(`<a href="${esc(withUTM(safeHref(r.homepage)))}" target="_blank" rel="noopener">🔗 ${esc(r.homepage.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</a>`);
   }
   if (r.license) links.push(`<span title="License">📄 ${esc(r.license)}</span>`);
   return `
@@ -949,7 +965,7 @@ function previewHTML(r) {
     <div class="preview-top">
       <img src="${r.avatar}" alt="" loading="lazy">
       <div>
-        <div class="preview-name"><a href="${r.url}" target="_blank" rel="noopener">${esc(r.fullName)}</a></div>
+        <div class="preview-name"><a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.fullName)}</a></div>
         <div class="badges">${badgesFor(r)}</div>
       </div>
     </div>
@@ -971,7 +987,7 @@ function previewHTML(r) {
     <div class="readme" id="previewReadme"><p class="readme-empty">Loading…</p></div>
     <div class="row preview-actions">
       <button class="btn-ghost preview-bookmark" data-id="${r.id}">${saved ? "★ Saved" : "☆ Save for later"}</button>
-      <a class="btn-primary" href="${r.url}" target="_blank" rel="noopener">Open on GitHub ↗</a>
+      <a class="btn-primary" href="${withUTM(r.url)}" target="_blank" rel="noopener">Open on GitHub ↗</a>
     </div>`;
 }
 
@@ -1070,7 +1086,7 @@ async function loadReadme(r, seq) {
     } else {
       const text = await res.text();
       body = mdLiteHTML(text.slice(0, 4000)) +
-        `<a class="readme-more" href="${r.url}#readme" target="_blank" rel="noopener">Read full README on GitHub ↗</a>`;
+        `<a class="readme-more" href="${withUTM(r.url + "#readme")}" target="_blank" rel="noopener">Read full README on GitHub ↗</a>`;
     }
     readmeCache.set(r.fullName, body);
     const el = $("#previewReadme");
@@ -1255,7 +1271,7 @@ $("#shuffleBtn").addEventListener("click", () => {
   const rs = currentSet();
   if (!rs.length) return;
   const pick = rs[Math.floor(Math.random() * rs.length)];
-  window.open(pick.url, "_blank", "noopener");
+  window.open(withUTM(pick.url), "_blank", "noopener");
 });
 
 $("#autoBtn").addEventListener("click", (e) => {
