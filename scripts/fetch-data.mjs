@@ -80,6 +80,8 @@ function trim(item) {
     description: item.description,
     language: item.language,
     topics: item.topics || [],
+    license: item.license ? { spdx_id: item.license.spdx_id, name: item.license.name } : null,
+    homepage: item.homepage || null,
     stargazers_count: item.stargazers_count,
     forks_count: item.forks_count,
     open_issues_count: item.open_issues_count,

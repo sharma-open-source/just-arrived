@@ -215,6 +215,7 @@ header {
   position: relative;
 }
 .card:hover { transform: translateY(-3px); box-shadow: var(--card-shadow-hover); }
+.card { cursor: pointer; }
 @keyframes pop-in { from { opacity: 0; transform: translateY(10px) scale(0.98); } }
 .card-top { display: flex; align-items: center; gap: 10px; }
 .card-top img { width: 36px; height: 36px; border-radius: 9px; border: 1px solid var(--border); }
@@ -269,6 +270,7 @@ table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 7
 th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--grid); }
 th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); position: sticky; top: 0; background: var(--surface-1); cursor: pointer; user-select: none; }
 td { font-variant-numeric: tabular-nums; }
+tr[data-id] { cursor: pointer; }
 tr:hover td { background: var(--page); }
 
 /* ---------- states ---------- */
@@ -284,6 +286,7 @@ tr:hover td { background: var(--page); }
 dialog {
   background: var(--surface-1); color: var(--ink-1); border: 1px solid var(--border);
   border-radius: 16px; padding: 24px; max-width: 440px; box-shadow: var(--card-shadow-hover);
+  margin: auto; /* the global `* { margin: 0 }` reset would otherwise defeat dialog:modal's auto-centering */
 }
 dialog::backdrop { background: rgba(0,0,0,0.45); }
 dialog h3 { margin-bottom: 8px; }
@@ -292,6 +295,57 @@ dialog input { width: 100%; margin-bottom: 12px; background: var(--page); color:
 dialog .row { display: flex; gap: 8px; justify-content: flex-end; }
 .btn-primary { background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 8px 16px; }
 .btn-ghost { background: transparent; color: var(--ink-2); border: 1px solid var(--border); border-radius: 8px; padding: 8px 16px; }
+.btn-primary:hover, .btn-ghost:hover { filter: brightness(1.08); }
+
+/* ---------- preview dialog ---------- */
+#previewDialog { max-width: 480px; width: min(480px, 92vw); max-height: 88vh; overflow-y: auto; }
+#previewDialog::backdrop { background: rgba(0,0,0,0.45); }
+.preview-wrap { position: relative; }
+.preview-banner {
+  display: block; width: calc(100% + 48px); aspect-ratio: 1200 / 630; object-fit: cover;
+  margin: -24px -24px 14px; border-radius: 16px 16px 0 0; background: var(--page);
+}
+.preview-close {
+  position: absolute; top: 14px; right: 14px; width: 30px; height: 30px;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0,0,0,0.45); color: #fff; border: none; border-radius: 50%;
+  font-size: 1rem; line-height: 1; padding: 0;
+}
+.preview-close:hover { background: rgba(0,0,0,0.65); }
+.preview-top { display: flex; align-items: center; gap: 12px; }
+.preview-top img { width: 52px; height: 52px; border-radius: 12px; border: 1px solid var(--border); flex-shrink: 0; }
+.preview-name a { font-size: 1.1rem; font-weight: 700; color: var(--ink-1); word-break: break-word; }
+.preview-name a:hover { text-decoration: underline; }
+#previewBody .badges { position: static; margin-top: 4px; }
+#previewBody .desc { -webkit-line-clamp: unset; overflow: visible; min-height: 0; margin: 14px 0; }
+#previewBody .meta { margin-bottom: 12px; }
+#previewBody .velocity { margin-bottom: 12px; }
+#previewBody .hist { margin-bottom: 14px; }
+.topics { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+.topic-pill {
+  background: var(--page); border: 1px solid var(--border); border-radius: 999px;
+  padding: 3px 10px; font-size: 0.76rem; color: var(--ink-2);
+}
+.preview-actions { justify-content: space-between; border-top: 1px solid var(--grid); padding-top: 14px; margin-top: 4px; }
+
+.readme-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 0 0 6px; }
+.readme {
+  border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; margin-bottom: 14px;
+  max-height: 260px; overflow-y: auto; font-size: 0.85rem; color: var(--ink-2); background: var(--page);
+}
+.readme h1, .readme h2, .readme h3, .readme h4 { color: var(--ink-1); margin: 10px 0 4px; line-height: 1.3; }
+.readme h1 { font-size: 1.05rem; }
+.readme h2 { font-size: 1rem; }
+.readme h3, .readme h4 { font-size: 0.92rem; }
+.readme p { margin: 0 0 8px; }
+.readme ul, .readme ol { margin: 0 0 8px 18px; }
+.readme li { margin-bottom: 2px; }
+.readme code { background: var(--surface-1); border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; font-size: 0.82em; }
+.readme pre { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; overflow-x: auto; margin: 0 0 8px; }
+.readme pre code { border: none; padding: 0; background: none; }
+.readme a { color: var(--accent); }
+.readme-empty { color: var(--muted); font-style: italic; }
+.readme-more { display: inline-block; margin-top: 2px; font-size: 0.82rem; }
 
 footer { margin-top: 48px; color: var(--muted); font-size: 0.8rem; text-align: center; }
 footer a { color: var(--ink-2); }
@@ -429,6 +483,13 @@ footer a { color: var(--ink-2); }
     <button class="btn-ghost" id="tokenClear">Clear</button>
     <button class="btn-ghost" id="tokenCancel">Cancel</button>
     <button class="btn-primary" id="tokenSave">Save</button>
+  </div>
+</dialog>
+
+<dialog id="previewDialog">
+  <div class="preview-wrap">
+    <button class="preview-close" id="previewClose" aria-label="Close preview">✕</button>
+    <div id="previewBody"></div>
   </div>
 </dialog>
 
@@ -573,6 +634,8 @@ function enrich(item) {
     desc: item.description || "",
     lang: item.language || "",
     topics: item.topics || [],
+    license: item.license && item.license.spdx_id !== "NOASSERTION" ? item.license.spdx_id : "",
+    homepage: item.homepage || "",
     stars: item.stargazers_count,
     forks: item.forks_count,
     issues: item.open_issues_count,
@@ -597,6 +660,7 @@ function toRaw(r) {
     id: r.id, full_name: r.fullName, name: r.name,
     owner: { login: r.owner, avatar_url: r.avatar.replace(/&s=\d+$/, "") },
     html_url: r.url, description: r.desc, language: r.lang, topics: r.topics,
+    license: r.license ? { spdx_id: r.license } : null, homepage: r.homepage || null,
     stargazers_count: r.stars, forks_count: r.forks, open_issues_count: r.issues,
     created_at: r.createdAt, pushed_at: r.pushedAt,
   };
@@ -806,7 +870,7 @@ function cardHTML(r, i, maxVel) {
   const langDot = r.lang
     ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.lang] || "#8b949e"}"></span>${esc(r.lang)}</span>` : "";
   const saved = !!getSavedMap()[r.id];
-  return `<article class="card" style="animation-delay:${Math.min(i * 30, 400)}ms">
+  return `<article class="card" data-id="${r.id}" style="animation-delay:${Math.min(i * 30, 400)}ms">
     <div class="badges">${badgesFor(r)}</div>
     <div class="card-top">
       <img src="${r.avatar}" alt="" loading="lazy">
@@ -838,7 +902,7 @@ function cardHTML(r, i, maxVel) {
 function tableHTML(rs) {
   const rows = rs.map((r) => {
     const saved = !!getSavedMap()[r.id];
-    return `<tr>
+    return `<tr data-id="${r.id}">
     <td><a href="${r.url}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
     <td>${esc(r.lang) || "–"}</td>
     <td>${fmt(r.stars)}</td>
@@ -853,6 +917,178 @@ function tableHTML(rs) {
   return `<div class="table-wrap"><table>
     <thead><tr><th>Repository</th><th>Language</th><th>Stars</th><th>★/day</th><th>Forks</th><th>Issues</th><th>Age</th><th>Score</th><th></th></tr></thead>
     <tbody>${rows}</tbody></table></div>`;
+}
+
+/* ============ quick preview ============ */
+// Looks past whatever filters currentSet() applied, so a card's preview
+// still resolves correctly (e.g. unsaving from inside the preview while
+// the "saved" tab is active removes it from savedRepos() but it's fine —
+// findRepo just needs *a* source of truth, not the currently-filtered one).
+function findRepo(id) {
+  return state.repos.find((r) => r.id === id) || savedRepos().find((r) => r.id === id);
+}
+
+// Blocks javascript:/data:/vbscript: URIs from README links and the
+// homepage field — both come from repo-owner-controlled content.
+function safeHref(u) {
+  return /^\s*(javascript|data|vbscript):/i.test(u || "") ? "#" : u;
+}
+
+function previewHTML(r) {
+  const saved = !!getSavedMap()[r.id];
+  const langDot = r.lang
+    ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.lang] || "#8b949e"}"></span>${esc(r.lang)}</span>` : "";
+  const topics = r.topics.slice(0, 8).map((t) => `<span class="topic-pill">${esc(t)}</span>`).join("");
+  const links = [];
+  if (r.homepage) {
+    links.push(`<a href="${esc(safeHref(r.homepage))}" target="_blank" rel="noopener">🔗 ${esc(r.homepage.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</a>`);
+  }
+  if (r.license) links.push(`<span title="License">📄 ${esc(r.license)}</span>`);
+  return `
+    <img class="preview-banner" src="https://opengraph.githubassets.com/1/${encodeURIComponent(r.fullName)}" alt="" loading="lazy" onerror="this.remove()">
+    <div class="preview-top">
+      <img src="${r.avatar}" alt="" loading="lazy">
+      <div>
+        <div class="preview-name"><a href="${r.url}" target="_blank" rel="noopener">${esc(r.fullName)}</a></div>
+        <div class="badges">${badgesFor(r)}</div>
+      </div>
+    </div>
+    <p class="desc">${esc(r.desc) || "<em>No description.</em>"}</p>
+    ${topics ? `<div class="topics">${topics}</div>` : ""}
+    ${links.length ? `<div class="meta">${links.join("")}</div>` : ""}
+    <div class="meta">
+      ${langDot}
+      <span title="Stars">★ ${fmt(r.stars)}</span>
+      <span title="Forks">⑂ ${fmt(r.forks)}</span>
+      <span title="Open issues + PRs">◎ ${fmt(r.issues)}</span>
+      <span title="Repo age">${agoStr(r.ageDays)}</span>
+    </div>
+    <div class="velocity" title="Star velocity relative to the fastest repo in view">
+      <span class="v-label">${r.starsPerDay.toFixed(1)} ★/day · score ${r.score.toFixed(1)}</span>
+    </div>
+    ${sparklineHTML(state.history[r.id])}
+    <div class="readme-label">Readme</div>
+    <div class="readme" id="previewReadme"><p class="readme-empty">Loading…</p></div>
+    <div class="row preview-actions">
+      <button class="btn-ghost preview-bookmark" data-id="${r.id}">${saved ? "★ Saved" : "☆ Save for later"}</button>
+      <a class="btn-primary" href="${r.url}" target="_blank" rel="noopener">Open on GitHub ↗</a>
+    </div>`;
+}
+
+// Deliberately not a full markdown renderer — just enough of the common
+// syntax (headings, lists, code, bold/italic, links) to make a truncated
+// README opening readable. Raw HTML and images are stripped rather than
+// rendered: READMEs lean on both heavily for badges/centered banners, which
+// read as noise (or, for HTML, would need real sanitizing) in a quick preview.
+// Un-escapes HTML entities left over from stripped raw-HTML markup (e.g. a
+// README heading like `<h1>R&amp;D</h1>` loses its tags but not the entity)
+// so esc() below re-escapes each character exactly once instead of doubling
+// it into a literal "&amp;" on screen.
+function decodeEntities(s) {
+  return s.replace(/&(#x?[0-9a-f]+|amp|lt|gt|quot|apos|nbsp);/gi, (m, e) => {
+    if (e[0] === "#") {
+      const code = e[1].toLowerCase() === "x" ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
+      return Number.isFinite(code) ? String.fromCodePoint(code) : m;
+    }
+    return { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " }[e.toLowerCase()] || m;
+  });
+}
+
+function mdLiteHTML(md) {
+  const text = decodeEntities(
+    md
+      .replace(/<!--[\s\S]*?-->/g, "")
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+      .replace(/<[^>]+>/g, "")
+  );
+
+  const inline = (s) => esc(s)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, t, u) => `<a href="${safeHref(u)}" target="_blank" rel="noopener">${t}</a>`);
+
+  // Consecutive non-blank lines are one paragraph in markdown (a single
+  // newline is a soft wrap, not a break) — buffer them and only flush on a
+  // blank line or the start of another block, instead of emitting a <p> per
+  // source line, which reads as choppy wall-of-text for hard-wrapped prose.
+  let html = "", listType = null, inCode = false, codeBuf = [], paraBuf = [];
+  const closeList = () => { if (listType) { html += `</${listType}>`; listType = null; } };
+  const flushCode = () => { if (codeBuf.length) html += `<pre><code>${esc(codeBuf.join("\n"))}</code></pre>`; codeBuf = []; };
+  const flushPara = () => { if (paraBuf.length) html += `<p>${inline(paraBuf.join(" "))}</p>`; paraBuf = []; };
+
+  for (const raw of text.split("\n")) {
+    const line = raw.trimEnd();
+    if (line.trim().startsWith("```")) {
+      flushPara();
+      if (inCode) flushCode();
+      inCode = !inCode;
+      continue;
+    }
+    if (inCode) { codeBuf.push(raw); continue; }
+    const h = line.match(/^(#{1,6})\s+(.*)/);
+    if (h) { flushPara(); closeList(); const n = Math.min(h[1].length, 4); html += `<h${n}>${inline(h[2])}</h${n}>`; continue; }
+    const ol = line.match(/^\s*\d+[.)]\s+(.*)/);
+    const ul = line.match(/^\s*[-*]\s+(.*)/);
+    if (ol || ul) {
+      flushPara();
+      const type = ol ? "ol" : "ul";
+      if (listType !== type) { closeList(); html += `<${type}>`; listType = type; }
+      html += `<li>${inline((ol || ul)[1])}</li>`;
+      continue;
+    }
+    if (!line.trim()) { flushPara(); closeList(); continue; }
+    closeList();
+    paraBuf.push(line.trim());
+  }
+  flushPara();
+  closeList();
+  flushCode();
+  return html || '<p class="readme-empty">Nothing to preview.</p>';
+}
+
+const readmeCache = new Map();
+let previewSeq = 0;
+async function loadReadme(r, seq) {
+  if (readmeCache.has(r.fullName)) {
+    const el = $("#previewReadme");
+    if (el) el.innerHTML = readmeCache.get(r.fullName);
+    return;
+  }
+  try {
+    const res = await fetch("https://api.github.com/repos/" + r.fullName + "/readme", {
+      headers: { ...apiHeaders(), Accept: "application/vnd.github.raw+json" },
+    });
+    if (seq !== previewSeq) return; // dialog moved on to a different repo
+    let body;
+    if (res.status === 404) {
+      body = '<p class="readme-empty">No README found.</p>';
+    } else if (res.status === 403 || res.status === 429) {
+      body = '<p class="readme-empty">Rate limited — try again shortly, or add a token (🔑) for a higher limit.</p>';
+    } else if (!res.ok) {
+      body = '<p class="readme-empty">Couldn’t load the README.</p>';
+    } else {
+      const text = await res.text();
+      body = mdLiteHTML(text.slice(0, 4000)) +
+        `<a class="readme-more" href="${r.url}#readme" target="_blank" rel="noopener">Read full README on GitHub ↗</a>`;
+    }
+    readmeCache.set(r.fullName, body);
+    const el = $("#previewReadme");
+    if (el) el.innerHTML = body;
+  } catch (e) {
+    if (seq !== previewSeq) return;
+    const el = $("#previewReadme");
+    if (el) el.innerHTML = '<p class="readme-empty">Couldn’t load the README.</p>';
+  }
+}
+
+function openPreview(id) {
+  const r = findRepo(id);
+  if (!r) return;
+  const seq = ++previewSeq;
+  $("#previewBody").innerHTML = previewHTML(r);
+  $("#previewDialog").showModal();
+  loadReadme(r, seq);
 }
 
 function render() {
@@ -959,9 +1195,30 @@ function initFromURL() {
 /* ============ wiring ============ */
 $("#content").addEventListener("click", (e) => {
   const b = e.target.closest(".bookmark-btn");
+  if (b) {
+    e.preventDefault();
+    toggleSaved(+b.dataset.id);
+    return;
+  }
+  if (e.target.closest("a")) return; // let the repo link navigate on its own
+  const row = e.target.closest(".card[data-id], tr[data-id]");
+  if (row) openPreview(+row.dataset.id);
+});
+
+/* ============ preview dialog wiring ============ */
+const previewDlg = $("#previewDialog");
+$("#previewClose").addEventListener("click", () => previewDlg.close());
+previewDlg.addEventListener("click", (e) => {
+  if (e.target === previewDlg) previewDlg.close(); // click on the backdrop
+});
+$("#previewBody").addEventListener("click", (e) => {
+  const b = e.target.closest(".preview-bookmark");
   if (!b) return;
   e.preventDefault();
-  toggleSaved(+b.dataset.id);
+  const id = +b.dataset.id;
+  toggleSaved(id);
+  const nowSaved = !!getSavedMap()[id];
+  b.textContent = nowSaved ? "★ Saved" : "☆ Save for later";
 });
 $("#ageSel").addEventListener("change", (e) => { state.ageDays = +e.target.value; fetchData(); });
 $("#langSel").addEventListener("change", (e) => { state.lang = e.target.value; render(); });
