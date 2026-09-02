@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-01T22:17:46.699Z</updated>
+  <updated>2026-09-02T00:23:45.807Z</updated>
   <entry>
     <id>https://github.com/sapientinc/PRAXIST</id>
     <title>sapientinc/PRAXIST</title>
     <link href="https://github.com/sapientinc/PRAXIST"/>
     <updated>2026-09-01T16:26:03.000Z</updated>
     <published>2026-08-27T14:20:58.000Z</published>
-    <summary>Autonomous research system for measurable, computer-executable research. — ★ 6129 (1149.7/day)</summary>
+    <summary>Autonomous research system for measurable, computer-executable research. — ★ 6168 (1138.3/day)</summary>
     <author><name>sapientinc</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/XiaoDuoYa/codex-with-chatgpt"/>
     <updated>2026-09-01T14:27:58.000Z</updated>
     <published>2026-08-28T12:57:24.000Z</published>
-    <summary>ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. — ★ 2120 (483.0/day)</summary>
+    <summary>ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. — ★ 2124 (474.5/day)</summary>
     <author><name>XiaoDuoYa</name></author>
   </entry>
   <entry>
@@ -30,17 +30,8 @@
     <link href="https://github.com/MengTo/threeui"/>
     <updated>2026-09-01T07:07:35.000Z</updated>
     <published>2026-08-21T11:56:39.000Z</published>
-    <summary>Open-source ThreeUI Community catalog with live interactive components and complete Community source. — ★ 4901 (428.7/day)</summary>
+    <summary>Open-source ThreeUI Community catalog with live interactive components and complete Community source. — ★ 4902 (425.6/day)</summary>
     <author><name>MengTo</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Sharonh43297/cloudflare-turnstile-examples</id>
-    <title>Sharonh43297/cloudflare-turnstile-examples</title>
-    <link href="https://github.com/Sharonh43297/cloudflare-turnstile-examples"/>
-    <updated>2026-09-01T17:41:36.000Z</updated>
-    <published>2026-09-01T17:39:52.000Z</published>
-    <summary>No description. — ★ 106 (424.0/day)</summary>
-    <author><name>Sharonh43297</name></author>
   </entry>
   <entry>
     <id>https://github.com/GangTailorUpgrade/CoomeRtool</id>
@@ -48,7 +39,7 @@
     <link href="https://github.com/GangTailorUpgrade/CoomeRtool"/>
     <updated>2026-08-31T00:32:19.000Z</updated>
     <published>2026-08-31T00:12:45.000Z</published>
-    <summary>Coomer Tool — ★ 813 (423.4/day)</summary>
+    <summary>Coomer Tool — ★ 819 (407.9/day)</summary>
     <author><name>GangTailorUpgrade</name></author>
   </entry>
   <entry>
@@ -57,8 +48,17 @@
     <link href="https://github.com/b-nnett/grok-bot-0.18-reconstructed"/>
     <updated>2026-08-23T20:53:35.000Z</updated>
     <published>2026-08-23T20:53:01.000Z</published>
-    <summary>Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS — ★ 3470 (383.1/day)</summary>
+    <summary>Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS — ★ 3469 (379.3/day)</summary>
     <author><name>b-nnett</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Sharonh43297/cloudflare-turnstile-examples</id>
+    <title>Sharonh43297/cloudflare-turnstile-examples</title>
+    <link href="https://github.com/Sharonh43297/cloudflare-turnstile-examples"/>
+    <updated>2026-09-01T17:41:36.000Z</updated>
+    <published>2026-09-01T17:39:52.000Z</published>
+    <summary>No description. — ★ 106 (377.9/day)</summary>
+    <author><name>Sharonh43297</name></author>
   </entry>
   <entry>
     <id>https://github.com/Nanako0129/sepia</id>
@@ -66,7 +66,7 @@
     <link href="https://github.com/Nanako0129/sepia"/>
     <updated>2026-09-01T18:07:24.000Z</updated>
     <published>2026-08-28T05:56:49.000Z</published>
-    <summary>De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136). — ★ 1351 (288.6/day)</summary>
+    <summary>De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136). — ★ 1352 (283.5/day)</summary>
     <author><name>Nanako0129</name></author>
   </entry>
   <entry>
@@ -75,7 +75,7 @@
     <link href="https://github.com/crmne/fastpotify"/>
     <updated>2026-09-01T14:39:43.000Z</updated>
     <published>2026-08-27T12:46:32.000Z</published>
-    <summary>Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. — ★ 1510 (279.8/day)</summary>
+    <summary>Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. — ★ 1532 (279.3/day)</summary>
     <author><name>crmne</name></author>
   </entry>
   <entry>
@@ -84,7 +84,7 @@
     <link href="https://github.com/MetaMask-AI/metamask-desktop"/>
     <updated>2026-08-28T08:52:47.000Z</updated>
     <published>2026-08-28T08:07:10.000Z</published>
-    <summary>🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites — ★ 1229 (267.7/day)</summary>
+    <summary>🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites — ★ 1229 (262.7/day)</summary>
     <author><name>MetaMask-AI</name></author>
   </entry>
   <entry>
@@ -93,16 +93,16 @@
     <link href="https://github.com/tobi/walgit"/>
     <updated>2026-08-27T01:50:20.000Z</updated>
     <published>2026-08-23T22:28:01.000Z</published>
-    <summary>No description. — ★ 2384 (265.1/day)</summary>
+    <summary>No description. — ★ 2385 (262.7/day)</summary>
     <author><name>tobi</name></author>
   </entry>
   <entry>
     <id>https://github.com/cbrock84/headcount</id>
     <title>cbrock84/headcount</title>
     <link href="https://github.com/cbrock84/headcount"/>
-    <updated>2026-09-01T21:40:51.000Z</updated>
+    <updated>2026-09-02T00:13:06.000Z</updated>
     <published>2026-08-28T18:03:04.000Z</published>
-    <summary>An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable. — ★ 938 (224.6/day)</summary>
+    <summary>An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable. — ★ 945 (221.6/day)</summary>
     <author><name>cbrock84</name></author>
   </entry>
   <entry>
@@ -111,7 +111,7 @@
     <link href="https://github.com/mahdidavoodi7/react-native-continued-task"/>
     <updated>2026-09-01T12:07:26.000Z</updated>
     <published>2026-09-01T11:04:18.000Z</published>
-    <summary>Background tasks that keep running after your app is backgrounded, for React Native and Expo. Wraps iOS 26 BGContinuedProcessingTask (Live Activity) and Android WorkManager foreground services behind one typed API. Swift + Kotlin via Nitro Modules. — ★ 103 (220.2/day)</summary>
+    <summary>Background tasks that keep running after your app is backgrounded, for React Native and Expo. Wraps iOS 26 BGContinuedProcessingTask (Live Activity) and Android WorkManager foreground services behind one typed API. Swift + Kotlin via Nitro Modules. — ★ 120 (216.1/day)</summary>
     <author><name>mahdidavoodi7</name></author>
   </entry>
   <entry>
@@ -120,7 +120,7 @@
     <link href="https://github.com/subsy/skill-cabinet"/>
     <updated>2026-09-01T20:23:00.000Z</updated>
     <published>2026-08-31T12:17:01.000Z</published>
-    <summary>No description. — ★ 309 (218.0/day)</summary>
+    <summary>No description. — ★ 318 (211.3/day)</summary>
     <author><name>subsy</name></author>
   </entry>
   <entry>
@@ -129,8 +129,17 @@
     <link href="https://github.com/damejan80/tokentab"/>
     <updated>2026-08-27T14:20:23.000Z</updated>
     <published>2026-08-27T14:16:09.000Z</published>
-    <summary>A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. — ★ 1134 (212.6/day)</summary>
+    <summary>A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. — ★ 1136 (209.5/day)</summary>
     <author><name>damejan80</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/CircuitSavage/cloudflare-turnstile-reversed</id>
+    <title>CircuitSavage/cloudflare-turnstile-reversed</title>
+    <link href="https://github.com/CircuitSavage/cloudflare-turnstile-reversed"/>
+    <updated>2026-09-01T15:50:12.000Z</updated>
+    <published>2026-09-01T15:01:26.000Z</published>
+    <summary>Cloudflare Turnstile challenge internals: the live request flow, the challenge bundle, and a capture toolkit. — ★ 75 (192.1/day)</summary>
+    <author><name>CircuitSavage</name></author>
   </entry>
   <entry>
     <id>https://github.com/wide-trace/open-higgsfield</id>
@@ -138,7 +147,7 @@
     <link href="https://github.com/wide-trace/open-higgsfield"/>
     <updated>2026-08-26T08:08:20.000Z</updated>
     <published>2026-08-26T06:09:58.000Z</published>
-    <summary>A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery. — ★ 1201 (180.0/day)</summary>
+    <summary>A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery. — ★ 1202 (177.8/day)</summary>
     <author><name>wide-trace</name></author>
   </entry>
   <entry>
@@ -147,7 +156,7 @@
     <link href="https://github.com/duty1g/x64dbg-mcp-server"/>
     <updated>2026-08-27T07:00:07.000Z</updated>
     <published>2026-08-22T14:28:41.000Z</published>
-    <summary>x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger&#39;s full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros — ★ 1826 (176.8/day)</summary>
+    <summary>x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger&#39;s full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros — ★ 1826 (175.4/day)</summary>
     <author><name>duty1g</name></author>
   </entry>
   <entry>
@@ -156,17 +165,8 @@
     <link href="https://github.com/jprx/darwin-vm"/>
     <updated>2026-09-01T02:09:53.000Z</updated>
     <published>2026-08-27T22:24:31.000Z</published>
-    <summary>Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported. — ★ 866 (173.4/day)</summary>
+    <summary>Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported. — ★ 876 (172.3/day)</summary>
     <author><name>jprx</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/tsouth89/omakade</id>
-    <title>tsouth89/omakade</title>
-    <link href="https://github.com/tsouth89/omakade"/>
-    <updated>2026-09-01T06:22:04.000Z</updated>
-    <published>2026-09-01T01:23:41.000Z</published>
-    <summary>A beautiful, local-first game library built for Omarchy. — ★ 149 (171.1/day)</summary>
-    <author><name>tsouth89</name></author>
   </entry>
   <entry>
     <id>https://github.com/jlrouzies-fr/DLSS5-Feeder</id>
@@ -174,8 +174,17 @@
     <link href="https://github.com/jlrouzies-fr/DLSS5-Feeder"/>
     <updated>2026-09-01T19:40:55.000Z</updated>
     <published>2026-08-29T19:52:37.000Z</published>
-    <summary>DLSS 5 neural rendering in D3D11/D12/Vulkan games that ship without any DLSS — feeds a synthetic DLAA contract (ReShade depth + motion vectors) to the DLSS 5 add-on via a private D3D12 device. — ★ 506 (163.2/day)</summary>
+    <summary>DLSS 5 neural rendering in D3D11/D12/Vulkan games that ship without any DLSS — feeds a synthetic DLAA contract (ReShade depth + motion vectors) to the DLSS 5 add-on via a private D3D12 device. — ★ 513 (160.9/day)</summary>
     <author><name>jlrouzies-fr</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/tsouth89/omakade</id>
+    <title>tsouth89/omakade</title>
+    <link href="https://github.com/tsouth89/omakade"/>
+    <updated>2026-09-02T00:22:06.000Z</updated>
+    <published>2026-09-01T01:23:41.000Z</published>
+    <summary>A beautiful, local-first game library built for Omarchy. — ★ 154 (160.7/day)</summary>
+    <author><name>tsouth89</name></author>
   </entry>
   <entry>
     <id>https://github.com/tradecatlabs/shulihuazixuecongshu</id>
@@ -183,17 +192,8 @@
     <link href="https://github.com/tradecatlabs/shulihuazixuecongshu"/>
     <updated>2026-09-01T21:10:35.000Z</updated>
     <published>2026-08-27T18:02:35.000Z</published>
-    <summary>No description. — ★ 842 (162.6/day)</summary>
+    <summary>No description. — ★ 843 (160.1/day)</summary>
     <author><name>tradecatlabs</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/amagine-ai/Amagine3D</id>
-    <title>amagine-ai/Amagine3D</title>
-    <link href="https://github.com/amagine-ai/Amagine3D"/>
-    <updated>2026-08-29T12:40:40.000Z</updated>
-    <published>2026-08-19T15:31:34.000Z</published>
-    <summary>Amagine3D: From hardware requirements to editable 3D designs — ★ 2109 (158.8/day)</summary>
-    <author><name>amagine-ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/chrisgreg/boop</id>
@@ -201,17 +201,8 @@
     <link href="https://github.com/chrisgreg/boop"/>
     <updated>2026-08-30T11:34:44.000Z</updated>
     <published>2026-08-28T15:38:33.000Z</published>
-    <summary>A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. — ★ 677 (158.3/day)</summary>
+    <summary>A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. — ★ 677 (155.1/day)</summary>
     <author><name>chrisgreg</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/siknet/FreePEP</id>
-    <title>siknet/FreePEP</title>
-    <link href="https://github.com/siknet/FreePEP"/>
-    <updated>2026-08-31T02:39:31.000Z</updated>
-    <published>2026-08-31T02:21:10.000Z</published>
-    <summary>人教社电子教材下载器 — ★ 286 (156.2/day)</summary>
-    <author><name>siknet</name></author>
   </entry>
   <entry>
     <id>https://github.com/kacperkapusciak/goldie</id>
@@ -219,8 +210,17 @@
     <link href="https://github.com/kacperkapusciak/goldie"/>
     <updated>2026-09-01T14:05:52.000Z</updated>
     <published>2026-08-24T12:36:59.000Z</published>
-    <summary>✨ agentic app store previews and screenshots — ★ 1278 (152.1/day)</summary>
+    <summary>✨ agentic app store previews and screenshots — ★ 1300 (153.1/day)</summary>
     <author><name>kacperkapusciak</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/siknet/FreePEP</id>
+    <title>siknet/FreePEP</title>
+    <link href="https://github.com/siknet/FreePEP"/>
+    <updated>2026-08-31T02:39:31.000Z</updated>
+    <published>2026-08-31T02:21:10.000Z</published>
+    <summary>人教社电子教材下载器 — ★ 290 (151.2/day)</summary>
+    <author><name>siknet</name></author>
   </entry>
   <entry>
     <id>https://github.com/jub0t/Concat</id>
@@ -228,7 +228,7 @@
     <link href="https://github.com/jub0t/Concat"/>
     <updated>2026-08-31T11:27:33.000Z</updated>
     <published>2026-08-25T18:34:47.000Z</published>
-    <summary>Free &amp; Open-Source CapCut replacement. (formerly WolfCut) — ★ 1026 (143.4/day)</summary>
+    <summary>Free &amp; Open-Source CapCut replacement. (formerly WolfCut) — ★ 1031 (142.4/day)</summary>
     <author><name>jub0t</name></author>
   </entry>
   <entry>
@@ -237,7 +237,7 @@
     <link href="https://github.com/themartiano/try-omarchy"/>
     <updated>2026-09-01T19:16:19.000Z</updated>
     <published>2026-08-23T21:55:30.000Z</published>
-    <summary>Run Omarchy on MacOS without any setup. — ★ 1223 (135.7/day)</summary>
+    <summary>Run Omarchy on MacOS without any setup. — ★ 1228 (134.9/day)</summary>
     <author><name>themartiano</name></author>
   </entry>
   <entry>
@@ -246,17 +246,8 @@
     <link href="https://github.com/nateherkai/scroll-craft"/>
     <updated>2026-08-23T21:29:51.000Z</updated>
     <published>2026-08-22T15:25:08.000Z</published>
-    <summary>Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll. — ★ 1391 (135.2/day)</summary>
+    <summary>Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll. — ★ 1393 (134.3/day)</summary>
     <author><name>nateherkai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Tencent/WeMM-Embedding</id>
-    <title>Tencent/WeMM-Embedding</title>
-    <link href="https://github.com/Tencent/WeMM-Embedding"/>
-    <updated>2026-08-28T04:34:44.000Z</updated>
-    <published>2026-08-25T02:46:10.000Z</published>
-    <summary>WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval. — ★ 1055 (135.0/day)</summary>
-    <author><name>Tencent</name></author>
   </entry>
   <entry>
     <id>https://github.com/amosblomqvist/learn</id>
@@ -264,16 +255,25 @@
     <link href="https://github.com/amosblomqvist/learn"/>
     <updated>2026-08-25T21:49:59.000Z</updated>
     <published>2026-08-24T16:45:07.000Z</published>
-    <summary>My AI learning system. — ★ 1107 (134.5/day)</summary>
+    <summary>My AI learning system. — ★ 1115 (134.0/day)</summary>
     <author><name>amosblomqvist</name></author>
   </entry>
   <entry>
-    <id>https://github.com/yanliudesign/mono-color-skill</id>
-    <title>yanliudesign/mono-color-skill</title>
-    <link href="https://github.com/yanliudesign/mono-color-skill"/>
-    <updated>2026-08-31T21:22:50.000Z</updated>
-    <published>2026-08-19T06:07:45.000Z</published>
-    <summary>One-ink editorial print image skill — warm paper, halftone photography, active negative space, and restrained typography. — ★ 1767 (129.2/day)</summary>
-    <author><name>yanliudesign</name></author>
+    <id>https://github.com/Tencent/WeMM-Embedding</id>
+    <title>Tencent/WeMM-Embedding</title>
+    <link href="https://github.com/Tencent/WeMM-Embedding"/>
+    <updated>2026-08-28T04:34:44.000Z</updated>
+    <published>2026-08-25T02:46:10.000Z</published>
+    <summary>WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval. — ★ 1057 (133.8/day)</summary>
+    <author><name>Tencent</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ApodexAI/FrontierAgent</id>
+    <title>ApodexAI/FrontierAgent</title>
+    <link href="https://github.com/ApodexAI/FrontierAgent"/>
+    <updated>2026-09-02T00:11:48.000Z</updated>
+    <published>2026-08-22T05:07:35.000Z</published>
+    <summary>🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency. — ★ 1362 (126.1/day)</summary>
+    <author><name>ApodexAI</name></author>
   </entry>
 </feed>
