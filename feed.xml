@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-04T05:19:57.226Z</updated>
+  <updated>2026-09-04T09:49:30.407Z</updated>
   <entry>
     <id>https://github.com/sapientinc/PRAXIST</id>
     <title>sapientinc/PRAXIST</title>
     <link href="https://github.com/sapientinc/PRAXIST"/>
     <updated>2026-09-03T21:05:41.000Z</updated>
     <published>2026-08-27T14:20:58.000Z</published>
-    <summary>Autonomous research system for measurable, computer-executable research. — ★ 6958 (912.6/day)</summary>
+    <summary>Autonomous research system for measurable, computer-executable research. — ★ 7018 (898.4/day)</summary>
     <author><name>sapientinc</name></author>
   </entry>
   <entry>
@@ -21,17 +21,35 @@
     <link href="https://github.com/anthropics/commerce-agents"/>
     <updated>2026-09-01T20:41:14.000Z</updated>
     <published>2026-09-01T12:30:12.000Z</published>
-    <summary>Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included. — ★ 1663 (615.6/day)</summary>
+    <summary>Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included. — ★ 1781 (616.6/day)</summary>
     <author><name>anthropics</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/lnkiai/m3e-canvas</id>
+    <title>lnkiai/m3e-canvas</title>
+    <link href="https://github.com/lnkiai/m3e-canvas"/>
+    <updated>2026-09-04T06:03:27.000Z</updated>
+    <published>2026-09-02T04:36:34.000Z</published>
+    <summary>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. — ★ 875 (394.6/day)</summary>
+    <author><name>lnkiai</name></author>
   </entry>
   <entry>
     <id>https://github.com/Albert-Weasker/niubigeo</id>
     <title>Albert-Weasker/niubigeo</title>
     <link href="https://github.com/Albert-Weasker/niubigeo"/>
-    <updated>2026-09-04T03:50:24.000Z</updated>
+    <updated>2026-09-04T09:25:29.000Z</updated>
     <published>2026-09-03T15:55:54.000Z</published>
-    <summary>Open-source AI brand visibility and competitor reports — ★ 239 (428.0/day)</summary>
+    <summary>Open-source AI brand visibility and competitor reports — ★ 291 (390.3/day)</summary>
     <author><name>Albert-Weasker</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/crmne/fastpotify</id>
+    <title>crmne/fastpotify</title>
+    <link href="https://github.com/crmne/fastpotify"/>
+    <updated>2026-09-04T08:39:29.000Z</updated>
+    <published>2026-08-27T12:46:32.000Z</published>
+    <summary>Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. — ★ 2905 (368.8/day)</summary>
+    <author><name>crmne</name></author>
   </entry>
   <entry>
     <id>https://github.com/MSNightmare/FalconFlank</id>
@@ -39,17 +57,8 @@
     <link href="https://github.com/MSNightmare/FalconFlank"/>
     <updated>2026-09-03T03:44:38.000Z</updated>
     <published>2026-09-03T02:48:22.000Z</published>
-    <summary>Crowdstrike Falcon 0day Privilege Escalation Vulnerability — ★ 437 (395.4/day)</summary>
+    <summary>Crowdstrike Falcon 0day Privilege Escalation Vulnerability — ★ 462 (357.5/day)</summary>
     <author><name>MSNightmare</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/crmne/fastpotify</id>
-    <title>crmne/fastpotify</title>
-    <link href="https://github.com/crmne/fastpotify"/>
-    <updated>2026-09-03T21:30:36.000Z</updated>
-    <published>2026-08-27T12:46:32.000Z</published>
-    <summary>Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. — ★ 2859 (371.8/day)</summary>
-    <author><name>crmne</name></author>
   </entry>
   <entry>
     <id>https://github.com/XiaoDuoYa/codex-with-chatgpt</id>
@@ -57,17 +66,8 @@
     <link href="https://github.com/XiaoDuoYa/codex-with-chatgpt"/>
     <updated>2026-09-03T13:54:28.000Z</updated>
     <published>2026-08-28T12:57:24.000Z</published>
-    <summary>ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. — ★ 2423 (362.6/day)</summary>
+    <summary>ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. — ★ 2446 (356.1/day)</summary>
     <author><name>XiaoDuoYa</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/lnkiai/m3e-canvas</id>
-    <title>lnkiai/m3e-canvas</title>
-    <link href="https://github.com/lnkiai/m3e-canvas"/>
-    <updated>2026-09-04T05:16:59.000Z</updated>
-    <published>2026-09-02T04:36:34.000Z</published>
-    <summary>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. — ★ 625 (307.9/day)</summary>
-    <author><name>lnkiai</name></author>
   </entry>
   <entry>
     <id>https://github.com/b-nnett/grok-bot-0.18-reconstructed</id>
@@ -75,26 +75,17 @@
     <link href="https://github.com/b-nnett/grok-bot-0.18-reconstructed"/>
     <updated>2026-08-23T20:53:35.000Z</updated>
     <published>2026-08-23T20:53:01.000Z</published>
-    <summary>Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS — ★ 3480 (306.6/day)</summary>
+    <summary>Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS — ★ 3480 (301.6/day)</summary>
     <author><name>b-nnett</name></author>
   </entry>
   <entry>
     <id>https://github.com/Nanako0129/sepia</id>
     <title>Nanako0129/sepia</title>
     <link href="https://github.com/Nanako0129/sepia"/>
-    <updated>2026-09-04T01:25:07.000Z</updated>
+    <updated>2026-09-04T06:58:05.000Z</updated>
     <published>2026-08-28T05:56:49.000Z</published>
-    <summary>De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136). — ★ 1915 (274.6/day)</summary>
+    <summary>De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136). — ★ 1939 (270.7/day)</summary>
     <author><name>Nanako0129</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/PhiloLabs/fable51-worlds</id>
-    <title>PhiloLabs/fable51-worlds</title>
-    <link href="https://github.com/PhiloLabs/fable51-worlds"/>
-    <updated>2026-09-03T19:22:13.000Z</updated>
-    <published>2026-09-02T18:19:55.000Z</published>
-    <summary>worlds via code, from fable 5.1 — ★ 398 (272.9/day)</summary>
-    <author><name>PhiloLabs</name></author>
   </entry>
   <entry>
     <id>https://github.com/codejunkie99/fable-orchestrator</id>
@@ -102,8 +93,17 @@
     <link href="https://github.com/codejunkie99/fable-orchestrator"/>
     <updated>2026-09-02T22:02:04.000Z</updated>
     <published>2026-09-02T21:48:23.000Z</published>
-    <summary>Fable 5.1 orchestrates. GPT-5.6 Luna and DeepSeek V4 Flash implement. — ★ 357 (271.8/day)</summary>
+    <summary>Fable 5.1 orchestrates. GPT-5.6 Luna and DeepSeek V4 Flash implement. — ★ 403 (268.5/day)</summary>
     <author><name>codejunkie99</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/PhiloLabs/fable51-worlds</id>
+    <title>PhiloLabs/fable51-worlds</title>
+    <link href="https://github.com/PhiloLabs/fable51-worlds"/>
+    <updated>2026-09-03T19:22:13.000Z</updated>
+    <published>2026-09-02T18:19:55.000Z</published>
+    <summary>worlds via code, from fable 5.1 — ★ 410 (249.2/day)</summary>
+    <author><name>PhiloLabs</name></author>
   </entry>
   <entry>
     <id>https://github.com/shadcn-ui/cn</id>
@@ -111,26 +111,8 @@
     <link href="https://github.com/shadcn-ui/cn"/>
     <updated>2026-09-04T05:16:53.000Z</updated>
     <published>2026-08-31T07:04:03.000Z</published>
-    <summary>cn is a new engine for Tailwind class merging and conflict resolution. It replaces tailwind-merge and clsx. Same APIs. Full parity. And it is 30× faster. — ★ 993 (252.8/day)</summary>
+    <summary>cn is a new engine for Tailwind class merging and conflict resolution. It replaces tailwind-merge and clsx. Same APIs. Full parity. And it is 30× faster. — ★ 1020 (247.9/day)</summary>
     <author><name>shadcn-ui</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/GangTailorUpgrade/undress-service</id>
-    <title>GangTailorUpgrade/undress-service</title>
-    <link href="https://github.com/GangTailorUpgrade/undress-service"/>
-    <updated>2026-09-02T13:58:48.000Z</updated>
-    <published>2026-08-31T00:12:45.000Z</published>
-    <summary>Dress AI Sponsor — ★ 1020 (242.1/day)</summary>
-    <author><name>GangTailorUpgrade</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/rakanki911/DLSS5-Swapper</id>
-    <title>rakanki911/DLSS5-Swapper</title>
-    <link href="https://github.com/rakanki911/DLSS5-Swapper"/>
-    <updated>2026-09-03T00:08:09.000Z</updated>
-    <published>2026-08-29T23:51:32.000Z</published>
-    <summary>DLSS 5 Swapper is a powerful, easy-to-use tool for installing, managing, and restoring DLSS 5 across games and supported emulators. It features automatic game detection, optional drive scanning, DLSS5-Feeder for compatible titles without native DLSS, emulator support, and compatibility with DirectX 9/10/11/12, Vulkan, and OpenGL. — ★ 1155 (220.9/day)</summary>
-    <author><name>rakanki911</name></author>
   </entry>
   <entry>
     <id>https://github.com/ahujasid/camera-to-blender</id>
@@ -138,8 +120,26 @@
     <link href="https://github.com/ahujasid/camera-to-blender"/>
     <updated>2026-09-03T10:43:31.000Z</updated>
     <published>2026-09-03T10:34:30.000Z</published>
-    <summary>Take a photo of real objects, and paste them in Blender — ★ 170 (217.5/day)</summary>
+    <summary>Take a photo of real objects, and paste them in Blender — ★ 238 (245.7/day)</summary>
     <author><name>ahujasid</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/GangTailorUpgrade/undress-service</id>
+    <title>GangTailorUpgrade/undress-service</title>
+    <link href="https://github.com/GangTailorUpgrade/undress-service"/>
+    <updated>2026-09-02T13:58:48.000Z</updated>
+    <published>2026-08-31T00:12:45.000Z</published>
+    <summary>Dress AI Sponsor — ★ 1030 (234.1/day)</summary>
+    <author><name>GangTailorUpgrade</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/rakanki911/DLSS5-Swapper</id>
+    <title>rakanki911/DLSS5-Swapper</title>
+    <link href="https://github.com/rakanki911/DLSS5-Swapper"/>
+    <updated>2026-09-04T07:06:30.000Z</updated>
+    <published>2026-08-29T23:51:32.000Z</published>
+    <summary>DLSS 5 Swapper is a powerful, easy-to-use tool for installing, managing, and restoring DLSS 5 across games and supported emulators. It features automatic game detection, optional drive scanning, DLSS5-Feeder for compatible titles without native DLSS, emulator support, and compatibility with DirectX 9/10/11/12, Vulkan, and OpenGL. — ★ 1237 (228.4/day)</summary>
+    <author><name>rakanki911</name></author>
   </entry>
   <entry>
     <id>https://github.com/tobi/walgit</id>
@@ -147,7 +147,7 @@
     <link href="https://github.com/tobi/walgit"/>
     <updated>2026-08-27T01:50:20.000Z</updated>
     <published>2026-08-23T22:28:01.000Z</published>
-    <summary>No description. — ★ 2416 (214.1/day)</summary>
+    <summary>No description. — ★ 2417 (210.7/day)</summary>
     <author><name>tobi</name></author>
   </entry>
   <entry>
@@ -156,7 +156,7 @@
     <link href="https://github.com/2akouwu/reverify"/>
     <updated>2026-09-04T05:02:17.000Z</updated>
     <published>2026-08-31T01:02:18.000Z</published>
-    <summary>Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets. MCP server + CLI. — ★ 817 (195.5/day)</summary>
+    <summary>Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets. MCP server + CLI. — ★ 841 (192.6/day)</summary>
     <author><name>2akouwu</name></author>
   </entry>
   <entry>
@@ -165,7 +165,7 @@
     <link href="https://github.com/cbrock84/headcount"/>
     <updated>2026-09-03T02:54:33.000Z</updated>
     <published>2026-08-28T18:03:04.000Z</published>
-    <summary>An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable. — ★ 1197 (185.0/day)</summary>
+    <summary>An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable. — ★ 1214 (182.4/day)</summary>
     <author><name>cbrock84</name></author>
   </entry>
   <entry>
@@ -174,17 +174,8 @@
     <link href="https://github.com/MetaMask-AI/metamask-desktop"/>
     <updated>2026-08-28T08:52:47.000Z</updated>
     <published>2026-08-28T08:07:10.000Z</published>
-    <summary>🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites — ★ 1230 (178.7/day)</summary>
+    <summary>🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites — ★ 1230 (173.9/day)</summary>
     <author><name>MetaMask-AI</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/kacperkapusciak/goldie</id>
-    <title>kacperkapusciak/goldie</title>
-    <link href="https://github.com/kacperkapusciak/goldie"/>
-    <updated>2026-09-02T13:56:08.000Z</updated>
-    <published>2026-08-24T12:36:59.000Z</published>
-    <summary>✨ agentic app store previews and screenshots — ★ 1718 (160.6/day)</summary>
-    <author><name>kacperkapusciak</name></author>
   </entry>
   <entry>
     <id>https://github.com/nahrek/polyledger</id>
@@ -192,8 +183,26 @@
     <link href="https://github.com/nahrek/polyledger"/>
     <updated>2026-09-02T19:48:22.000Z</updated>
     <published>2026-09-02T17:00:13.000Z</published>
-    <summary>Resumable Polymarket indexer: CLOB market metadata plus on-chain trades from Polygon, in one DuckDB file you can query with SQL — ★ 234 (154.6/day)</summary>
+    <summary>Resumable Polymarket indexer: CLOB market metadata plus on-chain trades from Polygon, in one DuckDB file you can query with SQL — ★ 281 (165.2/day)</summary>
     <author><name>nahrek</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/kacperkapusciak/goldie</id>
+    <title>kacperkapusciak/goldie</title>
+    <link href="https://github.com/kacperkapusciak/goldie"/>
+    <updated>2026-09-02T13:56:08.000Z</updated>
+    <published>2026-08-24T12:36:59.000Z</published>
+    <summary>✨ agentic app store previews and screenshots — ★ 1732 (159.1/day)</summary>
+    <author><name>kacperkapusciak</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/op7418/guizang-yingzao-skill</id>
+    <title>op7418/guizang-yingzao-skill</title>
+    <link href="https://github.com/op7418/guizang-yingzao-skill"/>
+    <updated>2026-09-03T09:51:13.000Z</updated>
+    <published>2026-09-02T11:54:57.000Z</published>
+    <summary>🏯 Claude Code / Codex skill — transform Chinese architecture, cultural places &amp; travel photos into art-directed editorial posters with GPT Image. 中国古建筑与在地文化照片 → 艺术指导海报 — ★ 285 (149.0/day)</summary>
+    <author><name>op7418</name></author>
   </entry>
   <entry>
     <id>https://github.com/damejan80/tokentab</id>
@@ -201,7 +210,7 @@
     <link href="https://github.com/damejan80/tokentab"/>
     <updated>2026-08-27T14:20:23.000Z</updated>
     <published>2026-08-27T14:16:09.000Z</published>
-    <summary>A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. — ★ 1158 (151.8/day)</summary>
+    <summary>A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. — ★ 1158 (148.2/day)</summary>
     <author><name>damejan80</name></author>
   </entry>
   <entry>
@@ -210,8 +219,17 @@
     <link href="https://github.com/duty1g/x64dbg-mcp-server"/>
     <updated>2026-09-02T20:34:21.000Z</updated>
     <published>2026-08-22T14:28:41.000Z</published>
-    <summary>x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger&#39;s full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros — ★ 1863 (147.6/day)</summary>
+    <summary>x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger&#39;s full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros — ★ 1868 (145.9/day)</summary>
     <author><name>duty1g</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/danielblnc/DLSS-NR-on-AMD</id>
+    <title>danielblnc/DLSS-NR-on-AMD</title>
+    <link href="https://github.com/danielblnc/DLSS-NR-on-AMD"/>
+    <updated>2026-09-04T04:54:15.000Z</updated>
+    <published>2026-09-03T00:42:03.000Z</published>
+    <summary>Run DLSS 5 Neural Rendering on your AMD GPU. Magic! — ★ 199 (144.2/day)</summary>
+    <author><name>danielblnc</name></author>
   </entry>
   <entry>
     <id>https://github.com/wide-trace/open-higgsfield</id>
@@ -219,17 +237,8 @@
     <link href="https://github.com/wide-trace/open-higgsfield"/>
     <updated>2026-09-02T17:42:39.000Z</updated>
     <published>2026-08-26T06:09:58.000Z</published>
-    <summary>A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery. — ★ 1311 (146.2/day)</summary>
+    <summary>A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery. — ★ 1319 (144.1/day)</summary>
     <author><name>wide-trace</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/jprx/darwin-vm</id>
-    <title>jprx/darwin-vm</title>
-    <link href="https://github.com/jprx/darwin-vm"/>
-    <updated>2026-09-03T18:50:25.000Z</updated>
-    <published>2026-08-27T22:24:31.000Z</published>
-    <summary>Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported. — ★ 996 (136.7/day)</summary>
-    <author><name>jprx</name></author>
   </entry>
   <entry>
     <id>https://github.com/0x6rss/instagram-private-graph</id>
@@ -237,8 +246,26 @@
     <link href="https://github.com/0x6rss/instagram-private-graph"/>
     <updated>2026-09-03T16:50:32.000Z</updated>
     <published>2026-09-03T13:36:30.000Z</published>
-    <summary>Analyze the followers and following accounts that a private (hidden) Instagram account interacts with. — ★ 89 (135.8/day)</summary>
+    <summary>Analyze the followers and following accounts that a private (hidden) Instagram account interacts with. — ★ 114 (135.3/day)</summary>
     <author><name>0x6rss</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/jprx/darwin-vm</id>
+    <title>jprx/darwin-vm</title>
+    <link href="https://github.com/jprx/darwin-vm"/>
+    <updated>2026-09-03T18:50:25.000Z</updated>
+    <published>2026-08-27T22:24:31.000Z</published>
+    <summary>Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported. — ★ 1011 (135.2/day)</summary>
+    <author><name>jprx</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Player-YN/PawWork_ZhuaZhua</id>
+    <title>Player-YN/PawWork_ZhuaZhua</title>
+    <link href="https://github.com/Player-YN/PawWork_ZhuaZhua"/>
+    <updated>2026-09-01T15:03:17.000Z</updated>
+    <published>2026-08-28T10:56:56.000Z</published>
+    <summary>Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server. — ★ 933 (134.2/day)</summary>
+    <author><name>Player-YN</name></author>
   </entry>
   <entry>
     <id>https://github.com/nateherkai/scroll-craft</id>
@@ -246,34 +273,7 @@
     <link href="https://github.com/nateherkai/scroll-craft"/>
     <updated>2026-09-02T04:22:53.000Z</updated>
     <published>2026-08-22T15:25:08.000Z</published>
-    <summary>Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll. — ★ 1690 (134.3/day)</summary>
+    <summary>Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll. — ★ 1697 (132.9/day)</summary>
     <author><name>nateherkai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/jub0t/Concat</id>
-    <title>jub0t/Concat</title>
-    <link href="https://github.com/jub0t/Concat"/>
-    <updated>2026-09-04T02:30:14.000Z</updated>
-    <published>2026-08-25T18:34:47.000Z</published>
-    <summary>Free &amp; Open-Source CapCut replacement. — ★ 1239 (131.1/day)</summary>
-    <author><name>jub0t</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/omacom/try-omarchy</id>
-    <title>omacom/try-omarchy</title>
-    <link href="https://github.com/omacom/try-omarchy"/>
-    <updated>2026-09-03T17:00:21.000Z</updated>
-    <published>2026-08-23T21:55:30.000Z</published>
-    <summary>Run Omarchy on MacOS without any setup. — ★ 1482 (131.1/day)</summary>
-    <author><name>omacom</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/op7418/guizang-yingzao-skill</id>
-    <title>op7418/guizang-yingzao-skill</title>
-    <link href="https://github.com/op7418/guizang-yingzao-skill"/>
-    <updated>2026-09-03T09:51:13.000Z</updated>
-    <published>2026-09-02T11:54:57.000Z</published>
-    <summary>🏯 Claude Code / Codex skill — transform Chinese architecture, cultural places &amp; travel photos into art-directed editorial posters with GPT Image. 中国古建筑与在地文化照片 → 艺术指导海报 — ★ 225 (130.4/day)</summary>
-    <author><name>op7418</name></author>
   </entry>
 </feed>
