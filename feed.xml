@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-07T22:57:00.657Z</updated>
+  <updated>2026-09-08T00:53:07.257Z</updated>
   <entry>
     <id>https://github.com/EverettFish/holo-card-studio</id>
     <title>EverettFish/holo-card-studio</title>
     <link href="https://github.com/EverettFish/holo-card-studio"/>
     <updated>2026-09-07T05:09:25.000Z</updated>
     <published>2026-09-07T00:41:18.000Z</published>
-    <summary>Turn the user&#39;s description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user&#39;s output project. — ★ 785 (846.3/day)</summary>
+    <summary>Turn the user&#39;s description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user&#39;s output project. — ★ 821 (814.3/day)</summary>
     <author><name>EverettFish</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/lnkiai/m3e-canvas"/>
     <updated>2026-09-07T07:51:39.000Z</updated>
     <published>2026-09-02T04:36:34.000Z</published>
-    <summary>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. — ★ 4651 (806.9/day)</summary>
+    <summary>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. — ★ 4671 (799.2/day)</summary>
     <author><name>lnkiai</name></author>
   </entry>
   <entry>
@@ -30,7 +30,7 @@
     <link href="https://github.com/ashemag/human-atlas"/>
     <updated>2026-09-06T23:35:06.000Z</updated>
     <published>2026-09-05T00:24:43.000Z</published>
-    <summary>Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. — ★ 1996 (679.1/day)</summary>
+    <summary>Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. — ★ 2020 (668.9/day)</summary>
     <author><name>ashemag</name></author>
   </entry>
   <entry>
@@ -39,7 +39,7 @@
     <link href="https://github.com/sapientinc/PRAXIST"/>
     <updated>2026-09-05T11:26:09.000Z</updated>
     <published>2026-08-27T14:20:58.000Z</published>
-    <summary>Autonomous research system for measurable, computer-executable research. — ★ 6492 (571.6/day)</summary>
+    <summary>Autonomous research system for measurable, computer-executable research. — ★ 6493 (567.6/day)</summary>
     <author><name>sapientinc</name></author>
   </entry>
   <entry>
@@ -48,7 +48,7 @@
     <link href="https://github.com/Rion-Wu-tech/wechat-intelligence-hub"/>
     <updated>2026-09-07T18:10:18.000Z</updated>
     <published>2026-09-04T15:00:53.000Z</published>
-    <summary>Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking. — ★ 1762 (529.0/day)</summary>
+    <summary>Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking. — ★ 1786 (523.6/day)</summary>
     <author><name>Rion-Wu-tech</name></author>
   </entry>
   <entry>
@@ -57,7 +57,7 @@
     <link href="https://github.com/pierrenade/short-video-generator-AI"/>
     <updated>2026-09-07T17:08:34.000Z</updated>
     <published>2026-09-05T11:55:18.000Z</published>
-    <summary>Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. — ★ 1165 (473.7/day)</summary>
+    <summary>Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. — ★ 1171 (461.0/day)</summary>
     <author><name>pierrenade</name></author>
   </entry>
   <entry>
@@ -66,17 +66,8 @@
     <link href="https://github.com/vinzdg/codenotch"/>
     <updated>2026-09-07T03:47:07.000Z</updated>
     <published>2026-09-05T14:55:35.000Z</published>
-    <summary>A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. — ★ 923 (395.4/day)</summary>
+    <summary>A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. — ★ 934 (386.8/day)</summary>
     <author><name>vinzdg</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/anthropics/commerce-agents</id>
-    <title>anthropics/commerce-agents</title>
-    <link href="https://github.com/anthropics/commerce-agents"/>
-    <updated>2026-09-01T20:41:14.000Z</updated>
-    <published>2026-09-01T12:30:12.000Z</published>
-    <summary>Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included. — ★ 2393 (371.9/day)</summary>
-    <author><name>anthropics</name></author>
   </entry>
   <entry>
     <id>https://github.com/achimala/dream-loop</id>
@@ -84,8 +75,17 @@
     <link href="https://github.com/achimala/dream-loop"/>
     <updated>2026-09-07T16:14:23.000Z</updated>
     <published>2026-09-07T14:19:20.000Z</published>
-    <summary>Agent skill for impressive 3D visuals using Blender + image gen + subagent critic — ★ 131 (364.4/day)</summary>
+    <summary>Agent skill for impressive 3D visuals using Blender + image gen + subagent critic — ★ 168 (381.7/day)</summary>
     <author><name>achimala</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/anthropics/commerce-agents</id>
+    <title>anthropics/commerce-agents</title>
+    <link href="https://github.com/anthropics/commerce-agents"/>
+    <updated>2026-09-01T20:41:14.000Z</updated>
+    <published>2026-09-01T12:30:12.000Z</published>
+    <summary>Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included. — ★ 2399 (368.2/day)</summary>
+    <author><name>anthropics</name></author>
   </entry>
   <entry>
     <id>https://github.com/crmne/fastpotify</id>
@@ -93,7 +93,7 @@
     <link href="https://github.com/crmne/fastpotify"/>
     <updated>2026-09-07T21:31:17.000Z</updated>
     <published>2026-08-27T12:46:32.000Z</published>
-    <summary>Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. — ★ 3481 (304.7/day)</summary>
+    <summary>Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. — ★ 3487 (303.1/day)</summary>
     <author><name>crmne</name></author>
   </entry>
   <entry>
@@ -102,7 +102,7 @@
     <link href="https://github.com/rakanki911/DLSS5-Swapper"/>
     <updated>2026-09-07T22:13:36.000Z</updated>
     <published>2026-08-29T23:51:32.000Z</published>
-    <summary>DLSS 5 Swapper is a powerful, easy-to-use tool for installing, managing, and restoring DLSS 5 across games and supported emulators. It features automatic game detection, optional drive scanning, DLSS5-Feeder for compatible titles without native DLSS, emulator support, and compatibility with DirectX 9/10/11/12, Vulkan, and OpenGL. — ★ 2708 (302.2/day)</summary>
+    <summary>DLSS 5 Swapper is a powerful, easy-to-use tool for installing, managing, and restoring DLSS 5 across games and supported emulators. It features automatic game detection, optional drive scanning, DLSS5-Feeder for compatible titles without native DLSS, emulator support, and compatibility with DirectX 9/10/11/12, Vulkan, and OpenGL. — ★ 2724 (301.2/day)</summary>
     <author><name>rakanki911</name></author>
   </entry>
   <entry>
@@ -111,7 +111,7 @@
     <link href="https://github.com/anthropics/fermats-last-theorem"/>
     <updated>2026-09-04T14:59:12.000Z</updated>
     <published>2026-09-04T14:21:04.000Z</published>
-    <summary>No description. — ★ 937 (279.0/day)</summary>
+    <summary>No description. — ★ 939 (273.1/day)</summary>
     <author><name>anthropics</name></author>
   </entry>
   <entry>
@@ -120,7 +120,7 @@
     <link href="https://github.com/Jarvis322/macos-sysdata"/>
     <updated>2026-09-07T22:06:00.000Z</updated>
     <published>2026-09-05T23:29:13.000Z</published>
-    <summary>See what is really inside macOS System Data and delete it, item by item, from the menu bar. — ★ 533 (269.5/day)</summary>
+    <summary>See what is really inside macOS System Data and delete it, item by item, from the menu bar. — ★ 542 (263.3/day)</summary>
     <author><name>Jarvis322</name></author>
   </entry>
   <entry>
@@ -129,7 +129,7 @@
     <link href="https://github.com/XiaoDuoYa/codex-with-chatgpt"/>
     <updated>2026-09-04T10:46:18.000Z</updated>
     <published>2026-08-28T12:57:24.000Z</published>
-    <summary>ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. — ★ 2682 (257.5/day)</summary>
+    <summary>ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. — ★ 2697 (256.9/day)</summary>
     <author><name>XiaoDuoYa</name></author>
   </entry>
   <entry>
@@ -138,7 +138,7 @@
     <link href="https://github.com/Nanako0129/sepia"/>
     <updated>2026-09-05T14:40:32.000Z</updated>
     <published>2026-08-28T05:56:49.000Z</published>
-    <summary>De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136). — ★ 2406 (224.7/day)</summary>
+    <summary>De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136). — ★ 2409 (223.3/day)</summary>
     <author><name>Nanako0129</name></author>
   </entry>
   <entry>
@@ -147,7 +147,7 @@
     <link href="https://github.com/okf-memory/okf-agent-memory"/>
     <updated>2026-09-07T10:10:05.000Z</updated>
     <published>2026-09-05T21:26:04.000Z</published>
-    <summary>Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go. — ★ 453 (219.6/day)</summary>
+    <summary>Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go. — ★ 458 (213.6/day)</summary>
     <author><name>okf-memory</name></author>
   </entry>
   <entry>
@@ -156,17 +156,8 @@
     <link href="https://github.com/jtydhr88/screenwriting-skills"/>
     <updated>2026-09-06T13:18:21.000Z</updated>
     <published>2026-09-06T12:28:23.000Z</published>
-    <summary>No description. — ★ 305 (212.3/day)</summary>
+    <summary>No description. — ★ 311 (205.0/day)</summary>
     <author><name>jtydhr88</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/biusberline/cloudflare-turnstile-solver</id>
-    <title>biusberline/cloudflare-turnstile-solver</title>
-    <link href="https://github.com/biusberline/cloudflare-turnstile-solver"/>
-    <updated>2026-09-06T16:34:42.000Z</updated>
-    <published>2026-09-06T14:58:51.000Z</published>
-    <summary>A small Python library and CLI for working with Cloudflare Turnstile on your own pages - read the sitekey, build the token, verify the result. — ★ 258 (193.7/day)</summary>
-    <author><name>biusberline</name></author>
   </entry>
   <entry>
     <id>https://github.com/yang0/handraw-style</id>
@@ -174,8 +165,17 @@
     <link href="https://github.com/yang0/handraw-style"/>
     <updated>2026-09-05T23:10:29.000Z</updated>
     <published>2026-09-05T21:57:22.000Z</published>
-    <summary>手绘风格编号画廊与双语提示词 Skill — ★ 376 (184.2/day)</summary>
+    <summary>手绘风格编号画廊与双语提示词 Skill — ★ 392 (184.7/day)</summary>
     <author><name>yang0</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/biusberline/cloudflare-turnstile-solver</id>
+    <title>biusberline/cloudflare-turnstile-solver</title>
+    <link href="https://github.com/biusberline/cloudflare-turnstile-solver"/>
+    <updated>2026-09-06T16:34:42.000Z</updated>
+    <published>2026-09-06T14:58:51.000Z</published>
+    <summary>A small Python library and CLI for working with Cloudflare Turnstile on your own pages - read the sitekey, build the token, verify the result. — ★ 258 (182.6/day)</summary>
+    <author><name>biusberline</name></author>
   </entry>
   <entry>
     <id>https://github.com/danielblnc/DLSS-NR-on-AMD</id>
@@ -183,7 +183,7 @@
     <link href="https://github.com/danielblnc/DLSS-NR-on-AMD"/>
     <updated>2026-09-06T18:04:43.000Z</updated>
     <published>2026-09-03T00:42:03.000Z</published>
-    <summary>Run DLSS 5 Neural Rendering on your AMD GPU. Magic! — ★ 857 (173.9/day)</summary>
+    <summary>Run DLSS 5 Neural Rendering on your AMD GPU. Magic! — ★ 857 (171.1/day)</summary>
     <author><name>danielblnc</name></author>
   </entry>
   <entry>
@@ -192,26 +192,8 @@
     <link href="https://github.com/shadcn-ui/cn"/>
     <updated>2026-09-07T09:08:03.000Z</updated>
     <published>2026-08-31T07:04:03.000Z</published>
-    <summary>cn is a new engine for Tailwind class merging and conflict resolution. It replaces tailwind-merge and clsx. Same APIs. Full parity. And it is 30× faster. — ★ 1265 (165.1/day)</summary>
+    <summary>cn is a new engine for Tailwind class merging and conflict resolution. It replaces tailwind-merge and clsx. Same APIs. Full parity. And it is 30× faster. — ★ 1268 (163.8/day)</summary>
     <author><name>shadcn-ui</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/burakgon/stop-stutter</id>
-    <title>burakgon/stop-stutter</title>
-    <link href="https://github.com/burakgon/stop-stutter"/>
-    <updated>2026-09-04T21:37:23.000Z</updated>
-    <published>2026-09-04T20:45:06.000Z</published>
-    <summary>Smoother game streaming on Mac. Automatic AWDL boost for Moonlight, GeForce NOW, Punktfunk, Parsec &amp; Steam Link. Native SwiftUI + Liquid Glass. MIT. — ★ 494 (159.8/day)</summary>
-    <author><name>burakgon</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Albert-Weasker/niubigeo</id>
-    <title>Albert-Weasker/niubigeo</title>
-    <link href="https://github.com/Albert-Weasker/niubigeo"/>
-    <updated>2026-09-06T03:08:03.000Z</updated>
-    <published>2026-09-03T15:55:54.000Z</published>
-    <summary>Open-source AI brand visibility and competitor reports — ★ 672 (156.6/day)</summary>
-    <author><name>Albert-Weasker</name></author>
   </entry>
   <entry>
     <id>https://github.com/Player-YN/PawWork_ZhuaZhua</id>
@@ -219,8 +201,17 @@
     <link href="https://github.com/Player-YN/PawWork_ZhuaZhua"/>
     <updated>2026-09-01T15:03:17.000Z</updated>
     <published>2026-08-28T10:56:56.000Z</published>
-    <summary>Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server. — ★ 1632 (155.4/day)</summary>
+    <summary>Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server. — ★ 1704 (161.0/day)</summary>
     <author><name>Player-YN</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/burakgon/stop-stutter</id>
+    <title>burakgon/stop-stutter</title>
+    <link href="https://github.com/burakgon/stop-stutter"/>
+    <updated>2026-09-04T21:37:23.000Z</updated>
+    <published>2026-09-04T20:45:06.000Z</published>
+    <summary>Smoother game streaming on Mac. Automatic AWDL boost for Moonlight, GeForce NOW, Punktfunk, Parsec &amp; Steam Link. Native SwiftUI + Liquid Glass. MIT. — ★ 495 (156.0/day)</summary>
+    <author><name>burakgon</name></author>
   </entry>
   <entry>
     <id>https://github.com/sebbbi/NoGraphicsAPI</id>
@@ -228,8 +219,17 @@
     <link href="https://github.com/sebbbi/NoGraphicsAPI"/>
     <updated>2026-09-07T17:19:49.000Z</updated>
     <published>2026-08-31T14:14:12.000Z</published>
-    <summary>Minimal graphics API. Built on top of latest Vulkan extensions. As close as possibly to my &quot;No Graphics API&quot; blog post and the SIGGRAPH talk. — ★ 1140 (154.8/day)</summary>
+    <summary>Minimal graphics API. Built on top of latest Vulkan extensions. As close as possibly to my &quot;No Graphics API&quot; blog post and the SIGGRAPH talk. — ★ 1147 (154.1/day)</summary>
     <author><name>sebbbi</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Albert-Weasker/niubigeo</id>
+    <title>Albert-Weasker/niubigeo</title>
+    <link href="https://github.com/Albert-Weasker/niubigeo"/>
+    <updated>2026-09-06T03:08:03.000Z</updated>
+    <published>2026-09-03T15:55:54.000Z</published>
+    <summary>Open-source AI brand visibility and competitor reports — ★ 673 (153.9/day)</summary>
+    <author><name>Albert-Weasker</name></author>
   </entry>
   <entry>
     <id>https://github.com/KJGX66F/usque-custom-pro</id>
@@ -237,7 +237,7 @@
     <link href="https://github.com/KJGX66F/usque-custom-pro"/>
     <updated>2026-09-06T10:54:08.000Z</updated>
     <published>2026-09-04T01:15:28.000Z</published>
-    <summary>基于 Cloudflare WARP / MASQUE 的可视化注册、配置生成与多客户端转换工具。 生成、Clash/Mihomo 智能分流、Shadowrocket、sing-box、本地 VLESS 桥接，以及可选的 WARP 出口检测。 — ★ 600 (153.7/day)</summary>
+    <summary>基于 Cloudflare WARP / MASQUE 的可视化注册、配置生成与多客户端转换工具。 生成、Clash/Mihomo 智能分流、Shadowrocket、sing-box、本地 VLESS 桥接，以及可选的 WARP 出口检测。 — ★ 602 (151.1/day)</summary>
     <author><name>KJGX66F</name></author>
   </entry>
   <entry>
@@ -246,17 +246,8 @@
     <link href="https://github.com/GangTailorUpgrade/undress-service"/>
     <updated>2026-09-02T13:58:48.000Z</updated>
     <published>2026-08-31T00:12:45.000Z</published>
-    <summary>Dress AI Sponsor — ★ 1163 (146.3/day)</summary>
+    <summary>Dress AI Sponsor — ★ 1164 (145.0/day)</summary>
     <author><name>GangTailorUpgrade</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/yczz/oc-english</id>
-    <title>yczz/oc-english</title>
-    <link href="https://github.com/yczz/oc-english"/>
-    <updated>2026-09-05T14:46:39.000Z</updated>
-    <published>2026-09-01T23:45:27.000Z</published>
-    <summary>养成类游戏英语学习 — ★ 848 (142.1/day)</summary>
-    <author><name>yczz</name></author>
   </entry>
   <entry>
     <id>https://github.com/ahujasid/camera-to-blender</id>
@@ -264,16 +255,25 @@
     <link href="https://github.com/ahujasid/camera-to-blender"/>
     <updated>2026-09-05T15:20:13.000Z</updated>
     <published>2026-09-03T10:34:30.000Z</published>
-    <summary>Take a photo of real objects, and paste them in Blender — ★ 641 (142.0/day)</summary>
+    <summary>Take a photo of real objects, and paste them in Blender — ★ 661 (143.8/day)</summary>
     <author><name>ahujasid</name></author>
   </entry>
   <entry>
-    <id>https://github.com/byJoey/warp-masque-actions</id>
-    <title>byJoey/warp-masque-actions</title>
-    <link href="https://github.com/byJoey/warp-masque-actions"/>
-    <updated>2026-09-07T12:35:23.000Z</updated>
-    <published>2026-09-04T17:21:26.000Z</published>
-    <summary>GitHub Actions 自动生成 Cloudflare WARP (MASQUE) 密钥与 mihomo 配置，产物只存 artifact — ★ 457 (141.4/day)</summary>
-    <author><name>byJoey</name></author>
+    <id>https://github.com/yczz/oc-english</id>
+    <title>yczz/oc-english</title>
+    <link href="https://github.com/yczz/oc-english"/>
+    <updated>2026-09-05T14:46:39.000Z</updated>
+    <published>2026-09-01T23:45:27.000Z</published>
+    <summary>养成类游戏英语学习 — ★ 848 (140.2/day)</summary>
+    <author><name>yczz</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/donvito/codex-astra-luna-orchestrator</id>
+    <title>donvito/codex-astra-luna-orchestrator</title>
+    <link href="https://github.com/donvito/codex-astra-luna-orchestrator"/>
+    <updated>2026-09-07T07:49:25.000Z</updated>
+    <published>2026-09-05T16:03:06.000Z</published>
+    <summary>Use Astra as orchestrator and Luna as implementor — ★ 331 (139.8/day)</summary>
+    <author><name>donvito</name></author>
   </entry>
 </feed>
