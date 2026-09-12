@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-12T17:37:00.724Z</updated>
+  <updated>2026-09-12T19:59:47.046Z</updated>
   <entry>
     <id>https://github.com/lnkiai/m3e-canvas</id>
     <title>lnkiai/m3e-canvas</title>
     <link href="https://github.com/lnkiai/m3e-canvas"/>
     <updated>2026-09-12T02:16:51.000Z</updated>
     <published>2026-09-02T04:36:34.000Z</published>
-    <summary>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. — ★ 6311 (598.7/day)</summary>
+    <summary>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. — ★ 6321 (594.0/day)</summary>
     <author><name>lnkiai</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/Faizpi/bank-sampah"/>
     <updated>2026-09-11T04:13:57.000Z</updated>
     <published>2026-09-11T02:13:29.000Z</published>
-    <summary>No description. — ★ 921 (561.1/day)</summary>
+    <summary>No description. — ★ 921 (529.2/day)</summary>
     <author><name>Faizpi</name></author>
   </entry>
   <entry>
@@ -30,17 +30,8 @@
     <link href="https://github.com/ashemag/human-atlas"/>
     <updated>2026-09-06T23:35:06.000Z</updated>
     <published>2026-09-05T00:24:43.000Z</published>
-    <summary>Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. — ★ 3274 (424.3/day)</summary>
+    <summary>Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. — ★ 3280 (419.7/day)</summary>
     <author><name>ashemag</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/openai/NavierStokesAndEuler</id>
-    <title>openai/NavierStokesAndEuler</title>
-    <link href="https://github.com/openai/NavierStokesAndEuler"/>
-    <updated>2026-09-10T15:14:13.000Z</updated>
-    <published>2026-09-08T10:53:38.000Z</published>
-    <summary>Lean certificates accompanying Navier-Stokes and Euler results — ★ 1809 (422.7/day)</summary>
-    <author><name>openai</name></author>
   </entry>
   <entry>
     <id>https://github.com/sdli1995/dlssg_for_sm86</id>
@@ -48,26 +39,17 @@
     <link href="https://github.com/sdli1995/dlssg_for_sm86"/>
     <updated>2026-09-10T08:47:39.000Z</updated>
     <published>2026-09-07T16:16:48.000Z</published>
-    <summary>Here is a dlssg for RTX30 Series GPU  — ★ 2128 (420.9/day)</summary>
+    <summary>Here is a dlssg for RTX30 Series GPU  — ★ 2156 (418.2/day)</summary>
     <author><name>sdli1995</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Deepbrecanyon/GameSoft</id>
-    <title>Deepbrecanyon/GameSoft</title>
-    <link href="https://github.com/Deepbrecanyon/GameSoft"/>
-    <updated>2026-09-12T16:32:42.000Z</updated>
-    <published>2026-09-12T15:58:49.000Z</published>
-    <summary>Play your favorite game without limits. — ★ 100 (400.0/day)</summary>
-    <author><name>Deepbrecanyon</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/sumimakito/Mac-Duo</id>
-    <title>sumimakito/Mac-Duo</title>
-    <link href="https://github.com/sumimakito/Mac-Duo"/>
-    <updated>2026-09-12T14:26:09.000Z</updated>
-    <published>2026-09-10T18:55:39.000Z</published>
-    <summary>Wish you could bring the iPhone Duo effect to your MacBook? — ★ 667 (342.9/day)</summary>
-    <author><name>sumimakito</name></author>
+    <id>https://github.com/openai/NavierStokesAndEuler</id>
+    <title>openai/NavierStokesAndEuler</title>
+    <link href="https://github.com/openai/NavierStokesAndEuler"/>
+    <updated>2026-09-10T15:14:13.000Z</updated>
+    <published>2026-09-08T10:53:38.000Z</published>
+    <summary>Lean certificates accompanying Navier-Stokes and Euler results — ★ 1815 (414.5/day)</summary>
+    <author><name>openai</name></author>
   </entry>
   <entry>
     <id>https://github.com/Edge0-AI/Edge0</id>
@@ -75,8 +57,17 @@
     <link href="https://github.com/Edge0-AI/Edge0"/>
     <updated>2026-09-11T11:01:40.000Z</updated>
     <published>2026-09-08T13:41:47.000Z</published>
-    <summary>No description. — ★ 1417 (340.4/day)</summary>
+    <summary>No description. — ★ 1426 (334.5/day)</summary>
     <author><name>Edge0-AI</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/sumimakito/Mac-Duo</id>
+    <title>sumimakito/Mac-Duo</title>
+    <link href="https://github.com/sumimakito/Mac-Duo"/>
+    <updated>2026-09-12T14:26:09.000Z</updated>
+    <published>2026-09-10T18:55:39.000Z</published>
+    <summary>Wish you could bring the iPhone Duo effect to your MacBook? — ★ 675 (330.1/day)</summary>
+    <author><name>sumimakito</name></author>
   </entry>
   <entry>
     <id>https://github.com/Albert-Weasker/niubigeo</id>
@@ -84,7 +75,7 @@
     <link href="https://github.com/Albert-Weasker/niubigeo"/>
     <updated>2026-09-09T09:54:11.000Z</updated>
     <published>2026-09-03T15:55:54.000Z</published>
-    <summary>Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing — ★ 2375 (261.8/day)</summary>
+    <summary>Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing — ★ 2377 (259.2/day)</summary>
     <author><name>Albert-Weasker</name></author>
   </entry>
   <entry>
@@ -93,16 +84,16 @@
     <link href="https://github.com/Rion-Wu-tech/wechat-intelligence-hub"/>
     <updated>2026-09-11T18:44:51.000Z</updated>
     <published>2026-09-04T15:00:53.000Z</published>
-    <summary>Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking. — ★ 2114 (260.7/day)</summary>
+    <summary>Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking. — ★ 2115 (257.7/day)</summary>
     <author><name>Rion-Wu-tech</name></author>
   </entry>
   <entry>
     <id>https://github.com/Vincentwei1021/anything2explainer</id>
     <title>Vincentwei1021/anything2explainer</title>
     <link href="https://github.com/Vincentwei1021/anything2explainer"/>
-    <updated>2026-09-12T17:33:08.000Z</updated>
+    <updated>2026-09-12T18:41:03.000Z</updated>
     <published>2026-09-08T17:19:54.000Z</published>
-    <summary>Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. — ★ 1040 (259.2/day)</summary>
+    <summary>Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. — ★ 1047 (254.7/day)</summary>
     <author><name>Vincentwei1021</name></author>
   </entry>
   <entry>
@@ -111,17 +102,8 @@
     <link href="https://github.com/EverettFish/holo-card-studio"/>
     <updated>2026-09-12T04:56:38.000Z</updated>
     <published>2026-09-07T00:41:18.000Z</published>
-    <summary>Turn the user&#39;s description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user&#39;s output project. — ★ 1465 (256.8/day)</summary>
+    <summary>Turn the user&#39;s description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user&#39;s output project. — ★ 1466 (252.6/day)</summary>
     <author><name>EverettFish</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/angusdevgo/IDM_Pro_Tool</id>
-    <title>angusdevgo/IDM_Pro_Tool</title>
-    <link href="https://github.com/angusdevgo/IDM_Pro_Tool"/>
-    <updated>2026-09-11T08:06:21.000Z</updated>
-    <published>2026-09-10T09:39:06.000Z</published>
-    <summary>IDM激活与状态维护工具 — ★ 579 (248.3/day)</summary>
-    <author><name>angusdevgo</name></author>
   </entry>
   <entry>
     <id>https://github.com/anthropics/commerce-agents</id>
@@ -129,8 +111,26 @@
     <link href="https://github.com/anthropics/commerce-agents"/>
     <updated>2026-09-11T07:03:32.000Z</updated>
     <published>2026-09-01T12:30:12.000Z</published>
-    <summary>Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included. — ★ 2768 (246.9/day)</summary>
+    <summary>Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included. — ★ 2771 (245.0/day)</summary>
     <author><name>anthropics</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Chuloo/mural</id>
+    <title>Chuloo/mural</title>
+    <link href="https://github.com/Chuloo/mural"/>
+    <updated>2026-09-12T19:26:59.000Z</updated>
+    <published>2026-09-12T11:51:08.000Z</published>
+    <summary>The language app you eventually delete. A native iPhone companion for learning through conversation. — ★ 83 (244.6/day)</summary>
+    <author><name>Chuloo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/angusdevgo/IDM_Pro_Tool</id>
+    <title>angusdevgo/IDM_Pro_Tool</title>
+    <link href="https://github.com/angusdevgo/IDM_Pro_Tool"/>
+    <updated>2026-09-11T08:06:21.000Z</updated>
+    <published>2026-09-10T09:39:06.000Z</published>
+    <summary>IDM激活与状态维护工具 — ★ 580 (238.6/day)</summary>
+    <author><name>angusdevgo</name></author>
   </entry>
   <entry>
     <id>https://github.com/yang0/handraw-style</id>
@@ -138,7 +138,7 @@
     <link href="https://github.com/yang0/handraw-style"/>
     <updated>2026-09-09T08:36:37.000Z</updated>
     <published>2026-09-05T21:57:22.000Z</published>
-    <summary>手绘风格编号画廊与双语提示词 Skill — ★ 1579 (231.6/day)</summary>
+    <summary>手绘风格编号画廊与双语提示词 Skill — ★ 1580 (228.4/day)</summary>
     <author><name>yang0</name></author>
   </entry>
   <entry>
@@ -147,26 +147,8 @@
     <link href="https://github.com/vinzdg/codenotch"/>
     <updated>2026-09-12T10:04:27.000Z</updated>
     <published>2026-09-05T14:55:35.000Z</published>
-    <summary>A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. — ★ 1497 (210.5/day)</summary>
+    <summary>A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. — ★ 1501 (208.1/day)</summary>
     <author><name>vinzdg</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/flybook-git/Main</id>
-    <title>flybook-git/Main</title>
-    <link href="https://github.com/flybook-git/Main"/>
-    <updated>2026-09-10T02:40:34.000Z</updated>
-    <published>2026-09-11T12:51:43.000Z</published>
-    <summary>A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions. — ★ 237 (197.8/day)</summary>
-    <author><name>flybook-git</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/eternityspring/reelbench-skills</id>
-    <title>eternityspring/reelbench-skills</title>
-    <link href="https://github.com/eternityspring/reelbench-skills"/>
-    <updated>2026-09-12T11:26:22.000Z</updated>
-    <published>2026-09-11T04:55:49.000Z</published>
-    <summary>Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill — ★ 296 (193.6/day)</summary>
-    <author><name>eternityspring</name></author>
   </entry>
   <entry>
     <id>https://github.com/DefiLeoo/YOINK</id>
@@ -174,8 +156,26 @@
     <link href="https://github.com/DefiLeoo/YOINK"/>
     <updated>2026-09-11T13:08:20.000Z</updated>
     <published>2026-09-11T10:54:31.000Z</published>
-    <summary>No description. — ★ 247 (193.0/day)</summary>
+    <summary>No description. — ★ 282 (204.5/day)</summary>
     <author><name>DefiLeoo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/eternityspring/reelbench-skills</id>
+    <title>eternityspring/reelbench-skills</title>
+    <link href="https://github.com/eternityspring/reelbench-skills"/>
+    <updated>2026-09-12T11:26:22.000Z</updated>
+    <published>2026-09-11T04:55:49.000Z</published>
+    <summary>Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill — ★ 301 (184.9/day)</summary>
+    <author><name>eternityspring</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/flybook-git/Main</id>
+    <title>flybook-git/Main</title>
+    <link href="https://github.com/flybook-git/Main"/>
+    <updated>2026-09-10T02:40:34.000Z</updated>
+    <published>2026-09-11T12:51:43.000Z</published>
+    <summary>A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions. — ★ 237 (182.7/day)</summary>
+    <author><name>flybook-git</name></author>
   </entry>
   <entry>
     <id>https://github.com/achimala/dream-loop</id>
@@ -183,7 +183,7 @@
     <link href="https://github.com/achimala/dream-loop"/>
     <updated>2026-09-09T22:43:38.000Z</updated>
     <published>2026-09-07T14:19:20.000Z</published>
-    <summary>Agent skill for impressive 3D visuals using Blender + image gen + subagent critic — ★ 909 (176.9/day)</summary>
+    <summary>Agent skill for impressive 3D visuals using Blender + image gen + subagent critic — ★ 913 (174.4/day)</summary>
     <author><name>achimala</name></author>
   </entry>
   <entry>
@@ -192,35 +192,8 @@
     <link href="https://github.com/gazijarin/itsgiving"/>
     <updated>2026-09-08T05:45:44.000Z</updated>
     <published>2026-09-08T05:02:01.000Z</published>
-    <summary>Express yourself in meetings (with memes, of course). — ★ 775 (171.3/day)</summary>
+    <summary>Express yourself in meetings (with memes, of course). — ★ 779 (168.5/day)</summary>
     <author><name>gazijarin</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/mizzlelover/gongwen-gbt9704-skill</id>
-    <title>mizzlelover/gongwen-gbt9704-skill</title>
-    <link href="https://github.com/mizzlelover/gongwen-gbt9704-skill"/>
-    <updated>2026-09-12T10:40:25.000Z</updated>
-    <published>2026-09-09T10:04:14.000Z</published>
-    <summary>中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB 文件转换：https://github.com/mizzlelover/CEB — ★ 530 (159.9/day)</summary>
-    <author><name>mizzlelover</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/nhovongoc0-max/meme-radar</id>
-    <title>nhovongoc0-max/meme-radar</title>
-    <link href="https://github.com/nhovongoc0-max/meme-radar"/>
-    <updated>2026-09-11T12:19:58.000Z</updated>
-    <published>2026-09-11T12:14:57.000Z</published>
-    <summary>Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具 — ★ 191 (156.1/day)</summary>
-    <author><name>nhovongoc0-max</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/nftechie/stonkfly</id>
-    <title>nftechie/stonkfly</title>
-    <link href="https://github.com/nftechie/stonkfly"/>
-    <updated>2026-09-10T02:40:34.000Z</updated>
-    <published>2026-09-10T02:40:30.000Z</published>
-    <summary>A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions. — ★ 407 (155.2/day)</summary>
-    <author><name>nftechie</name></author>
   </entry>
   <entry>
     <id>https://github.com/unstablebuild/rune</id>
@@ -228,8 +201,35 @@
     <link href="https://github.com/unstablebuild/rune"/>
     <updated>2026-09-11T20:32:05.000Z</updated>
     <published>2026-09-10T10:50:03.000Z</published>
-    <summary>the development environment for pros — ★ 353 (154.6/day)</summary>
+    <summary>the development environment for pros — ★ 372 (156.2/day)</summary>
     <author><name>unstablebuild</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/mizzlelover/gongwen-gbt9704-skill</id>
+    <title>mizzlelover/gongwen-gbt9704-skill</title>
+    <link href="https://github.com/mizzlelover/gongwen-gbt9704-skill"/>
+    <updated>2026-09-12T10:40:25.000Z</updated>
+    <published>2026-09-09T10:04:14.000Z</published>
+    <summary>中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB 文件转换：https://github.com/mizzlelover/CEB — ★ 531 (155.6/day)</summary>
+    <author><name>mizzlelover</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/nftechie/stonkfly</id>
+    <title>nftechie/stonkfly</title>
+    <link href="https://github.com/nftechie/stonkfly"/>
+    <updated>2026-09-10T02:40:34.000Z</updated>
+    <published>2026-09-10T02:40:30.000Z</published>
+    <summary>A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions. — ★ 419 (153.9/day)</summary>
+    <author><name>nftechie</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/nhovongoc0-max/meme-radar</id>
+    <title>nhovongoc0-max/meme-radar</title>
+    <link href="https://github.com/nhovongoc0-max/meme-radar"/>
+    <updated>2026-09-11T12:19:58.000Z</updated>
+    <published>2026-09-11T12:14:57.000Z</published>
+    <summary>Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具 — ★ 200 (151.2/day)</summary>
+    <author><name>nhovongoc0-max</name></author>
   </entry>
   <entry>
     <id>https://github.com/SpaceDudem/text-humanizer</id>
@@ -237,7 +237,7 @@
     <link href="https://github.com/SpaceDudem/text-humanizer"/>
     <updated>2026-09-08T15:37:07.000Z</updated>
     <published>2026-09-08T15:28:28.000Z</published>
-    <summary>text-humanizer is an open-source project designed to convert text generated by AI to its &quot;humanized&quot; version. Bypasses the most of AI detectors such as Turnitin or GPTZero — ★ 593 (145.0/day)</summary>
+    <summary>text-humanizer is an open-source project designed to convert text generated by AI to its &quot;humanized&quot; version. Bypasses the most of AI detectors such as Turnitin or GPTZero — ★ 604 (144.2/day)</summary>
     <author><name>SpaceDudem</name></author>
   </entry>
   <entry>
@@ -246,7 +246,7 @@
     <link href="https://github.com/donvito/codex-astra-luna-orchestrator"/>
     <updated>2026-09-11T11:27:26.000Z</updated>
     <published>2026-09-05T16:03:06.000Z</published>
-    <summary>Use Astra as orchestrator and Luna for subagents in Codex — ★ 1016 (143.8/day)</summary>
+    <summary>Use Astra as orchestrator and Luna for subagents in Codex — ★ 1024 (142.9/day)</summary>
     <author><name>donvito</name></author>
   </entry>
   <entry>
@@ -255,16 +255,16 @@
     <link href="https://github.com/Colafornia/short-video-generator-AI"/>
     <updated>2026-09-08T15:05:46.000Z</updated>
     <published>2026-09-08T14:55:47.000Z</published>
-    <summary>Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. — ★ 584 (142.0/day)</summary>
+    <summary>Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. — ★ 599 (142.2/day)</summary>
     <author><name>Colafornia</name></author>
   </entry>
   <entry>
     <id>https://github.com/NVlabs/SoL-Pi</id>
     <title>NVlabs/SoL-Pi</title>
     <link href="https://github.com/NVlabs/SoL-Pi"/>
-    <updated>2026-09-12T17:22:01.000Z</updated>
+    <updated>2026-09-12T19:20:52.000Z</updated>
     <published>2026-09-02T14:48:47.000Z</published>
-    <summary>SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses — ★ 1419 (140.3/day)</summary>
+    <summary>SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses — ★ 1439 (140.9/day)</summary>
     <author><name>NVlabs</name></author>
   </entry>
   <entry>
@@ -273,7 +273,7 @@
     <link href="https://github.com/anthropics/fermats-last-theorem"/>
     <updated>2026-09-04T14:59:12.000Z</updated>
     <published>2026-09-04T14:21:04.000Z</published>
-    <summary>No description. — ★ 1129 (138.8/day)</summary>
+    <summary>No description. — ★ 1129 (137.1/day)</summary>
     <author><name>anthropics</name></author>
   </entry>
 </feed>
