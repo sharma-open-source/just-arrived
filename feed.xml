@@ -5,15 +5,24 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-15T01:08:05.407Z</updated>
+  <updated>2026-09-15T06:22:51.606Z</updated>
   <entry>
     <id>https://github.com/lnkiai/m3e-canvas</id>
     <title>lnkiai/m3e-canvas</title>
     <link href="https://github.com/lnkiai/m3e-canvas"/>
     <updated>2026-09-12T02:16:51.000Z</updated>
     <published>2026-09-02T04:36:34.000Z</published>
-    <summary>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. — ★ 6778 (527.3/day)</summary>
+    <summary>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. — ★ 6828 (522.3/day)</summary>
     <author><name>lnkiai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ai-sucks-butt/ai-sucks-butt</id>
+    <title>ai-sucks-butt/ai-sucks-butt</title>
+    <link href="https://github.com/ai-sucks-butt/ai-sucks-butt"/>
+    <updated>2026-09-14T04:16:21.000Z</updated>
+    <published>2026-09-14T04:02:58.000Z</published>
+    <summary>If you think AI sucks, star the repo. — ★ 439 (400.1/day)</summary>
+    <author><name>ai-sucks-butt</name></author>
   </entry>
   <entry>
     <id>https://github.com/sdli1995/dlssg_for_sm86</id>
@@ -21,26 +30,8 @@
     <link href="https://github.com/sdli1995/dlssg_for_sm86"/>
     <updated>2026-09-14T09:42:50.000Z</updated>
     <published>2026-09-07T16:16:48.000Z</published>
-    <summary>Here is a dlssg for RTX30 Series GPU  — ★ 2736 (371.3/day)</summary>
+    <summary>Here is a dlssg for RTX30 Series GPU  — ★ 2836 (373.8/day)</summary>
     <author><name>sdli1995</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ashemag/human-atlas</id>
-    <title>ashemag/human-atlas</title>
-    <link href="https://github.com/ashemag/human-atlas"/>
-    <updated>2026-09-06T23:35:06.000Z</updated>
-    <published>2026-09-05T00:24:43.000Z</published>
-    <summary>Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. — ★ 3437 (342.7/day)</summary>
-    <author><name>ashemag</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/yifanzhang-pro/recurrent-looped-tranformer</id>
-    <title>yifanzhang-pro/recurrent-looped-tranformer</title>
-    <link href="https://github.com/yifanzhang-pro/recurrent-looped-tranformer"/>
-    <updated>2026-09-13T20:46:51.000Z</updated>
-    <published>2026-09-12T19:02:46.000Z</published>
-    <summary>Official Project Page for Recurrent Looped Transformer (RLT) — ★ 744 (330.1/day)</summary>
-    <author><name>yifanzhang-pro</name></author>
   </entry>
   <entry>
     <id>https://github.com/nilbuild/page-mascot</id>
@@ -48,8 +39,17 @@
     <link href="https://github.com/nilbuild/page-mascot"/>
     <updated>2026-09-14T10:26:58.000Z</updated>
     <published>2026-09-14T06:55:59.000Z</published>
-    <summary>A mascot that watches the cursor and blinks when you poke it — ★ 249 (328.3/day)</summary>
+    <summary>A mascot that watches the cursor and blinks when you poke it — ★ 343 (351.1/day)</summary>
     <author><name>nilbuild</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ashemag/human-atlas</id>
+    <title>ashemag/human-atlas</title>
+    <link href="https://github.com/ashemag/human-atlas"/>
+    <updated>2026-09-06T23:35:06.000Z</updated>
+    <published>2026-09-05T00:24:43.000Z</published>
+    <summary>Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. — ★ 3455 (337.1/day)</summary>
+    <author><name>ashemag</name></author>
   </entry>
   <entry>
     <id>https://github.com/Chuloo/mural</id>
@@ -57,8 +57,17 @@
     <link href="https://github.com/Chuloo/mural"/>
     <updated>2026-09-14T21:40:30.000Z</updated>
     <published>2026-09-12T11:51:08.000Z</published>
-    <summary>The language app you eventually delete. A native iPhone companion for learning through conversation. — ★ 803 (314.5/day)</summary>
+    <summary>The language app you eventually delete. A native iPhone companion for learning through conversation. — ★ 872 (314.6/day)</summary>
     <author><name>Chuloo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/yifanzhang-pro/recurrent-looped-tranformer</id>
+    <title>yifanzhang-pro/recurrent-looped-tranformer</title>
+    <link href="https://github.com/yifanzhang-pro/recurrent-looped-tranformer"/>
+    <updated>2026-09-13T20:46:51.000Z</updated>
+    <published>2026-09-12T19:02:46.000Z</published>
+    <summary>Official Project Page for Recurrent Looped Transformer (RLT) — ★ 765 (309.4/day)</summary>
+    <author><name>yifanzhang-pro</name></author>
   </entry>
   <entry>
     <id>https://github.com/openai/NavierStokesAndEuler</id>
@@ -66,26 +75,8 @@
     <link href="https://github.com/openai/NavierStokesAndEuler"/>
     <updated>2026-09-10T15:14:13.000Z</updated>
     <published>2026-09-08T10:53:38.000Z</published>
-    <summary>Lean certificates accompanying Navier-Stokes and Euler results — ★ 1894 (287.3/day)</summary>
+    <summary>Lean certificates accompanying Navier-Stokes and Euler results — ★ 1897 (278.5/day)</summary>
     <author><name>openai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/rizqinrr/viserys-agent</id>
-    <title>rizqinrr/viserys-agent</title>
-    <link href="https://github.com/rizqinrr/viserys-agent"/>
-    <updated>2026-09-13T03:43:15.000Z</updated>
-    <published>2026-09-12T16:51:29.000Z</published>
-    <summary>No description. — ★ 648 (276.3/day)</summary>
-    <author><name>rizqinrr</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Matthew0822/ToolReplay</id>
-    <title>Matthew0822/ToolReplay</title>
-    <link href="https://github.com/Matthew0822/ToolReplay"/>
-    <updated>2026-09-14T12:09:08.000Z</updated>
-    <published>2026-09-14T10:11:00.000Z</published>
-    <summary>Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. Dependency-free Python CLI. — ★ 171 (274.5/day)</summary>
-    <author><name>Matthew0822</name></author>
   </entry>
   <entry>
     <id>https://github.com/Edge0-AI/Edge0</id>
@@ -93,8 +84,17 @@
     <link href="https://github.com/Edge0-AI/Edge0"/>
     <updated>2026-09-14T15:26:03.000Z</updated>
     <published>2026-09-08T13:41:47.000Z</published>
-    <summary>No description. — ★ 1704 (263.1/day)</summary>
+    <summary>No description. — ★ 1716 (256.3/day)</summary>
     <author><name>Edge0-AI</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/rizqinrr/viserys-agent</id>
+    <title>rizqinrr/viserys-agent</title>
+    <link href="https://github.com/rizqinrr/viserys-agent"/>
+    <updated>2026-09-13T03:43:15.000Z</updated>
+    <published>2026-09-12T16:51:29.000Z</published>
+    <summary>No description. — ★ 650 (253.6/day)</summary>
+    <author><name>rizqinrr</name></author>
   </entry>
   <entry>
     <id>https://github.com/kruzovic7/ai-data-extractor</id>
@@ -102,7 +102,7 @@
     <link href="https://github.com/kruzovic7/ai-data-extractor"/>
     <updated>2026-09-11T18:20:56.000Z</updated>
     <published>2026-09-11T18:12:58.000Z</published>
-    <summary>Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. — ★ 811 (246.6/day)</summary>
+    <summary>Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. — ★ 813 (231.8/day)</summary>
     <author><name>kruzovic7</name></author>
   </entry>
   <entry>
@@ -111,7 +111,7 @@
     <link href="https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"/>
     <updated>2026-09-14T06:12:48.000Z</updated>
     <published>2026-09-12T12:20:24.000Z</published>
-    <summary>GPT-6 Astra for embodied AI and robotics. — ★ 558 (220.3/day)</summary>
+    <summary>GPT-6 Astra for embodied AI and robotics. — ★ 604 (219.5/day)</summary>
     <author><name>zjwzcx</name></author>
   </entry>
   <entry>
@@ -120,7 +120,7 @@
     <link href="https://github.com/Rion-Wu-tech/wechat-intelligence-hub"/>
     <updated>2026-09-11T18:44:51.000Z</updated>
     <published>2026-09-04T15:00:53.000Z</published>
-    <summary>Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking. — ★ 2215 (212.5/day)</summary>
+    <summary>Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking. — ★ 2254 (211.8/day)</summary>
     <author><name>Rion-Wu-tech</name></author>
   </entry>
   <entry>
@@ -129,7 +129,7 @@
     <link href="https://github.com/Albert-Weasker/niubigeo"/>
     <updated>2026-09-14T12:33:22.000Z</updated>
     <published>2026-09-03T15:55:54.000Z</published>
-    <summary>Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing — ★ 2415 (212.1/day)</summary>
+    <summary>Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing — ★ 2415 (208.2/day)</summary>
     <author><name>Albert-Weasker</name></author>
   </entry>
   <entry>
@@ -138,8 +138,17 @@
     <link href="https://github.com/Vincentwei1021/anything2explainer"/>
     <updated>2026-09-13T03:23:06.000Z</updated>
     <published>2026-09-08T17:19:54.000Z</published>
-    <summary>Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. — ★ 1322 (209.0/day)</summary>
+    <summary>Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. — ★ 1352 (206.6/day)</summary>
     <author><name>Vincentwei1021</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Matthew0822/ToolReplay</id>
+    <title>Matthew0822/ToolReplay</title>
+    <link href="https://github.com/Matthew0822/ToolReplay"/>
+    <updated>2026-09-14T12:09:08.000Z</updated>
+    <published>2026-09-14T10:11:00.000Z</published>
+    <summary>Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. Dependency-free Python CLI. — ★ 168 (199.6/day)</summary>
+    <author><name>Matthew0822</name></author>
   </entry>
   <entry>
     <id>https://github.com/sumimakito/Mac-Duo</id>
@@ -147,16 +156,16 @@
     <link href="https://github.com/sumimakito/Mac-Duo"/>
     <updated>2026-09-14T14:55:01.000Z</updated>
     <published>2026-09-10T18:55:39.000Z</published>
-    <summary>Wish you could bring the iPhone Duo effect to your MacBook? — ★ 870 (204.3/day)</summary>
+    <summary>Wish you could bring the iPhone Duo effect to your MacBook? — ★ 877 (195.9/day)</summary>
     <author><name>sumimakito</name></author>
   </entry>
   <entry>
     <id>https://github.com/yang0/handraw-style</id>
     <title>yang0/handraw-style</title>
     <link href="https://github.com/yang0/handraw-style"/>
-    <updated>2026-09-09T08:36:37.000Z</updated>
+    <updated>2026-09-15T01:59:51.000Z</updated>
     <published>2026-09-05T21:57:22.000Z</published>
-    <summary>手绘风格编号画廊与双语提示词 Skill — ★ 1745 (191.1/day)</summary>
+    <summary>手绘风格编号画廊与双语提示词 Skill — ★ 1795 (192.0/day)</summary>
     <author><name>yang0</name></author>
   </entry>
   <entry>
@@ -165,16 +174,16 @@
     <link href="https://github.com/EverettFish/holo-card-studio"/>
     <updated>2026-09-12T04:56:38.000Z</updated>
     <published>2026-09-07T00:41:18.000Z</published>
-    <summary>Turn the user&#39;s description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user&#39;s output project. — ★ 1524 (190.1/day)</summary>
+    <summary>Turn the user&#39;s description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user&#39;s output project. — ★ 1532 (186.0/day)</summary>
     <author><name>EverettFish</name></author>
   </entry>
   <entry>
     <id>https://github.com/anonymous-report-421/GPT-as-Policy</id>
     <title>anonymous-report-421/GPT-as-Policy</title>
     <link href="https://github.com/anonymous-report-421/GPT-as-Policy"/>
-    <updated>2026-09-14T18:26:52.000Z</updated>
+    <updated>2026-09-15T05:43:06.000Z</updated>
     <published>2026-09-13T19:05:04.000Z</published>
-    <summary>GPT as Policy — ★ 230 (183.7/day)</summary>
+    <summary>GPT as Policy — ★ 266 (180.9/day)</summary>
     <author><name>anonymous-report-421</name></author>
   </entry>
   <entry>
@@ -183,16 +192,16 @@
     <link href="https://github.com/eternityspring/reelbench-skills"/>
     <updated>2026-09-14T00:51:09.000Z</updated>
     <published>2026-09-11T04:55:49.000Z</published>
-    <summary>Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill — ★ 672 (174.9/day)</summary>
+    <summary>Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill — ★ 682 (168.0/day)</summary>
     <author><name>eternityspring</name></author>
   </entry>
   <entry>
     <id>https://github.com/vinzdg/codenotch</id>
     <title>vinzdg/codenotch</title>
     <link href="https://github.com/vinzdg/codenotch"/>
-    <updated>2026-09-14T05:14:52.000Z</updated>
+    <updated>2026-09-15T03:08:41.000Z</updated>
     <published>2026-09-05T14:55:35.000Z</published>
-    <summary>A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. — ★ 1588 (168.5/day)</summary>
+    <summary>A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. — ★ 1594 (165.3/day)</summary>
     <author><name>vinzdg</name></author>
   </entry>
   <entry>
@@ -201,8 +210,17 @@
     <link href="https://github.com/Faizpi/bank-sampah"/>
     <updated>2026-09-13T09:31:45.000Z</updated>
     <published>2026-09-11T02:13:29.000Z</published>
-    <summary>No description. — ★ 646 (163.4/day)</summary>
+    <summary>No description. — ★ 646 (154.8/day)</summary>
     <author><name>Faizpi</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/NVlabs/SoL-Pi</id>
+    <title>NVlabs/SoL-Pi</title>
+    <link href="https://github.com/NVlabs/SoL-Pi"/>
+    <updated>2026-09-15T05:39:32.000Z</updated>
+    <published>2026-09-02T14:48:47.000Z</published>
+    <summary>SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses — ★ 1951 (154.2/day)</summary>
+    <author><name>NVlabs</name></author>
   </entry>
   <entry>
     <id>https://github.com/crwdla/tokentab</id>
@@ -210,17 +228,17 @@
     <link href="https://github.com/crwdla/tokentab"/>
     <updated>2026-09-07T17:20:54.000Z</updated>
     <published>2026-09-07T17:18:31.000Z</published>
-    <summary>A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. — ★ 1134 (154.8/day)</summary>
+    <summary>A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. — ★ 1134 (150.3/day)</summary>
     <author><name>crwdla</name></author>
   </entry>
   <entry>
-    <id>https://github.com/NVlabs/SoL-Pi</id>
-    <title>NVlabs/SoL-Pi</title>
-    <link href="https://github.com/NVlabs/SoL-Pi"/>
-    <updated>2026-09-15T01:01:46.000Z</updated>
-    <published>2026-09-02T14:48:47.000Z</published>
-    <summary>SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses — ★ 1898 (152.7/day)</summary>
-    <author><name>NVlabs</name></author>
+    <id>https://github.com/agentverse-os/AgentVerse-OS</id>
+    <title>agentverse-os/AgentVerse-OS</title>
+    <link href="https://github.com/agentverse-os/AgentVerse-OS"/>
+    <updated>2026-09-12T19:17:57.000Z</updated>
+    <published>2026-09-12T18:20:00.000Z</published>
+    <summary>Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only via Tailscale, nothing exposed to the internet. Rust core, Svelte UI. — ★ 363 (145.1/day)</summary>
+    <author><name>agentverse-os</name></author>
   </entry>
   <entry>
     <id>https://github.com/angusdevgo/IDM_Pro_Tool</id>
@@ -228,7 +246,7 @@
     <link href="https://github.com/angusdevgo/IDM_Pro_Tool"/>
     <updated>2026-09-11T08:06:21.000Z</updated>
     <published>2026-09-10T09:39:06.000Z</published>
-    <summary>IDM激活与状态维护工具 — ★ 697 (150.0/day)</summary>
+    <summary>IDM激活与状态维护工具 — ★ 698 (143.5/day)</summary>
     <author><name>angusdevgo</name></author>
   </entry>
   <entry>
@@ -237,8 +255,17 @@
     <link href="https://github.com/donvito/codex-astra-luna-orchestrator"/>
     <updated>2026-09-14T07:15:44.000Z</updated>
     <published>2026-09-05T16:03:06.000Z</published>
-    <summary>Use Astra as orchestrator and Luna for subagents in Codex — ★ 1325 (141.3/day)</summary>
+    <summary>Use Astra as orchestrator and Luna for subagents in Codex — ★ 1331 (138.7/day)</summary>
     <author><name>donvito</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Mantitup-Org/vista</id>
+    <title>Mantitup-Org/vista</title>
+    <link href="https://github.com/Mantitup-Org/vista"/>
+    <updated>2026-09-06T19:34:53.000Z</updated>
+    <published>2026-09-04T06:20:19.000Z</published>
+    <summary>No description. — ★ 1459 (132.6/day)</summary>
+    <author><name>Mantitup-Org</name></author>
   </entry>
   <entry>
     <id>https://github.com/achimala/dream-loop</id>
@@ -246,34 +273,7 @@
     <link href="https://github.com/achimala/dream-loop"/>
     <updated>2026-09-09T22:43:38.000Z</updated>
     <published>2026-09-07T14:19:20.000Z</published>
-    <summary>Agent skill for impressive 3D visuals using Blender + image gen + subagent critic — ★ 995 (133.5/day)</summary>
+    <summary>Agent skill for impressive 3D visuals using Blender + image gen + subagent critic — ★ 1008 (131.4/day)</summary>
     <author><name>achimala</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/nftechie/stonkfly</id>
-    <title>nftechie/stonkfly</title>
-    <link href="https://github.com/nftechie/stonkfly"/>
-    <updated>2026-09-10T02:40:34.000Z</updated>
-    <published>2026-09-10T02:40:30.000Z</published>
-    <summary>A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions. — ★ 650 (131.7/day)</summary>
-    <author><name>nftechie</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/jtydhr88/screenwriting-skills</id>
-    <title>jtydhr88/screenwriting-skills</title>
-    <link href="https://github.com/jtydhr88/screenwriting-skills"/>
-    <updated>2026-09-15T00:43:30.000Z</updated>
-    <published>2026-09-06T12:28:23.000Z</published>
-    <summary>Professional agent skills for screenwriting, television writing and dramaturgy — ★ 1083 (127.0/day)</summary>
-    <author><name>jtydhr88</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/gazijarin/itsgiving</id>
-    <title>gazijarin/itsgiving</title>
-    <link href="https://github.com/gazijarin/itsgiving"/>
-    <updated>2026-09-08T05:45:44.000Z</updated>
-    <published>2026-09-08T05:02:01.000Z</published>
-    <summary>Express yourself in meetings (with memes, of course). — ★ 846 (123.7/day)</summary>
-    <author><name>gazijarin</name></author>
   </entry>
 </feed>
