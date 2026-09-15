@@ -2,6 +2,8 @@
 
 **Discover GitHub repositories before they hit Trending.**
 
+[![Just Arrived on StartupScores](https://startupscores.com/badge/just-arrived.svg?style=shield&v=combo&theme=dark)](https://startupscores.com/open-source/just-arrived)
+
 A single-page dashboard that surfaces brand-new, fast-growing repos from the
 GitHub Search API — no backend, no server. A GitHub Actions job refreshes a
 static `data.json` snapshot every ~30 min so a normal page load never has to
