@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-18T14:10:02.069Z</updated>
+  <updated>2026-09-18T17:46:37.176Z</updated>
   <entry>
     <id>https://github.com/browser-use/jev-ultrafast</id>
     <title>browser-use/jev-ultrafast</title>
     <link href="https://github.com/browser-use/jev-ultrafast"/>
-    <updated>2026-09-18T01:17:37.000Z</updated>
+    <updated>2026-09-18T16:28:35.000Z</updated>
     <published>2026-09-16T21:30:12.000Z</published>
-    <summary>i. am. speed. — ★ 4355 (2570.3/day)</summary>
+    <summary>i. am. speed. — ★ 4944 (2680.1/day)</summary>
     <author><name>browser-use</name></author>
   </entry>
   <entry>
@@ -21,17 +21,8 @@
     <link href="https://github.com/tamaratran/fast-jev-compaction"/>
     <updated>2026-09-18T04:45:31.000Z</updated>
     <published>2026-09-17T05:57:20.000Z</published>
-    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 2441 (1818.7/day)</summary>
+    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 2820 (1889.4/day)</summary>
     <author><name>tamaratran</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TheoLeeCJ/SemIf</id>
-    <title>TheoLeeCJ/SemIf</title>
-    <link href="https://github.com/TheoLeeCJ/SemIf"/>
-    <updated>2026-09-18T14:08:51.000Z</updated>
-    <published>2026-09-16T03:51:21.000Z</published>
-    <summary>Semantic ifs from open models, on a 3090 at home. — ★ 1427 (587.3/day)</summary>
-    <author><name>TheoLeeCJ</name></author>
   </entry>
   <entry>
     <id>https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored</id>
@@ -39,17 +30,17 @@
     <link href="https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored"/>
     <updated>2026-09-18T12:58:46.000Z</updated>
     <published>2026-09-18T06:45:54.000Z</published>
-    <summary>Runtime behavioral ablation for compressed LLMs. First target: Ternary Bonsai 2 27B — no weight modification or re-quantization. by OrcaRouter team — ★ 179 (580.4/day)</summary>
+    <summary>Runtime behavioral ablation for compressed LLMs. First target: Ternary Bonsai 2 27B — no weight modification or re-quantization. by OrcaRouter team — ★ 286 (623.3/day)</summary>
     <author><name>Continuum-AI-Corp</name></author>
   </entry>
   <entry>
-    <id>https://github.com/yynxxxxx/gpt_sub_analysis</id>
-    <title>yynxxxxx/gpt_sub_analysis</title>
-    <link href="https://github.com/yynxxxxx/gpt_sub_analysis"/>
-    <updated>2026-09-18T12:00:04.000Z</updated>
-    <published>2026-09-17T13:43:00.000Z</published>
-    <summary>Security analysis of the ChatGPT iOS subscription / entitlement flow (internal draft, coordinated disclosure WIP) — ★ 494 (484.9/day)</summary>
-    <author><name>yynxxxxx</name></author>
+    <id>https://github.com/TheoLeeCJ/SemIf</id>
+    <title>TheoLeeCJ/SemIf</title>
+    <link href="https://github.com/TheoLeeCJ/SemIf"/>
+    <updated>2026-09-18T15:33:39.000Z</updated>
+    <published>2026-09-16T03:51:21.000Z</published>
+    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 1507 (584.1/day)</summary>
+    <author><name>TheoLeeCJ</name></author>
   </entry>
   <entry>
     <id>https://github.com/jarrodwatts/jev-trader</id>
@@ -57,8 +48,17 @@
     <link href="https://github.com/jarrodwatts/jev-trader"/>
     <updated>2026-09-17T02:48:22.000Z</updated>
     <published>2026-09-16T21:36:20.000Z</published>
-    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 745 (440.8/day)</summary>
+    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 809 (439.6/day)</summary>
     <author><name>jarrodwatts</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/yynxxxxx/gpt_sub_analysis</id>
+    <title>yynxxxxx/gpt_sub_analysis</title>
+    <link href="https://github.com/yynxxxxx/gpt_sub_analysis"/>
+    <updated>2026-09-18T12:00:04.000Z</updated>
+    <published>2026-09-17T13:43:00.000Z</published>
+    <summary>Security analysis of the ChatGPT iOS subscription / entitlement flow (internal draft, coordinated disclosure WIP) — ★ 508 (434.5/day)</summary>
+    <author><name>yynxxxxx</name></author>
   </entry>
   <entry>
     <id>https://github.com/eternity4719/HowToLiveBetter</id>
@@ -66,7 +66,7 @@
     <link href="https://github.com/eternity4719/HowToLiveBetter"/>
     <updated>2026-09-18T13:00:55.000Z</updated>
     <published>2026-09-07T01:53:36.000Z</published>
-    <summary>按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。 — ★ 4763 (413.8/day)</summary>
+    <summary>按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。 — ★ 4942 (423.8/day)</summary>
     <author><name>eternity4719</name></author>
   </entry>
   <entry>
@@ -75,7 +75,7 @@
     <link href="https://github.com/vinnylarouge/jevlike"/>
     <updated>2026-09-16T18:12:53.000Z</updated>
     <published>2026-09-16T10:26:01.000Z</published>
-    <summary>No description. — ★ 819 (379.9/day)</summary>
+    <summary>No description. — ★ 852 (369.5/day)</summary>
     <author><name>vinnylarouge</name></author>
   </entry>
   <entry>
@@ -84,35 +84,26 @@
     <link href="https://github.com/korcarc/text-humanizer"/>
     <updated>2026-09-16T13:36:23.000Z</updated>
     <published>2026-09-16T13:21:56.000Z</published>
-    <summary>text-humanizer is an open-source project designed to convert text generated by AI to its &quot;humanized&quot; version. Bypasses the most of AI detectors such as Turnitin or GPTZero — ★ 663 (326.1/day)</summary>
+    <summary>text-humanizer is an open-source project designed to convert text generated by AI to its &quot;humanized&quot; version. Bypasses the most of AI detectors such as Turnitin or GPTZero — ★ 722 (330.6/day)</summary>
     <author><name>korcarc</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/gylive/ccodex-sleep-state</id>
+    <title>gylive/ccodex-sleep-state</title>
+    <link href="https://github.com/gylive/ccodex-sleep-state"/>
+    <updated>2026-09-18T14:38:05.000Z</updated>
+    <published>2026-09-18T09:02:44.000Z</published>
+    <summary>尝试改善 Codex 降智、限流与连接体验。本地一键启动、网页配置修复，支持 Astra / Sol / Terra、订阅和代理；不保证取得指定 state 或提升模型质量。 — ★ 119 (327.1/day)</summary>
+    <author><name>gylive</name></author>
   </entry>
   <entry>
     <id>https://github.com/sdli1995/dlssg_for_sm86</id>
     <title>sdli1995/dlssg_for_sm86</title>
     <link href="https://github.com/sdli1995/dlssg_for_sm86"/>
-    <updated>2026-09-17T18:57:39.000Z</updated>
+    <updated>2026-09-18T15:42:33.000Z</updated>
     <published>2026-09-07T16:16:48.000Z</published>
-    <summary>Here is a dlssg for RTX30 Series GPU  — ★ 3392 (310.9/day)</summary>
+    <summary>Here is a dlssg for RTX30 Series GPU  — ★ 3409 (308.2/day)</summary>
     <author><name>sdli1995</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ashemag/human-atlas</id>
-    <title>ashemag/human-atlas</title>
-    <link href="https://github.com/ashemag/human-atlas"/>
-    <updated>2026-09-06T23:35:06.000Z</updated>
-    <published>2026-09-05T00:24:43.000Z</published>
-    <summary>Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. — ★ 3628 (267.3/day)</summary>
-    <author><name>ashemag</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ctdal/cve-2026-41940-PoC</id>
-    <title>ctdal/cve-2026-41940-PoC</title>
-    <link href="https://github.com/ctdal/cve-2026-41940-PoC"/>
-    <updated>2026-09-16T13:49:53.000Z</updated>
-    <published>2026-09-16T13:47:39.000Z</published>
-    <summary>A cPanel and WHM authentication bypassing tool — ★ 526 (261.0/day)</summary>
-    <author><name>ctdal</name></author>
   </entry>
   <entry>
     <id>https://github.com/TianyuCodings/NanoJev</id>
@@ -120,7 +111,7 @@
     <link href="https://github.com/TianyuCodings/NanoJev"/>
     <updated>2026-09-17T23:24:13.000Z</updated>
     <published>2026-09-17T16:08:30.000Z</published>
-    <summary>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline. — ★ 237 (258.2/day)</summary>
+    <summary>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline. — ★ 318 (297.7/day)</summary>
     <author><name>TianyuCodings</name></author>
   </entry>
   <entry>
@@ -129,8 +120,44 @@
     <link href="https://github.com/mcncarl/jianying-headless"/>
     <updated>2026-09-15T12:15:57.000Z</updated>
     <published>2026-09-15T11:51:15.000Z</published>
-    <summary>Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. — ★ 766 (247.4/day)</summary>
+    <summary>Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. — ★ 926 (285.2/day)</summary>
     <author><name>mcncarl</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ashemag/human-atlas</id>
+    <title>ashemag/human-atlas</title>
+    <link href="https://github.com/ashemag/human-atlas"/>
+    <updated>2026-09-06T23:35:06.000Z</updated>
+    <published>2026-09-05T00:24:43.000Z</published>
+    <summary>Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. — ★ 3635 (264.9/day)</summary>
+    <author><name>ashemag</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/chaseleantj/desktop-habitats</id>
+    <title>chaseleantj/desktop-habitats</title>
+    <link href="https://github.com/chaseleantj/desktop-habitats"/>
+    <updated>2026-09-18T10:19:58.000Z</updated>
+    <published>2026-09-18T08:31:55.000Z</published>
+    <summary>Living ecosystems you can interact with on your desktop — ★ 97 (251.8/day)</summary>
+    <author><name>chaseleantj</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ctdal/cve-2026-41940-PoC</id>
+    <title>ctdal/cve-2026-41940-PoC</title>
+    <link href="https://github.com/ctdal/cve-2026-41940-PoC"/>
+    <updated>2026-09-16T13:49:53.000Z</updated>
+    <published>2026-09-16T13:47:39.000Z</published>
+    <summary>A cPanel and WHM authentication bypassing tool — ★ 526 (242.8/day)</summary>
+    <author><name>ctdal</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/NandhaKishorM/laya</id>
+    <title>NandhaKishorM/laya</title>
+    <link href="https://github.com/NandhaKishorM/laya"/>
+    <updated>2026-09-18T16:22:00.000Z</updated>
+    <published>2026-09-18T04:46:33.000Z</published>
+    <summary>No description. — ★ 131 (241.8/day)</summary>
+    <author><name>NandhaKishorM</name></author>
   </entry>
   <entry>
     <id>https://github.com/thruwire/foreman</id>
@@ -138,7 +165,7 @@
     <link href="https://github.com/thruwire/foreman"/>
     <updated>2026-09-17T12:32:51.000Z</updated>
     <published>2026-09-17T11:46:13.000Z</published>
-    <summary>Software Factory Foreman based on TypeSafe Jev model — ★ 268 (243.7/day)</summary>
+    <summary>Software Factory Foreman based on TypeSafe Jev model — ★ 280 (223.9/day)</summary>
     <author><name>thruwire</name></author>
   </entry>
   <entry>
@@ -147,35 +174,17 @@
     <link href="https://github.com/Chuloo/mural"/>
     <updated>2026-09-17T14:52:37.000Z</updated>
     <published>2026-09-12T11:51:08.000Z</published>
-    <summary>The language app you eventually delete. A native iPhone companion for learning through conversation. — ★ 1343 (220.3/day)</summary>
+    <summary>The language app you eventually delete. A native iPhone companion for learning through conversation. — ★ 1356 (217.1/day)</summary>
     <author><name>Chuloo</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/theoephraim/awesome-cloudflare-selfhosted</id>
-    <title>theoephraim/awesome-cloudflare-selfhosted</title>
-    <link href="https://github.com/theoephraim/awesome-cloudflare-selfhosted"/>
-    <updated>2026-09-16T22:06:09.000Z</updated>
-    <published>2026-09-15T09:39:14.000Z</published>
-    <summary>🍊☁️ Open-source* apps that replace a SaaS product, running in your own Cloudflare account — ★ 627 (196.7/day)</summary>
-    <author><name>theoephraim</name></author>
   </entry>
   <entry>
     <id>https://github.com/dabit3/jev-experiments</id>
     <title>dabit3/jev-experiments</title>
     <link href="https://github.com/dabit3/jev-experiments"/>
-    <updated>2026-09-18T13:41:41.000Z</updated>
+    <updated>2026-09-18T17:36:59.000Z</updated>
     <published>2026-09-17T23:36:37.000Z</published>
-    <summary>No description. — ★ 119 (196.2/day)</summary>
+    <summary>No description. — ★ 161 (212.7/day)</summary>
     <author><name>dabit3</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Mak5er/AirCard</id>
-    <title>Mak5er/AirCard</title>
-    <link href="https://github.com/Mak5er/AirCard"/>
-    <updated>2026-09-17T11:57:26.000Z</updated>
-    <published>2026-09-16T22:20:15.000Z</published>
-    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 325 (195.8/day)</summary>
-    <author><name>Mak5er</name></author>
   </entry>
   <entry>
     <id>https://github.com/Edge0-AI/Edge0</id>
@@ -183,8 +192,17 @@
     <link href="https://github.com/Edge0-AI/Edge0"/>
     <updated>2026-09-17T04:29:50.000Z</updated>
     <published>2026-09-08T13:41:47.000Z</published>
-    <summary>No description. — ★ 1954 (195.0/day)</summary>
+    <summary>No description. — ★ 1959 (192.6/day)</summary>
     <author><name>Edge0-AI</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/theoephraim/awesome-cloudflare-selfhosted</id>
+    <title>theoephraim/awesome-cloudflare-selfhosted</title>
+    <link href="https://github.com/theoephraim/awesome-cloudflare-selfhosted"/>
+    <updated>2026-09-16T22:06:09.000Z</updated>
+    <published>2026-09-15T09:39:14.000Z</published>
+    <summary>🍊☁️ Open-source* apps that replace a SaaS product, running in your own Cloudflare account — ★ 638 (191.1/day)</summary>
+    <author><name>theoephraim</name></author>
   </entry>
   <entry>
     <id>https://github.com/openai/NavierStokesAndEuler</id>
@@ -192,17 +210,26 @@
     <link href="https://github.com/openai/NavierStokesAndEuler"/>
     <updated>2026-09-10T15:14:13.000Z</updated>
     <published>2026-09-08T10:53:38.000Z</published>
-    <summary>Lean certificates accompanying Navier-Stokes and Euler results — ★ 1946 (192.0/day)</summary>
+    <summary>Lean certificates accompanying Navier-Stokes and Euler results — ★ 1947 (189.3/day)</summary>
     <author><name>openai</name></author>
   </entry>
   <entry>
     <id>https://github.com/yang0/handraw-style</id>
     <title>yang0/handraw-style</title>
     <link href="https://github.com/yang0/handraw-style"/>
-    <updated>2026-09-18T13:12:57.000Z</updated>
+    <updated>2026-09-18T14:51:21.000Z</updated>
     <published>2026-09-05T21:57:22.000Z</published>
-    <summary>手绘风格编号画廊与双语提示词 Skill — ★ 2332 (184.0/day)</summary>
+    <summary>手绘风格编号画廊与双语提示词 Skill — ★ 2375 (185.2/day)</summary>
     <author><name>yang0</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Mak5er/AirCard</id>
+    <title>Mak5er/AirCard</title>
+    <link href="https://github.com/Mak5er/AirCard"/>
+    <updated>2026-09-17T11:57:26.000Z</updated>
+    <published>2026-09-16T22:20:15.000Z</published>
+    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 335 (185.1/day)</summary>
+    <author><name>Mak5er</name></author>
   </entry>
   <entry>
     <id>https://github.com/Vincentwei1021/anything2explainer</id>
@@ -210,7 +237,7 @@
     <link href="https://github.com/Vincentwei1021/anything2explainer"/>
     <updated>2026-09-18T11:52:13.000Z</updated>
     <published>2026-09-08T17:19:54.000Z</published>
-    <summary>Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. — ★ 1629 (165.1/day)</summary>
+    <summary>Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. — ★ 1636 (163.3/day)</summary>
     <author><name>Vincentwei1021</name></author>
   </entry>
   <entry>
@@ -219,17 +246,8 @@
     <link href="https://github.com/realZachi/pg-jev"/>
     <updated>2026-09-18T03:17:54.000Z</updated>
     <published>2026-09-17T20:04:00.000Z</published>
-    <summary>Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe&#39;s Jev. — ★ 124 (164.4/day)</summary>
+    <summary>Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe&#39;s Jev. — ★ 145 (160.3/day)</summary>
     <author><name>realZachi</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/kitze/skillbox</id>
-    <title>kitze/skillbox</title>
-    <link href="https://github.com/kitze/skillbox"/>
-    <updated>2026-09-18T08:11:37.000Z</updated>
-    <published>2026-09-17T17:23:37.000Z</published>
-    <summary>Self-hosted, versioned skills library for AI agents. MCP, scoped clients, and optional Jev recommendations. — ★ 141 (162.9/day)</summary>
-    <author><name>kitze</name></author>
   </entry>
   <entry>
     <id>https://github.com/nilbuild/page-mascot</id>
@@ -237,26 +255,17 @@
     <link href="https://github.com/nilbuild/page-mascot"/>
     <updated>2026-09-15T10:07:44.000Z</updated>
     <published>2026-09-14T06:55:59.000Z</published>
-    <summary>A mascot that watches the cursor and blinks when you poke it — ★ 700 (162.7/day)</summary>
+    <summary>A mascot that watches the cursor and blinks when you poke it — ★ 706 (158.6/day)</summary>
     <author><name>nilbuild</name></author>
   </entry>
   <entry>
     <id>https://github.com/saragordic/window-sweaters</id>
     <title>saragordic/window-sweaters</title>
     <link href="https://github.com/saragordic/window-sweaters"/>
-    <updated>2026-09-15T22:51:32.000Z</updated>
+    <updated>2026-09-18T17:19:21.000Z</updated>
     <published>2026-09-15T01:51:36.000Z</published>
-    <summary>A macOS menu-bar app that dresses your windows in knitted borders. — ★ 563 (160.3/day)</summary>
+    <summary>A macOS menu-bar app that dresses your windows in knitted borders. — ★ 572 (156.1/day)</summary>
     <author><name>saragordic</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/nMaas8388/github-ranking-audit</id>
-    <title>nMaas8388/github-ranking-audit</title>
-    <link href="https://github.com/nMaas8388/github-ranking-audit"/>
-    <updated>2026-09-17T06:44:03.000Z</updated>
-    <published>2026-09-17T06:24:34.000Z</published>
-    <summary>Audit your GitHub repository search ranking signals. Checks name, description, topics, README, stars, forks, and activity. — ★ 212 (160.2/day)</summary>
-    <author><name>nMaas8388</name></author>
   </entry>
   <entry>
     <id>https://github.com/vinzdg/codenotch</id>
@@ -264,16 +273,7 @@
     <link href="https://github.com/vinzdg/codenotch"/>
     <updated>2026-09-18T10:17:34.000Z</updated>
     <published>2026-09-05T14:55:35.000Z</published>
-    <summary>A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. — ★ 1968 (151.8/day)</summary>
+    <summary>A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. — ★ 1984 (151.2/day)</summary>
     <author><name>vinzdg</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/yifanzhang-pro/recurrent-looped-tranformer</id>
-    <title>yifanzhang-pro/recurrent-looped-tranformer</title>
-    <link href="https://github.com/yifanzhang-pro/recurrent-looped-tranformer"/>
-    <updated>2026-09-18T02:33:40.000Z</updated>
-    <published>2026-09-12T19:02:46.000Z</published>
-    <summary>Official Project Page for Recurrent Looped Transformer (RLT) — ★ 877 (151.3/day)</summary>
-    <author><name>yifanzhang-pro</name></author>
   </entry>
 </feed>
