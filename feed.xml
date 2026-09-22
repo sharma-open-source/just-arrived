@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-21T23:28:20.231Z</updated>
+  <updated>2026-09-22T01:44:31.897Z</updated>
   <entry>
     <id>https://github.com/zai-org/ZCode</id>
     <title>zai-org/ZCode</title>
     <link href="https://github.com/zai-org/ZCode"/>
     <updated>2026-09-21T00:02:36.000Z</updated>
     <published>2026-09-20T12:01:16.000Z</published>
-    <summary>Z.ai&#39;s coding agent harness. Powerful, intelligent, extensible. — ★ 5548 (3755.9/day)</summary>
+    <summary>Z.ai&#39;s coding agent harness. Powerful, intelligent, extensible. — ★ 5671 (3608.2/day)</summary>
     <author><name>zai-org</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/browser-use/jev-ultrafast"/>
     <updated>2026-09-18T16:28:35.000Z</updated>
     <published>2026-09-16T21:30:12.000Z</published>
-    <summary>Fastest and cheapest web agent — ★ 15579 (3065.5/day)</summary>
+    <summary>Fastest and cheapest web agent — ★ 15864 (3064.5/day)</summary>
     <author><name>browser-use</name></author>
   </entry>
   <entry>
@@ -30,17 +30,17 @@
     <link href="https://github.com/NandhaKishorM/laya"/>
     <updated>2026-09-21T18:18:43.000Z</updated>
     <published>2026-09-18T04:46:33.000Z</published>
-    <summary>No description. — ★ 10003 (2647.0/day)</summary>
+    <summary>No description. — ★ 10578 (2730.8/day)</summary>
     <author><name>NandhaKishorM</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Finderchangchang/jev-chat-JARVIS</id>
-    <title>Finderchangchang/jev-chat-JARVIS</title>
-    <link href="https://github.com/Finderchangchang/jev-chat-JARVIS"/>
-    <updated>2026-09-21T15:37:40.000Z</updated>
+    <id>https://github.com/jev-chat/jev-chat-jarvis</id>
+    <title>jev-chat/jev-chat-jarvis</title>
+    <link href="https://github.com/jev-chat/jev-chat-jarvis"/>
+    <updated>2026-09-22T01:36:07.000Z</updated>
     <published>2026-09-21T11:12:53.000Z</published>
-    <summary>No description. — ★ 895 (1752.4/day)</summary>
-    <author><name>Finderchangchang</name></author>
+    <summary>装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 — ★ 1169 (1931.2/day)</summary>
+    <author><name>jev-chat</name></author>
   </entry>
   <entry>
     <id>https://github.com/mizorewww/laya-mlx</id>
@@ -48,7 +48,7 @@
     <link href="https://github.com/mizorewww/laya-mlx"/>
     <updated>2026-09-19T16:32:30.000Z</updated>
     <published>2026-09-19T13:50:26.000Z</published>
-    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. — ★ 3735 (1555.4/day)</summary>
+    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. — ★ 3925 (1572.6/day)</summary>
     <author><name>mizorewww</name></author>
   </entry>
   <entry>
@@ -57,7 +57,7 @@
     <link href="https://github.com/tamaratran/fast-jev-compaction"/>
     <updated>2026-09-18T04:45:31.000Z</updated>
     <published>2026-09-17T05:57:20.000Z</published>
-    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 5943 (1256.5/day)</summary>
+    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 5983 (1240.1/day)</summary>
     <author><name>tamaratran</name></author>
   </entry>
   <entry>
@@ -66,16 +66,16 @@
     <link href="https://github.com/robbietilton/Compositor"/>
     <updated>2026-09-21T22:31:56.000Z</updated>
     <published>2026-09-16T20:35:54.000Z</published>
-    <summary>The Photoshop alternative for Mac — ★ 4367 (853.0/day)</summary>
+    <summary>The Photoshop alternative for Mac — ★ 4412 (846.1/day)</summary>
     <author><name>robbietilton</name></author>
   </entry>
   <entry>
     <id>https://github.com/jaredpalmer/kev</id>
     <title>jaredpalmer/kev</title>
     <link href="https://github.com/jaredpalmer/kev"/>
-    <updated>2026-09-21T22:00:30.000Z</updated>
+    <updated>2026-09-22T00:44:00.000Z</updated>
     <published>2026-09-17T20:49:39.000Z</published>
-    <summary>tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own — ★ 2398 (583.4/day)</summary>
+    <summary>tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own — ★ 2502 (595.0/day)</summary>
     <author><name>jaredpalmer</name></author>
   </entry>
   <entry>
@@ -84,17 +84,8 @@
     <link href="https://github.com/TheoLeeCJ/SemIf"/>
     <updated>2026-09-21T20:07:30.000Z</updated>
     <published>2026-09-16T03:51:21.000Z</published>
-    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 3206 (551.1/day)</summary>
+    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 3277 (554.3/day)</summary>
     <author><name>TheoLeeCJ</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TianyuCodings/NanoJev</id>
-    <title>TianyuCodings/NanoJev</title>
-    <link href="https://github.com/TianyuCodings/NanoJev"/>
-    <updated>2026-09-21T09:58:28.000Z</updated>
-    <published>2026-09-17T16:08:30.000Z</published>
-    <summary>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline. — ★ 1799 (417.8/day)</summary>
-    <author><name>TianyuCodings</name></author>
   </entry>
   <entry>
     <id>https://github.com/mizorewww/laya-coreml</id>
@@ -102,8 +93,17 @@
     <link href="https://github.com/mizorewww/laya-coreml"/>
     <updated>2026-09-20T03:52:14.000Z</updated>
     <published>2026-09-19T23:14:13.000Z</published>
-    <summary>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks. — ★ 839 (417.5/day)</summary>
+    <summary>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks. — ★ 872 (414.4/day)</summary>
     <author><name>mizorewww</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/TianyuCodings/NanoJev</id>
+    <title>TianyuCodings/NanoJev</title>
+    <link href="https://github.com/TianyuCodings/NanoJev"/>
+    <updated>2026-09-21T09:58:28.000Z</updated>
+    <published>2026-09-17T16:08:30.000Z</published>
+    <summary>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline. — ★ 1820 (413.6/day)</summary>
+    <author><name>TianyuCodings</name></author>
   </entry>
   <entry>
     <id>https://github.com/bespokelabsai/nimble</id>
@@ -111,8 +111,17 @@
     <link href="https://github.com/bespokelabsai/nimble"/>
     <updated>2026-09-20T19:44:35.000Z</updated>
     <published>2026-09-18T09:07:48.000Z</published>
-    <summary>Local typed decisions, contrastive data curation, and model evaluation. — ★ 1477 (410.6/day)</summary>
+    <summary>Local typed decisions, contrastive data curation, and model evaluation. — ★ 1483 (401.7/day)</summary>
     <author><name>bespokelabsai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/maxperry2/facebook-reporting-bot</id>
+    <title>maxperry2/facebook-reporting-bot</title>
+    <link href="https://github.com/maxperry2/facebook-reporting-bot"/>
+    <updated>2026-09-21T21:21:15.000Z</updated>
+    <published>2026-09-21T21:20:30.000Z</published>
+    <summary>No description. — ★ 91 (364.0/day)</summary>
+    <author><name>maxperry2</name></author>
   </entry>
   <entry>
     <id>https://github.com/mcncarl/jianying-headless</id>
@@ -120,7 +129,7 @@
     <link href="https://github.com/mcncarl/jianying-headless"/>
     <updated>2026-09-20T06:12:56.000Z</updated>
     <published>2026-09-15T11:51:15.000Z</published>
-    <summary>Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. — ★ 2364 (364.6/day)</summary>
+    <summary>Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. — ★ 2385 (362.5/day)</summary>
     <author><name>mcncarl</name></author>
   </entry>
   <entry>
@@ -129,8 +138,17 @@
     <link href="https://github.com/jarrodwatts/jev-trader"/>
     <updated>2026-09-17T02:48:22.000Z</updated>
     <published>2026-09-16T21:36:20.000Z</published>
-    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 1844 (363.2/day)</summary>
+    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 1863 (360.2/day)</summary>
     <author><name>jarrodwatts</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Mak5er/AirCard</id>
+    <title>Mak5er/AirCard</title>
+    <link href="https://github.com/Mak5er/AirCard"/>
+    <updated>2026-09-21T06:10:20.000Z</updated>
+    <published>2026-09-16T22:20:15.000Z</published>
+    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 1438 (279.7/day)</summary>
+    <author><name>Mak5er</name></author>
   </entry>
   <entry>
     <id>https://github.com/Haleclipse/CometixCode</id>
@@ -138,7 +156,7 @@
     <link href="https://github.com/Haleclipse/CometixCode"/>
     <updated>2026-09-21T18:26:21.000Z</updated>
     <published>2026-09-20T08:58:08.000Z</published>
-    <summary>An unofficial Rust reimplementation of Anthropic&#39;s Claude Code terminal UI, built on iocraft — ★ 453 (282.4/day)</summary>
+    <summary>An unofficial Rust reimplementation of Anthropic&#39;s Claude Code terminal UI, built on iocraft — ★ 457 (269.0/day)</summary>
     <author><name>Haleclipse</name></author>
   </entry>
   <entry>
@@ -147,17 +165,8 @@
     <link href="https://github.com/v-modal/awesome-jev-tools"/>
     <updated>2026-09-19T17:02:33.000Z</updated>
     <published>2026-09-19T16:48:59.000Z</published>
-    <summary>A curated list of tools  built for Jev — TypeSafe AI&#39;s System One model for typed decisions. — ★ 623 (273.6/day)</summary>
+    <summary>A curated list of tools  built for Jev — TypeSafe AI&#39;s System One model for typed decisions. — ★ 627 (264.3/day)</summary>
     <author><name>v-modal</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Mak5er/AirCard</id>
-    <title>Mak5er/AirCard</title>
-    <link href="https://github.com/Mak5er/AirCard"/>
-    <updated>2026-09-21T06:10:20.000Z</updated>
-    <published>2026-09-16T22:20:15.000Z</published>
-    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 1344 (266.3/day)</summary>
-    <author><name>Mak5er</name></author>
   </entry>
   <entry>
     <id>https://github.com/rmalde/minecraft-agent</id>
@@ -165,17 +174,8 @@
     <link href="https://github.com/rmalde/minecraft-agent"/>
     <updated>2026-09-20T05:05:16.000Z</updated>
     <published>2026-09-20T05:05:12.000Z</published>
-    <summary>Astra planner and JEV controller for Minecraft, with native recording, tested routes, and run verification. — ★ 463 (262.2/day)</summary>
+    <summary>Astra planner and JEV controller for Minecraft, with native recording, tested routes, and run verification. — ★ 472 (253.7/day)</summary>
     <author><name>rmalde</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/caxete/crypto-tax-calculator</id>
-    <title>caxete/crypto-tax-calculator</title>
-    <link href="https://github.com/caxete/crypto-tax-calculator"/>
-    <updated>2026-09-20T12:23:36.000Z</updated>
-    <published>2026-09-20T12:06:40.000Z</published>
-    <summary>A comprehensive crypto tax solution supporting leading wallets, exchanges, and blockchain explorers. — ★ 377 (255.9/day)</summary>
-    <author><name>caxete</name></author>
   </entry>
   <entry>
     <id>https://github.com/newliver666/apk-reverse</id>
@@ -183,25 +183,25 @@
     <link href="https://github.com/newliver666/apk-reverse"/>
     <updated>2026-09-21T18:18:40.000Z</updated>
     <published>2026-09-19T13:12:54.000Z</published>
-    <summary>Suitable for Android APK reverse engineering analysis — ★ 593 (244.3/day)</summary>
+    <summary>Suitable for Android APK reverse engineering analysis — ★ 633 (251.0/day)</summary>
     <author><name>newliver666</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Rizzo-AI-Academy/rizzo-flow</id>
-    <title>Rizzo-AI-Academy/rizzo-flow</title>
-    <link href="https://github.com/Rizzo-AI-Academy/rizzo-flow"/>
-    <updated>2026-09-21T23:25:50.000Z</updated>
-    <published>2026-09-21T00:00:02.000Z</published>
-    <summary>The open, local take on Jev: typed decisions from an LLM, without generating a single token — ★ 223 (228.0/day)</summary>
-    <author><name>Rizzo-AI-Academy</name></author>
+    <id>https://github.com/caxete/crypto-tax-calculator</id>
+    <title>caxete/crypto-tax-calculator</title>
+    <link href="https://github.com/caxete/crypto-tax-calculator"/>
+    <updated>2026-09-20T12:23:36.000Z</updated>
+    <published>2026-09-20T12:06:40.000Z</published>
+    <summary>A comprehensive crypto tax solution supporting leading wallets, exchanges, and blockchain explorers. — ★ 377 (240.4/day)</summary>
+    <author><name>caxete</name></author>
   </entry>
   <entry>
     <id>https://github.com/yibie/awesome-jev</id>
     <title>yibie/awesome-jev</title>
     <link href="https://github.com/yibie/awesome-jev"/>
-    <updated>2026-09-21T16:15:41.000Z</updated>
+    <updated>2026-09-21T23:35:16.000Z</updated>
     <published>2026-09-17T14:23:21.000Z</published>
-    <summary>A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI&#39;s System One model for typed decisions. — ★ 971 (221.8/day)</summary>
+    <summary>A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI&#39;s System One model for typed decisions. — ★ 990 (221.3/day)</summary>
     <author><name>yibie</name></author>
   </entry>
   <entry>
@@ -210,17 +210,17 @@
     <link href="https://github.com/minorun365/minorun-marp-skill"/>
     <updated>2026-09-20T14:55:18.000Z</updated>
     <published>2026-09-20T13:48:09.000Z</published>
-    <summary>Marpで登壇スライドを作るための、ストーリー・図・デザインバランスのスキル集と黒地テーマ、検査ツール — ★ 310 (221.0/day)</summary>
+    <summary>Marpで登壇スライドを作るための、ストーリー・図・デザインバランスのスキル集と黒地テーマ、検査ツール — ★ 321 (214.4/day)</summary>
     <author><name>minorun365</name></author>
   </entry>
   <entry>
-    <id>https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise</id>
-    <title>pallavi-shekhar/ai-engineering-interview-questions-company-wise</title>
-    <link href="https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"/>
-    <updated>2026-09-19T10:40:41.000Z</updated>
-    <published>2026-09-19T04:14:43.000Z</published>
-    <summary>Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions and Answers. — ★ 597 (213.1/day)</summary>
-    <author><name>pallavi-shekhar</name></author>
+    <id>https://github.com/Rizzo-AI-Academy/rizzo-flow</id>
+    <title>Rizzo-AI-Academy/rizzo-flow</title>
+    <link href="https://github.com/Rizzo-AI-Academy/rizzo-flow"/>
+    <updated>2026-09-21T23:31:43.000Z</updated>
+    <published>2026-09-21T00:00:02.000Z</published>
+    <summary>The open, local take on Jev: typed decisions from an LLM, without generating a single token — ★ 225 (209.8/day)</summary>
+    <author><name>Rizzo-AI-Academy</name></author>
   </entry>
   <entry>
     <id>https://github.com/githubnext/localjev</id>
@@ -228,8 +228,17 @@
     <link href="https://github.com/githubnext/localjev"/>
     <updated>2026-09-18T20:19:02.000Z</updated>
     <published>2026-09-18T16:59:55.000Z</published>
-    <summary>No description. — ★ 696 (212.9/day)</summary>
+    <summary>No description. — ★ 701 (208.4/day)</summary>
     <author><name>githubnext</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise</id>
+    <title>pallavi-shekhar/ai-engineering-interview-questions-company-wise</title>
+    <link href="https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"/>
+    <updated>2026-09-19T10:40:41.000Z</updated>
+    <published>2026-09-19T04:14:43.000Z</published>
+    <summary>Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions and Answers. — ★ 602 (207.9/day)</summary>
+    <author><name>pallavi-shekhar</name></author>
   </entry>
   <entry>
     <id>https://github.com/vinnylarouge/jevlike</id>
@@ -237,7 +246,7 @@
     <link href="https://github.com/vinnylarouge/jevlike"/>
     <updated>2026-09-16T18:12:53.000Z</updated>
     <published>2026-09-16T10:26:01.000Z</published>
-    <summary>No description. — ★ 1166 (210.3/day)</summary>
+    <summary>No description. — ★ 1169 (207.3/day)</summary>
     <author><name>vinnylarouge</name></author>
   </entry>
   <entry>
@@ -246,7 +255,7 @@
     <link href="https://github.com/mabdulre9/electrical-engineering"/>
     <updated>2026-09-21T11:38:44.000Z</updated>
     <published>2026-09-20T06:13:22.000Z</published>
-    <summary>🎓 Path to a free self-taught education in Electrical Engineering — ★ 357 (207.7/day)</summary>
+    <summary>🎓 Path to a free self-taught education in Electrical Engineering — ★ 367 (202.4/day)</summary>
     <author><name>mabdulre9</name></author>
   </entry>
   <entry>
@@ -255,7 +264,7 @@
     <link href="https://github.com/wuyoscar/jev-skill"/>
     <updated>2026-09-21T23:10:39.000Z</updated>
     <published>2026-09-20T02:35:26.000Z</published>
-    <summary>An awesome collection of Jev use cases, workflows, and agent skills. — ★ 361 (193.0/day)</summary>
+    <summary>An awesome collection of Jev use cases, workflows, and agent skills. — ★ 366 (186.3/day)</summary>
     <author><name>wuyoscar</name></author>
   </entry>
   <entry>
@@ -264,16 +273,7 @@
     <link href="https://github.com/kloxeld/xscrape"/>
     <updated>2026-09-20T15:43:46.000Z</updated>
     <published>2026-09-20T14:56:05.000Z</published>
-    <summary>Async Python client for collecting public data from X (Twitter) - search, profiles, threads, replies, and media. Built-in account rotation, adaptive rate limiting, and export to JSON/CSV/SQLite. — ★ 256 (188.8/day)</summary>
+    <summary>Async Python client for collecting public data from X (Twitter) - search, profiles, threads, replies, and media. Built-in account rotation, adaptive rate limiting, and export to JSON/CSV/SQLite. — ★ 256 (176.5/day)</summary>
     <author><name>kloxeld</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/incoai/splash</id>
-    <title>incoai/splash</title>
-    <link href="https://github.com/incoai/splash"/>
-    <updated>2026-09-21T18:35:21.000Z</updated>
-    <published>2026-09-18T20:01:48.000Z</published>
-    <summary>A local inference engine for Apple silicon, built around the model. — ★ 554 (176.2/day)</summary>
-    <author><name>incoai</name></author>
   </entry>
 </feed>
