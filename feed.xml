@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-22T23:08:14.312Z</updated>
+  <updated>2026-09-23T01:37:58.285Z</updated>
   <entry>
     <id>https://github.com/NandhaKishorM/laya</id>
     <title>NandhaKishorM/laya</title>
     <link href="https://github.com/NandhaKishorM/laya"/>
     <updated>2026-09-22T20:41:43.000Z</updated>
     <published>2026-09-18T04:46:33.000Z</published>
-    <summary>No description. — ★ 16375 (3436.5/day)</summary>
+    <summary>No description. — ★ 16729 (3435.8/day)</summary>
     <author><name>NandhaKishorM</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/browser-use/jev-ultrafast"/>
     <updated>2026-09-18T16:28:35.000Z</updated>
     <published>2026-09-16T21:30:12.000Z</published>
-    <summary>Fastest and cheapest web agent — ★ 18017 (2969.1/day)</summary>
+    <summary>Fastest and cheapest web agent — ★ 18111 (2934.4/day)</summary>
     <author><name>browser-use</name></author>
   </entry>
   <entry>
@@ -30,7 +30,7 @@
     <link href="https://github.com/zai-org/ZCode"/>
     <updated>2026-09-21T00:02:36.000Z</updated>
     <published>2026-09-20T12:01:16.000Z</published>
-    <summary>Z.ai&#39;s coding agent harness. Powerful, intelligent, extensible. — ★ 6278 (2548.7/day)</summary>
+    <summary>Z.ai&#39;s coding agent harness. Powerful, intelligent, extensible. — ★ 6309 (2457.6/day)</summary>
     <author><name>zai-org</name></author>
   </entry>
   <entry>
@@ -39,7 +39,7 @@
     <link href="https://github.com/jev-chat/jev-chat-jarvis"/>
     <updated>2026-09-22T11:03:45.000Z</updated>
     <published>2026-09-21T11:12:53.000Z</published>
-    <summary>装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 — ★ 3686 (2462.6/day)</summary>
+    <summary>装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 — ★ 3890 (2430.1/day)</summary>
     <author><name>jev-chat</name></author>
   </entry>
   <entry>
@@ -48,7 +48,7 @@
     <link href="https://github.com/mizorewww/laya-mlx"/>
     <updated>2026-09-22T05:34:51.000Z</updated>
     <published>2026-09-19T13:50:26.000Z</published>
-    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. — ★ 5413 (1598.0/day)</summary>
+    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. — ★ 5472 (1567.3/day)</summary>
     <author><name>mizorewww</name></author>
   </entry>
   <entry>
@@ -57,7 +57,7 @@
     <link href="https://github.com/tamaratran/fast-jev-compaction"/>
     <updated>2026-09-18T04:45:31.000Z</updated>
     <published>2026-09-17T05:57:20.000Z</published>
-    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 6301 (1102.4/day)</summary>
+    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 6316 (1085.2/day)</summary>
     <author><name>tamaratran</name></author>
   </entry>
   <entry>
@@ -66,16 +66,16 @@
     <link href="https://github.com/unreallabsai/unreal-agent"/>
     <updated>2026-09-22T17:00:39.000Z</updated>
     <published>2026-09-21T23:14:02.000Z</published>
-    <summary>Async-first agent harness — ★ 841 (844.4/day)</summary>
+    <summary>Async-first agent harness — ★ 979 (890.0/day)</summary>
     <author><name>unreallabsai</name></author>
   </entry>
   <entry>
     <id>https://github.com/jaredpalmer/kev</id>
     <title>jaredpalmer/kev</title>
     <link href="https://github.com/jaredpalmer/kev"/>
-    <updated>2026-09-22T23:03:32.000Z</updated>
+    <updated>2026-09-23T01:16:48.000Z</updated>
     <published>2026-09-17T20:49:39.000Z</published>
-    <summary>tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own — ★ 4156 (815.5/day)</summary>
+    <summary>tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own — ★ 4316 (830.0/day)</summary>
     <author><name>jaredpalmer</name></author>
   </entry>
   <entry>
@@ -84,7 +84,7 @@
     <link href="https://github.com/robbietilton/Compositor"/>
     <updated>2026-09-22T21:58:55.000Z</updated>
     <published>2026-09-16T20:35:54.000Z</published>
-    <summary>The Photoshop alternative for Mac — ★ 4867 (797.1/day)</summary>
+    <summary>The Photoshop alternative for Mac — ★ 4901 (789.2/day)</summary>
     <author><name>robbietilton</name></author>
   </entry>
   <entry>
@@ -93,7 +93,7 @@
     <link href="https://github.com/TheoLeeCJ/SemIf"/>
     <updated>2026-09-21T20:07:30.000Z</updated>
     <published>2026-09-16T03:51:21.000Z</published>
-    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 3823 (561.9/day)</summary>
+    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 3858 (558.5/day)</summary>
     <author><name>TheoLeeCJ</name></author>
   </entry>
   <entry>
@@ -102,7 +102,7 @@
     <link href="https://github.com/Mak5er/AirCard"/>
     <updated>2026-09-22T21:44:37.000Z</updated>
     <published>2026-09-16T22:20:15.000Z</published>
-    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 2759 (457.3/day)</summary>
+    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 2814 (458.5/day)</summary>
     <author><name>Mak5er</name></author>
   </entry>
   <entry>
@@ -111,7 +111,7 @@
     <link href="https://github.com/mizorewww/laya-coreml"/>
     <updated>2026-09-22T06:33:09.000Z</updated>
     <published>2026-09-19T23:14:13.000Z</published>
-    <summary>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks. — ★ 1280 (427.3/day)</summary>
+    <summary>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks. — ★ 1288 (415.5/day)</summary>
     <author><name>mizorewww</name></author>
   </entry>
   <entry>
@@ -131,24 +131,6 @@
     <published>2026-09-22T20:59:32.000Z</published>
     <summary>No description. — ★ 96 (384.0/day)</summary>
     <author><name>BansheeLight</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TianyuCodings/NanoJev</id>
-    <title>TianyuCodings/NanoJev</title>
-    <link href="https://github.com/TianyuCodings/NanoJev"/>
-    <updated>2026-09-21T09:58:28.000Z</updated>
-    <published>2026-09-17T16:08:30.000Z</published>
-    <summary>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline. — ★ 1993 (376.6/day)</summary>
-    <author><name>TianyuCodings</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/miuuyy/Astra-Ares</id>
-    <title>miuuyy/Astra-Ares</title>
-    <link href="https://github.com/miuuyy/Astra-Ares"/>
-    <updated>2026-09-22T14:21:37.000Z</updated>
-    <published>2026-09-22T14:10:07.000Z</published>
-    <summary>Adaptive reasoning effort for GPT-6 Astra during Codex tasks, powered by Jev to reduce token usage. — ★ 140 (374.6/day)</summary>
-    <author><name>miuuyy</name></author>
   </entry>
   <entry>
     <id>https://github.com/Limestonesureach/ObsidianMD-Desktop</id>
@@ -241,12 +223,48 @@
     <author><name>DrizzleConurePassage</name></author>
   </entry>
   <entry>
+    <id>https://github.com/TianyuCodings/NanoJev</id>
+    <title>TianyuCodings/NanoJev</title>
+    <link href="https://github.com/TianyuCodings/NanoJev"/>
+    <updated>2026-09-21T09:58:28.000Z</updated>
+    <published>2026-09-17T16:08:30.000Z</published>
+    <summary>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline. — ★ 2005 (371.6/day)</summary>
+    <author><name>TianyuCodings</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Beatdesmanor/Spotify-Edition</id>
+    <title>Beatdesmanor/Spotify-Edition</title>
+    <link href="https://github.com/Beatdesmanor/Spotify-Edition"/>
+    <updated>2026-09-22T21:00:38.000Z</updated>
+    <published>2026-09-22T21:00:24.000Z</published>
+    <summary>Streamlined desktop application — ★ 91 (364.0/day)</summary>
+    <author><name>Beatdesmanor</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/LimitRogueCutter58/EtcherCompanion1</id>
+    <title>LimitRogueCutter58/EtcherCompanion1</title>
+    <link href="https://github.com/LimitRogueCutter58/EtcherCompanion1"/>
+    <updated>2026-09-22T21:00:53.000Z</updated>
+    <published>2026-09-22T21:00:38.000Z</published>
+    <summary>Official-style desktop package — ★ 90 (360.0/day)</summary>
+    <author><name>LimitRogueCutter58</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/flagbursarcount/ChromeRemote-Pro</id>
+    <title>flagbursarcount/ChromeRemote-Pro</title>
+    <link href="https://github.com/flagbursarcount/ChromeRemote-Pro"/>
+    <updated>2026-09-22T21:00:54.000Z</updated>
+    <published>2026-09-22T21:00:32.000Z</published>
+    <summary>Desktop edition for power users — ★ 89 (356.0/day)</summary>
+    <author><name>flagbursarcount</name></author>
+  </entry>
+  <entry>
     <id>https://github.com/bespokelabsai/nimble</id>
     <title>bespokelabsai/nimble</title>
     <link href="https://github.com/bespokelabsai/nimble"/>
-    <updated>2026-09-22T22:42:11.000Z</updated>
+    <updated>2026-09-22T23:39:54.000Z</updated>
     <published>2026-09-18T09:07:48.000Z</published>
-    <summary>Local typed decisions, contrastive data curation, and model evaluation. — ★ 1622 (353.9/day)</summary>
+    <summary>Local typed decisions, contrastive data curation, and model evaluation. — ★ 1632 (348.2/day)</summary>
     <author><name>bespokelabsai</name></author>
   </entry>
   <entry>
@@ -255,25 +273,7 @@
     <link href="https://github.com/jarrodwatts/jev-trader"/>
     <updated>2026-09-17T02:48:22.000Z</updated>
     <published>2026-09-16T21:36:20.000Z</published>
-    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 2059 (339.6/day)</summary>
+    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 2072 (335.9/day)</summary>
     <author><name>jarrodwatts</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/mcncarl/jianying-headless</id>
-    <title>mcncarl/jianying-headless</title>
-    <link href="https://github.com/mcncarl/jianying-headless"/>
-    <updated>2026-09-20T06:12:56.000Z</updated>
-    <published>2026-09-15T11:51:15.000Z</published>
-    <summary>Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. — ★ 2445 (327.3/day)</summary>
-    <author><name>mcncarl</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/newliver666/apk-reverse</id>
-    <title>newliver666/apk-reverse</title>
-    <link href="https://github.com/newliver666/apk-reverse"/>
-    <updated>2026-09-22T12:57:12.000Z</updated>
-    <published>2026-09-19T13:12:54.000Z</published>
-    <summary>Suitable for Android APK reverse engineering analysis — ★ 978 (286.5/day)</summary>
-    <author><name>newliver666</name></author>
   </entry>
 </feed>
