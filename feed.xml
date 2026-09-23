@@ -5,15 +5,24 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-23T17:39:06.720Z</updated>
+  <updated>2026-09-23T20:57:22.677Z</updated>
   <entry>
     <id>https://github.com/NandhaKishorM/laya</id>
     <title>NandhaKishorM/laya</title>
     <link href="https://github.com/NandhaKishorM/laya"/>
-    <updated>2026-09-23T16:14:10.000Z</updated>
+    <updated>2026-09-23T18:05:00.000Z</updated>
     <published>2026-09-18T04:46:33.000Z</published>
-    <summary>Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request. — ★ 19838 (3583.1/day)</summary>
+    <summary>Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request. — ★ 20181 (3556.6/day)</summary>
     <author><name>NandhaKishorM</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/SewCabinSpout/cleanupper</id>
+    <title>SewCabinSpout/cleanupper</title>
+    <link href="https://github.com/SewCabinSpout/cleanupper"/>
+    <updated>2026-09-23T17:45:50.000Z</updated>
+    <published>2026-09-23T17:19:45.000Z</published>
+    <summary>🧹 Free, open-source macOS disk cleanup CLI. Scan &amp; safely remove caches, logs, Xcode DerivedData, npm/Homebrew/pip junk and stale node_modules from your terminal. Trash-first, zero telemetry the terminal-native CleanMyMac alternative. — ★ 723 (2892.0/day)</summary>
+    <author><name>SewCabinSpout</name></author>
   </entry>
   <entry>
     <id>https://github.com/browser-use/jev-ultrafast</id>
@@ -21,7 +30,7 @@
     <link href="https://github.com/browser-use/jev-ultrafast"/>
     <updated>2026-09-18T16:28:35.000Z</updated>
     <published>2026-09-16T21:30:12.000Z</published>
-    <summary>Fastest and cheapest web agent — ★ 18937 (2768.8/day)</summary>
+    <summary>Fastest and cheapest web agent — ★ 18995 (2722.4/day)</summary>
     <author><name>browser-use</name></author>
   </entry>
   <entry>
@@ -30,7 +39,7 @@
     <link href="https://github.com/jev-chat/jev-chat-jarvis"/>
     <updated>2026-09-23T12:47:49.000Z</updated>
     <published>2026-09-21T11:12:53.000Z</published>
-    <summary>装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 — ★ 5175 (2281.5/day)</summary>
+    <summary>装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 — ★ 5196 (2159.7/day)</summary>
     <author><name>jev-chat</name></author>
   </entry>
   <entry>
@@ -39,7 +48,7 @@
     <link href="https://github.com/zai-org/ZCode"/>
     <updated>2026-09-23T13:25:04.000Z</updated>
     <published>2026-09-20T12:01:16.000Z</published>
-    <summary>Z.ai&#39;s coding agent harness. Powerful, intelligent, extensible. — ★ 6511 (2012.9/day)</summary>
+    <summary>Z.ai&#39;s coding agent harness. Powerful, intelligent, extensible. — ★ 6524 (1934.6/day)</summary>
     <author><name>zai-org</name></author>
   </entry>
   <entry>
@@ -48,17 +57,8 @@
     <link href="https://github.com/mizorewww/laya-mlx"/>
     <updated>2026-09-22T05:34:51.000Z</updated>
     <published>2026-09-19T13:50:26.000Z</published>
-    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. — ★ 5866 (1410.5/day)</summary>
+    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. — ★ 5917 (1377.2/day)</summary>
     <author><name>mizorewww</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/riba2534/claude-opus-5-5-demo</id>
-    <title>riba2534/claude-opus-5-5-demo</title>
-    <link href="https://github.com/riba2534/claude-opus-5-5-demo"/>
-    <updated>2026-09-23T07:54:16.000Z</updated>
-    <published>2026-09-23T06:31:00.000Z</published>
-    <summary>claude-opus-5-5-demo — ★ 520 (1120.8/day)</summary>
-    <author><name>riba2534</name></author>
   </entry>
   <entry>
     <id>https://github.com/tamaratran/fast-jev-compaction</id>
@@ -66,26 +66,44 @@
     <link href="https://github.com/tamaratran/fast-jev-compaction"/>
     <updated>2026-09-18T04:45:31.000Z</updated>
     <published>2026-09-17T05:57:20.000Z</published>
-    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 6513 (1004.0/day)</summary>
+    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 6545 (987.9/day)</summary>
     <author><name>tamaratran</name></author>
   </entry>
   <entry>
     <id>https://github.com/jaredpalmer/kev</id>
     <title>jaredpalmer/kev</title>
     <link href="https://github.com/jaredpalmer/kev"/>
-    <updated>2026-09-23T12:40:23.000Z</updated>
+    <updated>2026-09-23T20:50:53.000Z</updated>
     <published>2026-09-17T20:49:39.000Z</published>
-    <summary>tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own — ★ 5658 (964.3/day)</summary>
+    <summary>tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own — ★ 5865 (976.6/day)</summary>
     <author><name>jaredpalmer</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/riba2534/claude-opus-5-5-demo</id>
+    <title>riba2534/claude-opus-5-5-demo</title>
+    <link href="https://github.com/riba2534/claude-opus-5-5-demo"/>
+    <updated>2026-09-23T07:54:16.000Z</updated>
+    <published>2026-09-23T06:31:00.000Z</published>
+    <summary>claude-opus-5-5-demo — ★ 533 (885.9/day)</summary>
+    <author><name>riba2534</name></author>
   </entry>
   <entry>
     <id>https://github.com/unreallabsai/unreal-agent</id>
     <title>unreallabsai/unreal-agent</title>
     <link href="https://github.com/unreallabsai/unreal-agent"/>
-    <updated>2026-09-23T17:34:13.000Z</updated>
+    <updated>2026-09-23T19:08:26.000Z</updated>
     <published>2026-09-21T23:14:02.000Z</published>
-    <summary>Async-first agent harness — ★ 1607 (909.2/day)</summary>
+    <summary>Async-first agent harness — ★ 1681 (882.4/day)</summary>
     <author><name>unreallabsai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/robbietilton/Compositor</id>
+    <title>robbietilton/Compositor</title>
+    <link href="https://github.com/robbietilton/Compositor"/>
+    <updated>2026-09-23T20:39:22.000Z</updated>
+    <published>2026-09-16T20:35:54.000Z</published>
+    <summary>The Photoshop alternative for Mac — ★ 5182 (738.7/day)</summary>
+    <author><name>robbietilton</name></author>
   </entry>
   <entry>
     <id>https://github.com/BridgeDruidCompress/TauriKit</id>
@@ -93,7 +111,7 @@
     <link href="https://github.com/BridgeDruidCompress/TauriKit"/>
     <updated>2026-09-23T11:22:07.000Z</updated>
     <published>2026-09-23T11:21:48.000Z</published>
-    <summary>Modern UI component kit for Rust desktop applications — ★ 223 (851.1/day)</summary>
+    <summary>Modern UI component kit for Rust desktop applications — ★ 223 (557.9/day)</summary>
     <author><name>BridgeDruidCompress</name></author>
   </entry>
   <entry>
@@ -102,7 +120,7 @@
     <link href="https://github.com/BufferHerald/WarpLite"/>
     <updated>2026-09-23T11:22:18.000Z</updated>
     <published>2026-09-23T11:21:52.000Z</published>
-    <summary>Fast GPU-accelerated terminal and shell experience — ★ 222 (847.4/day)</summary>
+    <summary>Fast GPU-accelerated terminal and shell experience — ★ 222 (555.5/day)</summary>
     <author><name>BufferHerald</name></author>
   </entry>
   <entry>
@@ -111,7 +129,7 @@
     <link href="https://github.com/BricklayerSurmount/DockForge"/>
     <updated>2026-09-23T11:22:02.000Z</updated>
     <published>2026-09-23T11:21:45.000Z</published>
-    <summary>Flexible dock and panel layout system for desktop apps — ★ 222 (847.1/day)</summary>
+    <summary>Flexible dock and panel layout system for desktop apps — ★ 222 (555.4/day)</summary>
     <author><name>BricklayerSurmount</name></author>
   </entry>
   <entry>
@@ -120,7 +138,7 @@
     <link href="https://github.com/BinaryDeliverer/CodexDesk"/>
     <updated>2026-09-23T11:22:00.000Z</updated>
     <published>2026-09-23T11:21:44.000Z</published>
-    <summary>Desktop companion for AI coding agents and Codex workflows — ★ 222 (847.1/day)</summary>
+    <summary>Desktop companion for AI coding agents and Codex workflows — ★ 222 (555.3/day)</summary>
     <author><name>BinaryDeliverer</name></author>
   </entry>
   <entry>
@@ -129,7 +147,7 @@
     <link href="https://github.com/AutocratGirder/ClashDesk"/>
     <updated>2026-09-23T11:22:01.000Z</updated>
     <published>2026-09-23T11:21:44.000Z</published>
-    <summary>Modern cross-platform desktop client for proxy workflows — ★ 222 (847.1/day)</summary>
+    <summary>Modern cross-platform desktop client for proxy workflows — ★ 222 (555.3/day)</summary>
     <author><name>AutocratGirder</name></author>
   </entry>
   <entry>
@@ -138,7 +156,7 @@
     <link href="https://github.com/centralcashierboost/ZedLite"/>
     <updated>2026-09-23T11:22:14.000Z</updated>
     <published>2026-09-23T11:21:50.000Z</published>
-    <summary>Lightweight high-performance code editor built with Rust — ★ 221 (843.5/day)</summary>
+    <summary>Lightweight high-performance code editor built with Rust — ★ 221 (552.9/day)</summary>
     <author><name>centralcashierboost</name></author>
   </entry>
   <entry>
@@ -147,7 +165,7 @@
     <link href="https://github.com/CassowaryDevelop/HelixEdit"/>
     <updated>2026-09-23T11:22:09.000Z</updated>
     <published>2026-09-23T11:21:48.000Z</published>
-    <summary>Modal code editor with LSP support written in Rust — ★ 221 (843.4/day)</summary>
+    <summary>Modal code editor with LSP support written in Rust — ★ 221 (552.9/day)</summary>
     <author><name>CassowaryDevelop</name></author>
   </entry>
   <entry>
@@ -156,7 +174,7 @@
     <link href="https://github.com/Behemothlyaoscillate/RustDeskPro"/>
     <updated>2026-09-23T11:22:03.000Z</updated>
     <published>2026-09-23T11:21:46.000Z</published>
-    <summary>Self-hosted remote desktop client for teams — ★ 221 (843.4/day)</summary>
+    <summary>Self-hosted remote desktop client for teams — ★ 221 (552.9/day)</summary>
     <author><name>Behemothlyaoscillate</name></author>
   </entry>
   <entry>
@@ -165,25 +183,16 @@
     <link href="https://github.com/AvenueSnowStep/ClaudePanel"/>
     <updated>2026-09-23T11:22:02.000Z</updated>
     <published>2026-09-23T11:21:45.000Z</published>
-    <summary>Desktop panel and toolkit for Claude and AI assistants — ★ 221 (843.3/day)</summary>
+    <summary>Desktop panel and toolkit for Claude and AI assistants — ★ 221 (552.9/day)</summary>
     <author><name>AvenueSnowStep</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/robbietilton/Compositor</id>
-    <title>robbietilton/Compositor</title>
-    <link href="https://github.com/robbietilton/Compositor"/>
-    <updated>2026-09-23T16:26:17.000Z</updated>
-    <published>2026-09-16T20:35:54.000Z</published>
-    <summary>The Photoshop alternative for Mac — ★ 5160 (750.3/day)</summary>
-    <author><name>robbietilton</name></author>
   </entry>
   <entry>
     <id>https://github.com/TheoLeeCJ/SemIf-OpenJev</id>
     <title>TheoLeeCJ/SemIf-OpenJev</title>
     <link href="https://github.com/TheoLeeCJ/SemIf-OpenJev"/>
-    <updated>2026-09-21T20:07:30.000Z</updated>
+    <updated>2026-09-23T18:48:22.000Z</updated>
     <published>2026-09-16T03:51:21.000Z</published>
-    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 4052 (534.9/day)</summary>
+    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 4081 (529.1/day)</summary>
     <author><name>TheoLeeCJ</name></author>
   </entry>
   <entry>
@@ -192,7 +201,7 @@
     <link href="https://github.com/Mak5er/AirCard"/>
     <updated>2026-09-22T21:44:37.000Z</updated>
     <published>2026-09-16T22:20:15.000Z</published>
-    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 3331 (489.5/day)</summary>
+    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 3386 (487.7/day)</summary>
     <author><name>Mak5er</name></author>
   </entry>
   <entry>
@@ -201,7 +210,7 @@
     <link href="https://github.com/kryvora-network/kryvora-node"/>
     <updated>2026-09-22T19:02:39.000Z</updated>
     <published>2026-09-22T16:10:23.000Z</published>
-    <summary>Reference client daemon and verification worker for Kryvora Network nodes. — ★ 471 (443.7/day)</summary>
+    <summary>Reference client daemon and verification worker for Kryvora Network nodes. — ★ 488 (406.9/day)</summary>
     <author><name>kryvora-network</name></author>
   </entry>
   <entry>
@@ -210,7 +219,7 @@
     <link href="https://github.com/mizorewww/laya-coreml"/>
     <updated>2026-09-22T06:33:09.000Z</updated>
     <published>2026-09-19T23:14:13.000Z</published>
-    <summary>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks. — ★ 1383 (367.1/day)</summary>
+    <summary>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks. — ★ 1391 (356.2/day)</summary>
     <author><name>mizorewww</name></author>
   </entry>
   <entry>
@@ -219,7 +228,7 @@
     <link href="https://github.com/JohnHeibel/PDoomVideo"/>
     <updated>2026-09-22T23:48:41.000Z</updated>
     <published>2026-09-22T23:32:19.000Z</published>
-    <summary>Source code for the Claude Opus 5.5 music video for I&#39;m Upping My P(doom) — ★ 263 (348.5/day)</summary>
+    <summary>Source code for the Claude Opus 5.5 music video for I&#39;m Upping My P(doom) — ★ 304 (340.7/day)</summary>
     <author><name>JohnHeibel</name></author>
   </entry>
   <entry>
@@ -228,7 +237,7 @@
     <link href="https://github.com/TianyuCodings/NanoJev"/>
     <updated>2026-09-21T09:58:28.000Z</updated>
     <published>2026-09-17T16:08:30.000Z</published>
-    <summary>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline. — ★ 2101 (346.5/day)</summary>
+    <summary>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline. — ★ 2109 (340.1/day)</summary>
     <author><name>TianyuCodings</name></author>
   </entry>
   <entry>
@@ -237,16 +246,16 @@
     <link href="https://github.com/jarrodwatts/jev-trader"/>
     <updated>2026-09-17T02:48:22.000Z</updated>
     <published>2026-09-16T21:36:20.000Z</published>
-    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 2159 (315.9/day)</summary>
+    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 2170 (311.2/day)</summary>
     <author><name>jarrodwatts</name></author>
   </entry>
   <entry>
     <id>https://github.com/bespokelabsai/nimble</id>
     <title>bespokelabsai/nimble</title>
     <link href="https://github.com/bespokelabsai/nimble"/>
-    <updated>2026-09-23T05:22:26.000Z</updated>
+    <updated>2026-09-23T18:49:37.000Z</updated>
     <published>2026-09-18T09:07:48.000Z</published>
-    <summary>Local typed decisions, contrastive data curation, and model evaluation. — ★ 1675 (312.8/day)</summary>
+    <summary>Local typed decisions, contrastive data curation, and model evaluation. — ★ 1678 (305.5/day)</summary>
     <author><name>bespokelabsai</name></author>
   </entry>
   <entry>
@@ -255,7 +264,7 @@
     <link href="https://github.com/mcncarl/jianying-headless"/>
     <updated>2026-09-23T13:01:49.000Z</updated>
     <published>2026-09-15T11:51:15.000Z</published>
-    <summary>Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. — ★ 2477 (300.5/day)</summary>
+    <summary>Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. — ★ 2478 (295.7/day)</summary>
     <author><name>mcncarl</name></author>
   </entry>
   <entry>
@@ -264,16 +273,7 @@
     <link href="https://github.com/newliver666/apk-reverse"/>
     <updated>2026-09-22T12:57:12.000Z</updated>
     <published>2026-09-19T13:12:54.000Z</published>
-    <summary>Suitable for Android APK reverse engineering analysis — ★ 1245 (297.5/day)</summary>
+    <summary>Suitable for Android APK reverse engineering analysis — ★ 1260 (291.5/day)</summary>
     <author><name>newliver666</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/anishfn/shapeshift</id>
-    <title>anishfn/shapeshift</title>
-    <link href="https://github.com/anishfn/shapeshift"/>
-    <updated>2026-09-23T11:25:46.000Z</updated>
-    <published>2026-09-22T08:52:32.000Z</published>
-    <summary>An input that becomes what you mean: one text box that morphs into the right UI as you type. Powered by TypeSafe Jev, works offline. — ★ 334 (244.6/day)</summary>
-    <author><name>anishfn</name></author>
   </entry>
 </feed>
