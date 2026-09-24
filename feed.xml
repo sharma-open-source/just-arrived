@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-24T12:49:36.568Z</updated>
+  <updated>2026-09-24T17:42:30.393Z</updated>
   <entry>
     <id>https://github.com/NandhaKishorM/laya</id>
     <title>NandhaKishorM/laya</title>
     <link href="https://github.com/NandhaKishorM/laya"/>
-    <updated>2026-09-24T05:39:18.000Z</updated>
+    <updated>2026-09-24T17:22:53.000Z</updated>
     <published>2026-09-18T04:46:33.000Z</published>
-    <summary>Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request. — ★ 22062 (3482.3/day)</summary>
+    <summary>Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request. — ★ 22606 (3457.2/day)</summary>
     <author><name>NandhaKishorM</name></author>
   </entry>
   <entry>
@@ -21,16 +21,16 @@
     <link href="https://github.com/browser-use/jev-ultrafast"/>
     <updated>2026-09-18T16:28:35.000Z</updated>
     <published>2026-09-16T21:30:12.000Z</published>
-    <summary>Fastest and cheapest web agent — ★ 19524 (2556.0/day)</summary>
+    <summary>Fastest and cheapest web agent — ★ 19684 (2510.1/day)</summary>
     <author><name>browser-use</name></author>
   </entry>
   <entry>
     <id>https://github.com/jev-chat/jev-chat-jarvis</id>
     <title>jev-chat/jev-chat-jarvis</title>
     <link href="https://github.com/jev-chat/jev-chat-jarvis"/>
-    <updated>2026-09-24T08:57:11.000Z</updated>
+    <updated>2026-09-24T17:30:24.000Z</updated>
     <published>2026-09-21T11:12:53.000Z</published>
-    <summary>装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 — ★ 5677 (1850.9/day)</summary>
+    <summary>装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 — ★ 5942 (1816.8/day)</summary>
     <author><name>jev-chat</name></author>
   </entry>
   <entry>
@@ -39,7 +39,7 @@
     <link href="https://github.com/zai-org/ZCode"/>
     <updated>2026-09-24T06:49:55.000Z</updated>
     <published>2026-09-20T12:01:16.000Z</published>
-    <summary>Z.ai&#39;s coding agent harness. Powerful, intelligent, extensible. — ★ 6661 (1651.4/day)</summary>
+    <summary>Z.ai&#39;s coding agent harness. Powerful, intelligent, extensible. — ★ 6688 (1578.5/day)</summary>
     <author><name>zai-org</name></author>
   </entry>
   <entry>
@@ -48,16 +48,16 @@
     <link href="https://github.com/mizorewww/laya-mlx"/>
     <updated>2026-09-22T05:34:51.000Z</updated>
     <published>2026-09-19T13:50:26.000Z</published>
-    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. — ★ 6138 (1238.1/day)</summary>
+    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. — ★ 6174 (1196.2/day)</summary>
     <author><name>mizorewww</name></author>
   </entry>
   <entry>
     <id>https://github.com/jaredpalmer/kev</id>
     <title>jaredpalmer/kev</title>
     <link href="https://github.com/jaredpalmer/kev"/>
-    <updated>2026-09-24T12:23:20.000Z</updated>
+    <updated>2026-09-24T17:32:57.000Z</updated>
     <published>2026-09-17T20:49:39.000Z</published>
-    <summary>tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own — ★ 6569 (985.4/day)</summary>
+    <summary>Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own — ★ 6668 (970.6/day)</summary>
     <author><name>jaredpalmer</name></author>
   </entry>
   <entry>
@@ -66,53 +66,8 @@
     <link href="https://github.com/tamaratran/fast-jev-compaction"/>
     <updated>2026-09-18T04:45:31.000Z</updated>
     <published>2026-09-17T05:57:20.000Z</published>
-    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 6669 (915.3/day)</summary>
+    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 6692 (893.5/day)</summary>
     <author><name>tamaratran</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/unreallabsai/unreal-agent</id>
-    <title>unreallabsai/unreal-agent</title>
-    <link href="https://github.com/unreallabsai/unreal-agent"/>
-    <updated>2026-09-23T19:08:26.000Z</updated>
-    <published>2026-09-21T23:14:02.000Z</published>
-    <summary>Async-first agent harness — ★ 1835 (715.0/day)</summary>
-    <author><name>unreallabsai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/robbietilton/Compositor</id>
-    <title>robbietilton/Compositor</title>
-    <link href="https://github.com/robbietilton/Compositor"/>
-    <updated>2026-09-24T04:17:16.000Z</updated>
-    <published>2026-09-16T20:35:54.000Z</published>
-    <summary>The Photoshop alternative for Mac — ★ 5344 (696.2/day)</summary>
-    <author><name>robbietilton</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Contrastive-LM/CLM</id>
-    <title>Contrastive-LM/CLM</title>
-    <link href="https://github.com/Contrastive-LM/CLM"/>
-    <updated>2026-09-24T10:09:29.000Z</updated>
-    <published>2026-09-23T19:29:56.000Z</published>
-    <summary>No description. — ★ 454 (628.8/day)</summary>
-    <author><name>Contrastive-LM</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/riba2534/claude-opus-5-5-demo</id>
-    <title>riba2534/claude-opus-5-5-demo</title>
-    <link href="https://github.com/riba2534/claude-opus-5-5-demo"/>
-    <updated>2026-09-23T07:54:16.000Z</updated>
-    <published>2026-09-23T06:31:00.000Z</published>
-    <summary>claude-opus-5-5-demo — ★ 749 (593.1/day)</summary>
-    <author><name>riba2534</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/yetone/magpie</id>
-    <title>yetone/magpie</title>
-    <link href="https://github.com/yetone/magpie"/>
-    <updated>2026-09-24T12:34:56.000Z</updated>
-    <published>2026-09-23T16:22:35.000Z</published>
-    <summary>Every agent&#39;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. — ★ 475 (557.4/day)</summary>
-    <author><name>yetone</name></author>
   </entry>
   <entry>
     <id>https://github.com/mikehasa/golive-skill</id>
@@ -120,8 +75,53 @@
     <link href="https://github.com/mikehasa/golive-skill"/>
     <updated>2026-09-24T12:28:50.000Z</updated>
     <published>2026-09-23T13:37:26.000Z</published>
-    <summary>Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. — ★ 498 (515.1/day)</summary>
+    <summary>Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. — ★ 826 (705.9/day)</summary>
     <author><name>mikehasa</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Contrastive-LM/CLM</id>
+    <title>Contrastive-LM/CLM</title>
+    <link href="https://github.com/Contrastive-LM/CLM"/>
+    <updated>2026-09-24T10:09:29.000Z</updated>
+    <published>2026-09-23T19:29:56.000Z</published>
+    <summary>No description. — ★ 648 (700.2/day)</summary>
+    <author><name>Contrastive-LM</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/robbietilton/Compositor</id>
+    <title>robbietilton/Compositor</title>
+    <link href="https://github.com/robbietilton/Compositor"/>
+    <updated>2026-09-24T17:18:15.000Z</updated>
+    <published>2026-09-16T20:35:54.000Z</published>
+    <summary>The Photoshop alternative for Mac — ★ 5372 (681.8/day)</summary>
+    <author><name>robbietilton</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/unreallabsai/unreal-agent</id>
+    <title>unreallabsai/unreal-agent</title>
+    <link href="https://github.com/unreallabsai/unreal-agent"/>
+    <updated>2026-09-23T19:08:26.000Z</updated>
+    <published>2026-09-21T23:14:02.000Z</published>
+    <summary>Async-first agent harness — ★ 1860 (671.5/day)</summary>
+    <author><name>unreallabsai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/yetone/magpie</id>
+    <title>yetone/magpie</title>
+    <link href="https://github.com/yetone/magpie"/>
+    <updated>2026-09-24T17:40:08.000Z</updated>
+    <published>2026-09-23T16:22:35.000Z</published>
+    <summary>Every agent&#39;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. — ★ 560 (530.6/day)</summary>
+    <author><name>yetone</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/riba2534/claude-opus-5-5-demo</id>
+    <title>riba2534/claude-opus-5-5-demo</title>
+    <link href="https://github.com/riba2534/claude-opus-5-5-demo"/>
+    <updated>2026-09-23T07:54:16.000Z</updated>
+    <published>2026-09-23T06:31:00.000Z</published>
+    <summary>claude-opus-5-5-demo — ★ 769 (524.4/day)</summary>
+    <author><name>riba2534</name></author>
   </entry>
   <entry>
     <id>https://github.com/Mak5er/AirCard</id>
@@ -129,7 +129,7 @@
     <link href="https://github.com/Mak5er/AirCard"/>
     <updated>2026-09-22T21:44:37.000Z</updated>
     <published>2026-09-16T22:20:15.000Z</published>
-    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 3828 (503.4/day)</summary>
+    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 3893 (498.6/day)</summary>
     <author><name>Mak5er</name></author>
   </entry>
   <entry>
@@ -138,17 +138,8 @@
     <link href="https://github.com/TheoLeeCJ/SemIf-OpenJev"/>
     <updated>2026-09-23T18:48:22.000Z</updated>
     <published>2026-09-16T03:51:21.000Z</published>
-    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 4183 (499.5/day)</summary>
+    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 4207 (490.5/day)</summary>
     <author><name>TheoLeeCJ</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/samyost1/3dicon</id>
-    <title>samyost1/3dicon</title>
-    <link href="https://github.com/samyost1/3dicon"/>
-    <updated>2026-09-23T18:15:55.000Z</updated>
-    <published>2026-09-23T18:04:25.000Z</published>
-    <summary>One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill. — ★ 313 (400.6/day)</summary>
-    <author><name>samyost1</name></author>
   </entry>
   <entry>
     <id>https://github.com/dgreenheck/tidewater</id>
@@ -156,8 +147,17 @@
     <link href="https://github.com/dgreenheck/tidewater"/>
     <updated>2026-09-24T05:51:14.000Z</updated>
     <published>2026-09-23T21:40:29.000Z</published>
-    <summary>Coastal town built with Opus 5.5 — ★ 233 (369.1/day)</summary>
+    <summary>Coastal town built with Opus 5.5 — ★ 318 (381.0/day)</summary>
     <author><name>dgreenheck</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/samyost1/3dicon</id>
+    <title>samyost1/3dicon</title>
+    <link href="https://github.com/samyost1/3dicon"/>
+    <updated>2026-09-23T18:15:55.000Z</updated>
+    <published>2026-09-23T18:04:25.000Z</published>
+    <summary>One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill. — ★ 362 (367.6/day)</summary>
+    <author><name>samyost1</name></author>
   </entry>
   <entry>
     <id>https://github.com/JohnHeibel/PDoomVideo</id>
@@ -165,8 +165,17 @@
     <link href="https://github.com/JohnHeibel/PDoomVideo"/>
     <updated>2026-09-23T21:50:55.000Z</updated>
     <published>2026-09-22T23:32:19.000Z</published>
-    <summary>Source code for the Claude Opus 5.5 music video for I&#39;m Upping My P(doom) — ★ 556 (357.9/day)</summary>
+    <summary>Source code for the Claude Opus 5.5 music video for I&#39;m Upping My P(doom) — ★ 636 (362.0/day)</summary>
     <author><name>JohnHeibel</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/michaelswissa/jevry</id>
+    <title>michaelswissa/jevry</title>
+    <link href="https://github.com/michaelswissa/jevry"/>
+    <updated>2026-09-24T14:18:14.000Z</updated>
+    <published>2026-09-24T10:44:35.000Z</published>
+    <summary>Your browser. Ready to act. An MIT-licensed desktop browser agent for website tasks, cited research, and supported games. — ★ 99 (341.1/day)</summary>
+    <author><name>michaelswissa</name></author>
   </entry>
   <entry>
     <id>https://github.com/kryvora-network/kryvora-node</id>
@@ -174,17 +183,8 @@
     <link href="https://github.com/kryvora-network/kryvora-node"/>
     <updated>2026-09-22T19:02:39.000Z</updated>
     <published>2026-09-22T16:10:23.000Z</published>
-    <summary>Reference client daemon and verification worker for Kryvora Network nodes. — ★ 637 (342.4/day)</summary>
+    <summary>Reference client daemon and verification worker for Kryvora Network nodes. — ★ 684 (331.4/day)</summary>
     <author><name>kryvora-network</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/saragordic/rooms</id>
-    <title>saragordic/rooms</title>
-    <link href="https://github.com/saragordic/rooms"/>
-    <updated>2026-09-24T01:44:06.000Z</updated>
-    <published>2026-09-23T21:35:54.000Z</published>
-    <summary>Switch between projects on your Mac. Every project is a room: its windows, laid out, one shortcut away. — ★ 205 (323.1/day)</summary>
-    <author><name>saragordic</name></author>
   </entry>
   <entry>
     <id>https://github.com/TianyuCodings/NanoJev</id>
@@ -192,7 +192,7 @@
     <link href="https://github.com/TianyuCodings/NanoJev"/>
     <updated>2026-09-21T09:58:28.000Z</updated>
     <published>2026-09-17T16:08:30.000Z</published>
-    <summary>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline. — ★ 2170 (316.2/day)</summary>
+    <summary>A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline. — ★ 2184 (309.1/day)</summary>
     <author><name>TianyuCodings</name></author>
   </entry>
   <entry>
@@ -201,8 +201,17 @@
     <link href="https://github.com/mizorewww/laya-coreml"/>
     <updated>2026-09-22T06:33:09.000Z</updated>
     <published>2026-09-19T23:14:13.000Z</published>
-    <summary>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks. — ★ 1405 (307.7/day)</summary>
+    <summary>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks. — ★ 1419 (297.5/day)</summary>
     <author><name>mizorewww</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/saragordic/rooms</id>
+    <title>saragordic/rooms</title>
+    <link href="https://github.com/saragordic/rooms"/>
+    <updated>2026-09-24T01:44:06.000Z</updated>
+    <published>2026-09-23T21:35:54.000Z</published>
+    <summary>Switch between projects on your Mac. Every project is a room: its windows, laid out, one shortcut away. — ★ 246 (293.6/day)</summary>
+    <author><name>saragordic</name></author>
   </entry>
   <entry>
     <id>https://github.com/jarrodwatts/jev-trader</id>
@@ -210,8 +219,17 @@
     <link href="https://github.com/jarrodwatts/jev-trader"/>
     <updated>2026-09-17T02:48:22.000Z</updated>
     <published>2026-09-16T21:36:20.000Z</published>
-    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 2261 (296.2/day)</summary>
+    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 2299 (293.3/day)</summary>
     <author><name>jarrodwatts</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/deepopen-com/deepopen</id>
+    <title>deepopen-com/deepopen</title>
+    <link href="https://github.com/deepopen-com/deepopen"/>
+    <updated>2026-09-23T02:09:58.000Z</updated>
+    <published>2026-09-21T02:12:24.000Z</published>
+    <summary>非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine.  — ★ 993 (272.4/day)</summary>
+    <author><name>deepopen-com</name></author>
   </entry>
   <entry>
     <id>https://github.com/newliver666/apk-reverse</id>
@@ -219,7 +237,7 @@
     <link href="https://github.com/newliver666/apk-reverse"/>
     <updated>2026-09-24T09:22:21.000Z</updated>
     <published>2026-09-19T13:12:54.000Z</published>
-    <summary>Suitable for Android APK reverse engineering analysis — ★ 1399 (280.7/day)</summary>
+    <summary>Suitable for Android APK reverse engineering analysis — ★ 1411 (272.0/day)</summary>
     <author><name>newliver666</name></author>
   </entry>
   <entry>
@@ -228,7 +246,7 @@
     <link href="https://github.com/bespokelabsai/nimble"/>
     <updated>2026-09-24T06:05:31.000Z</updated>
     <published>2026-09-18T09:07:48.000Z</published>
-    <summary>Local typed decisions, contrastive data curation, and model evaluation. — ★ 1717 (279.0/day)</summary>
+    <summary>Local typed decisions, contrastive data curation, and model evaluation. — ★ 1723 (271.0/day)</summary>
     <author><name>bespokelabsai</name></author>
   </entry>
   <entry>
@@ -237,16 +255,16 @@
     <link href="https://github.com/mcncarl/jianying-headless"/>
     <updated>2026-09-24T12:42:40.000Z</updated>
     <published>2026-09-15T11:51:15.000Z</published>
-    <summary>Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. — ★ 2492 (275.6/day)</summary>
+    <summary>Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. — ★ 2493 (269.7/day)</summary>
     <author><name>mcncarl</name></author>
   </entry>
   <entry>
     <id>https://github.com/driceroland/Search</id>
     <title>driceroland/Search</title>
     <link href="https://github.com/driceroland/Search"/>
-    <updated>2026-09-24T12:47:37.000Z</updated>
+    <updated>2026-09-24T16:11:57.000Z</updated>
     <published>2026-09-20T10:29:47.000Z</published>
-    <summary>A small, fast WebKit browser for macOS, by Office Commun. — ★ 1015 (247.7/day)</summary>
+    <summary>A small, fast WebKit browser for macOS, by Office Commun. — ★ 1130 (262.8/day)</summary>
     <author><name>driceroland</name></author>
   </entry>
   <entry>
@@ -255,25 +273,7 @@
     <link href="https://github.com/anishfn/shapeshift"/>
     <updated>2026-09-23T23:57:19.000Z</updated>
     <published>2026-09-22T08:52:32.000Z</published>
-    <summary>An input that becomes what you mean: one text box that morphs into the right UI as you type. Powered by TypeSafe Jev, works offline. — ★ 501 (231.4/day)</summary>
+    <summary>An input that becomes what you mean: one text box that morphs into the right UI as you type. Powered by TypeSafe Jev, works offline. — ★ 549 (231.8/day)</summary>
     <author><name>anishfn</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/yibie/awesome-jev</id>
-    <title>yibie/awesome-jev</title>
-    <link href="https://github.com/yibie/awesome-jev"/>
-    <updated>2026-09-24T07:05:03.000Z</updated>
-    <published>2026-09-17T14:23:21.000Z</published>
-    <summary>A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI&#39;s System One model for typed decisions. — ★ 1577 (227.4/day)</summary>
-    <author><name>yibie</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CopilotKit/openmuse</id>
-    <title>CopilotKit/openmuse</title>
-    <link href="https://github.com/CopilotKit/openmuse"/>
-    <updated>2026-09-24T11:07:07.000Z</updated>
-    <published>2026-09-15T16:05:44.000Z</published>
-    <summary>A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI. — ★ 1962 (221.3/day)</summary>
-    <author><name>CopilotKit</name></author>
   </entry>
 </feed>
