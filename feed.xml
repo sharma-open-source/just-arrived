@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-09-29T05:58:44.247Z</updated>
+  <updated>2026-09-29T12:11:02.405Z</updated>
   <entry>
     <id>https://github.com/KKKKhazix/AIHOT</id>
     <title>KKKKhazix/AIHOT</title>
     <link href="https://github.com/KKKKhazix/AIHOT"/>
-    <updated>2026-09-29T00:06:43.000Z</updated>
+    <updated>2026-09-29T08:07:47.000Z</updated>
     <published>2026-09-28T23:40:05.000Z</published>
-    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 1528 (5810.9/day)</summary>
+    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 2400 (4602.1/day)</summary>
     <author><name>KKKKhazix</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/NandhaKishorM/laya"/>
     <updated>2026-09-27T19:38:50.000Z</updated>
     <published>2026-09-18T04:46:33.000Z</published>
-    <summary>Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request. — ★ 27900 (2524.9/day)</summary>
+    <summary>Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request. — ★ 28145 (2488.8/day)</summary>
     <author><name>NandhaKishorM</name></author>
   </entry>
   <entry>
@@ -30,7 +30,7 @@
     <link href="https://github.com/browser-use/jev-ultrafast"/>
     <updated>2026-09-25T04:06:12.000Z</updated>
     <published>2026-09-16T21:30:12.000Z</published>
-    <summary>Fastest and cheapest web agent — ★ 21216 (1717.5/day)</summary>
+    <summary>Fastest and cheapest web agent — ★ 21294 (1688.4/day)</summary>
     <author><name>browser-use</name></author>
   </entry>
   <entry>
@@ -39,17 +39,8 @@
     <link href="https://github.com/firelex/jeff"/>
     <updated>2026-09-29T05:33:18.000Z</updated>
     <published>2026-09-28T16:18:39.000Z</published>
-    <summary>Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification — ★ 567 (995.6/day)</summary>
+    <summary>Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification — ★ 831 (1003.6/day)</summary>
     <author><name>firelex</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/tileshoutdipper/Discord-Booster-Server</id>
-    <title>tileshoutdipper/Discord-Booster-Server</title>
-    <link href="https://github.com/tileshoutdipper/Discord-Booster-Server"/>
-    <updated>2026-09-28T19:14:53.000Z</updated>
-    <published>2026-09-28T19:00:39.000Z</published>
-    <summary>Discord Server Booster — Open-source automation tool and bot script designed to manage, track, and optimize Discord server boost perks role rewards, and community engagement. — ★ 412 (901.5/day)</summary>
-    <author><name>tileshoutdipper</name></author>
   </entry>
   <entry>
     <id>https://github.com/jev-chat/jev-chat-jarvis</id>
@@ -57,17 +48,26 @@
     <link href="https://github.com/jev-chat/jev-chat-jarvis"/>
     <updated>2026-09-28T02:52:28.000Z</updated>
     <published>2026-09-21T11:12:53.000Z</published>
-    <summary>装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 — ★ 6993 (898.6/day)</summary>
+    <summary>装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 — ★ 7065 (878.7/day)</summary>
     <author><name>jev-chat</name></author>
   </entry>
   <entry>
     <id>https://github.com/zai-org/ZCode</id>
     <title>zai-org/ZCode</title>
     <link href="https://github.com/zai-org/ZCode"/>
-    <updated>2026-09-24T06:49:55.000Z</updated>
+    <updated>2026-09-29T10:06:54.000Z</updated>
     <published>2026-09-20T12:01:16.000Z</published>
-    <summary>Z.ai&#39;s coding agent harness. Powerful, intelligent, extensible. — ★ 7081 (809.4/day)</summary>
+    <summary>Z.ai&#39;s coding agent harness. Powerful, intelligent, extensible. — ★ 7137 (792.4/day)</summary>
     <author><name>zai-org</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/jaredpalmer/kev</id>
+    <title>jaredpalmer/kev</title>
+    <link href="https://github.com/jaredpalmer/kev"/>
+    <updated>2026-09-29T11:26:40.000Z</updated>
+    <published>2026-09-17T20:49:39.000Z</published>
+    <summary>Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own — ★ 7792 (669.4/day)</summary>
+    <author><name>jaredpalmer</name></author>
   </entry>
   <entry>
     <id>https://github.com/mizorewww/laya-mlx</id>
@@ -75,17 +75,17 @@
     <link href="https://github.com/mizorewww/laya-mlx"/>
     <updated>2026-09-22T05:34:51.000Z</updated>
     <published>2026-09-19T13:50:26.000Z</published>
-    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. — ★ 6590 (681.3/day)</summary>
+    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. — ★ 6610 (665.6/day)</summary>
     <author><name>mizorewww</name></author>
   </entry>
   <entry>
-    <id>https://github.com/jaredpalmer/kev</id>
-    <title>jaredpalmer/kev</title>
-    <link href="https://github.com/jaredpalmer/kev"/>
-    <updated>2026-09-29T04:13:21.000Z</updated>
-    <published>2026-09-17T20:49:39.000Z</published>
-    <summary>Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own — ★ 7697 (676.3/day)</summary>
-    <author><name>jaredpalmer</name></author>
+    <id>https://github.com/wy51ai/floorplan-3d</id>
+    <title>wy51ai/floorplan-3d</title>
+    <link href="https://github.com/wy51ai/floorplan-3d"/>
+    <updated>2026-09-29T08:13:14.000Z</updated>
+    <published>2026-09-29T02:57:30.000Z</published>
+    <summary>No description. — ★ 250 (650.4/day)</summary>
+    <author><name>wy51ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/tamaratran/fast-jev-compaction</id>
@@ -93,17 +93,17 @@
     <link href="https://github.com/tamaratran/fast-jev-compaction"/>
     <updated>2026-09-18T04:45:31.000Z</updated>
     <published>2026-09-17T05:57:20.000Z</published>
-    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 7156 (596.3/day)</summary>
+    <summary>Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. — ★ 7171 (584.9/day)</summary>
     <author><name>tamaratran</name></author>
   </entry>
   <entry>
-    <id>https://github.com/dzhng/jevgrep</id>
-    <title>dzhng/jevgrep</title>
-    <link href="https://github.com/dzhng/jevgrep"/>
-    <updated>2026-09-29T05:45:51.000Z</updated>
-    <published>2026-09-26T04:06:56.000Z</published>
-    <summary>Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context. — ★ 1517 (492.9/day)</summary>
-    <author><name>dzhng</name></author>
+    <id>https://github.com/Ghentlesteve/dhis2-immunisation-audit</id>
+    <title>Ghentlesteve/dhis2-immunisation-audit</title>
+    <link href="https://github.com/Ghentlesteve/dhis2-immunisation-audit"/>
+    <updated>2026-09-29T10:56:53.000Z</updated>
+    <published>2026-09-29T10:55:47.000Z</published>
+    <summary>Pulling DHIS2 immunisation data through the API, auditing its quality and comparing forecasting models against a baseline (Python, statsmodels, scikit-learn). — ★ 145 (580.0/day)</summary>
+    <author><name>Ghentlesteve</name></author>
   </entry>
   <entry>
     <id>https://github.com/robbietilton/Compositor</id>
@@ -111,35 +111,17 @@
     <link href="https://github.com/robbietilton/Compositor"/>
     <updated>2026-09-29T05:21:07.000Z</updated>
     <published>2026-09-16T20:35:54.000Z</published>
-    <summary>The Photoshop alternative for Mac — ★ 6045 (487.9/day)</summary>
+    <summary>The Photoshop alternative for Mac — ★ 6267 (495.4/day)</summary>
     <author><name>robbietilton</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Contrastive-LM/CLM</id>
-    <title>Contrastive-LM/CLM</title>
-    <link href="https://github.com/Contrastive-LM/CLM"/>
-    <updated>2026-09-24T23:10:28.000Z</updated>
-    <published>2026-09-23T19:29:56.000Z</published>
-    <summary>No description. — ★ 2331 (428.8/day)</summary>
-    <author><name>Contrastive-LM</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/tobi/disktree</id>
-    <title>tobi/disktree</title>
-    <link href="https://github.com/tobi/disktree"/>
-    <updated>2026-09-27T02:04:35.000Z</updated>
-    <published>2026-09-24T20:56:29.000Z</published>
-    <summary>A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI. — ★ 1837 (419.7/day)</summary>
-    <author><name>tobi</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/mexicat/pdoom-video</id>
-    <title>mexicat/pdoom-video</title>
-    <link href="https://github.com/mexicat/pdoom-video"/>
-    <updated>2026-09-28T06:53:29.000Z</updated>
-    <published>2026-09-24T21:33:53.000Z</published>
-    <summary>Code-rendered music video for &quot;I&#39;m Upping My P(doom)&quot; — ★ 1820 (418.3/day)</summary>
-    <author><name>mexicat</name></author>
+    <id>https://github.com/dzhng/jevgrep</id>
+    <title>dzhng/jevgrep</title>
+    <link href="https://github.com/dzhng/jevgrep"/>
+    <updated>2026-09-29T07:30:22.000Z</updated>
+    <published>2026-09-26T04:06:56.000Z</published>
+    <summary>Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context. — ★ 1622 (486.2/day)</summary>
+    <author><name>dzhng</name></author>
   </entry>
   <entry>
     <id>https://github.com/cdyforever/how-to-live-better</id>
@@ -147,17 +129,44 @@
     <link href="https://github.com/cdyforever/how-to-live-better"/>
     <updated>2026-09-29T01:20:02.000Z</updated>
     <published>2026-09-18T14:35:08.000Z</published>
-    <summary>《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线 — ★ 4224 (396.9/day)</summary>
+    <summary>《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线 — ★ 4603 (422.3/day)</summary>
     <author><name>cdyforever</name></author>
   </entry>
   <entry>
-    <id>https://github.com/yihui-dev/awesome-opus5-5-videos</id>
-    <title>yihui-dev/awesome-opus5-5-videos</title>
-    <link href="https://github.com/yihui-dev/awesome-opus5-5-videos"/>
-    <updated>2026-09-28T19:04:48.000Z</updated>
-    <published>2026-09-27T06:19:36.000Z</published>
-    <summary>A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly. — ★ 769 (387.3/day)</summary>
-    <author><name>yihui-dev</name></author>
+    <id>https://github.com/Contrastive-LM/CLM</id>
+    <title>Contrastive-LM/CLM</title>
+    <link href="https://github.com/Contrastive-LM/CLM"/>
+    <updated>2026-09-24T23:10:28.000Z</updated>
+    <published>2026-09-23T19:29:56.000Z</published>
+    <summary>No description. — ★ 2404 (422.1/day)</summary>
+    <author><name>Contrastive-LM</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/mexicat/pdoom-video</id>
+    <title>mexicat/pdoom-video</title>
+    <link href="https://github.com/mexicat/pdoom-video"/>
+    <updated>2026-09-28T06:53:29.000Z</updated>
+    <published>2026-09-24T21:33:53.000Z</published>
+    <summary>Code-rendered music video for &quot;I&#39;m Upping My P(doom)&quot; — ★ 1889 (409.8/day)</summary>
+    <author><name>mexicat</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/shapegasenchant/Delta-Executor-Roblox</id>
+    <title>shapegasenchant/Delta-Executor-Roblox</title>
+    <link href="https://github.com/shapegasenchant/Delta-Executor-Roblox"/>
+    <updated>2026-09-29T11:47:33.000Z</updated>
+    <published>2026-09-29T11:14:06.000Z</published>
+    <summary>The most popular Roblox script executor for PC. Fast injection, Lua scripting, built-in script editor, script hub, key system, Windows 10/11. Free and regularly updated. Topics — ★ 101 (404.0/day)</summary>
+    <author><name>shapegasenchant</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/tobi/disktree</id>
+    <title>tobi/disktree</title>
+    <link href="https://github.com/tobi/disktree"/>
+    <updated>2026-09-27T02:04:35.000Z</updated>
+    <published>2026-09-24T20:56:29.000Z</published>
+    <summary>A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI. — ★ 1865 (402.4/day)</summary>
+    <author><name>tobi</name></author>
   </entry>
   <entry>
     <id>https://github.com/Mak5er/AirCard</id>
@@ -165,8 +174,17 @@
     <link href="https://github.com/Mak5er/AirCard"/>
     <updated>2026-09-22T21:44:37.000Z</updated>
     <published>2026-09-16T22:20:15.000Z</published>
-    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 4764 (386.7/day)</summary>
+    <summary>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) — ★ 4892 (389.0/day)</summary>
     <author><name>Mak5er</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/yihui-dev/awesome-opus5-5-videos</id>
+    <title>yihui-dev/awesome-opus5-5-videos</title>
+    <link href="https://github.com/yihui-dev/awesome-opus5-5-videos"/>
+    <updated>2026-09-28T19:04:48.000Z</updated>
+    <published>2026-09-27T06:19:36.000Z</published>
+    <summary>A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly. — ★ 840 (374.3/day)</summary>
+    <author><name>yihui-dev</name></author>
   </entry>
   <entry>
     <id>https://github.com/TheoLeeCJ/SemIf-OpenJev</id>
@@ -174,16 +192,16 @@
     <link href="https://github.com/TheoLeeCJ/SemIf-OpenJev"/>
     <updated>2026-09-23T18:48:22.000Z</updated>
     <published>2026-09-16T03:51:21.000Z</published>
-    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 4530 (346.1/day)</summary>
+    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. — ★ 4555 (341.3/day)</summary>
     <author><name>TheoLeeCJ</name></author>
   </entry>
   <entry>
     <id>https://github.com/yetone/magpie</id>
     <title>yetone/magpie</title>
     <link href="https://github.com/yetone/magpie"/>
-    <updated>2026-09-29T05:56:44.000Z</updated>
+    <updated>2026-09-29T12:00:13.000Z</updated>
     <published>2026-09-23T16:22:35.000Z</published>
-    <summary>Every agent&#39;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. — ★ 1714 (307.9/day)</summary>
+    <summary>Every agent&#39;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. — ★ 1875 (321.9/day)</summary>
     <author><name>yetone</name></author>
   </entry>
   <entry>
@@ -192,7 +210,7 @@
     <link href="https://github.com/newliver666/apk-reverse"/>
     <updated>2026-09-24T09:22:21.000Z</updated>
     <published>2026-09-19T13:12:54.000Z</published>
-    <summary>Suitable for Android APK reverse engineering analysis — ★ 2962 (305.4/day)</summary>
+    <summary>Suitable for Android APK reverse engineering analysis — ★ 2987 (300.0/day)</summary>
     <author><name>newliver666</name></author>
   </entry>
   <entry>
@@ -201,8 +219,17 @@
     <link href="https://github.com/feitangyuan/onetake"/>
     <updated>2026-09-29T01:53:46.000Z</updated>
     <published>2026-09-26T05:35:17.000Z</published>
-    <summary>Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos. — ★ 882 (292.4/day)</summary>
+    <summary>Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos. — ★ 928 (283.4/day)</summary>
     <author><name>feitangyuan</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Niko1221/Strata</id>
+    <title>Niko1221/Strata</title>
+    <link href="https://github.com/Niko1221/Strata"/>
+    <updated>2026-09-29T12:07:17.000Z</updated>
+    <published>2026-09-24T16:40:20.000Z</published>
+    <summary>Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. — ★ 1352 (280.9/day)</summary>
+    <author><name>Niko1221</name></author>
   </entry>
   <entry>
     <id>https://github.com/unreallabsai/unreal-agent</id>
@@ -210,26 +237,26 @@
     <link href="https://github.com/unreallabsai/unreal-agent"/>
     <updated>2026-09-23T19:08:26.000Z</updated>
     <published>2026-09-21T23:14:02.000Z</published>
-    <summary>Async-first agent harness — ★ 2018 (277.2/day)</summary>
+    <summary>Async-first agent harness — ★ 2023 (268.3/day)</summary>
     <author><name>unreallabsai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Niko1221/Strata</id>
-    <title>Niko1221/Strata</title>
-    <link href="https://github.com/Niko1221/Strata"/>
-    <updated>2026-09-29T04:33:29.000Z</updated>
-    <published>2026-09-24T16:40:20.000Z</published>
-    <summary>Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. — ★ 1191 (261.5/day)</summary>
-    <author><name>Niko1221</name></author>
   </entry>
   <entry>
     <id>https://github.com/driceroland/Search</id>
     <title>driceroland/Search</title>
     <link href="https://github.com/driceroland/Search"/>
-    <updated>2026-09-28T16:52:42.000Z</updated>
+    <updated>2026-09-29T09:49:41.000Z</updated>
     <published>2026-09-20T10:29:47.000Z</published>
-    <summary>A small, fast WebKit browser for macOS, by Office Commun. — ★ 2259 (256.4/day)</summary>
+    <summary>A small, fast WebKit browser for macOS, by Office Commun. — ★ 2270 (250.3/day)</summary>
     <author><name>driceroland</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Ghentlesteve/wine-quality-svc-tuning</id>
+    <title>Ghentlesteve/wine-quality-svc-tuning</title>
+    <link href="https://github.com/Ghentlesteve/wine-quality-svc-tuning"/>
+    <updated>2026-09-28T21:59:27.000Z</updated>
+    <published>2026-09-28T21:58:41.000Z</published>
+    <summary>Wine quality classification with a Support Vector Classifier and grid-search hyperparameter tuning (Python, scikit-learn) — ★ 139 (234.8/day)</summary>
+    <author><name>Ghentlesteve</name></author>
   </entry>
   <entry>
     <id>https://github.com/supermemoryai/company-brain</id>
@@ -237,7 +264,7 @@
     <link href="https://github.com/supermemoryai/company-brain"/>
     <updated>2026-09-28T05:50:41.000Z</updated>
     <published>2026-09-25T22:48:14.000Z</published>
-    <summary>Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work. — ★ 811 (245.8/day)</summary>
+    <summary>Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work. — ★ 825 (231.9/day)</summary>
     <author><name>supermemoryai</name></author>
   </entry>
   <entry>
@@ -246,34 +273,7 @@
     <link href="https://github.com/JohnHeibel/PDoomVideo"/>
     <updated>2026-09-25T15:11:03.000Z</updated>
     <published>2026-09-22T23:32:19.000Z</published>
-    <summary>Source code for the Claude Opus 5.5 music video for I&#39;m Upping My P(doom) — ★ 1454 (232.0/day)</summary>
+    <summary>Source code for the Claude Opus 5.5 music video for I&#39;m Upping My P(doom) — ★ 1479 (226.6/day)</summary>
     <author><name>JohnHeibel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/fishstrap-launcher/Fishstrap-Roblox</id>
-    <title>fishstrap-launcher/Fishstrap-Roblox</title>
-    <link href="https://github.com/fishstrap-launcher/Fishstrap-Roblox"/>
-    <updated>2026-09-28T16:15:11.000Z</updated>
-    <published>2026-09-28T16:02:55.000Z</published>
-    <summary>Fishstrap Roblox FPS unlocker — fishstrap roblox, bloxstrap alternative, voidstrap, fast flags, fflags, bloxstrap fast flags, multi instance, roblox shaders, custom fonts, fishstrap github, roblox bootstrapper, Windows. — ★ 126 (217.1/day)</summary>
-    <author><name>fishstrap-launcher</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/jarrodwatts/jev-trader</id>
-    <title>jarrodwatts/jev-trader</title>
-    <link href="https://github.com/jarrodwatts/jev-trader"/>
-    <updated>2026-09-17T02:48:22.000Z</updated>
-    <published>2026-09-16T21:36:20.000Z</published>
-    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC. — ★ 2665 (215.8/day)</summary>
-    <author><name>jarrodwatts</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/moguzbulbul/blueprint-animation</id>
-    <title>moguzbulbul/blueprint-animation</title>
-    <link href="https://github.com/moguzbulbul/blueprint-animation"/>
-    <updated>2026-09-27T23:59:16.000Z</updated>
-    <published>2026-09-27T21:48:33.000Z</published>
-    <summary>Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul. — ★ 280 (208.9/day)</summary>
-    <author><name>moguzbulbul</name></author>
   </entry>
 </feed>
