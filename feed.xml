@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-06T15:38:32.078Z</updated>
+  <updated>2026-10-06T20:44:04.566Z</updated>
   <entry>
     <id>https://github.com/Niko1221/Strata</id>
     <title>Niko1221/Strata</title>
     <link href="https://github.com/Niko1221/Strata"/>
     <updated>2026-10-06T09:53:35.000Z</updated>
     <published>2026-09-24T16:40:20.000Z</published>
-    <summary>Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. — ★ 15217 (1272.6/day)</summary>
+    <summary>Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. — ★ 15547 (1277.6/day)</summary>
     <author><name>Niko1221</name></author>
   </entry>
   <entry>
@@ -21,26 +21,26 @@
     <link href="https://github.com/alchaincyf/huashu-art-motion"/>
     <updated>2026-10-06T08:32:56.000Z</updated>
     <published>2026-10-06T04:49:37.000Z</published>
-    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 398 (883.2/day)</summary>
+    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 584 (881.1/day)</summary>
     <author><name>alchaincyf</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/photocraft</id>
+    <title>storytold/photocraft</title>
+    <link href="https://github.com/storytold/photocraft"/>
+    <updated>2026-10-06T19:44:43.000Z</updated>
+    <published>2026-09-30T13:37:48.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 5081 (807.0/day)</summary>
+    <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/KKKKhazix/AIHOT</id>
     <title>KKKKhazix/AIHOT</title>
     <link href="https://github.com/KKKKhazix/AIHOT"/>
-    <updated>2026-10-06T10:00:56.000Z</updated>
+    <updated>2026-10-06T20:00:43.000Z</updated>
     <published>2026-09-28T23:40:05.000Z</published>
-    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 6145 (801.6/day)</summary>
+    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 6176 (784.0/day)</summary>
     <author><name>KKKKhazix</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/kargulstudio/sales-crm</id>
-    <title>kargulstudio/sales-crm</title>
-    <link href="https://github.com/kargulstudio/sales-crm"/>
-    <updated>2026-10-06T06:42:03.000Z</updated>
-    <published>2026-10-04T10:55:58.000Z</published>
-    <summary>No description. — ★ 1557 (708.9/day)</summary>
-    <author><name>kargulstudio</name></author>
   </entry>
   <entry>
     <id>https://github.com/rehan-remade/universal-modder</id>
@@ -48,26 +48,44 @@
     <link href="https://github.com/rehan-remade/universal-modder"/>
     <updated>2026-10-06T13:21:39.000Z</updated>
     <published>2026-09-30T05:00:35.000Z</published>
-    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 4354 (675.8/day)</summary>
+    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 4504 (676.8/day)</summary>
     <author><name>rehan-remade</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/kargulstudio/sales-crm</id>
+    <title>kargulstudio/sales-crm</title>
+    <link href="https://github.com/kargulstudio/sales-crm"/>
+    <updated>2026-10-06T06:42:03.000Z</updated>
+    <published>2026-10-04T10:55:58.000Z</published>
+    <summary>No description. — ★ 1576 (654.4/day)</summary>
+    <author><name>kargulstudio</name></author>
   </entry>
   <entry>
     <id>https://github.com/CopilotKit/OpenDots</id>
     <title>CopilotKit/OpenDots</title>
     <link href="https://github.com/CopilotKit/OpenDots"/>
-    <updated>2026-10-05T22:37:47.000Z</updated>
+    <updated>2026-10-06T19:31:40.000Z</updated>
     <published>2026-09-29T17:13:58.000Z</published>
-    <summary>Your always-on AI coworkers that move between text, calls, and Slack. — ★ 3845 (554.5/day)</summary>
+    <summary>Your always-on AI coworkers that move between text, calls, and Slack. — ★ 3904 (546.3/day)</summary>
     <author><name>CopilotKit</name></author>
   </entry>
   <entry>
-    <id>https://github.com/storytold/photocraft</id>
-    <title>storytold/photocraft</title>
-    <link href="https://github.com/storytold/photocraft"/>
-    <updated>2026-10-06T15:37:24.000Z</updated>
-    <published>2026-09-30T13:37:48.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 3137 (515.6/day)</summary>
-    <author><name>storytold</name></author>
+    <id>https://github.com/shihabal3amri/DiPlay</id>
+    <title>shihabal3amri/DiPlay</title>
+    <link href="https://github.com/shihabal3amri/DiPlay"/>
+    <updated>2026-10-06T20:05:18.000Z</updated>
+    <published>2026-09-24T15:36:38.000Z</published>
+    <summary>Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview. — ★ 5304 (434.3/day)</summary>
+    <author><name>shihabal3amri</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Louis-CFM/coucou</id>
+    <title>Louis-CFM/coucou</title>
+    <link href="https://github.com/Louis-CFM/coucou"/>
+    <updated>2026-10-06T20:32:25.000Z</updated>
+    <published>2026-09-27T21:54:12.000Z</published>
+    <summary>A tiny friend in your Mac&#39;s notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen. — ★ 3821 (426.9/day)</summary>
+    <author><name>Louis-CFM</name></author>
   </entry>
   <entry>
     <id>https://github.com/elstongun/leviathan</id>
@@ -75,53 +93,17 @@
     <link href="https://github.com/elstongun/leviathan"/>
     <updated>2026-10-06T01:02:17.000Z</updated>
     <published>2026-10-05T08:57:44.000Z</published>
-    <summary>**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index. — ★ 564 (441.2/day)</summary>
+    <summary>**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index. — ★ 619 (415.3/day)</summary>
     <author><name>elstongun</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/shihabal3amri/DiPlay</id>
-    <title>shihabal3amri/DiPlay</title>
-    <link href="https://github.com/shihabal3amri/DiPlay"/>
-    <updated>2026-10-06T05:35:35.000Z</updated>
-    <published>2026-09-24T15:36:38.000Z</published>
-    <summary>Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview. — ★ 5224 (435.3/day)</summary>
-    <author><name>shihabal3amri</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Louis-CFM/coucou</id>
-    <title>Louis-CFM/coucou</title>
-    <link href="https://github.com/Louis-CFM/coucou"/>
-    <updated>2026-10-06T15:36:12.000Z</updated>
-    <published>2026-09-27T21:54:12.000Z</published>
-    <summary>A tiny friend in your Mac&#39;s notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen. — ★ 3798 (434.6/day)</summary>
-    <author><name>Louis-CFM</name></author>
   </entry>
   <entry>
     <id>https://github.com/yetone/magpie</id>
     <title>yetone/magpie</title>
     <link href="https://github.com/yetone/magpie"/>
-    <updated>2026-10-06T15:28:12.000Z</updated>
+    <updated>2026-10-06T20:39:00.000Z</updated>
     <published>2026-09-23T16:22:35.000Z</published>
-    <summary>Every agent&#39;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. — ★ 5404 (416.7/day)</summary>
+    <summary>Every agent&#39;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. — ★ 5448 (413.3/day)</summary>
     <author><name>yetone</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/QingYunA/answer-me-with-html</id>
-    <title>QingYunA/answer-me-with-html</title>
-    <link href="https://github.com/QingYunA/answer-me-with-html"/>
-    <updated>2026-10-06T15:21:56.000Z</updated>
-    <published>2026-10-02T09:57:40.000Z</published>
-    <summary>Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。 — ★ 1712 (404.1/day)</summary>
-    <author><name>QingYunA</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/saidi-walid-architecte/saidi-walid-architecte.github.io</id>
-    <title>saidi-walid-architecte/saidi-walid-architecte.github.io</title>
-    <link href="https://github.com/saidi-walid-architecte/saidi-walid-architecte.github.io"/>
-    <updated>2026-10-06T11:44:12.000Z</updated>
-    <published>2026-10-06T10:59:32.000Z</published>
-    <summary>Site de Saidi Walid, architecte agréé et expert judiciaire à Batna — ★ 100 (400.0/day)</summary>
-    <author><name>saidi-walid-architecte</name></author>
   </entry>
   <entry>
     <id>https://github.com/omlahore/RemoveMacAI</id>
@@ -129,8 +111,17 @@
     <link href="https://github.com/omlahore/RemoveMacAI"/>
     <updated>2026-10-06T13:53:25.000Z</updated>
     <published>2026-09-29T11:02:39.000Z</published>
-    <summary>Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible. — ★ 2827 (393.1/day)</summary>
+    <summary>Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible. — ★ 3014 (407.1/day)</summary>
     <author><name>omlahore</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/QingYunA/answer-me-with-html</id>
+    <title>QingYunA/answer-me-with-html</title>
+    <link href="https://github.com/QingYunA/answer-me-with-html"/>
+    <updated>2026-10-06T15:21:56.000Z</updated>
+    <published>2026-10-02T09:57:40.000Z</published>
+    <summary>Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。 — ★ 1745 (392.2/day)</summary>
+    <author><name>QingYunA</name></author>
   </entry>
   <entry>
     <id>https://github.com/feder-cr/dots</id>
@@ -138,16 +129,16 @@
     <link href="https://github.com/feder-cr/dots"/>
     <updated>2026-10-03T15:21:24.000Z</updated>
     <published>2026-09-29T23:06:00.000Z</published>
-    <summary>Open-source dots for the web: an AI agent with its own browser, one that does not get blocked. — ★ 2629 (393.0/day)</summary>
+    <summary>Open-source dots for the web: an AI agent with its own browser, one that does not get blocked. — ★ 2631 (381.2/day)</summary>
     <author><name>feder-cr</name></author>
   </entry>
   <entry>
     <id>https://github.com/facebookincubator/muse-gadget-sdk</id>
     <title>facebookincubator/muse-gadget-sdk</title>
     <link href="https://github.com/facebookincubator/muse-gadget-sdk"/>
-    <updated>2026-10-06T14:42:41.000Z</updated>
+    <updated>2026-10-06T18:14:15.000Z</updated>
     <published>2026-10-02T18:21:23.000Z</published>
-    <summary>Open source SDK to build Muse gadgets — ★ 1510 (388.5/day)</summary>
+    <summary>Open source SDK to build Muse gadgets — ★ 1531 (373.5/day)</summary>
     <author><name>facebookincubator</name></author>
   </entry>
   <entry>
@@ -156,17 +147,8 @@
     <link href="https://github.com/rauchg/gdp-ts"/>
     <updated>2026-10-05T14:06:47.000Z</updated>
     <published>2026-10-04T18:55:18.000Z</published>
-    <summary>No description. — ★ 660 (354.2/day)</summary>
+    <summary>No description. — ★ 690 (332.4/day)</summary>
     <author><name>rauchg</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Henryfud/werm</id>
-    <title>Henryfud/werm</title>
-    <link href="https://github.com/Henryfud/werm"/>
-    <updated>2026-10-06T01:07:58.000Z</updated>
-    <published>2026-10-06T00:49:18.000Z</published>
-    <summary>A 302 neuron network on the real C. elegans wiring diagram, with a steering layer for local language models. — ★ 196 (317.4/day)</summary>
-    <author><name>Henryfud</name></author>
   </entry>
   <entry>
     <id>https://github.com/nykooi1/vibe-wise</id>
@@ -174,7 +156,7 @@
     <link href="https://github.com/nykooi1/vibe-wise"/>
     <updated>2026-10-01T11:26:14.000Z</updated>
     <published>2026-09-29T01:29:57.000Z</published>
-    <summary>A Claude Code plugin that helps you learn how to build while AI writes the code. — ★ 2298 (302.8/day)</summary>
+    <summary>A Claude Code plugin that helps you learn how to build while AI writes the code. — ★ 2473 (317.0/day)</summary>
     <author><name>nykooi1</name></author>
   </entry>
   <entry>
@@ -183,17 +165,35 @@
     <link href="https://github.com/AgentMemoryRepo/agentmemoryrepo"/>
     <updated>2026-10-05T06:16:19.000Z</updated>
     <published>2026-10-04T22:10:48.000Z</published>
-    <summary>Spec for Agent Memory Repo — ★ 498 (288.3/day)</summary>
+    <summary>Spec for Agent Memory Repo — ★ 543 (279.9/day)</summary>
     <author><name>AgentMemoryRepo</name></author>
   </entry>
   <entry>
     <id>https://github.com/nanaism/yomiyasu</id>
     <title>nanaism/yomiyasu</title>
     <link href="https://github.com/nanaism/yomiyasu"/>
-    <updated>2026-10-05T09:32:15.000Z</updated>
+    <updated>2026-10-06T16:35:05.000Z</updated>
     <published>2026-09-30T11:49:32.000Z</published>
-    <summary>AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese — ★ 1580 (256.5/day)</summary>
+    <summary>AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese — ★ 1589 (249.4/day)</summary>
     <author><name>nanaism</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/saidi-walid-architecte/saidi-walid-architecte.github.io</id>
+    <title>saidi-walid-architecte/saidi-walid-architecte.github.io</title>
+    <link href="https://github.com/saidi-walid-architecte/saidi-walid-architecte.github.io"/>
+    <updated>2026-10-06T17:21:41.000Z</updated>
+    <published>2026-10-06T10:59:32.000Z</published>
+    <summary>Site de Saidi Walid, architecte agréé et expert judiciaire à Batna — ★ 100 (246.3/day)</summary>
+    <author><name>saidi-walid-architecte</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Henryfud/werm</id>
+    <title>Henryfud/werm</title>
+    <link href="https://github.com/Henryfud/werm"/>
+    <updated>2026-10-06T01:07:58.000Z</updated>
+    <published>2026-10-06T00:49:18.000Z</published>
+    <summary>A 302 neuron network on the real C. elegans wiring diagram, with a steering layer for local language models. — ★ 197 (237.4/day)</summary>
+    <author><name>Henryfud</name></author>
   </entry>
   <entry>
     <id>https://github.com/yihui-dev/awesome-opus5-5-videos</id>
@@ -201,7 +201,7 @@
     <link href="https://github.com/yihui-dev/awesome-opus5-5-videos"/>
     <updated>2026-09-30T02:09:22.000Z</updated>
     <published>2026-09-27T06:19:36.000Z</published>
-    <summary>A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly. — ★ 2217 (236.1/day)</summary>
+    <summary>A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly. — ★ 2245 (233.8/day)</summary>
     <author><name>yihui-dev</name></author>
   </entry>
   <entry>
@@ -210,7 +210,7 @@
     <link href="https://github.com/Contrastive-LM/CLM"/>
     <updated>2026-10-05T21:13:17.000Z</updated>
     <published>2026-09-23T19:29:56.000Z</published>
-    <summary>No description. — ★ 2876 (224.0/day)</summary>
+    <summary>No description. — ★ 2884 (221.0/day)</summary>
     <author><name>Contrastive-LM</name></author>
   </entry>
   <entry>
@@ -219,44 +219,35 @@
     <link href="https://github.com/dzhng/jevgrep"/>
     <updated>2026-10-02T19:02:26.000Z</updated>
     <published>2026-09-26T04:06:56.000Z</published>
-    <summary>Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context. — ★ 2341 (223.4/day)</summary>
+    <summary>Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context. — ★ 2347 (219.5/day)</summary>
     <author><name>dzhng</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ythx-101/live-panel-skill</id>
-    <title>ythx-101/live-panel-skill</title>
-    <link href="https://github.com/ythx-101/live-panel-skill"/>
-    <updated>2026-10-03T16:53:42.000Z</updated>
-    <published>2026-10-03T16:53:36.000Z</published>
-    <summary>Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md). — ★ 618 (209.6/day)</summary>
-    <author><name>ythx-101</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/yoge7388095s/eth-trading-bot</id>
-    <title>yoge7388095s/eth-trading-bot</title>
-    <link href="https://github.com/yoge7388095s/eth-trading-bot"/>
-    <updated>2026-10-06T15:36:48.000Z</updated>
-    <published>2026-10-05T21:43:03.000Z</published>
-    <summary>Automated trading bot for Ethereum with gas preview, router support and terminal menu. — ★ 156 (208.9/day)</summary>
-    <author><name>yoge7388095s</name></author>
   </entry>
   <entry>
     <id>https://github.com/Droid-Deck/DroidDeck</id>
     <title>Droid-Deck/DroidDeck</title>
     <link href="https://github.com/Droid-Deck/DroidDeck"/>
-    <updated>2026-10-06T15:15:03.000Z</updated>
+    <updated>2026-10-06T20:26:50.000Z</updated>
     <published>2026-09-24T15:14:13.000Z</published>
-    <summary>DroidDeck brings the SteamOS experience to Android — ★ 2505 (208.5/day)</summary>
+    <summary>DroidDeck brings the SteamOS experience to Android — ★ 2654 (217.0/day)</summary>
     <author><name>Droid-Deck</name></author>
   </entry>
   <entry>
-    <id>https://github.com/mexicat/pdoom-video</id>
-    <title>mexicat/pdoom-video</title>
-    <link href="https://github.com/mexicat/pdoom-video"/>
-    <updated>2026-10-05T21:26:25.000Z</updated>
-    <published>2026-09-24T21:33:53.000Z</published>
-    <summary>Code-rendered music video for &quot;I&#39;m Upping My P(doom)&quot; — ★ 2420 (205.9/day)</summary>
-    <author><name>mexicat</name></author>
+    <id>https://github.com/storytold/filmcraft</id>
+    <title>storytold/filmcraft</title>
+    <link href="https://github.com/storytold/filmcraft"/>
+    <updated>2026-10-06T20:01:38.000Z</updated>
+    <published>2026-09-30T13:41:20.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust. — ★ 1347 (214.0/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/deadinside28/bloodborne_pc</id>
+    <title>deadinside28/bloodborne_pc</title>
+    <link href="https://github.com/deadinside28/bloodborne_pc"/>
+    <updated>2026-10-06T08:28:55.000Z</updated>
+    <published>2026-10-01T05:50:31.000Z</published>
+    <summary>No description. — ★ 1176 (209.2/day)</summary>
+    <author><name>deadinside28</name></author>
   </entry>
   <entry>
     <id>https://github.com/kaankiziltug/logo-design-skill</id>
@@ -264,16 +255,25 @@
     <link href="https://github.com/kaankiziltug/logo-design-skill"/>
     <updated>2026-09-30T18:16:50.000Z</updated>
     <published>2026-09-26T08:23:34.000Z</published>
-    <summary>A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library. — ★ 2120 (205.8/day)</summary>
+    <summary>A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library. — ★ 2150 (204.5/day)</summary>
     <author><name>kaankiziltug</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Jakeschincariol/replica-skill</id>
-    <title>Jakeschincariol/replica-skill</title>
-    <link href="https://github.com/Jakeschincariol/replica-skill"/>
-    <updated>2026-10-03T12:07:53.000Z</updated>
-    <published>2026-10-03T12:07:49.000Z</published>
-    <summary>Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT. — ★ 639 (203.1/day)</summary>
-    <author><name>Jakeschincariol</name></author>
+    <id>https://github.com/mexicat/pdoom-video</id>
+    <title>mexicat/pdoom-video</title>
+    <link href="https://github.com/mexicat/pdoom-video"/>
+    <updated>2026-10-05T21:26:25.000Z</updated>
+    <published>2026-09-24T21:33:53.000Z</published>
+    <summary>Code-rendered music video for &quot;I&#39;m Upping My P(doom)&quot; — ★ 2428 (202.9/day)</summary>
+    <author><name>mexicat</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/tobi/disktree</id>
+    <title>tobi/disktree</title>
+    <link href="https://github.com/tobi/disktree"/>
+    <updated>2026-10-04T19:07:54.000Z</updated>
+    <published>2026-09-24T20:56:29.000Z</published>
+    <summary>A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI. — ★ 2398 (200.0/day)</summary>
+    <author><name>tobi</name></author>
   </entry>
 </feed>
