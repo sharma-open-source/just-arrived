@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-05T21:34:25.376Z</updated>
+  <updated>2026-10-06T02:01:41.306Z</updated>
   <entry>
     <id>https://github.com/Niko1221/Strata</id>
     <title>Niko1221/Strata</title>
     <link href="https://github.com/Niko1221/Strata"/>
     <updated>2026-10-04T12:32:47.000Z</updated>
     <published>2026-09-24T16:40:20.000Z</published>
-    <summary>Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. — ★ 13692 (1222.0/day)</summary>
+    <summary>Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. — ★ 13999 (1229.1/day)</summary>
     <author><name>Niko1221</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/kargulstudio/sales-crm"/>
     <updated>2026-10-04T10:58:32.000Z</updated>
     <published>2026-10-04T10:55:58.000Z</published>
-    <summary>No description. — ★ 1415 (980.3/day)</summary>
+    <summary>No description. — ★ 1463 (898.1/day)</summary>
     <author><name>kargulstudio</name></author>
   </entry>
   <entry>
@@ -30,17 +30,116 @@
     <link href="https://github.com/KKKKhazix/AIHOT"/>
     <updated>2026-10-05T21:15:38.000Z</updated>
     <published>2026-09-28T23:40:05.000Z</published>
-    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 5990 (866.5/day)</summary>
+    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 6005 (846.0/day)</summary>
     <author><name>KKKKhazix</name></author>
   </entry>
   <entry>
     <id>https://github.com/rehan-remade/universal-modder</id>
     <title>rehan-remade/universal-modder</title>
     <link href="https://github.com/rehan-remade/universal-modder"/>
-    <updated>2026-10-05T12:43:12.000Z</updated>
+    <updated>2026-10-06T00:01:17.000Z</updated>
     <published>2026-09-30T05:00:35.000Z</published>
-    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 3800 (667.8/day)</summary>
+    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 3862 (657.3/day)</summary>
     <author><name>rehan-remade</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/VarnishTrackPrize/ultra-Iso</id>
+    <title>VarnishTrackPrize/ultra-Iso</title>
+    <link href="https://github.com/VarnishTrackPrize/ultra-Iso"/>
+    <updated>2026-10-05T10:31:45.000Z</updated>
+    <published>2026-10-05T10:31:38.000Z</published>
+    <summary>Ultra Iso optimizes professional desktop software utility configurations by providing a meticulously curated set of settings tailored to enhance... — ★ 392 (606.9/day)</summary>
+    <author><name>VarnishTrackPrize</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Gryphonpebastion/Total-Commander</id>
+    <title>Gryphonpebastion/Total-Commander</title>
+    <link href="https://github.com/Gryphonpebastion/Total-Commander"/>
+    <updated>2026-10-05T10:31:14.000Z</updated>
+    <published>2026-10-05T10:31:08.000Z</published>
+    <summary>Total Commander is a versatile desktop utility that streamlines file management tasks with its dual-panel interface and extensive set of features,... — ★ 392 (606.6/day)</summary>
+    <author><name>Gryphonpebastion</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Minorthedisengage/Discord-Server-Raider</id>
+    <title>Minorthedisengage/Discord-Server-Raider</title>
+    <link href="https://github.com/Minorthedisengage/Discord-Server-Raider"/>
+    <updated>2026-10-05T10:21:10.000Z</updated>
+    <published>2026-10-05T10:21:03.000Z</published>
+    <summary>Discord Server Raider is an AI-driven tool that optimizes server management and enhances user experience without any connection to Apple or iOS devices;... — ★ 392 (600.1/day)</summary>
+    <author><name>Minorthedisengage</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ModernShahDefeat72/Discord-Server-Cloner</id>
+    <title>ModernShahDefeat72/Discord-Server-Cloner</title>
+    <link href="https://github.com/ModernShahDefeat72/Discord-Server-Cloner"/>
+    <updated>2026-10-05T10:21:07.000Z</updated>
+    <published>2026-10-05T10:21:01.000Z</published>
+    <summary>Discord Server Cloner optimizes server management by replicating and maintaining a custom set of configurations for your community&#39;s unique needs in a... — ★ 392 (600.1/day)</summary>
+    <author><name>ModernShahDefeat72</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/gangmoonrotation/Discord-Quest-Completer</id>
+    <title>gangmoonrotation/Discord-Quest-Completer</title>
+    <link href="https://github.com/gangmoonrotation/Discord-Quest-Completer"/>
+    <updated>2026-10-05T10:21:03.000Z</updated>
+    <published>2026-10-05T10:20:56.000Z</published>
+    <summary>Discord Quest Completer optimizes your gaming experience by providing a comprehensive solution to auto-completing quests in popular games directly through... — ★ 392 (600.0/day)</summary>
+    <author><name>gangmoonrotation</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/CyclopsRogueSucceed/Discord-Nitro-Generator</id>
+    <title>CyclopsRogueSucceed/Discord-Nitro-Generator</title>
+    <link href="https://github.com/CyclopsRogueSucceed/Discord-Nitro-Generator"/>
+    <updated>2026-10-05T10:21:00.000Z</updated>
+    <published>2026-10-05T10:20:53.000Z</published>
+    <summary>Discord Nitro Generator is a professional desktop software utility designed to optimize server performance by managing large communities with ease. — ★ 392 (600.0/day)</summary>
+    <author><name>CyclopsRogueSucceed</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/SwimmerShield/Better-Discord</id>
+    <title>SwimmerShield/Better-Discord</title>
+    <link href="https://github.com/SwimmerShield/Better-Discord"/>
+    <updated>2026-10-05T10:17:28.000Z</updated>
+    <published>2026-10-05T10:17:22.000Z</published>
+    <summary>Enhances efficiency in managing complex desktop software configurations with a dedicated and highly-functional tool that bypasses redundant steps. — ★ 392 (597.8/day)</summary>
+    <author><name>SwimmerShield</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/CrewPotterRectify/Autodesk-Inventor</id>
+    <title>CrewPotterRectify/Autodesk-Inventor</title>
+    <link href="https://github.com/CrewPotterRectify/Autodesk-Inventor"/>
+    <updated>2026-10-05T10:16:57.000Z</updated>
+    <published>2026-10-05T10:16:51.000Z</published>
+    <summary>Revolutionize your professional design workflows with this desktop utility configuration that optimizes collaboration and enhances data management in... — ★ 392 (597.4/day)</summary>
+    <author><name>CrewPotterRectify</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/pauseseamandart18/AnyDesk</id>
+    <title>pauseseamandart18/AnyDesk</title>
+    <link href="https://github.com/pauseseamandart18/AnyDesk"/>
+    <updated>2026-10-05T10:15:35.000Z</updated>
+    <published>2026-10-05T10:15:29.000Z</published>
+    <summary>Enhance remote access with secure and efficient desktop utility configuration using AnyDesk - a streamlined solution empowering professionals to unlock... — ★ 392 (596.6/day)</summary>
+    <author><name>pauseseamandart18</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Noblebroplain/Ads-Blocker</id>
+    <title>Noblebroplain/Ads-Blocker</title>
+    <link href="https://github.com/Noblebroplain/Ads-Blocker"/>
+    <updated>2026-10-05T10:15:35.000Z</updated>
+    <published>2026-10-05T10:15:28.000Z</published>
+    <summary>Ads Blocker is a professional desktop utility that optimizes browsing experience by effectively blocking all intrusive ads, ensuring an uninterrupted and... — ★ 392 (596.6/day)</summary>
+    <author><name>Noblebroplain</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/HectoTeacher56/Adobe-Substance-3d</id>
+    <title>HectoTeacher56/Adobe-Substance-3d</title>
+    <link href="https://github.com/HectoTeacher56/Adobe-Substance-3d"/>
+    <updated>2026-10-05T10:14:33.000Z</updated>
+    <published>2026-10-05T10:14:25.000Z</published>
+    <summary>Adobe Substance 3D optimizes professional desktop software utility configurations by providing a seamless and advanced platform that unlocks powerful... — ★ 392 (595.9/day)</summary>
+    <author><name>HectoTeacher56</name></author>
   </entry>
   <entry>
     <id>https://github.com/lostparakeetmagnify/Adobe-Illustrator</id>
@@ -48,7 +147,7 @@
     <link href="https://github.com/lostparakeetmagnify/Adobe-Illustrator"/>
     <updated>2026-10-05T10:14:19.000Z</updated>
     <published>2026-10-05T10:14:13.000Z</published>
-    <summary>Adobe Illustrator repository optimizes design workflows with robust vector graphics tools, enabling seamless collaboration and efficient project... — ★ 298 (630.9/day)</summary>
+    <summary>Adobe Illustrator repository optimizes design workflows with robust vector graphics tools, enabling seamless collaboration and efficient project... — ★ 392 (595.8/day)</summary>
     <author><name>lostparakeetmagnify</name></author>
   </entry>
   <entry>
@@ -57,7 +156,7 @@
     <link href="https://github.com/KazekagePyre/Adobe-Audition"/>
     <updated>2026-10-05T10:14:18.000Z</updated>
     <published>2026-10-05T10:14:11.000Z</published>
-    <summary>Adobe Audition optimizes audio production workflows with its robust suite of editing tools and seamless integration capabilities, providing a powerful... — ★ 298 (630.8/day)</summary>
+    <summary>Adobe Audition optimizes audio production workflows with its robust suite of editing tools and seamless integration capabilities, providing a powerful... — ★ 392 (595.8/day)</summary>
     <author><name>KazekagePyre</name></author>
   </entry>
   <entry>
@@ -66,122 +165,23 @@
     <link href="https://github.com/Neutronrucurl/Adobe-Acrobat-Pro"/>
     <updated>2026-10-05T10:14:14.000Z</updated>
     <published>2026-10-05T10:14:08.000Z</published>
-    <summary>Adobe Acrobat Pro optimizes your professional desktop workflow by providing an advanced set of tools that streamline document management tasks and enable... — ★ 298 (630.8/day)</summary>
+    <summary>Adobe Acrobat Pro optimizes your professional desktop workflow by providing an advanced set of tools that streamline document management tasks and enable... — ★ 392 (595.7/day)</summary>
     <author><name>Neutronrucurl</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/HectoTeacher56/Adobe-Substance-3d</id>
-    <title>HectoTeacher56/Adobe-Substance-3d</title>
-    <link href="https://github.com/HectoTeacher56/Adobe-Substance-3d"/>
-    <updated>2026-10-05T10:14:33.000Z</updated>
-    <published>2026-10-05T10:14:25.000Z</published>
-    <summary>Adobe Substance 3D optimizes professional desktop software utility configurations by providing a seamless and advanced platform that unlocks powerful... — ★ 296 (626.8/day)</summary>
-    <author><name>HectoTeacher56</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Noblebroplain/Ads-Blocker</id>
-    <title>Noblebroplain/Ads-Blocker</title>
-    <link href="https://github.com/Noblebroplain/Ads-Blocker"/>
-    <updated>2026-10-05T10:15:35.000Z</updated>
-    <published>2026-10-05T10:15:28.000Z</published>
-    <summary>Ads Blocker is a professional desktop utility that optimizes browsing experience by effectively blocking all intrusive ads, ensuring an uninterrupted and... — ★ 294 (623.5/day)</summary>
-    <author><name>Noblebroplain</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/pauseseamandart18/AnyDesk</id>
-    <title>pauseseamandart18/AnyDesk</title>
-    <link href="https://github.com/pauseseamandart18/AnyDesk"/>
-    <updated>2026-10-05T10:15:35.000Z</updated>
-    <published>2026-10-05T10:15:29.000Z</published>
-    <summary>Enhance remote access with secure and efficient desktop utility configuration using AnyDesk - a streamlined solution empowering professionals to unlock... — ★ 286 (606.6/day)</summary>
-    <author><name>pauseseamandart18</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CrewPotterRectify/Autodesk-Inventor</id>
-    <title>CrewPotterRectify/Autodesk-Inventor</title>
-    <link href="https://github.com/CrewPotterRectify/Autodesk-Inventor"/>
-    <updated>2026-10-05T10:16:57.000Z</updated>
-    <published>2026-10-05T10:16:51.000Z</published>
-    <summary>Revolutionize your professional design workflows with this desktop utility configuration that optimizes collaboration and enhances data management in... — ★ 284 (603.6/day)</summary>
-    <author><name>CrewPotterRectify</name></author>
   </entry>
   <entry>
     <id>https://github.com/CopilotKit/OpenDots</id>
     <title>CopilotKit/OpenDots</title>
     <link href="https://github.com/CopilotKit/OpenDots"/>
-    <updated>2026-10-05T19:53:36.000Z</updated>
+    <updated>2026-10-05T22:37:47.000Z</updated>
     <published>2026-09-29T17:13:58.000Z</published>
-    <summary>Your always-on AI coworkers that move between text, calls, and Slack. — ★ 3644 (589.6/day)</summary>
+    <summary>Your always-on AI coworkers that move between text, calls, and Slack. — ★ 3690 (579.6/day)</summary>
     <author><name>CopilotKit</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/SwimmerShield/Better-Discord</id>
-    <title>SwimmerShield/Better-Discord</title>
-    <link href="https://github.com/SwimmerShield/Better-Discord"/>
-    <updated>2026-10-05T10:17:28.000Z</updated>
-    <published>2026-10-05T10:17:22.000Z</published>
-    <summary>Enhances efficiency in managing complex desktop software configurations with a dedicated and highly-functional tool that bypasses redundant steps. — ★ 277 (589.1/day)</summary>
-    <author><name>SwimmerShield</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CyclopsRogueSucceed/Discord-Nitro-Generator</id>
-    <title>CyclopsRogueSucceed/Discord-Nitro-Generator</title>
-    <link href="https://github.com/CyclopsRogueSucceed/Discord-Nitro-Generator"/>
-    <updated>2026-10-05T10:21:00.000Z</updated>
-    <published>2026-10-05T10:20:53.000Z</published>
-    <summary>Discord Nitro Generator is a professional desktop software utility designed to optimize server performance by managing large communities with ease. — ★ 271 (579.4/day)</summary>
-    <author><name>CyclopsRogueSucceed</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/gangmoonrotation/Discord-Quest-Completer</id>
-    <title>gangmoonrotation/Discord-Quest-Completer</title>
-    <link href="https://github.com/gangmoonrotation/Discord-Quest-Completer"/>
-    <updated>2026-10-05T10:21:03.000Z</updated>
-    <published>2026-10-05T10:20:56.000Z</published>
-    <summary>Discord Quest Completer optimizes your gaming experience by providing a comprehensive solution to auto-completing quests in popular games directly through... — ★ 261 (558.0/day)</summary>
-    <author><name>gangmoonrotation</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Gryphonpebastion/Total-Commander</id>
-    <title>Gryphonpebastion/Total-Commander</title>
-    <link href="https://github.com/Gryphonpebastion/Total-Commander"/>
-    <updated>2026-10-05T10:31:14.000Z</updated>
-    <published>2026-10-05T10:31:08.000Z</published>
-    <summary>Total Commander is a versatile desktop utility that streamlines file management tasks with its dual-panel interface and extensive set of features,... — ★ 248 (538.4/day)</summary>
-    <author><name>Gryphonpebastion</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ModernShahDefeat72/Discord-Server-Cloner</id>
-    <title>ModernShahDefeat72/Discord-Server-Cloner</title>
-    <link href="https://github.com/ModernShahDefeat72/Discord-Server-Cloner"/>
-    <updated>2026-10-05T10:21:07.000Z</updated>
-    <published>2026-10-05T10:21:01.000Z</published>
-    <summary>Discord Server Cloner optimizes server management by replicating and maintaining a custom set of configurations for your community&#39;s unique needs in a... — ★ 251 (536.7/day)</summary>
-    <author><name>ModernShahDefeat72</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/VarnishTrackPrize/ultra-Iso</id>
-    <title>VarnishTrackPrize/ultra-Iso</title>
-    <link href="https://github.com/VarnishTrackPrize/ultra-Iso"/>
-    <updated>2026-10-05T10:31:45.000Z</updated>
-    <published>2026-10-05T10:31:38.000Z</published>
-    <summary>Ultra Iso optimizes professional desktop software utility configurations by providing a meticulously curated set of settings tailored to enhance... — ★ 247 (536.6/day)</summary>
-    <author><name>VarnishTrackPrize</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Minorthedisengage/Discord-Server-Raider</id>
-    <title>Minorthedisengage/Discord-Server-Raider</title>
-    <link href="https://github.com/Minorthedisengage/Discord-Server-Raider"/>
-    <updated>2026-10-05T10:21:10.000Z</updated>
-    <published>2026-10-05T10:21:03.000Z</published>
-    <summary>Discord Server Raider is an AI-driven tool that optimizes server management and enhances user experience without any connection to Apple or iOS devices;... — ★ 249 (532.5/day)</summary>
-    <author><name>Minorthedisengage</name></author>
   </entry>
   <entry>
     <id>https://github.com/VelaPayments/vela-server</id>
     <title>VelaPayments/vela-server</title>
     <link href="https://github.com/VelaPayments/vela-server"/>
-    <updated>2026-10-05T21:24:27.000Z</updated>
+    <updated>2026-10-05T22:28:37.000Z</updated>
     <published>2026-10-05T20:48:09.000Z</published>
     <summary>No description. — ★ 131 (524.0/day)</summary>
     <author><name>VelaPayments</name></author>
@@ -190,7 +190,7 @@
     <id>https://github.com/VelaPayments/vela-payments</id>
     <title>VelaPayments/vela-payments</title>
     <link href="https://github.com/VelaPayments/vela-payments"/>
-    <updated>2026-10-05T20:59:28.000Z</updated>
+    <updated>2026-10-05T22:28:24.000Z</updated>
     <published>2026-10-05T20:46:00.000Z</published>
     <summary>No description. — ★ 131 (524.0/day)</summary>
     <author><name>VelaPayments</name></author>
@@ -199,46 +199,28 @@
     <id>https://github.com/Louis-CFM/coucou</id>
     <title>Louis-CFM/coucou</title>
     <link href="https://github.com/Louis-CFM/coucou"/>
-    <updated>2026-10-05T20:55:06.000Z</updated>
+    <updated>2026-10-06T00:52:16.000Z</updated>
     <published>2026-09-27T21:54:12.000Z</published>
-    <summary>A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. — ★ 3665 (458.9/day)</summary>
+    <summary>A tiny friend in your Mac&#39;s notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen. — ★ 3697 (452.4/day)</summary>
     <author><name>Louis-CFM</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/elstongun/leviathan</id>
+    <title>elstongun/leviathan</title>
+    <link href="https://github.com/elstongun/leviathan"/>
+    <updated>2026-10-06T01:02:17.000Z</updated>
+    <published>2026-10-05T08:57:44.000Z</published>
+    <summary>**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index. — ★ 314 (441.6/day)</summary>
+    <author><name>elstongun</name></author>
   </entry>
   <entry>
     <id>https://github.com/facebookincubator/muse-gadget-sdk</id>
     <title>facebookincubator/muse-gadget-sdk</title>
     <link href="https://github.com/facebookincubator/muse-gadget-sdk"/>
-    <updated>2026-10-05T21:31:26.000Z</updated>
+    <updated>2026-10-05T23:27:41.000Z</updated>
     <published>2026-10-02T18:21:23.000Z</published>
-    <summary>Open source SDK to build Muse gadgets — ★ 1408 (449.3/day)</summary>
+    <summary>Open source SDK to build Muse gadgets — ★ 1438 (433.2/day)</summary>
     <author><name>facebookincubator</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/UnitMakerMetro/SketchUp-Pro</id>
-    <title>UnitMakerMetro/SketchUp-Pro</title>
-    <link href="https://github.com/UnitMakerMetro/SketchUp-Pro"/>
-    <updated>2026-10-05T10:29:53.000Z</updated>
-    <published>2026-10-05T10:29:47.000Z</published>
-    <summary>Integrate seamless design and collaboration with precise professional desktop software utility configuration: Sketchup Pro unlocks unparalleled creativity... — ★ 207 (448.5/day)</summary>
-    <author><name>UnitMakerMetro</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/uniteoceanunderpass/Serato-DJ-Pro</id>
-    <title>uniteoceanunderpass/Serato-DJ-Pro</title>
-    <link href="https://github.com/uniteoceanunderpass/Serato-DJ-Pro"/>
-    <updated>2026-10-05T10:29:47.000Z</updated>
-    <published>2026-10-05T10:29:40.000Z</published>
-    <summary>Serato DJ Pro is a professional desktop software utility that optimizes your DJ experience by providing an advanced and seamless platform with powerful... — ★ 204 (441.9/day)</summary>
-    <author><name>uniteoceanunderpass</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Civilcliadapt/Reason-14</id>
-    <title>Civilcliadapt/Reason-14</title>
-    <link href="https://github.com/Civilcliadapt/Reason-14"/>
-    <updated>2026-10-05T10:29:15.000Z</updated>
-    <published>2026-10-05T10:29:09.000Z</published>
-    <summary>Reason 14 is a professional desktop software utility configuration that streamlines processes and provides a pre-activated framework to enhance workflow... — ★ 204 (441.6/day)</summary>
-    <author><name>Civilcliadapt</name></author>
   </entry>
   <entry>
     <id>https://github.com/feder-cr/dots</id>
@@ -246,34 +228,52 @@
     <link href="https://github.com/feder-cr/dots"/>
     <updated>2026-10-03T15:21:24.000Z</updated>
     <published>2026-09-29T23:06:00.000Z</published>
-    <summary>Open-source dots for the web: an AI agent with its own browser, one that does not get blocked. — ★ 2617 (440.8/day)</summary>
+    <summary>Open-source dots for the web: an AI agent with its own browser, one that does not get blocked. — ★ 2619 (427.8/day)</summary>
     <author><name>feder-cr</name></author>
   </entry>
   <entry>
-    <id>https://github.com/BrightVanquisherMold/PH-Downloader</id>
-    <title>BrightVanquisherMold/PH-Downloader</title>
-    <link href="https://github.com/BrightVanquisherMold/PH-Downloader"/>
-    <updated>2026-10-05T10:28:29.000Z</updated>
-    <published>2026-10-05T10:28:23.000Z</published>
-    <summary>Ph Down optimizes your professional desktop utility configuration with a tailored setup that enhances productivity and streamlines tasks.&quot; (124 characters) — ★ 203 (438.9/day)</summary>
-    <author><name>BrightVanquisherMold</name></author>
+    <id>https://github.com/yetone/magpie</id>
+    <title>yetone/magpie</title>
+    <link href="https://github.com/yetone/magpie"/>
+    <updated>2026-10-06T01:26:15.000Z</updated>
+    <published>2026-09-23T16:22:35.000Z</published>
+    <summary>Every agent&#39;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. — ★ 5157 (415.8/day)</summary>
+    <author><name>yetone</name></author>
   </entry>
   <entry>
-    <id>https://github.com/CrownScreenDescribe/SlideShow-Video-Maker</id>
-    <title>CrownScreenDescribe/SlideShow-Video-Maker</title>
-    <link href="https://github.com/CrownScreenDescribe/SlideShow-Video-Maker"/>
-    <updated>2026-10-05T10:29:53.000Z</updated>
-    <published>2026-10-05T10:29:47.000Z</published>
-    <summary>Slideshow Video Maker optimizes post-production workflows by providing a professional-grade video editing and screen recording plugin that streamlines... — ★ 201 (435.5/day)</summary>
-    <author><name>CrownScreenDescribe</name></author>
+    <id>https://github.com/shihabal3amri/DiPlay</id>
+    <title>shihabal3amri/DiPlay</title>
+    <link href="https://github.com/shihabal3amri/DiPlay"/>
+    <updated>2026-10-05T21:50:13.000Z</updated>
+    <published>2026-09-24T15:36:38.000Z</published>
+    <summary>Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview. — ★ 4735 (414.1/day)</summary>
+    <author><name>shihabal3amri</name></author>
   </entry>
   <entry>
-    <id>https://github.com/DestroyerLast28/Instagram-Liker-Bot</id>
-    <title>DestroyerLast28/Instagram-Liker-Bot</title>
-    <link href="https://github.com/DestroyerLast28/Instagram-Liker-Bot"/>
-    <updated>2026-10-05T10:24:53.000Z</updated>
-    <published>2026-10-05T10:24:48.000Z</published>
-    <summary>Installs and configures a professional desktop software utility for streamlined Instagram interaction, providing seamless access to manage likes... — ★ 202 (434.4/day)</summary>
-    <author><name>DestroyerLast28</name></author>
+    <id>https://github.com/QingYunA/answer-me-with-html</id>
+    <title>QingYunA/answer-me-with-html</title>
+    <link href="https://github.com/QingYunA/answer-me-with-html"/>
+    <updated>2026-10-06T01:56:32.000Z</updated>
+    <published>2026-10-02T09:57:40.000Z</published>
+    <summary>Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。 — ★ 1490 (406.1/day)</summary>
+    <author><name>QingYunA</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/rauchg/gdp-ts</id>
+    <title>rauchg/gdp-ts</title>
+    <link href="https://github.com/rauchg/gdp-ts"/>
+    <updated>2026-10-05T14:06:47.000Z</updated>
+    <published>2026-10-04T18:55:18.000Z</published>
+    <summary>No description. — ★ 523 (403.5/day)</summary>
+    <author><name>rauchg</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/photocraft</id>
+    <title>storytold/photocraft</title>
+    <link href="https://github.com/storytold/photocraft"/>
+    <updated>2026-10-06T01:19:56.000Z</updated>
+    <published>2026-09-30T13:37:48.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 2140 (387.9/day)</summary>
+    <author><name>storytold</name></author>
   </entry>
 </feed>
