@@ -5,24 +5,42 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-08T18:17:11.803Z</updated>
+  <updated>2026-10-08T23:30:40.007Z</updated>
   <entry>
     <id>https://github.com/openai/math</id>
     <title>openai/math</title>
     <link href="https://github.com/openai/math"/>
     <updated>2026-10-08T05:20:00.000Z</updated>
     <published>2026-10-06T21:47:02.000Z</published>
-    <summary>No description. — ★ 11823 (6376.1/day)</summary>
+    <summary>No description. — ★ 12044 (5812.8/day)</summary>
     <author><name>openai</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/photocraft</id>
     <title>storytold/photocraft</title>
     <link href="https://github.com/storytold/photocraft"/>
-    <updated>2026-10-08T18:12:55.000Z</updated>
+    <updated>2026-10-08T23:22:22.000Z</updated>
     <published>2026-09-30T13:37:48.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 24671 (3010.9/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 26597 (3161.9/day)</summary>
     <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/noahdunnagan/fsearch</id>
+    <title>noahdunnagan/fsearch</title>
+    <link href="https://github.com/noahdunnagan/fsearch"/>
+    <updated>2026-10-08T17:59:25.000Z</updated>
+    <published>2026-10-08T17:50:33.000Z</published>
+    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files. — ★ 364 (1456.0/day)</summary>
+    <author><name>noahdunnagan</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Nonco-Organization/multicoin-address-validator</id>
+    <title>Nonco-Organization/multicoin-address-validator</title>
+    <link href="https://github.com/Nonco-Organization/multicoin-address-validator"/>
+    <updated>2026-10-08T18:09:23.000Z</updated>
+    <published>2026-10-08T17:36:21.000Z</published>
+    <summary>Useful library for validation of Bitcoin, Litecoin, Ethereum and other cryptocoin addresses — ★ 231 (924.0/day)</summary>
+    <author><name>Nonco-Organization</name></author>
   </entry>
   <entry>
     <id>https://github.com/mhtsec/ARTEX</id>
@@ -30,7 +48,7 @@
     <link href="https://github.com/mhtsec/ARTEX"/>
     <updated>2026-10-08T13:45:54.000Z</updated>
     <published>2026-10-08T05:33:06.000Z</published>
-    <summary>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 — ★ 634 (1194.8/day)</summary>
+    <summary>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 — ★ 689 (920.7/day)</summary>
     <author><name>mhtsec</name></author>
   </entry>
   <entry>
@@ -39,53 +57,44 @@
     <link href="https://github.com/alchaincyf/huashu-art-motion"/>
     <updated>2026-10-08T13:11:08.000Z</updated>
     <published>2026-10-06T04:49:37.000Z</published>
-    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 2374 (927.0/day)</summary>
+    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 2419 (870.6/day)</summary>
     <author><name>alchaincyf</name></author>
   </entry>
   <entry>
     <id>https://github.com/KKKKhazix/AIHOT</id>
     <title>KKKKhazix/AIHOT</title>
     <link href="https://github.com/KKKKhazix/AIHOT"/>
-    <updated>2026-10-08T18:12:14.000Z</updated>
+    <updated>2026-10-08T18:22:36.000Z</updated>
     <published>2026-09-28T23:40:05.000Z</published>
-    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 6701 (685.5/day)</summary>
+    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 6713 (671.7/day)</summary>
     <author><name>KKKKhazix</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/rehan-remade/universal-modder</id>
-    <title>rehan-remade/universal-modder</title>
-    <link href="https://github.com/rehan-remade/universal-modder"/>
-    <updated>2026-10-08T13:24:56.000Z</updated>
-    <published>2026-09-30T05:00:35.000Z</published>
-    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 5530 (646.5/day)</summary>
-    <author><name>rehan-remade</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/LoreanXavier/pt-pc</id>
-    <title>LoreanXavier/pt-pc</title>
-    <link href="https://github.com/LoreanXavier/pt-pc"/>
-    <updated>2026-10-07T20:34:02.000Z</updated>
-    <published>2026-10-07T09:33:31.000Z</published>
-    <summary>Native PC port of P.T. (runs from your own PS4 game files) — ★ 870 (638.0/day)</summary>
-    <author><name>LoreanXavier</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/nullmoth/nvidia-macos-driver</id>
-    <title>nullmoth/nvidia-macos-driver</title>
-    <link href="https://github.com/nullmoth/nvidia-macos-driver"/>
-    <updated>2026-10-08T13:48:06.000Z</updated>
-    <published>2026-10-07T08:13:12.000Z</published>
-    <summary>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included. — ★ 865 (609.4/day)</summary>
-    <author><name>nullmoth</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/lightcraft</id>
     <title>storytold/lightcraft</title>
     <link href="https://github.com/storytold/lightcraft"/>
-    <updated>2026-10-08T18:14:47.000Z</updated>
+    <updated>2026-10-08T22:48:39.000Z</updated>
     <published>2026-09-30T14:09:27.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust. — ★ 4862 (595.0/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust. — ★ 5458 (650.6/day)</summary>
     <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/rehan-remade/universal-modder</id>
+    <title>rehan-remade/universal-modder</title>
+    <link href="https://github.com/rehan-remade/universal-modder"/>
+    <updated>2026-10-08T23:19:15.000Z</updated>
+    <published>2026-09-30T05:00:35.000Z</published>
+    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 5633 (642.2/day)</summary>
+    <author><name>rehan-remade</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/nullmoth/nvidia-macos-driver</id>
+    <title>nullmoth/nvidia-macos-driver</title>
+    <link href="https://github.com/nullmoth/nvidia-macos-driver"/>
+    <updated>2026-10-08T21:26:29.000Z</updated>
+    <published>2026-10-07T08:13:12.000Z</published>
+    <summary>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included. — ★ 1036 (632.8/day)</summary>
+    <author><name>nullmoth</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/filmcraft</id>
@@ -93,7 +102,34 @@
     <link href="https://github.com/storytold/filmcraft"/>
     <updated>2026-10-08T14:41:28.000Z</updated>
     <published>2026-09-30T13:41:20.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust. — ★ 4765 (581.7/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust. — ★ 5231 (622.1/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/LoreanXavier/pt-pc</id>
+    <title>LoreanXavier/pt-pc</title>
+    <link href="https://github.com/LoreanXavier/pt-pc"/>
+    <updated>2026-10-08T23:28:13.000Z</updated>
+    <published>2026-10-07T09:33:31.000Z</published>
+    <summary>Native PC port of P.T. (runs from your own PS4 game files) — ★ 972 (614.7/day)</summary>
+    <author><name>LoreanXavier</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ThariqS/ai-newtab</id>
+    <title>ThariqS/ai-newtab</title>
+    <link href="https://github.com/ThariqS/ai-newtab"/>
+    <updated>2026-10-08T20:56:58.000Z</updated>
+    <published>2026-10-08T17:44:43.000Z</published>
+    <summary>Claude generates a daily new tab page based on your browser history. — ★ 134 (536.0/day)</summary>
+    <author><name>ThariqS</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/pdfcraft</id>
+    <title>storytold/pdfcraft</title>
+    <link href="https://github.com/storytold/pdfcraft"/>
+    <updated>2026-10-08T23:24:51.000Z</updated>
+    <published>2026-09-30T13:39:37.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust — ★ 4416 (525.1/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -102,44 +138,8 @@
     <link href="https://github.com/alejandrobujan/tendedero"/>
     <updated>2026-10-08T09:55:45.000Z</updated>
     <published>2026-10-07T01:29:54.000Z</published>
-    <summary>Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen. — ★ 940 (553.1/day)</summary>
+    <summary>Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen. — ★ 986 (514.3/day)</summary>
     <author><name>alejandrobujan</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Stellar-Sentinel/sentinel-contracts</id>
-    <title>Stellar-Sentinel/sentinel-contracts</title>
-    <link href="https://github.com/Stellar-Sentinel/sentinel-contracts"/>
-    <updated>2026-10-08T17:21:58.000Z</updated>
-    <published>2026-10-08T15:01:03.000Z</published>
-    <summary>Soroban contract for authorized Stellar Sentinel flags, configurable thresholds, and latest-flag records. — ★ 131 (524.0/day)</summary>
-    <author><name>Stellar-Sentinel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Stellar-Sentinel/sentinel-backend</id>
-    <title>Stellar-Sentinel/sentinel-backend</title>
-    <link href="https://github.com/Stellar-Sentinel/sentinel-backend"/>
-    <updated>2026-10-08T17:22:01.000Z</updated>
-    <published>2026-10-08T15:00:18.000Z</published>
-    <summary>FastAPI service for Stellar account screening, Soroban event monitoring, and network health. — ★ 131 (524.0/day)</summary>
-    <author><name>Stellar-Sentinel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Stellar-Sentinel/sentinel-frontend</id>
-    <title>Stellar-Sentinel/sentinel-frontend</title>
-    <link href="https://github.com/Stellar-Sentinel/sentinel-frontend"/>
-    <updated>2026-10-08T17:44:21.000Z</updated>
-    <published>2026-10-08T14:59:15.000Z</published>
-    <summary>Stellar Sentinel dashboard for Stellar account screening, network health, and Soroban contract flag events. — ★ 130 (520.0/day)</summary>
-    <author><name>Stellar-Sentinel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CopilotKit/OpenDots</id>
-    <title>CopilotKit/OpenDots</title>
-    <link href="https://github.com/CopilotKit/OpenDots"/>
-    <updated>2026-10-06T22:46:41.000Z</updated>
-    <published>2026-09-29T17:13:58.000Z</published>
-    <summary>Your always-on AI coworkers that move between text, calls, and Slack. — ★ 4453 (492.4/day)</summary>
-    <author><name>CopilotKit</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/wordcraft</id>
@@ -147,34 +147,43 @@
     <link href="https://github.com/storytold/wordcraft"/>
     <updated>2026-10-08T14:41:45.000Z</updated>
     <published>2026-10-07T08:34:24.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 683 (486.2/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 792 (488.2/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
-    <id>https://github.com/storytold/pdfcraft</id>
-    <title>storytold/pdfcraft</title>
-    <link href="https://github.com/storytold/pdfcraft"/>
-    <updated>2026-10-08T17:40:30.000Z</updated>
-    <published>2026-09-30T13:39:37.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust — ★ 3980 (485.8/day)</summary>
-    <author><name>storytold</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/pingdotgg/ts-rust</id>
-    <title>pingdotgg/ts-rust</title>
-    <link href="https://github.com/pingdotgg/ts-rust"/>
-    <updated>2026-10-08T18:04:47.000Z</updated>
-    <published>2026-10-07T05:17:07.000Z</published>
-    <summary>An experimental Rust port of the TypeScript 7 compiler (tsc) — ★ 659 (427.4/day)</summary>
-    <author><name>pingdotgg</name></author>
+    <id>https://github.com/CopilotKit/OpenDots</id>
+    <title>CopilotKit/OpenDots</title>
+    <link href="https://github.com/CopilotKit/OpenDots"/>
+    <updated>2026-10-06T22:46:41.000Z</updated>
+    <published>2026-09-29T17:13:58.000Z</published>
+    <summary>Your always-on AI coworkers that move between text, calls, and Slack. — ★ 4488 (484.6/day)</summary>
+    <author><name>CopilotKit</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/vectorcraft</id>
     <title>storytold/vectorcraft</title>
     <link href="https://github.com/storytold/vectorcraft"/>
-    <updated>2026-10-08T18:08:30.000Z</updated>
+    <updated>2026-10-08T23:18:57.000Z</updated>
     <published>2026-09-30T13:43:03.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust. — ★ 3379 (412.6/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust. — ★ 3753 (446.4/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/shadany7824/playgta5</id>
+    <title>shadany7824/playgta5</title>
+    <link href="https://github.com/shadany7824/playgta5"/>
+    <updated>2026-10-08T06:57:33.000Z</updated>
+    <published>2026-10-07T08:37:15.000Z</published>
+    <summary>A source code for playgta5.com. — ★ 695 (428.9/day)</summary>
+    <author><name>shadany7824</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/cadcraft</id>
+    <title>storytold/cadcraft</title>
+    <link href="https://github.com/storytold/cadcraft"/>
+    <updated>2026-10-08T14:41:48.000Z</updated>
+    <published>2026-10-07T05:22:31.000Z</published>
+    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 731 (416.4/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -183,71 +192,35 @@
     <link href="https://github.com/omlahore/RemoveMacAI"/>
     <updated>2026-10-08T09:17:49.000Z</updated>
     <published>2026-09-29T11:02:39.000Z</published>
-    <summary>Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone. — ★ 3753 (403.5/day)</summary>
+    <summary>Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone. — ★ 3782 (397.3/day)</summary>
     <author><name>omlahore</name></author>
   </entry>
   <entry>
-    <id>https://github.com/storytold/cadcraft</id>
-    <title>storytold/cadcraft</title>
-    <link href="https://github.com/storytold/cadcraft"/>
-    <updated>2026-10-08T14:41:48.000Z</updated>
-    <published>2026-10-07T05:22:31.000Z</published>
-    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 603 (392.1/day)</summary>
-    <author><name>storytold</name></author>
+    <id>https://github.com/pingdotgg/ts-rust</id>
+    <title>pingdotgg/ts-rust</title>
+    <link href="https://github.com/pingdotgg/ts-rust"/>
+    <updated>2026-10-08T23:22:46.000Z</updated>
+    <published>2026-10-07T05:17:07.000Z</published>
+    <summary>An experimental Rust port of the TypeScript 7 compiler (tsc) — ★ 692 (393.3/day)</summary>
+    <author><name>pingdotgg</name></author>
   </entry>
   <entry>
     <id>https://github.com/Louis-CFM/coucou</id>
     <title>Louis-CFM/coucou</title>
     <link href="https://github.com/Louis-CFM/coucou"/>
-    <updated>2026-10-08T17:10:27.000Z</updated>
+    <updated>2026-10-08T23:17:25.000Z</updated>
     <published>2026-09-27T21:54:12.000Z</published>
-    <summary>A tiny friend in your Mac&#39;s notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen. — ★ 4210 (388.0/day)</summary>
+    <summary>A tiny friend in your Mac&#39;s notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen. — ★ 4243 (383.4/day)</summary>
     <author><name>Louis-CFM</name></author>
   </entry>
   <entry>
-    <id>https://github.com/shadany7824/playgta5</id>
-    <title>shadany7824/playgta5</title>
-    <link href="https://github.com/shadany7824/playgta5"/>
-    <updated>2026-10-08T06:57:33.000Z</updated>
-    <published>2026-10-07T08:37:15.000Z</published>
-    <summary>A source code for playgta5.com. — ★ 540 (385.0/day)</summary>
-    <author><name>shadany7824</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/bas3line/ascii</id>
-    <title>bas3line/ascii</title>
-    <link href="https://github.com/bas3line/ascii"/>
-    <updated>2026-10-08T18:07:45.000Z</updated>
-    <published>2026-10-07T06:48:54.000Z</published>
-    <summary>Animated ascii art for web pages, in TypeScript: React, Next.js, Astro, or one HTML tag — ★ 568 (384.3/day)</summary>
-    <author><name>bas3line</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/kargulstudio/sales-crm</id>
-    <title>kargulstudio/sales-crm</title>
-    <link href="https://github.com/kargulstudio/sales-crm"/>
-    <updated>2026-10-06T06:42:03.000Z</updated>
-    <published>2026-10-04T10:55:58.000Z</published>
-    <summary>No description. — ★ 1651 (383.4/day)</summary>
-    <author><name>kargulstudio</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/shader-effects-inc/shaders</id>
-    <title>shader-effects-inc/shaders</title>
-    <link href="https://github.com/shader-effects-inc/shaders"/>
-    <updated>2026-10-07T22:45:39.000Z</updated>
-    <published>2026-09-29T16:36:26.000Z</published>
-    <summary>WebGPU components for React, Vue, Svelte, Solid, JS &amp; Framer — ★ 3347 (369.0/day)</summary>
-    <author><name>shader-effects-inc</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/QingYunA/answer-me-with-html</id>
-    <title>QingYunA/answer-me-with-html</title>
-    <link href="https://github.com/QingYunA/answer-me-with-html"/>
-    <updated>2026-10-08T11:06:11.000Z</updated>
-    <published>2026-10-02T09:57:40.000Z</published>
-    <summary>Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。 — ★ 2317 (365.1/day)</summary>
-    <author><name>QingYunA</name></author>
+    <id>https://github.com/Stellar-Sentinel/sentinel-contracts</id>
+    <title>Stellar-Sentinel/sentinel-contracts</title>
+    <link href="https://github.com/Stellar-Sentinel/sentinel-contracts"/>
+    <updated>2026-10-08T19:24:58.000Z</updated>
+    <published>2026-10-08T15:01:03.000Z</published>
+    <summary>Soroban contract for authorized Stellar Sentinel flags, configurable thresholds, and latest-flag records. — ★ 131 (370.2/day)</summary>
+    <author><name>Stellar-Sentinel</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/effectcraft</id>
@@ -255,25 +228,52 @@
     <link href="https://github.com/storytold/effectcraft"/>
     <updated>2026-10-08T15:51:48.000Z</updated>
     <published>2026-10-01T14:24:46.000Z</published>
-    <summary>No description. — ★ 2459 (343.4/day)</summary>
+    <summary>No description. — ★ 2731 (370.1/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
-    <id>https://github.com/nykooi1/vibe-wise</id>
-    <title>nykooi1/vibe-wise</title>
-    <link href="https://github.com/nykooi1/vibe-wise"/>
-    <updated>2026-10-06T21:20:56.000Z</updated>
-    <published>2026-09-29T01:29:57.000Z</published>
-    <summary>A Claude Code plugin that helps you learn how to build while AI writes the code. — ★ 3133 (323.0/day)</summary>
-    <author><name>nykooi1</name></author>
+    <id>https://github.com/Stellar-Sentinel/sentinel-backend</id>
+    <title>Stellar-Sentinel/sentinel-backend</title>
+    <link href="https://github.com/Stellar-Sentinel/sentinel-backend"/>
+    <updated>2026-10-08T19:29:00.000Z</updated>
+    <published>2026-10-08T15:00:18.000Z</published>
+    <summary>FastAPI service for Stellar account screening, Soroban event monitoring, and network health. — ★ 130 (366.8/day)</summary>
+    <author><name>Stellar-Sentinel</name></author>
   </entry>
   <entry>
-    <id>https://github.com/feder-cr/invisible_playwright_mcp</id>
-    <title>feder-cr/invisible_playwright_mcp</title>
-    <link href="https://github.com/feder-cr/invisible_playwright_mcp"/>
-    <updated>2026-10-08T15:40:13.000Z</updated>
-    <published>2026-09-29T23:06:00.000Z</published>
-    <summary>Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use. — ★ 2667 (303.1/day)</summary>
-    <author><name>feder-cr</name></author>
+    <id>https://github.com/shader-effects-inc/shaders</id>
+    <title>shader-effects-inc/shaders</title>
+    <link href="https://github.com/shader-effects-inc/shaders"/>
+    <updated>2026-10-08T23:29:17.000Z</updated>
+    <published>2026-09-29T16:36:26.000Z</published>
+    <summary>WebGPU components for React, Vue, Svelte, Solid, JS &amp; Framer — ★ 3406 (366.7/day)</summary>
+    <author><name>shader-effects-inc</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/kargulstudio/sales-crm</id>
+    <title>kargulstudio/sales-crm</title>
+    <link href="https://github.com/kargulstudio/sales-crm"/>
+    <updated>2026-10-06T06:42:03.000Z</updated>
+    <published>2026-10-04T10:55:58.000Z</published>
+    <summary>No description. — ★ 1657 (366.3/day)</summary>
+    <author><name>kargulstudio</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Stellar-Sentinel/sentinel-frontend</id>
+    <title>Stellar-Sentinel/sentinel-frontend</title>
+    <link href="https://github.com/Stellar-Sentinel/sentinel-frontend"/>
+    <updated>2026-10-08T19:06:57.000Z</updated>
+    <published>2026-10-08T14:59:15.000Z</published>
+    <summary>Stellar Sentinel dashboard for Stellar account screening, network health, and Soroban contract flag events. — ★ 130 (366.0/day)</summary>
+    <author><name>Stellar-Sentinel</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/QingYunA/answer-me-with-html</id>
+    <title>QingYunA/answer-me-with-html</title>
+    <link href="https://github.com/QingYunA/answer-me-with-html"/>
+    <updated>2026-10-08T11:06:11.000Z</updated>
+    <published>2026-10-02T09:57:40.000Z</published>
+    <summary>Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。 — ★ 2319 (353.3/day)</summary>
+    <author><name>QingYunA</name></author>
   </entry>
 </feed>
