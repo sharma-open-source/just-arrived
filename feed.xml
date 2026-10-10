@@ -5,24 +5,33 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-10T01:27:01.762Z</updated>
+  <updated>2026-10-10T07:27:54.370Z</updated>
   <entry>
     <id>https://github.com/openai/math</id>
     <title>openai/math</title>
     <link href="https://github.com/openai/math"/>
     <updated>2026-10-08T05:20:00.000Z</updated>
     <published>2026-10-06T21:47:02.000Z</published>
-    <summary>No description. — ★ 13089 (4151.6/day)</summary>
+    <summary>No description. — ★ 13312 (3911.4/day)</summary>
     <author><name>openai</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/photocraft</id>
     <title>storytold/photocraft</title>
     <link href="https://github.com/storytold/photocraft"/>
-    <updated>2026-10-10T01:15:24.000Z</updated>
+    <updated>2026-10-10T07:15:00.000Z</updated>
     <published>2026-09-30T13:37:48.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 35484 (3738.1/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 37338 (3832.2/day)</summary>
     <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/mhtsec/ARTEX</id>
+    <title>mhtsec/ARTEX</title>
+    <link href="https://github.com/mhtsec/ARTEX"/>
+    <updated>2026-10-08T13:45:54.000Z</updated>
+    <published>2026-10-08T05:33:06.000Z</published>
+    <summary>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 — ★ 2545 (1223.7/day)</summary>
+    <author><name>mhtsec</name></author>
   </entry>
   <entry>
     <id>https://github.com/KindStatesman/KMS-Pico</id>
@@ -30,8 +39,17 @@
     <link href="https://github.com/KindStatesman/KMS-Pico"/>
     <updated>2026-10-09T13:53:14.000Z</updated>
     <published>2026-10-09T13:53:07.000Z</published>
-    <summary>Kms Pico Free optimizes your professional desktop environment by providing a tailored utility configuration that enhances workflow efficiency.&#39; This... — ★ 614 (1274.2/day)</summary>
+    <summary>Kms Pico Free optimizes your professional desktop environment by providing a tailored utility configuration that enhances workflow efficiency.&#39; This... — ★ 614 (838.2/day)</summary>
     <author><name>KindStatesman</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/noahdunnagan/fsearch</id>
+    <title>noahdunnagan/fsearch</title>
+    <link href="https://github.com/noahdunnagan/fsearch"/>
+    <updated>2026-10-09T16:22:32.000Z</updated>
+    <published>2026-10-08T17:50:33.000Z</published>
+    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files. — ★ 1307 (833.8/day)</summary>
+    <author><name>noahdunnagan</name></author>
   </entry>
   <entry>
     <id>https://github.com/VarnishSerpentBurn/Discord-Quest-Completer</id>
@@ -39,8 +57,17 @@
     <link href="https://github.com/VarnishSerpentBurn/Discord-Quest-Completer"/>
     <updated>2026-10-09T13:50:24.000Z</updated>
     <published>2026-10-09T13:50:18.000Z</published>
-    <summary>Discord Quest Completer optimizes user experience by providing a comprehensive solution to automate and streamline repetitive tasks within popular quests... — ★ 611 (1262.8/day)</summary>
+    <summary>Discord Quest Completer optimizes user experience by providing a comprehensive solution to automate and streamline repetitive tasks within popular quests... — ★ 611 (831.9/day)</summary>
     <author><name>VarnishSerpentBurn</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/lightcraft</id>
+    <title>storytold/lightcraft</title>
+    <link href="https://github.com/storytold/lightcraft"/>
+    <updated>2026-10-10T06:23:26.000Z</updated>
+    <published>2026-09-30T14:09:27.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust. — ★ 8074 (830.6/day)</summary>
+    <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/navyofficerpipe/Discord-Server-Raider</id>
@@ -48,8 +75,89 @@
     <link href="https://github.com/navyofficerpipe/Discord-Server-Raider"/>
     <updated>2026-10-09T13:50:25.000Z</updated>
     <published>2026-10-09T13:50:19.000Z</published>
-    <summary>Discord Server Raider&quot;, an AI-driven solution designed to streamline server management tasks on GitHub without any mention of Apple or mobile devices; it... — ★ 605 (1250.4/day)</summary>
+    <summary>Discord Server Raider&quot;, an AI-driven solution designed to streamline server management tasks on GitHub without any mention of Apple or mobile devices; it... — ★ 605 (823.8/day)</summary>
     <author><name>navyofficerpipe</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/filmcraft</id>
+    <title>storytold/filmcraft</title>
+    <link href="https://github.com/storytold/filmcraft"/>
+    <updated>2026-10-10T02:51:29.000Z</updated>
+    <published>2026-09-30T13:41:20.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust. — ★ 7508 (770.8/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/wordcraft</id>
+    <title>storytold/wordcraft</title>
+    <link href="https://github.com/storytold/wordcraft"/>
+    <updated>2026-10-10T02:51:51.000Z</updated>
+    <published>2026-10-07T08:34:24.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 2206 (746.8/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/alchaincyf/huashu-art-motion</id>
+    <title>alchaincyf/huashu-art-motion</title>
+    <link href="https://github.com/alchaincyf/huashu-art-motion"/>
+    <updated>2026-10-10T03:16:25.000Z</updated>
+    <published>2026-10-06T04:49:37.000Z</published>
+    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 3027 (736.5/day)</summary>
+    <author><name>alchaincyf</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/pdfcraft</id>
+    <title>storytold/pdfcraft</title>
+    <link href="https://github.com/storytold/pdfcraft"/>
+    <updated>2026-10-10T02:51:37.000Z</updated>
+    <published>2026-09-30T13:39:37.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust — ★ 6824 (700.5/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Clawfitzfilter/Display-Fusion</id>
+    <title>Clawfitzfilter/Display-Fusion</title>
+    <link href="https://github.com/Clawfitzfilter/Display-Fusion"/>
+    <updated>2026-10-09T13:50:26.000Z</updated>
+    <published>2026-10-09T13:50:20.000Z</published>
+    <summary>Display Fusion optimizes desktop software utility configurations by providing a robust and efficient management system that enhances productivity without... — ★ 509 (693.1/day)</summary>
+    <author><name>Clawfitzfilter</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/powderdiverpillar/Total-Commander</id>
+    <title>powderdiverpillar/Total-Commander</title>
+    <link href="https://github.com/powderdiverpillar/Total-Commander"/>
+    <updated>2026-10-09T13:58:32.000Z</updated>
+    <published>2026-10-09T13:58:25.000Z</published>
+    <summary>Total Commander is an advanced utility that optimizes workflow by providing a seamless interface to manage and navigate through multiple repositories... — ★ 504 (691.5/day)</summary>
+    <author><name>powderdiverpillar</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/passrhymegazebo/AnyUnlock</id>
+    <title>passrhymegazebo/AnyUnlock</title>
+    <link href="https://github.com/passrhymegazebo/AnyUnlock"/>
+    <updated>2026-10-09T13:45:04.000Z</updated>
+    <published>2026-10-09T13:44:57.000Z</published>
+    <summary>Anyunlock optimizes your workflow by providing a comprehensive desktop utility configuration that streamlines processes and boosts efficiency without... — ★ 510 (690.9/day)</summary>
+    <author><name>passrhymegazebo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/nullmoth/nvidia-macos-driver</id>
+    <title>nullmoth/nvidia-macos-driver</title>
+    <link href="https://github.com/nullmoth/nvidia-macos-driver"/>
+    <updated>2026-10-10T05:43:04.000Z</updated>
+    <published>2026-10-07T08:13:12.000Z</published>
+    <summary>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included. — ★ 2046 (689.2/day)</summary>
+    <author><name>nullmoth</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/hyperrobinclash/Better-Discord</id>
+    <title>hyperrobinclash/Better-Discord</title>
+    <link href="https://github.com/hyperrobinclash/Better-Discord"/>
+    <updated>2026-10-09T13:46:26.000Z</updated>
+    <published>2026-10-09T13:46:19.000Z</published>
+    <summary>Enhances productivity by streamlining your professional desktop software utility configurations with an innovative configuration manager that provides a... — ★ 503 (682.3/day)</summary>
+    <author><name>hyperrobinclash</name></author>
   </entry>
   <entry>
     <id>https://github.com/attowarriorbond/SolidWorks-CAD</id>
@@ -57,7 +165,7 @@
     <link href="https://github.com/attowarriorbond/SolidWorks-CAD"/>
     <updated>2026-10-09T19:43:43.000Z</updated>
     <published>2026-10-09T19:43:38.000Z</published>
-    <summary>Solidworks Cad meticulously configures professional desktop software utilities to facilitate seamless task execution. — ★ 309 (1236.0/day)</summary>
+    <summary>Solidworks Cad meticulously configures professional desktop software utilities to facilitate seamless task execution. — ★ 309 (631.8/day)</summary>
     <author><name>attowarriorbond</name></author>
   </entry>
   <entry>
@@ -66,62 +174,35 @@
     <link href="https://github.com/Paceclomooring/Adobe-Substance-3d"/>
     <updated>2026-10-09T19:43:43.000Z</updated>
     <published>2026-10-09T19:43:37.000Z</published>
-    <summary>Adobe Substance 3D optimizes professional desktop software utility configurations by providing a seamless and comprehensive platform that unlocks infinite... — ★ 303 (1212.0/day)</summary>
+    <summary>Adobe Substance 3D optimizes professional desktop software utility configurations by providing a seamless and comprehensive platform that unlocks infinite... — ★ 303 (619.5/day)</summary>
     <author><name>Paceclomooring</name></author>
   </entry>
   <entry>
-    <id>https://github.com/mhtsec/ARTEX</id>
-    <title>mhtsec/ARTEX</title>
-    <link href="https://github.com/mhtsec/ARTEX"/>
-    <updated>2026-10-08T13:45:54.000Z</updated>
-    <published>2026-10-08T05:33:06.000Z</published>
-    <summary>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 — ★ 2202 (1203.9/day)</summary>
-    <author><name>mhtsec</name></author>
+    <id>https://github.com/KKKKhazix/AIHOT</id>
+    <title>KKKKhazix/AIHOT</title>
+    <link href="https://github.com/KKKKhazix/AIHOT"/>
+    <updated>2026-10-10T06:26:28.000Z</updated>
+    <published>2026-09-28T23:40:05.000Z</published>
+    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 6985 (616.8/day)</summary>
+    <author><name>KKKKhazix</name></author>
   </entry>
   <entry>
-    <id>https://github.com/powderdiverpillar/Total-Commander</id>
-    <title>powderdiverpillar/Total-Commander</title>
-    <link href="https://github.com/powderdiverpillar/Total-Commander"/>
-    <updated>2026-10-09T13:58:32.000Z</updated>
-    <published>2026-10-09T13:58:25.000Z</published>
-    <summary>Total Commander is an advanced utility that optimizes workflow by providing a seamless interface to manage and navigate through multiple repositories... — ★ 504 (1053.9/day)</summary>
-    <author><name>powderdiverpillar</name></author>
+    <id>https://github.com/rehan-remade/universal-modder</id>
+    <title>rehan-remade/universal-modder</title>
+    <link href="https://github.com/rehan-remade/universal-modder"/>
+    <updated>2026-10-10T07:24:53.000Z</updated>
+    <published>2026-09-30T05:00:35.000Z</published>
+    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 6120 (605.8/day)</summary>
+    <author><name>rehan-remade</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Clawfitzfilter/Display-Fusion</id>
-    <title>Clawfitzfilter/Display-Fusion</title>
-    <link href="https://github.com/Clawfitzfilter/Display-Fusion"/>
-    <updated>2026-10-09T13:50:26.000Z</updated>
-    <published>2026-10-09T13:50:20.000Z</published>
-    <summary>Display Fusion optimizes desktop software utility configurations by providing a robust and efficient management system that enhances productivity without... — ★ 509 (1052.1/day)</summary>
-    <author><name>Clawfitzfilter</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/passrhymegazebo/AnyUnlock</id>
-    <title>passrhymegazebo/AnyUnlock</title>
-    <link href="https://github.com/passrhymegazebo/AnyUnlock"/>
-    <updated>2026-10-09T13:45:04.000Z</updated>
-    <published>2026-10-09T13:44:57.000Z</published>
-    <summary>Anyunlock optimizes your workflow by providing a comprehensive desktop utility configuration that streamlines processes and boosts efficiency without... — ★ 510 (1046.0/day)</summary>
-    <author><name>passrhymegazebo</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/hyperrobinclash/Better-Discord</id>
-    <title>hyperrobinclash/Better-Discord</title>
-    <link href="https://github.com/hyperrobinclash/Better-Discord"/>
-    <updated>2026-10-09T13:46:26.000Z</updated>
-    <published>2026-10-09T13:46:19.000Z</published>
-    <summary>Enhances productivity by streamlining your professional desktop software utility configurations with an innovative configuration manager that provides a... — ★ 503 (1033.7/day)</summary>
-    <author><name>hyperrobinclash</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/noahdunnagan/fsearch</id>
-    <title>noahdunnagan/fsearch</title>
-    <link href="https://github.com/noahdunnagan/fsearch"/>
-    <updated>2026-10-09T16:22:32.000Z</updated>
-    <published>2026-10-08T17:50:33.000Z</published>
-    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files. — ★ 1180 (896.0/day)</summary>
-    <author><name>noahdunnagan</name></author>
+    <id>https://github.com/zhongerxin/iPhone-use</id>
+    <title>zhongerxin/iPhone-use</title>
+    <link href="https://github.com/zhongerxin/iPhone-use"/>
+    <updated>2026-10-10T04:08:09.000Z</updated>
+    <published>2026-10-06T15:09:33.000Z</published>
+    <summary>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。 — ★ 2171 (590.0/day)</summary>
+    <author><name>zhongerxin</name></author>
   </entry>
   <entry>
     <id>https://github.com/CoralFireRadial/StartAll-Back</id>
@@ -129,8 +210,17 @@
     <link href="https://github.com/CoralFireRadial/StartAll-Back"/>
     <updated>2026-10-09T13:58:19.000Z</updated>
     <published>2026-10-09T13:58:09.000Z</published>
-    <summary>Startall Back optimizes desktop configurations by providing a comprehensive repository that streamlines your workflow and ensures an efficient computing... — ★ 409 (855.0/day)</summary>
+    <summary>Startall Back optimizes desktop configurations by providing a comprehensive repository that streamlines your workflow and ensures an efficient computing... — ★ 409 (561.0/day)</summary>
     <author><name>CoralFireRadial</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/vectorcraft</id>
+    <title>storytold/vectorcraft</title>
+    <link href="https://github.com/storytold/vectorcraft"/>
+    <updated>2026-10-10T07:26:31.000Z</updated>
+    <published>2026-09-30T13:43:03.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust. — ★ 5442 (558.8/day)</summary>
+    <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/photonrajditch/Windows-Optimizer</id>
@@ -138,17 +228,8 @@
     <link href="https://github.com/photonrajditch/Windows-Optimizer"/>
     <updated>2026-10-09T13:59:45.000Z</updated>
     <published>2026-10-09T13:59:39.000Z</published>
-    <summary>Enhance your Windows performance with this professional desktop software utility configuration that meticulously optimizes system settings and streamlines... — ★ 405 (848.4/day)</summary>
+    <summary>Enhance your Windows performance with this professional desktop software utility configuration that meticulously optimizes system settings and streamlines... — ★ 405 (556.4/day)</summary>
     <author><name>photonrajditch</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TremorBisonSurvive/Discord-Nitro-Generator</id>
-    <title>TremorBisonSurvive/Discord-Nitro-Generator</title>
-    <link href="https://github.com/TremorBisonSurvive/Discord-Nitro-Generator"/>
-    <updated>2026-10-09T13:50:22.000Z</updated>
-    <published>2026-10-09T13:50:16.000Z</published>
-    <summary>Discord Nitro Generator optimizes your server&#39;s performance by providing a comprehensive suite of features and enhanced capabilities without any coding... — ★ 404 (834.9/day)</summary>
-    <author><name>TremorBisonSurvive</name></author>
   </entry>
   <entry>
     <id>https://github.com/PatchTechnician/Ads-Blocker</id>
@@ -156,124 +237,43 @@
     <link href="https://github.com/PatchTechnician/Ads-Blocker"/>
     <updated>2026-10-09T13:45:01.000Z</updated>
     <published>2026-10-09T13:44:55.000Z</published>
-    <summary>Ads Blocker optimizes your browsing experience by blocking intrusive ads on GitHub repositories and other platforms, ensuring a distraction-free workspace... — ★ 407 (834.7/day)</summary>
+    <summary>Ads Blocker optimizes your browsing experience by blocking intrusive ads on GitHub repositories and other platforms, ensuring a distraction-free workspace... — ★ 407 (551.4/day)</summary>
     <author><name>PatchTechnician</name></author>
   </entry>
   <entry>
-    <id>https://github.com/storytold/lightcraft</id>
-    <title>storytold/lightcraft</title>
-    <link href="https://github.com/storytold/lightcraft"/>
-    <updated>2026-10-10T01:15:18.000Z</updated>
-    <published>2026-09-30T14:09:27.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust. — ★ 7757 (819.1/day)</summary>
+    <id>https://github.com/TremorBisonSurvive/Discord-Nitro-Generator</id>
+    <title>TremorBisonSurvive/Discord-Nitro-Generator</title>
+    <link href="https://github.com/TremorBisonSurvive/Discord-Nitro-Generator"/>
+    <updated>2026-10-09T13:50:22.000Z</updated>
+    <published>2026-10-09T13:50:16.000Z</published>
+    <summary>Discord Nitro Generator optimizes your server&#39;s performance by providing a comprehensive suite of features and enhanced capabilities without any coding... — ★ 404 (550.1/day)</summary>
+    <author><name>TremorBisonSurvive</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/cadcraft</id>
+    <title>storytold/cadcraft</title>
+    <link href="https://github.com/storytold/cadcraft"/>
+    <updated>2026-10-10T02:51:15.000Z</updated>
+    <published>2026-10-07T05:22:31.000Z</published>
+    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 1481 (479.7/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
-    <id>https://github.com/storytold/filmcraft</id>
-    <title>storytold/filmcraft</title>
-    <link href="https://github.com/storytold/filmcraft"/>
-    <updated>2026-10-10T01:15:13.000Z</updated>
-    <published>2026-09-30T13:41:20.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust. — ★ 7143 (752.7/day)</summary>
+    <id>https://github.com/storytold/effectcraft</id>
+    <title>storytold/effectcraft</title>
+    <link href="https://github.com/storytold/effectcraft"/>
+    <updated>2026-10-10T02:51:23.000Z</updated>
+    <published>2026-10-01T14:24:46.000Z</published>
+    <summary>No description. — ★ 4078 (468.2/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
-    <id>https://github.com/alchaincyf/huashu-art-motion</id>
-    <title>alchaincyf/huashu-art-motion</title>
-    <link href="https://github.com/alchaincyf/huashu-art-motion"/>
-    <updated>2026-10-08T13:11:08.000Z</updated>
-    <published>2026-10-06T04:49:37.000Z</published>
-    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 2883 (747.0/day)</summary>
-    <author><name>alchaincyf</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/storytold/wordcraft</id>
-    <title>storytold/wordcraft</title>
-    <link href="https://github.com/storytold/wordcraft"/>
-    <updated>2026-10-10T01:15:32.000Z</updated>
-    <published>2026-10-07T08:34:24.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 1893 (700.3/day)</summary>
-    <author><name>storytold</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/nullmoth/nvidia-macos-driver</id>
-    <title>nullmoth/nvidia-macos-driver</title>
-    <link href="https://github.com/nullmoth/nvidia-macos-driver"/>
-    <updated>2026-10-10T00:10:56.000Z</updated>
-    <published>2026-10-07T08:13:12.000Z</published>
-    <summary>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included. — ★ 1868 (687.3/day)</summary>
-    <author><name>nullmoth</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/storytold/pdfcraft</id>
-    <title>storytold/pdfcraft</title>
-    <link href="https://github.com/storytold/pdfcraft"/>
-    <updated>2026-10-10T01:15:21.000Z</updated>
-    <published>2026-09-30T13:39:37.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust — ★ 6441 (678.6/day)</summary>
-    <author><name>storytold</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/GoliathCuttlefish/Adobe-Substance-3d</id>
-    <title>GoliathCuttlefish/Adobe-Substance-3d</title>
-    <link href="https://github.com/GoliathCuttlefish/Adobe-Substance-3d"/>
-    <updated>2026-10-09T14:20:42.000Z</updated>
-    <published>2026-10-09T14:20:36.000Z</published>
-    <summary>Adobe Substance 3D meticulously models complex material compositions and renders photorealistic visuals in a professional desktop environment, providing... — ★ 303 (654.7/day)</summary>
-    <author><name>GoliathCuttlefish</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/crystalrankdestroy/Fps-Booster-for-Windows</id>
-    <title>crystalrankdestroy/Fps-Booster-for-Windows</title>
-    <link href="https://github.com/crystalrankdestroy/Fps-Booster-for-Windows"/>
-    <updated>2026-10-09T14:20:42.000Z</updated>
-    <published>2026-10-09T14:20:36.000Z</published>
-    <summary>Fps Booster For Windows&quot; optimizes desktop performance by managing resource utilization efficiently to enhance user experience and productivity without... — ★ 301 (650.4/day)</summary>
-    <author><name>crystalrankdestroy</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CashierFurnace/Wondshare-Recoverit</id>
-    <title>CashierFurnace/Wondshare-Recoverit</title>
-    <link href="https://github.com/CashierFurnace/Wondshare-Recoverit"/>
-    <updated>2026-10-09T14:00:01.000Z</updated>
-    <published>2026-10-09T13:59:54.000Z</published>
-    <summary>Wondshare Recoverit&#39;, a professional desktop software utility configuration that meticulously scans and recovers lost or deleted data files with... — ★ 302 (632.9/day)</summary>
-    <author><name>CashierFurnace</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/HoopoeConnector/Microsoft-Project</id>
-    <title>HoopoeConnector/Microsoft-Project</title>
-    <link href="https://github.com/HoopoeConnector/Microsoft-Project"/>
-    <updated>2026-10-09T13:54:25.000Z</updated>
-    <published>2026-10-09T13:54:19.000Z</published>
-    <summary>Microsoft Project offers comprehensive project management solutions by providing a structured platform to efficiently plan and execute tasks. — ★ 304 (631.9/day)</summary>
-    <author><name>HoopoeConnector</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ParrotStaple/Microsoft-Office</id>
-    <title>ParrotStaple/Microsoft-Office</title>
-    <link href="https://github.com/ParrotStaple/Microsoft-Office"/>
-    <updated>2026-10-09T13:54:25.000Z</updated>
-    <published>2026-10-09T13:54:19.000Z</published>
-    <summary>Microsoft Office optimizes professional desktop software utility configurations by providing a comprehensive suite of productivity tools that streamline... — ★ 304 (631.9/day)</summary>
-    <author><name>ParrotStaple</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CoastFiscalDeflate/ultra-Iso</id>
-    <title>CoastFiscalDeflate/ultra-Iso</title>
-    <link href="https://github.com/CoastFiscalDeflate/ultra-Iso"/>
-    <updated>2026-10-09T13:58:42.000Z</updated>
-    <published>2026-10-09T13:58:36.000Z</published>
-    <summary>Ultra Iso is a professional desktop software utility configuration that optimizes system efficiency by providing pre-activated framework for seamless... — ★ 302 (631.7/day)</summary>
-    <author><name>CoastFiscalDeflate</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Chartfitzturn/RX-11-Audio-Editor</id>
-    <title>Chartfitzturn/RX-11-Audio-Editor</title>
-    <link href="https://github.com/Chartfitzturn/RX-11-Audio-Editor"/>
-    <updated>2026-10-09T13:57:05.000Z</updated>
-    <published>2026-10-09T13:56:59.000Z</published>
-    <summary>Revolutionizing audio editing and sound design with a comprehensive suite of tools, Rx 11 Audio Editor streamlines your workflow while providing an... — ★ 300 (626.0/day)</summary>
-    <author><name>Chartfitzturn</name></author>
+    <id>https://github.com/LosaLosSantos/aurelio-finance</id>
+    <title>LosaLosSantos/aurelio-finance</title>
+    <link href="https://github.com/LosaLosSantos/aurelio-finance"/>
+    <updated>2026-10-09T11:29:00.000Z</updated>
+    <published>2026-10-06T20:14:19.000Z</published>
+    <summary>Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. — ★ 1556 (448.7/day)</summary>
+    <author><name>LosaLosSantos</name></author>
   </entry>
 </feed>
