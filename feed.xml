@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-10T13:56:24.330Z</updated>
+  <updated>2026-10-10T18:10:13.815Z</updated>
   <entry>
     <id>https://github.com/storytold/photocraft</id>
     <title>storytold/photocraft</title>
     <link href="https://github.com/storytold/photocraft"/>
-    <updated>2026-10-10T12:47:38.000Z</updated>
+    <updated>2026-10-10T18:03:30.000Z</updated>
     <published>2026-09-30T13:37:48.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 39363 (3931.2/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 40602 (3984.8/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -21,8 +21,17 @@
     <link href="https://github.com/openai/math"/>
     <updated>2026-10-08T05:20:00.000Z</updated>
     <published>2026-10-06T21:47:02.000Z</published>
-    <summary>No description. — ★ 13514 (3679.1/day)</summary>
+    <summary>No description. — ★ 13605 (3534.3/day)</summary>
     <author><name>openai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/marclou/mailcheap</id>
+    <title>marclou/mailcheap</title>
+    <link href="https://github.com/marclou/mailcheap"/>
+    <updated>2026-10-10T12:55:42.000Z</updated>
+    <published>2026-10-10T12:55:36.000Z</published>
+    <summary>Self-hosted newsletters on Amazon SES. About $0.10 per 1,000 emails. — ★ 298 (1192.0/day)</summary>
+    <author><name>marclou</name></author>
   </entry>
   <entry>
     <id>https://github.com/mhtsec/ARTEX</id>
@@ -30,53 +39,62 @@
     <link href="https://github.com/mhtsec/ARTEX"/>
     <updated>2026-10-10T09:16:20.000Z</updated>
     <published>2026-10-08T05:33:06.000Z</published>
-    <summary>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 — ★ 2780 (1183.2/day)</summary>
+    <summary>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 — ★ 2880 (1140.2/day)</summary>
     <author><name>mhtsec</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/lightcraft</id>
     <title>storytold/lightcraft</title>
     <link href="https://github.com/storytold/lightcraft"/>
-    <updated>2026-10-10T09:14:58.000Z</updated>
+    <updated>2026-10-10T18:03:47.000Z</updated>
     <published>2026-09-30T14:09:27.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust. — ★ 8460 (846.8/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust. — ★ 8729 (858.5/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/wordcraft</id>
     <title>storytold/wordcraft</title>
     <link href="https://github.com/storytold/wordcraft"/>
-    <updated>2026-10-10T13:43:15.000Z</updated>
+    <updated>2026-10-10T18:03:52.000Z</updated>
     <published>2026-10-07T08:34:24.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 2626 (814.6/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 2912 (856.5/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/filmcraft</id>
     <title>storytold/filmcraft</title>
     <link href="https://github.com/storytold/filmcraft"/>
-    <updated>2026-10-10T12:35:25.000Z</updated>
+    <updated>2026-10-10T18:03:22.000Z</updated>
     <published>2026-09-30T13:41:20.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust. — ★ 7956 (794.8/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust. — ★ 8274 (812.2/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/n1tr00-10/tiktok-web-signature</id>
+    <title>n1tr00-10/tiktok-web-signature</title>
+    <link href="https://github.com/n1tr00-10/tiktok-web-signature"/>
+    <updated>2026-10-09T20:00:33.000Z</updated>
+    <published>2026-10-09T19:30:14.000Z</published>
+    <summary>tiktok web signature reverse engineer generates valid tiktok signatures for API requets — ★ 706 (747.5/day)</summary>
+    <author><name>n1tr00-10</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/pdfcraft</id>
+    <title>storytold/pdfcraft</title>
+    <link href="https://github.com/storytold/pdfcraft"/>
+    <updated>2026-10-10T18:04:01.000Z</updated>
+    <published>2026-09-30T13:39:37.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust — ★ 7611 (747.1/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/noahdunnagan/fsearch</id>
     <title>noahdunnagan/fsearch</title>
     <link href="https://github.com/noahdunnagan/fsearch"/>
-    <updated>2026-10-09T16:22:32.000Z</updated>
+    <updated>2026-10-10T17:21:42.000Z</updated>
     <published>2026-10-08T17:50:33.000Z</published>
-    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files. — ★ 1411 (767.9/day)</summary>
+    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files. — ★ 1497 (743.4/day)</summary>
     <author><name>noahdunnagan</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/storytold/pdfcraft</id>
-    <title>storytold/pdfcraft</title>
-    <link href="https://github.com/storytold/pdfcraft"/>
-    <updated>2026-10-10T12:33:41.000Z</updated>
-    <published>2026-09-30T13:39:37.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust — ★ 7328 (731.9/day)</summary>
-    <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/alchaincyf/huashu-art-motion</id>
@@ -84,26 +102,71 @@
     <link href="https://github.com/alchaincyf/huashu-art-motion"/>
     <updated>2026-10-10T10:03:21.000Z</updated>
     <published>2026-10-06T04:49:37.000Z</published>
-    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 3111 (710.3/day)</summary>
+    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 3182 (698.4/day)</summary>
     <author><name>alchaincyf</name></author>
   </entry>
   <entry>
     <id>https://github.com/nullmoth/nvidia-macos-driver</id>
     <title>nullmoth/nvidia-macos-driver</title>
     <link href="https://github.com/nullmoth/nvidia-macos-driver"/>
-    <updated>2026-10-10T05:43:04.000Z</updated>
+    <updated>2026-10-10T15:57:03.000Z</updated>
     <published>2026-10-07T08:13:12.000Z</published>
-    <summary>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included. — ★ 2173 (671.0/day)</summary>
+    <summary>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included. — ★ 2252 (659.5/day)</summary>
     <author><name>nullmoth</name></author>
   </entry>
   <entry>
     <id>https://github.com/zhongerxin/iPhone-use</id>
     <title>zhongerxin/iPhone-use</title>
     <link href="https://github.com/zhongerxin/iPhone-use"/>
-    <updated>2026-10-10T10:16:29.000Z</updated>
+    <updated>2026-10-10T13:58:28.000Z</updated>
     <published>2026-10-06T15:09:33.000Z</published>
-    <summary>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。 — ★ 2427 (614.6/day)</summary>
+    <summary>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。 — ★ 2518 (610.4/day)</summary>
     <author><name>zhongerxin</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/KKKKhazix/AIHOT</id>
+    <title>KKKKhazix/AIHOT</title>
+    <link href="https://github.com/KKKKhazix/AIHOT"/>
+    <updated>2026-10-10T13:32:08.000Z</updated>
+    <published>2026-09-28T23:40:05.000Z</published>
+    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 7063 (600.0/day)</summary>
+    <author><name>KKKKhazix</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/rehan-remade/universal-modder</id>
+    <title>rehan-remade/universal-modder</title>
+    <link href="https://github.com/rehan-remade/universal-modder"/>
+    <updated>2026-10-10T12:27:35.000Z</updated>
+    <published>2026-09-30T05:00:35.000Z</published>
+    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 6295 (596.8/day)</summary>
+    <author><name>rehan-remade</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/rociiu/talorys</id>
+    <title>rociiu/talorys</title>
+    <link href="https://github.com/rociiu/talorys"/>
+    <updated>2026-10-10T12:40:25.000Z</updated>
+    <published>2026-10-10T09:46:56.000Z</published>
+    <summary>Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. — ★ 206 (589.4/day)</summary>
+    <author><name>rociiu</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/vectorcraft</id>
+    <title>storytold/vectorcraft</title>
+    <link href="https://github.com/storytold/vectorcraft"/>
+    <updated>2026-10-10T18:03:55.000Z</updated>
+    <published>2026-09-30T13:43:03.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust. — ★ 5920 (581.2/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/c22dev/muguet</id>
+    <title>c22dev/muguet</title>
+    <link href="https://github.com/c22dev/muguet"/>
+    <updated>2026-10-10T17:51:20.000Z</updated>
+    <published>2026-10-10T08:45:02.000Z</published>
+    <summary>A native Mach-O port for iOS/macOS of GTA V, with multiplayer — ★ 221 (563.1/day)</summary>
+    <author><name>c22dev</name></author>
   </entry>
   <entry>
     <id>https://github.com/KindStatesman/KMS-Pico</id>
@@ -111,7 +174,7 @@
     <link href="https://github.com/KindStatesman/KMS-Pico"/>
     <updated>2026-10-09T13:53:14.000Z</updated>
     <published>2026-10-09T13:53:07.000Z</published>
-    <summary>Kms Pico Free optimizes your professional desktop environment by providing a tailored utility configuration that enhances workflow efficiency.&#39; This... — ★ 614 (612.6/day)</summary>
+    <summary>Kms Pico Free optimizes your professional desktop environment by providing a tailored utility configuration that enhances workflow efficiency.&#39; This... — ★ 614 (521.0/day)</summary>
     <author><name>KindStatesman</name></author>
   </entry>
   <entry>
@@ -120,17 +183,8 @@
     <link href="https://github.com/VarnishSerpentBurn/Discord-Quest-Completer"/>
     <updated>2026-10-09T13:50:24.000Z</updated>
     <published>2026-10-09T13:50:18.000Z</published>
-    <summary>Discord Quest Completer optimizes user experience by providing a comprehensive solution to automate and streamline repetitive tasks within popular quests... — ★ 611 (608.4/day)</summary>
+    <summary>Discord Quest Completer optimizes user experience by providing a comprehensive solution to automate and streamline repetitive tasks within popular quests... — ★ 611 (517.6/day)</summary>
     <author><name>VarnishSerpentBurn</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/KKKKhazix/AIHOT</id>
-    <title>KKKKhazix/AIHOT</title>
-    <link href="https://github.com/KKKKhazix/AIHOT"/>
-    <updated>2026-10-10T13:32:08.000Z</updated>
-    <published>2026-09-28T23:40:05.000Z</published>
-    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 7033 (606.6/day)</summary>
-    <author><name>KKKKhazix</name></author>
   </entry>
   <entry>
     <id>https://github.com/navyofficerpipe/Discord-Server-Raider</id>
@@ -138,35 +192,62 @@
     <link href="https://github.com/navyofficerpipe/Discord-Server-Raider"/>
     <updated>2026-10-09T13:50:25.000Z</updated>
     <published>2026-10-09T13:50:19.000Z</published>
-    <summary>Discord Server Raider&quot;, an AI-driven solution designed to streamline server management tasks on GitHub without any mention of Apple or mobile devices; it... — ★ 605 (602.5/day)</summary>
+    <summary>Discord Server Raider&quot;, an AI-driven solution designed to streamline server management tasks on GitHub without any mention of Apple or mobile devices; it... — ★ 605 (512.5/day)</summary>
     <author><name>navyofficerpipe</name></author>
   </entry>
   <entry>
-    <id>https://github.com/rehan-remade/universal-modder</id>
-    <title>rehan-remade/universal-modder</title>
-    <link href="https://github.com/rehan-remade/universal-modder"/>
-    <updated>2026-10-10T12:27:35.000Z</updated>
-    <published>2026-09-30T05:00:35.000Z</published>
-    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 6221 (599.8/day)</summary>
-    <author><name>rehan-remade</name></author>
+    <id>https://github.com/LosaLosSantos/aurelio-finance</id>
+    <title>LosaLosSantos/aurelio-finance</title>
+    <link href="https://github.com/LosaLosSantos/aurelio-finance"/>
+    <updated>2026-10-10T12:00:26.000Z</updated>
+    <published>2026-10-06T20:14:19.000Z</published>
+    <summary>Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. — ★ 1991 (508.7/day)</summary>
+    <author><name>LosaLosSantos</name></author>
   </entry>
   <entry>
-    <id>https://github.com/storytold/vectorcraft</id>
-    <title>storytold/vectorcraft</title>
-    <link href="https://github.com/storytold/vectorcraft"/>
-    <updated>2026-10-10T13:45:36.000Z</updated>
-    <published>2026-09-30T13:43:03.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust. — ★ 5723 (571.8/day)</summary>
+    <id>https://github.com/t4t5/omdrop-owl</id>
+    <title>t4t5/omdrop-owl</title>
+    <link href="https://github.com/t4t5/omdrop-owl"/>
+    <updated>2026-10-10T16:51:30.000Z</updated>
+    <published>2026-10-08T06:38:33.000Z</published>
+    <summary>airdrop for non-apple devices — ★ 1208 (487.0/day)</summary>
+    <author><name>t4t5</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/cadcraft</id>
+    <title>storytold/cadcraft</title>
+    <link href="https://github.com/storytold/cadcraft"/>
+    <updated>2026-10-10T18:03:28.000Z</updated>
+    <published>2026-10-07T05:22:31.000Z</published>
+    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 1712 (484.6/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
-    <id>https://github.com/c22dev/muguet</id>
-    <title>c22dev/muguet</title>
-    <link href="https://github.com/c22dev/muguet"/>
-    <updated>2026-10-10T09:51:03.000Z</updated>
-    <published>2026-10-10T08:45:02.000Z</published>
-    <summary>A native Mach-O port for iOS/macOS of GTA V, with multiplayer — ★ 130 (520.0/day)</summary>
-    <author><name>c22dev</name></author>
+    <id>https://github.com/storytold/effectcraft</id>
+    <title>storytold/effectcraft</title>
+    <link href="https://github.com/storytold/effectcraft"/>
+    <updated>2026-10-10T18:03:21.000Z</updated>
+    <published>2026-10-01T14:24:46.000Z</published>
+    <summary>No description. — ★ 4389 (479.3/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/gridcraft</id>
+    <title>storytold/gridcraft</title>
+    <link href="https://github.com/storytold/gridcraft"/>
+    <updated>2026-10-10T18:09:06.000Z</updated>
+    <published>2026-10-07T05:18:16.000Z</published>
+    <summary>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. — ★ 1673 (473.1/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/CopilotKit/OpenDots</id>
+    <title>CopilotKit/OpenDots</title>
+    <link href="https://github.com/CopilotKit/OpenDots"/>
+    <updated>2026-10-10T07:39:31.000Z</updated>
+    <published>2026-09-29T17:13:58.000Z</published>
+    <summary>Your always-on AI coworkers that move between text, calls, and Slack. — ★ 4788 (433.7/day)</summary>
+    <author><name>CopilotKit</name></author>
   </entry>
   <entry>
     <id>https://github.com/Clawfitzfilter/Display-Fusion</id>
@@ -174,7 +255,7 @@
     <link href="https://github.com/Clawfitzfilter/Display-Fusion"/>
     <updated>2026-10-09T13:50:26.000Z</updated>
     <published>2026-10-09T13:50:20.000Z</published>
-    <summary>Display Fusion optimizes desktop software utility configurations by providing a robust and efficient management system that enhances productivity without... — ★ 509 (506.9/day)</summary>
+    <summary>Display Fusion optimizes desktop software utility configurations by providing a robust and efficient management system that enhances productivity without... — ★ 509 (431.2/day)</summary>
     <author><name>Clawfitzfilter</name></author>
   </entry>
   <entry>
@@ -183,7 +264,7 @@
     <link href="https://github.com/passrhymegazebo/AnyUnlock"/>
     <updated>2026-10-09T13:45:04.000Z</updated>
     <published>2026-10-09T13:44:57.000Z</published>
-    <summary>Anyunlock optimizes your workflow by providing a comprehensive desktop utility configuration that streamlines processes and boosts efficiency without... — ★ 510 (506.0/day)</summary>
+    <summary>Anyunlock optimizes your workflow by providing a comprehensive desktop utility configuration that streamlines processes and boosts efficiency without... — ★ 510 (430.7/day)</summary>
     <author><name>passrhymegazebo</name></author>
   </entry>
   <entry>
@@ -192,88 +273,7 @@
     <link href="https://github.com/powderdiverpillar/Total-Commander"/>
     <updated>2026-10-09T13:58:32.000Z</updated>
     <published>2026-10-09T13:58:25.000Z</published>
-    <summary>Total Commander is an advanced utility that optimizes workflow by providing a seamless interface to manage and navigate through multiple repositories... — ★ 504 (504.7/day)</summary>
+    <summary>Total Commander is an advanced utility that optimizes workflow by providing a seamless interface to manage and navigate through multiple repositories... — ★ 504 (429.0/day)</summary>
     <author><name>powderdiverpillar</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/hyperrobinclash/Better-Discord</id>
-    <title>hyperrobinclash/Better-Discord</title>
-    <link href="https://github.com/hyperrobinclash/Better-Discord"/>
-    <updated>2026-10-09T13:46:26.000Z</updated>
-    <published>2026-10-09T13:46:19.000Z</published>
-    <summary>Enhances productivity by streamlining your professional desktop software utility configurations with an innovative configuration manager that provides a... — ★ 503 (499.5/day)</summary>
-    <author><name>hyperrobinclash</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/LosaLosSantos/aurelio-finance</id>
-    <title>LosaLosSantos/aurelio-finance</title>
-    <link href="https://github.com/LosaLosSantos/aurelio-finance"/>
-    <updated>2026-10-10T12:00:26.000Z</updated>
-    <published>2026-10-06T20:14:19.000Z</published>
-    <summary>Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. — ★ 1804 (482.7/day)</summary>
-    <author><name>LosaLosSantos</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/storytold/cadcraft</id>
-    <title>storytold/cadcraft</title>
-    <link href="https://github.com/storytold/cadcraft"/>
-    <updated>2026-10-10T02:51:15.000Z</updated>
-    <published>2026-10-07T05:22:31.000Z</published>
-    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 1617 (481.7/day)</summary>
-    <author><name>storytold</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/storytold/effectcraft</id>
-    <title>storytold/effectcraft</title>
-    <link href="https://github.com/storytold/effectcraft"/>
-    <updated>2026-10-10T02:51:23.000Z</updated>
-    <published>2026-10-01T14:24:46.000Z</published>
-    <summary>No description. — ★ 4262 (474.6/day)</summary>
-    <author><name>storytold</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/storytold/gridcraft</id>
-    <title>storytold/gridcraft</title>
-    <link href="https://github.com/storytold/gridcraft"/>
-    <updated>2026-10-10T02:51:32.000Z</updated>
-    <published>2026-10-07T05:18:16.000Z</published>
-    <summary>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. — ★ 1539 (458.1/day)</summary>
-    <author><name>storytold</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/t4t5/omdrop-owl</id>
-    <title>t4t5/omdrop-owl</title>
-    <link href="https://github.com/t4t5/omdrop-owl"/>
-    <updated>2026-10-10T08:06:33.000Z</updated>
-    <published>2026-10-08T06:38:33.000Z</published>
-    <summary>airdrop for non-apple devices — ★ 1027 (445.7/day)</summary>
-    <author><name>t4t5</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CopilotKit/OpenDots</id>
-    <title>CopilotKit/OpenDots</title>
-    <link href="https://github.com/CopilotKit/OpenDots"/>
-    <updated>2026-10-10T07:39:31.000Z</updated>
-    <published>2026-09-29T17:13:58.000Z</published>
-    <summary>Your always-on AI coworkers that move between text, calls, and Slack. — ★ 4765 (438.7/day)</summary>
-    <author><name>CopilotKit</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/alejandrobujan/tendedero</id>
-    <title>alejandrobujan/tendedero</title>
-    <link href="https://github.com/alejandrobujan/tendedero"/>
-    <updated>2026-10-10T12:59:53.000Z</updated>
-    <published>2026-10-07T01:29:54.000Z</published>
-    <summary>Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen. — ★ 1448 (411.5/day)</summary>
-    <author><name>alejandrobujan</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CoralFireRadial/StartAll-Back</id>
-    <title>CoralFireRadial/StartAll-Back</title>
-    <link href="https://github.com/CoralFireRadial/StartAll-Back"/>
-    <updated>2026-10-09T13:58:19.000Z</updated>
-    <published>2026-10-09T13:58:09.000Z</published>
-    <summary>Startall Back optimizes desktop configurations by providing a comprehensive repository that streamlines your workflow and ensures an efficient computing... — ★ 409 (409.5/day)</summary>
-    <author><name>CoralFireRadial</name></author>
   </entry>
 </feed>
