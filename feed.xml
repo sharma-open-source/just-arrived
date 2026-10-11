@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-11T06:43:52.079Z</updated>
+  <updated>2026-10-11T13:43:36.054Z</updated>
   <entry>
     <id>https://github.com/storytold/photocraft</id>
     <title>storytold/photocraft</title>
     <link href="https://github.com/storytold/photocraft"/>
-    <updated>2026-10-11T06:42:13.000Z</updated>
+    <updated>2026-10-11T13:40:45.000Z</updated>
     <published>2026-09-30T13:37:48.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 43307 (4042.6/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust — ★ 45063 (4095.1/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -21,17 +21,8 @@
     <link href="https://github.com/openai/math"/>
     <updated>2026-10-08T05:20:00.000Z</updated>
     <published>2026-10-06T21:47:02.000Z</published>
-    <summary>No description. — ★ 13777 (3150.6/day)</summary>
+    <summary>No description. — ★ 13920 (2984.4/day)</summary>
     <author><name>openai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/mhtsec/ARTEX</id>
-    <title>mhtsec/ARTEX</title>
-    <link href="https://github.com/mhtsec/ARTEX"/>
-    <updated>2026-10-10T09:16:20.000Z</updated>
-    <published>2026-10-08T05:33:06.000Z</published>
-    <summary>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 — ★ 3002 (984.5/day)</summary>
-    <author><name>mhtsec</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/wordcraft</id>
@@ -39,16 +30,25 @@
     <link href="https://github.com/storytold/wordcraft"/>
     <updated>2026-10-11T06:03:11.000Z</updated>
     <published>2026-10-07T08:34:24.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 3458 (881.4/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 4250 (1008.4/day)</summary>
     <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/mhtsec/ARTEX</id>
+    <title>mhtsec/ARTEX</title>
+    <link href="https://github.com/mhtsec/ARTEX"/>
+    <updated>2026-10-10T09:16:20.000Z</updated>
+    <published>2026-10-08T05:33:06.000Z</published>
+    <summary>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 — ★ 3071 (919.3/day)</summary>
+    <author><name>mhtsec</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/lightcraft</id>
     <title>storytold/lightcraft</title>
     <link href="https://github.com/storytold/lightcraft"/>
-    <updated>2026-10-11T06:03:05.000Z</updated>
+    <updated>2026-10-11T12:30:57.000Z</updated>
     <published>2026-09-30T14:09:27.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust. — ★ 9260 (866.2/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust. — ★ 9598 (874.0/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -57,7 +57,7 @@
     <link href="https://github.com/storytold/filmcraft"/>
     <updated>2026-10-11T06:03:03.000Z</updated>
     <published>2026-09-30T13:41:20.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust. — ★ 8941 (834.8/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust. — ★ 9373 (852.0/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -66,7 +66,7 @@
     <link href="https://github.com/storytold/pdfcraft"/>
     <updated>2026-10-11T06:03:06.000Z</updated>
     <published>2026-09-30T13:39:37.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust — ★ 8278 (772.8/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust — ★ 8748 (795.1/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -75,7 +75,7 @@
     <link href="https://github.com/marclou/mailcheap"/>
     <updated>2026-10-10T12:55:42.000Z</updated>
     <published>2026-10-10T12:55:36.000Z</published>
-    <summary>Self-hosted newsletters on Amazon SES. About $0.10 per 1,000 emails. — ★ 572 (771.0/day)</summary>
+    <summary>Self-hosted newsletters on Amazon SES. About $0.10 per 1,000 emails. — ★ 678 (656.1/day)</summary>
     <author><name>marclou</name></author>
   </entry>
   <entry>
@@ -84,7 +84,7 @@
     <link href="https://github.com/noahdunnagan/fsearch"/>
     <updated>2026-10-11T03:00:37.000Z</updated>
     <published>2026-10-08T17:50:33.000Z</published>
-    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files. — ★ 1695 (668.1/day)</summary>
+    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files. — ★ 1770 (625.8/day)</summary>
     <author><name>noahdunnagan</name></author>
   </entry>
   <entry>
@@ -93,8 +93,17 @@
     <link href="https://github.com/alchaincyf/huashu-art-motion"/>
     <updated>2026-10-10T10:03:21.000Z</updated>
     <published>2026-10-06T04:49:37.000Z</published>
-    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 3273 (644.4/day)</summary>
+    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 3344 (622.6/day)</summary>
     <author><name>alchaincyf</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/vectorcraft</id>
+    <title>storytold/vectorcraft</title>
+    <link href="https://github.com/storytold/vectorcraft"/>
+    <updated>2026-10-11T13:07:03.000Z</updated>
+    <published>2026-09-30T13:43:03.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust. — ★ 6669 (606.3/day)</summary>
+    <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/nullmoth/nvidia-macos-driver</id>
@@ -102,26 +111,8 @@
     <link href="https://github.com/nullmoth/nvidia-macos-driver"/>
     <updated>2026-10-11T05:22:25.000Z</updated>
     <published>2026-10-07T08:13:12.000Z</published>
-    <summary>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included. — ★ 2360 (599.3/day)</summary>
+    <summary>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included. — ★ 2450 (579.3/day)</summary>
     <author><name>nullmoth</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/storytold/vectorcraft</id>
-    <title>storytold/vectorcraft</title>
-    <link href="https://github.com/storytold/vectorcraft"/>
-    <updated>2026-10-11T06:03:10.000Z</updated>
-    <published>2026-09-30T13:43:03.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust. — ★ 6365 (594.4/day)</summary>
-    <author><name>storytold</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/rehan-remade/universal-modder</id>
-    <title>rehan-remade/universal-modder</title>
-    <link href="https://github.com/rehan-remade/universal-modder"/>
-    <updated>2026-10-11T05:42:26.000Z</updated>
-    <published>2026-09-30T05:00:35.000Z</published>
-    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 6447 (582.3/day)</summary>
-    <author><name>rehan-remade</name></author>
   </entry>
   <entry>
     <id>https://github.com/zhongerxin/iPhone-use</id>
@@ -129,8 +120,26 @@
     <link href="https://github.com/zhongerxin/iPhone-use"/>
     <updated>2026-10-10T13:58:28.000Z</updated>
     <published>2026-10-06T15:09:33.000Z</published>
-    <summary>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。 — ★ 2696 (579.9/day)</summary>
+    <summary>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。 — ★ 2849 (576.7/day)</summary>
     <author><name>zhongerxin</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/rehan-remade/universal-modder</id>
+    <title>rehan-remade/universal-modder</title>
+    <link href="https://github.com/rehan-remade/universal-modder"/>
+    <updated>2026-10-11T12:45:09.000Z</updated>
+    <published>2026-09-30T05:00:35.000Z</published>
+    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. — ★ 6531 (574.7/day)</summary>
+    <author><name>rehan-remade</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/t4t5/omdrop-owl</id>
+    <title>t4t5/omdrop-owl</title>
+    <link href="https://github.com/t4t5/omdrop-owl"/>
+    <updated>2026-10-11T08:30:57.000Z</updated>
+    <published>2026-10-08T06:38:33.000Z</published>
+    <summary>airdrop for non-apple devices — ★ 1886 (572.4/day)</summary>
+    <author><name>t4t5</name></author>
   </entry>
   <entry>
     <id>https://github.com/KKKKhazix/AIHOT</id>
@@ -138,43 +147,25 @@
     <link href="https://github.com/KKKKhazix/AIHOT"/>
     <updated>2026-10-11T06:09:07.000Z</updated>
     <published>2026-09-28T23:40:05.000Z</published>
-    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 7104 (577.8/day)</summary>
+    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 — ★ 7141 (567.4/day)</summary>
     <author><name>KKKKhazix</name></author>
   </entry>
   <entry>
     <id>https://github.com/rociiu/talorys</id>
     <title>rociiu/talorys</title>
     <link href="https://github.com/rociiu/talorys"/>
-    <updated>2026-10-11T06:13:56.000Z</updated>
+    <updated>2026-10-11T10:48:19.000Z</updated>
     <published>2026-10-10T09:46:56.000Z</published>
-    <summary>Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. — ★ 490 (561.4/day)</summary>
+    <summary>Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. — ★ 645 (554.0/day)</summary>
     <author><name>rociiu</name></author>
   </entry>
   <entry>
-    <id>https://github.com/t4t5/omdrop-owl</id>
-    <title>t4t5/omdrop-owl</title>
-    <link href="https://github.com/t4t5/omdrop-owl"/>
-    <updated>2026-10-11T05:53:32.000Z</updated>
-    <published>2026-10-08T06:38:33.000Z</published>
-    <summary>airdrop for non-apple devices — ★ 1658 (552.0/day)</summary>
-    <author><name>t4t5</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/MeshPulseSound/Fortnite-Cheats-2b1a</id>
-    <title>MeshPulseSound/Fortnite-Cheats-2b1a</title>
-    <link href="https://github.com/MeshPulseSound/Fortnite-Cheats-2b1a"/>
-    <updated>2026-10-10T23:40:28.000Z</updated>
-    <published>2026-10-10T23:29:14.000Z</published>
-    <summary>No description. — ★ 150 (497.0/day)</summary>
-    <author><name>MeshPulseSound</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/storytold/cadcraft</id>
-    <title>storytold/cadcraft</title>
-    <link href="https://github.com/storytold/cadcraft"/>
-    <updated>2026-10-11T00:54:12.000Z</updated>
-    <published>2026-10-07T05:22:31.000Z</published>
-    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 1991 (490.8/day)</summary>
+    <id>https://github.com/storytold/craft-launcher</id>
+    <title>storytold/craft-launcher</title>
+    <link href="https://github.com/storytold/craft-launcher"/>
+    <updated>2026-10-11T12:52:04.000Z</updated>
+    <published>2026-10-09T23:21:59.000Z</published>
+    <summary>The Craft App Launcher — ★ 861 (538.7/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -183,7 +174,16 @@
     <link href="https://github.com/storytold/gridcraft"/>
     <updated>2026-10-10T23:50:04.000Z</updated>
     <published>2026-10-07T05:18:16.000Z</published>
-    <summary>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. — ★ 1990 (490.2/day)</summary>
+    <summary>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. — ★ 2239 (514.6/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/cadcraft</id>
+    <title>storytold/cadcraft</title>
+    <link href="https://github.com/storytold/cadcraft"/>
+    <updated>2026-10-11T08:26:40.000Z</updated>
+    <published>2026-10-07T05:22:31.000Z</published>
+    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 2218 (510.1/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -192,17 +192,8 @@
     <link href="https://github.com/storytold/effectcraft"/>
     <updated>2026-10-11T06:03:01.000Z</updated>
     <published>2026-10-01T14:24:46.000Z</published>
-    <summary>No description. — ★ 4710 (486.6/day)</summary>
+    <summary>No description. — ★ 4888 (490.2/day)</summary>
     <author><name>storytold</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/n1tr00-10/tiktok-web-signature</id>
-    <title>n1tr00-10/tiktok-web-signature</title>
-    <link href="https://github.com/n1tr00-10/tiktok-web-signature"/>
-    <updated>2026-10-09T20:00:33.000Z</updated>
-    <published>2026-10-09T19:30:14.000Z</published>
-    <summary>tiktok web signature reverse engineer generates valid tiktok signatures for API requets — ★ 707 (481.7/day)</summary>
-    <author><name>n1tr00-10</name></author>
   </entry>
   <entry>
     <id>https://github.com/LosaLosSantos/aurelio-finance</id>
@@ -210,17 +201,17 @@
     <link href="https://github.com/LosaLosSantos/aurelio-finance"/>
     <updated>2026-10-11T00:29:33.000Z</updated>
     <published>2026-10-06T20:14:19.000Z</published>
-    <summary>Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. — ★ 2095 (472.1/day)</summary>
+    <summary>Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. — ★ 2105 (445.2/day)</summary>
     <author><name>LosaLosSantos</name></author>
   </entry>
   <entry>
-    <id>https://github.com/storytold/craft-launcher</id>
-    <title>storytold/craft-launcher</title>
-    <link href="https://github.com/storytold/craft-launcher"/>
-    <updated>2026-10-11T06:38:31.000Z</updated>
-    <published>2026-10-09T23:21:59.000Z</published>
-    <summary>The Craft App Launcher — ★ 613 (469.1/day)</summary>
-    <author><name>storytold</name></author>
+    <id>https://github.com/wheresryan22/anatomy</id>
+    <title>wheresryan22/anatomy</title>
+    <link href="https://github.com/wheresryan22/anatomy"/>
+    <updated>2026-10-10T15:44:30.000Z</updated>
+    <published>2026-10-08T10:12:49.000Z</published>
+    <summary>A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages. — ★ 1381 (438.9/day)</summary>
+    <author><name>wheresryan22</name></author>
   </entry>
   <entry>
     <id>https://github.com/CopilotKit/OpenDots</id>
@@ -228,8 +219,17 @@
     <link href="https://github.com/CopilotKit/OpenDots"/>
     <updated>2026-10-10T07:39:31.000Z</updated>
     <published>2026-09-29T17:13:58.000Z</published>
-    <summary>Your always-on AI coworkers that move between text, calls, and Slack. — ★ 4828 (417.6/day)</summary>
+    <summary>Your always-on AI coworkers that move between text, calls, and Slack. — ★ 4850 (409.1/day)</summary>
     <author><name>CopilotKit</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/n1tr00-10/tiktok-web-signature</id>
+    <title>n1tr00-10/tiktok-web-signature</title>
+    <link href="https://github.com/n1tr00-10/tiktok-web-signature"/>
+    <updated>2026-10-09T20:00:33.000Z</updated>
+    <published>2026-10-09T19:30:14.000Z</published>
+    <summary>tiktok web signature reverse engineer generates valid tiktok signatures for API requets — ★ 710 (403.6/day)</summary>
+    <author><name>n1tr00-10</name></author>
   </entry>
   <entry>
     <id>https://github.com/alejandrobujan/tendedero</id>
@@ -237,7 +237,7 @@
     <link href="https://github.com/alejandrobujan/tendedero"/>
     <updated>2026-10-11T01:35:25.000Z</updated>
     <published>2026-10-07T01:29:54.000Z</published>
-    <summary>Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen. — ★ 1667 (395.2/day)</summary>
+    <summary>Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen. — ★ 1754 (389.0/day)</summary>
     <author><name>alejandrobujan</name></author>
   </entry>
   <entry>
@@ -246,26 +246,17 @@
     <link href="https://github.com/storytold/deckcraft"/>
     <updated>2026-10-11T06:02:59.000Z</updated>
     <published>2026-10-07T05:27:21.000Z</published>
-    <summary>Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps. — ★ 1514 (373.5/day)</summary>
+    <summary>Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps. — ★ 1677 (386.0/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
-    <id>https://github.com/c22dev/muguet</id>
-    <title>c22dev/muguet</title>
-    <link href="https://github.com/c22dev/muguet"/>
-    <updated>2026-10-10T22:55:03.000Z</updated>
-    <published>2026-10-10T08:45:02.000Z</published>
-    <summary>A native Mach-O port for iOS/macOS of GTA V, with multiplayer — ★ 339 (370.1/day)</summary>
-    <author><name>c22dev</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/KindStatesman/KMS-Pico</id>
-    <title>KindStatesman/KMS-Pico</title>
-    <link href="https://github.com/KindStatesman/KMS-Pico"/>
-    <updated>2026-10-09T13:53:14.000Z</updated>
-    <published>2026-10-09T13:53:07.000Z</published>
-    <summary>Kms Pico Free optimizes your professional desktop environment by providing a tailored utility configuration that enhances workflow efficiency.&#39; This... — ★ 614 (360.8/day)</summary>
-    <author><name>KindStatesman</name></author>
+    <id>https://github.com/storytold/soundcraft</id>
+    <title>storytold/soundcraft</title>
+    <link href="https://github.com/storytold/soundcraft"/>
+    <updated>2026-10-11T06:03:08.000Z</updated>
+    <published>2026-10-07T08:31:31.000Z</published>
+    <summary>An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust — ★ 1550 (367.6/day)</summary>
+    <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/shader-effects-inc/shaders</id>
@@ -273,7 +264,16 @@
     <link href="https://github.com/shader-effects-inc/shaders"/>
     <updated>2026-10-09T13:24:56.000Z</updated>
     <published>2026-09-29T16:36:26.000Z</published>
-    <summary>WebGPU components for React, Vue, Svelte, Solid, JS &amp; Framer — ★ 4158 (358.8/day)</summary>
+    <summary>WebGPU components for React, Vue, Svelte, Solid, JS &amp; Framer — ★ 4312 (363.0/day)</summary>
     <author><name>shader-effects-inc</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/omlahore/RemoveMacAI</id>
+    <title>omlahore/RemoveMacAI</title>
+    <link href="https://github.com/omlahore/RemoveMacAI"/>
+    <updated>2026-10-11T11:09:09.000Z</updated>
+    <published>2026-09-29T11:02:39.000Z</published>
+    <summary>Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone. — ★ 4211 (347.7/day)</summary>
+    <author><name>omlahore</name></author>
   </entry>
 </feed>
