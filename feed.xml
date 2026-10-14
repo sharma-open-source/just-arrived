@@ -5,32 +5,23 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-14T15:19:49.943Z</updated>
+  <updated>2026-10-14T19:34:17.633Z</updated>
   <entry>
     <id>https://github.com/openai/math</id>
     <title>openai/math</title>
     <link href="https://github.com/openai/math"/>
     <updated>2026-10-12T21:55:27.000Z</updated>
     <published>2026-10-06T21:47:02.000Z</published>
-    <summary>No description. — ★ 14772 (1910.7/day)</summary>
+    <summary>No description. — ★ 14801 (1871.7/day)</summary>
     <author><name>openai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/StoopwenpueNq/jackie-fmri-sim</id>
-    <title>StoopwenpueNq/jackie-fmri-sim</title>
-    <link href="https://github.com/StoopwenpueNq/jackie-fmri-sim"/>
-    <updated>2026-10-14T10:34:27.000Z</updated>
-    <published>2026-10-14T10:14:56.000Z</published>
-    <summary>jackie-fmri-sim — ★ 469 (1876.0/day)</summary>
-    <author><name>StoopwenpueNq</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/wordcraft</id>
     <title>storytold/wordcraft</title>
     <link href="https://github.com/storytold/wordcraft"/>
-    <updated>2026-10-14T13:56:10.000Z</updated>
+    <updated>2026-10-14T19:31:54.000Z</updated>
     <published>2026-10-07T08:34:24.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 12025 (1651.4/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 12208 (1636.8/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -39,8 +30,17 @@
     <link href="https://github.com/wheresryan22/anatomy"/>
     <updated>2026-10-13T08:19:55.000Z</updated>
     <published>2026-10-08T10:12:49.000Z</published>
-    <summary>An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects. — ★ 9422 (1516.4/day)</summary>
+    <summary>An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects. — ★ 9758 (1527.1/day)</summary>
     <author><name>wheresryan22</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/StoopwenpueNq/jackie-fmri-sim</id>
+    <title>StoopwenpueNq/jackie-fmri-sim</title>
+    <link href="https://github.com/StoopwenpueNq/jackie-fmri-sim"/>
+    <updated>2026-10-14T10:34:27.000Z</updated>
+    <published>2026-10-14T10:14:56.000Z</published>
+    <summary>jackie-fmri-sim — ★ 469 (1207.4/day)</summary>
+    <author><name>StoopwenpueNq</name></author>
   </entry>
   <entry>
     <id>https://github.com/jhaizhou-ops/d2r-mobile</id>
@@ -48,7 +48,7 @@
     <link href="https://github.com/jhaizhou-ops/d2r-mobile"/>
     <updated>2026-10-14T14:18:18.000Z</updated>
     <published>2026-10-12T08:41:19.000Z</published>
-    <summary>Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层 — ★ 1860 (817.0/day)</summary>
+    <summary>Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层 — ★ 2026 (825.8/day)</summary>
     <author><name>jhaizhou-ops</name></author>
   </entry>
   <entry>
@@ -57,7 +57,7 @@
     <link href="https://github.com/Arekejoker/qwen21-nsfw-pose-skill"/>
     <updated>2026-10-14T09:03:56.000Z</updated>
     <published>2026-10-13T03:09:42.000Z</published>
-    <summary>Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw — ★ 1165 (773.0/day)</summary>
+    <summary>Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw — ★ 1221 (725.2/day)</summary>
     <author><name>Arekejoker</name></author>
   </entry>
   <entry>
@@ -66,8 +66,17 @@
     <link href="https://github.com/onehumanbeing/esp32-iphone-agent"/>
     <updated>2026-10-13T16:19:53.000Z</updated>
     <published>2026-10-11T19:10:25.000Z</published>
-    <summary>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. — ★ 2005 (706.0/day)</summary>
+    <summary>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. — ★ 2054 (680.9/day)</summary>
     <author><name>onehumanbeing</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/gridcraft</id>
+    <title>storytold/gridcraft</title>
+    <link href="https://github.com/storytold/gridcraft"/>
+    <updated>2026-10-14T15:36:58.000Z</updated>
+    <published>2026-10-07T05:18:16.000Z</published>
+    <summary>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. — ★ 4788 (630.5/day)</summary>
+    <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/CoolkHz/gptibo</id>
@@ -75,34 +84,16 @@
     <link href="https://github.com/CoolkHz/gptibo"/>
     <updated>2026-10-14T02:40:46.000Z</updated>
     <published>2026-10-13T15:57:19.000Z</published>
-    <summary>Self-hosted GPTibo storefront, admin and Go backend — sanitized MIT source — ★ 683 (701.3/day)</summary>
+    <summary>Self-hosted GPTibo storefront, admin and Go backend — sanitized MIT source — ★ 715 (621.4/day)</summary>
     <author><name>CoolkHz</name></author>
   </entry>
   <entry>
-    <id>https://github.com/HeyPuter/everything</id>
-    <title>HeyPuter/everything</title>
-    <link href="https://github.com/HeyPuter/everything"/>
-    <updated>2026-10-14T15:18:12.000Z</updated>
-    <published>2026-10-13T16:18:22.000Z</published>
-    <summary>We&#39;re rebuilding and open-sourcing the world’s software from scratch. — ★ 620 (646.3/day)</summary>
-    <author><name>HeyPuter</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/liseami/CCBaga</id>
-    <title>liseami/CCBaga</title>
-    <link href="https://github.com/liseami/CCBaga"/>
-    <updated>2026-10-14T11:26:23.000Z</updated>
-    <published>2026-10-11T03:47:06.000Z</published>
-    <summary>No description. — ★ 2230 (640.6/day)</summary>
-    <author><name>liseami</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/storytold/gridcraft</id>
-    <title>storytold/gridcraft</title>
-    <link href="https://github.com/storytold/gridcraft"/>
-    <updated>2026-10-14T13:33:33.000Z</updated>
-    <published>2026-10-07T05:18:16.000Z</published>
-    <summary>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. — ★ 4705 (634.3/day)</summary>
+    <id>https://github.com/storytold/cadcraft</id>
+    <title>storytold/cadcraft</title>
+    <link href="https://github.com/storytold/cadcraft"/>
+    <updated>2026-10-14T15:29:49.000Z</updated>
+    <published>2026-10-07T05:22:31.000Z</published>
+    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 4716 (621.2/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -111,25 +102,34 @@
     <link href="https://github.com/mhtsec/ARTEX"/>
     <updated>2026-10-10T09:16:20.000Z</updated>
     <published>2026-10-08T05:33:06.000Z</published>
-    <summary>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 — ★ 4044 (631.1/day)</summary>
+    <summary>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 — ★ 4064 (617.2/day)</summary>
     <author><name>mhtsec</name></author>
   </entry>
   <entry>
-    <id>https://github.com/storytold/cadcraft</id>
-    <title>storytold/cadcraft</title>
-    <link href="https://github.com/storytold/cadcraft"/>
-    <updated>2026-10-14T13:34:31.000Z</updated>
-    <published>2026-10-07T05:22:31.000Z</published>
-    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 4612 (622.0/day)</summary>
-    <author><name>storytold</name></author>
+    <id>https://github.com/liseami/CCBaga</id>
+    <title>liseami/CCBaga</title>
+    <link href="https://github.com/liseami/CCBaga"/>
+    <updated>2026-10-14T11:26:23.000Z</updated>
+    <published>2026-10-11T03:47:06.000Z</published>
+    <summary>No description. — ★ 2243 (613.2/day)</summary>
+    <author><name>liseami</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/HeyPuter/everything</id>
+    <title>HeyPuter/everything</title>
+    <link href="https://github.com/HeyPuter/everything"/>
+    <updated>2026-10-14T19:23:27.000Z</updated>
+    <published>2026-10-13T16:18:22.000Z</published>
+    <summary>We&#39;re rebuilding and open-sourcing the world’s software from scratch. — ★ 692 (609.1/day)</summary>
+    <author><name>HeyPuter</name></author>
   </entry>
   <entry>
     <id>https://github.com/ARahim3/DigUp</id>
     <title>ARahim3/DigUp</title>
     <link href="https://github.com/ARahim3/DigUp"/>
-    <updated>2026-10-14T11:04:05.000Z</updated>
+    <updated>2026-10-14T18:25:46.000Z</updated>
     <published>2026-10-08T20:37:51.000Z</published>
-    <summary>Search your Mac by what&#39;s in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind&#39;s EmbeddingGemma 2. — ★ 3328 (575.9/day)</summary>
+    <summary>Search your computer by what&#39;s in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind&#39;s EmbeddingGemma 2. — ★ 3504 (588.3/day)</summary>
     <author><name>ARahim3</name></author>
   </entry>
   <entry>
@@ -138,17 +138,26 @@
     <link href="https://github.com/storytold/craft-launcher"/>
     <updated>2026-10-14T05:40:50.000Z</updated>
     <published>2026-10-09T23:21:59.000Z</published>
-    <summary>The Craft App Launcher — ★ 2553 (547.2/day)</summary>
+    <summary>The Craft App Launcher — ★ 2597 (536.4/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/effectcraft</id>
     <title>storytold/effectcraft</title>
     <link href="https://github.com/storytold/effectcraft"/>
-    <updated>2026-10-14T14:15:38.000Z</updated>
+    <updated>2026-10-14T16:16:18.000Z</updated>
     <published>2026-10-01T14:24:46.000Z</published>
-    <summary>EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust — ★ 6437 (493.7/day)</summary>
+    <summary>EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust — ★ 6497 (491.6/day)</summary>
     <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/0xProbabillity/house-control</id>
+    <title>0xProbabillity/house-control</title>
+    <link href="https://github.com/0xProbabillity/house-control"/>
+    <updated>2026-10-14T13:47:20.000Z</updated>
+    <published>2026-10-14T12:32:21.000Z</published>
+    <summary>Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home. — ★ 142 (484.6/day)</summary>
+    <author><name>0xProbabillity</name></author>
   </entry>
   <entry>
     <id>https://github.com/alchaincyf/huashu-art-motion</id>
@@ -156,7 +165,7 @@
     <link href="https://github.com/alchaincyf/huashu-art-motion"/>
     <updated>2026-10-14T11:38:45.000Z</updated>
     <published>2026-10-06T04:49:37.000Z</published>
-    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 3959 (469.2/day)</summary>
+    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 3972 (461.1/day)</summary>
     <author><name>alchaincyf</name></author>
   </entry>
   <entry>
@@ -165,44 +174,53 @@
     <link href="https://github.com/zhongerxin/iPhone-use"/>
     <updated>2026-10-13T11:36:23.000Z</updated>
     <published>2026-10-06T15:09:33.000Z</published>
-    <summary>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。 — ★ 3709 (463.2/day)</summary>
+    <summary>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。 — ★ 3720 (454.6/day)</summary>
     <author><name>zhongerxin</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/outcrawlai/scout</id>
+    <title>outcrawlai/scout</title>
+    <link href="https://github.com/outcrawlai/scout"/>
+    <updated>2026-10-14T18:15:20.000Z</updated>
+    <published>2026-10-13T09:18:55.000Z</published>
+    <summary>Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl&#39;s own repository. — ★ 615 (430.9/day)</summary>
+    <author><name>outcrawlai</name></author>
   </entry>
   <entry>
     <id>https://github.com/LosaLosSantos/aurelio-finance</id>
     <title>LosaLosSantos/aurelio-finance</title>
     <link href="https://github.com/LosaLosSantos/aurelio-finance"/>
-    <updated>2026-10-14T11:20:17.000Z</updated>
+    <updated>2026-10-14T15:59:31.000Z</updated>
     <published>2026-10-06T20:14:19.000Z</published>
-    <summary>Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. — ★ 3364 (431.5/day)</summary>
+    <summary>Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. — ★ 3368 (422.5/day)</summary>
     <author><name>LosaLosSantos</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/deckcraft</id>
     <title>storytold/deckcraft</title>
     <link href="https://github.com/storytold/deckcraft"/>
-    <updated>2026-10-14T15:04:50.000Z</updated>
+    <updated>2026-10-14T19:27:28.000Z</updated>
     <published>2026-10-07T05:27:21.000Z</published>
-    <summary>Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps. — ★ 3140 (423.7/day)</summary>
+    <summary>Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps. — ★ 3193 (420.8/day)</summary>
     <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Caho1/open-claude-ui</id>
+    <title>Caho1/open-claude-ui</title>
+    <link href="https://github.com/Caho1/open-claude-ui"/>
+    <updated>2026-10-14T19:12:25.000Z</updated>
+    <published>2026-10-14T14:05:05.000Z</published>
+    <summary>基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。纯手写 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。 — ★ 104 (416.0/day)</summary>
+    <author><name>Caho1</name></author>
   </entry>
   <entry>
     <id>https://github.com/t4t5/omdrop-owl</id>
     <title>t4t5/omdrop-owl</title>
     <link href="https://github.com/t4t5/omdrop-owl"/>
-    <updated>2026-10-14T14:56:54.000Z</updated>
+    <updated>2026-10-14T15:25:32.000Z</updated>
     <published>2026-10-08T06:38:33.000Z</published>
-    <summary>airdrop for non-apple devices — ★ 2647 (416.1/day)</summary>
+    <summary>airdrop for non-apple devices — ★ 2662 (407.1/day)</summary>
     <author><name>t4t5</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/outcrawlai/scout</id>
-    <title>outcrawlai/scout</title>
-    <link href="https://github.com/outcrawlai/scout"/>
-    <updated>2026-10-14T09:03:27.000Z</updated>
-    <published>2026-10-13T09:18:55.000Z</published>
-    <summary>Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl&#39;s own repository. — ★ 515 (411.8/day)</summary>
-    <author><name>outcrawlai</name></author>
   </entry>
   <entry>
     <id>https://github.com/nullmoth/nvidia-macos-driver</id>
@@ -210,7 +228,7 @@
     <link href="https://github.com/nullmoth/nvidia-macos-driver"/>
     <updated>2026-10-13T21:22:08.000Z</updated>
     <published>2026-10-07T08:13:12.000Z</published>
-    <summary>Metal driver for NVIDIA GeForce cards on macOS Sequoia — ★ 2975 (407.7/day)</summary>
+    <summary>Metal driver for NVIDIA GeForce cards on macOS Sequoia — ★ 2992 (400.4/day)</summary>
     <author><name>nullmoth</name></author>
   </entry>
   <entry>
@@ -219,16 +237,16 @@
     <link href="https://github.com/zhuyansen/new-term-radar"/>
     <updated>2026-10-14T14:31:39.000Z</updated>
     <published>2026-10-12T07:11:01.000Z</published>
-    <summary>Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. — ★ 922 (394.1/day)</summary>
+    <summary>Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. — ★ 945 (375.6/day)</summary>
     <author><name>zhuyansen</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/soundcraft</id>
     <title>storytold/soundcraft</title>
     <link href="https://github.com/storytold/soundcraft"/>
-    <updated>2026-10-14T13:34:04.000Z</updated>
+    <updated>2026-10-14T16:16:06.000Z</updated>
     <published>2026-10-07T08:31:31.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust — ★ 2716 (372.9/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust — ★ 2757 (369.6/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -237,43 +255,25 @@
     <link href="https://github.com/noahdunnagan/fsearch"/>
     <updated>2026-10-12T18:33:47.000Z</updated>
     <published>2026-10-08T17:50:33.000Z</published>
-    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files. — ★ 2043 (346.5/day)</summary>
+    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files. — ★ 2046 (337.0/day)</summary>
     <author><name>noahdunnagan</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/egotoadcitadel/palette-from-image-ai</id>
-    <title>egotoadcitadel/palette-from-image-ai</title>
-    <link href="https://github.com/egotoadcitadel/palette-from-image-ai"/>
-    <updated>2026-10-13T17:10:50.000Z</updated>
-    <published>2026-10-13T17:08:53.000Z</published>
-    <summary>AI coloring palette-from-image generator for designers and pixel artists — pull a clean named palette straight from any image, no subscription or cloud upload. — ★ 303 (327.8/day)</summary>
-    <author><name>egotoadcitadel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/solana-classic/solana-classic</id>
-    <title>solana-classic/solana-classic</title>
-    <link href="https://github.com/solana-classic/solana-classic"/>
-    <updated>2026-10-14T15:06:47.000Z</updated>
-    <published>2026-10-13T19:35:48.000Z</published>
-    <summary>Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live. — ★ 268 (325.9/day)</summary>
-    <author><name>solana-classic</name></author>
   </entry>
   <entry>
     <id>https://github.com/bherbruck/solidcraft</id>
     <title>bherbruck/solidcraft</title>
     <link href="https://github.com/bherbruck/solidcraft"/>
-    <updated>2026-10-14T15:16:00.000Z</updated>
+    <updated>2026-10-14T19:26:46.000Z</updated>
     <published>2026-10-07T18:57:48.000Z</published>
-    <summary>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. — ★ 2182 (318.6/day)</summary>
+    <summary>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. — ★ 2278 (324.3/day)</summary>
     <author><name>bherbruck</name></author>
   </entry>
   <entry>
-    <id>https://github.com/storytold/designcraft</id>
-    <title>storytold/designcraft</title>
-    <link href="https://github.com/storytold/designcraft"/>
-    <updated>2026-10-14T14:14:59.000Z</updated>
-    <published>2026-10-01T13:13:14.000Z</published>
-    <summary>DesignCraft: An open-source page and layout design editor written by scratch in pure Rust — ★ 3842 (293.6/day)</summary>
-    <author><name>storytold</name></author>
+    <id>https://github.com/solana-classic/solana-classic</id>
+    <title>solana-classic/solana-classic</title>
+    <link href="https://github.com/solana-classic/solana-classic"/>
+    <updated>2026-10-14T19:20:59.000Z</updated>
+    <published>2026-10-13T19:35:48.000Z</published>
+    <summary>Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live. — ★ 298 (298.3/day)</summary>
+    <author><name>solana-classic</name></author>
   </entry>
 </feed>
