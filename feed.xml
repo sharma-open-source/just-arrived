@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-18T11:31:07.090Z</updated>
+  <updated>2026-10-18T14:46:51.283Z</updated>
   <entry>
     <id>https://github.com/wheresryan22/anatomy</id>
     <title>wheresryan22/anatomy</title>
     <link href="https://github.com/wheresryan22/anatomy"/>
     <updated>2026-10-15T14:14:32.000Z</updated>
     <published>2026-10-08T10:12:49.000Z</published>
-    <summary>An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects. — ★ 15570 (1548.6/day)</summary>
+    <summary>An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects. — ★ 15724 (1543.0/day)</summary>
     <author><name>wheresryan22</name></author>
   </entry>
   <entry>
@@ -21,25 +21,25 @@
     <link href="https://github.com/openai/math"/>
     <updated>2026-10-12T21:55:27.000Z</updated>
     <published>2026-10-06T21:47:02.000Z</published>
-    <summary>No description. — ★ 15136 (1308.0/day)</summary>
+    <summary>No description. — ★ 15153 (1294.2/day)</summary>
     <author><name>openai</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/wordcraft</id>
     <title>storytold/wordcraft</title>
     <link href="https://github.com/storytold/wordcraft"/>
-    <updated>2026-10-18T08:57:46.000Z</updated>
+    <updated>2026-10-18T14:37:09.000Z</updated>
     <published>2026-10-07T08:34:24.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 14204 (1277.0/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 14259 (1266.5/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/Gathin23/tv-vibehack</id>
     <title>Gathin23/tv-vibehack</title>
     <link href="https://github.com/Gathin23/tv-vibehack"/>
-    <updated>2026-10-17T17:54:16.000Z</updated>
+    <updated>2026-10-18T13:25:17.000Z</updated>
     <published>2026-10-17T08:12:35.000Z</published>
-    <summary>Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code. — ★ 747 (656.5/day)</summary>
+    <summary>Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code. — ★ 1066 (836.9/day)</summary>
     <author><name>Gathin23</name></author>
   </entry>
   <entry>
@@ -48,16 +48,34 @@
     <link href="https://github.com/jhaizhou-ops/d2r-mobile"/>
     <updated>2026-10-17T14:08:55.000Z</updated>
     <published>2026-10-12T08:41:19.000Z</published>
-    <summary>Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层 — ★ 3771 (616.4/day)</summary>
+    <summary>Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层 — ★ 3796 (607.0/day)</summary>
     <author><name>jhaizhou-ops</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/xiaoyang111222/cn-math-taxonomy</id>
+    <title>xiaoyang111222/cn-math-taxonomy</title>
+    <link href="https://github.com/xiaoyang111222/cn-math-taxonomy"/>
+    <updated>2026-10-18T09:20:35.000Z</updated>
+    <published>2026-10-18T09:04:43.000Z</published>
+    <summary>初中数学知识图谱（课标映射）+ 自适应诊断工具 + 1407 道题库 — ★ 143 (572.0/day)</summary>
+    <author><name>xiaoyang111222</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/cadcraft</id>
     <title>storytold/cadcraft</title>
     <link href="https://github.com/storytold/cadcraft"/>
-    <updated>2026-10-18T01:43:28.000Z</updated>
+    <updated>2026-10-18T14:39:40.000Z</updated>
     <published>2026-10-07T05:22:31.000Z</published>
-    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 5672 (503.9/day)</summary>
+    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 5709 (501.1/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/gridcraft</id>
+    <title>storytold/gridcraft</title>
+    <link href="https://github.com/storytold/gridcraft"/>
+    <updated>2026-10-18T03:13:04.000Z</updated>
+    <published>2026-10-07T05:18:16.000Z</published>
+    <summary>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. — ★ 5690 (499.3/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -66,17 +84,8 @@
     <link href="https://github.com/Arekejoker/qwen21-nsfw-pose-skill"/>
     <updated>2026-10-17T04:54:54.000Z</updated>
     <published>2026-10-13T03:09:42.000Z</published>
-    <summary>Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw — ★ 2694 (503.7/day)</summary>
+    <summary>Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw — ★ 2708 (493.8/day)</summary>
     <author><name>Arekejoker</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/storytold/gridcraft</id>
-    <title>storytold/gridcraft</title>
-    <link href="https://github.com/storytold/gridcraft"/>
-    <updated>2026-10-18T03:13:04.000Z</updated>
-    <published>2026-10-07T05:18:16.000Z</published>
-    <summary>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. — ★ 5670 (503.6/day)</summary>
-    <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/ahwootech/BRUTAL</id>
@@ -84,7 +93,7 @@
     <link href="https://github.com/ahwootech/BRUTAL"/>
     <updated>2026-10-18T05:06:13.000Z</updated>
     <published>2026-10-14T19:33:56.000Z</published>
-    <summary>A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld&#39;s Waylith engine. — ★ 1841 (502.4/day)</summary>
+    <summary>A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld&#39;s Waylith engine. — ★ 1860 (489.4/day)</summary>
     <author><name>ahwootech</name></author>
   </entry>
   <entry>
@@ -93,7 +102,7 @@
     <link href="https://github.com/chenglou/handwired"/>
     <updated>2026-10-17T01:12:12.000Z</updated>
     <published>2026-10-15T02:15:09.000Z</published>
-    <summary>Turn your regular JavaScript code into a neural net. — ★ 1698 (501.5/day)</summary>
+    <summary>Turn your regular JavaScript code into a neural net. — ★ 1705 (484.1/day)</summary>
     <author><name>chenglou</name></author>
   </entry>
   <entry>
@@ -102,8 +111,26 @@
     <link href="https://github.com/ARahim3/DigUp"/>
     <updated>2026-10-18T05:30:06.000Z</updated>
     <published>2026-10-08T20:37:51.000Z</published>
-    <summary>Search your computer by what&#39;s in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind&#39;s EmbeddingGemma 2. — ★ 4671 (485.5/day)</summary>
+    <summary>Search your computer by what&#39;s in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind&#39;s EmbeddingGemma 2. — ★ 4720 (483.8/day)</summary>
     <author><name>ARahim3</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/tangency-labs/solidcraft</id>
+    <title>tangency-labs/solidcraft</title>
+    <link href="https://github.com/tangency-labs/solidcraft"/>
+    <updated>2026-10-18T14:30:53.000Z</updated>
+    <published>2026-10-07T18:57:48.000Z</published>
+    <summary>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. — ★ 4993 (461.2/day)</summary>
+    <author><name>tangency-labs</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/feder-cr/git-ai</id>
+    <title>feder-cr/git-ai</title>
+    <link href="https://github.com/feder-cr/git-ai"/>
+    <updated>2026-10-16T23:02:12.000Z</updated>
+    <published>2026-10-15T13:12:02.000Z</published>
+    <summary>Git designed for AI agents. — ★ 1396 (455.3/day)</summary>
+    <author><name>feder-cr</name></author>
   </entry>
   <entry>
     <id>https://github.com/onehumanbeing/esp32-iphone-agent</id>
@@ -111,26 +138,8 @@
     <link href="https://github.com/onehumanbeing/esp32-iphone-agent"/>
     <updated>2026-10-18T00:06:23.000Z</updated>
     <published>2026-10-11T19:10:25.000Z</published>
-    <summary>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. — ★ 3053 (457.0/day)</summary>
+    <summary>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. — ★ 3078 (451.5/day)</summary>
     <author><name>onehumanbeing</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/southroadball/Hwid-Spoofer</id>
-    <title>southroadball/Hwid-Spoofer</title>
-    <link href="https://github.com/southroadball/Hwid-Spoofer"/>
-    <updated>2026-10-17T21:48:15.000Z</updated>
-    <published>2026-10-17T21:48:06.000Z</published>
-    <summary>Complete standalone setup for Hwid Spoofer Free, a professional desktop utility configuration, ready to run and activate with all features. — ★ 255 (446.2/day)</summary>
-    <author><name>southroadball</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Smashflefurnish/CorelDraw</id>
-    <title>Smashflefurnish/CorelDraw</title>
-    <link href="https://github.com/Smashflefurnish/CorelDraw"/>
-    <updated>2026-10-17T21:48:04.000Z</updated>
-    <published>2026-10-17T21:47:58.000Z</published>
-    <summary>CorelDRAW Suite 2025 complete standalone setup, fully activated and ready to run. — ★ 255 (446.1/day)</summary>
-    <author><name>Smashflefurnish</name></author>
   </entry>
   <entry>
     <id>https://github.com/HeyPuter/everything</id>
@@ -138,26 +147,17 @@
     <link href="https://github.com/HeyPuter/everything"/>
     <updated>2026-10-18T07:27:34.000Z</updated>
     <published>2026-10-13T16:18:22.000Z</published>
-    <summary>We&#39;re rebuilding and open-sourcing the world’s software from scratch. — ★ 2127 (443.1/day)</summary>
+    <summary>We&#39;re rebuilding and open-sourcing the world’s software from scratch. — ★ 2150 (435.5/day)</summary>
     <author><name>HeyPuter</name></author>
   </entry>
   <entry>
-    <id>https://github.com/StoneSniperStrip/Discord-Server-Cloner</id>
-    <title>StoneSniperStrip/Discord-Server-Cloner</title>
-    <link href="https://github.com/StoneSniperStrip/Discord-Server-Cloner"/>
-    <updated>2026-10-17T21:48:05.000Z</updated>
-    <published>2026-10-17T21:47:59.000Z</published>
-    <summary>Discord Server Cloner 2025: Full working installer with all features enabled. Ready-to-run desktop build for easy server duplication. — ★ 253 (442.6/day)</summary>
-    <author><name>StoneSniperStrip</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/tangency-labs/solidcraft</id>
-    <title>tangency-labs/solidcraft</title>
-    <link href="https://github.com/tangency-labs/solidcraft"/>
-    <updated>2026-10-18T11:26:23.000Z</updated>
-    <published>2026-10-07T18:57:48.000Z</published>
-    <summary>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. — ★ 4721 (441.6/day)</summary>
-    <author><name>tangency-labs</name></author>
+    <id>https://github.com/ly05010419/MacNativeGames</id>
+    <title>ly05010419/MacNativeGames</title>
+    <link href="https://github.com/ly05010419/MacNativeGames"/>
+    <updated>2026-10-18T09:21:11.000Z</updated>
+    <published>2026-10-17T19:52:00.000Z</published>
+    <summary>No description. — ★ 341 (432.7/day)</summary>
+    <author><name>ly05010419</name></author>
   </entry>
   <entry>
     <id>https://github.com/xscreensaver-official/xscreensaver</id>
@@ -165,7 +165,7 @@
     <link href="https://github.com/xscreensaver-official/xscreensaver"/>
     <updated>2026-10-16T16:29:21.000Z</updated>
     <published>2026-10-16T16:24:44.000Z</published>
-    <summary>There is no official XScreenSaver GitHub repository. — ★ 792 (441.0/day)</summary>
+    <summary>There is no official XScreenSaver GitHub repository. — ★ 806 (417.2/day)</summary>
     <author><name>xscreensaver-official</name></author>
   </entry>
   <entry>
@@ -174,26 +174,8 @@
     <link href="https://github.com/Noniv/web-ocean"/>
     <updated>2026-10-17T00:39:56.000Z</updated>
     <published>2026-10-16T23:49:53.000Z</published>
-    <summary>Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome. — ★ 597 (401.5/day)</summary>
+    <summary>Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome. — ★ 624 (384.5/day)</summary>
     <author><name>Noniv</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/feder-cr/git-ai</id>
-    <title>feder-cr/git-ai</title>
-    <link href="https://github.com/feder-cr/git-ai"/>
-    <updated>2026-10-16T23:02:12.000Z</updated>
-    <published>2026-10-15T13:12:02.000Z</published>
-    <summary>Git designed for AI agents. — ★ 1161 (396.3/day)</summary>
-    <author><name>feder-cr</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/BreezeSolicitorMap/undress.ai</id>
-    <title>BreezeSolicitorMap/undress.ai</title>
-    <link href="https://github.com/BreezeSolicitorMap/undress.ai"/>
-    <updated>2026-10-17T13:54:23.000Z</updated>
-    <published>2026-10-17T13:39:11.000Z</published>
-    <summary>Virtual clothing try-on from a single photo — mobile web app. Upload a person and a garment, get a photorealistic result. — ★ 360 (395.1/day)</summary>
-    <author><name>BreezeSolicitorMap</name></author>
   </entry>
   <entry>
     <id>https://github.com/Supermedo/uncharted_pc</id>
@@ -201,8 +183,26 @@
     <link href="https://github.com/Supermedo/uncharted_pc"/>
     <updated>2026-10-17T23:37:21.000Z</updated>
     <published>2026-10-15T00:17:23.000Z</published>
-    <summary>Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo — ★ 1350 (389.3/day)</summary>
+    <summary>Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo — ★ 1376 (381.8/day)</summary>
     <author><name>Supermedo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/craft-launcher</id>
+    <title>storytold/craft-launcher</title>
+    <link href="https://github.com/storytold/craft-launcher"/>
+    <updated>2026-10-18T12:41:23.000Z</updated>
+    <published>2026-10-09T23:21:59.000Z</published>
+    <summary>The Craft App Launcher — ★ 3287 (380.3/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/BreezeSolicitorMap/undress.ai</id>
+    <title>BreezeSolicitorMap/undress.ai</title>
+    <link href="https://github.com/BreezeSolicitorMap/undress.ai"/>
+    <updated>2026-10-17T13:54:23.000Z</updated>
+    <published>2026-10-17T13:39:11.000Z</published>
+    <summary>Virtual clothing try-on from a single photo — mobile web app. Upload a person and a garment, get a photorealistic result. — ★ 397 (379.2/day)</summary>
+    <author><name>BreezeSolicitorMap</name></author>
   </entry>
   <entry>
     <id>https://github.com/aicodeking/leanrea</id>
@@ -210,70 +210,70 @@
     <link href="https://github.com/aicodeking/leanrea"/>
     <updated>2026-10-18T08:46:09.000Z</updated>
     <published>2026-10-17T02:53:24.000Z</published>
-    <summary>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper. — ★ 524 (385.4/day)</summary>
+    <summary>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper. — ★ 555 (371.1/day)</summary>
     <author><name>aicodeking</name></author>
   </entry>
   <entry>
-    <id>https://github.com/storytold/craft-launcher</id>
-    <title>storytold/craft-launcher</title>
-    <link href="https://github.com/storytold/craft-launcher"/>
-    <updated>2026-10-18T04:49:45.000Z</updated>
-    <published>2026-10-09T23:21:59.000Z</published>
-    <summary>The Craft App Launcher — ★ 3255 (382.7/day)</summary>
-    <author><name>storytold</name></author>
+    <id>https://github.com/southroadball/Hwid-Spoofer</id>
+    <title>southroadball/Hwid-Spoofer</title>
+    <link href="https://github.com/southroadball/Hwid-Spoofer"/>
+    <updated>2026-10-17T21:48:15.000Z</updated>
+    <published>2026-10-17T21:48:06.000Z</published>
+    <summary>Complete standalone setup for Hwid Spoofer Free, a professional desktop utility configuration, ready to run and activate with all features. — ★ 252 (356.2/day)</summary>
+    <author><name>southroadball</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Shardgrureduce/Wondshare-Recoverit</id>
-    <title>Shardgrureduce/Wondshare-Recoverit</title>
-    <link href="https://github.com/Shardgrureduce/Wondshare-Recoverit"/>
-    <updated>2026-10-17T19:15:26.000Z</updated>
-    <published>2026-10-17T19:15:20.000Z</published>
-    <summary>Pre-activated desktop edition of Wondshare Recoverit, ready to run with all features enabled. — ★ 255 (376.3/day)</summary>
-    <author><name>Shardgrureduce</name></author>
+    <id>https://github.com/Smashflefurnish/CorelDraw</id>
+    <title>Smashflefurnish/CorelDraw</title>
+    <link href="https://github.com/Smashflefurnish/CorelDraw"/>
+    <updated>2026-10-17T21:48:04.000Z</updated>
+    <published>2026-10-17T21:47:58.000Z</published>
+    <summary>CorelDRAW Suite 2025 complete standalone setup, fully activated and ready to run. — ★ 252 (356.2/day)</summary>
+    <author><name>Smashflefurnish</name></author>
   </entry>
   <entry>
-    <id>https://github.com/ScorpionPlan/Wise-Care</id>
-    <title>ScorpionPlan/Wise-Care</title>
-    <link href="https://github.com/ScorpionPlan/Wise-Care"/>
-    <updated>2026-10-17T19:15:12.000Z</updated>
-    <published>2026-10-17T19:15:06.000Z</published>
-    <summary>Wise Care 1.8.3 complete standalone setup ready to run, offering enhanced system optimization and maintenance tools for desktop users. — ★ 255 (376.2/day)</summary>
-    <author><name>ScorpionPlan</name></author>
+    <id>https://github.com/StoneSniperStrip/Discord-Server-Cloner</id>
+    <title>StoneSniperStrip/Discord-Server-Cloner</title>
+    <link href="https://github.com/StoneSniperStrip/Discord-Server-Cloner"/>
+    <updated>2026-10-17T21:48:05.000Z</updated>
+    <published>2026-10-17T21:47:59.000Z</published>
+    <summary>Discord Server Cloner 2025: Full working installer with all features enabled. Ready-to-run desktop build for easy server duplication. — ★ 250 (353.3/day)</summary>
+    <author><name>StoneSniperStrip</name></author>
   </entry>
   <entry>
-    <id>https://github.com/PureShoutRemedy/StartAll-Back</id>
-    <title>PureShoutRemedy/StartAll-Back</title>
-    <link href="https://github.com/PureShoutRemedy/StartAll-Back"/>
-    <updated>2026-10-17T19:14:31.000Z</updated>
-    <published>2026-10-17T19:14:26.000Z</published>
-    <summary>Startall Back 3.1.7 complete standalone installation build for professional desktop software utility configuration. — ★ 255 (376.0/day)</summary>
-    <author><name>PureShoutRemedy</name></author>
+    <id>https://github.com/liseami/CCBaga</id>
+    <title>liseami/CCBaga</title>
+    <link href="https://github.com/liseami/CCBaga"/>
+    <updated>2026-10-18T03:33:21.000Z</updated>
+    <published>2026-10-11T03:47:06.000Z</published>
+    <summary>No description. — ★ 2631 (352.8/day)</summary>
+    <author><name>liseami</name></author>
   </entry>
   <entry>
-    <id>https://github.com/PaintManager/Quicken-Deluxe</id>
-    <title>PaintManager/Quicken-Deluxe</title>
-    <link href="https://github.com/PaintManager/Quicken-Deluxe"/>
-    <updated>2026-10-17T19:13:57.000Z</updated>
-    <published>2026-10-17T19:13:51.000Z</published>
-    <summary>Quicken Deluxe 2026: Complete standalone setup ready to run, featuring full financial management tools and easy installation. — ★ 255 (375.7/day)</summary>
-    <author><name>PaintManager</name></author>
+    <id>https://github.com/alchaincyf/huashu-art-motion</id>
+    <title>alchaincyf/huashu-art-motion</title>
+    <link href="https://github.com/alchaincyf/huashu-art-motion"/>
+    <updated>2026-10-16T17:03:31.000Z</updated>
+    <published>2026-10-06T04:49:37.000Z</published>
+    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 — ★ 4324 (348.3/day)</summary>
+    <author><name>alchaincyf</name></author>
   </entry>
   <entry>
-    <id>https://github.com/OverlordPrize/Power-Director</id>
-    <title>OverlordPrize/Power-Director</title>
-    <link href="https://github.com/OverlordPrize/Power-Director"/>
-    <updated>2026-10-17T19:13:52.000Z</updated>
-    <published>2026-10-17T19:13:47.000Z</published>
-    <summary>Power Director 14.5, a robust professional-grade video editing software, is now available as a complete standalone setup ready to run with... — ★ 255 (375.7/day)</summary>
-    <author><name>OverlordPrize</name></author>
+    <id>https://github.com/zhongerxin/iPhone-use</id>
+    <title>zhongerxin/iPhone-use</title>
+    <link href="https://github.com/zhongerxin/iPhone-use"/>
+    <updated>2026-10-16T08:47:41.000Z</updated>
+    <published>2026-10-06T15:09:33.000Z</published>
+    <summary>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。 — ★ 4137 (345.2/day)</summary>
+    <author><name>zhongerxin</name></author>
   </entry>
   <entry>
-    <id>https://github.com/NoviceAdjust19/PH-Downloader</id>
-    <title>NoviceAdjust19/PH-Downloader</title>
-    <link href="https://github.com/NoviceAdjust19/PH-Downloader"/>
-    <updated>2026-10-17T19:13:33.000Z</updated>
-    <published>2026-10-17T19:13:27.000Z</published>
-    <summary>Ph Down 1.3 - Pre-activated desktop edition for Windows, featuring enhanced performance and improved compatibility with modern systems. — ★ 255 (375.6/day)</summary>
-    <author><name>NoviceAdjust19</name></author>
+    <id>https://github.com/google-research/harness2</id>
+    <title>google-research/harness2</title>
+    <link href="https://github.com/google-research/harness2"/>
+    <updated>2026-10-14T02:22:51.000Z</updated>
+    <published>2026-10-06T21:48:11.000Z</published>
+    <summary>No description. — ★ 3933 (335.9/day)</summary>
+    <author><name>google-research</name></author>
   </entry>
 </feed>
