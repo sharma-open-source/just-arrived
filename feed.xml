@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-20T19:48:00.493Z</updated>
+  <updated>2026-10-20T22:53:38.878Z</updated>
   <entry>
     <id>https://github.com/Gathin23/cleanyourtv</id>
     <title>Gathin23/cleanyourtv</title>
     <link href="https://github.com/Gathin23/cleanyourtv"/>
-    <updated>2026-10-20T19:39:20.000Z</updated>
+    <updated>2026-10-20T19:57:27.000Z</updated>
     <published>2026-10-17T08:12:35.000Z</published>
-    <summary>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. — ★ 10933 (3139.0/day)</summary>
+    <summary>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. — ★ 11469 (3175.4/day)</summary>
     <author><name>Gathin23</name></author>
   </entry>
   <entry>
@@ -21,16 +21,16 @@
     <link href="https://github.com/deepseek-ai/DeepInfer"/>
     <updated>2026-10-20T11:03:36.000Z</updated>
     <published>2026-10-16T07:47:23.000Z</published>
-    <summary>DeepInfer: High-performance, large-scale inference framework for DeepSeek models — ★ 11372 (2526.9/day)</summary>
+    <summary>DeepInfer: High-performance, large-scale inference framework for DeepSeek models — ★ 11916 (2574.0/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/simbasjungles/free-my-tv</id>
     <title>simbasjungles/free-my-tv</title>
     <link href="https://github.com/simbasjungles/free-my-tv"/>
-    <updated>2026-10-20T19:44:37.000Z</updated>
+    <updated>2026-10-20T22:16:13.000Z</updated>
     <published>2026-10-19T19:29:01.000Z</published>
-    <summary>A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo. — ★ 1489 (1469.6/day)</summary>
+    <summary>A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo. — ★ 1723 (1508.6/day)</summary>
     <author><name>simbasjungles</name></author>
   </entry>
   <entry>
@@ -39,17 +39,8 @@
     <link href="https://github.com/wheresryan22/anatomy"/>
     <updated>2026-10-18T20:20:24.000Z</updated>
     <published>2026-10-08T10:12:49.000Z</published>
-    <summary>An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects. — ★ 17490 (1410.5/day)</summary>
+    <summary>An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects. — ★ 17548 (1400.7/day)</summary>
     <author><name>wheresryan22</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/pengchujin/aerial-tv</id>
-    <title>pengchujin/aerial-tv</title>
-    <link href="https://github.com/pengchujin/aerial-tv"/>
-    <updated>2026-10-20T16:24:00.000Z</updated>
-    <published>2026-10-20T09:13:06.000Z</published>
-    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. — ★ 503 (1140.8/day)</summary>
-    <author><name>pengchujin</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/wordcraft</id>
@@ -57,44 +48,17 @@
     <link href="https://github.com/storytold/wordcraft"/>
     <updated>2026-10-20T15:39:51.000Z</updated>
     <published>2026-10-07T08:34:24.000Z</published>
-    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 15017 (1115.0/day)</summary>
+    <summary>An open-source, clean-room reimplementation of Microsoft Word in pure Rust — ★ 15050 (1106.9/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
-    <id>https://github.com/rbl-tools/.github</id>
-    <title>rbl-tools/.github</title>
-    <link href="https://github.com/rbl-tools/.github"/>
-    <updated>2026-10-20T14:22:25.000Z</updated>
-    <published>2026-10-20T14:22:15.000Z</published>
-    <summary>🔥 roblox-scripts-executor-mod-menu-with-cheats-and-hacks — ★ 266 (1064.0/day)</summary>
-    <author><name>rbl-tools</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/dogs-tool/.github</id>
-    <title>dogs-tool/.github</title>
-    <link href="https://github.com/dogs-tool/.github"/>
-    <updated>2026-10-20T13:45:21.000Z</updated>
-    <published>2026-10-20T13:45:12.000Z</published>
-    <summary>🔥 wardogs-cheats-mod-menu-with-aim-esp-wh-hacks — ★ 266 (1055.8/day)</summary>
-    <author><name>dogs-tool</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/cs-tool-s/.github</id>
-    <title>cs-tool-s/.github</title>
-    <link href="https://github.com/cs-tool-s/.github"/>
-    <updated>2026-10-20T13:20:32.000Z</updated>
-    <published>2026-10-20T13:20:24.000Z</published>
-    <summary>🔥 cs-2-cs2-skin-changer-skin-swapper-skinchanger-skinswapper-all-skins — ★ 270 (1003.1/day)</summary>
-    <author><name>cs-tool-s</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/val-tools-c/.github</id>
-    <title>val-tools-c/.github</title>
-    <link href="https://github.com/val-tools-c/.github"/>
-    <updated>2026-10-20T12:52:46.000Z</updated>
-    <published>2026-10-20T12:52:21.000Z</published>
-    <summary>🔥 valorant-cheats-mod-menu-with-aim-esp-wh-radar-hacks — ★ 270 (935.4/day)</summary>
-    <author><name>val-tools-c</name></author>
+    <id>https://github.com/pengchujin/aerial-tv</id>
+    <title>pengchujin/aerial-tv</title>
+    <link href="https://github.com/pengchujin/aerial-tv"/>
+    <updated>2026-10-20T16:24:00.000Z</updated>
+    <published>2026-10-20T09:13:06.000Z</published>
+    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. — ★ 528 (926.6/day)</summary>
+    <author><name>pengchujin</name></author>
   </entry>
   <entry>
     <id>https://github.com/JoasASantos/REA-Prompts</id>
@@ -102,35 +66,26 @@
     <link href="https://github.com/JoasASantos/REA-Prompts"/>
     <updated>2026-10-20T16:29:15.000Z</updated>
     <published>2026-10-19T22:20:47.000Z</published>
-    <summary>Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program — ★ 821 (918.4/day)</summary>
+    <summary>Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program — ★ 913 (892.6/day)</summary>
     <author><name>JoasASantos</name></author>
   </entry>
   <entry>
     <id>https://github.com/ly05010419/MacNativeGames</id>
     <title>ly05010419/MacNativeGames</title>
     <link href="https://github.com/ly05010419/MacNativeGames"/>
-    <updated>2026-10-20T19:31:55.000Z</updated>
+    <updated>2026-10-20T21:18:29.000Z</updated>
     <published>2026-10-17T19:52:00.000Z</published>
-    <summary>No description. — ★ 2662 (888.2/day)</summary>
+    <summary>No description. — ★ 2758 (882.2/day)</summary>
     <author><name>ly05010419</name></author>
   </entry>
   <entry>
-    <id>https://github.com/rbl-fps-tool/.github</id>
-    <title>rbl-fps-tool/.github</title>
-    <link href="https://github.com/rbl-fps-tool/.github"/>
-    <updated>2026-10-20T15:03:34.000Z</updated>
-    <published>2026-10-20T15:03:15.000Z</published>
-    <summary>🔥 roblox-fps-unlocker-uncup-fps-boost-for-any-pc-ping-booster — ★ 175 (700.0/day)</summary>
-    <author><name>rbl-fps-tool</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ELY-Open-Source/ElyOffice</id>
-    <title>ELY-Open-Source/ElyOffice</title>
-    <link href="https://github.com/ELY-Open-Source/ElyOffice"/>
-    <updated>2026-10-20T19:08:52.000Z</updated>
-    <published>2026-10-19T23:04:42.000Z</published>
-    <summary>Ely Office: offline-first desktop apps in Rust and GPUI — ★ 556 (644.0/day)</summary>
-    <author><name>ELY-Open-Source</name></author>
+    <id>https://github.com/tangency-labs/solidcraft</id>
+    <title>tangency-labs/solidcraft</title>
+    <link href="https://github.com/tangency-labs/solidcraft"/>
+    <updated>2026-10-20T22:47:20.000Z</updated>
+    <published>2026-10-07T18:57:48.000Z</published>
+    <summary>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. — ★ 8232 (625.4/day)</summary>
+    <author><name>tangency-labs</name></author>
   </entry>
   <entry>
     <id>https://github.com/xiaoyang111222/cn-math-taxonomy</id>
@@ -138,17 +93,17 @@
     <link href="https://github.com/xiaoyang111222/cn-math-taxonomy"/>
     <updated>2026-10-20T15:45:00.000Z</updated>
     <published>2026-10-18T09:04:43.000Z</published>
-    <summary>中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断 — ★ 1548 (632.7/day)</summary>
+    <summary>中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断 — ★ 1558 (604.9/day)</summary>
     <author><name>xiaoyang111222</name></author>
   </entry>
   <entry>
-    <id>https://github.com/tangency-labs/solidcraft</id>
-    <title>tangency-labs/solidcraft</title>
-    <link href="https://github.com/tangency-labs/solidcraft"/>
-    <updated>2026-10-20T19:36:38.000Z</updated>
-    <published>2026-10-07T18:57:48.000Z</published>
-    <summary>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. — ★ 8143 (624.7/day)</summary>
-    <author><name>tangency-labs</name></author>
+    <id>https://github.com/ELY-Open-Source/ElyOffice</id>
+    <title>ELY-Open-Source/ElyOffice</title>
+    <link href="https://github.com/ELY-Open-Source/ElyOffice"/>
+    <updated>2026-10-20T22:07:47.000Z</updated>
+    <published>2026-10-19T23:04:42.000Z</published>
+    <summary>Ely Office: offline-first desktop apps in Rust and GPUI — ★ 571 (575.4/day)</summary>
+    <author><name>ELY-Open-Source</name></author>
   </entry>
   <entry>
     <id>https://github.com/dominikmartn/harp</id>
@@ -156,7 +111,7 @@
     <link href="https://github.com/dominikmartn/harp"/>
     <updated>2026-10-20T18:09:30.000Z</updated>
     <published>2026-10-20T10:39:43.000Z</published>
-    <summary>Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp. — ★ 232 (609.3/day)</summary>
+    <summary>Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp. — ★ 269 (527.8/day)</summary>
     <author><name>dominikmartn</name></author>
   </entry>
   <entry>
@@ -165,17 +120,8 @@
     <link href="https://github.com/stackedlol/ascii-sharks"/>
     <updated>2026-10-19T21:58:25.000Z</updated>
     <published>2026-10-19T21:54:19.000Z</published>
-    <summary>ascii shark components in typescript — ★ 476 (521.8/day)</summary>
+    <summary>ascii shark components in typescript — ★ 508 (487.9/day)</summary>
     <author><name>stackedlol</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/alchaincyf/huashu-motion</id>
-    <title>alchaincyf/huashu-motion</title>
-    <link href="https://github.com/alchaincyf/huashu-motion"/>
-    <updated>2026-10-19T13:36:51.000Z</updated>
-    <published>2026-10-18T12:19:27.000Z</published>
-    <summary>让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it. — ★ 1137 (491.9/day)</summary>
-    <author><name>alchaincyf</name></author>
   </entry>
   <entry>
     <id>https://github.com/jhaizhou-ops/d2r-mobile</id>
@@ -183,17 +129,17 @@
     <link href="https://github.com/jhaizhou-ops/d2r-mobile"/>
     <updated>2026-10-20T05:13:30.000Z</updated>
     <published>2026-10-12T08:41:19.000Z</published>
-    <summary>Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层 — ★ 4153 (490.7/day)</summary>
+    <summary>Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层 — ★ 4155 (483.6/day)</summary>
     <author><name>jhaizhou-ops</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Arekejoker/qwen21-nsfw-pose-skill</id>
-    <title>Arekejoker/qwen21-nsfw-pose-skill</title>
-    <link href="https://github.com/Arekejoker/qwen21-nsfw-pose-skill"/>
-    <updated>2026-10-20T07:03:30.000Z</updated>
-    <published>2026-10-13T03:09:42.000Z</published>
-    <summary>Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw — ★ 3492 (453.9/day)</summary>
-    <author><name>Arekejoker</name></author>
+    <id>https://github.com/alchaincyf/huashu-motion</id>
+    <title>alchaincyf/huashu-motion</title>
+    <link href="https://github.com/alchaincyf/huashu-motion"/>
+    <updated>2026-10-19T13:36:51.000Z</updated>
+    <published>2026-10-18T12:19:27.000Z</published>
+    <summary>让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it. — ★ 1139 (466.7/day)</summary>
+    <author><name>alchaincyf</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/cadcraft</id>
@@ -201,8 +147,17 @@
     <link href="https://github.com/storytold/cadcraft"/>
     <updated>2026-10-20T15:39:41.000Z</updated>
     <published>2026-10-07T05:22:31.000Z</published>
-    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 6132 (450.8/day)</summary>
+    <summary>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust — ★ 6157 (448.4/day)</summary>
     <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Arekejoker/qwen21-nsfw-pose-skill</id>
+    <title>Arekejoker/qwen21-nsfw-pose-skill</title>
+    <link href="https://github.com/Arekejoker/qwen21-nsfw-pose-skill"/>
+    <updated>2026-10-20T07:03:30.000Z</updated>
+    <published>2026-10-13T03:09:42.000Z</published>
+    <summary>Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw — ★ 3492 (446.4/day)</summary>
+    <author><name>Arekejoker</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/gridcraft</id>
@@ -210,7 +165,7 @@
     <link href="https://github.com/storytold/gridcraft"/>
     <updated>2026-10-20T15:40:00.000Z</updated>
     <published>2026-10-07T05:18:16.000Z</published>
-    <summary>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. — ★ 6017 (442.3/day)</summary>
+    <summary>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. — ★ 6029 (439.0/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -219,17 +174,8 @@
     <link href="https://github.com/humblemuzzu/dumbtv"/>
     <updated>2026-10-19T16:44:23.000Z</updated>
     <published>2026-10-18T17:04:12.000Z</published>
-    <summary>No description. — ★ 929 (439.5/day)</summary>
+    <summary>No description. — ★ 975 (434.7/day)</summary>
     <author><name>humblemuzzu</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/VictorTaelin/uniichat</id>
-    <title>VictorTaelin/uniichat</title>
-    <link href="https://github.com/VictorTaelin/uniichat"/>
-    <updated>2026-10-19T16:45:08.000Z</updated>
-    <published>2026-10-19T15:26:48.000Z</published>
-    <summary>No description. — ★ 515 (435.9/day)</summary>
-    <author><name>VictorTaelin</name></author>
   </entry>
   <entry>
     <id>https://github.com/ARahim3/DigUp</id>
@@ -237,26 +183,26 @@
     <link href="https://github.com/ARahim3/DigUp"/>
     <updated>2026-10-18T05:30:06.000Z</updated>
     <published>2026-10-08T20:37:51.000Z</published>
-    <summary>Search your computer by what&#39;s in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind&#39;s EmbeddingGemma 2. — ★ 5214 (435.8/day)</summary>
+    <summary>Search your computer by what&#39;s in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind&#39;s EmbeddingGemma 2. — ★ 5232 (432.6/day)</summary>
     <author><name>ARahim3</name></author>
   </entry>
   <entry>
     <id>https://github.com/HeyPuter/everything</id>
     <title>HeyPuter/everything</title>
     <link href="https://github.com/HeyPuter/everything"/>
-    <updated>2026-10-20T19:46:07.000Z</updated>
+    <updated>2026-10-20T22:40:13.000Z</updated>
     <published>2026-10-13T16:18:22.000Z</published>
-    <summary>We&#39;re rebuilding and open-sourcing the world’s software from scratch. — ★ 3063 (428.7/day)</summary>
+    <summary>We&#39;re rebuilding and open-sourcing the world’s software from scratch. — ★ 3113 (427.9/day)</summary>
     <author><name>HeyPuter</name></author>
   </entry>
   <entry>
-    <id>https://github.com/val-tools/.github</id>
-    <title>val-tools/.github</title>
-    <link href="https://github.com/val-tools/.github"/>
-    <updated>2026-10-20T03:36:08.000Z</updated>
-    <published>2026-10-20T03:35:52.000Z</published>
-    <summary>🔥 valorant-weapon-skin-changer-swapper-all-skins — ★ 267 (395.5/day)</summary>
-    <author><name>val-tools</name></author>
+    <id>https://github.com/VictorTaelin/uniichat</id>
+    <title>VictorTaelin/uniichat</title>
+    <link href="https://github.com/VictorTaelin/uniichat"/>
+    <updated>2026-10-19T16:45:08.000Z</updated>
+    <published>2026-10-19T15:26:48.000Z</published>
+    <summary>No description. — ★ 521 (397.6/day)</summary>
+    <author><name>VictorTaelin</name></author>
   </entry>
   <entry>
     <id>https://github.com/onehumanbeing/esp32-iphone-agent</id>
@@ -264,7 +210,7 @@
     <link href="https://github.com/onehumanbeing/esp32-iphone-agent"/>
     <updated>2026-10-20T10:28:41.000Z</updated>
     <published>2026-10-11T19:10:25.000Z</published>
-    <summary>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. — ★ 3387 (375.2/day)</summary>
+    <summary>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. — ★ 3393 (370.6/day)</summary>
     <author><name>onehumanbeing</name></author>
   </entry>
   <entry>
@@ -273,7 +219,61 @@
     <link href="https://github.com/Ansub/tv-detox"/>
     <updated>2026-10-20T16:17:57.000Z</updated>
     <published>2026-10-18T06:42:29.000Z</published>
-    <summary>Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up — ★ 892 (350.4/day)</summary>
+    <summary>Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up — ★ 941 (351.9/day)</summary>
     <author><name>Ansub</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Leonxlnx/earshot</id>
+    <title>Leonxlnx/earshot</title>
+    <link href="https://github.com/Leonxlnx/earshot"/>
+    <updated>2026-10-18T07:22:49.000Z</updated>
+    <published>2026-10-15T06:52:46.000Z</published>
+    <summary>Ears for coding agents: let AI hear, review and make sound. CPU-only, open source. — ★ 1935 (341.4/day)</summary>
+    <author><name>Leonxlnx</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ahwootech/BRUTAL</id>
+    <title>ahwootech/BRUTAL</title>
+    <link href="https://github.com/ahwootech/BRUTAL"/>
+    <updated>2026-10-18T19:22:22.000Z</updated>
+    <published>2026-10-14T19:33:56.000Z</published>
+    <summary>A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld&#39;s Waylith engine. — ★ 2056 (334.9/day)</summary>
+    <author><name>ahwootech</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/craft-launcher</id>
+    <title>storytold/craft-launcher</title>
+    <link href="https://github.com/storytold/craft-launcher"/>
+    <updated>2026-10-20T19:00:48.000Z</updated>
+    <published>2026-10-09T23:21:59.000Z</published>
+    <summary>The Craft App Launcher — ★ 3650 (332.4/day)</summary>
+    <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/chenglou/handwired</id>
+    <title>chenglou/handwired</title>
+    <link href="https://github.com/chenglou/handwired"/>
+    <updated>2026-10-17T01:12:12.000Z</updated>
+    <published>2026-10-15T02:15:09.000Z</published>
+    <summary>Turn your regular JavaScript code into a neural net. — ★ 1852 (316.0/day)</summary>
+    <author><name>chenglou</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/aicodeking/leanrea</id>
+    <title>aicodeking/leanrea</title>
+    <link href="https://github.com/aicodeking/leanrea"/>
+    <updated>2026-10-19T11:34:21.000Z</updated>
+    <published>2026-10-17T02:53:24.000Z</published>
+    <summary>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper. — ★ 1170 (305.2/day)</summary>
+    <author><name>aicodeking</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/storytold/deckcraft</id>
+    <title>storytold/deckcraft</title>
+    <link href="https://github.com/storytold/deckcraft"/>
+    <updated>2026-10-20T15:40:11.000Z</updated>
+    <published>2026-10-07T05:27:21.000Z</published>
+    <summary>Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps. — ★ 3985 (290.3/day)</summary>
+    <author><name>storytold</name></author>
   </entry>
 </feed>
