@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-24T22:11:32.718Z</updated>
+  <updated>2026-10-25T00:27:20.073Z</updated>
   <entry>
     <id>https://github.com/Gathin23/cleanyourtv</id>
     <title>Gathin23/cleanyourtv</title>
     <link href="https://github.com/Gathin23/cleanyourtv"/>
     <updated>2026-10-24T18:09:17.000Z</updated>
     <published>2026-10-17T08:12:35.000Z</published>
-    <summary>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. — ★ 31544 (4160.0/day)</summary>
+    <summary>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. — ★ 31752 (4136.0/day)</summary>
     <author><name>Gathin23</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/deepseek-ai/DeepInfer"/>
     <updated>2026-10-21T04:55:44.000Z</updated>
     <published>2026-10-16T07:47:23.000Z</published>
-    <summary>DeepInfer: High-performance, large-scale inference framework for DeepSeek models — ★ 21811 (2536.1/day)</summary>
+    <summary>DeepInfer: High-performance, large-scale inference framework for DeepSeek models — ★ 21847 (2512.8/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
@@ -30,7 +30,7 @@
     <link href="https://github.com/pengchujin/aerial-tv"/>
     <updated>2026-10-24T16:37:02.000Z</updated>
     <published>2026-10-20T09:13:06.000Z</published>
-    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. — ★ 4352 (958.5/day)</summary>
+    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. — ★ 4364 (941.6/day)</summary>
     <author><name>pengchujin</name></author>
   </entry>
   <entry>
@@ -39,7 +39,7 @@
     <link href="https://github.com/simbasjungles/free-my-tv"/>
     <updated>2026-10-24T20:35:07.000Z</updated>
     <published>2026-10-19T19:29:01.000Z</published>
-    <summary>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo. — ★ 4255 (832.2/day)</summary>
+    <summary>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo. — ★ 4293 (824.4/day)</summary>
     <author><name>simbasjungles</name></author>
   </entry>
   <entry>
@@ -48,8 +48,17 @@
     <link href="https://github.com/ly05010419/MacNativeGames"/>
     <updated>2026-10-23T23:51:29.000Z</updated>
     <published>2026-10-17T19:52:00.000Z</published>
-    <summary>No description. — ★ 5193 (731.7/day)</summary>
+    <summary>No description. — ★ 5207 (724.1/day)</summary>
     <author><name>ly05010419</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/JustAResearcher/gpu-unlock-ada</id>
+    <title>JustAResearcher/gpu-unlock-ada</title>
+    <link href="https://github.com/JustAResearcher/gpu-unlock-ada"/>
+    <updated>2026-10-24T22:55:49.000Z</updated>
+    <published>2026-10-23T21:00:53.000Z</published>
+    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 749 (655.1/day)</summary>
+    <author><name>JustAResearcher</name></author>
   </entry>
   <entry>
     <id>https://github.com/mirkobrombin/raven</id>
@@ -57,17 +66,17 @@
     <link href="https://github.com/mirkobrombin/raven"/>
     <updated>2026-10-24T17:17:19.000Z</updated>
     <published>2026-10-24T17:13:42.000Z</published>
-    <summary>A Windows your apps recognize. — ★ 152 (608.0/day)</summary>
+    <summary>A Windows your apps recognize. — ★ 196 (650.9/day)</summary>
     <author><name>mirkobrombin</name></author>
   </entry>
   <entry>
-    <id>https://github.com/JustAResearcher/gpu-unlock-ada</id>
-    <title>JustAResearcher/gpu-unlock-ada</title>
-    <link href="https://github.com/JustAResearcher/gpu-unlock-ada"/>
-    <updated>2026-10-24T00:28:02.000Z</updated>
-    <published>2026-10-23T21:00:53.000Z</published>
-    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 632 (602.4/day)</summary>
-    <author><name>JustAResearcher</name></author>
+    <id>https://github.com/Release-DLSS-5-Swapper/.github</id>
+    <title>Release-DLSS-5-Swapper/.github</title>
+    <link href="https://github.com/Release-DLSS-5-Swapper/.github"/>
+    <updated>2026-10-24T19:36:30.000Z</updated>
+    <published>2026-10-24T19:26:52.000Z</published>
+    <summary>DLSS 5 Swapper is a graphics configuration utility intended to help PC gamers manage supported rendering components for compatible titles. — ★ 144 (576.0/day)</summary>
+    <author><name>Release-DLSS-5-Swapper</name></author>
   </entry>
   <entry>
     <id>https://github.com/xevrion/hatchzip</id>
@@ -75,7 +84,7 @@
     <link href="https://github.com/xevrion/hatchzip"/>
     <updated>2026-10-24T17:04:55.000Z</updated>
     <published>2026-10-21T17:29:28.000Z</published>
-    <summary>Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, tar, split archives. — ★ 1670 (522.5/day)</summary>
+    <summary>Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, tar, split archives. — ★ 1697 (515.8/day)</summary>
     <author><name>xevrion</name></author>
   </entry>
   <entry>
@@ -84,17 +93,17 @@
     <link href="https://github.com/wesbos/3d-model-anything"/>
     <updated>2026-10-22T13:10:22.000Z</updated>
     <published>2026-10-21T19:38:50.000Z</published>
-    <summary>Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser. — ★ 1611 (518.7/day)</summary>
+    <summary>Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser. — ★ 1646 (514.3/day)</summary>
     <author><name>wesbos</name></author>
   </entry>
   <entry>
-    <id>https://github.com/routerhubSI/uncensored-ai-api</id>
-    <title>routerhubSI/uncensored-ai-api</title>
-    <link href="https://github.com/routerhubSI/uncensored-ai-api"/>
-    <updated>2026-10-24T17:09:17.000Z</updated>
-    <published>2026-10-24T16:55:17.000Z</published>
-    <summary>Uncensored AI API and models — one key for Claude, GPT, Gemini, Grok, DeepSeek, GLM and Qwen, with uncensored and abliterated variants where available. OpenAI- and Anthropic-compatible. Pay per token. — ★ 124 (496.0/day)</summary>
-    <author><name>routerhubSI</name></author>
+    <id>https://github.com/YoyoLin008/mcreplay</id>
+    <title>YoyoLin008/mcreplay</title>
+    <link href="https://github.com/YoyoLin008/mcreplay"/>
+    <updated>2026-10-24T18:56:03.000Z</updated>
+    <published>2026-10-24T17:14:18.000Z</published>
+    <summary>McReplay（麦回放）— Structural snapshots, change reports, and local MCP replay for McDonald&#39;s China integrations. — ★ 150 (498.8/day)</summary>
+    <author><name>YoyoLin008</name></author>
   </entry>
   <entry>
     <id>https://github.com/xiaoyang111222/cn-math-taxonomy</id>
@@ -102,7 +111,7 @@
     <link href="https://github.com/xiaoyang111222/cn-math-taxonomy"/>
     <updated>2026-10-24T12:32:48.000Z</updated>
     <published>2026-10-18T09:04:43.000Z</published>
-    <summary>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 — ★ 3198 (488.5/day)</summary>
+    <summary>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 — ★ 3229 (486.2/day)</summary>
     <author><name>xiaoyang111222</name></author>
   </entry>
   <entry>
@@ -111,7 +120,7 @@
     <link href="https://github.com/ikow/php2shell-poc"/>
     <updated>2026-10-22T22:41:36.000Z</updated>
     <published>2026-10-21T07:55:16.000Z</published>
-    <summary>CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research. — ★ 1752 (487.4/day)</summary>
+    <summary>CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research. — ★ 1754 (475.5/day)</summary>
     <author><name>ikow</name></author>
   </entry>
   <entry>
@@ -120,26 +129,26 @@
     <link href="https://github.com/oosexgang/hackios-xnu-kernel"/>
     <updated>2026-10-24T18:09:50.000Z</updated>
     <published>2026-10-22T06:20:11.000Z</published>
-    <summary>No description. — ★ 1275 (479.2/day)</summary>
+    <summary>No description. — ★ 1283 (465.7/day)</summary>
     <author><name>oosexgang</name></author>
   </entry>
   <entry>
-    <id>https://github.com/YoyoLin008/mcreplay</id>
-    <title>YoyoLin008/mcreplay</title>
-    <link href="https://github.com/YoyoLin008/mcreplay"/>
-    <updated>2026-10-24T18:56:03.000Z</updated>
-    <published>2026-10-24T17:14:18.000Z</published>
-    <summary>McReplay（麦回放）— Structural snapshots, change reports, and local MCP replay for McDonald&#39;s China integrations. — ★ 115 (460.0/day)</summary>
-    <author><name>YoyoLin008</name></author>
+    <id>https://github.com/routerhubSI/uncensored-ai-api</id>
+    <title>routerhubSI/uncensored-ai-api</title>
+    <link href="https://github.com/routerhubSI/uncensored-ai-api"/>
+    <updated>2026-10-24T17:09:17.000Z</updated>
+    <published>2026-10-24T16:55:17.000Z</published>
+    <summary>Uncensored AI API and models — one key for Claude, GPT, Gemini, Grok, DeepSeek, GLM and Qwen, with uncensored and abliterated variants where available. OpenAI- and Anthropic-compatible. Pay per token. — ★ 140 (446.0/day)</summary>
+    <author><name>routerhubSI</name></author>
   </entry>
   <entry>
-    <id>https://github.com/songjianyang/xss-audit</id>
-    <title>songjianyang/xss-audit</title>
-    <link href="https://github.com/songjianyang/xss-audit"/>
-    <updated>2026-10-24T11:32:55.000Z</updated>
-    <published>2026-10-24T11:32:36.000Z</published>
-    <summary>Static XSS audit skill with 14 layers of checks for React, TypeScript, and JavaScript projects. — ★ 192 (432.7/day)</summary>
-    <author><name>songjianyang</name></author>
+    <id>https://github.com/Zagitta/gpu-unlock</id>
+    <title>Zagitta/gpu-unlock</title>
+    <link href="https://github.com/Zagitta/gpu-unlock"/>
+    <updated>2026-10-24T15:47:28.000Z</updated>
+    <published>2026-10-18T01:28:31.000Z</published>
+    <summary>Unlock FP/BF16 instruction issue rate on Nvidia 3000&#39;s cards to their professional equivalents — ★ 2935 (421.8/day)</summary>
+    <author><name>Zagitta</name></author>
   </entry>
   <entry>
     <id>https://github.com/JoasASantos/REA-Prompts</id>
@@ -147,7 +156,7 @@
     <link href="https://github.com/JoasASantos/REA-Prompts"/>
     <updated>2026-10-21T00:32:22.000Z</updated>
     <published>2026-10-19T22:20:47.000Z</published>
-    <summary>REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program — ★ 2050 (410.5/day)</summary>
+    <summary>REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program — ★ 2083 (409.4/day)</summary>
     <author><name>JoasASantos</name></author>
   </entry>
   <entry>
@@ -156,17 +165,17 @@
     <link href="https://github.com/9bie/php2shell-bypass-aslr-exp"/>
     <updated>2026-10-23T20:40:43.000Z</updated>
     <published>2026-10-21T11:11:57.000Z</published>
-    <summary>A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory. — ★ 1400 (404.9/day)</summary>
+    <summary>A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory. — ★ 1400 (394.1/day)</summary>
     <author><name>9bie</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Zagitta/gpu-unlock</id>
-    <title>Zagitta/gpu-unlock</title>
-    <link href="https://github.com/Zagitta/gpu-unlock"/>
-    <updated>2026-10-24T15:47:28.000Z</updated>
-    <published>2026-10-18T01:28:31.000Z</published>
-    <summary>Unlock FP/BF16 instruction issue rate on Nvidia 3000&#39;s cards to their professional equivalents — ★ 2705 (394.1/day)</summary>
-    <author><name>Zagitta</name></author>
+    <id>https://github.com/songjianyang/xss-audit</id>
+    <title>songjianyang/xss-audit</title>
+    <link href="https://github.com/songjianyang/xss-audit"/>
+    <updated>2026-10-24T11:32:55.000Z</updated>
+    <published>2026-10-24T11:32:36.000Z</published>
+    <summary>Static XSS audit skill with 14 layers of checks for React, TypeScript, and JavaScript projects. — ★ 199 (369.9/day)</summary>
+    <author><name>songjianyang</name></author>
   </entry>
   <entry>
     <id>https://github.com/jhaizhou-ops/d2r-mobile</id>
@@ -174,17 +183,8 @@
     <link href="https://github.com/jhaizhou-ops/d2r-mobile"/>
     <updated>2026-10-23T19:16:10.000Z</updated>
     <published>2026-10-12T08:41:19.000Z</published>
-    <summary>Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层 — ★ 4544 (361.7/day)</summary>
+    <summary>Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层 — ★ 4546 (359.2/day)</summary>
     <author><name>jhaizhou-ops</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/openai/php2shell-checker</id>
-    <title>openai/php2shell-checker</title>
-    <link href="https://github.com/openai/php2shell-checker"/>
-    <updated>2026-10-22T22:55:16.000Z</updated>
-    <published>2026-10-21T00:29:12.000Z</published>
-    <summary>No description. — ★ 1380 (353.4/day)</summary>
-    <author><name>openai</name></author>
   </entry>
   <entry>
     <id>https://github.com/EthanArbuckle/fairplay-decrypt</id>
@@ -192,17 +192,17 @@
     <link href="https://github.com/EthanArbuckle/fairplay-decrypt"/>
     <updated>2026-10-24T21:59:52.000Z</updated>
     <published>2026-10-19T10:07:58.000Z</published>
-    <summary>Offline FairPlay App Store IPA decryption with independent key derivation — ★ 1940 (352.6/day)</summary>
+    <summary>Offline FairPlay App Store IPA decryption with independent key derivation — ★ 1957 (349.7/day)</summary>
     <author><name>EthanArbuckle</name></author>
   </entry>
   <entry>
-    <id>https://github.com/routerhubSI/glm-5.3-abliterated</id>
-    <title>routerhubSI/glm-5.3-abliterated</title>
-    <link href="https://github.com/routerhubSI/glm-5.3-abliterated"/>
-    <updated>2026-10-24T16:10:37.000Z</updated>
-    <published>2026-10-24T13:51:36.000Z</published>
-    <summary>GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbreak prompt links, compare GLM models, and find SDK examples, coding-tool setup, pricing, and evaluation guides. — ★ 119 (342.8/day)</summary>
-    <author><name>routerhubSI</name></author>
+    <id>https://github.com/openai/php2shell-checker</id>
+    <title>openai/php2shell-checker</title>
+    <link href="https://github.com/openai/php2shell-checker"/>
+    <updated>2026-10-22T22:55:16.000Z</updated>
+    <published>2026-10-21T00:29:12.000Z</published>
+    <summary>No description. — ★ 1381 (345.4/day)</summary>
+    <author><name>openai</name></author>
   </entry>
   <entry>
     <id>https://github.com/HeyPuter/everything</id>
@@ -210,7 +210,7 @@
     <link href="https://github.com/HeyPuter/everything"/>
     <updated>2026-10-24T01:17:59.000Z</updated>
     <published>2026-10-13T16:18:22.000Z</published>
-    <summary>We&#39;re rebuilding and open-sourcing the world’s software from scratch. — ★ 3821 (339.8/day)</summary>
+    <summary>We&#39;re rebuilding and open-sourcing the world’s software from scratch. — ★ 3827 (337.5/day)</summary>
     <author><name>HeyPuter</name></author>
   </entry>
   <entry>
@@ -219,8 +219,17 @@
     <link href="https://github.com/Arekejoker/qwen21-nsfw-pose-skill"/>
     <updated>2026-10-20T07:03:30.000Z</updated>
     <published>2026-10-13T03:09:42.000Z</published>
-    <summary>Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw — ★ 3702 (313.9/day)</summary>
+    <summary>Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw — ★ 3704 (311.6/day)</summary>
     <author><name>Arekejoker</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/routerhubSI/glm-5.3-abliterated</id>
+    <title>routerhubSI/glm-5.3-abliterated</title>
+    <link href="https://github.com/routerhubSI/glm-5.3-abliterated"/>
+    <updated>2026-10-24T16:10:37.000Z</updated>
+    <published>2026-10-24T13:51:36.000Z</published>
+    <summary>GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbreak prompt links, compare GLM models, and find SDK examples, coding-tool setup, pricing, and evaluation guides. — ★ 136 (308.1/day)</summary>
+    <author><name>routerhubSI</name></author>
   </entry>
   <entry>
     <id>https://github.com/colinhacks/reylo</id>
@@ -228,44 +237,26 @@
     <link href="https://github.com/colinhacks/reylo"/>
     <updated>2026-10-24T04:54:52.000Z</updated>
     <published>2026-10-21T00:16:54.000Z</published>
-    <summary>Import .sql files into TypeScript with full type inference and zero codegen. — ★ 1204 (307.7/day)</summary>
+    <summary>Import .sql files into TypeScript with full type inference and zero codegen. — ★ 1211 (302.2/day)</summary>
     <author><name>colinhacks</name></author>
   </entry>
   <entry>
     <id>https://github.com/Snapintosh/Snapintosh</id>
     <title>Snapintosh/Snapintosh</title>
     <link href="https://github.com/Snapintosh/Snapintosh"/>
-    <updated>2026-10-23T08:23:24.000Z</updated>
+    <updated>2026-10-24T22:28:36.000Z</updated>
     <published>2026-10-22T01:40:05.000Z</published>
-    <summary>EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack — ★ 875 (306.5/day)</summary>
+    <summary>EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack — ★ 876 (297.0/day)</summary>
     <author><name>Snapintosh</name></author>
   </entry>
   <entry>
-    <id>https://github.com/onehumanbeing/esp32-iphone-agent</id>
-    <title>onehumanbeing/esp32-iphone-agent</title>
-    <link href="https://github.com/onehumanbeing/esp32-iphone-agent"/>
-    <updated>2026-10-22T05:26:44.000Z</updated>
-    <published>2026-10-11T19:10:25.000Z</published>
-    <summary>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. — ★ 3787 (288.5/day)</summary>
-    <author><name>onehumanbeing</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/xMazaki/unbloat-android-tv</id>
-    <title>xMazaki/unbloat-android-tv</title>
-    <link href="https://github.com/xMazaki/unbloat-android-tv"/>
-    <updated>2026-10-24T21:16:14.000Z</updated>
-    <published>2026-10-24T07:16:39.000Z</published>
-    <summary>Slim down any Android TV (ads, telemetry) + minimalist Apple TV-style home screen. Reversible, one double-click. 🇫🇷 Allégez n&#39;importe quelle TV Android (pubs, télémétrie) + écran d&#39;accueil minimaliste façon Apple TV. Réversible, en un double-clic. — ★ 174 (280.0/day)</summary>
-    <author><name>xMazaki</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC</id>
-    <title>eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC</title>
-    <link href="https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC"/>
-    <updated>2026-10-22T07:19:20.000Z</updated>
-    <published>2026-10-21T08:31:43.000Z</published>
-    <summary>Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only. — ★ 983 (275.4/day)</summary>
-    <author><name>eness</name></author>
+    <id>https://github.com/aicodeking/leanrea</id>
+    <title>aicodeking/leanrea</title>
+    <link href="https://github.com/aicodeking/leanrea"/>
+    <updated>2026-10-19T11:34:21.000Z</updated>
+    <published>2026-10-17T02:53:24.000Z</published>
+    <summary>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper. — ★ 2145 (271.6/day)</summary>
+    <author><name>aicodeking</name></author>
   </entry>
   <entry>
     <id>https://github.com/Leonxlnx/earshot</id>
@@ -273,7 +264,16 @@
     <link href="https://github.com/Leonxlnx/earshot"/>
     <updated>2026-10-22T23:12:59.000Z</updated>
     <published>2026-10-15T06:52:46.000Z</published>
-    <summary>Ears for coding agents: let AI hear, review and make sound. CPU-only, open source. — ★ 2618 (271.6/day)</summary>
+    <summary>Ears for coding agents: let AI hear, review and make sound. CPU-only, open source. — ★ 2630 (270.2/day)</summary>
     <author><name>Leonxlnx</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC</id>
+    <title>eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC</title>
+    <link href="https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC"/>
+    <updated>2026-10-22T07:19:20.000Z</updated>
+    <published>2026-10-21T08:31:43.000Z</published>
+    <summary>Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only. — ★ 983 (268.3/day)</summary>
+    <author><name>eness</name></author>
   </entry>
 </feed>
