@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-29T19:07:41.193Z</updated>
+  <updated>2026-10-29T23:28:48.533Z</updated>
   <entry>
     <id>https://github.com/Gathin23/cleanyourtv</id>
     <title>Gathin23/cleanyourtv</title>
     <link href="https://github.com/Gathin23/cleanyourtv"/>
     <updated>2026-10-29T15:41:30.000Z</updated>
     <published>2026-10-17T08:12:35.000Z</published>
-    <summary>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. — ★ 45183 (3627.7/day)</summary>
+    <summary>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. — ★ 45444 (3596.3/day)</summary>
     <author><name>Gathin23</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/deepseek-ai/DeepInfer"/>
     <updated>2026-10-26T05:30:52.000Z</updated>
     <published>2026-10-16T07:47:23.000Z</published>
-    <summary>DeepInfer: High-performance, large-scale inference framework for DeepSeek models — ★ 24213 (1797.2/day)</summary>
+    <summary>DeepInfer: High-performance, large-scale inference framework for DeepSeek models — ★ 24236 (1775.0/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
@@ -30,7 +30,7 @@
     <link href="https://github.com/anhao/ai-pose-gallery-zh"/>
     <updated>2026-10-27T14:32:23.000Z</updated>
     <published>2026-10-27T12:24:37.000Z</published>
-    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 3049 (1337.3/day)</summary>
+    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 3108 (1262.8/day)</summary>
     <author><name>anhao</name></author>
   </entry>
   <entry>
@@ -39,7 +39,7 @@
     <link href="https://github.com/Zagitta/gpu-unlock"/>
     <updated>2026-10-29T02:30:54.000Z</updated>
     <published>2026-10-18T01:28:31.000Z</published>
-    <summary>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput — ★ 12957 (1104.1/day)</summary>
+    <summary>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput — ★ 13055 (1095.5/day)</summary>
     <author><name>Zagitta</name></author>
   </entry>
   <entry>
@@ -48,7 +48,7 @@
     <link href="https://github.com/unclebob/ub-mode"/>
     <updated>2026-10-25T16:07:59.000Z</updated>
     <published>2026-10-25T16:04:09.000Z</published>
-    <summary>No description. — ★ 4532 (1098.0/day)</summary>
+    <summary>No description. — ★ 4667 (1083.1/day)</summary>
     <author><name>unclebob</name></author>
   </entry>
   <entry>
@@ -57,16 +57,16 @@
     <link href="https://github.com/valentderah/totk-pc-recomp"/>
     <updated>2026-10-29T15:05:56.000Z</updated>
     <published>2026-10-29T12:32:46.000Z</published>
-    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included. — ★ 289 (1053.8/day)</summary>
+    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included. — ★ 465 (1020.7/day)</summary>
     <author><name>valentderah</name></author>
   </entry>
   <entry>
     <id>https://github.com/rddmwmddr/android-ad-cleaner</id>
     <title>rddmwmddr/android-ad-cleaner</title>
     <link href="https://github.com/rddmwmddr/android-ad-cleaner"/>
-    <updated>2026-10-29T19:05:13.000Z</updated>
+    <updated>2026-10-29T19:24:53.000Z</updated>
     <published>2026-10-24T05:35:47.000Z</published>
-    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 4700 (844.7/day)</summary>
+    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 4715 (820.7/day)</summary>
     <author><name>rddmwmddr</name></author>
   </entry>
   <entry>
@@ -75,7 +75,7 @@
     <link href="https://github.com/interplains/Zero-Breach-Toolkit"/>
     <updated>2026-10-29T18:02:15.000Z</updated>
     <published>2026-10-25T14:41:34.000Z</published>
-    <summary>Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups. — ★ 3452 (824.9/day)</summary>
+    <summary>Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups. — ★ 3574 (818.6/day)</summary>
     <author><name>interplains</name></author>
   </entry>
   <entry>
@@ -84,7 +84,7 @@
     <link href="https://github.com/pengchujin/aerial-tv"/>
     <updated>2026-10-29T15:27:35.000Z</updated>
     <published>2026-10-20T09:13:06.000Z</published>
-    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. — ★ 7720 (820.2/day)</summary>
+    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. — ★ 7729 (805.6/day)</summary>
     <author><name>pengchujin</name></author>
   </entry>
   <entry>
@@ -93,7 +93,7 @@
     <link href="https://github.com/JustAResearcher/gpu-unlock-ada"/>
     <updated>2026-10-26T04:24:46.000Z</updated>
     <published>2026-10-23T21:00:53.000Z</published>
-    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 4494 (758.9/day)</summary>
+    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 4512 (739.3/day)</summary>
     <author><name>JustAResearcher</name></author>
   </entry>
   <entry>
@@ -102,7 +102,7 @@
     <link href="https://github.com/designfuchen/word-atlas"/>
     <updated>2026-10-27T10:55:44.000Z</updated>
     <published>2026-10-25T08:27:22.000Z</published>
-    <summary>词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset. — ★ 3218 (724.0/day)</summary>
+    <summary>词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset. — ★ 3223 (696.7/day)</summary>
     <author><name>designfuchen</name></author>
   </entry>
   <entry>
@@ -115,22 +115,13 @@
     <author><name>routerhubSI</name></author>
   </entry>
   <entry>
-    <id>https://github.com/smithjohn78390/tongjiang-lab</id>
-    <title>smithjohn78390/tongjiang-lab</title>
-    <link href="https://github.com/smithjohn78390/tongjiang-lab"/>
-    <updated>2026-10-28T11:35:35.000Z</updated>
-    <published>2026-10-28T04:29:29.000Z</published>
-    <summary>Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app — ★ 897 (557.2/day)</summary>
-    <author><name>smithjohn78390</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/BryceYuuu/RUN</id>
-    <title>BryceYuuu/RUN</title>
-    <link href="https://github.com/BryceYuuu/RUN"/>
-    <updated>2026-10-29T11:40:12.000Z</updated>
-    <published>2026-10-29T11:28:43.000Z</published>
-    <summary>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区） — ★ 172 (539.6/day)</summary>
-    <author><name>BryceYuuu</name></author>
+    <id>https://github.com/UniteCuttlefishBolt/Canva-Pro</id>
+    <title>UniteCuttlefishBolt/Canva-Pro</title>
+    <link href="https://github.com/UniteCuttlefishBolt/Canva-Pro"/>
+    <updated>2026-10-29T10:25:16.000Z</updated>
+    <published>2026-10-29T10:25:09.000Z</published>
+    <summary>Canva Pro 2026: Complete standalone setup with all features unlocked and ready to run. — ★ 296 (543.9/day)</summary>
+    <author><name>UniteCuttlefishBolt</name></author>
   </entry>
   <entry>
     <id>https://github.com/simbasjungles/free-my-tv</id>
@@ -138,7 +129,7 @@
     <link href="https://github.com/simbasjungles/free-my-tv"/>
     <updated>2026-10-29T15:40:05.000Z</updated>
     <published>2026-10-19T19:29:01.000Z</published>
-    <summary>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo. — ★ 5364 (537.2/day)</summary>
+    <summary>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo. — ★ 5388 (530.0/day)</summary>
     <author><name>simbasjungles</name></author>
   </entry>
   <entry>
@@ -147,8 +138,26 @@
     <link href="https://github.com/ly05010419/MacNativeGames"/>
     <updated>2026-10-29T18:32:54.000Z</updated>
     <published>2026-10-17T19:52:00.000Z</published>
-    <summary>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game&#39;s ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game. — ★ 6424 (536.7/day)</summary>
+    <summary>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game&#39;s ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game. — ★ 6435 (529.6/day)</summary>
     <author><name>ly05010419</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/smithjohn78390/tongjiang-lab</id>
+    <title>smithjohn78390/tongjiang-lab</title>
+    <link href="https://github.com/smithjohn78390/tongjiang-lab"/>
+    <updated>2026-10-28T11:35:35.000Z</updated>
+    <published>2026-10-28T04:29:29.000Z</published>
+    <summary>Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app — ★ 923 (515.3/day)</summary>
+    <author><name>smithjohn78390</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/BryceYuuu/RUN</id>
+    <title>BryceYuuu/RUN</title>
+    <link href="https://github.com/BryceYuuu/RUN"/>
+    <updated>2026-10-29T11:40:12.000Z</updated>
+    <published>2026-10-29T11:28:43.000Z</published>
+    <summary>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区） — ★ 232 (463.9/day)</summary>
+    <author><name>BryceYuuu</name></author>
   </entry>
   <entry>
     <id>https://github.com/xiaoyang111222/cn-math-taxonomy</id>
@@ -156,26 +165,8 @@
     <link href="https://github.com/xiaoyang111222/cn-math-taxonomy"/>
     <updated>2026-10-29T11:53:00.000Z</updated>
     <published>2026-10-18T09:04:43.000Z</published>
-    <summary>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 — ★ 5177 (453.4/day)</summary>
+    <summary>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 — ★ 5182 (446.7/day)</summary>
     <author><name>xiaoyang111222</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/t3dotgg/tstack</id>
-    <title>t3dotgg/tstack</title>
-    <link href="https://github.com/t3dotgg/tstack"/>
-    <updated>2026-10-28T02:38:03.000Z</updated>
-    <published>2026-10-24T05:00:20.000Z</published>
-    <summary>The agent skills I use every day. Works with Claude Code and Codex. — ★ 2368 (423.7/day)</summary>
-    <author><name>t3dotgg</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/andyhuo520/digital-human-koubo</id>
-    <title>andyhuo520/digital-human-koubo</title>
-    <link href="https://github.com/andyhuo520/digital-human-koubo"/>
-    <updated>2026-10-26T11:52:14.000Z</updated>
-    <published>2026-10-26T04:34:09.000Z</published>
-    <summary>AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … — ★ 1454 (403.1/day)</summary>
-    <author><name>andyhuo520</name></author>
   </entry>
   <entry>
     <id>https://github.com/aschmelyun/print-my-profile-pic</id>
@@ -183,97 +174,106 @@
     <link href="https://github.com/aschmelyun/print-my-profile-pic"/>
     <updated>2026-10-29T03:34:22.000Z</updated>
     <published>2026-10-27T20:40:05.000Z</published>
-    <summary>Say cheese! Star this repo and your profile picture gets printed out on a receipt printer. — ★ 695 (359.0/day)</summary>
+    <summary>Say cheese! Star this repo and your profile picture gets printed out on a receipt printer. — ★ 886 (418.5/day)</summary>
     <author><name>aschmelyun</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Jakeschincariol/day-trader-skill</id>
-    <title>Jakeschincariol/day-trader-skill</title>
-    <link href="https://github.com/Jakeschincariol/day-trader-skill"/>
-    <updated>2026-10-20T14:18:00.000Z</updated>
-    <published>2026-10-20T14:17:54.000Z</published>
-    <summary>11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar. — ★ 3124 (339.5/day)</summary>
-    <author><name>Jakeschincariol</name></author>
+    <id>https://github.com/t3dotgg/tstack</id>
+    <title>t3dotgg/tstack</title>
+    <link href="https://github.com/t3dotgg/tstack"/>
+    <updated>2026-10-28T02:38:03.000Z</updated>
+    <published>2026-10-24T05:00:20.000Z</published>
+    <summary>The agent skills I use every day. Works with Claude Code and Codex. — ★ 2388 (413.9/day)</summary>
+    <author><name>t3dotgg</name></author>
   </entry>
   <entry>
-    <id>https://github.com/JoasASantos/REA-Prompts</id>
-    <title>JoasASantos/REA-Prompts</title>
-    <link href="https://github.com/JoasASantos/REA-Prompts"/>
-    <updated>2026-10-26T03:00:18.000Z</updated>
-    <published>2026-10-19T22:20:47.000Z</published>
-    <summary>REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program — ★ 3182 (322.5/day)</summary>
-    <author><name>JoasASantos</name></author>
+    <id>https://github.com/SpecialistRetrieve/Wondshare-Recoverit</id>
+    <title>SpecialistRetrieve/Wondshare-Recoverit</title>
+    <link href="https://github.com/SpecialistRetrieve/Wondshare-Recoverit"/>
+    <updated>2026-10-29T10:25:20.000Z</updated>
+    <published>2026-10-29T10:25:12.000Z</published>
+    <summary>Pre-activated desktop edition of Wondshare Recoverit 2026. Complete standalone setup ready to run. — ★ 223 (409.8/day)</summary>
+    <author><name>SpecialistRetrieve</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Motionsites-AI/claude-skill</id>
-    <title>Motionsites-AI/claude-skill</title>
-    <link href="https://github.com/Motionsites-AI/claude-skill"/>
-    <updated>2026-10-26T07:04:24.000Z</updated>
-    <published>2026-10-26T06:58:45.000Z</published>
-    <summary>Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites. — ★ 1067 (304.3/day)</summary>
-    <author><name>Motionsites-AI</name></author>
+    <id>https://github.com/Talonrerectify52/Cinema-4d</id>
+    <title>Talonrerectify52/Cinema-4d</title>
+    <link href="https://github.com/Talonrerectify52/Cinema-4d"/>
+    <updated>2026-10-29T10:14:11.000Z</updated>
+    <published>2026-10-29T10:14:03.000Z</published>
+    <summary>Professional Cinema 4D utility configuration, complete standalone setup for a seamless desktop experience. — ★ 222 (402.2/day)</summary>
+    <author><name>Talonrerectify52</name></author>
   </entry>
   <entry>
-    <id>https://github.com/amosblomqvist/learnharness</id>
-    <title>amosblomqvist/learnharness</title>
-    <link href="https://github.com/amosblomqvist/learnharness"/>
-    <updated>2026-10-29T04:35:56.000Z</updated>
-    <published>2026-10-16T19:35:33.000Z</published>
-    <summary>Agent harness for learning difficult things. — ★ 3919 (301.9/day)</summary>
-    <author><name>amosblomqvist</name></author>
+    <id>https://github.com/CaveVerseNight/Adobe-InDesign</id>
+    <title>CaveVerseNight/Adobe-InDesign</title>
+    <link href="https://github.com/CaveVerseNight/Adobe-InDesign"/>
+    <updated>2026-10-29T07:14:33.000Z</updated>
+    <published>2026-10-29T07:14:24.000Z</published>
+    <summary>Publishing Layout Tool 2026: Complete standalone setup with all essential features pre-activated, ensuring secure digital asset deployment. — ★ 264 (390.1/day)</summary>
+    <author><name>CaveVerseNight</name></author>
   </entry>
   <entry>
-    <id>https://github.com/wesbos/3d-model-anything</id>
-    <title>wesbos/3d-model-anything</title>
-    <link href="https://github.com/wesbos/3d-model-anything"/>
-    <updated>2026-10-27T15:08:22.000Z</updated>
-    <published>2026-10-21T19:38:50.000Z</published>
-    <summary>Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser. — ★ 2357 (295.4/day)</summary>
-    <author><name>wesbos</name></author>
+    <id>https://github.com/andyhuo520/digital-human-koubo</id>
+    <title>andyhuo520/digital-human-koubo</title>
+    <link href="https://github.com/andyhuo520/digital-human-koubo"/>
+    <updated>2026-10-26T11:52:14.000Z</updated>
+    <published>2026-10-26T04:34:09.000Z</published>
+    <summary>AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … — ★ 1462 (386.0/day)</summary>
+    <author><name>andyhuo520</name></author>
   </entry>
   <entry>
-    <id>https://github.com/xevrion/hatchzip</id>
-    <title>xevrion/hatchzip</title>
-    <link href="https://github.com/xevrion/hatchzip"/>
-    <updated>2026-10-29T13:57:49.000Z</updated>
-    <published>2026-10-21T17:29:28.000Z</published>
-    <summary>HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI. — ★ 2307 (285.9/day)</summary>
-    <author><name>xevrion</name></author>
+    <id>https://github.com/CaretakerPlain/Whale-Tracker</id>
+    <title>CaretakerPlain/Whale-Tracker</title>
+    <link href="https://github.com/CaretakerPlain/Whale-Tracker"/>
+    <updated>2026-10-29T10:25:19.000Z</updated>
+    <published>2026-10-29T10:25:11.000Z</published>
+    <summary>Whale Tracker 2026: Pre-activated desktop edition with all features ready to run. — ★ 197 (362.0/day)</summary>
+    <author><name>CaretakerPlain</name></author>
   </entry>
   <entry>
-    <id>https://github.com/DenisSergeevitch/ex-ussr-kinship-research</id>
-    <title>DenisSergeevitch/ex-ussr-kinship-research</title>
-    <link href="https://github.com/DenisSergeevitch/ex-ussr-kinship-research"/>
-    <updated>2026-10-29T12:08:59.000Z</updated>
-    <published>2026-10-25T10:05:56.000Z</published>
-    <summary>Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language. — ★ 1247 (284.9/day)</summary>
-    <author><name>DenisSergeevitch</name></author>
+    <id>https://github.com/Sourcecladrag/Windows-Optimizer</id>
+    <title>Sourcecladrag/Windows-Optimizer</title>
+    <link href="https://github.com/Sourcecladrag/Windows-Optimizer"/>
+    <updated>2026-10-29T10:25:19.000Z</updated>
+    <published>2026-10-29T10:25:11.000Z</published>
+    <summary>Windows Optimizer 2026 - Full working installer with advanced system tweaks and enhancements ready to run. — ★ 197 (362.0/day)</summary>
+    <author><name>Sourcecladrag</name></author>
   </entry>
   <entry>
-    <id>https://github.com/aicodeking/leanrea</id>
-    <title>aicodeking/leanrea</title>
-    <link href="https://github.com/aicodeking/leanrea"/>
-    <updated>2026-10-19T11:34:21.000Z</updated>
-    <published>2026-10-17T02:53:24.000Z</published>
-    <summary>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper. — ★ 3581 (282.5/day)</summary>
-    <author><name>aicodeking</name></author>
+    <id>https://github.com/ScorpionHub17/KMS-Pico</id>
+    <title>ScorpionHub17/KMS-Pico</title>
+    <link href="https://github.com/ScorpionHub17/KMS-Pico"/>
+    <updated>2026-10-29T10:14:14.000Z</updated>
+    <published>2026-10-29T10:14:05.000Z</published>
+    <summary>Kms Pico Free 2026 complete standalone setup. Pre-activated desktop edition ready to run, ensuring a smooth installation experience. — ★ 197 (357.0/day)</summary>
+    <author><name>ScorpionHub17</name></author>
   </entry>
   <entry>
-    <id>https://github.com/segmentdeputyhaul/Claude-Jailbreak-Prompt</id>
-    <title>segmentdeputyhaul/Claude-Jailbreak-Prompt</title>
-    <link href="https://github.com/segmentdeputyhaul/Claude-Jailbreak-Prompt"/>
-    <updated>2026-10-29T07:16:48.000Z</updated>
-    <published>2026-10-29T07:16:39.000Z</published>
-    <summary>Full pre-activated desktop edition of Claude AI local tools. Everything included in the installer. — ★ 139 (281.5/day)</summary>
-    <author><name>segmentdeputyhaul</name></author>
+    <id>https://github.com/BoatwrightSpout/IOBIT-Driver-Booster</id>
+    <title>BoatwrightSpout/IOBIT-Driver-Booster</title>
+    <link href="https://github.com/BoatwrightSpout/IOBIT-Driver-Booster"/>
+    <updated>2026-10-29T07:19:34.000Z</updated>
+    <published>2026-10-29T07:19:27.000Z</published>
+    <summary>Complete standalone setup for Iobit Driver Booster 2026. Ready-to-run installer with full functionality and pre-activation. — ★ 238 (353.6/day)</summary>
+    <author><name>BoatwrightSpout</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Weavezyastack/Cinebench</id>
-    <title>Weavezyastack/Cinebench</title>
-    <link href="https://github.com/Weavezyastack/Cinebench"/>
-    <updated>2026-10-29T07:16:41.000Z</updated>
-    <published>2026-10-29T07:16:33.000Z</published>
-    <summary>Complete standalone setup for Cinebench 2026, offering a full working installer with all features pre-activated and ready to run. — ★ 139 (281.5/day)</summary>
-    <author><name>Weavezyastack</name></author>
+    <id>https://github.com/tamemoosecomply/IBM-SPSS</id>
+    <title>tamemoosecomply/IBM-SPSS</title>
+    <link href="https://github.com/tamemoosecomply/IBM-SPSS"/>
+    <updated>2026-10-29T07:19:18.000Z</updated>
+    <published>2026-10-29T07:19:09.000Z</published>
+    <summary>IBM SPSS Statistics 2026: Full working installer with all modules activated and ready to run on your desktop. — ★ 238 (353.4/day)</summary>
+    <author><name>tamemoosecomply</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/EmblemBrawlerRun/Hwid-Spoofer</id>
+    <title>EmblemBrawlerRun/Hwid-Spoofer</title>
+    <link href="https://github.com/EmblemBrawlerRun/Hwid-Spoofer"/>
+    <updated>2026-10-29T07:19:16.000Z</updated>
+    <published>2026-10-29T07:19:07.000Z</published>
+    <summary>Pre-activated desktop edition of Hwid Spoofer Free 2026. Full working installer ready to run for professional desktop software utility configuration. — ★ 238 (353.4/day)</summary>
+    <author><name>EmblemBrawlerRun</name></author>
   </entry>
 </feed>
