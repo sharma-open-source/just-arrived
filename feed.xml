@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-29T00:09:23.968Z</updated>
+  <updated>2026-10-29T06:08:53.004Z</updated>
   <entry>
     <id>https://github.com/Gathin23/cleanyourtv</id>
     <title>Gathin23/cleanyourtv</title>
     <link href="https://github.com/Gathin23/cleanyourtv"/>
-    <updated>2026-10-28T19:03:48.000Z</updated>
+    <updated>2026-10-29T02:38:31.000Z</updated>
     <published>2026-10-17T08:12:35.000Z</published>
-    <summary>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. — ★ 43830 (3757.6/day)</summary>
+    <summary>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. — ★ 44189 (3709.0/day)</summary>
     <author><name>Gathin23</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/deepseek-ai/DeepInfer"/>
     <updated>2026-10-26T05:30:52.000Z</updated>
     <published>2026-10-16T07:47:23.000Z</published>
-    <summary>DeepInfer: High-performance, large-scale inference framework for DeepSeek models — ★ 23914 (1885.7/day)</summary>
+    <summary>DeepInfer: High-performance, large-scale inference framework for DeepSeek models — ★ 24032 (1858.4/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
@@ -30,16 +30,16 @@
     <link href="https://github.com/anhao/ai-pose-gallery-zh"/>
     <updated>2026-10-27T14:32:23.000Z</updated>
     <published>2026-10-27T12:24:37.000Z</published>
-    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 1864 (1251.5/day)</summary>
+    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 2208 (1269.6/day)</summary>
     <author><name>anhao</name></author>
   </entry>
   <entry>
     <id>https://github.com/Zagitta/gpu-unlock</id>
     <title>Zagitta/gpu-unlock</title>
     <link href="https://github.com/Zagitta/gpu-unlock"/>
-    <updated>2026-10-28T22:31:16.000Z</updated>
+    <updated>2026-10-29T02:30:54.000Z</updated>
     <published>2026-10-18T01:28:31.000Z</published>
-    <summary>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput — ★ 12365 (1129.7/day)</summary>
+    <summary>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput — ★ 12536 (1119.8/day)</summary>
     <author><name>Zagitta</name></author>
   </entry>
   <entry>
@@ -48,17 +48,26 @@
     <link href="https://github.com/unclebob/ub-mode"/>
     <updated>2026-10-25T16:07:59.000Z</updated>
     <published>2026-10-25T16:04:09.000Z</published>
-    <summary>No description. — ★ 3727 (1116.9/day)</summary>
+    <summary>No description. — ★ 3980 (1109.7/day)</summary>
     <author><name>unclebob</name></author>
   </entry>
   <entry>
     <id>https://github.com/rddmwmddr/android-ad-cleaner</id>
     <title>rddmwmddr/android-ad-cleaner</title>
     <link href="https://github.com/rddmwmddr/android-ad-cleaner"/>
-    <updated>2026-10-28T06:13:08.000Z</updated>
+    <updated>2026-10-29T04:59:28.000Z</updated>
     <published>2026-10-24T05:35:47.000Z</published>
-    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 4277 (896.0/day)</summary>
+    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 4461 (888.1/day)</summary>
     <author><name>rddmwmddr</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/pengchujin/aerial-tv</id>
+    <title>pengchujin/aerial-tv</title>
+    <link href="https://github.com/pengchujin/aerial-tv"/>
+    <updated>2026-10-29T04:27:06.000Z</updated>
+    <published>2026-10-20T09:13:06.000Z</published>
+    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. — ★ 7513 (846.8/day)</summary>
+    <author><name>pengchujin</name></author>
   </entry>
   <entry>
     <id>https://github.com/JustAResearcher/gpu-unlock-ada</id>
@@ -66,17 +75,17 @@
     <link href="https://github.com/JustAResearcher/gpu-unlock-ada"/>
     <updated>2026-10-26T04:24:46.000Z</updated>
     <published>2026-10-23T21:00:53.000Z</published>
-    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 4415 (860.5/day)</summary>
+    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 4446 (826.3/day)</summary>
     <author><name>JustAResearcher</name></author>
   </entry>
   <entry>
-    <id>https://github.com/pengchujin/aerial-tv</id>
-    <title>pengchujin/aerial-tv</title>
-    <link href="https://github.com/pengchujin/aerial-tv"/>
-    <updated>2026-10-28T13:25:02.000Z</updated>
-    <published>2026-10-20T09:13:06.000Z</published>
-    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. — ★ 7371 (854.9/day)</summary>
-    <author><name>pengchujin</name></author>
+    <id>https://github.com/interplains/Zero-Breach-Toolkit</id>
+    <title>interplains/Zero-Breach-Toolkit</title>
+    <link href="https://github.com/interplains/Zero-Breach-Toolkit"/>
+    <updated>2026-10-29T05:21:29.000Z</updated>
+    <published>2026-10-25T14:41:34.000Z</published>
+    <summary>Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups. — ★ 2950 (809.6/day)</summary>
+    <author><name>interplains</name></author>
   </entry>
   <entry>
     <id>https://github.com/designfuchen/word-atlas</id>
@@ -84,26 +93,8 @@
     <link href="https://github.com/designfuchen/word-atlas"/>
     <updated>2026-10-27T10:55:44.000Z</updated>
     <published>2026-10-25T08:27:22.000Z</published>
-    <summary>词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset. — ★ 3044 (833.0/day)</summary>
+    <summary>词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset. — ★ 3116 (798.2/day)</summary>
     <author><name>designfuchen</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/interplains/Zero-Breach-Toolkit</id>
-    <title>interplains/Zero-Breach-Toolkit</title>
-    <link href="https://github.com/interplains/Zero-Breach-Toolkit"/>
-    <updated>2026-10-28T23:03:28.000Z</updated>
-    <published>2026-10-25T14:41:34.000Z</published>
-    <summary>Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups. — ★ 2747 (809.3/day)</summary>
-    <author><name>interplains</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ScalarGrouse/SketchUp-Pro</id>
-    <title>ScalarGrouse/SketchUp-Pro</title>
-    <link href="https://github.com/ScalarGrouse/SketchUp-Pro"/>
-    <updated>2026-10-28T16:53:49.000Z</updated>
-    <published>2026-10-28T16:53:42.000Z</published>
-    <summary>Sketchup Pro 2023 complete standalone setup. Pre-activated desktop edition ready to run, with all professional tools included. — ★ 199 (657.7/day)</summary>
-    <author><name>ScalarGrouse</name></author>
   </entry>
   <entry>
     <id>https://github.com/smithjohn78390/tongjiang-lab</id>
@@ -111,26 +102,35 @@
     <link href="https://github.com/smithjohn78390/tongjiang-lab"/>
     <updated>2026-10-28T11:35:35.000Z</updated>
     <published>2026-10-28T04:29:29.000Z</published>
-    <summary>Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app — ★ 480 (585.8/day)</summary>
+    <summary>Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app — ★ 649 (607.1/day)</summary>
     <author><name>smithjohn78390</name></author>
   </entry>
   <entry>
     <id>https://github.com/simbasjungles/free-my-tv</id>
     <title>simbasjungles/free-my-tv</title>
     <link href="https://github.com/simbasjungles/free-my-tv"/>
-    <updated>2026-10-28T22:47:42.000Z</updated>
+    <updated>2026-10-29T04:22:19.000Z</updated>
     <published>2026-10-19T19:29:01.000Z</published>
-    <summary>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo. — ★ 5221 (567.8/day)</summary>
+    <summary>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo. — ★ 5270 (558.0/day)</summary>
     <author><name>simbasjungles</name></author>
   </entry>
   <entry>
     <id>https://github.com/ly05010419/MacNativeGames</id>
     <title>ly05010419/MacNativeGames</title>
     <link href="https://github.com/ly05010419/MacNativeGames"/>
-    <updated>2026-10-28T23:27:10.000Z</updated>
+    <updated>2026-10-29T02:24:18.000Z</updated>
     <published>2026-10-17T19:52:00.000Z</published>
-    <summary>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game&#39;s ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game. — ★ 6262 (560.2/day)</summary>
+    <summary>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game&#39;s ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game. — ★ 6329 (553.8/day)</summary>
     <author><name>ly05010419</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/xiaoyang111222/cn-math-taxonomy</id>
+    <title>xiaoyang111222/cn-math-taxonomy</title>
+    <link href="https://github.com/xiaoyang111222/cn-math-taxonomy"/>
+    <updated>2026-10-28T23:26:45.000Z</updated>
+    <published>2026-10-18T09:04:43.000Z</published>
+    <summary>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 — ★ 4965 (456.4/day)</summary>
+    <author><name>xiaoyang111222</name></author>
   </entry>
   <entry>
     <id>https://github.com/t3dotgg/tstack</id>
@@ -138,7 +138,7 @@
     <link href="https://github.com/t3dotgg/tstack"/>
     <updated>2026-10-28T02:38:03.000Z</updated>
     <published>2026-10-24T05:00:20.000Z</published>
-    <summary>The agent skills I use every day. Works with Claude Code and Codex. — ★ 2259 (470.8/day)</summary>
+    <summary>The agent skills I use every day. Works with Claude Code and Codex. — ★ 2292 (454.1/day)</summary>
     <author><name>t3dotgg</name></author>
   </entry>
   <entry>
@@ -147,62 +147,8 @@
     <link href="https://github.com/andyhuo520/digital-human-koubo"/>
     <updated>2026-10-26T11:52:14.000Z</updated>
     <published>2026-10-26T04:34:09.000Z</published>
-    <summary>AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … — ★ 1303 (462.7/day)</summary>
+    <summary>AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … — ★ 1344 (438.4/day)</summary>
     <author><name>andyhuo520</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/xiaoyang111222/cn-math-taxonomy</id>
-    <title>xiaoyang111222/cn-math-taxonomy</title>
-    <link href="https://github.com/xiaoyang111222/cn-math-taxonomy"/>
-    <updated>2026-10-28T23:26:45.000Z</updated>
-    <published>2026-10-18T09:04:43.000Z</published>
-    <summary>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 — ★ 4790 (450.7/day)</summary>
-    <author><name>xiaoyang111222</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/vaishantsah/watson-AI-osint-all-in-one</id>
-    <title>vaishantsah/watson-AI-osint-all-in-one</title>
-    <link href="https://github.com/vaishantsah/watson-AI-osint-all-in-one"/>
-    <updated>2026-10-28T00:53:34.000Z</updated>
-    <published>2026-10-28T00:09:33.000Z</published>
-    <summary>Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu — ★ 353 (353.0/day)</summary>
-    <author><name>vaishantsah</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/kargulstudio/calender-app-design</id>
-    <title>kargulstudio/calender-app-design</title>
-    <link href="https://github.com/kargulstudio/calender-app-design"/>
-    <updated>2026-10-26T20:34:05.000Z</updated>
-    <published>2026-10-26T18:38:56.000Z</published>
-    <summary>No description. — ★ 787 (353.0/day)</summary>
-    <author><name>kargulstudio</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ChannelCooperStart/capri-ai</id>
-    <title>ChannelCooperStart/capri-ai</title>
-    <link href="https://github.com/ChannelCooperStart/capri-ai"/>
-    <updated>2026-10-27T22:56:43.000Z</updated>
-    <published>2026-10-27T22:00:47.000Z</published>
-    <summary>🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity &amp; more. — ★ 384 (352.5/day)</summary>
-    <author><name>ChannelCooperStart</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/JoasASantos/REA-Prompts</id>
-    <title>JoasASantos/REA-Prompts</title>
-    <link href="https://github.com/JoasASantos/REA-Prompts"/>
-    <updated>2026-10-26T03:00:18.000Z</updated>
-    <published>2026-10-19T22:20:47.000Z</published>
-    <summary>REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program — ★ 3101 (341.7/day)</summary>
-    <author><name>JoasASantos</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/DenisSergeevitch/ex-ussr-kinship-research</id>
-    <title>DenisSergeevitch/ex-ussr-kinship-research</title>
-    <link href="https://github.com/DenisSergeevitch/ex-ussr-kinship-research"/>
-    <updated>2026-10-29T00:07:53.000Z</updated>
-    <published>2026-10-25T10:05:56.000Z</published>
-    <summary>Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language. — ★ 1181 (329.4/day)</summary>
-    <author><name>DenisSergeevitch</name></author>
   </entry>
   <entry>
     <id>https://github.com/jacke-pp/open-yoki</id>
@@ -210,8 +156,26 @@
     <link href="https://github.com/jacke-pp/open-yoki"/>
     <updated>2026-10-28T09:21:00.000Z</updated>
     <published>2026-10-28T08:58:27.000Z</published>
-    <summary>An AI live-stream host that runs on one server: voice, face, chat, memory, posts. The base yoki runs on. By Jacke_pp · contact: DM @Jacke_pp on X — ★ 207 (327.2/day)</summary>
+    <summary>An AI live-stream host that runs on one server: voice, face, chat, memory, posts. The base yoki runs on. By Jacke_pp · contact: DM @Jacke_pp on X — ★ 340 (385.4/day)</summary>
     <author><name>jacke-pp</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ScalarGrouse/SketchUp-Pro</id>
+    <title>ScalarGrouse/SketchUp-Pro</title>
+    <link href="https://github.com/ScalarGrouse/SketchUp-Pro"/>
+    <updated>2026-10-28T16:53:49.000Z</updated>
+    <published>2026-10-28T16:53:42.000Z</published>
+    <summary>Sketchup Pro 2023 complete standalone setup. Pre-activated desktop edition ready to run, with all professional tools included. — ★ 199 (360.4/day)</summary>
+    <author><name>ScalarGrouse</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/JoasASantos/REA-Prompts</id>
+    <title>JoasASantos/REA-Prompts</title>
+    <link href="https://github.com/JoasASantos/REA-Prompts"/>
+    <updated>2026-10-26T03:00:18.000Z</updated>
+    <published>2026-10-19T22:20:47.000Z</published>
+    <summary>REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program — ★ 3132 (335.9/day)</summary>
+    <author><name>JoasASantos</name></author>
   </entry>
   <entry>
     <id>https://github.com/Motionsites-AI/claude-skill</id>
@@ -219,26 +183,17 @@
     <link href="https://github.com/Motionsites-AI/claude-skill"/>
     <updated>2026-10-26T07:04:24.000Z</updated>
     <published>2026-10-26T06:58:45.000Z</published>
-    <summary>Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites. — ★ 882 (324.8/day)</summary>
+    <summary>Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites. — ★ 957 (322.7/day)</summary>
     <author><name>Motionsites-AI</name></author>
   </entry>
   <entry>
-    <id>https://github.com/wesbos/3d-model-anything</id>
-    <title>wesbos/3d-model-anything</title>
-    <link href="https://github.com/wesbos/3d-model-anything"/>
-    <updated>2026-10-27T15:08:22.000Z</updated>
-    <published>2026-10-21T19:38:50.000Z</published>
-    <summary>Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser. — ★ 2313 (321.8/day)</summary>
-    <author><name>wesbos</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/KillaBoi/StealMyBitcoin-PoC</id>
-    <title>KillaBoi/StealMyBitcoin-PoC</title>
-    <link href="https://github.com/KillaBoi/StealMyBitcoin-PoC"/>
-    <updated>2026-10-26T11:25:47.000Z</updated>
-    <published>2026-10-25T21:48:32.000Z</published>
-    <summary>A public release of the Steal My Bitcoin challenge — ★ 983 (317.3/day)</summary>
-    <author><name>KillaBoi</name></author>
+    <id>https://github.com/kargulstudio/calender-app-design</id>
+    <title>kargulstudio/calender-app-design</title>
+    <link href="https://github.com/kargulstudio/calender-app-design"/>
+    <updated>2026-10-26T20:34:05.000Z</updated>
+    <published>2026-10-26T18:38:56.000Z</published>
+    <summary>No description. — ★ 790 (318.7/day)</summary>
+    <author><name>kargulstudio</name></author>
   </entry>
   <entry>
     <id>https://github.com/Jakeschincariol/day-trader-skill</id>
@@ -246,8 +201,26 @@
     <link href="https://github.com/Jakeschincariol/day-trader-skill"/>
     <updated>2026-10-20T14:18:00.000Z</updated>
     <published>2026-10-20T14:17:54.000Z</published>
-    <summary>11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar. — ★ 2643 (314.2/day)</summary>
+    <summary>11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar. — ★ 2712 (313.1/day)</summary>
     <author><name>Jakeschincariol</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/wesbos/3d-model-anything</id>
+    <title>wesbos/3d-model-anything</title>
+    <link href="https://github.com/wesbos/3d-model-anything"/>
+    <updated>2026-10-27T15:08:22.000Z</updated>
+    <published>2026-10-21T19:38:50.000Z</published>
+    <summary>Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser. — ★ 2319 (311.8/day)</summary>
+    <author><name>wesbos</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/DenisSergeevitch/ex-ussr-kinship-research</id>
+    <title>DenisSergeevitch/ex-ussr-kinship-research</title>
+    <link href="https://github.com/DenisSergeevitch/ex-ussr-kinship-research"/>
+    <updated>2026-10-29T00:08:16.000Z</updated>
+    <published>2026-10-25T10:05:56.000Z</published>
+    <summary>Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language. — ★ 1189 (310.0/day)</summary>
+    <author><name>DenisSergeevitch</name></author>
   </entry>
   <entry>
     <id>https://github.com/xevrion/hatchzip</id>
@@ -255,17 +228,35 @@
     <link href="https://github.com/xevrion/hatchzip"/>
     <updated>2026-10-28T19:58:54.000Z</updated>
     <published>2026-10-21T17:29:28.000Z</published>
-    <summary>HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI. — ★ 2266 (311.4/day)</summary>
+    <summary>HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI. — ★ 2280 (302.9/day)</summary>
     <author><name>xevrion</name></author>
   </entry>
   <entry>
     <id>https://github.com/amosblomqvist/learnharness</id>
     <title>amosblomqvist/learnharness</title>
     <link href="https://github.com/amosblomqvist/learnharness"/>
-    <updated>2026-10-28T03:33:08.000Z</updated>
+    <updated>2026-10-29T04:35:56.000Z</updated>
     <published>2026-10-16T19:35:33.000Z</published>
-    <summary>Agent harness for learning difficult things. — ★ 3613 (296.4/day)</summary>
+    <summary>Agent harness for learning difficult things. — ★ 3686 (296.3/day)</summary>
     <author><name>amosblomqvist</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/KillaBoi/StealMyBitcoin-PoC</id>
+    <title>KillaBoi/StealMyBitcoin-PoC</title>
+    <link href="https://github.com/KillaBoi/StealMyBitcoin-PoC"/>
+    <updated>2026-10-26T11:25:47.000Z</updated>
+    <published>2026-10-25T21:48:32.000Z</published>
+    <summary>A public release of the Steal My Bitcoin challenge — ★ 988 (295.1/day)</summary>
+    <author><name>KillaBoi</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ChannelCooperStart/capri-ai</id>
+    <title>ChannelCooperStart/capri-ai</title>
+    <link href="https://github.com/ChannelCooperStart/capri-ai"/>
+    <updated>2026-10-27T22:56:43.000Z</updated>
+    <published>2026-10-27T22:00:47.000Z</published>
+    <summary>🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity &amp; more. — ★ 386 (288.3/day)</summary>
+    <author><name>ChannelCooperStart</name></author>
   </entry>
   <entry>
     <id>https://github.com/aicodeking/leanrea</id>
@@ -273,7 +264,16 @@
     <link href="https://github.com/aicodeking/leanrea"/>
     <updated>2026-10-19T11:34:21.000Z</updated>
     <published>2026-10-17T02:53:24.000Z</published>
-    <summary>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper. — ★ 3437 (289.2/day)</summary>
+    <summary>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper. — ★ 3478 (286.6/day)</summary>
     <author><name>aicodeking</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/vaishantsah/watson-AI-osint-all-in-one</id>
+    <title>vaishantsah/watson-AI-osint-all-in-one</title>
+    <link href="https://github.com/vaishantsah/watson-AI-osint-all-in-one"/>
+    <updated>2026-10-29T00:32:33.000Z</updated>
+    <published>2026-10-28T00:09:33.000Z</published>
+    <summary>Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu — ★ 358 (286.5/day)</summary>
+    <author><name>vaishantsah</name></author>
   </entry>
 </feed>
