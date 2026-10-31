@@ -5,15 +5,33 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-10-31T12:55:18.082Z</updated>
+  <updated>2026-10-31T17:29:22.249Z</updated>
+  <entry>
+    <id>https://github.com/deepseek-ai/dsh-superagent-prototype</id>
+    <title>deepseek-ai/dsh-superagent-prototype</title>
+    <link href="https://github.com/deepseek-ai/dsh-superagent-prototype"/>
+    <updated>2026-10-31T12:05:51.000Z</updated>
+    <published>2026-10-31T09:32:46.000Z</published>
+    <summary>Towards a More Autonomous Agent System — ★ 1557 (4704.3/day)</summary>
+    <author><name>deepseek-ai</name></author>
+  </entry>
   <entry>
     <id>https://github.com/heydamir/unslop</id>
     <title>heydamir/unslop</title>
     <link href="https://github.com/heydamir/unslop"/>
     <updated>2026-10-29T16:17:15.000Z</updated>
     <published>2026-10-29T15:41:21.000Z</published>
-    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 2441 (1295.2/day)</summary>
+    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 2996 (1443.8/day)</summary>
     <author><name>heydamir</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/wangzan101/Mika</id>
+    <title>wangzan101/Mika</title>
+    <link href="https://github.com/wangzan101/Mika"/>
+    <updated>2026-10-31T17:26:58.000Z</updated>
+    <published>2026-10-29T14:34:07.000Z</published>
+    <summary>Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 2528 (1191.5/day)</summary>
+    <author><name>wangzan101</name></author>
   </entry>
   <entry>
     <id>https://github.com/redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026</id>
@@ -21,25 +39,16 @@
     <link href="https://github.com/redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026"/>
     <updated>2026-10-31T11:19:37.000Z</updated>
     <published>2026-10-31T11:19:19.000Z</published>
-    <summary>Advanced Bunny Hop script with smooth auto-bhop and movement assistance. Fully configurable, clean interface, easy setup. Regularly updated. — ★ 300 (1200.0/day)</summary>
+    <summary>Advanced Bunny Hop script with smooth auto-bhop and movement assistance. Fully configurable, clean interface, easy setup. Regularly updated. — ★ 300 (1167.4/day)</summary>
     <author><name>redjellyfishrampart</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/wangzan101/Mika</id>
-    <title>wangzan101/Mika</title>
-    <link href="https://github.com/wangzan101/Mika"/>
-    <updated>2026-10-31T11:03:11.000Z</updated>
-    <published>2026-10-29T14:34:07.000Z</published>
-    <summary>Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 2175 (1126.1/day)</summary>
-    <author><name>wangzan101</name></author>
   </entry>
   <entry>
     <id>https://github.com/anhao/ai-pose-gallery-zh</id>
     <title>anhao/ai-pose-gallery-zh</title>
     <link href="https://github.com/anhao/ai-pose-gallery-zh"/>
-    <updated>2026-10-31T11:59:07.000Z</updated>
+    <updated>2026-10-31T17:01:25.000Z</updated>
     <published>2026-10-27T12:24:37.000Z</published>
-    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 4420 (1099.1/day)</summary>
+    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 4596 (1091.3/day)</summary>
     <author><name>anhao</name></author>
   </entry>
   <entry>
@@ -48,7 +57,7 @@
     <link href="https://github.com/valentderah/totk-pc-recomp"/>
     <updated>2026-10-31T12:37:46.000Z</updated>
     <published>2026-10-29T12:32:46.000Z</published>
-    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included. — ★ 2113 (1048.3/day)</summary>
+    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included. — ★ 2374 (1076.2/day)</summary>
     <author><name>valentderah</name></author>
   </entry>
   <entry>
@@ -57,7 +66,7 @@
     <link href="https://github.com/Zagitta/gpu-unlock"/>
     <updated>2026-10-29T02:30:54.000Z</updated>
     <published>2026-10-18T01:28:31.000Z</published>
-    <summary>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput — ★ 13654 (1013.1/day)</summary>
+    <summary>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput — ★ 13743 (1005.5/day)</summary>
     <author><name>Zagitta</name></author>
   </entry>
   <entry>
@@ -66,134 +75,26 @@
     <link href="https://github.com/unclebob/ub-mode"/>
     <updated>2026-10-25T16:07:59.000Z</updated>
     <published>2026-10-25T16:04:09.000Z</published>
-    <summary>No description. — ★ 5525 (941.4/day)</summary>
+    <summary>No description. — ★ 5604 (924.9/day)</summary>
     <author><name>unclebob</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Pointoocupola/Hwid-Spoofer</id>
-    <title>Pointoocupola/Hwid-Spoofer</title>
-    <link href="https://github.com/Pointoocupola/Hwid-Spoofer"/>
-    <updated>2026-10-31T07:23:42.000Z</updated>
-    <published>2026-10-31T07:23:36.000Z</published>
-    <summary>Complete standalone setup for Hwid Spoofer Free, pre-activated and ready to run. — ★ 204 (816.0/day)</summary>
-    <author><name>Pointoocupola</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/SheetLovebirdSpanner/ExitLag</id>
-    <title>SheetLovebirdSpanner/ExitLag</title>
-    <link href="https://github.com/SheetLovebirdSpanner/ExitLag"/>
-    <updated>2026-10-31T07:22:42.000Z</updated>
-    <published>2026-10-31T07:22:36.000Z</published>
-    <summary>Exitlag 2026: Full working installer with optimized settings for seamless desktop performance. — ★ 203 (812.0/day)</summary>
-    <author><name>SheetLovebirdSpanner</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/AdvocateTriumph/Better-Discord</id>
-    <title>AdvocateTriumph/Better-Discord</title>
-    <link href="https://github.com/AdvocateTriumph/Better-Discord"/>
-    <updated>2026-10-31T07:21:08.000Z</updated>
-    <published>2026-10-31T07:21:03.000Z</published>
-    <summary>Complete standalone setup for Better Discord 2026, a full working installer with all features activated and ready to run. — ★ 203 (812.0/day)</summary>
-    <author><name>AdvocateTriumph</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TabooGunnerDuel/Claude-Jailbreak-Prompt</id>
-    <title>TabooGunnerDuel/Claude-Jailbreak-Prompt</title>
-    <link href="https://github.com/TabooGunnerDuel/Claude-Jailbreak-Prompt"/>
-    <updated>2026-10-31T07:21:43.000Z</updated>
-    <published>2026-10-31T07:21:36.000Z</published>
-    <summary>Full pre-activated desktop edition of Claude AI local tools. Everything included in the installer. — ★ 202 (808.0/day)</summary>
-    <author><name>TabooGunnerDuel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/helixhornettrip/GrayKet</id>
-    <title>helixhornettrip/GrayKet</title>
-    <link href="https://github.com/helixhornettrip/GrayKet"/>
-    <updated>2026-10-31T07:23:30.000Z</updated>
-    <published>2026-10-31T07:23:25.000Z</published>
-    <summary>Grayket 2026 complete standalone setup. Pre-activated desktop version, ready to run with all features enabled. — ★ 201 (804.0/day)</summary>
-    <author><name>helixhornettrip</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CatbirdStaple/CCleaner-Pro</id>
-    <title>CatbirdStaple/CCleaner-Pro</title>
-    <link href="https://github.com/CatbirdStaple/CCleaner-Pro"/>
-    <updated>2026-10-31T07:21:25.000Z</updated>
-    <published>2026-10-31T07:21:19.000Z</published>
-    <summary>Professional Ccleaner Pro 2026 full working installer. Ready-to-run desktop configuration with all tools pre-activated. — ★ 201 (804.0/day)</summary>
-    <author><name>CatbirdStaple</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/RimWheelwright/Axie-Infinity-Bot</id>
-    <title>RimWheelwright/Axie-Infinity-Bot</title>
-    <link href="https://github.com/RimWheelwright/Axie-Infinity-Bot"/>
-    <updated>2026-10-31T07:21:07.000Z</updated>
-    <published>2026-10-31T07:21:00.000Z</published>
-    <summary>Complete Axie Infinity Bot 2026 desktop installation setup, ready to run with all features activated. — ★ 201 (804.0/day)</summary>
-    <author><name>RimWheelwright</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ropepotterrhythm/Easy-Worship</id>
-    <title>ropepotterrhythm/Easy-Worship</title>
-    <link href="https://github.com/ropepotterrhythm/Easy-Worship"/>
-    <updated>2026-10-31T07:22:37.000Z</updated>
-    <published>2026-10-31T07:22:31.000Z</published>
-    <summary>Easy Worship 2026: Full working installer with all features enabled, ready to run on your desktop. — ★ 201 (804.0/day)</summary>
-    <author><name>ropepotterrhythm</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/MoonBricklayer35/Cinebench</id>
-    <title>MoonBricklayer35/Cinebench</title>
-    <link href="https://github.com/MoonBricklayer35/Cinebench"/>
-    <updated>2026-10-31T07:21:38.000Z</updated>
-    <published>2026-10-31T07:21:32.000Z</published>
-    <summary>Complete standalone setup for Cinebench 2026, ready-to-run with all features fully activated. — ★ 201 (804.0/day)</summary>
-    <author><name>MoonBricklayer35</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Clipbetweenreveal/BorisFX</id>
-    <title>Clipbetweenreveal/BorisFX</title>
-    <link href="https://github.com/Clipbetweenreveal/BorisFX"/>
-    <updated>2026-10-31T07:21:11.000Z</updated>
-    <published>2026-10-31T07:21:06.000Z</published>
-    <summary>Complete standalone setup for BorisFX 2026, your go-to solution for professional video editing and visual effects. Ready to run with all... — ★ 201 (804.0/day)</summary>
-    <author><name>Clipbetweenreveal</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/KnotSteersmanAtrium/Cellebrite-UFED</id>
-    <title>KnotSteersmanAtrium/Cellebrite-UFED</title>
-    <link href="https://github.com/KnotSteersmanAtrium/Cellebrite-UFED"/>
-    <updated>2026-10-31T07:21:36.000Z</updated>
-    <published>2026-10-31T07:21:30.000Z</published>
-    <summary>Complete standalone setup for Cellebrite UFED 2026, ready to run with full hardware validation and secure data extraction tools. — ★ 201 (804.0/day)</summary>
-    <author><name>KnotSteersmanAtrium</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/fiendstylistcare/IDM</id>
-    <title>fiendstylistcare/IDM</title>
-    <link href="https://github.com/fiendstylistcare/IDM"/>
-    <updated>2026-10-31T07:23:48.000Z</updated>
-    <published>2026-10-31T07:23:43.000Z</published>
-    <summary>Idm Utility 2026 - Full working installer with all configurations ready to run on your desktop. — ★ 199 (796.0/day)</summary>
-    <author><name>fiendstylistcare</name></author>
+    <id>https://github.com/patch-gg/pixelfx</id>
+    <title>patch-gg/pixelfx</title>
+    <link href="https://github.com/patch-gg/pixelfx"/>
+    <updated>2026-10-31T08:44:14.000Z</updated>
+    <published>2026-10-30T06:43:25.000Z</published>
+    <summary>232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 1162 (802.2/day)</summary>
+    <author><name>patch-gg</name></author>
   </entry>
   <entry>
     <id>https://github.com/kevinraymond/florilegium</id>
     <title>kevinraymond/florilegium</title>
     <link href="https://github.com/kevinraymond/florilegium"/>
-    <updated>2026-10-31T09:25:19.000Z</updated>
+    <updated>2026-10-31T15:30:14.000Z</updated>
     <published>2026-10-30T07:49:05.000Z</published>
-    <summary>Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua — ★ 964 (795.0/day)</summary>
+    <summary>Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua — ★ 1091 (777.6/day)</summary>
     <author><name>kevinraymond</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Solderyobend/ArchiCAD</id>
-    <title>Solderyobend/ArchiCAD</title>
-    <link href="https://github.com/Solderyobend/ArchiCAD"/>
-    <updated>2026-10-31T07:20:16.000Z</updated>
-    <published>2026-10-31T07:20:10.000Z</published>
-    <summary>Archicad 2026: Complete standalone setup, fully functional and ready to run on your desktop. — ★ 197 (788.0/day)</summary>
-    <author><name>Solderyobend</name></author>
   </entry>
   <entry>
     <id>https://github.com/pengchujin/aerial-tv</id>
@@ -201,43 +102,34 @@
     <link href="https://github.com/pengchujin/aerial-tv"/>
     <updated>2026-10-31T11:40:39.000Z</updated>
     <published>2026-10-20T09:13:06.000Z</published>
-    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. — ★ 8232 (738.0/day)</summary>
+    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. — ★ 8299 (731.5/day)</summary>
     <author><name>pengchujin</name></author>
   </entry>
   <entry>
     <id>https://github.com/rddmwmddr/android-ad-cleaner</id>
     <title>rddmwmddr/android-ad-cleaner</title>
     <link href="https://github.com/rddmwmddr/android-ad-cleaner"/>
-    <updated>2026-10-31T11:48:52.000Z</updated>
+    <updated>2026-10-31T17:22:03.000Z</updated>
     <published>2026-10-24T05:35:47.000Z</published>
-    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 5269 (721.3/day)</summary>
+    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 5336 (711.9/day)</summary>
     <author><name>rddmwmddr</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026</id>
-    <title>TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026</title>
-    <link href="https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026"/>
-    <updated>2026-10-31T02:54:41.000Z</updated>
-    <published>2026-10-31T02:54:13.000Z</published>
-    <summary>Powerful Roblox Account Manager for easy multi-account control. Switch accounts, manage sessions and organize profiles with a clean interface. Simple setup and regularly updated. — ★ 300 (718.7/day)</summary>
-    <author><name>TinsmithConsole60</name></author>
   </entry>
   <entry>
     <id>https://github.com/paipiange/nvzhuang</id>
     <title>paipiange/nvzhuang</title>
     <link href="https://github.com/paipiange/nvzhuang"/>
-    <updated>2026-10-31T04:23:30.000Z</updated>
+    <updated>2026-10-31T17:01:39.000Z</updated>
     <published>2026-10-29T06:08:00.000Z</published>
-    <summary>1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang — ★ 1543 (675.9/day)</summary>
+    <summary>1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang — ★ 1665 (673.2/day)</summary>
     <author><name>paipiange</name></author>
   </entry>
   <entry>
     <id>https://github.com/interplains/Zero-Breach-Toolkit</id>
     <title>interplains/Zero-Breach-Toolkit</title>
     <link href="https://github.com/interplains/Zero-Breach-Toolkit"/>
-    <updated>2026-10-31T08:52:25.000Z</updated>
+    <updated>2026-10-31T16:00:12.000Z</updated>
     <published>2026-10-25T14:41:34.000Z</published>
-    <summary>Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups. — ★ 3947 (666.0/day)</summary>
+    <summary>Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups. — ★ 3976 (650.0/day)</summary>
     <author><name>interplains</name></author>
   </entry>
   <entry>
@@ -246,17 +138,26 @@
     <link href="https://github.com/JustAResearcher/gpu-unlock-ada"/>
     <updated>2026-10-26T04:24:46.000Z</updated>
     <published>2026-10-23T21:00:53.000Z</published>
-    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 4607 (601.2/day)</summary>
+    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 4619 (588.2/day)</summary>
     <author><name>JustAResearcher</name></author>
   </entry>
   <entry>
-    <id>https://github.com/patch-gg/pixelfx</id>
-    <title>patch-gg/pixelfx</title>
-    <link href="https://github.com/patch-gg/pixelfx"/>
-    <updated>2026-10-31T08:44:14.000Z</updated>
-    <published>2026-10-30T06:43:25.000Z</published>
-    <summary>232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 745 (592.1/day)</summary>
-    <author><name>patch-gg</name></author>
+    <id>https://github.com/tavern-labs-ai/character-ai-sdk</id>
+    <title>tavern-labs-ai/character-ai-sdk</title>
+    <link href="https://github.com/tavern-labs-ai/character-ai-sdk"/>
+    <updated>2026-10-31T16:36:55.000Z</updated>
+    <published>2026-10-31T14:29:10.000Z</published>
+    <summary>Default personas, durable character memory, and provider adapters in a single package — ★ 146 (584.0/day)</summary>
+    <author><name>tavern-labs-ai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Arjun-Ingole/hop</id>
+    <title>Arjun-Ingole/hop</title>
+    <link href="https://github.com/Arjun-Ingole/hop"/>
+    <updated>2026-10-31T17:25:49.000Z</updated>
+    <published>2026-10-30T19:40:45.000Z</published>
+    <summary>Install Linux next to Windows without a USB stick — ★ 506 (556.8/day)</summary>
+    <author><name>Arjun-Ingole</name></author>
   </entry>
   <entry>
     <id>https://github.com/designfuchen/word-atlas</id>
@@ -264,7 +165,7 @@
     <link href="https://github.com/designfuchen/word-atlas"/>
     <updated>2026-10-31T11:37:01.000Z</updated>
     <published>2026-10-25T08:27:22.000Z</published>
-    <summary>词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset. — ★ 3486 (563.5/day)</summary>
+    <summary>词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset. — ★ 3534 (554.2/day)</summary>
     <author><name>designfuchen</name></author>
   </entry>
   <entry>
@@ -273,7 +174,106 @@
     <link href="https://github.com/ccch1mneyyy/dsh-Go"/>
     <updated>2026-10-31T10:48:22.000Z</updated>
     <published>2026-10-25T08:09:52.000Z</published>
-    <summary>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 — ★ 3239 (522.6/day)</summary>
+    <summary>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 — ★ 3471 (543.3/day)</summary>
     <author><name>ccch1mneyyy</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/darkareaminaret/MetaTrader-5-Bot</id>
+    <title>darkareaminaret/MetaTrader-5-Bot</title>
+    <link href="https://github.com/darkareaminaret/MetaTrader-5-Bot"/>
+    <updated>2026-10-31T07:24:37.000Z</updated>
+    <published>2026-10-31T07:24:32.000Z</published>
+    <summary>Metatrader 5 Bot 2026: Full working installer with automated trading scripts ready to run. — ★ 213 (507.1/day)</summary>
+    <author><name>darkareaminaret</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/mythicassemblyladle/RX-11-Audio-Editor</id>
+    <title>mythicassemblyladle/RX-11-Audio-Editor</title>
+    <link href="https://github.com/mythicassemblyladle/RX-11-Audio-Editor"/>
+    <updated>2026-10-31T07:26:35.000Z</updated>
+    <published>2026-10-31T07:26:29.000Z</published>
+    <summary>Rx 11 Audio Editor 2026 complete standalone installation setup. Ready-to-run desktop edition with all features unlocked. — ★ 210 (501.6/day)</summary>
+    <author><name>mythicassemblyladle</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026</id>
+    <title>TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026</title>
+    <link href="https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026"/>
+    <updated>2026-10-31T02:54:41.000Z</updated>
+    <published>2026-10-31T02:54:13.000Z</published>
+    <summary>Powerful Roblox Account Manager for easy multi-account control. Switch accounts, manage sessions and organize profiles with a clean interface. Simple setup and regularly updated. — ★ 300 (493.6/day)</summary>
+    <author><name>TinsmithConsole60</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/KnotCicadaSpout/Robux-Generator</id>
+    <title>KnotCicadaSpout/Robux-Generator</title>
+    <link href="https://github.com/KnotCicadaSpout/Robux-Generator"/>
+    <updated>2026-10-31T07:26:20.000Z</updated>
+    <published>2026-10-31T07:26:14.000Z</published>
+    <summary>Robux Generator 2026: Complete standalone setup with full working installer, ready to run on your desktop. — ★ 204 (487.1/day)</summary>
+    <author><name>KnotCicadaSpout</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/DistributorFollow23/Microsoft-365</id>
+    <title>DistributorFollow23/Microsoft-365</title>
+    <link href="https://github.com/DistributorFollow23/Microsoft-365"/>
+    <updated>2026-10-31T07:24:37.000Z</updated>
+    <published>2026-10-31T07:24:32.000Z</published>
+    <summary>Microsoft 365 Utilities Pack 2024 - Full working installer with essential tools for managing Microsoft services on your desktop. — ★ 204 (485.7/day)</summary>
+    <author><name>DistributorFollow23</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Pointoocupola/Hwid-Spoofer</id>
+    <title>Pointoocupola/Hwid-Spoofer</title>
+    <link href="https://github.com/Pointoocupola/Hwid-Spoofer"/>
+    <updated>2026-10-31T07:23:42.000Z</updated>
+    <published>2026-10-31T07:23:36.000Z</published>
+    <summary>Complete standalone setup for Hwid Spoofer Free, pre-activated and ready to run. — ★ 204 (484.9/day)</summary>
+    <author><name>Pointoocupola</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/wallvanquisherwharf/ON1-Photo-RAW-MAX</id>
+    <title>wallvanquisherwharf/ON1-Photo-RAW-MAX</title>
+    <link href="https://github.com/wallvanquisherwharf/ON1-Photo-RAW-MAX"/>
+    <updated>2026-10-31T07:25:32.000Z</updated>
+    <published>2026-10-31T07:25:26.000Z</published>
+    <summary>Ready-to-run On1 Photo Raw Max 2026 desktop installation build with all features unlocked and ready to use. — ★ 203 (484.0/day)</summary>
+    <author><name>wallvanquisherwharf</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Solderyobend/ArchiCAD</id>
+    <title>Solderyobend/ArchiCAD</title>
+    <link href="https://github.com/Solderyobend/ArchiCAD"/>
+    <updated>2026-10-31T07:20:16.000Z</updated>
+    <published>2026-10-31T07:20:10.000Z</published>
+    <summary>Archicad 2026: Complete standalone setup, fully functional and ready to run on your desktop. — ★ 198 (468.0/day)</summary>
+    <author><name>Solderyobend</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/RainShrimpGaze/NinjaTrader-Bot</id>
+    <title>RainShrimpGaze/NinjaTrader-Bot</title>
+    <link href="https://github.com/RainShrimpGaze/NinjaTrader-Bot"/>
+    <updated>2026-10-31T07:25:30.000Z</updated>
+    <published>2026-10-31T07:25:24.000Z</published>
+    <summary>Complete standalone setup for Ninjatrader Bot 2026. Pre-activated desktop edition ready to run. — ★ 196 (467.3/day)</summary>
+    <author><name>RainShrimpGaze</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/simbasjungles/free-my-tv</id>
+    <title>simbasjungles/free-my-tv</title>
+    <link href="https://github.com/simbasjungles/free-my-tv"/>
+    <updated>2026-10-31T03:43:32.000Z</updated>
+    <published>2026-10-19T19:29:01.000Z</published>
+    <summary>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo. — ★ 5549 (465.6/day)</summary>
+    <author><name>simbasjungles</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/xiaoyang111222/cn-math-taxonomy</id>
+    <title>xiaoyang111222/cn-math-taxonomy</title>
+    <link href="https://github.com/xiaoyang111222/cn-math-taxonomy"/>
+    <updated>2026-10-31T12:38:42.000Z</updated>
+    <published>2026-10-18T09:04:43.000Z</published>
+    <summary>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 — ★ 5633 (421.9/day)</summary>
+    <author><name>xiaoyang111222</name></author>
   </entry>
 </feed>
