@@ -5,23 +5,23 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-04T00:20:10.688Z</updated>
+  <updated>2026-11-04T06:49:10.200Z</updated>
   <entry>
     <id>https://github.com/deepseek-ai/dsh-superagent-prototype</id>
     <title>deepseek-ai/dsh-superagent-prototype</title>
     <link href="https://github.com/deepseek-ai/dsh-superagent-prototype"/>
     <updated>2026-11-03T09:29:14.000Z</updated>
     <published>2026-10-31T09:32:46.000Z</published>
-    <summary>Towards a More Autonomous Agent System — ★ 16698 (4617.5/day)</summary>
+    <summary>Towards a More Autonomous Agent System — ★ 17547 (4515.0/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/craft-anything</id>
     <title>storytold/craft-anything</title>
     <link href="https://github.com/storytold/craft-anything"/>
-    <updated>2026-11-04T00:11:12.000Z</updated>
+    <updated>2026-11-04T05:58:47.000Z</updated>
     <published>2026-10-31T14:50:00.000Z</published>
-    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 8341 (2456.2/day)</summary>
+    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 9213 (2513.0/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -30,8 +30,26 @@
     <link href="https://github.com/heydamir/unslop"/>
     <updated>2026-11-01T16:46:10.000Z</updated>
     <published>2026-10-29T15:41:21.000Z</published>
-    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 7528 (1404.4/day)</summary>
+    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 7750 (1376.4/day)</summary>
     <author><name>heydamir</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/KKKKhazix/agent-autoloop</id>
+    <title>KKKKhazix/agent-autoloop</title>
+    <link href="https://github.com/KKKKhazix/agent-autoloop"/>
+    <updated>2026-11-04T06:45:51.000Z</updated>
+    <published>2026-11-03T08:02:11.000Z</published>
+    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 1287 (1355.7/day)</summary>
+    <author><name>KKKKhazix</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Lostuaexpand/windows-animated-wallpapers</id>
+    <title>Lostuaexpand/windows-animated-wallpapers</title>
+    <link href="https://github.com/Lostuaexpand/windows-animated-wallpapers"/>
+    <updated>2026-11-04T04:53:51.000Z</updated>
+    <published>2026-11-04T04:53:31.000Z</published>
+    <summary>High-quality animated and live wallpapers for Windows 10 and 11. Smooth 60 FPS animations, low CPU usage, 4K support. Open-source and portable — ★ 300 (1200.0/day)</summary>
+    <author><name>Lostuaexpand</name></author>
   </entry>
   <entry>
     <id>https://github.com/wangzan101/Mika</id>
@@ -39,7 +57,7 @@
     <link href="https://github.com/wangzan101/Mika"/>
     <updated>2026-11-03T20:49:20.000Z</updated>
     <published>2026-10-29T14:34:07.000Z</published>
-    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 6044 (1117.8/day)</summary>
+    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 6206 (1093.2/day)</summary>
     <author><name>wangzan101</name></author>
   </entry>
   <entry>
@@ -48,8 +66,17 @@
     <link href="https://github.com/patch-gg/pixelfx"/>
     <updated>2026-10-31T08:44:14.000Z</updated>
     <published>2026-10-30T06:43:25.000Z</published>
-    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 4112 (868.6/day)</summary>
+    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 4291 (857.5/day)</summary>
     <author><name>patch-gg</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ccch1mneyyy/dsh-Go</id>
+    <title>ccch1mneyyy/dsh-Go</title>
+    <link href="https://github.com/ccch1mneyyy/dsh-Go"/>
+    <updated>2026-11-04T04:39:44.000Z</updated>
+    <published>2026-10-25T08:09:52.000Z</published>
+    <summary>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 — ★ 8258 (830.5/day)</summary>
+    <author><name>ccch1mneyyy</name></author>
   </entry>
   <entry>
     <id>https://github.com/valentderah/totk-pc-recomp</id>
@@ -57,7 +84,7 @@
     <link href="https://github.com/valentderah/totk-pc-recomp"/>
     <updated>2026-11-03T19:02:16.000Z</updated>
     <published>2026-10-29T12:32:46.000Z</published>
-    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included. — ★ 4503 (820.0/day)</summary>
+    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included. — ★ 4607 (799.6/day)</summary>
     <author><name>valentderah</name></author>
   </entry>
   <entry>
@@ -66,17 +93,8 @@
     <link href="https://github.com/anhao/ai-pose-gallery-zh"/>
     <updated>2026-11-03T07:08:01.000Z</updated>
     <published>2026-10-27T12:24:37.000Z</published>
-    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 5775 (770.3/day)</summary>
+    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 5831 (750.7/day)</summary>
     <author><name>anhao</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ccch1mneyyy/dsh-Go</id>
-    <title>ccch1mneyyy/dsh-Go</title>
-    <link href="https://github.com/ccch1mneyyy/dsh-Go"/>
-    <updated>2026-11-03T20:08:30.000Z</updated>
-    <published>2026-10-25T08:09:52.000Z</published>
-    <summary>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 — ★ 7437 (768.8/day)</summary>
-    <author><name>ccch1mneyyy</name></author>
   </entry>
   <entry>
     <id>https://github.com/unclebob/ub-mode</id>
@@ -84,8 +102,62 @@
     <link href="https://github.com/unclebob/ub-mode"/>
     <updated>2026-11-02T15:08:31.000Z</updated>
     <published>2026-10-25T16:04:09.000Z</published>
-    <summary>No description. — ★ 6786 (726.2/day)</summary>
+    <summary>No description. — ★ 6833 (710.7/day)</summary>
     <author><name>unclebob</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/BryceYuuu/RUN</id>
+    <title>BryceYuuu/RUN</title>
+    <link href="https://github.com/BryceYuuu/RUN"/>
+    <updated>2026-11-03T07:23:28.000Z</updated>
+    <published>2026-10-29T11:28:43.000Z</published>
+    <summary>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区） — ★ 3296 (567.7/day)</summary>
+    <author><name>BryceYuuu</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/rddmwmddr/android-ad-cleaner</id>
+    <title>rddmwmddr/android-ad-cleaner</title>
+    <link href="https://github.com/rddmwmddr/android-ad-cleaner"/>
+    <updated>2026-11-04T06:36:50.000Z</updated>
+    <published>2026-10-24T05:35:47.000Z</published>
+    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 6173 (558.6/day)</summary>
+    <author><name>rddmwmddr</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Verlintas/NOIR</id>
+    <title>Verlintas/NOIR</title>
+    <link href="https://github.com/Verlintas/NOIR"/>
+    <updated>2026-11-03T14:17:25.000Z</updated>
+    <published>2026-10-31T21:34:39.000Z</published>
+    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes. — ★ 1831 (540.9/day)</summary>
+    <author><name>Verlintas</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/govijr/terminal-mac</id>
+    <title>govijr/terminal-mac</title>
+    <link href="https://github.com/govijr/terminal-mac"/>
+    <updated>2026-11-03T12:34:41.000Z</updated>
+    <published>2026-11-03T03:22:56.000Z</published>
+    <summary>Entire MacOS running in your terminal. — ★ 613 (536.2/day)</summary>
+    <author><name>govijr</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/caru-ini/stack-diagram</id>
+    <title>caru-ini/stack-diagram</title>
+    <link href="https://github.com/caru-ini/stack-diagram"/>
+    <updated>2026-11-03T03:42:46.000Z</updated>
+    <published>2026-11-01T05:35:12.000Z</published>
+    <summary>Agent skill: describe your stack in a sentence, get an architecture diagram with official logos — ★ 1631 (534.5/day)</summary>
+    <author><name>caru-ini</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Djihads80/Eglantine</id>
+    <title>Djihads80/Eglantine</title>
+    <link href="https://github.com/Djihads80/Eglantine"/>
+    <updated>2026-11-04T05:20:05.000Z</updated>
+    <published>2026-10-29T00:25:18.000Z</published>
+    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 3162 (504.6/day)</summary>
+    <author><name>Djihads80</name></author>
   </entry>
   <entry>
     <id>https://github.com/Nucleusanwish/microsoft-office</id>
@@ -93,7 +165,7 @@
     <link href="https://github.com/Nucleusanwish/microsoft-office"/>
     <updated>2026-11-03T11:00:25.000Z</updated>
     <published>2026-11-03T11:00:17.000Z</published>
-    <summary>Complete standalone setup for Microsoft Office 2026, featuring full pre-activation and all essential components ready to run. — ★ 393 (707.5/day)</summary>
+    <summary>Complete standalone setup for Microsoft Office 2026, featuring full pre-activation and all essential components ready to run. — ★ 395 (478.4/day)</summary>
     <author><name>Nucleusanwish</name></author>
   </entry>
   <entry>
@@ -102,134 +174,8 @@
     <link href="https://github.com/Codeonshovel/microsoft-365"/>
     <updated>2026-11-03T11:00:22.000Z</updated>
     <published>2026-11-03T11:00:16.000Z</published>
-    <summary>Microsoft 365 Professional Desktop Utility Configuration - Full working installer for seamless setup and operation. — ★ 393 (707.5/day)</summary>
+    <summary>Microsoft 365 Professional Desktop Utility Configuration - Full working installer for seamless setup and operation. — ★ 393 (476.0/day)</summary>
     <author><name>Codeonshovel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Verlintas/NOIR</id>
-    <title>Verlintas/NOIR</title>
-    <link href="https://github.com/Verlintas/NOIR"/>
-    <updated>2026-11-03T14:17:25.000Z</updated>
-    <published>2026-10-31T21:34:39.000Z</published>
-    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes. — ★ 1759 (564.7/day)</summary>
-    <author><name>Verlintas</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/rddmwmddr/android-ad-cleaner</id>
-    <title>rddmwmddr/android-ad-cleaner</title>
-    <link href="https://github.com/rddmwmddr/android-ad-cleaner"/>
-    <updated>2026-11-03T17:48:31.000Z</updated>
-    <published>2026-10-24T05:35:47.000Z</published>
-    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 6073 (563.3/day)</summary>
-    <author><name>rddmwmddr</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/caru-ini/stack-diagram</id>
-    <title>caru-ini/stack-diagram</title>
-    <link href="https://github.com/caru-ini/stack-diagram"/>
-    <updated>2026-11-03T03:42:46.000Z</updated>
-    <published>2026-11-01T05:35:12.000Z</published>
-    <summary>Agent skill: describe your stack in a sentence, get an architecture diagram with official logos — ★ 1526 (548.7/day)</summary>
-    <author><name>caru-ini</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/BryceYuuu/RUN</id>
-    <title>BryceYuuu/RUN</title>
-    <link href="https://github.com/BryceYuuu/RUN"/>
-    <updated>2026-11-03T07:23:28.000Z</updated>
-    <published>2026-10-29T11:28:43.000Z</published>
-    <summary>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区） — ★ 3024 (546.3/day)</summary>
-    <author><name>BryceYuuu</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ShoreEvokerHeat/fl-studio</id>
-    <title>ShoreEvokerHeat/fl-studio</title>
-    <link href="https://github.com/ShoreEvokerHeat/fl-studio"/>
-    <updated>2026-11-03T10:59:20.000Z</updated>
-    <published>2026-11-03T10:59:13.000Z</published>
-    <summary>Fl Studio 2026 - Full working installer, complete standalone setup for professional audio production. — ★ 301 (541.1/day)</summary>
-    <author><name>ShoreEvokerHeat</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/thresholdbearduct/reason-14</id>
-    <title>thresholdbearduct/reason-14</title>
-    <link href="https://github.com/thresholdbearduct/reason-14"/>
-    <updated>2026-11-03T11:00:53.000Z</updated>
-    <published>2026-11-03T11:00:46.000Z</published>
-    <summary>Reason 14: Complete standalone setup for professional desktop software utility, ready to run with full functionality. — ★ 300 (540.4/day)</summary>
-    <author><name>thresholdbearduct</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/blizzardoxtug/ph-downloader</id>
-    <title>blizzardoxtug/ph-downloader</title>
-    <link href="https://github.com/blizzardoxtug/ph-downloader"/>
-    <updated>2026-11-03T11:00:48.000Z</updated>
-    <published>2026-11-03T11:00:42.000Z</published>
-    <summary>Ph Down 2026: Complete standalone setup for professional desktop utility configuration, ready to run out of the box. — ★ 300 (540.4/day)</summary>
-    <author><name>blizzardoxtug</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CraterAssembly31/microsoft-visio</id>
-    <title>CraterAssembly31/microsoft-visio</title>
-    <link href="https://github.com/CraterAssembly31/microsoft-visio"/>
-    <updated>2026-11-03T11:00:23.000Z</updated>
-    <published>2026-11-03T11:00:17.000Z</published>
-    <summary>Microsoft Visio 2026: Full working installer with all templates and features activated, ready for immediate desktop use. — ★ 300 (540.1/day)</summary>
-    <author><name>CraterAssembly31</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Midnightclitug/iobit-driver-booster</id>
-    <title>Midnightclitug/iobit-driver-booster</title>
-    <link href="https://github.com/Midnightclitug/iobit-driver-booster"/>
-    <updated>2026-11-03T10:59:52.000Z</updated>
-    <published>2026-11-03T10:59:45.000Z</published>
-    <summary>Complete standalone setup for Iobit Driver Booster 2026. Ready-to-run installer with all features pre-activated. — ★ 300 (539.7/day)</summary>
-    <author><name>Midnightclitug</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/SoapmakerDepot/hwid-spoofer</id>
-    <title>SoapmakerDepot/hwid-spoofer</title>
-    <link href="https://github.com/SoapmakerDepot/hwid-spoofer"/>
-    <updated>2026-11-03T10:59:49.000Z</updated>
-    <published>2026-11-03T10:59:42.000Z</published>
-    <summary>Complete standalone setup for Hwid Spoofer Free, ready-to-run desktop installation with all features active. — ★ 300 (539.7/day)</summary>
-    <author><name>SoapmakerDepot</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Drivekestation/instagram-liker-bot</id>
-    <title>Drivekestation/instagram-liker-bot</title>
-    <link href="https://github.com/Drivekestation/instagram-liker-bot"/>
-    <updated>2026-11-03T10:59:52.000Z</updated>
-    <published>2026-11-03T10:59:45.000Z</published>
-    <summary>Instagram Liker Bot 2026: Full working installer with automated liking and following capabilities, ready to run on your desktop. — ★ 299 (537.9/day)</summary>
-    <author><name>Drivekestation</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/MomentumGuideContact/fonetrans</id>
-    <title>MomentumGuideContact/fonetrans</title>
-    <link href="https://github.com/MomentumGuideContact/fonetrans"/>
-    <updated>2026-11-03T10:59:22.000Z</updated>
-    <published>2026-11-03T10:59:16.000Z</published>
-    <summary>Complete Fonetrans desktop edition 2026, ready-to-run with all features fully activated. — ★ 299 (537.6/day)</summary>
-    <author><name>MomentumGuideContact</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/wavedivercolonnade/ozone-12-advanced</id>
-    <title>wavedivercolonnade/ozone-12-advanced</title>
-    <link href="https://github.com/wavedivercolonnade/ozone-12-advanced"/>
-    <updated>2026-11-03T11:00:35.000Z</updated>
-    <published>2026-11-03T11:00:29.000Z</published>
-    <summary>Ozone 12 Advanced: Full working installer for professional desktop utility configuration, ready to run in 2026. — ★ 298 (536.6/day)</summary>
-    <author><name>wavedivercolonnade</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Djihads80/Eglantine</id>
-    <title>Djihads80/Eglantine</title>
-    <link href="https://github.com/Djihads80/Eglantine"/>
-    <updated>2026-11-04T00:10:30.000Z</updated>
-    <published>2026-10-29T00:25:18.000Z</published>
-    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 3027 (504.8/day)</summary>
-    <author><name>Djihads80</name></author>
   </entry>
   <entry>
     <id>https://github.com/interplains/Zero-Breach-Toolkit</id>
@@ -237,7 +183,7 @@
     <link href="https://github.com/interplains/Zero-Breach-Toolkit"/>
     <updated>2026-11-03T09:41:25.000Z</updated>
     <published>2026-10-25T14:41:34.000Z</published>
-    <summary>Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windows, Mac and Linux, in 27 languages. — ★ 4366 (464.4/day)</summary>
+    <summary>Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windows, Mac and Linux, in 27 languages. — ★ 4383 (453.2/day)</summary>
     <author><name>interplains</name></author>
   </entry>
   <entry>
@@ -246,7 +192,7 @@
     <link href="https://github.com/mromidev/claude-animated-shorts"/>
     <updated>2026-11-01T05:57:14.000Z</updated>
     <published>2026-11-01T05:50:38.000Z</published>
-    <summary>Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion — ★ 1214 (438.2/day)</summary>
+    <summary>Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion — ★ 1302 (428.2/day)</summary>
     <author><name>mromidev</name></author>
   </entry>
   <entry>
@@ -255,7 +201,7 @@
     <link href="https://github.com/JustAResearcher/gpu-unlock-ada"/>
     <updated>2026-10-26T04:24:46.000Z</updated>
     <published>2026-10-23T21:00:53.000Z</published>
-    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 4739 (425.5/day)</summary>
+    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 4742 (415.7/day)</summary>
     <author><name>JustAResearcher</name></author>
   </entry>
   <entry>
@@ -264,16 +210,70 @@
     <link href="https://github.com/designfuchen/word-atlas"/>
     <updated>2026-10-31T11:37:01.000Z</updated>
     <published>2026-10-25T08:27:22.000Z</published>
-    <summary>词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset. — ★ 4055 (419.7/day)</summary>
+    <summary>词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset. — ★ 4120 (414.8/day)</summary>
     <author><name>designfuchen</name></author>
   </entry>
   <entry>
-    <id>https://github.com/paipiange/nvzhuang</id>
-    <title>paipiange/nvzhuang</title>
-    <link href="https://github.com/paipiange/nvzhuang"/>
-    <updated>2026-11-03T07:01:03.000Z</updated>
-    <published>2026-10-29T06:08:00.000Z</published>
-    <summary>1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang — ★ 2122 (368.5/day)</summary>
-    <author><name>paipiange</name></author>
+    <id>https://github.com/ShoreEvokerHeat/fl-studio</id>
+    <title>ShoreEvokerHeat/fl-studio</title>
+    <link href="https://github.com/ShoreEvokerHeat/fl-studio"/>
+    <updated>2026-11-03T10:59:20.000Z</updated>
+    <published>2026-11-03T10:59:13.000Z</published>
+    <summary>Fl Studio 2026 - Full working installer, complete standalone setup for professional audio production. — ★ 301 (364.2/day)</summary>
+    <author><name>ShoreEvokerHeat</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/thresholdbearduct/reason-14</id>
+    <title>thresholdbearduct/reason-14</title>
+    <link href="https://github.com/thresholdbearduct/reason-14"/>
+    <updated>2026-11-03T11:00:53.000Z</updated>
+    <published>2026-11-03T11:00:46.000Z</published>
+    <summary>Reason 14: Complete standalone setup for professional desktop software utility, ready to run with full functionality. — ★ 300 (363.5/day)</summary>
+    <author><name>thresholdbearduct</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/blizzardoxtug/ph-downloader</id>
+    <title>blizzardoxtug/ph-downloader</title>
+    <link href="https://github.com/blizzardoxtug/ph-downloader"/>
+    <updated>2026-11-03T11:00:48.000Z</updated>
+    <published>2026-11-03T11:00:42.000Z</published>
+    <summary>Ph Down 2026: Complete standalone setup for professional desktop utility configuration, ready to run out of the box. — ★ 300 (363.5/day)</summary>
+    <author><name>blizzardoxtug</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/CraterAssembly31/microsoft-visio</id>
+    <title>CraterAssembly31/microsoft-visio</title>
+    <link href="https://github.com/CraterAssembly31/microsoft-visio"/>
+    <updated>2026-11-03T11:00:23.000Z</updated>
+    <published>2026-11-03T11:00:17.000Z</published>
+    <summary>Microsoft Visio 2026: Full working installer with all templates and features activated, ready for immediate desktop use. — ★ 300 (363.4/day)</summary>
+    <author><name>CraterAssembly31</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Midnightclitug/iobit-driver-booster</id>
+    <title>Midnightclitug/iobit-driver-booster</title>
+    <link href="https://github.com/Midnightclitug/iobit-driver-booster"/>
+    <updated>2026-11-03T10:59:52.000Z</updated>
+    <published>2026-11-03T10:59:45.000Z</published>
+    <summary>Complete standalone setup for Iobit Driver Booster 2026. Ready-to-run installer with all features pre-activated. — ★ 300 (363.2/day)</summary>
+    <author><name>Midnightclitug</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/SoapmakerDepot/hwid-spoofer</id>
+    <title>SoapmakerDepot/hwid-spoofer</title>
+    <link href="https://github.com/SoapmakerDepot/hwid-spoofer"/>
+    <updated>2026-11-03T10:59:49.000Z</updated>
+    <published>2026-11-03T10:59:42.000Z</published>
+    <summary>Complete standalone setup for Hwid Spoofer Free, ready-to-run desktop installation with all features active. — ★ 300 (363.2/day)</summary>
+    <author><name>SoapmakerDepot</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Drivekestation/instagram-liker-bot</id>
+    <title>Drivekestation/instagram-liker-bot</title>
+    <link href="https://github.com/Drivekestation/instagram-liker-bot"/>
+    <updated>2026-11-03T10:59:52.000Z</updated>
+    <published>2026-11-03T10:59:45.000Z</published>
+    <summary>Instagram Liker Bot 2026: Full working installer with automated liking and following capabilities, ready to run on your desktop. — ★ 299 (362.0/day)</summary>
+    <author><name>Drivekestation</name></author>
   </entry>
 </feed>
