@@ -5,32 +5,32 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-04T21:08:05.031Z</updated>
+  <updated>2026-11-05T01:36:06.447Z</updated>
   <entry>
     <id>https://github.com/deepseek-ai/dsh-superagent-prototype</id>
     <title>deepseek-ai/dsh-superagent-prototype</title>
     <link href="https://github.com/deepseek-ai/dsh-superagent-prototype"/>
     <updated>2026-11-03T09:29:14.000Z</updated>
     <published>2026-10-31T09:32:46.000Z</published>
-    <summary>Towards a More Autonomous Agent System — ★ 18485 (4123.5/day)</summary>
+    <summary>Towards a More Autonomous Agent System — ★ 18601 (3983.9/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/craft-anything</id>
     <title>storytold/craft-anything</title>
     <link href="https://github.com/storytold/craft-anything"/>
-    <updated>2026-11-04T14:47:50.000Z</updated>
+    <updated>2026-11-04T22:45:59.000Z</updated>
     <published>2026-10-31T14:50:00.000Z</published>
-    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 11253 (2640.0/day)</summary>
+    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 11906 (2676.3/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
     <id>https://github.com/KKKKhazix/agent-autoloop</id>
     <title>KKKKhazix/agent-autoloop</title>
     <link href="https://github.com/KKKKhazix/agent-autoloop"/>
-    <updated>2026-11-04T14:34:19.000Z</updated>
+    <updated>2026-11-05T01:29:11.000Z</updated>
     <published>2026-11-03T08:02:11.000Z</published>
-    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 2391 (1546.8/day)</summary>
+    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 2550 (1472.4/day)</summary>
     <author><name>KKKKhazix</name></author>
   </entry>
   <entry>
@@ -39,7 +39,7 @@
     <link href="https://github.com/heydamir/unslop"/>
     <updated>2026-11-01T16:46:10.000Z</updated>
     <published>2026-10-29T15:41:21.000Z</published>
-    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 8525 (1369.1/day)</summary>
+    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 8692 (1355.4/day)</summary>
     <author><name>heydamir</name></author>
   </entry>
   <entry>
@@ -48,7 +48,7 @@
     <link href="https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"/>
     <updated>2026-11-04T14:57:03.000Z</updated>
     <published>2026-11-04T14:54:56.000Z</published>
-    <summary>Google_AI_Pro_2Year_ZeroCost_Auto — ★ 318 (1227.2/day)</summary>
+    <summary>Google_AI_Pro_2Year_ZeroCost_Auto — ★ 579 (1300.4/day)</summary>
     <author><name>worldonlyu</name></author>
   </entry>
   <entry>
@@ -57,25 +57,16 @@
     <link href="https://github.com/wangzan101/Mika"/>
     <updated>2026-11-04T19:20:22.000Z</updated>
     <published>2026-10-29T14:34:07.000Z</published>
-    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 6594 (1051.1/day)</summary>
+    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 6656 (1030.4/day)</summary>
     <author><name>wangzan101</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/StraitBailiff/Voice-Changer-2026</id>
-    <title>StraitBailiff/Voice-Changer-2026</title>
-    <link href="https://github.com/StraitBailiff/Voice-Changer-2026"/>
-    <updated>2026-11-04T17:59:22.000Z</updated>
-    <published>2026-11-04T17:59:02.000Z</published>
-    <summary>Lightweight desktop application for real-time voice changing. Multiple voice effects, low latency, easy integration with games, Discord and streaming software. Clean interface, regularly updated. — ★ 235 (940.0/day)</summary>
-    <author><name>StraitBailiff</name></author>
   </entry>
   <entry>
     <id>https://github.com/ccch1mneyyy/dsh-Go</id>
     <title>ccch1mneyyy/dsh-Go</title>
     <link href="https://github.com/ccch1mneyyy/dsh-Go"/>
-    <updated>2026-11-04T20:58:25.000Z</updated>
+    <updated>2026-11-05T01:24:17.000Z</updated>
     <published>2026-10-25T08:09:52.000Z</published>
-    <summary>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 — ★ 9354 (887.4/day)</summary>
+    <summary>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 — ★ 9564 (891.6/day)</summary>
     <author><name>ccch1mneyyy</name></author>
   </entry>
   <entry>
@@ -84,7 +75,7 @@
     <link href="https://github.com/patch-gg/pixelfx"/>
     <updated>2026-10-31T08:44:14.000Z</updated>
     <published>2026-10-30T06:43:25.000Z</published>
-    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 4660 (832.1/day)</summary>
+    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 4729 (817.2/day)</summary>
     <author><name>patch-gg</name></author>
   </entry>
   <entry>
@@ -93,7 +84,7 @@
     <link href="https://github.com/govijr/terminal-mac"/>
     <updated>2026-11-03T12:34:41.000Z</updated>
     <published>2026-11-03T03:22:56.000Z</published>
-    <summary>Entire MacOS running in your terminal. — ★ 1422 (817.4/day)</summary>
+    <summary>Entire MacOS running in your terminal. — ★ 1555 (807.4/day)</summary>
     <author><name>govijr</name></author>
   </entry>
   <entry>
@@ -102,8 +93,17 @@
     <link href="https://github.com/valentderah/totk-pc-recomp"/>
     <updated>2026-11-04T19:42:06.000Z</updated>
     <published>2026-10-29T12:32:46.000Z</published>
-    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included. — ★ 4808 (756.2/day)</summary>
+    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included. — ★ 4870 (744.2/day)</summary>
     <author><name>valentderah</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/StraitBailiff/Voice-Changer-2026</id>
+    <title>StraitBailiff/Voice-Changer-2026</title>
+    <link href="https://github.com/StraitBailiff/Voice-Changer-2026"/>
+    <updated>2026-11-04T17:59:22.000Z</updated>
+    <published>2026-11-04T17:59:02.000Z</published>
+    <summary>Lightweight desktop application for real-time voice changing. Multiple voice effects, low latency, easy integration with games, Discord and streaming software. Clean interface, regularly updated. — ★ 235 (740.4/day)</summary>
+    <author><name>StraitBailiff</name></author>
   </entry>
   <entry>
     <id>https://github.com/anhao/ai-pose-gallery-zh</id>
@@ -111,7 +111,7 @@
     <link href="https://github.com/anhao/ai-pose-gallery-zh"/>
     <updated>2026-11-04T08:09:10.000Z</updated>
     <published>2026-10-27T12:24:37.000Z</published>
-    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 5939 (710.1/day)</summary>
+    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 5950 (695.9/day)</summary>
     <author><name>anhao</name></author>
   </entry>
   <entry>
@@ -120,107 +120,17 @@
     <link href="https://github.com/unclebob/ub-mode"/>
     <updated>2026-11-02T15:08:31.000Z</updated>
     <published>2026-10-25T16:04:09.000Z</published>
-    <summary>No description. — ★ 6967 (682.3/day)</summary>
+    <summary>No description. — ★ 6985 (671.8/day)</summary>
     <author><name>unclebob</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Lostuaexpand/windows-animated-wallpapers</id>
-    <title>Lostuaexpand/windows-animated-wallpapers</title>
-    <link href="https://github.com/Lostuaexpand/windows-animated-wallpapers"/>
-    <updated>2026-11-04T04:53:51.000Z</updated>
-    <published>2026-11-04T04:53:31.000Z</published>
-    <summary>High-quality animated and live wallpapers for Windows 10 and 11. Smooth 60 FPS animations, low CPU usage, 4K support. Open-source and portable — ★ 426 (629.4/day)</summary>
-    <author><name>Lostuaexpand</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/DeltaProviderGuide/auto-auction-bot-wow-forever</id>
-    <title>DeltaProviderGuide/auto-auction-bot-wow-forever</title>
-    <link href="https://github.com/DeltaProviderGuide/auto-auction-bot-wow-forever"/>
-    <updated>2026-11-04T06:24:04.000Z</updated>
-    <published>2026-11-04T05:41:32.000Z</published>
-    <summary>A free Auction House bot for WoW Forever: buys low, posts high and undercuts for you. Windows app plus in-game panel. — ★ 397 (617.0/day)</summary>
-    <author><name>DeltaProviderGuide</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/DenColonelWrinkle/ios-unlocker</id>
-    <title>DenColonelWrinkle/ios-unlocker</title>
-    <link href="https://github.com/DenColonelWrinkle/ios-unlocker"/>
-    <updated>2026-11-04T08:43:42.000Z</updated>
-    <published>2026-11-04T08:43:35.000Z</published>
-    <summary>Complete standalone iOS Unlocker 2026 setup, ready to run with all features activated. — ★ 301 (582.2/day)</summary>
-    <author><name>DenColonelWrinkle</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/RamCocoonSever/microstation-2026</id>
-    <title>RamCocoonSever/microstation-2026</title>
-    <link href="https://github.com/RamCocoonSever/microstation-2026"/>
-    <updated>2026-11-04T08:44:11.000Z</updated>
-    <published>2026-11-04T08:44:05.000Z</published>
-    <summary>Microstation 2026: Full working installer with all features pre-activated, ready for immediate desktop use. — ★ 300 (580.6/day)</summary>
-    <author><name>RamCocoonSever</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ArenaSoldierPlay/microsoft-office</id>
-    <title>ArenaSoldierPlay/microsoft-office</title>
-    <link href="https://github.com/ArenaSoldierPlay/microsoft-office"/>
-    <updated>2026-11-04T08:44:07.000Z</updated>
-    <published>2026-11-04T08:44:01.000Z</published>
-    <summary>Microsoft Office 2026 complete standalone installation setup. Pre-activated desktop edition ready to run. — ★ 300 (580.6/day)</summary>
-    <author><name>ArenaSoldierPlay</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/purehazecottage/metatrader-5-bot</id>
-    <title>purehazecottage/metatrader-5-bot</title>
-    <link href="https://github.com/purehazecottage/metatrader-5-bot"/>
-    <updated>2026-11-04T08:44:06.000Z</updated>
-    <published>2026-11-04T08:43:59.000Z</published>
-    <summary>Metatrader 5 Bot Full working installer for professional trading automation, ready to run on your desktop. — ★ 300 (580.6/day)</summary>
-    <author><name>purehazecottage</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/VectorLobsterBearing/landr-plugin-bundle</id>
-    <title>VectorLobsterBearing/landr-plugin-bundle</title>
-    <link href="https://github.com/VectorLobsterBearing/landr-plugin-bundle"/>
-    <updated>2026-11-04T08:43:47.000Z</updated>
-    <published>2026-11-04T08:43:40.000Z</published>
-    <summary>Landr Plugin Bundle 2026: Full working installer with all essential plugins pre-installed and ready to run on your desktop. — ★ 300 (580.3/day)</summary>
-    <author><name>VectorLobsterBearing</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/driftcoralemporium/instagram-liker-bot</id>
-    <title>driftcoralemporium/instagram-liker-bot</title>
-    <link href="https://github.com/driftcoralemporium/instagram-liker-bot"/>
-    <updated>2026-11-04T08:43:40.000Z</updated>
-    <published>2026-11-04T08:43:33.000Z</published>
-    <summary>Instagram Liker Bot 2023: Complete standalone setup with automated liking and following features, ready to run on your desktop. — ★ 300 (580.2/day)</summary>
-    <author><name>driftcoralemporium</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/RaikageRegard/foneazy-mobile</id>
-    <title>RaikageRegard/foneazy-mobile</title>
-    <link href="https://github.com/RaikageRegard/foneazy-mobile"/>
-    <updated>2026-11-04T08:43:08.000Z</updated>
-    <published>2026-11-04T08:43:01.000Z</published>
-    <summary>Complete standalone setup for Foneazy Mobile 2023. Fully functional desktop installation ready to run. — ★ 300 (579.8/day)</summary>
-    <author><name>RaikageRegard</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Basinflaworship2/fl-studio</id>
-    <title>Basinflaworship2/fl-studio</title>
-    <link href="https://github.com/Basinflaworship2/fl-studio"/>
-    <updated>2026-11-04T08:43:01.000Z</updated>
-    <published>2026-11-04T08:42:55.000Z</published>
-    <summary>Fl Studio 2026: Full working installer with all essential plugins and features, ready to run on your desktop. — ★ 300 (579.7/day)</summary>
-    <author><name>Basinflaworship2</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/DriftRhymePrevail/genesis-miner</id>
-    <title>DriftRhymePrevail/genesis-miner</title>
-    <link href="https://github.com/DriftRhymePrevail/genesis-miner"/>
-    <updated>2026-11-04T08:43:09.000Z</updated>
-    <published>2026-11-04T08:43:03.000Z</published>
-    <summary>Genesis Miner 2026: Full working installer with optimized mining algorithms for enhanced performance. — ★ 295 (570.2/day)</summary>
-    <author><name>DriftRhymePrevail</name></author>
+    <id>https://github.com/Balanov/latch</id>
+    <title>Balanov/latch</title>
+    <link href="https://github.com/Balanov/latch"/>
+    <updated>2026-11-05T00:57:24.000Z</updated>
+    <published>2026-11-04T16:57:51.000Z</published>
+    <summary>One tiny HTTPS contract between any agent and any service. Quote, approve, commit, receipt. Zero dependencies. MIT. — ★ 210 (583.5/day)</summary>
+    <author><name>Balanov</name></author>
   </entry>
   <entry>
     <id>https://github.com/BryceYuuu/RUN</id>
@@ -228,7 +138,7 @@
     <link href="https://github.com/BryceYuuu/RUN"/>
     <updated>2026-11-03T07:23:28.000Z</updated>
     <published>2026-10-29T11:28:43.000Z</published>
-    <summary>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区） — ★ 3617 (564.9/day)</summary>
+    <summary>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区） — ★ 3658 (555.2/day)</summary>
     <author><name>BryceYuuu</name></author>
   </entry>
   <entry>
@@ -237,17 +147,26 @@
     <link href="https://github.com/rddmwmddr/android-ad-cleaner"/>
     <updated>2026-11-04T07:28:09.000Z</updated>
     <published>2026-10-24T05:35:47.000Z</published>
-    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 6303 (541.1/day)</summary>
+    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 6319 (534.0/day)</summary>
     <author><name>rddmwmddr</name></author>
   </entry>
   <entry>
     <id>https://github.com/Djihads80/Eglantine</id>
     <title>Djihads80/Eglantine</title>
     <link href="https://github.com/Djihads80/Eglantine"/>
-    <updated>2026-11-04T20:55:15.000Z</updated>
+    <updated>2026-11-04T23:33:45.000Z</updated>
     <published>2026-10-29T00:25:18.000Z</published>
-    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 3565 (519.4/day)</summary>
+    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 3703 (525.3/day)</summary>
     <author><name>Djihads80</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Lostuaexpand/windows-animated-wallpapers</id>
+    <title>Lostuaexpand/windows-animated-wallpapers</title>
+    <link href="https://github.com/Lostuaexpand/windows-animated-wallpapers"/>
+    <updated>2026-11-04T04:53:51.000Z</updated>
+    <published>2026-11-04T04:53:31.000Z</published>
+    <summary>High-quality animated and live wallpapers for Windows 10 and 11. Smooth 60 FPS animations, low CPU usage, 4K support. Open-source and portable — ★ 426 (493.7/day)</summary>
+    <author><name>Lostuaexpand</name></author>
   </entry>
   <entry>
     <id>https://github.com/Verlintas/NOIR</id>
@@ -255,8 +174,17 @@
     <link href="https://github.com/Verlintas/NOIR"/>
     <updated>2026-11-04T14:01:10.000Z</updated>
     <published>2026-10-31T21:34:39.000Z</published>
-    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes. — ★ 2001 (502.6/day)</summary>
+    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes. — ★ 2045 (490.7/day)</summary>
     <author><name>Verlintas</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/DeltaProviderGuide/auto-auction-bot-wow-forever</id>
+    <title>DeltaProviderGuide/auto-auction-bot-wow-forever</title>
+    <link href="https://github.com/DeltaProviderGuide/auto-auction-bot-wow-forever"/>
+    <updated>2026-11-04T06:24:04.000Z</updated>
+    <published>2026-11-04T05:41:32.000Z</published>
+    <summary>A free Auction House bot for WoW Forever: buys low, posts high and undercuts for you. Windows app plus in-game panel. — ★ 405 (488.2/day)</summary>
+    <author><name>DeltaProviderGuide</name></author>
   </entry>
   <entry>
     <id>https://github.com/Minireel/HGhub</id>
@@ -264,8 +192,17 @@
     <link href="https://github.com/Minireel/HGhub"/>
     <updated>2026-11-04T08:30:48.000Z</updated>
     <published>2026-11-03T14:04:27.000Z</published>
-    <summary>YellowFruit third-party client — ★ 622 (480.6/day)</summary>
+    <summary>YellowFruit third-party client — ★ 716 (483.7/day)</summary>
     <author><name>Minireel</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Balanov/equal</id>
+    <title>Balanov/equal</title>
+    <link href="https://github.com/Balanov/equal"/>
+    <updated>2026-11-04T19:25:45.000Z</updated>
+    <published>2026-11-04T17:43:22.000Z</published>
+    <summary>Turn real API traffic into a local sandbox and OpenAPI. Tiny static Go binary, any HTTP SDK, offline development, MIT. — ★ 151 (460.0/day)</summary>
+    <author><name>Balanov</name></author>
   </entry>
   <entry>
     <id>https://github.com/caru-ini/stack-diagram</id>
@@ -273,7 +210,70 @@
     <link href="https://github.com/caru-ini/stack-diagram"/>
     <updated>2026-11-03T03:42:46.000Z</updated>
     <published>2026-11-01T05:35:12.000Z</published>
-    <summary>Agent skill: describe your stack in a sentence, get an architecture diagram with official logos — ★ 1736 (475.9/day)</summary>
+    <summary>Agent skill: describe your stack in a sentence, get an architecture diagram with official logos — ★ 1756 (458.0/day)</summary>
     <author><name>caru-ini</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/DenColonelWrinkle/ios-unlocker</id>
+    <title>DenColonelWrinkle/ios-unlocker</title>
+    <link href="https://github.com/DenColonelWrinkle/ios-unlocker"/>
+    <updated>2026-11-04T08:43:42.000Z</updated>
+    <published>2026-11-04T08:43:35.000Z</published>
+    <summary>Complete standalone iOS Unlocker 2026 setup, ready to run with all features activated. — ★ 301 (428.1/day)</summary>
+    <author><name>DenColonelWrinkle</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/RamCocoonSever/microstation-2026</id>
+    <title>RamCocoonSever/microstation-2026</title>
+    <link href="https://github.com/RamCocoonSever/microstation-2026"/>
+    <updated>2026-11-04T08:44:11.000Z</updated>
+    <published>2026-11-04T08:44:05.000Z</published>
+    <summary>Microstation 2026: Full working installer with all features pre-activated, ready for immediate desktop use. — ★ 300 (426.9/day)</summary>
+    <author><name>RamCocoonSever</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ArenaSoldierPlay/microsoft-office</id>
+    <title>ArenaSoldierPlay/microsoft-office</title>
+    <link href="https://github.com/ArenaSoldierPlay/microsoft-office"/>
+    <updated>2026-11-04T08:44:07.000Z</updated>
+    <published>2026-11-04T08:44:01.000Z</published>
+    <summary>Microsoft Office 2026 complete standalone installation setup. Pre-activated desktop edition ready to run. — ★ 300 (426.8/day)</summary>
+    <author><name>ArenaSoldierPlay</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/purehazecottage/metatrader-5-bot</id>
+    <title>purehazecottage/metatrader-5-bot</title>
+    <link href="https://github.com/purehazecottage/metatrader-5-bot"/>
+    <updated>2026-11-04T08:44:06.000Z</updated>
+    <published>2026-11-04T08:43:59.000Z</published>
+    <summary>Metatrader 5 Bot Full working installer for professional trading automation, ready to run on your desktop. — ★ 300 (426.8/day)</summary>
+    <author><name>purehazecottage</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/VectorLobsterBearing/landr-plugin-bundle</id>
+    <title>VectorLobsterBearing/landr-plugin-bundle</title>
+    <link href="https://github.com/VectorLobsterBearing/landr-plugin-bundle"/>
+    <updated>2026-11-04T08:43:47.000Z</updated>
+    <published>2026-11-04T08:43:40.000Z</published>
+    <summary>Landr Plugin Bundle 2026: Full working installer with all essential plugins pre-installed and ready to run on your desktop. — ★ 300 (426.7/day)</summary>
+    <author><name>VectorLobsterBearing</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/driftcoralemporium/instagram-liker-bot</id>
+    <title>driftcoralemporium/instagram-liker-bot</title>
+    <link href="https://github.com/driftcoralemporium/instagram-liker-bot"/>
+    <updated>2026-11-04T08:43:40.000Z</updated>
+    <published>2026-11-04T08:43:33.000Z</published>
+    <summary>Instagram Liker Bot 2023: Complete standalone setup with automated liking and following features, ready to run on your desktop. — ★ 300 (426.6/day)</summary>
+    <author><name>driftcoralemporium</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/RaikageRegard/foneazy-mobile</id>
+    <title>RaikageRegard/foneazy-mobile</title>
+    <link href="https://github.com/RaikageRegard/foneazy-mobile"/>
+    <updated>2026-11-04T08:43:08.000Z</updated>
+    <published>2026-11-04T08:43:01.000Z</published>
+    <summary>Complete standalone setup for Foneazy Mobile 2023. Fully functional desktop installation ready to run. — ★ 300 (426.4/day)</summary>
+    <author><name>RaikageRegard</name></author>
   </entry>
 </feed>
