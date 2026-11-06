@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-05T22:39:07.259Z</updated>
+  <updated>2026-11-06T03:02:47.594Z</updated>
   <entry>
     <id>https://github.com/deepseek-ai/dsh-superagent-prototype</id>
     <title>deepseek-ai/dsh-superagent-prototype</title>
     <link href="https://github.com/deepseek-ai/dsh-superagent-prototype"/>
     <updated>2026-11-03T09:29:14.000Z</updated>
     <published>2026-10-31T09:32:46.000Z</published>
-    <summary>Towards a More Autonomous Agent System — ★ 19448 (3506.6/day)</summary>
+    <summary>Towards a More Autonomous Agent System — ★ 19612 (3423.2/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/storytold/craft-anything"/>
     <updated>2026-11-05T17:46:31.000Z</updated>
     <published>2026-10-31T14:50:00.000Z</published>
-    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 14827 (2784.0/day)</summary>
+    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 15376 (2791.1/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -30,17 +30,8 @@
     <link href="https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"/>
     <updated>2026-11-04T14:57:03.000Z</updated>
     <published>2026-11-04T14:54:56.000Z</published>
-    <summary>Google_AI_Pro_2Year_ZeroCost_Auto — ★ 2267 (1714.4/day)</summary>
+    <summary>Google_AI_Pro_2Year_ZeroCost_Auto — ★ 2462 (1635.4/day)</summary>
     <author><name>worldonlyu</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Nebularotunnel/Token-Sniper</id>
-    <title>Nebularotunnel/Token-Sniper</title>
-    <link href="https://github.com/Nebularotunnel/Token-Sniper"/>
-    <updated>2026-11-05T16:15:43.000Z</updated>
-    <published>2026-11-05T16:15:17.000Z</published>
-    <summary>Advanced desktop analyzer for DEX activity. Monitors new liquidity pair creation, applies smart filters to detect potential scam and rugpull patterns, and provides real-time alerts. Clean interface, regularly updated — ★ 391 (1466.9/day)</summary>
-    <author><name>Nebularotunnel</name></author>
   </entry>
   <entry>
     <id>https://github.com/heydamir/unslop</id>
@@ -48,25 +39,25 @@
     <link href="https://github.com/heydamir/unslop"/>
     <updated>2026-11-01T16:46:10.000Z</updated>
     <published>2026-10-29T15:41:21.000Z</published>
-    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 9723 (1333.7/day)</summary>
+    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 9903 (1325.1/day)</summary>
     <author><name>heydamir</name></author>
   </entry>
   <entry>
     <id>https://github.com/KKKKhazix/agent-autoloop</id>
     <title>KKKKhazix/agent-autoloop</title>
     <link href="https://github.com/KKKKhazix/agent-autoloop"/>
-    <updated>2026-11-05T17:37:49.000Z</updated>
+    <updated>2026-11-06T02:54:09.000Z</updated>
     <published>2026-11-03T08:02:11.000Z</published>
-    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 3217 (1233.0/day)</summary>
+    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 3302 (1182.6/day)</summary>
     <author><name>KKKKhazix</name></author>
   </entry>
   <entry>
     <id>https://github.com/ccch1mneyyy/dsh-Go</id>
     <title>ccch1mneyyy/dsh-Go</title>
     <link href="https://github.com/ccch1mneyyy/dsh-Go"/>
-    <updated>2026-11-05T22:07:17.000Z</updated>
+    <updated>2026-11-06T03:01:16.000Z</updated>
     <published>2026-10-25T08:09:52.000Z</published>
-    <summary>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 — ★ 11387 (981.3/day)</summary>
+    <summary>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 — ★ 11652 (988.6/day)</summary>
     <author><name>ccch1mneyyy</name></author>
   </entry>
   <entry>
@@ -75,8 +66,17 @@
     <link href="https://github.com/wangzan101/Mika"/>
     <updated>2026-11-05T15:46:37.000Z</updated>
     <published>2026-10-29T14:34:07.000Z</published>
-    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 7071 (963.8/day)</summary>
+    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 7145 (950.1/day)</summary>
     <author><name>wangzan101</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Nebularotunnel/Token-Sniper</id>
+    <title>Nebularotunnel/Token-Sniper</title>
+    <link href="https://github.com/Nebularotunnel/Token-Sniper"/>
+    <updated>2026-11-05T16:15:43.000Z</updated>
+    <published>2026-11-05T16:15:17.000Z</published>
+    <summary>Advanced desktop analyzer for DEX activity. Monitors new liquidity pair creation, applies smart filters to detect potential scam and rugpull patterns, and provides real-time alerts. Clean interface, regularly updated — ★ 391 (869.5/day)</summary>
+    <author><name>Nebularotunnel</name></author>
   </entry>
   <entry>
     <id>https://github.com/patch-gg/pixelfx</id>
@@ -84,7 +84,7 @@
     <link href="https://github.com/patch-gg/pixelfx"/>
     <updated>2026-10-31T08:44:14.000Z</updated>
     <published>2026-10-30T06:43:25.000Z</published>
-    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 5245 (787.1/day)</summary>
+    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 5313 (776.0/day)</summary>
     <author><name>patch-gg</name></author>
   </entry>
   <entry>
@@ -93,7 +93,7 @@
     <link href="https://github.com/valentderah/totk-pc-recomp"/>
     <updated>2026-11-05T17:15:10.000Z</updated>
     <published>2026-10-29T12:32:46.000Z</published>
-    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included. — ★ 5129 (691.1/day)</summary>
+    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included. — ★ 5179 (681.1/day)</summary>
     <author><name>valentderah</name></author>
   </entry>
   <entry>
@@ -102,17 +102,8 @@
     <link href="https://github.com/govijr/terminal-mac"/>
     <updated>2026-11-05T12:21:59.000Z</updated>
     <published>2026-11-03T03:22:56.000Z</published>
-    <summary>Entire MacOS running in your terminal. — ★ 1936 (690.7/day)</summary>
+    <summary>Entire MacOS running in your terminal. — ★ 1976 (661.8/day)</summary>
     <author><name>govijr</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TagPhaseArcade/tiktok-uploader</id>
-    <title>TagPhaseArcade/tiktok-uploader</title>
-    <link href="https://github.com/TagPhaseArcade/tiktok-uploader"/>
-    <updated>2026-11-05T06:49:18.000Z</updated>
-    <published>2026-11-05T06:48:59.000Z</published>
-    <summary>Automated TikTok video uploader with batch processing, scheduling, and hashtag management. Local session-based auth. Open-source and cross-platform — ★ 426 (645.6/day)</summary>
-    <author><name>TagPhaseArcade</name></author>
   </entry>
   <entry>
     <id>https://github.com/anhao/ai-pose-gallery-zh</id>
@@ -120,7 +111,7 @@
     <link href="https://github.com/anhao/ai-pose-gallery-zh"/>
     <updated>2026-11-04T08:09:10.000Z</updated>
     <published>2026-10-27T12:24:37.000Z</published>
-    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 6078 (644.8/day)</summary>
+    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 6105 (635.3/day)</summary>
     <author><name>anhao</name></author>
   </entry>
   <entry>
@@ -129,52 +120,16 @@
     <link href="https://github.com/unclebob/ub-mode"/>
     <updated>2026-11-02T15:08:31.000Z</updated>
     <published>2026-10-25T16:04:09.000Z</published>
-    <summary>No description. — ★ 7095 (629.3/day)</summary>
+    <summary>No description. — ★ 7116 (621.1/day)</summary>
     <author><name>unclebob</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Wallbycontact/java-mod-rust-port-tool</id>
-    <title>Wallbycontact/java-mod-rust-port-tool</title>
-    <link href="https://github.com/Wallbycontact/java-mod-rust-port-tool"/>
-    <updated>2026-11-05T06:19:24.000Z</updated>
-    <published>2026-11-05T06:15:39.000Z</published>
-    <summary>Feed it a Fabric or NeoForge mod jar and Smelt writes the Rust side for Horizon, with the unfinished parts flagged in the report. — ★ 406 (594.5/day)</summary>
-    <author><name>Wallbycontact</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/AtomIllusionistDwell/watson-username-footprint-finder</id>
-    <title>AtomIllusionistDwell/watson-username-footprint-finder</title>
-    <link href="https://github.com/AtomIllusionistDwell/watson-username-footprint-finder"/>
-    <updated>2026-11-05T06:07:17.000Z</updated>
-    <published>2026-11-05T05:20:24.000Z</published>
-    <summary>Free people-search desktop app: look up a nickname, email, phone or site across 3,100+ public pages and get one readable report. — ★ 428 (593.3/day)</summary>
-    <author><name>AtomIllusionistDwell</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/dragonwolfshovel/youtube-uploader</id>
-    <title>dragonwolfshovel/youtube-uploader</title>
-    <link href="https://github.com/dragonwolfshovel/youtube-uploader"/>
-    <updated>2026-11-05T05:16:35.000Z</updated>
-    <published>2026-11-05T05:16:01.000Z</published>
-    <summary>Automated YouTube video uploader with batch processing, thumbnail support, and scheduled publishing. Uses official YouTube Data API v3. Open-source and privacy-first — ★ 426 (588.1/day)</summary>
-    <author><name>dragonwolfshovel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/MythicHokageRepel/steam-inventory-value-desktop</id>
-    <title>MythicHokageRepel/steam-inventory-value-desktop</title>
-    <link href="https://github.com/MythicHokageRepel/steam-inventory-value-desktop"/>
-    <updated>2026-11-05T06:08:32.000Z</updated>
-    <published>2026-11-05T05:32:56.000Z</published>
-    <summary>Desktop app that prices a whole Steam inventory: live floor, average of real sales, per-marketplace payouts and a share card. Portable, no login. — ★ 411 (576.7/day)</summary>
-    <author><name>MythicHokageRepel</name></author>
   </entry>
   <entry>
     <id>https://github.com/Djihads80/Eglantine</id>
     <title>Djihads80/Eglantine</title>
     <link href="https://github.com/Djihads80/Eglantine"/>
-    <updated>2026-11-05T21:58:15.000Z</updated>
+    <updated>2026-11-06T01:51:55.000Z</updated>
     <published>2026-10-29T00:25:18.000Z</published>
-    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 4350 (548.8/day)</summary>
+    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 4474 (551.7/day)</summary>
     <author><name>Djihads80</name></author>
   </entry>
   <entry>
@@ -183,17 +138,26 @@
     <link href="https://github.com/BryceYuuu/RUN"/>
     <updated>2026-11-03T07:23:28.000Z</updated>
     <published>2026-10-29T11:28:43.000Z</published>
-    <summary>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区） — ★ 3940 (527.8/day)</summary>
+    <summary>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区） — ★ 3963 (518.1/day)</summary>
     <author><name>BryceYuuu</name></author>
   </entry>
   <entry>
-    <id>https://github.com/WoYun520/pixel-gif-sticker-pack</id>
-    <title>WoYun520/pixel-gif-sticker-pack</title>
-    <link href="https://github.com/WoYun520/pixel-gif-sticker-pack"/>
-    <updated>2026-11-05T14:52:54.000Z</updated>
-    <published>2026-11-05T04:08:24.000Z</published>
-    <summary>A Codex skill for creating and verifying animated GIF sticker packs from character references. — ★ 400 (518.6/day)</summary>
-    <author><name>WoYun520</name></author>
+    <id>https://github.com/rddmwmddr/android-ad-cleaner</id>
+    <title>rddmwmddr/android-ad-cleaner</title>
+    <link href="https://github.com/rddmwmddr/android-ad-cleaner"/>
+    <updated>2026-11-06T02:58:07.000Z</updated>
+    <published>2026-10-24T05:35:47.000Z</published>
+    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 6584 (510.6/day)</summary>
+    <author><name>rddmwmddr</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/TagPhaseArcade/tiktok-uploader</id>
+    <title>TagPhaseArcade/tiktok-uploader</title>
+    <link href="https://github.com/TagPhaseArcade/tiktok-uploader"/>
+    <updated>2026-11-05T06:49:18.000Z</updated>
+    <published>2026-11-05T06:48:59.000Z</published>
+    <summary>Automated TikTok video uploader with batch processing, scheduling, and hashtag management. Local session-based auth. Open-source and cross-platform — ★ 426 (505.4/day)</summary>
+    <author><name>TagPhaseArcade</name></author>
   </entry>
   <entry>
     <id>https://github.com/JosssphZhou/poki</id>
@@ -201,17 +165,8 @@
     <link href="https://github.com/JosssphZhou/poki"/>
     <updated>2026-11-05T16:52:44.000Z</updated>
     <published>2026-11-05T15:04:31.000Z</published>
-    <summary>Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware. — ★ 163 (516.3/day)</summary>
+    <summary>Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware. — ★ 251 (503.2/day)</summary>
     <author><name>JosssphZhou</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/rddmwmddr/android-ad-cleaner</id>
-    <title>rddmwmddr/android-ad-cleaner</title>
-    <link href="https://github.com/rddmwmddr/android-ad-cleaner"/>
-    <updated>2026-11-05T16:55:23.000Z</updated>
-    <published>2026-10-24T05:35:47.000Z</published>
-    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 — ★ 6547 (515.1/day)</summary>
-    <author><name>rddmwmddr</name></author>
   </entry>
   <entry>
     <id>https://github.com/Verlintas/NOIR</id>
@@ -219,8 +174,26 @@
     <link href="https://github.com/Verlintas/NOIR"/>
     <updated>2026-11-05T09:57:51.000Z</updated>
     <published>2026-10-31T21:34:39.000Z</published>
-    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes. — ★ 2448 (485.3/day)</summary>
+    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes. — ★ 2528 (483.6/day)</summary>
     <author><name>Verlintas</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Wallbycontact/java-mod-rust-port-tool</id>
+    <title>Wallbycontact/java-mod-rust-port-tool</title>
+    <link href="https://github.com/Wallbycontact/java-mod-rust-port-tool"/>
+    <updated>2026-11-05T06:19:24.000Z</updated>
+    <published>2026-11-05T06:15:39.000Z</published>
+    <summary>Feed it a Fabric or NeoForge mod jar and Smelt writes the Rust side for Horizon, with the unfinished parts flagged in the report. — ★ 413 (476.9/day)</summary>
+    <author><name>Wallbycontact</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/AtomIllusionistDwell/watson-username-footprint-finder</id>
+    <title>AtomIllusionistDwell/watson-username-footprint-finder</title>
+    <link href="https://github.com/AtomIllusionistDwell/watson-username-footprint-finder"/>
+    <updated>2026-11-05T06:07:17.000Z</updated>
+    <published>2026-11-05T05:20:24.000Z</published>
+    <summary>Free people-search desktop app: look up a nickname, email, phone or site across 3,100+ public pages and get one readable report. — ★ 430 (475.4/day)</summary>
+    <author><name>AtomIllusionistDwell</name></author>
   </entry>
   <entry>
     <id>https://github.com/Minireel/HGhub</id>
@@ -228,26 +201,44 @@
     <link href="https://github.com/Minireel/HGhub"/>
     <updated>2026-11-05T08:41:19.000Z</updated>
     <published>2026-11-03T14:04:27.000Z</published>
-    <summary>YellowFruit third-party client — ★ 1096 (464.9/day)</summary>
+    <summary>YellowFruit third-party client — ★ 1195 (470.4/day)</summary>
     <author><name>Minireel</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/dragonwolfshovel/youtube-uploader</id>
+    <title>dragonwolfshovel/youtube-uploader</title>
+    <link href="https://github.com/dragonwolfshovel/youtube-uploader"/>
+    <updated>2026-11-05T05:16:35.000Z</updated>
+    <published>2026-11-05T05:16:01.000Z</published>
+    <summary>Automated YouTube video uploader with batch processing, thumbnail support, and scheduled publishing. Uses official YouTube Data API v3. Open-source and privacy-first — ★ 426 (469.4/day)</summary>
+    <author><name>dragonwolfshovel</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/MythicHokageRepel/steam-inventory-value-desktop</id>
+    <title>MythicHokageRepel/steam-inventory-value-desktop</title>
+    <link href="https://github.com/MythicHokageRepel/steam-inventory-value-desktop"/>
+    <updated>2026-11-05T06:08:32.000Z</updated>
+    <published>2026-11-05T05:32:56.000Z</published>
+    <summary>Desktop app that prices a whole Steam inventory: live floor, average of real sales, per-marketplace payouts and a share card. Portable, no login. — ★ 416 (464.4/day)</summary>
+    <author><name>MythicHokageRepel</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/WoYun520/pixel-gif-sticker-pack</id>
+    <title>WoYun520/pixel-gif-sticker-pack</title>
+    <link href="https://github.com/WoYun520/pixel-gif-sticker-pack"/>
+    <updated>2026-11-06T02:32:45.000Z</updated>
+    <published>2026-11-05T04:08:24.000Z</published>
+    <summary>A Codex skill for creating and verifying animated GIF sticker packs from character references. — ★ 443 (464.1/day)</summary>
+    <author><name>WoYun520</name></author>
   </entry>
   <entry>
     <id>https://github.com/zortos293/Lichii</id>
     <title>zortos293/Lichii</title>
     <link href="https://github.com/zortos293/Lichii"/>
-    <updated>2026-11-05T22:35:32.000Z</updated>
+    <updated>2026-11-06T01:12:57.000Z</updated>
     <published>2026-10-31T14:17:26.000Z</published>
-    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 2136 (399.4/day)</summary>
+    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 2440 (441.1/day)</summary>
     <author><name>zortos293</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/caru-ini/stack-diagram</id>
-    <title>caru-ini/stack-diagram</title>
-    <link href="https://github.com/caru-ini/stack-diagram"/>
-    <updated>2026-11-03T03:42:46.000Z</updated>
-    <published>2026-11-01T05:35:12.000Z</published>
-    <summary>Agent skill: describe your stack in a sentence, get an architecture diagram with official logos — ★ 1863 (395.5/day)</summary>
-    <author><name>caru-ini</name></author>
   </entry>
   <entry>
     <id>https://github.com/interplains/Zero-Breach-Toolkit</id>
@@ -255,17 +246,26 @@
     <link href="https://github.com/interplains/Zero-Breach-Toolkit"/>
     <updated>2026-11-05T14:13:44.000Z</updated>
     <published>2026-10-25T14:41:34.000Z</published>
-    <summary>Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windows, Mac and Linux, in 27 languages. — ★ 4476 (395.0/day)</summary>
+    <summary>Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windows, Mac and Linux, in 27 languages. — ★ 4486 (389.6/day)</summary>
     <author><name>interplains</name></author>
   </entry>
   <entry>
-    <id>https://github.com/JustAResearcher/gpu-unlock-ada</id>
-    <title>JustAResearcher/gpu-unlock-ada</title>
-    <link href="https://github.com/JustAResearcher/gpu-unlock-ada"/>
-    <updated>2026-10-26T04:24:46.000Z</updated>
-    <published>2026-10-23T21:00:53.000Z</published>
-    <summary>GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally — ★ 4791 (366.6/day)</summary>
-    <author><name>JustAResearcher</name></author>
+    <id>https://github.com/caru-ini/stack-diagram</id>
+    <title>caru-ini/stack-diagram</title>
+    <link href="https://github.com/caru-ini/stack-diagram"/>
+    <updated>2026-11-03T03:42:46.000Z</updated>
+    <published>2026-11-01T05:35:12.000Z</published>
+    <summary>Agent skill: describe your stack in a sentence, get an architecture diagram with official logos — ★ 1875 (383.1/day)</summary>
+    <author><name>caru-ini</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/mromidev/claude-animated-shorts</id>
+    <title>mromidev/claude-animated-shorts</title>
+    <link href="https://github.com/mromidev/claude-animated-shorts"/>
+    <updated>2026-11-01T05:57:14.000Z</updated>
+    <published>2026-11-01T05:50:38.000Z</published>
+    <summary>Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion — ★ 1790 (366.5/day)</summary>
+    <author><name>mromidev</name></author>
   </entry>
   <entry>
     <id>https://github.com/designfuchen/word-atlas</id>
@@ -273,7 +273,7 @@
     <link href="https://github.com/designfuchen/word-atlas"/>
     <updated>2026-10-31T11:37:01.000Z</updated>
     <published>2026-10-25T08:27:22.000Z</published>
-    <summary>词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset. — ★ 4246 (366.3/day)</summary>
+    <summary>词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset. — ★ 4256 (361.5/day)</summary>
     <author><name>designfuchen</name></author>
   </entry>
 </feed>
