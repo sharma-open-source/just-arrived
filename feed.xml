@@ -5,33 +5,24 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-07T02:59:58.690Z</updated>
+  <updated>2026-11-07T09:43:16.206Z</updated>
   <entry>
     <id>https://github.com/deepseek-ai/dsh-superagent-prototype</id>
     <title>deepseek-ai/dsh-superagent-prototype</title>
     <link href="https://github.com/deepseek-ai/dsh-superagent-prototype"/>
     <updated>2026-11-03T09:29:14.000Z</updated>
     <published>2026-10-31T09:32:46.000Z</published>
-    <summary>Towards a More Autonomous Agent System — ★ 20305 (3018.3/day)</summary>
+    <summary>Towards a More Autonomous Agent System — ★ 20516 (2927.8/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/craft-anything</id>
     <title>storytold/craft-anything</title>
     <link href="https://github.com/storytold/craft-anything"/>
-    <updated>2026-11-07T02:54:07.000Z</updated>
+    <updated>2026-11-07T09:24:51.000Z</updated>
     <published>2026-10-31T14:50:00.000Z</published>
-    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 18324 (2816.1/day)</summary>
+    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 19078 (2811.0/day)</summary>
     <author><name>storytold</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/heydamir/unslop</id>
-    <title>heydamir/unslop</title>
-    <link href="https://github.com/heydamir/unslop"/>
-    <updated>2026-11-01T16:46:10.000Z</updated>
-    <published>2026-10-29T15:41:21.000Z</published>
-    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 10789 (1273.6/day)</summary>
-    <author><name>heydamir</name></author>
   </entry>
   <entry>
     <id>https://github.com/JenkinWoo/sheeridVerify</id>
@@ -39,8 +30,17 @@
     <link href="https://github.com/JenkinWoo/sheeridVerify"/>
     <updated>2026-11-06T09:54:37.000Z</updated>
     <published>2026-11-06T09:28:09.000Z</published>
-    <summary>No description. — ★ 905 (1239.0/day)</summary>
+    <summary>No description. — ★ 1273 (1259.8/day)</summary>
     <author><name>JenkinWoo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/heydamir/unslop</id>
+    <title>heydamir/unslop</title>
+    <link href="https://github.com/heydamir/unslop"/>
+    <updated>2026-11-01T16:46:10.000Z</updated>
+    <published>2026-10-29T15:41:21.000Z</published>
+    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 10988 (1255.6/day)</summary>
+    <author><name>heydamir</name></author>
   </entry>
   <entry>
     <id>https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto</id>
@@ -48,43 +48,43 @@
     <link href="https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"/>
     <updated>2026-11-06T03:52:06.000Z</updated>
     <published>2026-11-04T14:54:56.000Z</published>
-    <summary>Google_AI_Pro_2Year_ZeroCost_Auto — ★ 2907 (1161.2/day)</summary>
+    <summary>Google_AI_Pro_2Year_ZeroCost_Auto — ★ 2963 (1064.5/day)</summary>
     <author><name>worldonlyu</name></author>
   </entry>
   <entry>
     <id>https://github.com/ccch1mneyyy/dsh-Go</id>
     <title>ccch1mneyyy/dsh-Go</title>
     <link href="https://github.com/ccch1mneyyy/dsh-Go"/>
-    <updated>2026-11-06T21:48:04.000Z</updated>
+    <updated>2026-11-07T09:19:37.000Z</updated>
     <published>2026-10-25T08:09:52.000Z</published>
-    <summary>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 — ★ 13037 (1019.7/day)</summary>
+    <summary>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 — ★ 13374 (1023.7/day)</summary>
     <author><name>ccch1mneyyy</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/sostenesfreitas/ocarina-recomp</id>
-    <title>sostenesfreitas/ocarina-recomp</title>
-    <link href="https://github.com/sostenesfreitas/ocarina-recomp"/>
-    <updated>2026-11-07T02:33:29.000Z</updated>
-    <published>2026-11-06T22:24:03.000Z</published>
-    <summary>Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included. — ★ 245 (980.0/day)</summary>
-    <author><name>sostenesfreitas</name></author>
   </entry>
   <entry>
     <id>https://github.com/KKKKhazix/agent-autoloop</id>
     <title>KKKKhazix/agent-autoloop</title>
     <link href="https://github.com/KKKKhazix/agent-autoloop"/>
-    <updated>2026-11-07T01:12:00.000Z</updated>
+    <updated>2026-11-07T08:08:37.000Z</updated>
     <published>2026-11-03T08:02:11.000Z</published>
-    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 3712 (979.4/day)</summary>
+    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 3824 (939.5/day)</summary>
     <author><name>KKKKhazix</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/sostenesfreitas/ocarina-recomp</id>
+    <title>sostenesfreitas/ocarina-recomp</title>
+    <link href="https://github.com/sostenesfreitas/ocarina-recomp"/>
+    <updated>2026-11-07T04:13:57.000Z</updated>
+    <published>2026-11-06T22:24:03.000Z</published>
+    <summary>Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included. — ★ 427 (905.3/day)</summary>
+    <author><name>sostenesfreitas</name></author>
   </entry>
   <entry>
     <id>https://github.com/wangzan101/Mika</id>
     <title>wangzan101/Mika</title>
     <link href="https://github.com/wangzan101/Mika"/>
-    <updated>2026-11-06T13:53:48.000Z</updated>
+    <updated>2026-11-07T09:23:00.000Z</updated>
     <published>2026-10-29T14:34:07.000Z</published>
-    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 7417 (870.7/day)</summary>
+    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 7481 (850.3/day)</summary>
     <author><name>wangzan101</name></author>
   </entry>
   <entry>
@@ -93,44 +93,26 @@
     <link href="https://github.com/patch-gg/pixelfx"/>
     <updated>2026-10-31T08:44:14.000Z</updated>
     <published>2026-10-30T06:43:25.000Z</published>
-    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 5621 (716.5/day)</summary>
+    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 5700 (701.5/day)</summary>
     <author><name>patch-gg</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/phaseboulderfetter/discord-quest-completer</id>
-    <title>phaseboulderfetter/discord-quest-completer</title>
-    <link href="https://github.com/phaseboulderfetter/discord-quest-completer"/>
-    <updated>2026-11-06T12:02:17.000Z</updated>
-    <published>2026-11-06T12:01:51.000Z</published>
-    <summary>Auto-complete Discord Quests without installing games. Supports all 5 quest types: game, video, stream, activity, and achievement. Built-in dashboard, safe timing, and privacy-first. Open-source — ★ 425 (681.4/day)</summary>
-    <author><name>phaseboulderfetter</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/valentderah/totk-pc-recomp</id>
-    <title>valentderah/totk-pc-recomp</title>
-    <link href="https://github.com/valentderah/totk-pc-recomp"/>
-    <updated>2026-11-06T18:30:07.000Z</updated>
-    <published>2026-10-29T12:32:46.000Z</published>
-    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included. — ★ 5434 (631.7/day)</summary>
-    <author><name>valentderah</name></author>
   </entry>
   <entry>
     <id>https://github.com/zortos293/Lichii</id>
     <title>zortos293/Lichii</title>
     <link href="https://github.com/zortos293/Lichii"/>
-    <updated>2026-11-07T02:39:18.000Z</updated>
+    <updated>2026-11-07T09:17:25.000Z</updated>
     <published>2026-10-31T14:17:26.000Z</published>
-    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 4081 (625.0/day)</summary>
+    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 4389 (644.5/day)</summary>
     <author><name>zortos293</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Lowbetweentrim/crypto-portfolio-tracker</id>
-    <title>Lowbetweentrim/crypto-portfolio-tracker</title>
-    <link href="https://github.com/Lowbetweentrim/crypto-portfolio-tracker"/>
-    <updated>2026-11-06T09:59:25.000Z</updated>
-    <published>2026-11-06T09:58:59.000Z</published>
-    <summary>Self-hosted, privacy-first crypto portfolio tracker. Import transactions via CSV, track real-time PnL, and manage your assets locally. No cloud, no subscriptions. Open-source — ★ 425 (599.4/day)</summary>
-    <author><name>Lowbetweentrim</name></author>
+    <id>https://github.com/valentderah/totk-pc-recomp</id>
+    <title>valentderah/totk-pc-recomp</title>
+    <link href="https://github.com/valentderah/totk-pc-recomp"/>
+    <updated>2026-11-07T09:23:38.000Z</updated>
+    <published>2026-10-29T12:32:46.000Z</published>
+    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included. — ★ 5522 (621.7/day)</summary>
+    <author><name>valentderah</name></author>
   </entry>
   <entry>
     <id>https://github.com/anhao/ai-pose-gallery-zh</id>
@@ -138,7 +120,7 @@
     <link href="https://github.com/anhao/ai-pose-gallery-zh"/>
     <updated>2026-11-04T08:09:10.000Z</updated>
     <published>2026-10-27T12:24:37.000Z</published>
-    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 6272 (591.3/day)</summary>
+    <summary>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 — ★ 6309 (579.4/day)</summary>
     <author><name>anhao</name></author>
   </entry>
   <entry>
@@ -147,133 +129,151 @@
     <link href="https://github.com/unclebob/ub-mode"/>
     <updated>2026-11-02T15:08:31.000Z</updated>
     <published>2026-10-25T16:04:09.000Z</published>
-    <summary>No description. — ★ 7213 (579.1/day)</summary>
+    <summary>No description. — ★ 7225 (567.3/day)</summary>
     <author><name>unclebob</name></author>
   </entry>
   <entry>
-    <id>https://github.com/roadboltspire/fl-studio</id>
-    <title>roadboltspire/fl-studio</title>
-    <link href="https://github.com/roadboltspire/fl-studio"/>
-    <updated>2026-11-06T17:41:23.000Z</updated>
-    <published>2026-11-06T17:41:14.000Z</published>
-    <summary>Fl Studio 2023 automated deployment pipeline for professional digital audio workstation setup, ensuring seamless local workstation integration. — ★ 220 (567.0/day)</summary>
-    <author><name>roadboltspire</name></author>
+    <id>https://github.com/Djihads80/Eglantine</id>
+    <title>Djihads80/Eglantine</title>
+    <link href="https://github.com/Djihads80/Eglantine"/>
+    <updated>2026-11-07T09:42:08.000Z</updated>
+    <published>2026-10-29T00:25:18.000Z</published>
+    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 4995 (532.1/day)</summary>
+    <author><name>Djihads80</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Netbetweenacclaim/whale-tracker</id>
-    <title>Netbetweenacclaim/whale-tracker</title>
-    <link href="https://github.com/Netbetweenacclaim/whale-tracker"/>
-    <updated>2026-11-06T17:25:42.000Z</updated>
-    <published>2026-11-06T17:25:36.000Z</published>
-    <summary>Whale Tracker 2023 automated deployment pipeline for professional desktop software utility configuration, ensuring seamless local... — ★ 221 (554.1/day)</summary>
-    <author><name>Netbetweenacclaim</name></author>
+    <id>https://github.com/govijr/terminal-mac</id>
+    <title>govijr/terminal-mac</title>
+    <link href="https://github.com/govijr/terminal-mac"/>
+    <updated>2026-11-07T05:58:26.000Z</updated>
+    <published>2026-11-03T03:22:56.000Z</published>
+    <summary>Entire MacOS running in your terminal. — ★ 2199 (515.7/day)</summary>
+    <author><name>govijr</name></author>
   </entry>
   <entry>
-    <id>https://github.com/MinisterRoute/sp-flash-tool</id>
-    <title>MinisterRoute/sp-flash-tool</title>
-    <link href="https://github.com/MinisterRoute/sp-flash-tool"/>
-    <updated>2026-11-06T17:25:03.000Z</updated>
-    <published>2026-11-06T17:24:57.000Z</published>
-    <summary>Sp Flash Tool 2026 pre-configured environment for automated deployment pipeline, ensuring seamless desktop software utility configuration. — ★ 221 (553.4/day)</summary>
-    <author><name>MinisterRoute</name></author>
+    <id>https://github.com/Minireel/HGhub</id>
+    <title>Minireel/HGhub</title>
+    <link href="https://github.com/Minireel/HGhub"/>
+    <updated>2026-11-05T08:41:19.000Z</updated>
+    <published>2026-11-03T14:04:27.000Z</published>
+    <summary>YellowFruit third-party client — ★ 1898 (497.0/day)</summary>
+    <author><name>Minireel</name></author>
   </entry>
   <entry>
-    <id>https://github.com/MetalHairdresser/slideshow-video-maker</id>
-    <title>MetalHairdresser/slideshow-video-maker</title>
-    <link href="https://github.com/MetalHairdresser/slideshow-video-maker"/>
-    <updated>2026-11-06T17:24:55.000Z</updated>
-    <published>2026-11-06T17:24:47.000Z</published>
-    <summary>Slideshow Video Maker 2026 automated deployment pipeline with optimized package deployment for professional video editing and screen... — ★ 221 (553.3/day)</summary>
-    <author><name>MetalHairdresser</name></author>
+    <id>https://github.com/phaseboulderfetter/discord-quest-completer</id>
+    <title>phaseboulderfetter/discord-quest-completer</title>
+    <link href="https://github.com/phaseboulderfetter/discord-quest-completer"/>
+    <updated>2026-11-06T12:02:17.000Z</updated>
+    <published>2026-11-06T12:01:51.000Z</published>
+    <summary>Auto-complete Discord Quests without installing games. Supports all 5 quest types: game, video, stream, activity, and achievement. Built-in dashboard, safe timing, and privacy-first. Open-source — ★ 425 (470.3/day)</summary>
+    <author><name>phaseboulderfetter</name></author>
   </entry>
   <entry>
-    <id>https://github.com/MeteorShipperLook40/sketchup-pro</id>
-    <title>MeteorShipperLook40/sketchup-pro</title>
-    <link href="https://github.com/MeteorShipperLook40/sketchup-pro"/>
-    <updated>2026-11-06T17:24:53.000Z</updated>
-    <published>2026-11-06T17:24:46.000Z</published>
-    <summary>Sketchup Pro 2026 pre-configured production build for professional desktop software utility, ready for seamless local workstation... — ★ 221 (553.3/day)</summary>
-    <author><name>MeteorShipperLook40</name></author>
+    <id>https://github.com/BryceYuuu/RUN</id>
+    <title>BryceYuuu/RUN</title>
+    <link href="https://github.com/BryceYuuu/RUN"/>
+    <updated>2026-11-07T08:57:32.000Z</updated>
+    <published>2026-10-29T11:28:43.000Z</published>
+    <summary>RUN · 润：中国护照持有人的海外移居手册。欧洲 36 国 110 条移民路线 + 13 个主要移民地区：数字游民签证、欧盟蓝卡、技术移民、留学转工作、创业自雇、投资居留，每条附官方来源，持续更新。 — ★ 4133 (463.0/day)</summary>
+    <author><name>BryceYuuu</name></author>
   </entry>
   <entry>
-    <id>https://github.com/MindCatMotor/soundpad</id>
-    <title>MindCatMotor/soundpad</title>
-    <link href="https://github.com/MindCatMotor/soundpad"/>
-    <updated>2026-11-06T17:25:02.000Z</updated>
-    <published>2026-11-06T17:24:56.000Z</published>
-    <summary>Soundpad 2023 pre-configured environment for seamless digital audio workstation setup and studio audio plugin deployment. — ★ 220 (550.9/day)</summary>
-    <author><name>MindCatMotor</name></author>
+    <id>https://github.com/mmdoctor/google-pro-helper</id>
+    <title>mmdoctor/google-pro-helper</title>
+    <link href="https://github.com/mmdoctor/google-pro-helper"/>
+    <updated>2026-11-05T09:41:40.000Z</updated>
+    <published>2026-11-05T04:52:28.000Z</published>
+    <summary>No description. — ★ 998 (453.2/day)</summary>
+    <author><name>mmdoctor</name></author>
   </entry>
   <entry>
-    <id>https://github.com/MetropolisAccountant/solidworks-cad</id>
-    <title>MetropolisAccountant/solidworks-cad</title>
-    <link href="https://github.com/MetropolisAccountant/solidworks-cad"/>
-    <updated>2026-11-06T17:24:56.000Z</updated>
-    <published>2026-11-06T17:24:49.000Z</published>
-    <summary>Solidworks Cad 2026 pre-configured environment for streamlined local workstation deployment, ensuring optimal design and simulation capabilities. — ★ 220 (550.8/day)</summary>
-    <author><name>MetropolisAccountant</name></author>
+    <id>https://github.com/Verlintas/NOIR</id>
+    <title>Verlintas/NOIR</title>
+    <link href="https://github.com/Verlintas/NOIR"/>
+    <updated>2026-11-06T12:39:15.000Z</updated>
+    <published>2026-10-31T21:34:39.000Z</published>
+    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes. — ★ 2826 (434.4/day)</summary>
+    <author><name>Verlintas</name></author>
   </entry>
   <entry>
-    <id>https://github.com/loudspiritspade/multiaccountmanager</id>
-    <title>loudspiritspade/multiaccountmanager</title>
-    <link href="https://github.com/loudspiritspade/multiaccountmanager"/>
-    <updated>2026-11-06T17:24:15.000Z</updated>
-    <published>2026-11-06T17:24:07.000Z</published>
-    <summary>Multiaccountmanager 2023 pre-configured environment for seamless automated deployment pipeline, ensuring robust multi-account management on... — ★ 220 (550.1/day)</summary>
-    <author><name>loudspiritspade</name></author>
+    <id>https://github.com/Lowbetweentrim/crypto-portfolio-tracker</id>
+    <title>Lowbetweentrim/crypto-portfolio-tracker</title>
+    <link href="https://github.com/Lowbetweentrim/crypto-portfolio-tracker"/>
+    <updated>2026-11-06T09:59:25.000Z</updated>
+    <published>2026-11-06T09:58:59.000Z</published>
+    <summary>Self-hosted, privacy-first crypto portfolio tracker. Import transactions via CSV, track real-time PnL, and manage your assets locally. No cloud, no subscriptions. Open-source — ★ 425 (429.7/day)</summary>
+    <author><name>Lowbetweentrim</name></author>
   </entry>
   <entry>
-    <id>https://github.com/LowMaidRectify/musicmakerunlimited</id>
-    <title>LowMaidRectify/musicmakerunlimited</title>
-    <link href="https://github.com/LowMaidRectify/musicmakerunlimited"/>
-    <updated>2026-11-06T17:24:12.000Z</updated>
-    <published>2026-11-06T17:24:06.000Z</published>
-    <summary>Musicmakerunlimited 2024 pre-configured environment for professional desktop software utility configuration, ensuring seamless local... — ★ 220 (550.1/day)</summary>
-    <author><name>LowMaidRectify</name></author>
+    <id>https://github.com/PulverizeLink/roblox-performance-tool</id>
+    <title>PulverizeLink/roblox-performance-tool</title>
+    <link href="https://github.com/PulverizeLink/roblox-performance-tool"/>
+    <updated>2026-11-06T08:04:10.000Z</updated>
+    <published>2026-11-06T08:03:46.000Z</published>
+    <summary>Lightweight performance utility for Roblox on Windows. Boosts FPS, fixes stutter, reduces input lag, and allows custom frame limits. Safe, offline, and open-source — ★ 426 (398.5/day)</summary>
+    <author><name>PulverizeLink</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Fuelflominaret/axie-infinity-bot</id>
-    <title>Fuelflominaret/axie-infinity-bot</title>
-    <link href="https://github.com/Fuelflominaret/axie-infinity-bot"/>
-    <updated>2026-11-06T17:21:31.000Z</updated>
-    <published>2026-11-06T17:21:24.000Z</published>
-    <summary>Axie Infinity Bot 1.3.7 automated deployment pipeline for enterprise-grade desktop software utility configuration, ensuring seamless... — ★ 221 (550.0/day)</summary>
-    <author><name>Fuelflominaret</name></author>
+    <id>https://github.com/JuneYaooo/rea-video</id>
+    <title>JuneYaooo/rea-video</title>
+    <link href="https://github.com/JuneYaooo/rea-video"/>
+    <updated>2026-11-07T09:41:52.000Z</updated>
+    <published>2026-10-29T16:15:01.000Z</published>
+    <summary>Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, cuts and audio were made, and how to remake it. 逆向一切视频，逐镜拆出制作方式并给出复刻方案。 — ★ 3362 (385.2/day)</summary>
+    <author><name>JuneYaooo</name></author>
   </entry>
   <entry>
-    <id>https://github.com/LevelKnightDisengage/microstation-2026</id>
-    <title>LevelKnightDisengage/microstation-2026</title>
-    <link href="https://github.com/LevelKnightDisengage/microstation-2026"/>
-    <updated>2026-11-06T17:23:54.000Z</updated>
-    <published>2026-11-06T17:23:47.000Z</published>
-    <summary>Microstation 2026 automated deployment pipeline for seamless local workstation setup. — ★ 220 (549.8/day)</summary>
-    <author><name>LevelKnightDisengage</name></author>
+    <id>https://github.com/voyager-so/vork</id>
+    <title>voyager-so/vork</title>
+    <link href="https://github.com/voyager-so/vork"/>
+    <updated>2026-11-07T03:34:18.000Z</updated>
+    <published>2026-11-05T22:37:07.000Z</published>
+    <summary>Headless 3D and VFX engine for agents. Research preview. — ★ 559 (382.2/day)</summary>
+    <author><name>voyager-so</name></author>
   </entry>
   <entry>
-    <id>https://github.com/lavagunsmithmystery/metatrader-5-bot</id>
-    <title>lavagunsmithmystery/metatrader-5-bot</title>
-    <link href="https://github.com/lavagunsmithmystery/metatrader-5-bot"/>
-    <updated>2026-11-06T17:23:48.000Z</updated>
-    <published>2026-11-06T17:23:42.000Z</published>
-    <summary>Metatrader 5 Bot repository configuration folder for streamlined automated deployment pipeline in professional desktop software utility environment. — ★ 220 (549.7/day)</summary>
-    <author><name>lavagunsmithmystery</name></author>
+    <id>https://github.com/NotRexed/Hookshot</id>
+    <title>NotRexed/Hookshot</title>
+    <link href="https://github.com/NotRexed/Hookshot"/>
+    <updated>2026-11-07T08:32:31.000Z</updated>
+    <published>2026-11-05T12:18:58.000Z</published>
+    <summary>A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake — ★ 711 (375.8/day)</summary>
+    <author><name>NotRexed</name></author>
   </entry>
   <entry>
-    <id>https://github.com/innerdaimyopush/iobit-driver-booster</id>
-    <title>innerdaimyopush/iobit-driver-booster</title>
-    <link href="https://github.com/innerdaimyopush/iobit-driver-booster"/>
-    <updated>2026-11-06T17:23:29.000Z</updated>
-    <published>2026-11-06T17:23:20.000Z</published>
-    <summary>Iobit Driver Booster 8.5 pre-configured environment for efficient automated deployment pipeline in enterprise desktop software catalog. — ★ 220 (549.4/day)</summary>
-    <author><name>innerdaimyopush</name></author>
+    <id>https://github.com/HerdBuilderEstimate/roblox-studio-mcp</id>
+    <title>HerdBuilderEstimate/roblox-studio-mcp</title>
+    <link href="https://github.com/HerdBuilderEstimate/roblox-studio-mcp"/>
+    <updated>2026-11-06T06:16:56.000Z</updated>
+    <published>2026-11-06T06:16:35.000Z</published>
+    <summary>Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight — ★ 427 (373.4/day)</summary>
+    <author><name>HerdBuilderEstimate</name></author>
   </entry>
   <entry>
-    <id>https://github.com/KnitGnatConduit/ios-unlocker</id>
-    <title>KnitGnatConduit/ios-unlocker</title>
-    <link href="https://github.com/KnitGnatConduit/ios-unlocker"/>
-    <updated>2026-11-06T17:23:24.000Z</updated>
-    <published>2026-11-06T17:23:17.000Z</published>
-    <summary>iOS Unlocker 1.5.3 automated deployment pipeline for seamless local workstation environment setup, ensuring optimal device management and... — ★ 220 (549.3/day)</summary>
-    <author><name>KnitGnatConduit</name></author>
+    <id>https://github.com/Tropicaldrescoop/discord-id-osint-checker</id>
+    <title>Tropicaldrescoop/discord-id-osint-checker</title>
+    <link href="https://github.com/Tropicaldrescoop/discord-id-osint-checker"/>
+    <updated>2026-11-07T03:26:48.000Z</updated>
+    <published>2026-11-06T08:59:05.000Z</published>
+    <summary>Free OSINT app for Discord IDs: paste a user, server or invite and see when it was made and who it copies. — ★ 381 (369.7/day)</summary>
+    <author><name>Tropicaldrescoop</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/interplains/Zero-Breach-Toolkit</id>
+    <title>interplains/Zero-Breach-Toolkit</title>
+    <link href="https://github.com/interplains/Zero-Breach-Toolkit"/>
+    <updated>2026-11-05T14:13:44.000Z</updated>
+    <published>2026-10-25T14:41:34.000Z</published>
+    <summary>Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windows, Mac and Linux, in 27 languages. — ★ 4531 (354.2/day)</summary>
+    <author><name>interplains</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/mromidev/claude-animated-shorts</id>
+    <title>mromidev/claude-animated-shorts</title>
+    <link href="https://github.com/mromidev/claude-animated-shorts"/>
+    <updated>2026-11-01T05:57:14.000Z</updated>
+    <published>2026-11-01T05:50:38.000Z</published>
+    <summary>Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion — ★ 2095 (340.0/day)</summary>
+    <author><name>mromidev</name></author>
   </entry>
 </feed>
