@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-08T16:56:29.190Z</updated>
+  <updated>2026-11-08T20:56:55.943Z</updated>
   <entry>
     <id>https://github.com/storytold/craft-anything</id>
     <title>storytold/craft-anything</title>
     <link href="https://github.com/storytold/craft-anything"/>
-    <updated>2026-11-08T00:33:00.000Z</updated>
+    <updated>2026-11-08T20:41:23.000Z</updated>
     <published>2026-10-31T14:50:00.000Z</published>
-    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 22225 (2748.0/day)</summary>
+    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 22414 (2715.3/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -21,26 +21,44 @@
     <link href="https://github.com/deepseek-ai/dsh-superagent-prototype"/>
     <updated>2026-11-03T09:29:14.000Z</updated>
     <published>2026-10-31T09:32:46.000Z</published>
-    <summary>Towards a More Autonomous Agent System — ★ 21135 (2543.9/day)</summary>
+    <summary>Towards a More Autonomous Agent System — ★ 21166 (2497.4/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
-    <id>https://github.com/CartwrightHammer/aomei-backupper</id>
-    <title>CartwrightHammer/aomei-backupper</title>
-    <link href="https://github.com/CartwrightHammer/aomei-backupper"/>
-    <updated>2026-11-08T14:29:51.000Z</updated>
-    <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Aomei Backupper 1.5.3 pre-configured environment for seamless workstation backup deployment in isolated local environments as of 2026. — ★ 300 (1200.0/day)</summary>
-    <author><name>CartwrightHammer</name></author>
+    <id>https://github.com/heydamir/unslop</id>
+    <title>heydamir/unslop</title>
+    <link href="https://github.com/heydamir/unslop"/>
+    <updated>2026-11-01T16:46:10.000Z</updated>
+    <published>2026-10-29T15:41:21.000Z</published>
+    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 11892 (1163.7/day)</summary>
+    <author><name>heydamir</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Beatzolattice/anyunlock</id>
-    <title>Beatzolattice/anyunlock</title>
-    <link href="https://github.com/Beatzolattice/anyunlock"/>
-    <updated>2026-11-08T14:29:49.000Z</updated>
-    <published>2026-11-08T14:29:44.000Z</published>
-    <summary>Anyunlock 2026: Pre-configured environment for seamless desktop utility workstation deployment. — ★ 300 (1200.0/day)</summary>
-    <author><name>Beatzolattice</name></author>
+    <id>https://github.com/falsekomodohex/sketchup-pro</id>
+    <title>falsekomodohex/sketchup-pro</title>
+    <link href="https://github.com/falsekomodohex/sketchup-pro"/>
+    <updated>2026-11-08T14:29:57.000Z</updated>
+    <published>2026-11-08T14:29:49.000Z</published>
+    <summary>Sketchup Pro 2023 pre-configured production build for professional desktop software utility, designed for seamless local workstation... — ★ 300 (1115.9/day)</summary>
+    <author><name>falsekomodohex</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/feathershieldgazebo/systemcare-pro</id>
+    <title>feathershieldgazebo/systemcare-pro</title>
+    <link href="https://github.com/feathershieldgazebo/systemcare-pro"/>
+    <updated>2026-11-08T14:29:54.000Z</updated>
+    <published>2026-11-08T14:29:47.000Z</published>
+    <summary>Systemcare Pro 2026 automated deployment pipeline ready for immediate workstation setup with pre-configured environment. — ★ 300 (1115.8/day)</summary>
+    <author><name>feathershieldgazebo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/FangSongBang/solidworks-cad</id>
+    <title>FangSongBang/solidworks-cad</title>
+    <link href="https://github.com/FangSongBang/solidworks-cad"/>
+    <updated>2026-11-08T14:29:55.000Z</updated>
+    <published>2026-11-08T14:29:47.000Z</published>
+    <summary>SolidWorks CAD 2026 pre-configured environment for streamlined workstation deployment and efficient production build setup. — ★ 300 (1115.8/day)</summary>
+    <author><name>FangSongBang</name></author>
   </entry>
   <entry>
     <id>https://github.com/FaceAttorney/rust-external-trainer-tool</id>
@@ -48,8 +66,17 @@
     <link href="https://github.com/FaceAttorney/rust-external-trainer-tool"/>
     <updated>2026-11-08T14:29:53.000Z</updated>
     <published>2026-11-08T14:29:46.000Z</published>
-    <summary>Rust External 1.53.0 - Automated deployment pipeline with pre-configured environment settings for efficient desktop software utility setup... — ★ 300 (1200.0/day)</summary>
+    <summary>Rust External 1.53.0 - Automated deployment pipeline with pre-configured environment settings for efficient desktop software utility setup... — ★ 300 (1115.8/day)</summary>
     <author><name>FaceAttorney</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/CartwrightHammer/aomei-backupper</id>
+    <title>CartwrightHammer/aomei-backupper</title>
+    <link href="https://github.com/CartwrightHammer/aomei-backupper"/>
+    <updated>2026-11-08T14:29:51.000Z</updated>
+    <published>2026-11-08T14:29:45.000Z</published>
+    <summary>Aomei Backupper 1.5.3 pre-configured environment for seamless workstation backup deployment in isolated local environments as of 2026. — ★ 300 (1115.8/day)</summary>
+    <author><name>CartwrightHammer</name></author>
   </entry>
   <entry>
     <id>https://github.com/Clipvuslat64/ccleaner-pro</id>
@@ -57,17 +84,8 @@
     <link href="https://github.com/Clipvuslat64/ccleaner-pro"/>
     <updated>2026-11-08T14:29:51.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Ccleaner Pro 2026 pre-configured environment for professional desktop software utility configuration, ensuring optimal performance and... — ★ 300 (1200.0/day)</summary>
+    <summary>Ccleaner Pro 2026 pre-configured environment for professional desktop software utility configuration, ensuring optimal performance and... — ★ 300 (1115.8/day)</summary>
     <author><name>Clipvuslat64</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/BeauticianChopper/adobe-acrobat-pro</id>
-    <title>BeauticianChopper/adobe-acrobat-pro</title>
-    <link href="https://github.com/BeauticianChopper/adobe-acrobat-pro"/>
-    <updated>2026-11-08T14:29:50.000Z</updated>
-    <published>2026-11-08T14:29:44.000Z</published>
-    <summary>Secure PDF Document Processor 2026 pre-configured production build for isolated local environment workstation deployment. — ★ 300 (1200.0/day)</summary>
-    <author><name>BeauticianChopper</name></author>
   </entry>
   <entry>
     <id>https://github.com/eveningpuffinravine/marvel-rivals-trainer-tool</id>
@@ -75,7 +93,7 @@
     <link href="https://github.com/eveningpuffinravine/marvel-rivals-trainer-tool"/>
     <updated>2026-11-08T14:29:51.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Marvel Rivals 2026 pre-configured environment for rapid local workstation deployment. — ★ 300 (1200.0/day)</summary>
+    <summary>Marvel Rivals 2026 pre-configured environment for rapid local workstation deployment. — ★ 300 (1115.8/day)</summary>
     <author><name>eveningpuffinravine</name></author>
   </entry>
   <entry>
@@ -84,7 +102,7 @@
     <link href="https://github.com/ExcellenceSavior/iobit-driver-booster"/>
     <updated>2026-11-08T14:29:50.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Iobit Driver Booster 7.5 pre-configured production build for enterprise desktop software catalog, ensuring optimal driver management and... — ★ 300 (1200.0/day)</summary>
+    <summary>Iobit Driver Booster 7.5 pre-configured production build for enterprise desktop software catalog, ensuring optimal driver management and... — ★ 300 (1115.8/day)</summary>
     <author><name>ExcellenceSavior</name></author>
   </entry>
   <entry>
@@ -93,7 +111,7 @@
     <link href="https://github.com/Exteriordadynamo/metatrader-5-bot"/>
     <updated>2026-11-08T14:29:52.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Metatrader 5 Bot 2026 pre-configured environment for automated deployment pipeline, ensuring seamless desktop software utility setup. — ★ 300 (1200.0/day)</summary>
+    <summary>Metatrader 5 Bot 2026 pre-configured environment for automated deployment pipeline, ensuring seamless desktop software utility setup. — ★ 300 (1115.8/day)</summary>
     <author><name>Exteriordadynamo</name></author>
   </entry>
   <entry>
@@ -102,7 +120,7 @@
     <link href="https://github.com/diameterqueenstore/easeus-partition-master"/>
     <updated>2026-11-08T14:29:51.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Easeus Partition Master 14.5 pre-configured environment for seamless partition management and disk optimization on Windows desktops, ready... — ★ 300 (1200.0/day)</summary>
+    <summary>Easeus Partition Master 14.5 pre-configured environment for seamless partition management and disk optimization on Windows desktops, ready... — ★ 300 (1115.8/day)</summary>
     <author><name>diameterqueenstore</name></author>
   </entry>
   <entry>
@@ -111,17 +129,8 @@
     <link href="https://github.com/CaveIguana56/roshade-for-roblox"/>
     <updated>2026-11-08T14:29:52.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Roshade For Roblox 2026 pre-configured environment for automated desktop software utility deployment. — ★ 300 (1200.0/day)</summary>
+    <summary>Roshade For Roblox 2026 pre-configured environment for automated desktop software utility deployment. — ★ 300 (1115.8/day)</summary>
     <author><name>CaveIguana56</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/feathershieldgazebo/systemcare-pro</id>
-    <title>feathershieldgazebo/systemcare-pro</title>
-    <link href="https://github.com/feathershieldgazebo/systemcare-pro"/>
-    <updated>2026-11-08T14:29:54.000Z</updated>
-    <published>2026-11-08T14:29:47.000Z</published>
-    <summary>Systemcare Pro 2026 automated deployment pipeline ready for immediate workstation setup with pre-configured environment. — ★ 300 (1200.0/day)</summary>
-    <author><name>feathershieldgazebo</name></author>
   </entry>
   <entry>
     <id>https://github.com/Columnfistore/delta-executor-for-pc-bypass</id>
@@ -129,7 +138,7 @@
     <link href="https://github.com/Columnfistore/delta-executor-for-pc-bypass"/>
     <updated>2026-11-08T14:29:51.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Delta Executor For Pc 2026 pre-configured environment for seamless local workstation deployment with automated delta update capabilities. — ★ 300 (1200.0/day)</summary>
+    <summary>Delta Executor For Pc 2026 pre-configured environment for seamless local workstation deployment with automated delta update capabilities. — ★ 300 (1115.8/day)</summary>
     <author><name>Columnfistore</name></author>
   </entry>
   <entry>
@@ -138,7 +147,7 @@
     <link href="https://github.com/CityFiremanWave/fonepaw-unlocker"/>
     <updated>2026-11-08T14:29:51.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Fonepaw Unlocker 2023 pre-configured environment ready for automated deployment pipeline on professional desktop software. — ★ 300 (1200.0/day)</summary>
+    <summary>Fonepaw Unlocker 2023 pre-configured environment ready for automated deployment pipeline on professional desktop software. — ★ 300 (1115.8/day)</summary>
     <author><name>CityFiremanWave</name></author>
   </entry>
   <entry>
@@ -147,7 +156,7 @@
     <link href="https://github.com/ClampBeeCrane/payday-3-trainer-tool"/>
     <updated>2026-11-08T14:29:52.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Payday 3 1.5.4 local workstation deployment package with pre-configured environment and automated deployment pipeline, ready for immediate... — ★ 300 (1200.0/day)</summary>
+    <summary>Payday 3 1.5.4 local workstation deployment package with pre-configured environment and automated deployment pipeline, ready for immediate... — ★ 300 (1115.8/day)</summary>
     <author><name>ClampBeeCrane</name></author>
   </entry>
   <entry>
@@ -156,7 +165,7 @@
     <link href="https://github.com/coasthorsereckon/autodesk-3ds-max"/>
     <updated>2026-11-08T14:29:51.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Autodesk 3Ds Max 2026 pre-configured environment for seamless desktop software utility deployment on professional workstations. — ★ 300 (1200.0/day)</summary>
+    <summary>Autodesk 3Ds Max 2026 pre-configured environment for seamless desktop software utility deployment on professional workstations. — ★ 300 (1115.8/day)</summary>
     <author><name>coasthorsereckon</name></author>
   </entry>
   <entry>
@@ -165,17 +174,8 @@
     <link href="https://github.com/Colossuscliobserve55/cinema-4d"/>
     <updated>2026-11-08T14:29:51.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Cinema 4D 2026 pre-configured environment for professional desktop software utility configuration, ready for automated deployment pipeline. — ★ 300 (1200.0/day)</summary>
+    <summary>Cinema 4D 2026 pre-configured environment for professional desktop software utility configuration, ready for automated deployment pipeline. — ★ 300 (1115.8/day)</summary>
     <author><name>Colossuscliobserve55</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/FangSongBang/solidworks-cad</id>
-    <title>FangSongBang/solidworks-cad</title>
-    <link href="https://github.com/FangSongBang/solidworks-cad"/>
-    <updated>2026-11-08T14:29:55.000Z</updated>
-    <published>2026-11-08T14:29:47.000Z</published>
-    <summary>SolidWorks CAD 2026 pre-configured environment for streamlined workstation deployment and efficient production build setup. — ★ 300 (1200.0/day)</summary>
-    <author><name>FangSongBang</name></author>
   </entry>
   <entry>
     <id>https://github.com/Creekchodome/passfab-unlocker</id>
@@ -183,7 +183,7 @@
     <link href="https://github.com/Creekchodome/passfab-unlocker"/>
     <updated>2026-11-08T14:29:51.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Passfab Unlocker 2023 pre-configured environment for secure and efficient desktop software utility management. — ★ 300 (1200.0/day)</summary>
+    <summary>Passfab Unlocker 2023 pre-configured environment for secure and efficient desktop software utility management. — ★ 300 (1115.8/day)</summary>
     <author><name>Creekchodome</name></author>
   </entry>
   <entry>
@@ -192,88 +192,88 @@
     <link href="https://github.com/CopperHammerPeace/delta-force-trainer-tool"/>
     <updated>2026-11-08T14:29:52.000Z</updated>
     <published>2026-11-08T14:29:45.000Z</published>
-    <summary>Delta Force 1.5 automated deployment pipeline for secure, efficient enterprise desktop software utility configuration, ensuring robust... — ★ 300 (1200.0/day)</summary>
+    <summary>Delta Force 1.5 automated deployment pipeline for secure, efficient enterprise desktop software utility configuration, ensuring robust... — ★ 300 (1115.8/day)</summary>
     <author><name>CopperHammerPeace</name></author>
   </entry>
   <entry>
-    <id>https://github.com/falsekomodohex/sketchup-pro</id>
-    <title>falsekomodohex/sketchup-pro</title>
-    <link href="https://github.com/falsekomodohex/sketchup-pro"/>
-    <updated>2026-11-08T14:29:57.000Z</updated>
-    <published>2026-11-08T14:29:49.000Z</published>
-    <summary>Sketchup Pro 2023 pre-configured production build for professional desktop software utility, designed for seamless local workstation... — ★ 300 (1200.0/day)</summary>
-    <author><name>falsekomodohex</name></author>
+    <id>https://github.com/Beatzolattice/anyunlock</id>
+    <title>Beatzolattice/anyunlock</title>
+    <link href="https://github.com/Beatzolattice/anyunlock"/>
+    <updated>2026-11-08T14:29:49.000Z</updated>
+    <published>2026-11-08T14:29:44.000Z</published>
+    <summary>Anyunlock 2026: Pre-configured environment for seamless desktop utility workstation deployment. — ★ 300 (1115.7/day)</summary>
+    <author><name>Beatzolattice</name></author>
   </entry>
   <entry>
-    <id>https://github.com/heydamir/unslop</id>
-    <title>heydamir/unslop</title>
-    <link href="https://github.com/heydamir/unslop"/>
-    <updated>2026-11-01T16:46:10.000Z</updated>
-    <published>2026-10-29T15:41:21.000Z</published>
-    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 11785 (1172.4/day)</summary>
-    <author><name>heydamir</name></author>
+    <id>https://github.com/BeauticianChopper/adobe-acrobat-pro</id>
+    <title>BeauticianChopper/adobe-acrobat-pro</title>
+    <link href="https://github.com/BeauticianChopper/adobe-acrobat-pro"/>
+    <updated>2026-11-08T14:29:50.000Z</updated>
+    <published>2026-11-08T14:29:44.000Z</published>
+    <summary>Secure PDF Document Processor 2026 pre-configured production build for isolated local environment workstation deployment. — ★ 300 (1115.7/day)</summary>
+    <author><name>BeauticianChopper</name></author>
   </entry>
   <entry>
-    <id>https://github.com/updatesealeradicate/start11</id>
-    <title>updatesealeradicate/start11</title>
-    <link href="https://github.com/updatesealeradicate/start11"/>
-    <updated>2026-11-08T08:40:59.000Z</updated>
-    <published>2026-11-08T08:40:51.000Z</published>
-    <summary>Start11 2023 pre-configured environment for efficient desktop software utility deployment on professional workstations. — ★ 301 (874.5/day)</summary>
-    <author><name>updatesealeradicate</name></author>
+    <id>https://github.com/NotRexed/Hookshot</id>
+    <title>NotRexed/Hookshot</title>
+    <link href="https://github.com/NotRexed/Hookshot"/>
+    <updated>2026-11-08T20:54:02.000Z</updated>
+    <published>2026-11-05T12:18:58.000Z</published>
+    <summary>A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake — ★ 2823 (840.3/day)</summary>
+    <author><name>NotRexed</name></author>
   </entry>
   <entry>
-    <id>https://github.com/WebTsuchikage/wondshare-recoverit</id>
-    <title>WebTsuchikage/wondshare-recoverit</title>
-    <link href="https://github.com/WebTsuchikage/wondshare-recoverit"/>
-    <updated>2026-11-08T08:41:48.000Z</updated>
-    <published>2026-11-08T08:41:41.000Z</published>
-    <summary>Wondshare Recoverit 13.5 pre-configured environment for enterprise desktop software utility, ensuring optimal recovery solutions in a... — ★ 300 (873.1/day)</summary>
-    <author><name>WebTsuchikage</name></author>
+    <id>https://github.com/zortos293/Lichii</id>
+    <title>zortos293/Lichii</title>
+    <link href="https://github.com/zortos293/Lichii"/>
+    <updated>2026-11-08T20:53:35.000Z</updated>
+    <published>2026-10-31T14:17:26.000Z</published>
+    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 6687 (807.9/day)</summary>
+    <author><name>zortos293</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Weaveyeretake/wise-registrity</id>
-    <title>Weaveyeretake/wise-registrity</title>
-    <link href="https://github.com/Weaveyeretake/wise-registrity"/>
-    <updated>2026-11-08T08:41:44.000Z</updated>
-    <published>2026-11-08T08:41:38.000Z</published>
-    <summary>Wise Registrity 2026 automated deployment pipeline for secure, pre-configured environment setup on enterprise desktop workstations. — ★ 300 (873.0/day)</summary>
-    <author><name>Weaveyeretake</name></author>
+    <id>https://github.com/tangerineturtle1/NX2navi</id>
+    <title>tangerineturtle1/NX2navi</title>
+    <link href="https://github.com/tangerineturtle1/NX2navi"/>
+    <updated>2026-11-08T20:52:18.000Z</updated>
+    <published>2026-11-07T10:01:23.000Z</published>
+    <summary>No description. — ★ 1154 (793.0/day)</summary>
+    <author><name>tangerineturtle1</name></author>
   </entry>
   <entry>
-    <id>https://github.com/WeaveSeekerJinx/wise-care</id>
-    <title>WeaveSeekerJinx/wise-care</title>
-    <link href="https://github.com/WeaveSeekerJinx/wise-care"/>
-    <updated>2026-11-08T08:41:42.000Z</updated>
-    <published>2026-11-08T08:41:37.000Z</published>
-    <summary>Wise Care 2026 pre-configured environment for enterprise-grade desktop software utility configuration, ensuring seamless local workstation deployment. — ★ 300 (873.0/day)</summary>
-    <author><name>WeaveSeekerJinx</name></author>
+    <id>https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto</id>
+    <title>worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto</title>
+    <link href="https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"/>
+    <updated>2026-11-06T03:52:06.000Z</updated>
+    <published>2026-11-04T14:54:56.000Z</published>
+    <summary>Google_AI_Pro_2Year_ZeroCost_Auto — ★ 3233 (760.5/day)</summary>
+    <author><name>worldonlyu</name></author>
   </entry>
   <entry>
-    <id>https://github.com/WayBuilderDeliver/windows-optimizer</id>
-    <title>WayBuilderDeliver/windows-optimizer</title>
-    <link href="https://github.com/WayBuilderDeliver/windows-optimizer"/>
-    <updated>2026-11-08T08:41:38.000Z</updated>
-    <published>2026-11-08T08:41:33.000Z</published>
-    <summary>Windows Optimizer 2026 automated deployment pipeline for efficient, pre-configured environment setup on enterprise desktops. — ★ 300 (872.8/day)</summary>
-    <author><name>WayBuilderDeliver</name></author>
+    <id>https://github.com/Th0rgal/satmux</id>
+    <title>Th0rgal/satmux</title>
+    <link href="https://github.com/Th0rgal/satmux"/>
+    <updated>2026-11-07T16:26:20.000Z</updated>
+    <published>2026-11-07T16:09:41.000Z</published>
+    <summary>Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies) — ★ 909 (757.8/day)</summary>
+    <author><name>Th0rgal</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Wantfuchannel/whale-tracker</id>
-    <title>Wantfuchannel/whale-tracker</title>
-    <link href="https://github.com/Wantfuchannel/whale-tracker"/>
-    <updated>2026-11-08T08:41:33.000Z</updated>
-    <published>2026-11-08T08:41:26.000Z</published>
-    <summary>Whale Tracker 2023 automated deployment pipeline for efficient desktop software utility configuration management. — ★ 300 (872.6/day)</summary>
-    <author><name>Wantfuchannel</name></author>
+    <id>https://github.com/wangzan101/Mika</id>
+    <title>wangzan101/Mika</title>
+    <link href="https://github.com/wangzan101/Mika"/>
+    <updated>2026-11-07T17:31:49.000Z</updated>
+    <published>2026-10-29T14:34:07.000Z</published>
+    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 7732 (753.2/day)</summary>
+    <author><name>wangzan101</name></author>
   </entry>
   <entry>
-    <id>https://github.com/visioncranedolmen/uttorent</id>
-    <title>visioncranedolmen/uttorent</title>
-    <link href="https://github.com/visioncranedolmen/uttorent"/>
-    <updated>2026-11-08T08:41:27.000Z</updated>
-    <published>2026-11-08T08:41:19.000Z</published>
-    <summary>Uttorent 3.5.1 automated deployment pipeline for secure, efficient desktop software utility configuration in enterprise environments. — ★ 300 (872.4/day)</summary>
-    <author><name>visioncranedolmen</name></author>
+    <id>https://github.com/JenkinWoo/sheeridVerify</id>
+    <title>JenkinWoo/sheeridVerify</title>
+    <link href="https://github.com/JenkinWoo/sheeridVerify"/>
+    <updated>2026-11-06T09:54:37.000Z</updated>
+    <published>2026-11-06T09:28:09.000Z</published>
+    <summary>No description. — ★ 1856 (748.9/day)</summary>
+    <author><name>JenkinWoo</name></author>
   </entry>
 </feed>
