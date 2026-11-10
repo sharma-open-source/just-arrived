@@ -5,23 +5,23 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-10T07:57:47.411Z</updated>
+  <updated>2026-11-10T16:03:20.337Z</updated>
   <entry>
     <id>https://github.com/huamidev/GestaltX</id>
     <title>huamidev/GestaltX</title>
     <link href="https://github.com/huamidev/GestaltX"/>
     <updated>2026-11-10T07:31:56.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages. — ★ 3278 (2946.5/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages. — ★ 4366 (3011.7/day)</summary>
     <author><name>huamidev</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/craft-anything</id>
     <title>storytold/craft-anything</title>
     <link href="https://github.com/storytold/craft-anything"/>
-    <updated>2026-11-10T07:39:23.000Z</updated>
+    <updated>2026-11-10T16:00:16.000Z</updated>
     <published>2026-10-31T14:50:00.000Z</published>
-    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 25152 (2589.3/day)</summary>
+    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 25746 (2561.6/day)</summary>
     <author><name>storytold</name></author>
   </entry>
   <entry>
@@ -30,26 +30,35 @@
     <link href="https://github.com/deepseek-ai/dsh-superagent-prototype"/>
     <updated>2026-11-03T09:29:14.000Z</updated>
     <published>2026-10-31T09:32:46.000Z</published>
-    <summary>Towards a More Autonomous Agent System — ★ 21940 (2208.6/day)</summary>
+    <summary>Towards a More Autonomous Agent System — ★ 22115 (2153.1/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/Kianuni/Erosion-CN</id>
     <title>Kianuni/Erosion-CN</title>
     <link href="https://github.com/Kianuni/Erosion-CN"/>
-    <updated>2026-11-10T07:27:38.000Z</updated>
+    <updated>2026-11-10T14:19:23.000Z</updated>
     <published>2026-11-10T02:37:31.000Z</published>
-    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版） — ★ 411 (1644.0/day)</summary>
+    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版） — ★ 885 (1581.5/day)</summary>
     <author><name>Kianuni</name></author>
   </entry>
   <entry>
     <id>https://github.com/NotRexed/Hookshot</id>
     <title>NotRexed/Hookshot</title>
     <link href="https://github.com/NotRexed/Hookshot"/>
-    <updated>2026-11-10T07:48:43.000Z</updated>
+    <updated>2026-11-10T16:01:55.000Z</updated>
     <published>2026-11-05T12:18:58.000Z</published>
-    <summary>A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake — ★ 5533 (1148.3/day)</summary>
+    <summary>A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake — ★ 6121 (1187.2/day)</summary>
     <author><name>NotRexed</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Minireel/HGhub</id>
+    <title>Minireel/HGhub</title>
+    <link href="https://github.com/Minireel/HGhub"/>
+    <updated>2026-11-10T13:42:26.000Z</updated>
+    <published>2026-11-03T14:04:27.000Z</published>
+    <summary>YellowFruit third-party client — ★ 7958 (1123.6/day)</summary>
+    <author><name>Minireel</name></author>
   </entry>
   <entry>
     <id>https://github.com/heydamir/unslop</id>
@@ -57,61 +66,61 @@
     <link href="https://github.com/heydamir/unslop"/>
     <updated>2026-11-08T21:18:33.000Z</updated>
     <published>2026-10-29T15:41:21.000Z</published>
-    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 13000 (1113.2/day)</summary>
+    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 13450 (1119.4/day)</summary>
     <author><name>heydamir</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Minireel/HGhub</id>
-    <title>Minireel/HGhub</title>
-    <link href="https://github.com/Minireel/HGhub"/>
-    <updated>2026-11-10T04:03:15.000Z</updated>
-    <published>2026-11-03T14:04:27.000Z</published>
-    <summary>YellowFruit third-party client — ★ 7168 (1062.7/day)</summary>
-    <author><name>Minireel</name></author>
   </entry>
   <entry>
     <id>https://github.com/jhaizhou-ops/S2Arm</id>
     <title>jhaizhou-ops/S2Arm</title>
     <link href="https://github.com/jhaizhou-ops/S2Arm"/>
-    <updated>2026-11-10T07:51:47.000Z</updated>
+    <updated>2026-11-10T15:45:58.000Z</updated>
     <published>2026-11-08T05:49:46.000Z</published>
-    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 2148 (1028.3/day)</summary>
+    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 2320 (956.3/day)</summary>
     <author><name>jhaizhou-ops</name></author>
   </entry>
   <entry>
     <id>https://github.com/tangerineturtle1/NX2navi</id>
     <title>tangerineturtle1/NX2navi</title>
     <link href="https://github.com/tangerineturtle1/NX2navi"/>
-    <updated>2026-11-10T07:04:57.000Z</updated>
+    <updated>2026-11-10T13:36:08.000Z</updated>
     <published>2026-11-07T10:01:23.000Z</published>
-    <summary>No description. — ★ 2569 (881.6/day)</summary>
+    <summary>No description. — ★ 2704 (831.7/day)</summary>
     <author><name>tangerineturtle1</name></author>
   </entry>
   <entry>
     <id>https://github.com/zortos293/Lichii</id>
     <title>zortos293/Lichii</title>
     <link href="https://github.com/zortos293/Lichii"/>
-    <updated>2026-11-09T22:52:45.000Z</updated>
+    <updated>2026-11-10T15:51:57.000Z</updated>
     <published>2026-10-31T14:17:26.000Z</published>
-    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 7811 (802.3/day)</summary>
+    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 8005 (794.7/day)</summary>
     <author><name>zortos293</name></author>
   </entry>
   <entry>
     <id>https://github.com/wangzan101/Mika</id>
     <title>wangzan101/Mika</title>
     <link href="https://github.com/wangzan101/Mika"/>
-    <updated>2026-11-10T07:49:02.000Z</updated>
+    <updated>2026-11-10T12:34:51.000Z</updated>
     <published>2026-10-29T14:34:07.000Z</published>
-    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 7966 (679.4/day)</summary>
+    <summary>An on-device AI agent for Android that operates apps and the web to get things done for you. — ★ 8028 (665.6/day)</summary>
     <author><name>wangzan101</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/HolyArrs/HolyArrs</id>
+    <title>HolyArrs/HolyArrs</title>
+    <link href="https://github.com/HolyArrs/HolyArrs"/>
+    <updated>2026-11-10T13:14:18.000Z</updated>
+    <published>2026-11-09T23:53:25.000Z</published>
+    <summary>One self-hosted app for your shows, movies and music. — ★ 415 (616.1/day)</summary>
+    <author><name>HolyArrs</name></author>
   </entry>
   <entry>
     <id>https://github.com/KKKKhazix/agent-autoloop</id>
     <title>KKKKhazix/agent-autoloop</title>
     <link href="https://github.com/KKKKhazix/agent-autoloop"/>
-    <updated>2026-11-10T07:12:12.000Z</updated>
+    <updated>2026-11-10T16:00:08.000Z</updated>
     <published>2026-11-03T08:02:11.000Z</published>
-    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 4358 (622.8/day)</summary>
+    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 4406 (600.8/day)</summary>
     <author><name>KKKKhazix</name></author>
   </entry>
   <entry>
@@ -120,26 +129,17 @@
     <link href="https://github.com/patch-gg/pixelfx"/>
     <updated>2026-11-09T09:51:43.000Z</updated>
     <published>2026-10-30T06:43:25.000Z</published>
-    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 6473 (585.7/day)</summary>
+    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. — ★ 6598 (579.3/day)</summary>
     <author><name>patch-gg</name></author>
   </entry>
   <entry>
     <id>https://github.com/valentderah/totk-pc-recomp</id>
     <title>valentderah/totk-pc-recomp</title>
     <link href="https://github.com/valentderah/totk-pc-recomp"/>
-    <updated>2026-11-10T06:14:23.000Z</updated>
+    <updated>2026-11-10T16:00:17.000Z</updated>
     <published>2026-10-29T12:32:46.000Z</published>
-    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included. — ★ 6263 (530.4/day)</summary>
+    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included. — ★ 6351 (522.9/day)</summary>
     <author><name>valentderah</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/JenkinWoo/sheeridVerify</id>
-    <title>JenkinWoo/sheeridVerify</title>
-    <link href="https://github.com/JenkinWoo/sheeridVerify"/>
-    <updated>2026-11-06T09:54:37.000Z</updated>
-    <published>2026-11-06T09:28:09.000Z</published>
-    <summary>No description. — ★ 1981 (503.1/day)</summary>
-    <author><name>JenkinWoo</name></author>
   </entry>
   <entry>
     <id>https://github.com/JuneYaooo/rea-video</id>
@@ -147,26 +147,8 @@
     <link href="https://github.com/JuneYaooo/rea-video"/>
     <updated>2026-11-09T15:40:48.000Z</updated>
     <published>2026-10-29T16:15:01.000Z</published>
-    <summary>Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。 — ★ 5843 (501.3/day)</summary>
+    <summary>Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。 — ★ 6142 (512.2/day)</summary>
     <author><name>JuneYaooo</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Eglantine-Community/Eglantine</id>
-    <title>Eglantine-Community/Eglantine</title>
-    <link href="https://github.com/Eglantine-Community/Eglantine"/>
-    <updated>2026-11-09T23:47:39.000Z</updated>
-    <published>2026-10-29T00:25:18.000Z</published>
-    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 5685 (461.7/day)</summary>
-    <author><name>Eglantine-Community</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/DIYgod/pinky</id>
-    <title>DIYgod/pinky</title>
-    <link href="https://github.com/DIYgod/pinky"/>
-    <updated>2026-11-10T07:37:12.000Z</updated>
-    <published>2026-11-06T16:53:14.000Z</published>
-    <summary>Let AI agents use your phone, with you in the loop. — ★ 1547 (426.4/day)</summary>
-    <author><name>DIYgod</name></author>
   </entry>
   <entry>
     <id>https://github.com/janestreet/agent_skills</id>
@@ -174,26 +156,53 @@
     <link href="https://github.com/janestreet/agent_skills"/>
     <updated>2026-11-03T18:14:13.000Z</updated>
     <published>2026-11-03T16:50:21.000Z</published>
-    <summary>Agent skills — ★ 2642 (398.5/day)</summary>
+    <summary>Agent skills — ★ 3346 (480.2/day)</summary>
     <author><name>janestreet</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Th0rgal/satmux</id>
-    <title>Th0rgal/satmux</title>
-    <link href="https://github.com/Th0rgal/satmux"/>
-    <updated>2026-11-07T16:26:20.000Z</updated>
-    <published>2026-11-07T16:09:41.000Z</published>
-    <summary>Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies) — ★ 1018 (382.9/day)</summary>
-    <author><name>Th0rgal</name></author>
+    <id>https://github.com/JenkinWoo/sheeridVerify</id>
+    <title>JenkinWoo/sheeridVerify</title>
+    <link href="https://github.com/JenkinWoo/sheeridVerify"/>
+    <updated>2026-11-06T09:54:37.000Z</updated>
+    <published>2026-11-06T09:28:09.000Z</published>
+    <summary>No description. — ★ 2003 (468.6/day)</summary>
+    <author><name>JenkinWoo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Eglantine-Community/Eglantine</id>
+    <title>Eglantine-Community/Eglantine</title>
+    <link href="https://github.com/Eglantine-Community/Eglantine"/>
+    <updated>2026-11-09T23:47:39.000Z</updated>
+    <published>2026-10-29T00:25:18.000Z</published>
+    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 5735 (453.3/day)</summary>
+    <author><name>Eglantine-Community</name></author>
   </entry>
   <entry>
     <id>https://github.com/anefzaoui/misterdownloadmanager</id>
     <title>anefzaoui/misterdownloadmanager</title>
     <link href="https://github.com/anefzaoui/misterdownloadmanager"/>
-    <updated>2026-11-10T07:48:47.000Z</updated>
+    <updated>2026-11-10T14:43:36.000Z</updated>
     <published>2026-10-29T01:25:19.000Z</published>
-    <summary>misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux — ★ 4638 (377.9/day)</summary>
+    <summary>misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux — ★ 5228 (414.6/day)</summary>
     <author><name>anefzaoui</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/DIYgod/pinky</id>
+    <title>DIYgod/pinky</title>
+    <link href="https://github.com/DIYgod/pinky"/>
+    <updated>2026-11-10T15:59:30.000Z</updated>
+    <published>2026-11-06T16:53:14.000Z</published>
+    <summary>Let AI agents use your phone, with you in the loop. — ★ 1639 (413.3/day)</summary>
+    <author><name>DIYgod</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/kolbicz/WQFiles</id>
+    <title>kolbicz/WQFiles</title>
+    <link href="https://github.com/kolbicz/WQFiles"/>
+    <updated>2026-11-10T12:39:53.000Z</updated>
+    <published>2026-11-09T13:43:40.000Z</published>
+    <summary>File browser, app data manager and cache cleaner for iOS 27 (worse_query, no jailbreak) — ★ 450 (410.2/day)</summary>
+    <author><name>kolbicz</name></author>
   </entry>
   <entry>
     <id>https://github.com/BryceYuuu/RUN</id>
@@ -201,35 +210,8 @@
     <link href="https://github.com/BryceYuuu/RUN"/>
     <updated>2026-11-07T08:57:32.000Z</updated>
     <published>2026-10-29T11:28:43.000Z</published>
-    <summary>RUN · 润：中国护照持有人的海外移居手册。欧洲 36 国 110 条移民路线 + 13 个主要移民地区：数字游民签证、欧盟蓝卡、技术移民、留学转工作、创业自雇、投资居留，每条附官方来源，持续更新。 — ★ 4388 (370.2/day)</summary>
+    <summary>RUN · 润：中国护照持有人的海外移居手册。欧洲 36 国 110 条移民路线 + 13 个主要移民地区：数字游民签证、欧盟蓝卡、技术移民、留学转工作、创业自雇、投资居留，每条附官方来源，持续更新。 — ★ 4416 (362.2/day)</summary>
     <author><name>BryceYuuu</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/FJNB5/fujiang-pojia</id>
-    <title>FJNB5/fujiang-pojia</title>
-    <link href="https://github.com/FJNB5/fujiang-pojia"/>
-    <updated>2026-11-09T13:37:10.000Z</updated>
-    <published>2026-11-09T05:55:55.000Z</published>
-    <summary>富江破甲（破甲）：DeepSeek Harness破甲插件，激活词富江，所有东西直接大白话问，内含技能库skill下载与调用、漏洞知识库poc利用、漏洞报告更新和全自动授权渗透。当前版本：0.20.12，附免责声明。插件图片看最下面 — ★ 382 (352.2/day)</summary>
-    <author><name>FJNB5</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/govijr/terminal-mac</id>
-    <title>govijr/terminal-mac</title>
-    <link href="https://github.com/govijr/terminal-mac"/>
-    <updated>2026-11-10T06:06:50.000Z</updated>
-    <published>2026-11-03T03:22:56.000Z</published>
-    <summary>Entire MacOS running in your terminal. — ★ 2527 (351.4/day)</summary>
-    <author><name>govijr</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Verlintas/NOIR</id>
-    <title>Verlintas/NOIR</title>
-    <link href="https://github.com/Verlintas/NOIR"/>
-    <updated>2026-11-07T16:07:16.000Z</updated>
-    <published>2026-10-31T21:34:39.000Z</published>
-    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes. — ★ 3186 (337.8/day)</summary>
-    <author><name>Verlintas</name></author>
   </entry>
   <entry>
     <id>https://github.com/IainKay/ram-altman</id>
@@ -237,34 +219,52 @@
     <link href="https://github.com/IainKay/ram-altman"/>
     <updated>2026-11-06T15:58:11.000Z</updated>
     <published>2026-11-05T16:16:41.000Z</published>
-    <summary>Monitors your RAM and reports any &quot;quite terrible&quot; unused capacity directly to the CEO of OpenAI. — ★ 1535 (329.9/day)</summary>
+    <summary>Monitors your RAM and reports any &quot;quite terrible&quot; unused capacity directly to the CEO of OpenAI. — ★ 1730 (346.6/day)</summary>
     <author><name>IainKay</name></author>
   </entry>
   <entry>
-    <id>https://github.com/sostenesfreitas/ocarina-recomp</id>
-    <title>sostenesfreitas/ocarina-recomp</title>
-    <link href="https://github.com/sostenesfreitas/ocarina-recomp"/>
-    <updated>2026-11-09T22:22:27.000Z</updated>
-    <published>2026-11-06T22:24:03.000Z</published>
-    <summary>Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included. — ★ 1071 (315.1/day)</summary>
-    <author><name>sostenesfreitas</name></author>
+    <id>https://github.com/Th0rgal/satmux</id>
+    <title>Th0rgal/satmux</title>
+    <link href="https://github.com/Th0rgal/satmux"/>
+    <updated>2026-11-07T16:26:20.000Z</updated>
+    <published>2026-11-07T16:09:41.000Z</published>
+    <summary>Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies) — ★ 1025 (342.2/day)</summary>
+    <author><name>Th0rgal</name></author>
   </entry>
   <entry>
-    <id>https://github.com/voyager-so/vork</id>
-    <title>voyager-so/vork</title>
-    <link href="https://github.com/voyager-so/vork"/>
-    <updated>2026-11-10T04:15:54.000Z</updated>
-    <published>2026-11-05T22:37:07.000Z</published>
-    <summary>Headless 3D and VFX engine for agents. Research preview. — ★ 1320 (300.7/day)</summary>
-    <author><name>voyager-so</name></author>
+    <id>https://github.com/govijr/terminal-mac</id>
+    <title>govijr/terminal-mac</title>
+    <link href="https://github.com/govijr/terminal-mac"/>
+    <updated>2026-11-10T06:06:50.000Z</updated>
+    <published>2026-11-03T03:22:56.000Z</published>
+    <summary>Entire MacOS running in your terminal. — ★ 2541 (337.5/day)</summary>
+    <author><name>govijr</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/FJNB5/fujiang-pojia</id>
+    <title>FJNB5/fujiang-pojia</title>
+    <link href="https://github.com/FJNB5/fujiang-pojia"/>
+    <updated>2026-11-09T13:37:10.000Z</updated>
+    <published>2026-11-09T05:55:55.000Z</published>
+    <summary>富江破甲（破甲）：DeepSeek Harness破甲插件，激活词富江，所有东西直接大白话问，内含技能库skill下载与调用、漏洞知识库poc利用、漏洞报告更新和全自动授权渗透。当前版本：0.20.12，附免责声明。插件图片看最下面 — ★ 470 (330.6/day)</summary>
+    <author><name>FJNB5</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Verlintas/NOIR</id>
+    <title>Verlintas/NOIR</title>
+    <link href="https://github.com/Verlintas/NOIR"/>
+    <updated>2026-11-07T16:07:16.000Z</updated>
+    <published>2026-10-31T21:34:39.000Z</published>
+    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes. — ★ 3223 (329.9/day)</summary>
+    <author><name>Verlintas</name></author>
   </entry>
   <entry>
     <id>https://github.com/jamesondh/chimera-vocal-synth</id>
     <title>jamesondh/chimera-vocal-synth</title>
     <link href="https://github.com/jamesondh/chimera-vocal-synth"/>
-    <updated>2026-11-09T15:47:15.000Z</updated>
+    <updated>2026-11-10T15:40:27.000Z</updated>
     <published>2026-11-05T19:10:42.000Z</published>
-    <summary>the ultimate vocal synthesizer - sing, speak, beatbox, and more — ★ 1340 (295.6/day)</summary>
+    <summary>the ultimate vocal synthesizer - sing, speak, beatbox, and more — ★ 1527 (313.6/day)</summary>
     <author><name>jamesondh</name></author>
   </entry>
   <entry>
@@ -273,7 +273,7 @@
     <link href="https://github.com/mmdoctor/google-pro-helper"/>
     <updated>2026-11-05T09:41:40.000Z</updated>
     <published>2026-11-05T04:52:28.000Z</published>
-    <summary>No description. — ★ 1513 (295.0/day)</summary>
+    <summary>No description. — ★ 1601 (292.9/day)</summary>
     <author><name>mmdoctor</name></author>
   </entry>
 </feed>
