@@ -5,24 +5,33 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-11T01:39:34.313Z</updated>
+  <updated>2026-11-11T08:43:26.432Z</updated>
   <entry>
     <id>https://github.com/huamidev/GestaltX</id>
     <title>huamidev/GestaltX</title>
     <link href="https://github.com/huamidev/GestaltX"/>
-    <updated>2026-11-10T07:31:56.000Z</updated>
+    <updated>2026-11-11T03:51:20.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages. — ★ 4839 (2615.9/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages. — ★ 5573 (2599.1/day)</summary>
     <author><name>huamidev</name></author>
   </entry>
   <entry>
     <id>https://github.com/storytold/craft-anything</id>
     <title>storytold/craft-anything</title>
     <link href="https://github.com/storytold/craft-anything"/>
-    <updated>2026-11-11T00:29:36.000Z</updated>
+    <updated>2026-11-11T08:39:07.000Z</updated>
     <published>2026-10-31T14:50:00.000Z</published>
-    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 26407 (2526.7/day)</summary>
+    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 27292 (2539.9/day)</summary>
     <author><name>storytold</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/DemonMajorDenote/anyunlock</id>
+    <title>DemonMajorDenote/anyunlock</title>
+    <link href="https://github.com/DemonMajorDenote/anyunlock"/>
+    <updated>2026-11-11T06:44:23.000Z</updated>
+    <published>2026-11-11T06:44:16.000Z</published>
+    <summary>Anyunlock 1.5.3 automated deployment pipeline for enterprise desktop software utility, ensuring seamless pre-configured environment setup in 2026. — ★ 563 (2252.0/day)</summary>
+    <author><name>DemonMajorDenote</name></author>
   </entry>
   <entry>
     <id>https://github.com/deepseek-ai/dsh-superagent-prototype</id>
@@ -30,17 +39,17 @@
     <link href="https://github.com/deepseek-ai/dsh-superagent-prototype"/>
     <updated>2026-11-03T09:29:14.000Z</updated>
     <published>2026-10-31T09:32:46.000Z</published>
-    <summary>Towards a More Autonomous Agent System — ★ 22196 (2080.0/day)</summary>
+    <summary>Towards a More Autonomous Agent System — ★ 22332 (2036.5/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
-    <id>https://github.com/crewbookkeepercastle/trx-drainer-bot</id>
-    <title>crewbookkeepercastle/trx-drainer-bot</title>
-    <link href="https://github.com/crewbookkeepercastle/trx-drainer-bot"/>
-    <updated>2026-11-10T16:11:45.000Z</updated>
-    <published>2026-11-10T16:11:39.000Z</published>
-    <summary>Trx Drainer Bot 2023 pre-configured environment for automated AI-driven transaction processing in enterprise software catalog. — ★ 564 (1430.1/day)</summary>
-    <author><name>crewbookkeepercastle</name></author>
+    <id>https://github.com/l-friedrich64709109/fifa-20</id>
+    <title>l-friedrich64709109/fifa-20</title>
+    <link href="https://github.com/l-friedrich64709109/fifa-20"/>
+    <updated>2026-11-10T21:56:17.000Z</updated>
+    <published>2026-11-10T21:53:04.000Z</published>
+    <summary>FIFA 20 notes for Windows. A game page with its own preview. — ★ 723 (1600.8/day)</summary>
+    <author><name>l-friedrich64709109</name></author>
   </entry>
   <entry>
     <id>https://github.com/AngleCentipede/ifunbox</id>
@@ -48,7 +57,7 @@
     <link href="https://github.com/AngleCentipede/ifunbox"/>
     <updated>2026-11-10T16:09:11.000Z</updated>
     <published>2026-11-10T16:09:05.000Z</published>
-    <summary>Ifunbox 2026 pre-configured environment for seamless desktop software utility deployment on isolated workstation. — ★ 565 (1426.1/day)</summary>
+    <summary>Ifunbox 2026 pre-configured environment for seamless desktop software utility deployment on isolated workstation. — ★ 1056 (1529.3/day)</summary>
     <author><name>AngleCentipede</name></author>
   </entry>
   <entry>
@@ -57,8 +66,17 @@
     <link href="https://github.com/chambergeneralamp/quant-trading-bot"/>
     <updated>2026-11-10T16:10:45.000Z</updated>
     <published>2026-11-10T16:10:38.000Z</published>
-    <summary>Quant Trading Bot 2023 pre-configured environment for seamless desktop software utility deployment. — ★ 563 (1425.0/day)</summary>
+    <summary>Quant Trading Bot 2023 pre-configured environment for seamless desktop software utility deployment. — ★ 1049 (1521.5/day)</summary>
     <author><name>chambergeneralamp</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/crewbookkeepercastle/trx-drainer-bot</id>
+    <title>crewbookkeepercastle/trx-drainer-bot</title>
+    <link href="https://github.com/crewbookkeepercastle/trx-drainer-bot"/>
+    <updated>2026-11-10T16:11:45.000Z</updated>
+    <published>2026-11-10T16:11:39.000Z</published>
+    <summary>Trx Drainer Bot 2023 pre-configured environment for automated AI-driven transaction processing in enterprise software catalog. — ★ 1047 (1520.2/day)</summary>
+    <author><name>crewbookkeepercastle</name></author>
   </entry>
   <entry>
     <id>https://github.com/CpuMizukageFaucet/touch-copy</id>
@@ -66,7 +84,7 @@
     <link href="https://github.com/CpuMizukageFaucet/touch-copy"/>
     <updated>2026-11-10T16:11:44.000Z</updated>
     <published>2026-11-10T16:11:38.000Z</published>
-    <summary>Touch Copy 2026 automated deployment pipeline for secure, efficient desktop software utility configuration. — ★ 562 (1424.9/day)</summary>
+    <summary>Touch Copy 2026 automated deployment pipeline for secure, efficient desktop software utility configuration. — ★ 1045 (1517.2/day)</summary>
     <author><name>CpuMizukageFaucet</name></author>
   </entry>
   <entry>
@@ -75,7 +93,7 @@
     <link href="https://github.com/BasaltCongressman/wise-registrity"/>
     <updated>2026-11-10T16:12:11.000Z</updated>
     <published>2026-11-10T16:12:04.000Z</published>
-    <summary>Wise Registrity 2026 pre-configured environment for streamlined desktop software utility management on professional workstations. — ★ 561 (1423.5/day)</summary>
+    <summary>Wise Registrity 2026 pre-configured environment for streamlined desktop software utility management on professional workstations. — ★ 1044 (1516.4/day)</summary>
     <author><name>BasaltCongressman</name></author>
   </entry>
   <entry>
@@ -84,7 +102,7 @@
     <link href="https://github.com/Tremorfualembic30/whale-tracker"/>
     <updated>2026-11-10T16:12:05.000Z</updated>
     <published>2026-11-10T16:11:55.000Z</published>
-    <summary>Whale Tracker 2023 pre-configured environment for enterprise desktop software utility, ready for automated deployment pipeline. — ★ 560 (1420.6/day)</summary>
+    <summary>Whale Tracker 2023 pre-configured environment for enterprise desktop software utility, ready for automated deployment pipeline. — ★ 1043 (1514.8/day)</summary>
     <author><name>Tremorfualembic30</name></author>
   </entry>
   <entry>
@@ -93,7 +111,7 @@
     <link href="https://github.com/CpuCoreChant/total-commander"/>
     <updated>2026-11-10T16:11:45.000Z</updated>
     <published>2026-11-10T16:11:37.000Z</published>
-    <summary>Total Commander 9.51 automated deployment pipeline for professional desktop software utility configuration, ensuring seamless workstation... — ★ 560 (1419.8/day)</summary>
+    <summary>Total Commander 9.51 automated deployment pipeline for professional desktop software utility configuration, ensuring seamless workstation... — ★ 1043 (1514.3/day)</summary>
     <author><name>CpuCoreChant</name></author>
   </entry>
   <entry>
@@ -102,53 +120,26 @@
     <link href="https://github.com/Cordkushelter78/tenorshare-4ukey"/>
     <updated>2026-11-10T16:11:39.000Z</updated>
     <published>2026-11-10T16:11:32.000Z</published>
-    <summary>Tenorshare 4Ukey pre-configured environment for secure, efficient desktop software utility deployment in a controlled workstation setting. — ★ 560 (1419.6/day)</summary>
+    <summary>Tenorshare 4Ukey pre-configured environment for secure, efficient desktop software utility deployment in a controlled workstation setting. — ★ 1043 (1514.2/day)</summary>
     <author><name>Cordkushelter78</name></author>
   </entry>
   <entry>
-    <id>https://github.com/l-friedrich64709109/fifa-20</id>
-    <title>l-friedrich64709109/fifa-20</title>
-    <link href="https://github.com/l-friedrich64709109/fifa-20"/>
-    <updated>2026-11-10T21:56:17.000Z</updated>
-    <published>2026-11-10T21:53:04.000Z</published>
-    <summary>FIFA 20 notes for Windows. A game page with its own preview. — ★ 321 (1284.0/day)</summary>
-    <author><name>l-friedrich64709109</name></author>
+    <id>https://github.com/chainpenguinentrance/power-director</id>
+    <title>chainpenguinentrance/power-director</title>
+    <link href="https://github.com/chainpenguinentrance/power-director"/>
+    <updated>2026-11-10T16:10:43.000Z</updated>
+    <published>2026-11-10T16:10:36.000Z</published>
+    <summary>Power Director Configuration Folder 2026 - Optimized package deployment for seamless desktop software utility environment setup. — ★ 874 (1267.6/day)</summary>
+    <author><name>chainpenguinentrance</name></author>
   </entry>
   <entry>
-    <id>https://github.com/NotRexed/Hookshot</id>
-    <title>NotRexed/Hookshot</title>
-    <link href="https://github.com/NotRexed/Hookshot"/>
-    <updated>2026-11-11T01:37:50.000Z</updated>
-    <published>2026-11-05T12:18:58.000Z</published>
-    <summary>A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake — ★ 6595 (1187.0/day)</summary>
-    <author><name>NotRexed</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Kianuni/Erosion-CN</id>
-    <title>Kianuni/Erosion-CN</title>
-    <link href="https://github.com/Kianuni/Erosion-CN"/>
-    <updated>2026-11-10T14:19:23.000Z</updated>
-    <published>2026-11-10T02:37:31.000Z</published>
-    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版） — ★ 1065 (1109.7/day)</summary>
-    <author><name>Kianuni</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/heydamir/unslop</id>
-    <title>heydamir/unslop</title>
-    <link href="https://github.com/heydamir/unslop"/>
-    <updated>2026-11-08T21:18:33.000Z</updated>
-    <published>2026-10-29T15:41:21.000Z</published>
-    <summary>A Claude skill that turns vibecoded, AI-looking UI into a designed interface — ★ 13767 (1108.9/day)</summary>
-    <author><name>heydamir</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Minireel/HGhub</id>
-    <title>Minireel/HGhub</title>
-    <link href="https://github.com/Minireel/HGhub"/>
-    <updated>2026-11-10T13:42:26.000Z</updated>
-    <published>2026-11-03T14:04:27.000Z</published>
-    <summary>YellowFruit third-party client — ★ 8144 (1088.4/day)</summary>
-    <author><name>Minireel</name></author>
+    <id>https://github.com/ZenithGeneralAmend/wondshare-recoverit</id>
+    <title>ZenithGeneralAmend/wondshare-recoverit</title>
+    <link href="https://github.com/ZenithGeneralAmend/wondshare-recoverit"/>
+    <updated>2026-11-10T16:12:15.000Z</updated>
+    <published>2026-11-10T16:12:07.000Z</published>
+    <summary>Wondshare Recoverit 13.5 automated deployment pipeline for enterprise-level data recovery solution, pre-configured environment ensuring... — ★ 860 (1249.2/day)</summary>
+    <author><name>ZenithGeneralAmend</name></author>
   </entry>
   <entry>
     <id>https://github.com/TideSpiderJournal45/androidunlocker</id>
@@ -156,17 +147,8 @@
     <link href="https://github.com/TideSpiderJournal45/androidunlocker"/>
     <updated>2026-11-10T16:06:40.000Z</updated>
     <published>2026-11-10T16:06:34.000Z</published>
-    <summary>AndroidUnlocker 2026 automated deployment pipeline for secure, pre-configured environment setup on isolated desktop workstations. — ★ 366 (919.8/day)</summary>
+    <summary>AndroidUnlocker 2026 automated deployment pipeline for secure, pre-configured environment setup on isolated desktop workstations. — ★ 862 (1245.2/day)</summary>
     <author><name>TideSpiderJournal45</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ChainDistributor/photo-commander</id>
-    <title>ChainDistributor/photo-commander</title>
-    <link href="https://github.com/ChainDistributor/photo-commander"/>
-    <updated>2026-11-10T16:10:37.000Z</updated>
-    <published>2026-11-10T16:10:31.000Z</published>
-    <summary>Photo Commander 2023 optimized package deployment for seamless desktop software utility configuration. — ★ 336 (850.3/day)</summary>
-    <author><name>ChainDistributor</name></author>
   </entry>
   <entry>
     <id>https://github.com/braveemperorcreate/movavi-effects</id>
@@ -174,17 +156,17 @@
     <link href="https://github.com/braveemperorcreate/movavi-effects"/>
     <updated>2026-11-10T16:10:05.000Z</updated>
     <published>2026-11-10T16:09:58.000Z</published>
-    <summary>Video Effects Suite 2026 pre-configured environment for seamless desktop software utility deployment. — ★ 335 (846.9/day)</summary>
+    <summary>Video Effects Suite 2026 pre-configured environment for seamless desktop software utility deployment. — ★ 825 (1195.8/day)</summary>
     <author><name>braveemperorcreate</name></author>
   </entry>
   <entry>
-    <id>https://github.com/jhaizhou-ops/S2Arm</id>
-    <title>jhaizhou-ops/S2Arm</title>
-    <link href="https://github.com/jhaizhou-ops/S2Arm"/>
-    <updated>2026-11-11T01:35:27.000Z</updated>
-    <published>2026-11-08T05:49:46.000Z</published>
-    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 2393 (846.7/day)</summary>
-    <author><name>jhaizhou-ops</name></author>
+    <id>https://github.com/ChainDistributor/photo-commander</id>
+    <title>ChainDistributor/photo-commander</title>
+    <link href="https://github.com/ChainDistributor/photo-commander"/>
+    <updated>2026-11-10T16:10:37.000Z</updated>
+    <published>2026-11-10T16:10:31.000Z</published>
+    <summary>Photo Commander 2023 optimized package deployment for seamless desktop software utility configuration. — ★ 824 (1195.0/day)</summary>
+    <author><name>ChainDistributor</name></author>
   </entry>
   <entry>
     <id>https://github.com/Ceilingyaportico/ph-downloader</id>
@@ -192,17 +174,8 @@
     <link href="https://github.com/Ceilingyaportico/ph-downloader"/>
     <updated>2026-11-10T16:10:39.000Z</updated>
     <published>2026-11-10T16:10:32.000Z</published>
-    <summary>Ph Down 2026 pre-configured environment for seamless local workstation deployment, ensuring optimal software catalog management and... — ★ 332 (840.2/day)</summary>
+    <summary>Ph Down 2026 pre-configured environment for seamless local workstation deployment, ensuring optimal software catalog management and... — ★ 820 (1189.2/day)</summary>
     <author><name>Ceilingyaportico</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/brinkscholarstove/nero-platinum</id>
-    <title>brinkscholarstove/nero-platinum</title>
-    <link href="https://github.com/brinkscholarstove/nero-platinum"/>
-    <updated>2026-11-10T16:10:13.000Z</updated>
-    <published>2026-11-10T16:10:06.000Z</published>
-    <summary>Nero Platinum 2026 pre-configured environment for professional desktop software utility configuration, ensuring seamless local workstation... — ★ 329 (831.9/day)</summary>
-    <author><name>brinkscholarstove</name></author>
   </entry>
   <entry>
     <id>https://github.com/VarnishBakerTrek/claude-jailbreak-prompt</id>
@@ -210,17 +183,26 @@
     <link href="https://github.com/VarnishBakerTrek/claude-jailbreak-prompt"/>
     <updated>2026-11-10T16:07:48.000Z</updated>
     <published>2026-11-10T16:07:41.000Z</published>
-    <summary>Optimized local environment suite for Claude AI pipeline management and custom automation workflows. — ★ 329 (828.4/day)</summary>
+    <summary>Optimized local environment suite for Claude AI pipeline management and custom automation workflows. — ★ 822 (1188.7/day)</summary>
     <author><name>VarnishBakerTrek</name></author>
   </entry>
   <entry>
-    <id>https://github.com/BailiffStudio/marvel-rivals-trainer-tool</id>
-    <title>BailiffStudio/marvel-rivals-trainer-tool</title>
-    <link href="https://github.com/BailiffStudio/marvel-rivals-trainer-tool"/>
-    <updated>2026-11-10T16:09:40.000Z</updated>
-    <published>2026-11-10T16:09:34.000Z</published>
-    <summary>Marvel Rivals 2026 pre-configured production build for enterprise desktop software utility, ready for seamless workstation deployment. — ★ 325 (821.0/day)</summary>
-    <author><name>BailiffStudio</name></author>
+    <id>https://github.com/NotRexed/Hookshot</id>
+    <title>NotRexed/Hookshot</title>
+    <link href="https://github.com/NotRexed/Hookshot"/>
+    <updated>2026-11-11T08:08:17.000Z</updated>
+    <published>2026-11-05T12:18:58.000Z</published>
+    <summary>A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake — ★ 6939 (1186.1/day)</summary>
+    <author><name>NotRexed</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/brinkscholarstove/nero-platinum</id>
+    <title>brinkscholarstove/nero-platinum</title>
+    <link href="https://github.com/brinkscholarstove/nero-platinum"/>
+    <updated>2026-11-10T16:10:13.000Z</updated>
+    <published>2026-11-10T16:10:06.000Z</published>
+    <summary>Nero Platinum 2026 pre-configured environment for professional desktop software utility configuration, ensuring seamless local workstation... — ★ 818 (1185.8/day)</summary>
+    <author><name>brinkscholarstove</name></author>
   </entry>
   <entry>
     <id>https://github.com/BeachGuideWonder/microsoft-project</id>
@@ -228,17 +210,17 @@
     <link href="https://github.com/BeachGuideWonder/microsoft-project"/>
     <updated>2026-11-10T16:09:51.000Z</updated>
     <published>2026-11-10T16:09:43.000Z</published>
-    <summary>Microsoft Project 2026 automated deployment pipeline for efficient enterprise project management workstation setup. — ★ 324 (818.7/day)</summary>
+    <summary>Microsoft Project 2026 automated deployment pipeline for efficient enterprise project management workstation setup. — ★ 814 (1179.6/day)</summary>
     <author><name>BeachGuideWonder</name></author>
   </entry>
   <entry>
-    <id>https://github.com/tangerineturtle1/NX2navi</id>
-    <title>tangerineturtle1/NX2navi</title>
-    <link href="https://github.com/tangerineturtle1/NX2navi"/>
-    <updated>2026-11-10T18:48:43.000Z</updated>
-    <published>2026-11-07T10:01:23.000Z</published>
-    <summary>No description. — ★ 2901 (794.5/day)</summary>
-    <author><name>tangerineturtle1</name></author>
+    <id>https://github.com/BailiffStudio/marvel-rivals-trainer-tool</id>
+    <title>BailiffStudio/marvel-rivals-trainer-tool</title>
+    <link href="https://github.com/BailiffStudio/marvel-rivals-trainer-tool"/>
+    <updated>2026-11-10T16:09:40.000Z</updated>
+    <published>2026-11-10T16:09:34.000Z</published>
+    <summary>Marvel Rivals 2026 pre-configured production build for enterprise desktop software utility, ready for seamless workstation deployment. — ★ 814 (1179.4/day)</summary>
+    <author><name>BailiffStudio</name></author>
   </entry>
   <entry>
     <id>https://github.com/AttoLovebird/landr-plugin-bundle</id>
@@ -246,7 +228,7 @@
     <link href="https://github.com/AttoLovebird/landr-plugin-bundle"/>
     <updated>2026-11-10T16:09:36.000Z</updated>
     <published>2026-11-10T16:09:27.000Z</published>
-    <summary>Landr Plugin Bundle 2026 automated deployment pipeline for seamless desktop utility integration and rapid production setup. — ★ 314 (793.1/day)</summary>
+    <summary>Landr Plugin Bundle 2026 automated deployment pipeline for seamless desktop utility integration and rapid production setup. — ★ 804 (1164.8/day)</summary>
     <author><name>AttoLovebird</name></author>
   </entry>
   <entry>
@@ -255,8 +237,17 @@
     <link href="https://github.com/AssuranceJetty/kms-pico"/>
     <updated>2026-11-10T16:09:33.000Z</updated>
     <published>2026-11-10T16:09:25.000Z</published>
-    <summary>Kms Pico Free 2026 pre-configured environment for streamlined desktop software utility deployment. — ★ 314 (793.0/day)</summary>
+    <summary>Kms Pico Free 2026 pre-configured environment for streamlined desktop software utility deployment. — ★ 804 (1164.7/day)</summary>
     <author><name>AssuranceJetty</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/AdministratorContact/hwid-spoofer</id>
+    <title>AdministratorContact/hwid-spoofer</title>
+    <link href="https://github.com/AdministratorContact/hwid-spoofer"/>
+    <updated>2026-11-10T16:09:10.000Z</updated>
+    <published>2026-11-10T16:09:04.000Z</published>
+    <summary>Hwid Spoofer Free, an essential utility for hardware identification management, offers a pre-configured environment in 2026 designed to... — ★ 800 (1158.5/day)</summary>
+    <author><name>AdministratorContact</name></author>
   </entry>
   <entry>
     <id>https://github.com/Beastdrasmelter/microsoft-visio</id>
@@ -264,16 +255,25 @@
     <link href="https://github.com/Beastdrasmelter/microsoft-visio"/>
     <updated>2026-11-10T16:09:53.000Z</updated>
     <published>2026-11-10T16:09:46.000Z</published>
-    <summary>Microsoft Visio 2026 automated deployment pipeline ready for secure enterprise desktop software utility configuration. — ★ 311 (786.0/day)</summary>
+    <summary>Microsoft Visio 2026 automated deployment pipeline ready for secure enterprise desktop software utility configuration. — ★ 799 (1157.9/day)</summary>
     <author><name>Beastdrasmelter</name></author>
   </entry>
   <entry>
-    <id>https://github.com/zortos293/Lichii</id>
-    <title>zortos293/Lichii</title>
-    <link href="https://github.com/zortos293/Lichii"/>
-    <updated>2026-11-10T20:45:19.000Z</updated>
-    <published>2026-10-31T14:17:26.000Z</published>
-    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 8204 (783.3/day)</summary>
-    <author><name>zortos293</name></author>
+    <id>https://github.com/armspheasantfurnace/ios-unlocker</id>
+    <title>armspheasantfurnace/ios-unlocker</title>
+    <link href="https://github.com/armspheasantfurnace/ios-unlocker"/>
+    <updated>2026-11-10T16:09:29.000Z</updated>
+    <published>2026-11-10T16:09:22.000Z</published>
+    <summary>iOS Unlocker 1.5.3 - Local workstation deployment package for secure, isolated environment configuration and management in 2026. — ★ 799 (1157.4/day)</summary>
+    <author><name>armspheasantfurnace</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/armordovemode/iobit-driver-booster</id>
+    <title>armordovemode/iobit-driver-booster</title>
+    <link href="https://github.com/armordovemode/iobit-driver-booster"/>
+    <updated>2026-11-10T16:09:28.000Z</updated>
+    <published>2026-11-10T16:09:21.000Z</published>
+    <summary>Iobit Driver Booster 2023 automated deployment pipeline for optimized driver management on enterprise desktops. — ★ 799 (1157.4/day)</summary>
+    <author><name>armordovemode</name></author>
   </entry>
 </feed>
