@@ -5,15 +5,24 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-14T02:35:21.523Z</updated>
+  <updated>2026-11-14T09:43:09.566Z</updated>
   <entry>
     <id>https://github.com/huamidev/GestaltX</id>
     <title>huamidev/GestaltX</title>
     <link href="https://github.com/huamidev/GestaltX"/>
-    <updated>2026-11-13T16:51:22.000Z</updated>
+    <updated>2026-11-14T09:27:55.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 7344 (1502.3/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 7448 (1436.3/day)</summary>
     <author><name>huamidev</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/duwqijlk/muse-protocol</id>
+    <title>duwqijlk/muse-protocol</title>
+    <link href="https://github.com/duwqijlk/muse-protocol"/>
+    <updated>2026-11-14T03:36:45.000Z</updated>
+    <published>2026-11-14T01:24:58.000Z</published>
+    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 295 (852.7/day)</summary>
+    <author><name>duwqijlk</name></author>
   </entry>
   <entry>
     <id>https://github.com/Minireel/HGhub</id>
@@ -21,7 +30,7 @@
     <link href="https://github.com/Minireel/HGhub"/>
     <updated>2026-11-10T13:42:26.000Z</updated>
     <published>2026-11-03T14:04:27.000Z</published>
-    <summary>YellowFruit third-party client — ★ 8822 (838.5/day)</summary>
+    <summary>YellowFruit third-party client — ★ 8835 (816.7/day)</summary>
     <author><name>Minireel</name></author>
   </entry>
   <entry>
@@ -30,62 +39,8 @@
     <link href="https://github.com/janestreet/agent_skills"/>
     <updated>2026-11-03T18:14:13.000Z</updated>
     <published>2026-11-03T16:50:21.000Z</published>
-    <summary>Agent skills — ★ 8301 (797.7/day)</summary>
+    <summary>Agent skills — ★ 8390 (783.9/day)</summary>
     <author><name>janestreet</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/DimensionRobin/rob-run-private-cheat</id>
-    <title>DimensionRobin/rob-run-private-cheat</title>
-    <link href="https://github.com/DimensionRobin/rob-run-private-cheat"/>
-    <updated>2026-11-14T01:31:12.000Z</updated>
-    <published>2026-11-14T01:07:40.000Z</published>
-    <summary>No description. — ★ 152 (608.0/day)</summary>
-    <author><name>DimensionRobin</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/tangerineturtle1/NX2navi</id>
-    <title>tangerineturtle1/NX2navi</title>
-    <link href="https://github.com/tangerineturtle1/NX2navi"/>
-    <updated>2026-11-13T17:24:52.000Z</updated>
-    <published>2026-11-07T10:01:23.000Z</published>
-    <summary>No description. — ★ 3914 (585.0/day)</summary>
-    <author><name>tangerineturtle1</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/opencoredev/islandcn</id>
-    <title>opencoredev/islandcn</title>
-    <link href="https://github.com/opencoredev/islandcn"/>
-    <updated>2026-11-13T15:14:36.000Z</updated>
-    <published>2026-11-13T11:50:50.000Z</published>
-    <summary>The open-source Dynamic Island for React, installed with shadcn. — ★ 319 (519.3/day)</summary>
-    <author><name>opencoredev</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/apex-compute/ANR</id>
-    <title>apex-compute/ANR</title>
-    <link href="https://github.com/apex-compute/ANR"/>
-    <updated>2026-11-12T18:20:33.000Z</updated>
-    <published>2026-11-11T04:27:17.000Z</published>
-    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 1501 (513.6/day)</summary>
-    <author><name>apex-compute</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/jhaizhou-ops/S2Arm</id>
-    <title>jhaizhou-ops/S2Arm</title>
-    <link href="https://github.com/jhaizhou-ops/S2Arm"/>
-    <updated>2026-11-14T02:17:17.000Z</updated>
-    <published>2026-11-08T05:49:46.000Z</published>
-    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 2876 (490.4/day)</summary>
-    <author><name>jhaizhou-ops</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Kianuni/Erosion-CN</id>
-    <title>Kianuni/Erosion-CN</title>
-    <link href="https://github.com/Kianuni/Erosion-CN"/>
-    <updated>2026-11-13T15:38:08.000Z</updated>
-    <published>2026-11-10T02:37:31.000Z</published>
-    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版） — ★ 1934 (483.7/day)</summary>
-    <author><name>Kianuni</name></author>
   </entry>
   <entry>
     <id>https://github.com/deepseek-ai/chat-demo</id>
@@ -93,8 +48,188 @@
     <link href="https://github.com/deepseek-ai/chat-demo"/>
     <updated>2026-11-13T14:33:08.000Z</updated>
     <published>2026-11-12T08:08:19.000Z</published>
-    <summary>Chat Demo — ★ 846 (478.3/day)</summary>
+    <summary>Chat Demo — ★ 1300 (629.3/day)</summary>
     <author><name>deepseek-ai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/brisk-thrush-husky/malware-defender-desktop</id>
+    <title>brisk-thrush-husky/malware-defender-desktop</title>
+    <link href="https://github.com/brisk-thrush-husky/malware-defender-desktop"/>
+    <updated>2026-11-14T09:30:35.000Z</updated>
+    <published>2026-11-14T00:49:03.000Z</published>
+    <summary>Malware Defender 2026 desktop setup with real-time protection against malware and ransomware, deep system scan with quarantine and removal, plus web shield that blocks phishing and malicious sites for Windows 11 — ★ 229 (617.4/day)</summary>
+    <author><name>brisk-thrush-husky</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/briskember13/adobe-acrobat-pdf-desktop</id>
+    <title>briskember13/adobe-acrobat-pdf-desktop</title>
+    <link href="https://github.com/briskember13/adobe-acrobat-pdf-desktop"/>
+    <updated>2026-11-14T09:29:31.000Z</updated>
+    <published>2026-11-14T00:46:46.000Z</published>
+    <summary>Adobe Acrobat PDF 2026 desktop setup with text and image editing directly inside any PDF, conversion to and from Word, Excel and images, plus fill, sign and merge documents with an AI assistant for Windows 11 — ★ 229 (614.8/day)</summary>
+    <author><name>briskember13</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/brave-shell-07/izotope-rx-11-desktop</id>
+    <title>brave-shell-07/izotope-rx-11-desktop</title>
+    <link href="https://github.com/brave-shell-07/izotope-rx-11-desktop"/>
+    <updated>2026-11-14T09:29:14.000Z</updated>
+    <published>2026-11-14T00:25:20.000Z</published>
+    <summary>iZotope RX 11 2026 desktop setup with AI audio repair, denoise, de-reverb and de-click, dialogue isolation and spectral editor, plus music rebalance to remix stems from a mix for Windows 11 — ★ 230 (593.7/day)</summary>
+    <author><name>brave-shell-07</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/bradburns2001/topaz-video-ai-desktop</id>
+    <title>bradburns2001/topaz-video-ai-desktop</title>
+    <link href="https://github.com/bradburns2001/topaz-video-ai-desktop"/>
+    <updated>2026-11-14T09:27:21.000Z</updated>
+    <published>2026-11-14T00:26:40.000Z</published>
+    <summary>Topaz Video AI 2026 desktop setup with AI upscaling up to 16K with detail recovery, frame interpolation for smooth slow-motion, plus deinterlace, denoise and stabilize footage for Windows 11 — ★ 229 (592.6/day)</summary>
+    <author><name>bradburns2001</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/brave-plum-co/leonardo-ai-desktop</id>
+    <title>brave-plum-co/leonardo-ai-desktop</title>
+    <link href="https://github.com/brave-plum-co/leonardo-ai-desktop"/>
+    <updated>2026-11-14T09:28:03.000Z</updated>
+    <published>2026-11-14T00:23:46.000Z</published>
+    <summary>Leonardo AI 2026 desktop setup with text-to-image generation using fine-tuned models, canvas editor with inpainting and outpainting, plus real-time generation and image-to-motion for Windows 11 — ★ 227 (584.3/day)</summary>
+    <author><name>brave-plum-co</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/tangerineturtle1/NX2navi</id>
+    <title>tangerineturtle1/NX2navi</title>
+    <link href="https://github.com/tangerineturtle1/NX2navi"/>
+    <updated>2026-11-13T17:24:52.000Z</updated>
+    <published>2026-11-07T10:01:23.000Z</published>
+    <summary>No description. — ★ 3981 (569.7/day)</summary>
+    <author><name>tangerineturtle1</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ben-miller-23/dxo-photolab-10-desktop</id>
+    <title>ben-miller-23/dxo-photolab-10-desktop</title>
+    <link href="https://github.com/ben-miller-23/dxo-photolab-10-desktop"/>
+    <updated>2026-11-14T09:34:03.000Z</updated>
+    <published>2026-11-13T23:49:45.000Z</published>
+    <summary>DxO PhotoLab 10 2026 desktop setup with DeepPRIME XD denoising for clean high-ISO shots, optical corrections from measured lens profiles, and non-destructive RAW workflow with local adjustments on Windows 11 — ★ 230 (558.1/day)</summary>
+    <author><name>ben-miller-23</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/opencoredev/islandcn</id>
+    <title>opencoredev/islandcn</title>
+    <link href="https://github.com/opencoredev/islandcn"/>
+    <updated>2026-11-13T15:14:36.000Z</updated>
+    <published>2026-11-13T11:50:50.000Z</published>
+    <summary>The open-source Dynamic Island for React, installed with shadcn. — ★ 497 (545.4/day)</summary>
+    <author><name>opencoredev</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ben14-dunn/native-instruments-kontakt-desktop</id>
+    <title>ben14-dunn/native-instruments-kontakt-desktop</title>
+    <link href="https://github.com/ben14-dunn/native-instruments-kontakt-desktop"/>
+    <updated>2026-11-14T09:25:48.000Z</updated>
+    <published>2026-11-13T23:37:29.000Z</published>
+    <summary>Native Instruments Kontakt 2026 desktop setup with industry-standard sampler for virtual instruments, thousands of libraries and the Kontakt Factory, plus a scripting engine to build your own instruments on Windows 11 — ★ 229 (544.4/day)</summary>
+    <author><name>ben14-dunn</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ben-cook-42/kontakt-8-desktop</id>
+    <title>ben-cook-42/kontakt-8-desktop</title>
+    <link href="https://github.com/ben-cook-42/kontakt-8-desktop"/>
+    <updated>2026-11-14T09:25:13.000Z</updated>
+    <published>2026-11-13T23:36:24.000Z</published>
+    <summary>Kontakt 8 2026 desktop setup with industry-standard sampler for virtual instruments, thousands of libraries and the Kontakt Factory, plus a scripting engine to build your own instruments on Windows 11 — ★ 228 (541.1/day)</summary>
+    <author><name>ben-cook-42</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ben-kennedy-81/xfer-serum-desktop</id>
+    <title>ben-kennedy-81/xfer-serum-desktop</title>
+    <link href="https://github.com/ben-kennedy-81/xfer-serum-desktop"/>
+    <updated>2026-11-14T09:24:30.000Z</updated>
+    <published>2026-11-13T23:32:39.000Z</published>
+    <summary>Xfer Serum 2026 desktop setup with wavetable synthesizer, visual drawable editor, hundreds of presets with user wavetable import, and modular routing with per-voice effects rack for Windows 11 — ★ 229 (540.1/day)</summary>
+    <author><name>ben-kennedy-81</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/azuresail195/wondershare-recoverit-desktop</id>
+    <title>azuresail195/wondershare-recoverit-desktop</title>
+    <link href="https://github.com/azuresail195/wondershare-recoverit-desktop"/>
+    <updated>2026-11-14T09:23:28.000Z</updated>
+    <published>2026-11-13T23:20:16.000Z</published>
+    <summary>Wondershare Recoverit 2026 desktop setup for recovering deleted files from disks, SD cards and USB drives, repairing corrupted video and photo files, and crashed-system recovery with bootable media on Windows 11 — ★ 230 (531.7/day)</summary>
+    <author><name>azuresail195</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/azuremaple1997/coreldraw-desktop</id>
+    <title>azuremaple1997/coreldraw-desktop</title>
+    <link href="https://github.com/azuremaple1997/coreldraw-desktop"/>
+    <updated>2026-11-14T09:23:07.000Z</updated>
+    <published>2026-11-13T23:17:18.000Z</published>
+    <summary>CorelDraw Desktop 2026 setup with professional color grading, HDR support, Fairlight audio post with unlimited tracks, and multi-user collaboration on a single timeline for Windows 11 — ★ 227 (522.3/day)</summary>
+    <author><name>azuremaple1997</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/azure-teal-slope/windows-optimizer-desktop</id>
+    <title>azure-teal-slope/windows-optimizer-desktop</title>
+    <link href="https://github.com/azure-teal-slope/windows-optimizer-desktop"/>
+    <updated>2026-11-14T09:22:11.000Z</updated>
+    <published>2026-11-13T22:59:12.000Z</published>
+    <summary>Windows Optimizer 2026 desktop setup with temporary file cleaner, startup manager with measured boot impact, and one-click tweaks for services and scheduled tasks on Windows 11 — ★ 229 (512.1/day)</summary>
+    <author><name>azure-teal-slope</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/amber-lance-72/xeno-roblox-desktop</id>
+    <title>amber-lance-72/xeno-roblox-desktop</title>
+    <link href="https://github.com/amber-lance-72/xeno-roblox-desktop"/>
+    <updated>2026-11-14T09:20:42.000Z</updated>
+    <published>2026-11-13T22:51:56.000Z</published>
+    <summary>Xeno Roblox 2026 desktop setup with lightweight script runner, built-in script library with search, and auto-attach on game join for Windows 11 — ★ 229 (506.4/day)</summary>
+    <author><name>amber-lance-72</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ava25-thompson/fishstrap-roblox-fps-booster-desktop</id>
+    <title>ava25-thompson/fishstrap-roblox-fps-booster-desktop</title>
+    <link href="https://github.com/ava25-thompson/fishstrap-roblox-fps-booster-desktop"/>
+    <updated>2026-11-14T09:21:19.000Z</updated>
+    <published>2026-11-13T22:53:46.000Z</published>
+    <summary>Fishstrap Roblox FPS Booster 2026 desktop setup with custom bootstrapper, built-in FPS unlocker, fast rejoin and multi-instance launching, plus mod manager for textures and sounds on Windows 11 — ★ 226 (501.1/day)</summary>
+    <author><name>ava25-thompson</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/apex-compute/ANR</id>
+    <title>apex-compute/ANR</title>
+    <link href="https://github.com/apex-compute/ANR"/>
+    <updated>2026-11-12T18:20:33.000Z</updated>
+    <published>2026-11-11T04:27:17.000Z</published>
+    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 1594 (495.1/day)</summary>
+    <author><name>apex-compute</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/alex-wells-65/iobit-driver-booster-desktop</id>
+    <title>alex-wells-65/iobit-driver-booster-desktop</title>
+    <link href="https://github.com/alex-wells-65/iobit-driver-booster-desktop"/>
+    <updated>2026-11-14T09:18:56.000Z</updated>
+    <published>2026-11-13T22:31:28.000Z</published>
+    <summary>iObit Driver Booster 2026 desktop setup with one-click driver scan, offline installer with rollback, and game boost mode for Windows 11 — ★ 229 (490.9/day)</summary>
+    <author><name>alex-wells-65</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/angela-cook-1988/vegas-pro-23-desktop</id>
+    <title>angela-cook-1988/vegas-pro-23-desktop</title>
+    <link href="https://github.com/angela-cook-1988/vegas-pro-23-desktop"/>
+    <updated>2026-11-14T09:20:21.000Z</updated>
+    <published>2026-11-13T22:34:10.000Z</published>
+    <summary>VEGAS Pro 23 2026 desktop setup with timeline editing, color correction, keyframe animation and DVD/Blu-ray authoring tools for Windows 11 — ★ 228 (490.8/day)</summary>
+    <author><name>angela-cook-1988</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ariamitchell54/cubase-studio-desktop</id>
+    <title>ariamitchell54/cubase-studio-desktop</title>
+    <link href="https://github.com/ariamitchell54/cubase-studio-desktop"/>
+    <updated>2026-11-14T09:18:25.000Z</updated>
+    <published>2026-11-13T22:11:35.000Z</published>
+    <summary>Cubase Studio 2026 desktop setup with full plugin suite and complete feature set — ★ 230 (478.9/day)</summary>
+    <author><name>ariamitchell54</name></author>
   </entry>
   <entry>
     <id>https://github.com/KKKKhazix/agent-autoloop</id>
@@ -102,34 +237,34 @@
     <link href="https://github.com/KKKKhazix/agent-autoloop"/>
     <updated>2026-11-14T02:01:22.000Z</updated>
     <published>2026-11-03T08:02:11.000Z</published>
-    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 5135 (476.7/day)</summary>
+    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 5236 (473.0/day)</summary>
     <author><name>KKKKhazix</name></author>
   </entry>
   <entry>
-    <id>https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows</id>
-    <title>DevedevT/FFmpeg-GUI-Editor-Windows</title>
-    <link href="https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows"/>
-    <updated>2026-11-13T09:24:36.000Z</updated>
-    <published>2026-11-12T20:49:07.000Z</published>
-    <summary>Lightweight portable FFmpeg GUI &amp; lossless video trimmer for Windows (ready-to-use .exe). Supports English, Russian, Chinese, German, French &amp; Italian. — ★ 541 (436.1/day)</summary>
-    <author><name>DevedevT</name></author>
+    <id>https://github.com/jhaizhou-ops/S2Arm</id>
+    <title>jhaizhou-ops/S2Arm</title>
+    <link href="https://github.com/jhaizhou-ops/S2Arm"/>
+    <updated>2026-11-14T09:41:07.000Z</updated>
+    <published>2026-11-08T05:49:46.000Z</published>
+    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 2907 (471.8/day)</summary>
+    <author><name>jhaizhou-ops</name></author>
   </entry>
   <entry>
-    <id>https://github.com/faizfahmi77/ScanDot</id>
-    <title>faizfahmi77/ScanDot</title>
-    <link href="https://github.com/faizfahmi77/ScanDot"/>
-    <updated>2026-11-13T04:27:21.000Z</updated>
-    <published>2026-11-13T04:07:57.000Z</published>
-    <summary>Experimental Android 3D scanning and point-cloud viewer — ★ 388 (414.7/day)</summary>
-    <author><name>faizfahmi77</name></author>
+    <id>https://github.com/Kianuni/Erosion-CN</id>
+    <title>Kianuni/Erosion-CN</title>
+    <link href="https://github.com/Kianuni/Erosion-CN"/>
+    <updated>2026-11-14T06:38:10.000Z</updated>
+    <published>2026-11-10T02:37:31.000Z</published>
+    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版） — ★ 1985 (462.1/day)</summary>
+    <author><name>Kianuni</name></author>
   </entry>
   <entry>
     <id>https://github.com/FrigadeHQ/yogurt</id>
     <title>FrigadeHQ/yogurt</title>
     <link href="https://github.com/FrigadeHQ/yogurt"/>
-    <updated>2026-11-14T02:19:33.000Z</updated>
+    <updated>2026-11-14T09:23:59.000Z</updated>
     <published>2026-11-10T20:01:01.000Z</published>
-    <summary>Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. — ★ 1293 (394.9/day)</summary>
+    <summary>Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. — ★ 1343 (376.1/day)</summary>
     <author><name>FrigadeHQ</name></author>
   </entry>
   <entry>
@@ -138,142 +273,7 @@
     <link href="https://github.com/HybridRobotics/supermimic"/>
     <updated>2026-11-11T08:06:27.000Z</updated>
     <published>2026-11-10T10:46:56.000Z</published>
-    <summary>Humanoid whole-body motion tracking with one differentiable world model. — ★ 1441 (393.9/day)</summary>
+    <summary>Humanoid whole-body motion tracking with one differentiable world model. — ★ 1471 (371.9/day)</summary>
     <author><name>HybridRobotics</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/JenkinWoo/sheeridVerify</id>
-    <title>JenkinWoo/sheeridVerify</title>
-    <link href="https://github.com/JenkinWoo/sheeridVerify"/>
-    <updated>2026-11-06T09:54:37.000Z</updated>
-    <published>2026-11-06T09:28:09.000Z</published>
-    <summary>No description. — ★ 2667 (345.8/day)</summary>
-    <author><name>JenkinWoo</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/expo/exact</id>
-    <title>expo/exact</title>
-    <link href="https://github.com/expo/exact"/>
-    <updated>2026-11-14T02:14:12.000Z</updated>
-    <published>2026-11-02T01:29:01.000Z</published>
-    <summary>Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them. — ★ 4024 (334.1/day)</summary>
-    <author><name>expo</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/quer3q/kraken-mount</id>
-    <title>quer3q/kraken-mount</title>
-    <link href="https://github.com/quer3q/kraken-mount"/>
-    <updated>2026-11-13T14:29:09.000Z</updated>
-    <published>2026-11-13T07:25:37.000Z</published>
-    <summary>Minimalist PS5 game mounter supporting PKG, folder dumps, lz4, and zstd — ★ 244 (305.6/day)</summary>
-    <author><name>quer3q</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/AIRzZ90/study-materials-fork</id>
-    <title>AIRzZ90/study-materials-fork</title>
-    <link href="https://github.com/AIRzZ90/study-materials-fork"/>
-    <updated>2026-11-12T11:06:34.000Z</updated>
-    <published>2026-11-12T10:52:32.000Z</published>
-    <summary>A cross-platform Tauri 2 interface and interaction practice project — ★ 499 (301.6/day)</summary>
-    <author><name>AIRzZ90</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/PrathmeshYa/ai--manus</id>
-    <title>PrathmeshYa/ai--manus</title>
-    <link href="https://github.com/PrathmeshYa/ai--manus"/>
-    <updated>2026-11-13T14:50:46.000Z</updated>
-    <published>2026-11-13T14:50:38.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (298.3/day)</summary>
-    <author><name>PrathmeshYa</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/datrify/ai--manus</id>
-    <title>datrify/ai--manus</title>
-    <link href="https://github.com/datrify/ai--manus"/>
-    <updated>2026-11-13T14:50:36.000Z</updated>
-    <published>2026-11-13T14:50:27.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (298.3/day)</summary>
-    <author><name>datrify</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/tyesheh/manus--ai</id>
-    <title>tyesheh/manus--ai</title>
-    <link href="https://github.com/tyesheh/manus--ai"/>
-    <updated>2026-11-13T14:48:38.000Z</updated>
-    <published>2026-11-13T14:48:30.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (297.4/day)</summary>
-    <author><name>tyesheh</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/tyesheh/ai--manus</id>
-    <title>tyesheh/ai--manus</title>
-    <link href="https://github.com/tyesheh/ai--manus"/>
-    <updated>2026-11-13T14:48:21.000Z</updated>
-    <published>2026-11-13T14:48:14.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (297.3/day)</summary>
-    <author><name>tyesheh</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/arberpilafi8-blip/manus--ai</id>
-    <title>arberpilafi8-blip/manus--ai</title>
-    <link href="https://github.com/arberpilafi8-blip/manus--ai"/>
-    <updated>2026-11-13T14:48:01.000Z</updated>
-    <published>2026-11-13T14:47:53.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (297.2/day)</summary>
-    <author><name>arberpilafi8-blip</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/lebronstx-collab/manus--ai</id>
-    <title>lebronstx-collab/manus--ai</title>
-    <link href="https://github.com/lebronstx-collab/manus--ai"/>
-    <updated>2026-11-13T14:47:56.000Z</updated>
-    <published>2026-11-13T14:47:47.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (297.1/day)</summary>
-    <author><name>lebronstx-collab</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Redderz-code/ai--manus</id>
-    <title>Redderz-code/ai--manus</title>
-    <link href="https://github.com/Redderz-code/ai--manus"/>
-    <updated>2026-11-13T14:47:55.000Z</updated>
-    <published>2026-11-13T14:47:45.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (297.1/day)</summary>
-    <author><name>Redderz-code</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/tonikriegers14-hue/ai--manus</id>
-    <title>tonikriegers14-hue/ai--manus</title>
-    <link href="https://github.com/tonikriegers14-hue/ai--manus"/>
-    <updated>2026-11-13T14:47:48.000Z</updated>
-    <published>2026-11-13T14:47:41.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (297.1/day)</summary>
-    <author><name>tonikriegers14-hue</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/mtn-imran-khan/ai--manus</id>
-    <title>mtn-imran-khan/ai--manus</title>
-    <link href="https://github.com/mtn-imran-khan/ai--manus"/>
-    <updated>2026-11-13T14:47:44.000Z</updated>
-    <published>2026-11-13T14:47:36.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (297.1/day)</summary>
-    <author><name>mtn-imran-khan</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/lebronstx-collab/ai--manus</id>
-    <title>lebronstx-collab/ai--manus</title>
-    <link href="https://github.com/lebronstx-collab/ai--manus"/>
-    <updated>2026-11-13T14:47:37.000Z</updated>
-    <published>2026-11-13T14:47:30.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (297.0/day)</summary>
-    <author><name>lebronstx-collab</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/stancaedy10-glitch/manus--ai</id>
-    <title>stancaedy10-glitch/manus--ai</title>
-    <link href="https://github.com/stancaedy10-glitch/manus--ai"/>
-    <updated>2026-11-13T14:47:29.000Z</updated>
-    <published>2026-11-13T14:47:22.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (297.0/day)</summary>
-    <author><name>stancaedy10-glitch</name></author>
   </entry>
 </feed>
