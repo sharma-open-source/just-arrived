@@ -5,32 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-13T22:20:50.815Z</updated>
-  <entry>
-    <id>https://github.com/storytold/craft-anything</id>
-    <title>storytold/craft-anything</title>
-    <link href="https://github.com/storytold/craft-anything"/>
-    <updated>2026-11-13T19:48:40.000Z</updated>
-    <published>2026-10-31T14:50:00.000Z</published>
-    <summary>Craft Anything: understand how any software works, and craft your own. — ★ 31370 (2356.3/day)</summary>
-    <author><name>storytold</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/deepseek-ai/dsh-superagent-prototype</id>
-    <title>deepseek-ai/dsh-superagent-prototype</title>
-    <link href="https://github.com/deepseek-ai/dsh-superagent-prototype"/>
-    <updated>2026-11-03T09:29:14.000Z</updated>
-    <published>2026-10-31T09:32:46.000Z</published>
-    <summary>Towards a More Autonomous Agent System — ★ 23014 (1700.5/day)</summary>
-    <author><name>deepseek-ai</name></author>
-  </entry>
+  <updated>2026-11-14T02:35:21.523Z</updated>
   <entry>
     <id>https://github.com/huamidev/GestaltX</id>
     <title>huamidev/GestaltX</title>
     <link href="https://github.com/huamidev/GestaltX"/>
     <updated>2026-11-13T16:51:22.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 7283 (1545.7/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 7344 (1502.3/day)</summary>
     <author><name>huamidev</name></author>
   </entry>
   <entry>
@@ -39,7 +21,7 @@
     <link href="https://github.com/Minireel/HGhub"/>
     <updated>2026-11-10T13:42:26.000Z</updated>
     <published>2026-11-03T14:04:27.000Z</published>
-    <summary>YellowFruit third-party client — ★ 8819 (852.5/day)</summary>
+    <summary>YellowFruit third-party client — ★ 8822 (838.5/day)</summary>
     <author><name>Minireel</name></author>
   </entry>
   <entry>
@@ -48,17 +30,17 @@
     <link href="https://github.com/janestreet/agent_skills"/>
     <updated>2026-11-03T18:14:13.000Z</updated>
     <published>2026-11-03T16:50:21.000Z</published>
-    <summary>Agent skills — ★ 8247 (806.2/day)</summary>
+    <summary>Agent skills — ★ 8301 (797.7/day)</summary>
     <author><name>janestreet</name></author>
   </entry>
   <entry>
-    <id>https://github.com/zortos293/Lichii</id>
-    <title>zortos293/Lichii</title>
-    <link href="https://github.com/zortos293/Lichii"/>
-    <updated>2026-11-13T22:18:02.000Z</updated>
-    <published>2026-10-31T14:17:26.000Z</published>
-    <summary>VERY experimental Nintendo Switch 2 emulator — ★ 8972 (672.8/day)</summary>
-    <author><name>zortos293</name></author>
+    <id>https://github.com/DimensionRobin/rob-run-private-cheat</id>
+    <title>DimensionRobin/rob-run-private-cheat</title>
+    <link href="https://github.com/DimensionRobin/rob-run-private-cheat"/>
+    <updated>2026-11-14T01:31:12.000Z</updated>
+    <published>2026-11-14T01:07:40.000Z</published>
+    <summary>No description. — ★ 152 (608.0/day)</summary>
+    <author><name>DimensionRobin</name></author>
   </entry>
   <entry>
     <id>https://github.com/tangerineturtle1/NX2navi</id>
@@ -66,8 +48,17 @@
     <link href="https://github.com/tangerineturtle1/NX2navi"/>
     <updated>2026-11-13T17:24:52.000Z</updated>
     <published>2026-11-07T10:01:23.000Z</published>
-    <summary>No description. — ★ 3856 (592.0/day)</summary>
+    <summary>No description. — ★ 3914 (585.0/day)</summary>
     <author><name>tangerineturtle1</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/opencoredev/islandcn</id>
+    <title>opencoredev/islandcn</title>
+    <link href="https://github.com/opencoredev/islandcn"/>
+    <updated>2026-11-13T15:14:36.000Z</updated>
+    <published>2026-11-13T11:50:50.000Z</published>
+    <summary>The open-source Dynamic Island for React, installed with shadcn. — ★ 319 (519.3/day)</summary>
+    <author><name>opencoredev</name></author>
   </entry>
   <entry>
     <id>https://github.com/apex-compute/ANR</id>
@@ -75,25 +66,16 @@
     <link href="https://github.com/apex-compute/ANR"/>
     <updated>2026-11-12T18:20:33.000Z</updated>
     <published>2026-11-11T04:27:17.000Z</published>
-    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 1433 (521.9/day)</summary>
+    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 1501 (513.6/day)</summary>
     <author><name>apex-compute</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows</id>
-    <title>DevedevT/FFmpeg-GUI-Editor-Windows</title>
-    <link href="https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows"/>
-    <updated>2026-11-13T09:24:36.000Z</updated>
-    <published>2026-11-12T20:49:07.000Z</published>
-    <summary>Lightweight portable FFmpeg GUI &amp; lossless video trimmer for Windows (ready-to-use .exe). Supports English, Russian, Chinese, German, French &amp; Italian. — ★ 541 (508.6/day)</summary>
-    <author><name>DevedevT</name></author>
   </entry>
   <entry>
     <id>https://github.com/jhaizhou-ops/S2Arm</id>
     <title>jhaizhou-ops/S2Arm</title>
     <link href="https://github.com/jhaizhou-ops/S2Arm"/>
-    <updated>2026-11-13T22:17:51.000Z</updated>
+    <updated>2026-11-14T02:17:17.000Z</updated>
     <published>2026-11-08T05:49:46.000Z</published>
-    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 2864 (503.5/day)</summary>
+    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 2876 (490.4/day)</summary>
     <author><name>jhaizhou-ops</name></author>
   </entry>
   <entry>
@@ -102,8 +84,35 @@
     <link href="https://github.com/Kianuni/Erosion-CN"/>
     <updated>2026-11-13T15:38:08.000Z</updated>
     <published>2026-11-10T02:37:31.000Z</published>
-    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版） — ★ 1906 (498.7/day)</summary>
+    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版） — ★ 1934 (483.7/day)</summary>
     <author><name>Kianuni</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/deepseek-ai/chat-demo</id>
+    <title>deepseek-ai/chat-demo</title>
+    <link href="https://github.com/deepseek-ai/chat-demo"/>
+    <updated>2026-11-13T14:33:08.000Z</updated>
+    <published>2026-11-12T08:08:19.000Z</published>
+    <summary>Chat Demo — ★ 846 (478.3/day)</summary>
+    <author><name>deepseek-ai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/KKKKhazix/agent-autoloop</id>
+    <title>KKKKhazix/agent-autoloop</title>
+    <link href="https://github.com/KKKKhazix/agent-autoloop"/>
+    <updated>2026-11-14T02:01:22.000Z</updated>
+    <published>2026-11-03T08:02:11.000Z</published>
+    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 5135 (476.7/day)</summary>
+    <author><name>KKKKhazix</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows</id>
+    <title>DevedevT/FFmpeg-GUI-Editor-Windows</title>
+    <link href="https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows"/>
+    <updated>2026-11-13T09:24:36.000Z</updated>
+    <published>2026-11-12T20:49:07.000Z</published>
+    <summary>Lightweight portable FFmpeg GUI &amp; lossless video trimmer for Windows (ready-to-use .exe). Supports English, Russian, Chinese, German, French &amp; Italian. — ★ 541 (436.1/day)</summary>
+    <author><name>DevedevT</name></author>
   </entry>
   <entry>
     <id>https://github.com/faizfahmi77/ScanDot</id>
@@ -111,17 +120,62 @@
     <link href="https://github.com/faizfahmi77/ScanDot"/>
     <updated>2026-11-13T04:27:21.000Z</updated>
     <published>2026-11-13T04:07:57.000Z</published>
-    <summary>Experimental Android 3D scanning and point-cloud viewer — ★ 369 (486.2/day)</summary>
+    <summary>Experimental Android 3D scanning and point-cloud viewer — ★ 388 (414.7/day)</summary>
     <author><name>faizfahmi77</name></author>
   </entry>
   <entry>
-    <id>https://github.com/KKKKhazix/agent-autoloop</id>
-    <title>KKKKhazix/agent-autoloop</title>
-    <link href="https://github.com/KKKKhazix/agent-autoloop"/>
-    <updated>2026-11-13T17:41:27.000Z</updated>
-    <published>2026-11-03T08:02:11.000Z</published>
-    <summary>让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 — ★ 5118 (483.0/day)</summary>
-    <author><name>KKKKhazix</name></author>
+    <id>https://github.com/FrigadeHQ/yogurt</id>
+    <title>FrigadeHQ/yogurt</title>
+    <link href="https://github.com/FrigadeHQ/yogurt"/>
+    <updated>2026-11-14T02:19:33.000Z</updated>
+    <published>2026-11-10T20:01:01.000Z</published>
+    <summary>Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. — ★ 1293 (394.9/day)</summary>
+    <author><name>FrigadeHQ</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/HybridRobotics/supermimic</id>
+    <title>HybridRobotics/supermimic</title>
+    <link href="https://github.com/HybridRobotics/supermimic"/>
+    <updated>2026-11-11T08:06:27.000Z</updated>
+    <published>2026-11-10T10:46:56.000Z</published>
+    <summary>Humanoid whole-body motion tracking with one differentiable world model. — ★ 1441 (393.9/day)</summary>
+    <author><name>HybridRobotics</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/JenkinWoo/sheeridVerify</id>
+    <title>JenkinWoo/sheeridVerify</title>
+    <link href="https://github.com/JenkinWoo/sheeridVerify"/>
+    <updated>2026-11-06T09:54:37.000Z</updated>
+    <published>2026-11-06T09:28:09.000Z</published>
+    <summary>No description. — ★ 2667 (345.8/day)</summary>
+    <author><name>JenkinWoo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/expo/exact</id>
+    <title>expo/exact</title>
+    <link href="https://github.com/expo/exact"/>
+    <updated>2026-11-14T02:14:12.000Z</updated>
+    <published>2026-11-02T01:29:01.000Z</published>
+    <summary>Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them. — ★ 4024 (334.1/day)</summary>
+    <author><name>expo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/quer3q/kraken-mount</id>
+    <title>quer3q/kraken-mount</title>
+    <link href="https://github.com/quer3q/kraken-mount"/>
+    <updated>2026-11-13T14:29:09.000Z</updated>
+    <published>2026-11-13T07:25:37.000Z</published>
+    <summary>Minimalist PS5 game mounter supporting PKG, folder dumps, lz4, and zstd — ★ 244 (305.6/day)</summary>
+    <author><name>quer3q</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/AIRzZ90/study-materials-fork</id>
+    <title>AIRzZ90/study-materials-fork</title>
+    <link href="https://github.com/AIRzZ90/study-materials-fork"/>
+    <updated>2026-11-12T11:06:34.000Z</updated>
+    <published>2026-11-12T10:52:32.000Z</published>
+    <summary>A cross-platform Tauri 2 interface and interaction practice project — ★ 499 (301.6/day)</summary>
+    <author><name>AIRzZ90</name></author>
   </entry>
   <entry>
     <id>https://github.com/PrathmeshYa/ai--manus</id>
@@ -129,7 +183,7 @@
     <link href="https://github.com/PrathmeshYa/ai--manus"/>
     <updated>2026-11-13T14:50:46.000Z</updated>
     <published>2026-11-13T14:50:38.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (467.0/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (298.3/day)</summary>
     <author><name>PrathmeshYa</name></author>
   </entry>
   <entry>
@@ -138,7 +192,7 @@
     <link href="https://github.com/datrify/ai--manus"/>
     <updated>2026-11-13T14:50:36.000Z</updated>
     <published>2026-11-13T14:50:27.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (466.8/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (298.3/day)</summary>
     <author><name>datrify</name></author>
   </entry>
   <entry>
@@ -147,7 +201,7 @@
     <link href="https://github.com/tyesheh/manus--ai"/>
     <updated>2026-11-13T14:48:38.000Z</updated>
     <published>2026-11-13T14:48:30.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (464.8/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (297.4/day)</summary>
     <author><name>tyesheh</name></author>
   </entry>
   <entry>
@@ -156,7 +210,7 @@
     <link href="https://github.com/tyesheh/ai--manus"/>
     <updated>2026-11-13T14:48:21.000Z</updated>
     <published>2026-11-13T14:48:14.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (464.5/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (297.3/day)</summary>
     <author><name>tyesheh</name></author>
   </entry>
   <entry>
@@ -165,7 +219,7 @@
     <link href="https://github.com/arberpilafi8-blip/manus--ai"/>
     <updated>2026-11-13T14:48:01.000Z</updated>
     <published>2026-11-13T14:47:53.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (464.1/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (297.2/day)</summary>
     <author><name>arberpilafi8-blip</name></author>
   </entry>
   <entry>
@@ -174,7 +228,7 @@
     <link href="https://github.com/lebronstx-collab/manus--ai"/>
     <updated>2026-11-13T14:47:56.000Z</updated>
     <published>2026-11-13T14:47:47.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (464.0/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (297.1/day)</summary>
     <author><name>lebronstx-collab</name></author>
   </entry>
   <entry>
@@ -183,7 +237,7 @@
     <link href="https://github.com/Redderz-code/ai--manus"/>
     <updated>2026-11-13T14:47:55.000Z</updated>
     <published>2026-11-13T14:47:45.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (464.0/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (297.1/day)</summary>
     <author><name>Redderz-code</name></author>
   </entry>
   <entry>
@@ -192,7 +246,7 @@
     <link href="https://github.com/tonikriegers14-hue/ai--manus"/>
     <updated>2026-11-13T14:47:48.000Z</updated>
     <published>2026-11-13T14:47:41.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (463.9/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (297.1/day)</summary>
     <author><name>tonikriegers14-hue</name></author>
   </entry>
   <entry>
@@ -201,7 +255,7 @@
     <link href="https://github.com/mtn-imran-khan/ai--manus"/>
     <updated>2026-11-13T14:47:44.000Z</updated>
     <published>2026-11-13T14:47:36.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (463.9/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (297.1/day)</summary>
     <author><name>mtn-imran-khan</name></author>
   </entry>
   <entry>
@@ -210,7 +264,7 @@
     <link href="https://github.com/lebronstx-collab/ai--manus"/>
     <updated>2026-11-13T14:47:37.000Z</updated>
     <published>2026-11-13T14:47:30.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (463.8/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (297.0/day)</summary>
     <author><name>lebronstx-collab</name></author>
   </entry>
   <entry>
@@ -219,61 +273,7 @@
     <link href="https://github.com/stancaedy10-glitch/manus--ai"/>
     <updated>2026-11-13T14:47:29.000Z</updated>
     <published>2026-11-13T14:47:22.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (463.6/day)</summary>
+    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (297.0/day)</summary>
     <author><name>stancaedy10-glitch</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/alphafalcongamer-creator/manus--ai</id>
-    <title>alphafalcongamer-creator/manus--ai</title>
-    <link href="https://github.com/alphafalcongamer-creator/manus--ai"/>
-    <updated>2026-11-13T14:47:23.000Z</updated>
-    <published>2026-11-13T14:47:15.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (463.5/day)</summary>
-    <author><name>alphafalcongamer-creator</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/rambotronado112-sudo/manus--ai</id>
-    <title>rambotronado112-sudo/manus--ai</title>
-    <link href="https://github.com/rambotronado112-sudo/manus--ai"/>
-    <updated>2026-11-13T14:47:21.000Z</updated>
-    <published>2026-11-13T14:47:12.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.  — ★ 146 (463.4/day)</summary>
-    <author><name>rambotronado112-sudo</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/stancaedy10-glitch/ai--manus</id>
-    <title>stancaedy10-glitch/ai--manus</title>
-    <link href="https://github.com/stancaedy10-glitch/ai--manus"/>
-    <updated>2026-11-13T14:47:12.000Z</updated>
-    <published>2026-11-13T14:47:05.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (463.3/day)</summary>
-    <author><name>stancaedy10-glitch</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/alphafalcongamer-creator/ai--manus</id>
-    <title>alphafalcongamer-creator/ai--manus</title>
-    <link href="https://github.com/alphafalcongamer-creator/ai--manus"/>
-    <updated>2026-11-13T14:47:05.000Z</updated>
-    <published>2026-11-13T14:46:57.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (463.2/day)</summary>
-    <author><name>alphafalcongamer-creator</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/rambotronado112-sudo/ai--manus</id>
-    <title>rambotronado112-sudo/ai--manus</title>
-    <link href="https://github.com/rambotronado112-sudo/ai--manus"/>
-    <updated>2026-11-13T14:47:02.000Z</updated>
-    <published>2026-11-13T14:46:53.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (463.1/day)</summary>
-    <author><name>rambotronado112-sudo</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/nachalnikokk/ai--manus</id>
-    <title>nachalnikokk/ai--manus</title>
-    <link href="https://github.com/nachalnikokk/ai--manus"/>
-    <updated>2026-11-13T14:46:58.000Z</updated>
-    <published>2026-11-13T14:46:50.000Z</published>
-    <summary>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. — ★ 146 (463.1/day)</summary>
-    <author><name>nachalnikokk</name></author>
   </entry>
 </feed>
