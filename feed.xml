@@ -5,14 +5,23 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-17T00:37:21.528Z</updated>
+  <updated>2026-11-17T08:44:50.003Z</updated>
+  <entry>
+    <id>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</id>
+    <title>krisgfx9/Wireless-Device-Battery-Monitor</title>
+    <link href="https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"/>
+    <updated>2026-11-17T03:14:58.000Z</updated>
+    <published>2026-11-16T19:28:29.000Z</published>
+    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 651 (1177.2/day)</summary>
+    <author><name>krisgfx9</name></author>
+  </entry>
   <entry>
     <id>https://github.com/huamidev/GestaltX</id>
     <title>huamidev/GestaltX</title>
     <link href="https://github.com/huamidev/GestaltX"/>
-    <updated>2026-11-14T09:27:55.000Z</updated>
+    <updated>2026-11-17T02:00:13.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 7880 (1009.4/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 7963 (977.6/day)</summary>
     <author><name>huamidev</name></author>
   </entry>
   <entry>
@@ -21,8 +30,35 @@
     <link href="https://github.com/deepseek-ai/chat-demo"/>
     <updated>2026-11-13T14:33:08.000Z</updated>
     <published>2026-11-12T08:08:19.000Z</published>
-    <summary>Chat Demo — ★ 4064 (867.1/day)</summary>
+    <summary>Chat Demo — ★ 4313 (858.2/day)</summary>
     <author><name>deepseek-ai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/sybil-solutions/inference-optimisation-skill</id>
+    <title>sybil-solutions/inference-optimisation-skill</title>
+    <link href="https://github.com/sybil-solutions/inference-optimisation-skill"/>
+    <updated>2026-11-16T18:40:08.000Z</updated>
+    <published>2026-11-16T18:40:04.000Z</published>
+    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 437 (744.9/day)</summary>
+    <author><name>sybil-solutions</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/WingCasterSanctify/rob-run-mod-private</id>
+    <title>WingCasterSanctify/rob-run-mod-private</title>
+    <link href="https://github.com/WingCasterSanctify/rob-run-mod-private"/>
+    <updated>2026-11-16T23:21:58.000Z</updated>
+    <published>2026-11-16T23:05:11.000Z</published>
+    <summary>No description. — ★ 251 (623.5/day)</summary>
+    <author><name>WingCasterSanctify</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Lightyoclimb/Fortnite-Pirate-Shop-Access-private-cheat</id>
+    <title>Lightyoclimb/Fortnite-Pirate-Shop-Access-private-cheat</title>
+    <link href="https://github.com/Lightyoclimb/Fortnite-Pirate-Shop-Access-private-cheat"/>
+    <updated>2026-11-16T23:03:36.000Z</updated>
+    <published>2026-11-16T22:49:19.000Z</published>
+    <summary>No description. — ★ 255 (616.6/day)</summary>
+    <author><name>Lightyoclimb</name></author>
   </entry>
   <entry>
     <id>https://github.com/hitkeeen/blender-ai-mcp-addon</id>
@@ -30,7 +66,7 @@
     <link href="https://github.com/hitkeeen/blender-ai-mcp-addon"/>
     <updated>2026-11-12T14:33:16.000Z</updated>
     <published>2026-11-12T14:32:15.000Z</published>
-    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 2193 (496.1/day)</summary>
+    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 2330 (489.6/day)</summary>
     <author><name>hitkeeen</name></author>
   </entry>
   <entry>
@@ -39,17 +75,8 @@
     <link href="https://github.com/duwqijlk/muse-protocol"/>
     <updated>2026-11-15T02:55:33.000Z</updated>
     <published>2026-11-14T01:24:58.000Z</published>
-    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 1439 (485.0/day)</summary>
+    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 1524 (461.1/day)</summary>
     <author><name>duwqijlk</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/chuanqisun/spaceship</id>
-    <title>chuanqisun/spaceship</title>
-    <link href="https://github.com/chuanqisun/spaceship"/>
-    <updated>2026-11-16T19:53:46.000Z</updated>
-    <published>2026-11-16T14:43:45.000Z</published>
-    <summary>Steer your ideas in realtime — ★ 192 (465.8/day)</summary>
-    <author><name>chuanqisun</name></author>
   </entry>
   <entry>
     <id>https://github.com/tangerineturtle1/NX2navi</id>
@@ -57,8 +84,17 @@
     <link href="https://github.com/tangerineturtle1/NX2navi"/>
     <updated>2026-11-16T02:02:29.000Z</updated>
     <published>2026-11-07T10:01:23.000Z</published>
-    <summary>No description. — ★ 4283 (445.8/day)</summary>
+    <summary>No description. — ★ 4293 (431.6/day)</summary>
     <author><name>tangerineturtle1</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/boringmarketer/boring-marketing-skills</id>
+    <title>boringmarketer/boring-marketing-skills</title>
+    <link href="https://github.com/boringmarketer/boring-marketing-skills"/>
+    <updated>2026-11-16T18:29:00.000Z</updated>
+    <published>2026-11-16T15:09:46.000Z</published>
+    <summary>31 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. — ★ 301 (410.8/day)</summary>
+    <author><name>boringmarketer</name></author>
   </entry>
   <entry>
     <id>https://github.com/apex-compute/ANR</id>
@@ -66,17 +102,8 @@
     <link href="https://github.com/apex-compute/ANR"/>
     <updated>2026-11-17T00:20:54.000Z</updated>
     <published>2026-11-11T04:27:17.000Z</published>
-    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2466 (422.2/day)</summary>
+    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2517 (407.4/day)</summary>
     <author><name>apex-compute</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/jhaizhou-ops/S2Arm</id>
-    <title>jhaizhou-ops/S2Arm</title>
-    <link href="https://github.com/jhaizhou-ops/S2Arm"/>
-    <updated>2026-11-17T00:36:02.000Z</updated>
-    <published>2026-11-08T05:49:46.000Z</published>
-    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 3365 (383.1/day)</summary>
-    <author><name>jhaizhou-ops</name></author>
   </entry>
   <entry>
     <id>https://github.com/Noniv/abyssal-garden</id>
@@ -84,8 +111,62 @@
     <link href="https://github.com/Noniv/abyssal-garden"/>
     <updated>2026-11-14T17:41:33.000Z</updated>
     <published>2026-11-12T13:57:34.000Z</published>
-    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 1699 (382.3/day)</summary>
+    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 1893 (395.8/day)</summary>
     <author><name>Noniv</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/chuanqisun/spaceship</id>
+    <title>chuanqisun/spaceship</title>
+    <link href="https://github.com/chuanqisun/spaceship"/>
+    <updated>2026-11-16T19:53:46.000Z</updated>
+    <published>2026-11-16T14:43:45.000Z</published>
+    <summary>Steer your ideas in realtime — ★ 291 (387.6/day)</summary>
+    <author><name>chuanqisun</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/jhaizhou-ops/S2Arm</id>
+    <title>jhaizhou-ops/S2Arm</title>
+    <link href="https://github.com/jhaizhou-ops/S2Arm"/>
+    <updated>2026-11-17T08:34:02.000Z</updated>
+    <published>2026-11-08T05:49:46.000Z</published>
+    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 3411 (373.9/day)</summary>
+    <author><name>jhaizhou-ops</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/joshpuckett/allo</id>
+    <title>joshpuckett/allo</title>
+    <link href="https://github.com/joshpuckett/allo"/>
+    <updated>2026-11-15T20:11:45.000Z</updated>
+    <published>2026-11-15T17:33:42.000Z</published>
+    <summary>Allo is your friendly neighborhood typeface, free and open source — ★ 552 (338.1/day)</summary>
+    <author><name>joshpuckett</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/JenkinWoo/sheeridVerify</id>
+    <title>JenkinWoo/sheeridVerify</title>
+    <link href="https://github.com/JenkinWoo/sheeridVerify"/>
+    <updated>2026-11-06T09:54:37.000Z</updated>
+    <published>2026-11-06T09:28:09.000Z</published>
+    <summary>No description. — ★ 3391 (309.1/day)</summary>
+    <author><name>JenkinWoo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Kianuni/Erosion-CN</id>
+    <title>Kianuni/Erosion-CN</title>
+    <link href="https://github.com/Kianuni/Erosion-CN"/>
+    <updated>2026-11-17T05:26:40.000Z</updated>
+    <published>2026-11-10T02:37:31.000Z</published>
+    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration &amp; MobileGestalt Toolbox (Bilingual EN/ZH) — ★ 2218 (305.7/day)</summary>
+    <author><name>Kianuni</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/FrigadeHQ/yogurt</id>
+    <title>FrigadeHQ/yogurt</title>
+    <link href="https://github.com/FrigadeHQ/yogurt"/>
+    <updated>2026-11-17T08:16:14.000Z</updated>
+    <published>2026-11-10T20:01:01.000Z</published>
+    <summary>Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. — ★ 1925 (294.8/day)</summary>
+    <author><name>FrigadeHQ</name></author>
   </entry>
   <entry>
     <id>https://github.com/YellowLaborerMarket/Gemini-Config-Checker-</id>
@@ -93,7 +174,7 @@
     <link href="https://github.com/YellowLaborerMarket/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:49:31.000Z</updated>
     <published>2026-11-15T16:48:18.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 474 (357.5/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 474 (284.8/day)</summary>
     <author><name>YellowLaborerMarket</name></author>
   </entry>
   <entry>
@@ -102,7 +183,7 @@
     <link href="https://github.com/WyrmClimberManacle/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:49:29.000Z</updated>
     <published>2026-11-15T16:48:18.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.8/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.2/day)</summary>
     <author><name>WyrmClimberManacle</name></author>
   </entry>
   <entry>
@@ -111,7 +192,7 @@
     <link href="https://github.com/wisemeadowlarkspike/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:49:28.000Z</updated>
     <published>2026-11-15T16:48:18.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.8/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.2/day)</summary>
     <author><name>wisemeadowlarkspike</name></author>
   </entry>
   <entry>
@@ -120,7 +201,7 @@
     <link href="https://github.com/WireProvostPucker/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:49:25.000Z</updated>
     <published>2026-11-15T16:48:15.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.8/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.2/day)</summary>
     <author><name>WireProvostPucker</name></author>
   </entry>
   <entry>
@@ -129,7 +210,7 @@
     <link href="https://github.com/WindowStaffGate11/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:48:20.000Z</updated>
     <published>2026-11-15T16:47:18.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.6/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.1/day)</summary>
     <author><name>WindowStaffGate11</name></author>
   </entry>
   <entry>
@@ -138,7 +219,7 @@
     <link href="https://github.com/WindGatorRise37/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:48:17.000Z</updated>
     <published>2026-11-15T16:47:17.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.6/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.1/day)</summary>
     <author><name>WindGatorRise37</name></author>
   </entry>
   <entry>
@@ -147,7 +228,7 @@
     <link href="https://github.com/WingDataVacuum/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:48:21.000Z</updated>
     <published>2026-11-15T16:47:17.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.6/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.1/day)</summary>
     <author><name>WingDataVacuum</name></author>
   </entry>
   <entry>
@@ -156,7 +237,7 @@
     <link href="https://github.com/WinnerSpecialist/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:48:10.000Z</updated>
     <published>2026-11-15T16:47:17.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.6/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.1/day)</summary>
     <author><name>WinnerSpecialist</name></author>
   </entry>
   <entry>
@@ -165,7 +246,7 @@
     <link href="https://github.com/WestLocksmithSpout/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:48:13.000Z</updated>
     <published>2026-11-15T16:47:12.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.6/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.1/day)</summary>
     <author><name>WestLocksmithSpout</name></author>
   </entry>
   <entry>
@@ -174,7 +255,7 @@
     <link href="https://github.com/WharfBoulderColander/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:48:06.000Z</updated>
     <published>2026-11-15T16:47:12.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.6/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.1/day)</summary>
     <author><name>WharfBoulderColander</name></author>
   </entry>
   <entry>
@@ -183,7 +264,7 @@
     <link href="https://github.com/weldbladesmithwharf/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:48:07.000Z</updated>
     <published>2026-11-15T16:47:11.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.6/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.1/day)</summary>
     <author><name>weldbladesmithwharf</name></author>
   </entry>
   <entry>
@@ -192,88 +273,7 @@
     <link href="https://github.com/WerewolfEmuHub/Gemini-Config-Checker-"/>
     <updated>2026-11-15T16:48:11.000Z</updated>
     <published>2026-11-15T16:47:11.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.6/day)</summary>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (284.1/day)</summary>
     <author><name>WerewolfEmuHub</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Watchlespeed/Gemini-Config-Checker-</id>
-    <title>Watchlespeed/Gemini-Config-Checker-</title>
-    <link href="https://github.com/Watchlespeed/Gemini-Config-Checker-"/>
-    <updated>2026-11-15T16:48:08.000Z</updated>
-    <published>2026-11-15T16:47:11.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.6/day)</summary>
-    <author><name>Watchlespeed</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/weightcashiercupola/Gemini-Config-Checker-</id>
-    <title>weightcashiercupola/Gemini-Config-Checker-</title>
-    <link href="https://github.com/weightcashiercupola/Gemini-Config-Checker-"/>
-    <updated>2026-11-15T16:48:06.000Z</updated>
-    <published>2026-11-15T16:47:11.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.6/day)</summary>
-    <author><name>weightcashiercupola</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/VortexHostFeel/Gemini-Config-Checker-</id>
-    <title>VortexHostFeel/Gemini-Config-Checker-</title>
-    <link href="https://github.com/VortexHostFeel/Gemini-Config-Checker-"/>
-    <updated>2026-11-15T16:47:03.000Z</updated>
-    <published>2026-11-15T16:46:07.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.4/day)</summary>
-    <author><name>VortexHostFeel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Visionbeyondtrack/Gemini-Config-Checker-</id>
-    <title>Visionbeyondtrack/Gemini-Config-Checker-</title>
-    <link href="https://github.com/Visionbeyondtrack/Gemini-Config-Checker-"/>
-    <updated>2026-11-15T16:47:00.000Z</updated>
-    <published>2026-11-15T16:46:05.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.4/day)</summary>
-    <author><name>Visionbeyondtrack</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TurtleReside/Gemini-Config-Checker-</id>
-    <title>TurtleReside/Gemini-Config-Checker-</title>
-    <link href="https://github.com/TurtleReside/Gemini-Config-Checker-"/>
-    <updated>2026-11-15T16:47:00.000Z</updated>
-    <published>2026-11-15T16:46:04.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.4/day)</summary>
-    <author><name>TurtleReside</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Violetnyudress/Gemini-Config-Checker-</id>
-    <title>Violetnyudress/Gemini-Config-Checker-</title>
-    <link href="https://github.com/Violetnyudress/Gemini-Config-Checker-"/>
-    <updated>2026-11-15T16:47:00.000Z</updated>
-    <published>2026-11-15T16:46:04.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.4/day)</summary>
-    <author><name>Violetnyudress</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TrooperFilter/Gemini-Config-Checker-</id>
-    <title>TrooperFilter/Gemini-Config-Checker-</title>
-    <link href="https://github.com/TrooperFilter/Gemini-Config-Checker-"/>
-    <updated>2026-11-15T16:47:04.000Z</updated>
-    <published>2026-11-15T16:46:04.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.4/day)</summary>
-    <author><name>TrooperFilter</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TypeTyrantScheme/Gemini-Config-Checker-</id>
-    <title>TypeTyrantScheme/Gemini-Config-Checker-</title>
-    <link href="https://github.com/TypeTyrantScheme/Gemini-Config-Checker-"/>
-    <updated>2026-11-15T16:47:01.000Z</updated>
-    <published>2026-11-15T16:46:04.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.4/day)</summary>
-    <author><name>TypeTyrantScheme</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/VisionWormStudio/Gemini-Config-Checker-</id>
-    <title>VisionWormStudio/Gemini-Config-Checker-</title>
-    <link href="https://github.com/VisionWormStudio/Gemini-Config-Checker-"/>
-    <updated>2026-11-15T16:47:02.000Z</updated>
-    <published>2026-11-15T16:46:04.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 473 (356.4/day)</summary>
-    <author><name>VisionWormStudio</name></author>
   </entry>
 </feed>
