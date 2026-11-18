@@ -5,33 +5,51 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-17T18:03:02.743Z</updated>
+  <updated>2026-11-18T01:06:58.766Z</updated>
   <entry>
     <id>https://github.com/gylive/google-ultra</id>
     <title>gylive/google-ultra</title>
     <link href="https://github.com/gylive/google-ultra"/>
-    <updated>2026-11-17T17:11:33.000Z</updated>
+    <updated>2026-11-17T21:28:55.000Z</updated>
     <published>2026-11-17T10:21:54.000Z</published>
-    <summary>No description. — ★ 1156 (3609.8/day)</summary>
+    <summary>No description. — ★ 1591 (2588.5/day)</summary>
     <author><name>gylive</name></author>
   </entry>
   <entry>
     <id>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</id>
     <title>krisgfx9/Wireless-Device-Battery-Monitor</title>
     <link href="https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"/>
-    <updated>2026-11-17T17:59:35.000Z</updated>
+    <updated>2026-11-18T00:55:32.000Z</updated>
     <published>2026-11-16T19:28:29.000Z</published>
-    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 2096 (2228.2/day)</summary>
+    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 2692 (2179.6/day)</summary>
     <author><name>krisgfx9</name></author>
   </entry>
   <entry>
-    <id>https://github.com/FloorTurtleResurrect/free-adobe-activation</id>
-    <title>FloorTurtleResurrect/free-adobe-activation</title>
-    <link href="https://github.com/FloorTurtleResurrect/free-adobe-activation"/>
-    <updated>2026-11-17T15:32:56.000Z</updated>
-    <published>2026-11-17T14:47:55.000Z</published>
-    <summary>simple tutorial adobe activation with GenP — ★ 327 (1308.0/day)</summary>
-    <author><name>FloorTurtleResurrect</name></author>
+    <id>https://github.com/Spiralnyoapplaud/rob-run-nox-cheat</id>
+    <title>Spiralnyoapplaud/rob-run-nox-cheat</title>
+    <link href="https://github.com/Spiralnyoapplaud/rob-run-nox-cheat"/>
+    <updated>2026-11-17T20:32:02.000Z</updated>
+    <published>2026-11-17T20:31:41.000Z</published>
+    <summary>No description. — ★ 329 (1316.0/day)</summary>
+    <author><name>Spiralnyoapplaud</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/fjorddolphininflate/sims-4-unlcoker-dlc-tool-v2</id>
+    <title>fjorddolphininflate/sims-4-unlcoker-dlc-tool-v2</title>
+    <link href="https://github.com/fjorddolphininflate/sims-4-unlcoker-dlc-tool-v2"/>
+    <updated>2026-11-17T20:40:59.000Z</updated>
+    <published>2026-11-17T20:40:46.000Z</published>
+    <summary>No description. — ★ 329 (1316.0/day)</summary>
+    <author><name>fjorddolphininflate</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/FiendCobraMystery/GTA6-RemotePlay</id>
+    <title>FiendCobraMystery/GTA6-RemotePlay</title>
+    <link href="https://github.com/FiendCobraMystery/GTA6-RemotePlay"/>
+    <updated>2026-11-17T19:41:46.000Z</updated>
+    <published>2026-11-17T19:29:44.000Z</published>
+    <summary>No description. — ★ 239 (956.0/day)</summary>
+    <author><name>FiendCobraMystery</name></author>
   </entry>
   <entry>
     <id>https://github.com/huamidev/GestaltX</id>
@@ -39,8 +57,17 @@
     <link href="https://github.com/huamidev/GestaltX"/>
     <updated>2026-11-17T02:00:13.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8085 (947.5/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8121 (920.0/day)</summary>
     <author><name>huamidev</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/erkamyaman/rust-anything</id>
+    <title>erkamyaman/rust-anything</title>
+    <link href="https://github.com/erkamyaman/rust-anything"/>
+    <updated>2026-11-18T01:04:21.000Z</updated>
+    <published>2026-11-16T12:10:36.000Z</published>
+    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 1326 (861.5/day)</summary>
+    <author><name>erkamyaman</name></author>
   </entry>
   <entry>
     <id>https://github.com/deepseek-ai/chat-demo</id>
@@ -48,8 +75,26 @@
     <link href="https://github.com/deepseek-ai/chat-demo"/>
     <updated>2026-11-13T14:33:08.000Z</updated>
     <published>2026-11-12T08:08:19.000Z</published>
-    <summary>Chat Demo — ★ 4497 (830.8/day)</summary>
+    <summary>Chat Demo — ★ 4530 (793.7/day)</summary>
     <author><name>deepseek-ai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Feralryostride/Fortnite-Pirate-Shop-Access-cheat-private</id>
+    <title>Feralryostride/Fortnite-Pirate-Shop-Access-cheat-private</title>
+    <link href="https://github.com/Feralryostride/Fortnite-Pirate-Shop-Access-cheat-private"/>
+    <updated>2026-11-17T21:31:00.000Z</updated>
+    <published>2026-11-17T21:15:59.000Z</published>
+    <summary>No description. — ★ 192 (768.0/day)</summary>
+    <author><name>Feralryostride</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/FloorTurtleResurrect/free-adobe-activation</id>
+    <title>FloorTurtleResurrect/free-adobe-activation</title>
+    <link href="https://github.com/FloorTurtleResurrect/free-adobe-activation"/>
+    <updated>2026-11-17T15:32:56.000Z</updated>
+    <published>2026-11-17T14:47:55.000Z</published>
+    <summary>simple tutorial adobe activation with GenP — ★ 327 (760.6/day)</summary>
+    <author><name>FloorTurtleResurrect</name></author>
   </entry>
   <entry>
     <id>https://github.com/sybil-solutions/inference-optimisation-skill</id>
@@ -57,17 +102,8 @@
     <link href="https://github.com/sybil-solutions/inference-optimisation-skill"/>
     <updated>2026-11-16T18:40:08.000Z</updated>
     <published>2026-11-16T18:40:04.000Z</published>
-    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 741 (760.6/day)</summary>
+    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 928 (731.5/day)</summary>
     <author><name>sybil-solutions</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/erkamyaman/rust-anything</id>
-    <title>erkamyaman/rust-anything</title>
-    <link href="https://github.com/erkamyaman/rust-anything"/>
-    <updated>2026-11-17T13:54:03.000Z</updated>
-    <published>2026-11-16T12:10:36.000Z</published>
-    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 716 (575.2/day)</summary>
-    <author><name>erkamyaman</name></author>
   </entry>
   <entry>
     <id>https://github.com/chuanqisun/spaceship</id>
@@ -75,17 +111,8 @@
     <link href="https://github.com/chuanqisun/spaceship"/>
     <updated>2026-11-16T19:53:46.000Z</updated>
     <published>2026-11-16T14:43:45.000Z</published>
-    <summary>Steer your ideas in realtime — ★ 588 (516.5/day)</summary>
+    <summary>Steer your ideas in realtime — ★ 706 (492.7/day)</summary>
     <author><name>chuanqisun</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/duwqijlk/muse-protocol</id>
-    <title>duwqijlk/muse-protocol</title>
-    <link href="https://github.com/duwqijlk/muse-protocol"/>
-    <updated>2026-11-15T02:55:33.000Z</updated>
-    <published>2026-11-14T01:24:58.000Z</published>
-    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 1570 (425.1/day)</summary>
-    <author><name>duwqijlk</name></author>
   </entry>
   <entry>
     <id>https://github.com/tangerineturtle1/NX2navi</id>
@@ -93,17 +120,17 @@
     <link href="https://github.com/tangerineturtle1/NX2navi"/>
     <updated>2026-11-16T02:02:29.000Z</updated>
     <published>2026-11-07T10:01:23.000Z</published>
-    <summary>No description. — ★ 4294 (415.5/day)</summary>
+    <summary>No description. — ★ 4298 (404.4/day)</summary>
     <author><name>tangerineturtle1</name></author>
   </entry>
   <entry>
-    <id>https://github.com/boringmarketer/boring-marketing-skills</id>
-    <title>boringmarketer/boring-marketing-skills</title>
-    <link href="https://github.com/boringmarketer/boring-marketing-skills"/>
-    <updated>2026-11-16T18:29:00.000Z</updated>
-    <published>2026-11-16T15:09:46.000Z</published>
-    <summary>31 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. — ★ 463 (413.3/day)</summary>
-    <author><name>boringmarketer</name></author>
+    <id>https://github.com/duwqijlk/muse-protocol</id>
+    <title>duwqijlk/muse-protocol</title>
+    <link href="https://github.com/duwqijlk/muse-protocol"/>
+    <updated>2026-11-15T02:55:33.000Z</updated>
+    <published>2026-11-14T01:24:58.000Z</published>
+    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 1587 (398.0/day)</summary>
+    <author><name>duwqijlk</name></author>
   </entry>
   <entry>
     <id>https://github.com/Noniv/abyssal-garden</id>
@@ -111,16 +138,16 @@
     <link href="https://github.com/Noniv/abyssal-garden"/>
     <updated>2026-11-14T17:41:33.000Z</updated>
     <published>2026-11-12T13:57:34.000Z</published>
-    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 2087 (403.6/day)</summary>
+    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 2162 (395.6/day)</summary>
     <author><name>Noniv</name></author>
   </entry>
   <entry>
     <id>https://github.com/joshpuckett/allo</id>
     <title>joshpuckett/allo</title>
     <link href="https://github.com/joshpuckett/allo"/>
-    <updated>2026-11-17T15:34:59.000Z</updated>
+    <updated>2026-11-18T00:02:15.000Z</updated>
     <published>2026-11-15T17:33:42.000Z</published>
-    <summary>Allo is your friendly neighborhood typeface, free and open source — ★ 802 (397.0/day)</summary>
+    <summary>Allo is your friendly neighborhood typeface, free and open source — ★ 884 (381.9/day)</summary>
     <author><name>joshpuckett</name></author>
   </entry>
   <entry>
@@ -129,53 +156,53 @@
     <link href="https://github.com/apex-compute/ANR"/>
     <updated>2026-11-17T00:20:54.000Z</updated>
     <published>2026-11-11T04:27:17.000Z</published>
-    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2567 (390.9/day)</summary>
+    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2593 (377.9/day)</summary>
     <author><name>apex-compute</name></author>
   </entry>
   <entry>
-    <id>https://github.com/WingCasterSanctify/rob-run-mod-private</id>
-    <title>WingCasterSanctify/rob-run-mod-private</title>
-    <link href="https://github.com/WingCasterSanctify/rob-run-mod-private"/>
-    <updated>2026-11-16T23:21:58.000Z</updated>
-    <published>2026-11-16T23:05:11.000Z</published>
-    <summary>No description. — ★ 296 (374.6/day)</summary>
-    <author><name>WingCasterSanctify</name></author>
+    <id>https://github.com/boringmarketer/boring-marketing-skills</id>
+    <title>boringmarketer/boring-marketing-skills</title>
+    <link href="https://github.com/boringmarketer/boring-marketing-skills"/>
+    <updated>2026-11-17T22:53:58.000Z</updated>
+    <published>2026-11-16T15:09:46.000Z</published>
+    <summary>32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. — ★ 531 (375.3/day)</summary>
+    <author><name>boringmarketer</name></author>
   </entry>
   <entry>
     <id>https://github.com/jhaizhou-ops/S2Arm</id>
     <title>jhaizhou-ops/S2Arm</title>
     <link href="https://github.com/jhaizhou-ops/S2Arm"/>
-    <updated>2026-11-17T17:59:53.000Z</updated>
+    <updated>2026-11-18T01:02:21.000Z</updated>
     <published>2026-11-08T05:49:46.000Z</published>
-    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 3469 (364.8/day)</summary>
+    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 3490 (356.0/day)</summary>
     <author><name>jhaizhou-ops</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Lightyoclimb/Fortnite-Pirate-Shop-Access-private-cheat</id>
-    <title>Lightyoclimb/Fortnite-Pirate-Shop-Access-private-cheat</title>
-    <link href="https://github.com/Lightyoclimb/Fortnite-Pirate-Shop-Access-private-cheat"/>
-    <updated>2026-11-16T23:03:36.000Z</updated>
-    <published>2026-11-16T22:49:19.000Z</published>
-    <summary>No description. — ★ 255 (318.3/day)</summary>
-    <author><name>Lightyoclimb</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Kianuni/Erosion-CN</id>
-    <title>Kianuni/Erosion-CN</title>
-    <link href="https://github.com/Kianuni/Erosion-CN"/>
-    <updated>2026-11-17T14:37:41.000Z</updated>
-    <published>2026-11-10T02:37:31.000Z</published>
-    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration &amp; MobileGestalt Toolbox (Bilingual EN/ZH) — ★ 2326 (304.3/day)</summary>
-    <author><name>Kianuni</name></author>
   </entry>
   <entry>
     <id>https://github.com/Immortal-Protocols/lastbook</id>
     <title>Immortal-Protocols/lastbook</title>
     <link href="https://github.com/Immortal-Protocols/lastbook"/>
-    <updated>2026-11-17T10:09:09.000Z</updated>
+    <updated>2026-11-18T00:49:34.000Z</updated>
     <published>2026-11-12T23:49:03.000Z</published>
-    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 1439 (302.3/day)</summary>
+    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 1791 (354.4/day)</summary>
     <author><name>Immortal-Protocols</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/WingCasterSanctify/rob-run-mod-private</id>
+    <title>WingCasterSanctify/rob-run-mod-private</title>
+    <link href="https://github.com/WingCasterSanctify/rob-run-mod-private"/>
+    <updated>2026-11-17T18:27:17.000Z</updated>
+    <published>2026-11-16T23:05:11.000Z</published>
+    <summary>No description. — ★ 352 (324.5/day)</summary>
+    <author><name>WingCasterSanctify</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Kianuni/Erosion-CN</id>
+    <title>Kianuni/Erosion-CN</title>
+    <link href="https://github.com/Kianuni/Erosion-CN"/>
+    <updated>2026-11-17T23:33:54.000Z</updated>
+    <published>2026-11-10T02:37:31.000Z</published>
+    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration &amp; MobileGestalt Toolbox (Bilingual EN/ZH) — ★ 2352 (296.3/day)</summary>
+    <author><name>Kianuni</name></author>
   </entry>
   <entry>
     <id>https://github.com/JenkinWoo/sheeridVerify</id>
@@ -183,26 +210,35 @@
     <link href="https://github.com/JenkinWoo/sheeridVerify"/>
     <updated>2026-11-06T09:54:37.000Z</updated>
     <published>2026-11-06T09:28:09.000Z</published>
-    <summary>No description. — ★ 3423 (301.4/day)</summary>
+    <summary>No description. — ★ 3432 (294.5/day)</summary>
     <author><name>JenkinWoo</name></author>
   </entry>
   <entry>
     <id>https://github.com/FrigadeHQ/yogurt</id>
     <title>FrigadeHQ/yogurt</title>
     <link href="https://github.com/FrigadeHQ/yogurt"/>
-    <updated>2026-11-17T17:30:17.000Z</updated>
+    <updated>2026-11-18T00:57:05.000Z</updated>
     <published>2026-11-10T20:01:01.000Z</published>
-    <summary>Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. — ★ 1975 (285.5/day)</summary>
+    <summary>Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. — ★ 2020 (280.1/day)</summary>
     <author><name>FrigadeHQ</name></author>
   </entry>
   <entry>
     <id>https://github.com/CzzzzzzJ/mdldm-maitian</id>
     <title>CzzzzzzJ/mdldm-maitian</title>
     <link href="https://github.com/CzzzzzzJ/mdldm-maitian"/>
-    <updated>2026-11-17T17:11:10.000Z</updated>
+    <updated>2026-11-17T18:55:57.000Z</updated>
     <published>2026-11-14T03:59:22.000Z</published>
-    <summary>麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏 — ★ 944 (263.3/day)</summary>
+    <summary>麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏 — ★ 1029 (265.2/day)</summary>
     <author><name>CzzzzzzJ</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ersinkoc/phonebox</id>
+    <title>ersinkoc/phonebox</title>
+    <link href="https://github.com/ersinkoc/phonebox"/>
+    <updated>2026-11-17T20:28:34.000Z</updated>
+    <published>2026-11-07T16:45:16.000Z</published>
+    <summary>Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 115 widgets for system stats, AI coding, media and automation. USB or paired Wi-Fi. No cloud required. — ★ 2655 (256.6/day)</summary>
+    <author><name>ersinkoc</name></author>
   </entry>
   <entry>
     <id>https://github.com/ZiChuanLan/freebie-radar</id>
@@ -210,44 +246,8 @@
     <link href="https://github.com/ZiChuanLan/freebie-radar"/>
     <updated>2026-11-17T17:25:24.000Z</updated>
     <published>2026-11-12T09:08:11.000Z</published>
-    <summary>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送 — ★ 1409 (262.3/day)</summary>
+    <summary>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送 — ★ 1432 (252.7/day)</summary>
     <author><name>ZiChuanLan</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ersinkoc/phonebox</id>
-    <title>ersinkoc/phonebox</title>
-    <link href="https://github.com/ersinkoc/phonebox"/>
-    <updated>2026-11-17T17:50:09.000Z</updated>
-    <published>2026-11-07T16:45:16.000Z</published>
-    <summary>Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 115 widgets for system stats, AI coding, media and automation. USB or paired Wi-Fi. No cloud required. — ★ 2478 (246.5/day)</summary>
-    <author><name>ersinkoc</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/xyzww888/muse-JP-Reg</id>
-    <title>xyzww888/muse-JP-Reg</title>
-    <link href="https://github.com/xyzww888/muse-JP-Reg"/>
-    <updated>2026-11-17T00:06:27.000Z</updated>
-    <published>2026-11-17T00:06:19.000Z</published>
-    <summary>Muse.ai pure-HTTP registration &amp; invite-code fission WebUI (JP residential proxy ready) — ★ 180 (240.7/day)</summary>
-    <author><name>xyzww888</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/yetanotherbrowser/yab</id>
-    <title>yetanotherbrowser/yab</title>
-    <link href="https://github.com/yetanotherbrowser/yab"/>
-    <updated>2026-11-16T21:57:01.000Z</updated>
-    <published>2026-11-14T23:56:32.000Z</published>
-    <summary>Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion — ★ 663 (240.7/day)</summary>
-    <author><name>yetanotherbrowser</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/HybridRobotics/supermimic</id>
-    <title>HybridRobotics/supermimic</title>
-    <link href="https://github.com/HybridRobotics/supermimic"/>
-    <updated>2026-11-16T23:15:47.000Z</updated>
-    <published>2026-11-10T10:46:56.000Z</published>
-    <summary>Humanoid whole-body motion tracking with one differentiable world model. — ★ 1740 (238.3/day)</summary>
-    <author><name>HybridRobotics</name></author>
   </entry>
   <entry>
     <id>https://github.com/haziqahmedqasmi/PeakCut</id>
@@ -255,25 +255,25 @@
     <link href="https://github.com/haziqahmedqasmi/PeakCut"/>
     <updated>2026-11-17T13:20:20.000Z</updated>
     <published>2026-11-14T07:38:20.000Z</published>
-    <summary>AI clipping for long videos and live streams. Self-hosted, bring your own AI key. — ★ 816 (237.6/day)</summary>
+    <summary>AI clipping for long videos and live streams. Self-hosted, bring your own AI key. — ★ 866 (232.3/day)</summary>
     <author><name>haziqahmedqasmi</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Orderchodrag/smelt-minecraft-mods-to-rust-converter</id>
-    <title>Orderchodrag/smelt-minecraft-mods-to-rust-converter</title>
-    <link href="https://github.com/Orderchodrag/smelt-minecraft-mods-to-rust-converter"/>
-    <updated>2026-11-16T15:44:43.000Z</updated>
-    <published>2026-11-16T15:44:12.000Z</published>
-    <summary>Point Smelt at a Java mod jar and it starts the Rust port for Horizon: crates, traits and a build that runs. Unfinished parts are marked, so you know exactly what is left. — ★ 259 (236.2/day)</summary>
-    <author><name>Orderchodrag</name></author>
+    <id>https://github.com/HybridRobotics/supermimic</id>
+    <title>HybridRobotics/supermimic</title>
+    <link href="https://github.com/HybridRobotics/supermimic"/>
+    <updated>2026-11-16T23:15:47.000Z</updated>
+    <published>2026-11-10T10:46:56.000Z</published>
+    <summary>Humanoid whole-body motion tracking with one differentiable world model. — ★ 1749 (230.2/day)</summary>
+    <author><name>HybridRobotics</name></author>
   </entry>
   <entry>
-    <id>https://github.com/YellowLaborerMarket/Gemini-Config-Checker-</id>
-    <title>YellowLaborerMarket/Gemini-Config-Checker-</title>
-    <link href="https://github.com/YellowLaborerMarket/Gemini-Config-Checker-"/>
-    <updated>2026-11-15T16:49:31.000Z</updated>
-    <published>2026-11-15T16:48:18.000Z</published>
-    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)  — ★ 475 (231.5/day)</summary>
-    <author><name>YellowLaborerMarket</name></author>
+    <id>https://github.com/yetanotherbrowser/yab</id>
+    <title>yetanotherbrowser/yab</title>
+    <link href="https://github.com/yetanotherbrowser/yab"/>
+    <updated>2026-11-17T19:26:59.000Z</updated>
+    <published>2026-11-14T23:56:32.000Z</published>
+    <summary>Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion — ★ 678 (222.4/day)</summary>
+    <author><name>yetanotherbrowser</name></author>
   </entry>
 </feed>
