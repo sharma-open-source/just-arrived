@@ -5,24 +5,33 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-19T14:36:51.211Z</updated>
+  <updated>2026-11-19T22:33:00.871Z</updated>
   <entry>
     <id>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</id>
     <title>krisgfx9/Wireless-Device-Battery-Monitor</title>
     <link href="https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"/>
-    <updated>2026-11-19T06:15:50.000Z</updated>
+    <updated>2026-11-19T22:00:36.000Z</updated>
     <published>2026-11-16T19:28:29.000Z</published>
-    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 4407 (1575.3/day)</summary>
+    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 4631 (1480.4/day)</summary>
     <author><name>krisgfx9</name></author>
   </entry>
   <entry>
     <id>https://github.com/erkamyaman/rust-anything</id>
     <title>erkamyaman/rust-anything</title>
     <link href="https://github.com/erkamyaman/rust-anything"/>
-    <updated>2026-11-19T14:26:25.000Z</updated>
+    <updated>2026-11-19T22:26:15.000Z</updated>
     <published>2026-11-16T12:10:36.000Z</published>
-    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 4494 (1448.9/day)</summary>
+    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 5074 (1478.3/day)</summary>
     <author><name>erkamyaman</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/bookwjitchieni1986/blender-ai-mcp-addon</id>
+    <title>bookwjitchieni1986/blender-ai-mcp-addon</title>
+    <link href="https://github.com/bookwjitchieni1986/blender-ai-mcp-addon"/>
+    <updated>2026-11-19T14:44:11.000Z</updated>
+    <published>2026-11-19T14:43:10.000Z</published>
+    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 394 (1207.5/day)</summary>
+    <author><name>bookwjitchieni1986</name></author>
   </entry>
   <entry>
     <id>https://github.com/gylive/google-ultra</id>
@@ -30,8 +39,17 @@
     <link href="https://github.com/gylive/google-ultra"/>
     <updated>2026-11-19T14:11:25.000Z</updated>
     <published>2026-11-17T10:21:54.000Z</published>
-    <summary>No description. — ★ 2404 (1104.2/day)</summary>
+    <summary>No description. — ★ 2440 (973.0/day)</summary>
     <author><name>gylive</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/MSNightmare/FastUnlock</id>
+    <title>MSNightmare/FastUnlock</title>
+    <link href="https://github.com/MSNightmare/FastUnlock"/>
+    <updated>2026-11-19T13:54:47.000Z</updated>
+    <published>2026-11-19T12:37:51.000Z</published>
+    <summary>FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability — ★ 333 (805.7/day)</summary>
+    <author><name>MSNightmare</name></author>
   </entry>
   <entry>
     <id>https://github.com/huami1314/GestaltX</id>
@@ -39,8 +57,17 @@
     <link href="https://github.com/huami1314/GestaltX"/>
     <updated>2026-11-17T02:00:13.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8495 (817.6/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8532 (795.9/day)</summary>
     <author><name>huami1314</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Bodila51/gtavi-claudecode</id>
+    <title>Bodila51/gtavi-claudecode</title>
+    <link href="https://github.com/Bodila51/gtavi-claudecode"/>
+    <updated>2026-11-19T09:30:06.000Z</updated>
+    <published>2026-11-18T17:54:29.000Z</published>
+    <summary>Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits. — ★ 796 (667.0/day)</summary>
+    <author><name>Bodila51</name></author>
   </entry>
   <entry>
     <id>https://github.com/deepseek-ai/chat-demo</id>
@@ -48,8 +75,53 @@
     <link href="https://github.com/deepseek-ai/chat-demo"/>
     <updated>2026-11-19T04:42:36.000Z</updated>
     <published>2026-11-12T08:08:19.000Z</published>
-    <summary>Chat Demo — ★ 4992 (686.7/day)</summary>
+    <summary>Chat Demo — ★ 5022 (660.7/day)</summary>
     <author><name>deepseek-ai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/iamajmeena/neonclipping</id>
+    <title>iamajmeena/neonclipping</title>
+    <link href="https://github.com/iamajmeena/neonclipping"/>
+    <updated>2026-11-19T21:54:37.000Z</updated>
+    <published>2026-11-19T10:00:43.000Z</published>
+    <summary>Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). — ★ 343 (656.5/day)</summary>
+    <author><name>iamajmeena</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/sourmitocand1987/VividFrame-GPU</id>
+    <title>sourmitocand1987/VividFrame-GPU</title>
+    <link href="https://github.com/sourmitocand1987/VividFrame-GPU"/>
+    <updated>2026-11-18T15:51:37.000Z</updated>
+    <published>2026-11-18T15:51:00.000Z</published>
+    <summary>Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streaming · moonlight · dolby-vision · frame-interpolation · video-player · media-player · video-super-resolution · video-processing · upscaling · rife · vulkan · nvidia · windows · video-enhancement · ncnn — ★ 713 (557.4/day)</summary>
+    <author><name>sourmitocand1987</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/bothaggsigym1988/frameglide</id>
+    <title>bothaggsigym1988/frameglide</title>
+    <link href="https://github.com/bothaggsigym1988/frameglide"/>
+    <updated>2026-11-18T15:40:29.000Z</updated>
+    <published>2026-11-18T15:40:02.000Z</published>
+    <summary>From a 30 fps console stream to 60–120 fps on your PC. · frame-interpolation · frame-generation · nvidia · windows · dlss · super-resolution · vulkan · dlss5 · upscaling · rife · neural-rendering · ps5 · rtx · remote-play · pytorch · video · chiaki · optical-flow · video-frame-interpolation · amd · tensorrt · fsr · rtx-vsr · video-upscaling — ★ 679 (527.7/day)</summary>
+    <author><name>bothaggsigym1988</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/duwqijlk/google-trial-tool</id>
+    <title>duwqijlk/google-trial-tool</title>
+    <link href="https://github.com/duwqijlk/google-trial-tool"/>
+    <updated>2026-11-19T11:54:58.000Z</updated>
+    <published>2026-11-19T11:06:16.000Z</published>
+    <summary>No description. — ★ 248 (520.0/day)</summary>
+    <author><name>duwqijlk</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/0marContreras/gta6recomp</id>
+    <title>0marContreras/gta6recomp</title>
+    <link href="https://github.com/0marContreras/gta6recomp"/>
+    <updated>2026-11-18T16:51:42.000Z</updated>
+    <published>2026-11-18T16:49:55.000Z</published>
+    <summary>A GTA VI PC Port — ★ 583 (470.8/day)</summary>
+    <author><name>0marContreras</name></author>
   </entry>
   <entry>
     <id>https://github.com/sybil-solutions/inference-optimisation-skill</id>
@@ -57,7 +129,7 @@
     <link href="https://github.com/sybil-solutions/inference-optimisation-skill"/>
     <updated>2026-11-16T18:40:08.000Z</updated>
     <published>2026-11-16T18:40:04.000Z</published>
-    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 1199 (423.5/day)</summary>
+    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 1255 (396.9/day)</summary>
     <author><name>sybil-solutions</name></author>
   </entry>
   <entry>
@@ -66,17 +138,17 @@
     <link href="https://github.com/Hut-hzf/ung220z-tool"/>
     <updated>2026-11-15T11:17:27.000Z</updated>
     <published>2026-11-15T11:16:46.000Z</published>
-    <summary>ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 1651 (398.9/day)</summary>
+    <summary>ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 1725 (385.9/day)</summary>
     <author><name>Hut-hzf</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Bodila51/gtavi-claudecode</id>
-    <title>Bodila51/gtavi-claudecode</title>
-    <link href="https://github.com/Bodila51/gtavi-claudecode"/>
-    <updated>2026-11-19T09:30:06.000Z</updated>
-    <published>2026-11-18T17:54:29.000Z</published>
-    <summary>Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits. — ★ 333 (386.0/day)</summary>
-    <author><name>Bodila51</name></author>
+    <id>https://github.com/Immortal-Protocols/lastbook</id>
+    <title>Immortal-Protocols/lastbook</title>
+    <link href="https://github.com/Immortal-Protocols/lastbook"/>
+    <updated>2026-11-19T06:54:13.000Z</updated>
+    <published>2026-11-12T23:49:03.000Z</published>
+    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2545 (366.3/day)</summary>
+    <author><name>Immortal-Protocols</name></author>
   </entry>
   <entry>
     <id>https://github.com/tangerineturtle1/NX2navi</id>
@@ -84,7 +156,7 @@
     <link href="https://github.com/tangerineturtle1/NX2navi"/>
     <updated>2026-11-16T02:02:29.000Z</updated>
     <published>2026-11-07T10:01:23.000Z</published>
-    <summary>No description. — ★ 4326 (354.8/day)</summary>
+    <summary>No description. — ★ 4331 (345.9/day)</summary>
     <author><name>tangerineturtle1</name></author>
   </entry>
   <entry>
@@ -93,26 +165,26 @@
     <link href="https://github.com/Noniv/abyssal-garden"/>
     <updated>2026-11-14T17:41:33.000Z</updated>
     <published>2026-11-12T13:57:34.000Z</published>
-    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 2477 (352.5/day)</summary>
+    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 2498 (339.5/day)</summary>
     <author><name>Noniv</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Immortal-Protocols/lastbook</id>
-    <title>Immortal-Protocols/lastbook</title>
-    <link href="https://github.com/Immortal-Protocols/lastbook"/>
-    <updated>2026-11-19T06:54:13.000Z</updated>
-    <published>2026-11-12T23:49:03.000Z</published>
-    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2275 (343.8/day)</summary>
-    <author><name>Immortal-Protocols</name></author>
   </entry>
   <entry>
     <id>https://github.com/jhaizhou-ops/S2Arm</id>
     <title>jhaizhou-ops/S2Arm</title>
     <link href="https://github.com/jhaizhou-ops/S2Arm"/>
-    <updated>2026-11-19T14:11:41.000Z</updated>
+    <updated>2026-11-19T22:30:26.000Z</updated>
     <published>2026-11-08T05:49:46.000Z</published>
-    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 3662 (322.2/day)</summary>
+    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 3675 (314.2/day)</summary>
     <author><name>jhaizhou-ops</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ersinkoc/phonebox</id>
+    <title>ersinkoc/phonebox</title>
+    <link href="https://github.com/ersinkoc/phonebox"/>
+    <updated>2026-11-19T16:28:11.000Z</updated>
+    <published>2026-11-07T16:45:16.000Z</published>
+    <summary>Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required. — ★ 3826 (312.5/day)</summary>
+    <author><name>ersinkoc</name></author>
   </entry>
   <entry>
     <id>https://github.com/apex-compute/ANR</id>
@@ -120,26 +192,26 @@
     <link href="https://github.com/apex-compute/ANR"/>
     <updated>2026-11-19T12:40:35.000Z</updated>
     <published>2026-11-11T04:27:17.000Z</published>
-    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2687 (319.0/day)</summary>
+    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2695 (307.9/day)</summary>
     <author><name>apex-compute</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/FrigadeHQ/yogurt</id>
+    <title>FrigadeHQ/yogurt</title>
+    <link href="https://github.com/FrigadeHQ/yogurt"/>
+    <updated>2026-11-19T22:02:41.000Z</updated>
+    <published>2026-11-10T20:01:01.000Z</published>
+    <summary>Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. — ★ 2610 (286.6/day)</summary>
+    <author><name>FrigadeHQ</name></author>
   </entry>
   <entry>
     <id>https://github.com/chuanqisun/spaceship</id>
     <title>chuanqisun/spaceship</title>
     <link href="https://github.com/chuanqisun/spaceship"/>
-    <updated>2026-11-16T19:53:46.000Z</updated>
+    <updated>2026-11-19T19:13:35.000Z</updated>
     <published>2026-11-16T14:43:45.000Z</published>
-    <summary>Steer your ideas in realtime — ★ 913 (304.8/day)</summary>
+    <summary>Steer your ideas in realtime — ★ 940 (282.6/day)</summary>
     <author><name>chuanqisun</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ersinkoc/phonebox</id>
-    <title>ersinkoc/phonebox</title>
-    <link href="https://github.com/ersinkoc/phonebox"/>
-    <updated>2026-11-19T13:45:53.000Z</updated>
-    <published>2026-11-07T16:45:16.000Z</published>
-    <summary>Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required. — ★ 3598 (302.1/day)</summary>
-    <author><name>ersinkoc</name></author>
   </entry>
   <entry>
     <id>https://github.com/duwqijlk/muse-protocol</id>
@@ -147,35 +219,8 @@
     <link href="https://github.com/duwqijlk/muse-protocol"/>
     <updated>2026-11-15T02:55:33.000Z</updated>
     <published>2026-11-14T01:24:58.000Z</published>
-    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 1646 (296.6/day)</summary>
+    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 1655 (281.4/day)</summary>
     <author><name>duwqijlk</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/FrigadeHQ/yogurt</id>
-    <title>FrigadeHQ/yogurt</title>
-    <link href="https://github.com/FrigadeHQ/yogurt"/>
-    <updated>2026-11-19T08:33:29.000Z</updated>
-    <published>2026-11-10T20:01:01.000Z</published>
-    <summary>Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. — ★ 2546 (290.1/day)</summary>
-    <author><name>FrigadeHQ</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/joshpuckett/allo</id>
-    <title>joshpuckett/allo</title>
-    <link href="https://github.com/joshpuckett/allo"/>
-    <updated>2026-11-18T07:19:43.000Z</updated>
-    <published>2026-11-15T17:33:42.000Z</published>
-    <summary>Allo is your friendly neighborhood typeface, free and open source — ★ 1118 (288.4/day)</summary>
-    <author><name>joshpuckett</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/sourmitocand1987/VividFrame-GPU</id>
-    <title>sourmitocand1987/VividFrame-GPU</title>
-    <link href="https://github.com/sourmitocand1987/VividFrame-GPU"/>
-    <updated>2026-11-18T15:51:37.000Z</updated>
-    <published>2026-11-18T15:51:00.000Z</published>
-    <summary>Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streaming · moonlight · dolby-vision · frame-interpolation · video-player · media-player · video-super-resolution · video-processing · upscaling · rife · vulkan · nvidia · windows · video-enhancement · ncnn — ★ 272 (286.8/day)</summary>
-    <author><name>sourmitocand1987</name></author>
   </entry>
   <entry>
     <id>https://github.com/CzzzzzzJ/mdldm-maitian</id>
@@ -183,7 +228,7 @@
     <link href="https://github.com/CzzzzzzJ/mdldm-maitian"/>
     <updated>2026-11-18T02:49:13.000Z</updated>
     <published>2026-11-14T03:59:22.000Z</published>
-    <summary>麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏 — ★ 1549 (284.6/day)</summary>
+    <summary>麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏 — ★ 1594 (276.1/day)</summary>
     <author><name>CzzzzzzJ</name></author>
   </entry>
   <entry>
@@ -192,8 +237,17 @@
     <link href="https://github.com/JenkinWoo/sheeridVerify"/>
     <updated>2026-11-06T09:54:37.000Z</updated>
     <published>2026-11-06T09:28:09.000Z</published>
-    <summary>No description. — ★ 3586 (271.4/day)</summary>
+    <summary>No description. — ★ 3695 (272.8/day)</summary>
     <author><name>JenkinWoo</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/joshpuckett/allo</id>
+    <title>joshpuckett/allo</title>
+    <link href="https://github.com/joshpuckett/allo"/>
+    <updated>2026-11-18T07:19:43.000Z</updated>
+    <published>2026-11-15T17:33:42.000Z</published>
+    <summary>Allo is your friendly neighborhood typeface, free and open source — ★ 1143 (271.6/day)</summary>
+    <author><name>joshpuckett</name></author>
   </entry>
   <entry>
     <id>https://github.com/Kianuni/Erosion-CN</id>
@@ -201,17 +255,8 @@
     <link href="https://github.com/Kianuni/Erosion-CN"/>
     <updated>2026-11-19T13:48:22.000Z</updated>
     <published>2026-11-10T02:37:31.000Z</published>
-    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration &amp; MobileGestalt Toolbox (Bilingual EN/ZH) — ★ 2515 (264.7/day)</summary>
+    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration &amp; MobileGestalt Toolbox (Bilingual EN/ZH) — ★ 2549 (259.3/day)</summary>
     <author><name>Kianuni</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/bothaggsigym1988/frameglide</id>
-    <title>bothaggsigym1988/frameglide</title>
-    <link href="https://github.com/bothaggsigym1988/frameglide"/>
-    <updated>2026-11-18T15:40:29.000Z</updated>
-    <published>2026-11-18T15:40:02.000Z</published>
-    <summary>From a 30 fps console stream to 60–120 fps on your PC. · frame-interpolation · frame-generation · nvidia · windows · dlss · super-resolution · vulkan · dlss5 · upscaling · rife · neural-rendering · ps5 · rtx · remote-play · pytorch · video · chiaki · optical-flow · video-frame-interpolation · amd · tensorrt · fsr · rtx-vsr · video-upscaling — ★ 252 (263.6/day)</summary>
-    <author><name>bothaggsigym1988</name></author>
   </entry>
   <entry>
     <id>https://github.com/ZiChuanLan/freebie-radar</id>
@@ -219,17 +264,8 @@
     <link href="https://github.com/ZiChuanLan/freebie-radar"/>
     <updated>2026-11-19T02:52:32.000Z</updated>
     <published>2026-11-12T09:08:11.000Z</published>
-    <summary>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送 — ★ 1761 (243.6/day)</summary>
+    <summary>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送 — ★ 1786 (236.3/day)</summary>
     <author><name>ZiChuanLan</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/boringmarketer/boring-marketing-skills</id>
-    <title>boringmarketer/boring-marketing-skills</title>
-    <link href="https://github.com/boringmarketer/boring-marketing-skills"/>
-    <updated>2026-11-17T22:53:58.000Z</updated>
-    <published>2026-11-16T15:09:46.000Z</published>
-    <summary>32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. — ★ 695 (233.4/day)</summary>
-    <author><name>boringmarketer</name></author>
   </entry>
   <entry>
     <id>https://github.com/haziqahmedqasmi/PeakCut</id>
@@ -237,43 +273,7 @@
     <link href="https://github.com/haziqahmedqasmi/PeakCut"/>
     <updated>2026-11-17T13:20:20.000Z</updated>
     <published>2026-11-14T07:38:20.000Z</published>
-    <summary>AI clipping for long videos and live streams. Self-hosted, bring your own AI key. — ★ 1221 (230.8/day)</summary>
+    <summary>AI clipping for long videos and live streams. Self-hosted, bring your own AI key. — ★ 1328 (236.2/day)</summary>
     <author><name>haziqahmedqasmi</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Eynnzerr/TelemetryCleaner</id>
-    <title>Eynnzerr/TelemetryCleaner</title>
-    <link href="https://github.com/Eynnzerr/TelemetryCleaner"/>
-    <updated>2026-11-17T08:45:38.000Z</updated>
-    <published>2026-11-11T06:25:10.000Z</published>
-    <summary>基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块 — ★ 1925 (230.8/day)</summary>
-    <author><name>Eynnzerr</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/HolyArrs/HolyArrs</id>
-    <title>HolyArrs/HolyArrs</title>
-    <link href="https://github.com/HolyArrs/HolyArrs"/>
-    <updated>2026-11-18T22:55:53.000Z</updated>
-    <published>2026-11-09T23:53:25.000Z</published>
-    <summary>One self-hosted app for your shows, movies and music. — ★ 2159 (224.6/day)</summary>
-    <author><name>HolyArrs</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/0marContreras/gta6recomp</id>
-    <title>0marContreras/gta6recomp</title>
-    <link href="https://github.com/0marContreras/gta6recomp"/>
-    <updated>2026-11-18T16:51:42.000Z</updated>
-    <published>2026-11-18T16:49:55.000Z</published>
-    <summary>A GTA VI PC Port — ★ 185 (203.8/day)</summary>
-    <author><name>0marContreras</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/HybridRobotics/supermimic</id>
-    <title>HybridRobotics/supermimic</title>
-    <link href="https://github.com/HybridRobotics/supermimic"/>
-    <updated>2026-11-19T01:54:58.000Z</updated>
-    <published>2026-11-10T10:46:56.000Z</published>
-    <summary>Humanoid whole-body motion tracking with one differentiable world model. — ★ 1848 (201.8/day)</summary>
-    <author><name>HybridRobotics</name></author>
   </entry>
 </feed>
