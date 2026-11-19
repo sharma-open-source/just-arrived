@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-18T23:46:59.123Z</updated>
+  <updated>2026-11-19T05:24:54.203Z</updated>
   <entry>
     <id>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</id>
     <title>krisgfx9/Wireless-Device-Battery-Monitor</title>
     <link href="https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"/>
-    <updated>2026-11-18T20:58:28.000Z</updated>
+    <updated>2026-11-19T00:43:24.000Z</updated>
     <published>2026-11-16T19:28:29.000Z</published>
-    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 3932 (1804.1/day)</summary>
+    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 4128 (1709.9/day)</summary>
     <author><name>krisgfx9</name></author>
   </entry>
   <entry>
@@ -21,7 +21,7 @@
     <link href="https://github.com/erkamyaman/rust-anything"/>
     <updated>2026-11-18T21:09:57.000Z</updated>
     <published>2026-11-16T12:10:36.000Z</published>
-    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 3311 (1333.1/day)</summary>
+    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 3649 (1342.4/day)</summary>
     <author><name>erkamyaman</name></author>
   </entry>
   <entry>
@@ -30,16 +30,16 @@
     <link href="https://github.com/huami1314/GestaltX"/>
     <updated>2026-11-17T02:00:13.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8363 (855.8/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8419 (841.4/day)</summary>
     <author><name>huami1314</name></author>
   </entry>
   <entry>
     <id>https://github.com/deepseek-ai/chat-demo</id>
     <title>deepseek-ai/chat-demo</title>
     <link href="https://github.com/deepseek-ai/chat-demo"/>
-    <updated>2026-11-18T13:40:01.000Z</updated>
+    <updated>2026-11-19T04:42:36.000Z</updated>
     <published>2026-11-12T08:08:19.000Z</published>
-    <summary>Chat Demo — ★ 4817 (724.2/day)</summary>
+    <summary>Chat Demo — ★ 4889 (709.9/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
@@ -48,8 +48,17 @@
     <link href="https://github.com/sybil-solutions/inference-optimisation-skill"/>
     <updated>2026-11-16T18:40:08.000Z</updated>
     <published>2026-11-16T18:40:04.000Z</published>
-    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 1105 (499.3/day)</summary>
+    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 1149 (469.4/day)</summary>
     <author><name>sybil-solutions</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Hut-hzf/ung220z-tool</id>
+    <title>Hut-hzf/ung220z-tool</title>
+    <link href="https://github.com/Hut-hzf/ung220z-tool"/>
+    <updated>2026-11-15T11:17:27.000Z</updated>
+    <published>2026-11-15T11:16:46.000Z</published>
+    <summary>ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 1382 (368.0/day)</summary>
+    <author><name>Hut-hzf</name></author>
   </entry>
   <entry>
     <id>https://github.com/tangerineturtle1/NX2navi</id>
@@ -57,7 +66,7 @@
     <link href="https://github.com/tangerineturtle1/NX2navi"/>
     <updated>2026-11-16T02:02:29.000Z</updated>
     <published>2026-11-07T10:01:23.000Z</published>
-    <summary>No description. — ★ 4316 (372.9/day)</summary>
+    <summary>No description. — ★ 4325 (366.3/day)</summary>
     <author><name>tangerineturtle1</name></author>
   </entry>
   <entry>
@@ -66,8 +75,17 @@
     <link href="https://github.com/Noniv/abyssal-garden"/>
     <updated>2026-11-14T17:41:33.000Z</updated>
     <published>2026-11-12T13:57:34.000Z</published>
-    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 2390 (372.9/day)</summary>
+    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 2413 (363.2/day)</summary>
     <author><name>Noniv</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Immortal-Protocols/lastbook</id>
+    <title>Immortal-Protocols/lastbook</title>
+    <link href="https://github.com/Immortal-Protocols/lastbook"/>
+    <updated>2026-11-19T00:46:44.000Z</updated>
+    <published>2026-11-12T23:49:03.000Z</published>
+    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2203 (353.4/day)</summary>
+    <author><name>Immortal-Protocols</name></author>
   </entry>
   <entry>
     <id>https://github.com/chuanqisun/spaceship</id>
@@ -75,17 +93,8 @@
     <link href="https://github.com/chuanqisun/spaceship"/>
     <updated>2026-11-16T19:53:46.000Z</updated>
     <published>2026-11-16T14:43:45.000Z</published>
-    <summary>Steer your ideas in realtime — ★ 863 (363.0/day)</summary>
+    <summary>Steer your ideas in realtime — ★ 875 (335.0/day)</summary>
     <author><name>chuanqisun</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Immortal-Protocols/lastbook</id>
-    <title>Immortal-Protocols/lastbook</title>
-    <link href="https://github.com/Immortal-Protocols/lastbook"/>
-    <updated>2026-11-18T23:22:25.000Z</updated>
-    <published>2026-11-12T23:49:03.000Z</published>
-    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2156 (359.4/day)</summary>
-    <author><name>Immortal-Protocols</name></author>
   </entry>
   <entry>
     <id>https://github.com/apex-compute/ANR</id>
@@ -93,16 +102,16 @@
     <link href="https://github.com/apex-compute/ANR"/>
     <updated>2026-11-17T00:20:54.000Z</updated>
     <published>2026-11-11T04:27:17.000Z</published>
-    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2657 (340.4/day)</summary>
+    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2668 (331.8/day)</summary>
     <author><name>apex-compute</name></author>
   </entry>
   <entry>
     <id>https://github.com/jhaizhou-ops/S2Arm</id>
     <title>jhaizhou-ops/S2Arm</title>
     <link href="https://github.com/jhaizhou-ops/S2Arm"/>
-    <updated>2026-11-18T23:43:21.000Z</updated>
+    <updated>2026-11-19T05:22:18.000Z</updated>
     <published>2026-11-08T05:49:46.000Z</published>
-    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 3594 (334.4/day)</summary>
+    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 3614 (329.1/day)</summary>
     <author><name>jhaizhou-ops</name></author>
   </entry>
   <entry>
@@ -111,17 +120,8 @@
     <link href="https://github.com/duwqijlk/muse-protocol"/>
     <updated>2026-11-15T02:55:33.000Z</updated>
     <published>2026-11-14T01:24:58.000Z</published>
-    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 1627 (329.9/day)</summary>
+    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 1631 (315.7/day)</summary>
     <author><name>duwqijlk</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Hut-hzf/ung220z-tool</id>
-    <title>Hut-hzf/ung220z-tool</title>
-    <link href="https://github.com/Hut-hzf/ung220z-tool"/>
-    <updated>2026-11-15T11:17:27.000Z</updated>
-    <published>2026-11-15T11:16:46.000Z</published>
-    <summary>ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 1153 (327.5/day)</summary>
-    <author><name>Hut-hzf</name></author>
   </entry>
   <entry>
     <id>https://github.com/joshpuckett/allo</id>
@@ -129,35 +129,26 @@
     <link href="https://github.com/joshpuckett/allo"/>
     <updated>2026-11-18T07:19:43.000Z</updated>
     <published>2026-11-15T17:33:42.000Z</published>
-    <summary>Allo is your friendly neighborhood typeface, free and open source — ★ 1042 (319.7/day)</summary>
+    <summary>Allo is your friendly neighborhood typeface, free and open source — ★ 1060 (303.4/day)</summary>
     <author><name>joshpuckett</name></author>
   </entry>
   <entry>
     <id>https://github.com/FrigadeHQ/yogurt</id>
     <title>FrigadeHQ/yogurt</title>
     <link href="https://github.com/FrigadeHQ/yogurt"/>
-    <updated>2026-11-18T23:29:23.000Z</updated>
+    <updated>2026-11-19T01:46:44.000Z</updated>
     <published>2026-11-10T20:01:01.000Z</published>
-    <summary>Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. — ★ 2379 (291.7/day)</summary>
+    <summary>Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. — ★ 2445 (291.4/day)</summary>
     <author><name>FrigadeHQ</name></author>
   </entry>
   <entry>
     <id>https://github.com/ersinkoc/phonebox</id>
     <title>ersinkoc/phonebox</title>
     <link href="https://github.com/ersinkoc/phonebox"/>
-    <updated>2026-11-18T23:37:02.000Z</updated>
+    <updated>2026-11-19T00:28:47.000Z</updated>
     <published>2026-11-07T16:45:16.000Z</published>
-    <summary>Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 12 languages. USB or paired Wi-Fi. No cloud required. — ★ 3225 (285.6/day)</summary>
+    <summary>Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 12 languages. USB or paired Wi-Fi. No cloud required. — ★ 3319 (287.9/day)</summary>
     <author><name>ersinkoc</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/boringmarketer/boring-marketing-skills</id>
-    <title>boringmarketer/boring-marketing-skills</title>
-    <link href="https://github.com/boringmarketer/boring-marketing-skills"/>
-    <updated>2026-11-17T22:53:58.000Z</updated>
-    <published>2026-11-16T15:09:46.000Z</published>
-    <summary>32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. — ★ 659 (279.3/day)</summary>
-    <author><name>boringmarketer</name></author>
   </entry>
   <entry>
     <id>https://github.com/JenkinWoo/sheeridVerify</id>
@@ -165,26 +156,8 @@
     <link href="https://github.com/JenkinWoo/sheeridVerify"/>
     <updated>2026-11-06T09:54:37.000Z</updated>
     <published>2026-11-06T09:28:09.000Z</published>
-    <summary>No description. — ★ 3491 (277.1/day)</summary>
+    <summary>No description. — ★ 3520 (274.3/day)</summary>
     <author><name>JenkinWoo</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Kianuni/Erosion-CN</id>
-    <title>Kianuni/Erosion-CN</title>
-    <link href="https://github.com/Kianuni/Erosion-CN"/>
-    <updated>2026-11-18T06:19:35.000Z</updated>
-    <published>2026-11-10T02:37:31.000Z</published>
-    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration &amp; MobileGestalt Toolbox (Bilingual EN/ZH) — ★ 2455 (276.4/day)</summary>
-    <author><name>Kianuni</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Illson/RustText</id>
-    <title>Illson/RustText</title>
-    <link href="https://github.com/Illson/RustText"/>
-    <updated>2026-11-18T23:38:03.000Z</updated>
-    <published>2026-11-16T17:46:45.000Z</published>
-    <summary>No description. — ★ 614 (272.9/day)</summary>
-    <author><name>Illson</name></author>
   </entry>
   <entry>
     <id>https://github.com/CzzzzzzJ/mdldm-maitian</id>
@@ -192,16 +165,43 @@
     <link href="https://github.com/CzzzzzzJ/mdldm-maitian"/>
     <updated>2026-11-18T02:49:13.000Z</updated>
     <published>2026-11-14T03:59:22.000Z</published>
-    <summary>麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏 — ★ 1302 (269.9/day)</summary>
+    <summary>麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏 — ★ 1387 (274.1/day)</summary>
     <author><name>CzzzzzzJ</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Kianuni/Erosion-CN</id>
+    <title>Kianuni/Erosion-CN</title>
+    <link href="https://github.com/Kianuni/Erosion-CN"/>
+    <updated>2026-11-18T06:19:35.000Z</updated>
+    <published>2026-11-10T02:37:31.000Z</published>
+    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration &amp; MobileGestalt Toolbox (Bilingual EN/ZH) — ★ 2465 (270.4/day)</summary>
+    <author><name>Kianuni</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/boringmarketer/boring-marketing-skills</id>
+    <title>boringmarketer/boring-marketing-skills</title>
+    <link href="https://github.com/boringmarketer/boring-marketing-skills"/>
+    <updated>2026-11-17T22:53:58.000Z</updated>
+    <published>2026-11-16T15:09:46.000Z</published>
+    <summary>32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. — ★ 674 (259.8/day)</summary>
+    <author><name>boringmarketer</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Illson/RustText</id>
+    <title>Illson/RustText</title>
+    <link href="https://github.com/Illson/RustText"/>
+    <updated>2026-11-19T01:10:54.000Z</updated>
+    <published>2026-11-16T17:46:45.000Z</published>
+    <summary>No description. — ★ 628 (252.7/day)</summary>
+    <author><name>Illson</name></author>
   </entry>
   <entry>
     <id>https://github.com/ZiChuanLan/freebie-radar</id>
     <title>ZiChuanLan/freebie-radar</title>
     <link href="https://github.com/ZiChuanLan/freebie-radar"/>
-    <updated>2026-11-18T05:21:25.000Z</updated>
+    <updated>2026-11-19T02:52:32.000Z</updated>
     <published>2026-11-12T09:08:11.000Z</published>
-    <summary>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送 — ★ 1615 (244.3/day)</summary>
+    <summary>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送 — ★ 1657 (242.1/day)</summary>
     <author><name>ZiChuanLan</name></author>
   </entry>
   <entry>
@@ -210,7 +210,7 @@
     <link href="https://github.com/haziqahmedqasmi/PeakCut"/>
     <updated>2026-11-17T13:20:20.000Z</updated>
     <published>2026-11-14T07:38:20.000Z</published>
-    <summary>AI clipping for long videos and live streams. Self-hosted, bring your own AI key. — ★ 1080 (231.1/day)</summary>
+    <summary>AI clipping for long videos and live streams. Self-hosted, bring your own AI key. — ★ 1127 (229.7/day)</summary>
     <author><name>haziqahmedqasmi</name></author>
   </entry>
   <entry>
@@ -219,7 +219,7 @@
     <link href="https://github.com/HolyArrs/HolyArrs"/>
     <updated>2026-11-18T22:55:53.000Z</updated>
     <published>2026-11-09T23:53:25.000Z</published>
-    <summary>One self-hosted app for your shows, movies and music. — ★ 1960 (217.9/day)</summary>
+    <summary>One self-hosted app for your shows, movies and music. — ★ 2043 (221.3/day)</summary>
     <author><name>HolyArrs</name></author>
   </entry>
   <entry>
@@ -228,17 +228,35 @@
     <link href="https://github.com/Eynnzerr/TelemetryCleaner"/>
     <updated>2026-11-17T08:45:38.000Z</updated>
     <published>2026-11-11T06:25:10.000Z</published>
-    <summary>基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块 — ★ 1658 (214.7/day)</summary>
+    <summary>基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块 — ★ 1741 (218.8/day)</summary>
     <author><name>Eynnzerr</name></author>
   </entry>
   <entry>
     <id>https://github.com/HybridRobotics/supermimic</id>
     <title>HybridRobotics/supermimic</title>
     <link href="https://github.com/HybridRobotics/supermimic"/>
-    <updated>2026-11-18T12:40:16.000Z</updated>
+    <updated>2026-11-19T01:54:58.000Z</updated>
     <published>2026-11-10T10:46:56.000Z</published>
-    <summary>Humanoid whole-body motion tracking with one differentiable world model. — ★ 1809 (211.8/day)</summary>
+    <summary>Humanoid whole-body motion tracking with one differentiable world model. — ★ 1817 (207.0/day)</summary>
     <author><name>HybridRobotics</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/siliconjungle/shapeshift-labs-ink-studio</id>
+    <title>siliconjungle/shapeshift-labs-ink-studio</title>
+    <link href="https://github.com/siliconjungle/shapeshift-labs-ink-studio"/>
+    <updated>2026-11-19T05:14:56.000Z</updated>
+    <published>2026-11-16T07:44:00.000Z</published>
+    <summary>Sculpting, animation and simulation toolkit for pixel-art Gaussian splats — ★ 583 (200.8/day)</summary>
+    <author><name>siliconjungle</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/DIYgod/pinky</id>
+    <title>DIYgod/pinky</title>
+    <link href="https://github.com/DIYgod/pinky"/>
+    <updated>2026-11-19T05:05:29.000Z</updated>
+    <published>2026-11-06T16:53:14.000Z</published>
+    <summary>Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone. — ★ 2488 (198.7/day)</summary>
+    <author><name>DIYgod</name></author>
   </entry>
   <entry>
     <id>https://github.com/free-dam-man/cloud-exit-node-deploy</id>
@@ -246,34 +264,16 @@
     <link href="https://github.com/free-dam-man/cloud-exit-node-deploy"/>
     <updated>2026-11-17T14:51:47.000Z</updated>
     <published>2026-11-17T14:48:17.000Z</published>
-    <summary>加载技能 — ★ 290 (211.0/day)</summary>
+    <summary>加载技能 — ★ 302 (187.7/day)</summary>
     <author><name>free-dam-man</name></author>
   </entry>
   <entry>
-    <id>https://github.com/jamesondh/chimera-vocal-synth</id>
-    <title>jamesondh/chimera-vocal-synth</title>
-    <link href="https://github.com/jamesondh/chimera-vocal-synth"/>
-    <updated>2026-11-18T21:33:29.000Z</updated>
-    <published>2026-11-05T19:10:42.000Z</published>
-    <summary>the ultimate vocal synthesizer - sing, speak, beatbox, and more — ★ 2725 (206.6/day)</summary>
-    <author><name>jamesondh</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/DIYgod/pinky</id>
-    <title>DIYgod/pinky</title>
-    <link href="https://github.com/DIYgod/pinky"/>
-    <updated>2026-11-18T05:43:21.000Z</updated>
-    <published>2026-11-06T16:53:14.000Z</published>
-    <summary>Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone. — ★ 2459 (200.1/day)</summary>
-    <author><name>DIYgod</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/siliconjungle/shapeshift-labs-ink-studio</id>
-    <title>siliconjungle/shapeshift-labs-ink-studio</title>
-    <link href="https://github.com/siliconjungle/shapeshift-labs-ink-studio"/>
-    <updated>2026-11-18T23:41:58.000Z</updated>
-    <published>2026-11-16T07:44:00.000Z</published>
-    <summary>Sculpting, animation and simulation toolkit for pixel-art Gaussian splats — ★ 514 (192.6/day)</summary>
-    <author><name>siliconjungle</name></author>
+    <id>https://github.com/yetanotherbrowser/yab</id>
+    <title>yetanotherbrowser/yab</title>
+    <link href="https://github.com/yetanotherbrowser/yab"/>
+    <updated>2026-11-19T05:05:48.000Z</updated>
+    <published>2026-11-14T23:56:32.000Z</published>
+    <summary>Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion — ★ 724 (171.2/day)</summary>
+    <author><name>yetanotherbrowser</name></author>
   </entry>
 </feed>
