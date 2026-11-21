@@ -5,23 +5,41 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-21T16:54:23.322Z</updated>
+  <updated>2026-11-21T21:59:42.119Z</updated>
+  <entry>
+    <id>https://github.com/ItsNotRexed/Leonida</id>
+    <title>ItsNotRexed/Leonida</title>
+    <link href="https://github.com/ItsNotRexed/Leonida"/>
+    <updated>2026-11-21T21:53:33.000Z</updated>
+    <published>2026-11-20T20:07:13.000Z</published>
+    <summary>Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6 — ★ 3770 (3496.8/day)</summary>
+    <author><name>ItsNotRexed</name></author>
+  </entry>
   <entry>
     <id>https://github.com/erkamyaman/rust-anything</id>
     <title>erkamyaman/rust-anything</title>
     <link href="https://github.com/erkamyaman/rust-anything"/>
-    <updated>2026-11-21T15:23:32.000Z</updated>
+    <updated>2026-11-21T21:36:12.000Z</updated>
     <published>2026-11-16T12:10:36.000Z</published>
-    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 7211 (1387.5/day)</summary>
+    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 7352 (1359.2/day)</summary>
     <author><name>erkamyaman</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/omonkeyz/xbox-emulator</id>
+    <title>omonkeyz/xbox-emulator</title>
+    <link href="https://github.com/omonkeyz/xbox-emulator"/>
+    <updated>2026-11-21T21:21:44.000Z</updated>
+    <published>2026-11-21T08:08:39.000Z</published>
+    <summary>Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9) — ★ 671 (1162.7/day)</summary>
+    <author><name>omonkeyz</name></author>
   </entry>
   <entry>
     <id>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</id>
     <title>krisgfx9/Wireless-Device-Battery-Monitor</title>
     <link href="https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"/>
-    <updated>2026-11-21T13:57:06.000Z</updated>
+    <updated>2026-11-21T21:53:41.000Z</updated>
     <published>2026-11-16T19:28:29.000Z</published>
-    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 5709 (1166.8/day)</summary>
+    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 5787 (1133.6/day)</summary>
     <author><name>krisgfx9</name></author>
   </entry>
   <entry>
@@ -30,17 +48,8 @@
     <link href="https://github.com/hatsunemiku-ai/google-one-tools"/>
     <updated>2026-11-21T07:02:02.000Z</updated>
     <published>2026-11-20T22:12:47.000Z</published>
-    <summary>No description. — ★ 857 (1100.3/day)</summary>
+    <summary>No description. — ★ 987 (996.0/day)</summary>
     <author><name>hatsunemiku-ai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Rohim777/gta6-120fps-dabelen</id>
-    <title>Rohim777/gta6-120fps-dabelen</title>
-    <link href="https://github.com/Rohim777/gta6-120fps-dabelen"/>
-    <updated>2026-11-21T13:38:26.000Z</updated>
-    <published>2026-11-21T13:37:06.000Z</published>
-    <summary>Adjustable frame-rate configuration for smoother rendering in GTA6. — ★ 264 (1056.0/day)</summary>
-    <author><name>Rohim777</name></author>
   </entry>
   <entry>
     <id>https://github.com/bookwjitchieni1986/blender-ai-mcp-addon</id>
@@ -48,143 +57,26 @@
     <link href="https://github.com/bookwjitchieni1986/blender-ai-mcp-addon"/>
     <updated>2026-11-19T14:44:11.000Z</updated>
     <published>2026-11-19T14:43:10.000Z</published>
-    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 2032 (971.7/day)</summary>
+    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 2268 (984.7/day)</summary>
     <author><name>bookwjitchieni1986</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Daniel451legend/davinci-resolve-sanolen-color-studio</id>
-    <title>Daniel451legend/davinci-resolve-sanolen-color-studio</title>
-    <link href="https://github.com/Daniel451legend/davinci-resolve-sanolen-color-studio"/>
-    <updated>2026-11-21T13:30:38.000Z</updated>
-    <published>2026-11-21T13:29:10.000Z</published>
-    <summary>Professional color grading workflows and studio tools built for Davinci Resolve. — ★ 197 (788.0/day)</summary>
-    <author><name>Daniel451legend</name></author>
+    <id>https://github.com/MoritzPindorek/Five-Laws-of-AI-Agents</id>
+    <title>MoritzPindorek/Five-Laws-of-AI-Agents</title>
+    <link href="https://github.com/MoritzPindorek/Five-Laws-of-AI-Agents"/>
+    <updated>2026-11-21T13:54:53.000Z</updated>
+    <published>2026-11-21T13:23:05.000Z</published>
+    <summary>Independent philosophical research on the Five Laws of AI Agents, delegated authority, non-entitlement and corrigibility. Zenodo DOI: 10.5281/zenodo.24417028 — ★ 262 (730.3/day)</summary>
+    <author><name>MoritzPindorek</name></author>
   </entry>
   <entry>
-    <id>https://github.com/himeshsuthar91-eng/after-effects-ceramar-motion-design</id>
-    <title>himeshsuthar91-eng/after-effects-ceramar-motion-design</title>
-    <link href="https://github.com/himeshsuthar91-eng/after-effects-ceramar-motion-design"/>
-    <updated>2026-11-21T13:41:39.000Z</updated>
-    <published>2026-11-21T13:40:23.000Z</published>
-    <summary>After Effects Ceramar Motion Design: a motion design project built around Ceramar techniques. — ★ 196 (784.0/day)</summary>
-    <author><name>himeshsuthar91-eng</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/temech30/microsoft-office-ultimate-jakarin</id>
-    <title>temech30/microsoft-office-ultimate-jakarin</title>
-    <link href="https://github.com/temech30/microsoft-office-ultimate-jakarin"/>
-    <updated>2026-11-21T13:35:58.000Z</updated>
-    <published>2026-11-21T13:34:46.000Z</published>
-    <summary>Microsoft Office Ultimate Jakarin delivers a unified toolkit for document creation and workflow — ★ 194 (776.0/day)</summary>
-    <author><name>temech30</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Nhoel-hub/microsoft-office-velelan</id>
-    <title>Nhoel-hub/microsoft-office-velelan</title>
-    <link href="https://github.com/Nhoel-hub/microsoft-office-velelan"/>
-    <updated>2026-11-21T13:30:28.000Z</updated>
-    <published>2026-11-21T13:28:59.000Z</published>
-    <summary>Office Velelan delivers a structured directory for Microsoft Office components and modules. — ★ 193 (772.0/day)</summary>
-    <author><name>Nhoel-hub</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/skezoie/microsoft-365-professional</id>
-    <title>skezoie/microsoft-365-professional</title>
-    <link href="https://github.com/skezoie/microsoft-365-professional"/>
-    <updated>2026-11-21T13:29:30.000Z</updated>
-    <published>2026-11-21T13:27:52.000Z</published>
-    <summary>Installs the full Microsoft 365 Professional productivity suite on your device. — ★ 192 (768.0/day)</summary>
-    <author><name>skezoie</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Phabrooslonopharis/movavi-video-editor-license</id>
-    <title>Phabrooslonopharis/movavi-video-editor-license</title>
-    <link href="https://github.com/Phabrooslonopharis/movavi-video-editor-license"/>
-    <updated>2026-11-21T13:35:10.000Z</updated>
-    <published>2026-11-21T13:33:45.000Z</published>
-    <summary>Edit and export video projects with Movavi Video Editor terms. — ★ 192 (768.0/day)</summary>
-    <author><name>Phabrooslonopharis</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/alfoguasta/sketchup-pro-tasalor</id>
-    <title>alfoguasta/sketchup-pro-tasalor</title>
-    <link href="https://github.com/alfoguasta/sketchup-pro-tasalor"/>
-    <updated>2026-11-21T13:09:06.000Z</updated>
-    <published>2026-11-21T13:07:27.000Z</published>
-    <summary>Design and model in SketchUp Pro Tasalor with advanced 3D tools. — ★ 192 (768.0/day)</summary>
-    <author><name>alfoguasta</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/DigvijayQA/gta6-preload-emulator</id>
-    <title>DigvijayQA/gta6-preload-emulator</title>
-    <link href="https://github.com/DigvijayQA/gta6-preload-emulator"/>
-    <updated>2026-11-21T13:34:36.000Z</updated>
-    <published>2026-11-21T13:33:21.000Z</published>
-    <summary>Emulates the GTA6 preload environment for testing and development workflows. — ★ 192 (768.0/day)</summary>
-    <author><name>DigvijayQA</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/umarmasood5758-stack/knoxmap-easy-launch-lekaron</id>
-    <title>umarmasood5758-stack/knoxmap-easy-launch-lekaron</title>
-    <link href="https://github.com/umarmasood5758-stack/knoxmap-easy-launch-lekaron"/>
-    <updated>2026-11-21T13:31:37.000Z</updated>
-    <published>2026-11-21T13:30:15.000Z</published>
-    <summary>A launch utility for Knoxmap that streamlines startup and simplifies access to Lekaron. — ★ 190 (760.0/day)</summary>
-    <author><name>umarmasood5758-stack</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Blaqsoft/acrobat-pro-fajalor-pdf-workspace</id>
-    <title>Blaqsoft/acrobat-pro-fajalor-pdf-workspace</title>
-    <link href="https://github.com/Blaqsoft/acrobat-pro-fajalor-pdf-workspace"/>
-    <updated>2026-11-21T13:30:38.000Z</updated>
-    <published>2026-11-21T13:29:19.000Z</published>
-    <summary>Streamlined PDF workspace for editing, converting, and organizing documents. — ★ 190 (760.0/day)</summary>
-    <author><name>Blaqsoft</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/abdullah-aitech/valorant-esp-overlay</id>
-    <title>abdullah-aitech/valorant-esp-overlay</title>
-    <link href="https://github.com/abdullah-aitech/valorant-esp-overlay"/>
-    <updated>2026-11-21T13:48:32.000Z</updated>
-    <published>2026-11-21T13:47:09.000Z</published>
-    <summary>See threats through walls, track intel live—your Valorant overlay, no — ★ 190 (760.0/day)</summary>
-    <author><name>abdullah-aitech</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/joaovictoraraujoaraujo949-droid/fps-booster-tweaker-fadalin</id>
-    <title>joaovictoraraujoaraujo949-droid/fps-booster-tweaker-fadalin</title>
-    <link href="https://github.com/joaovictoraraujoaraujo949-droid/fps-booster-tweaker-fadalin"/>
-    <updated>2026-11-21T13:38:00.000Z</updated>
-    <published>2026-11-21T13:36:55.000Z</published>
-    <summary>Tweaks system settings for higher frame rates — focused on FPS optimization. — ★ 190 (760.0/day)</summary>
-    <author><name>joaovictoraraujoaraujo949-droid</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/void52897-star/dlss-5-swapper-compatibility</id>
-    <title>void52897-star/dlss-5-swapper-compatibility</title>
-    <link href="https://github.com/void52897-star/dlss-5-swapper-compatibility"/>
-    <updated>2026-11-21T13:42:00.000Z</updated>
-    <published>2026-11-21T13:40:26.000Z</published>
-    <summary>Swap DLSS presets across modded setups with tooling built for tinkerers. — ★ 190 (760.0/day)</summary>
-    <author><name>void52897-star</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/takidd767-ship-it/rust-external-trainer-sanolan</id>
-    <title>takidd767-ship-it/rust-external-trainer-sanolan</title>
-    <link href="https://github.com/takidd767-ship-it/rust-external-trainer-sanolan"/>
-    <updated>2026-11-21T13:34:35.000Z</updated>
-    <published>2026-11-21T13:33:48.000Z</published>
-    <summary>A focused Rust external trainer delivering practical in-game aid and readable data panels. — ★ 189 (756.0/day)</summary>
-    <author><name>takidd767-ship-it</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/rugza/adobe-photoshop-devemar-photo-editor</id>
-    <title>rugza/adobe-photoshop-devemar-photo-editor</title>
-    <link href="https://github.com/rugza/adobe-photoshop-devemar-photo-editor"/>
-    <updated>2026-11-21T13:38:59.000Z</updated>
-    <published>2026-11-21T13:37:22.000Z</published>
-    <summary>Layered photo editing with precise raster adjustments for Adobe Photoshop. — ★ 189 (756.0/day)</summary>
-    <author><name>rugza</name></author>
+    <id>https://github.com/R0Y00/Xbox2Windows</id>
+    <title>R0Y00/Xbox2Windows</title>
+    <link href="https://github.com/R0Y00/Xbox2Windows"/>
+    <updated>2026-11-21T21:56:44.000Z</updated>
+    <published>2026-11-20T17:43:52.000Z</published>
+    <summary>Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks. — ★ 830 (704.8/day)</summary>
+    <author><name>R0Y00</name></author>
   </entry>
   <entry>
     <id>https://github.com/iamajmeena/neonclipping</id>
@@ -192,7 +84,7 @@
     <link href="https://github.com/iamajmeena/neonclipping"/>
     <updated>2026-11-21T11:36:33.000Z</updated>
     <published>2026-11-19T10:00:43.000Z</published>
-    <summary>Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). — ★ 1645 (719.2/day)</summary>
+    <summary>Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). — ★ 1720 (688.2/day)</summary>
     <author><name>iamajmeena</name></author>
   </entry>
   <entry>
@@ -201,7 +93,7 @@
     <link href="https://github.com/huami1314/GestaltX"/>
     <updated>2026-11-17T02:00:13.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8715 (698.0/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8727 (687.3/day)</summary>
     <author><name>huami1314</name></author>
   </entry>
   <entry>
@@ -210,8 +102,44 @@
     <link href="https://github.com/gylive/google-ultra"/>
     <updated>2026-11-21T15:55:25.000Z</updated>
     <published>2026-11-17T10:21:54.000Z</published>
-    <summary>No description. — ★ 2577 (603.2/day)</summary>
+    <summary>No description. — ★ 2592 (578.0/day)</summary>
     <author><name>gylive</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/himeshsuthar91-eng/after-effects-ceramar-motion-design</id>
+    <title>himeshsuthar91-eng/after-effects-ceramar-motion-design</title>
+    <link href="https://github.com/himeshsuthar91-eng/after-effects-ceramar-motion-design"/>
+    <updated>2026-11-21T20:19:55.000Z</updated>
+    <published>2026-11-21T13:40:23.000Z</published>
+    <summary>After Effects Ceramar Motion Design: a motion design project built around Ceramar techniques. — ★ 194 (559.5/day)</summary>
+    <author><name>himeshsuthar91-eng</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Daniel451legend/davinci-resolve-sanolen-color-studio</id>
+    <title>Daniel451legend/davinci-resolve-sanolen-color-studio</title>
+    <link href="https://github.com/Daniel451legend/davinci-resolve-sanolen-color-studio"/>
+    <updated>2026-11-21T20:23:53.000Z</updated>
+    <published>2026-11-21T13:29:10.000Z</published>
+    <summary>Professional color grading workflows and studio tools built for Davinci Resolve. — ★ 195 (550.0/day)</summary>
+    <author><name>Daniel451legend</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/abdullah-aitech/valorant-esp-overlay</id>
+    <title>abdullah-aitech/valorant-esp-overlay</title>
+    <link href="https://github.com/abdullah-aitech/valorant-esp-overlay"/>
+    <updated>2026-11-21T20:21:01.000Z</updated>
+    <published>2026-11-21T13:47:09.000Z</published>
+    <summary>See threats through walls, track intel live—your Valorant overlay, no — ★ 188 (549.6/day)</summary>
+    <author><name>abdullah-aitech</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/temech30/microsoft-office-ultimate-jakarin</id>
+    <title>temech30/microsoft-office-ultimate-jakarin</title>
+    <link href="https://github.com/temech30/microsoft-office-ultimate-jakarin"/>
+    <updated>2026-11-21T20:22:40.000Z</updated>
+    <published>2026-11-21T13:34:46.000Z</published>
+    <summary>Microsoft Office Ultimate Jakarin delivers a unified toolkit for document creation and workflow — ★ 192 (547.6/day)</summary>
+    <author><name>temech30</name></author>
   </entry>
   <entry>
     <id>https://github.com/deepseek-ai/chat-demo</id>
@@ -219,35 +147,98 @@
     <link href="https://github.com/deepseek-ai/chat-demo"/>
     <updated>2026-11-20T08:48:26.000Z</updated>
     <published>2026-11-12T08:08:19.000Z</published>
-    <summary>Chat Demo — ★ 5205 (555.8/day)</summary>
+    <summary>Chat Demo — ★ 5212 (544.2/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
-    <id>https://github.com/R0Y00/Xbox2Windows</id>
-    <title>R0Y00/Xbox2Windows</title>
-    <link href="https://github.com/R0Y00/Xbox2Windows"/>
-    <updated>2026-11-21T16:52:03.000Z</updated>
-    <published>2026-11-20T17:43:52.000Z</published>
-    <summary>Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks. — ★ 487 (504.3/day)</summary>
-    <author><name>R0Y00</name></author>
+    <id>https://github.com/void52897-star/dlss-5-swapper-compatibility</id>
+    <title>void52897-star/dlss-5-swapper-compatibility</title>
+    <link href="https://github.com/void52897-star/dlss-5-swapper-compatibility"/>
+    <updated>2026-11-21T20:19:40.000Z</updated>
+    <published>2026-11-21T13:40:26.000Z</published>
+    <summary>Swap DLSS presets across modded setups with tooling built for tinkerers. — ★ 188 (542.2/day)</summary>
+    <author><name>void52897-star</name></author>
   </entry>
   <entry>
-    <id>https://github.com/ItsNotRexed/Leonida</id>
-    <title>ItsNotRexed/Leonida</title>
-    <link href="https://github.com/ItsNotRexed/Leonida"/>
-    <updated>2026-11-21T04:47:45.000Z</updated>
-    <published>2026-11-20T20:07:13.000Z</published>
-    <summary>No description. — ★ 363 (419.1/day)</summary>
-    <author><name>ItsNotRexed</name></author>
+    <id>https://github.com/joaovictoraraujoaraujo949-droid/fps-booster-tweaker-fadalin</id>
+    <title>joaovictoraraujoaraujo949-droid/fps-booster-tweaker-fadalin</title>
+    <link href="https://github.com/joaovictoraraujoaraujo949-droid/fps-booster-tweaker-fadalin"/>
+    <updated>2026-11-21T20:20:29.000Z</updated>
+    <published>2026-11-21T13:36:55.000Z</published>
+    <summary>Tweaks system settings for higher frame rates — focused on FPS optimization. — ★ 189 (541.3/day)</summary>
+    <author><name>joaovictoraraujoaraujo949-droid</name></author>
   </entry>
   <entry>
-    <id>https://github.com/CocoSgt/riemann-hypothesis-lean</id>
-    <title>CocoSgt/riemann-hypothesis-lean</title>
-    <link href="https://github.com/CocoSgt/riemann-hypothesis-lean"/>
-    <updated>2026-11-20T15:13:36.000Z</updated>
-    <published>2026-11-20T14:59:14.000Z</published>
-    <summary>Mirror of Levent Alpöge&#39;s Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge — ★ 411 (380.6/day)</summary>
-    <author><name>CocoSgt</name></author>
+    <id>https://github.com/Phabrooslonopharis/movavi-video-editor-license</id>
+    <title>Phabrooslonopharis/movavi-video-editor-license</title>
+    <link href="https://github.com/Phabrooslonopharis/movavi-video-editor-license"/>
+    <updated>2026-11-21T20:23:05.000Z</updated>
+    <published>2026-11-21T13:33:45.000Z</published>
+    <summary>Edit and export video projects with Movavi Video Editor terms. — ★ 190 (540.8/day)</summary>
+    <author><name>Phabrooslonopharis</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Nhoel-hub/microsoft-office-velelan</id>
+    <title>Nhoel-hub/microsoft-office-velelan</title>
+    <link href="https://github.com/Nhoel-hub/microsoft-office-velelan"/>
+    <updated>2026-11-21T20:23:14.000Z</updated>
+    <published>2026-11-21T13:28:59.000Z</published>
+    <summary>Office Velelan delivers a structured directory for Microsoft Office components and modules. — ★ 191 (538.5/day)</summary>
+    <author><name>Nhoel-hub</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/rugza/adobe-photoshop-devemar-photo-editor</id>
+    <title>rugza/adobe-photoshop-devemar-photo-editor</title>
+    <link href="https://github.com/rugza/adobe-photoshop-devemar-photo-editor"/>
+    <updated>2026-11-21T20:20:18.000Z</updated>
+    <published>2026-11-21T13:37:22.000Z</published>
+    <summary>Layered photo editing with precise raster adjustments for Adobe Photoshop. — ★ 187 (536.1/day)</summary>
+    <author><name>rugza</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/skezoie/microsoft-365-professional</id>
+    <title>skezoie/microsoft-365-professional</title>
+    <link href="https://github.com/skezoie/microsoft-365-professional"/>
+    <updated>2026-11-21T20:20:36.000Z</updated>
+    <published>2026-11-21T13:27:52.000Z</published>
+    <summary>Installs the full Microsoft 365 Professional productivity suite on your device. — ★ 190 (534.5/day)</summary>
+    <author><name>skezoie</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/takidd767-ship-it/rust-external-trainer-sanolan</id>
+    <title>takidd767-ship-it/rust-external-trainer-sanolan</title>
+    <link href="https://github.com/takidd767-ship-it/rust-external-trainer-sanolan"/>
+    <updated>2026-11-21T20:19:57.000Z</updated>
+    <published>2026-11-21T13:33:48.000Z</published>
+    <summary>A focused Rust external trainer delivering practical in-game aid and readable data panels. — ★ 187 (532.3/day)</summary>
+    <author><name>takidd767-ship-it</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/umarmasood5758-stack/knoxmap-easy-launch-lekaron</id>
+    <title>umarmasood5758-stack/knoxmap-easy-launch-lekaron</title>
+    <link href="https://github.com/umarmasood5758-stack/knoxmap-easy-launch-lekaron"/>
+    <updated>2026-11-21T20:22:39.000Z</updated>
+    <published>2026-11-21T13:30:15.000Z</published>
+    <summary>A launch utility for Knoxmap that streamlines startup and simplifies access to Lekaron. — ★ 188 (531.4/day)</summary>
+    <author><name>umarmasood5758-stack</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Blaqsoft/acrobat-pro-fajalor-pdf-workspace</id>
+    <title>Blaqsoft/acrobat-pro-fajalor-pdf-workspace</title>
+    <link href="https://github.com/Blaqsoft/acrobat-pro-fajalor-pdf-workspace"/>
+    <updated>2026-11-21T13:30:38.000Z</updated>
+    <published>2026-11-21T13:29:19.000Z</published>
+    <summary>Streamlined PDF workspace for editing, converting, and organizing documents. — ★ 188 (530.4/day)</summary>
+    <author><name>Blaqsoft</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/alfoguasta/sketchup-pro-tasalor</id>
+    <title>alfoguasta/sketchup-pro-tasalor</title>
+    <link href="https://github.com/alfoguasta/sketchup-pro-tasalor"/>
+    <updated>2026-11-21T20:19:49.000Z</updated>
+    <published>2026-11-21T13:07:27.000Z</published>
+    <summary>Design and model in SketchUp Pro Tasalor with advanced 3D tools. — ★ 190 (514.0/day)</summary>
+    <author><name>alfoguasta</name></author>
   </entry>
   <entry>
     <id>https://github.com/sybil-solutions/skill-distill</id>
@@ -255,7 +246,7 @@
     <link href="https://github.com/sybil-solutions/skill-distill"/>
     <updated>2026-11-21T03:48:01.000Z</updated>
     <published>2026-11-21T01:43:00.000Z</published>
-    <summary>Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task — ★ 233 (368.1/day)</summary>
+    <summary>Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task — ★ 316 (374.0/day)</summary>
     <author><name>sybil-solutions</name></author>
   </entry>
   <entry>
@@ -264,16 +255,25 @@
     <link href="https://github.com/Hut-hzf/ung220z-tool"/>
     <updated>2026-11-15T11:17:27.000Z</updated>
     <published>2026-11-15T11:16:46.000Z</published>
-    <summary>ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 2201 (353.0/day)</summary>
+    <summary>ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 2212 (343.1/day)</summary>
     <author><name>Hut-hzf</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/CocoSgt/riemann-hypothesis-lean</id>
+    <title>CocoSgt/riemann-hypothesis-lean</title>
+    <link href="https://github.com/CocoSgt/riemann-hypothesis-lean"/>
+    <updated>2026-11-20T15:13:36.000Z</updated>
+    <published>2026-11-20T14:59:14.000Z</published>
+    <summary>Mirror of Levent Alpöge&#39;s Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge — ★ 426 (329.7/day)</summary>
+    <author><name>CocoSgt</name></author>
   </entry>
   <entry>
     <id>https://github.com/Immortal-Protocols/lastbook</id>
     <title>Immortal-Protocols/lastbook</title>
     <link href="https://github.com/Immortal-Protocols/lastbook"/>
-    <updated>2026-11-21T03:48:44.000Z</updated>
+    <updated>2026-11-21T20:39:31.000Z</updated>
     <published>2026-11-12T23:49:03.000Z</published>
-    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2843 (326.3/day)</summary>
+    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2861 (320.6/day)</summary>
     <author><name>Immortal-Protocols</name></author>
   </entry>
 </feed>
