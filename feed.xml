@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-21T01:56:11.716Z</updated>
+  <updated>2026-11-21T09:03:09.784Z</updated>
   <entry>
     <id>https://github.com/erkamyaman/rust-anything</id>
     <title>erkamyaman/rust-anything</title>
     <link href="https://github.com/erkamyaman/rust-anything"/>
-    <updated>2026-11-20T23:24:40.000Z</updated>
+    <updated>2026-11-21T03:19:03.000Z</updated>
     <published>2026-11-16T12:10:36.000Z</published>
-    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 6681 (1460.9/day)</summary>
+    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 6921 (1421.2/day)</summary>
     <author><name>erkamyaman</name></author>
   </entry>
   <entry>
@@ -21,8 +21,17 @@
     <link href="https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"/>
     <updated>2026-11-20T13:36:43.000Z</updated>
     <published>2026-11-16T19:28:29.000Z</published>
-    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 5327 (1247.8/day)</summary>
+    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 5500 (1204.6/day)</summary>
     <author><name>krisgfx9</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/hatsunemiku-ai/google-one-tools</id>
+    <title>hatsunemiku-ai/google-one-tools</title>
+    <link href="https://github.com/hatsunemiku-ai/google-one-tools"/>
+    <updated>2026-11-21T07:02:02.000Z</updated>
+    <published>2026-11-20T22:12:47.000Z</published>
+    <summary>No description. — ★ 514 (1138.0/day)</summary>
+    <author><name>hatsunemiku-ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/bookwjitchieni1986/blender-ai-mcp-addon</id>
@@ -30,16 +39,16 @@
     <link href="https://github.com/bookwjitchieni1986/blender-ai-mcp-addon"/>
     <updated>2026-11-19T14:44:11.000Z</updated>
     <published>2026-11-19T14:43:10.000Z</published>
-    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 1793 (1221.9/day)</summary>
+    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 1886 (1069.2/day)</summary>
     <author><name>bookwjitchieni1986</name></author>
   </entry>
   <entry>
     <id>https://github.com/iamajmeena/neonclipping</id>
     <title>iamajmeena/neonclipping</title>
     <link href="https://github.com/iamajmeena/neonclipping"/>
-    <updated>2026-11-20T04:09:54.000Z</updated>
+    <updated>2026-11-21T04:47:27.000Z</updated>
     <published>2026-11-19T10:00:43.000Z</published>
-    <summary>Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). — ★ 1253 (753.2/day)</summary>
+    <summary>Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). — ★ 1421 (725.0/day)</summary>
     <author><name>iamajmeena</name></author>
   </entry>
   <entry>
@@ -48,7 +57,7 @@
     <link href="https://github.com/huami1314/GestaltX"/>
     <updated>2026-11-17T02:00:13.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8645 (728.8/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8678 (713.8/day)</summary>
     <author><name>huami1314</name></author>
   </entry>
   <entry>
@@ -57,17 +66,8 @@
     <link href="https://github.com/gylive/google-ultra"/>
     <updated>2026-11-19T14:11:25.000Z</updated>
     <published>2026-11-17T10:21:54.000Z</published>
-    <summary>No description. — ★ 2537 (695.3/day)</summary>
+    <summary>No description. — ★ 2556 (647.9/day)</summary>
     <author><name>gylive</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/CocoSgt/riemann-hypothesis-lean</id>
-    <title>CocoSgt/riemann-hypothesis-lean</title>
-    <link href="https://github.com/CocoSgt/riemann-hypothesis-lean"/>
-    <updated>2026-11-20T15:13:36.000Z</updated>
-    <published>2026-11-20T14:59:14.000Z</published>
-    <summary>Mirror of Levent Alpöge&#39;s Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge — ★ 291 (637.8/day)</summary>
-    <author><name>CocoSgt</name></author>
   </entry>
   <entry>
     <id>https://github.com/deepseek-ai/chat-demo</id>
@@ -75,26 +75,17 @@
     <link href="https://github.com/deepseek-ai/chat-demo"/>
     <updated>2026-11-20T08:48:26.000Z</updated>
     <published>2026-11-12T08:08:19.000Z</published>
-    <summary>Chat Demo — ★ 5126 (586.4/day)</summary>
+    <summary>Chat Demo — ★ 5170 (572.0/day)</summary>
     <author><name>deepseek-ai</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Deicyde/riemann-hypothesis</id>
-    <title>Deicyde/riemann-hypothesis</title>
-    <link href="https://github.com/Deicyde/riemann-hypothesis"/>
-    <updated>2026-11-20T20:43:22.000Z</updated>
-    <published>2026-11-20T14:47:49.000Z</published>
-    <summary>Byte-exact mirror and independent Comparator setup for the Lean formalization claiming a proof of the Riemann Hypothesis (alpo.ge, 2026-11-20) — ★ 175 (377.0/day)</summary>
-    <author><name>Deicyde</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/MSNightmare/FastUnlock</id>
-    <title>MSNightmare/FastUnlock</title>
-    <link href="https://github.com/MSNightmare/FastUnlock"/>
-    <updated>2026-11-19T13:54:47.000Z</updated>
-    <published>2026-11-19T12:37:51.000Z</published>
-    <summary>FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability — ★ 581 (373.8/day)</summary>
-    <author><name>MSNightmare</name></author>
+    <id>https://github.com/CocoSgt/riemann-hypothesis-lean</id>
+    <title>CocoSgt/riemann-hypothesis-lean</title>
+    <link href="https://github.com/CocoSgt/riemann-hypothesis-lean"/>
+    <updated>2026-11-20T15:13:36.000Z</updated>
+    <published>2026-11-20T14:59:14.000Z</published>
+    <summary>Mirror of Levent Alpöge&#39;s Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge — ★ 359 (476.9/day)</summary>
+    <author><name>CocoSgt</name></author>
   </entry>
   <entry>
     <id>https://github.com/Hut-hzf/ung220z-tool</id>
@@ -102,26 +93,44 @@
     <link href="https://github.com/Hut-hzf/ung220z-tool"/>
     <updated>2026-11-15T11:17:27.000Z</updated>
     <published>2026-11-15T11:16:46.000Z</published>
-    <summary>ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 2017 (359.5/day)</summary>
+    <summary>ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 2113 (357.7/day)</summary>
     <author><name>Hut-hzf</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/tristanbuckmaster/navier-stokes</id>
-    <title>tristanbuckmaster/navier-stokes</title>
-    <link href="https://github.com/tristanbuckmaster/navier-stokes"/>
-    <updated>2026-11-20T13:33:18.000Z</updated>
-    <published>2026-11-20T10:40:33.000Z</published>
-    <summary>No description. — ★ 222 (349.1/day)</summary>
-    <author><name>tristanbuckmaster</name></author>
   </entry>
   <entry>
     <id>https://github.com/Immortal-Protocols/lastbook</id>
     <title>Immortal-Protocols/lastbook</title>
     <link href="https://github.com/Immortal-Protocols/lastbook"/>
-    <updated>2026-11-20T20:30:39.000Z</updated>
+    <updated>2026-11-21T03:48:44.000Z</updated>
     <published>2026-11-12T23:49:03.000Z</published>
-    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2750 (340.0/day)</summary>
+    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2792 (333.0/day)</summary>
     <author><name>Immortal-Protocols</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/MSNightmare/FastUnlock</id>
+    <title>MSNightmare/FastUnlock</title>
+    <link href="https://github.com/MSNightmare/FastUnlock"/>
+    <updated>2026-11-21T05:18:41.000Z</updated>
+    <published>2026-11-19T12:37:51.000Z</published>
+    <summary>FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability — ★ 613 (331.2/day)</summary>
+    <author><name>MSNightmare</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/leanprover-community/riemann-hypothesis</id>
+    <title>leanprover-community/riemann-hypothesis</title>
+    <link href="https://github.com/leanprover-community/riemann-hypothesis"/>
+    <updated>2026-11-21T08:00:10.000Z</updated>
+    <published>2026-11-20T14:47:49.000Z</published>
+    <summary>Byte-exact mirror and independent Comparator setup for the Lean formalization claiming a proof of the Riemann Hypothesis (alpo.ge, 2026-11-20) — ★ 251 (330.0/day)</summary>
+    <author><name>leanprover-community</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ItsNotRexed/Leonida</id>
+    <title>ItsNotRexed/Leonida</title>
+    <link href="https://github.com/ItsNotRexed/Leonida"/>
+    <updated>2026-11-21T04:47:45.000Z</updated>
+    <published>2026-11-20T20:07:13.000Z</published>
+    <summary>No description. — ★ 176 (326.6/day)</summary>
+    <author><name>ItsNotRexed</name></author>
   </entry>
   <entry>
     <id>https://github.com/sybil-solutions/inference-optimisation-skill</id>
@@ -129,7 +138,7 @@
     <link href="https://github.com/sybil-solutions/inference-optimisation-skill"/>
     <updated>2026-11-16T18:40:08.000Z</updated>
     <published>2026-11-16T18:40:04.000Z</published>
-    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 1339 (311.2/day)</summary>
+    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 1393 (302.9/day)</summary>
     <author><name>sybil-solutions</name></author>
   </entry>
   <entry>
@@ -138,26 +147,44 @@
     <link href="https://github.com/Noniv/abyssal-garden"/>
     <updated>2026-11-14T17:41:33.000Z</updated>
     <published>2026-11-12T13:57:34.000Z</published>
-    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 2610 (307.1/day)</summary>
+    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 2638 (299.9/day)</summary>
     <author><name>Noniv</name></author>
   </entry>
   <entry>
-    <id>https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate</id>
-    <title>nataphong-lab/Open-Source-Face-Recognition-Ultimate</title>
-    <link href="https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate"/>
-    <updated>2026-11-20T09:12:30.000Z</updated>
-    <published>2026-11-19T10:40:46.000Z</published>
-    <summary>Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks — ★ 485 (296.5/day)</summary>
-    <author><name>nataphong-lab</name></author>
+    <id>https://github.com/danielwh2/sprite-stacking</id>
+    <title>danielwh2/sprite-stacking</title>
+    <link href="https://github.com/danielwh2/sprite-stacking"/>
+    <updated>2026-11-21T01:28:57.000Z</updated>
+    <published>2026-11-20T14:32:43.000Z</published>
+    <summary>Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi. — ★ 227 (294.4/day)</summary>
+    <author><name>danielwh2</name></author>
   </entry>
   <entry>
     <id>https://github.com/jhaizhou-ops/S2Arm</id>
     <title>jhaizhou-ops/S2Arm</title>
     <link href="https://github.com/jhaizhou-ops/S2Arm"/>
-    <updated>2026-11-21T01:53:26.000Z</updated>
+    <updated>2026-11-21T08:59:07.000Z</updated>
     <published>2026-11-08T05:49:46.000Z</published>
-    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 3732 (290.7/day)</summary>
+    <summary>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。 — ★ 3753 (285.7/day)</summary>
     <author><name>jhaizhou-ops</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/tristanbuckmaster/navier-stokes</id>
+    <title>tristanbuckmaster/navier-stokes</title>
+    <link href="https://github.com/tristanbuckmaster/navier-stokes"/>
+    <updated>2026-11-20T13:33:18.000Z</updated>
+    <published>2026-11-20T10:40:33.000Z</published>
+    <summary>No description. — ★ 260 (278.9/day)</summary>
+    <author><name>tristanbuckmaster</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/simplexai-labs/linger</id>
+    <title>simplexai-labs/linger</title>
+    <link href="https://github.com/simplexai-labs/linger"/>
+    <updated>2026-11-21T08:00:10.000Z</updated>
+    <published>2026-11-10T03:50:38.000Z</published>
+    <summary>Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own. — ★ 3077 (274.3/day)</summary>
+    <author><name>simplexai-labs</name></author>
   </entry>
   <entry>
     <id>https://github.com/apex-compute/ANR</id>
@@ -165,44 +192,35 @@
     <link href="https://github.com/apex-compute/ANR"/>
     <updated>2026-11-19T12:40:35.000Z</updated>
     <published>2026-11-11T04:27:17.000Z</published>
-    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2734 (276.3/day)</summary>
+    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2743 (269.1/day)</summary>
     <author><name>apex-compute</name></author>
   </entry>
   <entry>
     <id>https://github.com/FrigadeHQ/yogurt</id>
     <title>FrigadeHQ/yogurt</title>
     <link href="https://github.com/FrigadeHQ/yogurt"/>
-    <updated>2026-11-21T01:45:09.000Z</updated>
+    <updated>2026-11-21T07:51:34.000Z</updated>
     <published>2026-11-10T20:01:01.000Z</published>
-    <summary>Private AI meeting notes that stay on your computer. No meeting bot. Free and open source for Mac, Windows and Linux. An alternative to Granola, Otter and Fireflies. — ★ 2779 (271.2/day)</summary>
+    <summary>Private AI meeting notes that stay on your computer. No meeting bot. Free and open source for Mac, Windows and Linux. An alternative to Granola, Otter and Fireflies. — ★ 2808 (266.3/day)</summary>
     <author><name>FrigadeHQ</name></author>
   </entry>
   <entry>
-    <id>https://github.com/simplexai-labs/linger</id>
-    <title>simplexai-labs/linger</title>
-    <link href="https://github.com/simplexai-labs/linger"/>
-    <updated>2026-11-20T17:58:04.000Z</updated>
-    <published>2026-11-10T03:50:38.000Z</published>
-    <summary>Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own. — ★ 2920 (267.4/day)</summary>
-    <author><name>simplexai-labs</name></author>
+    <id>https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate</id>
+    <title>nataphong-lab/Open-Source-Face-Recognition-Ultimate</title>
+    <link href="https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate"/>
+    <updated>2026-11-20T09:12:30.000Z</updated>
+    <published>2026-11-19T10:40:46.000Z</published>
+    <summary>Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks — ★ 514 (266.0/day)</summary>
+    <author><name>nataphong-lab</name></author>
   </entry>
   <entry>
     <id>https://github.com/CzzzzzzJ/mdldm-maitian</id>
     <title>CzzzzzzJ/mdldm-maitian</title>
     <link href="https://github.com/CzzzzzzJ/mdldm-maitian"/>
-    <updated>2026-11-20T13:09:41.000Z</updated>
+    <updated>2026-11-21T04:13:34.000Z</updated>
     <published>2026-11-14T03:59:22.000Z</published>
-    <summary>麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏 — ★ 1720 (248.8/day)</summary>
+    <summary>麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏 — ★ 1751 (242.8/day)</summary>
     <author><name>CzzzzzzJ</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/duwqijlk/muse-protocol</id>
-    <title>duwqijlk/muse-protocol</title>
-    <link href="https://github.com/duwqijlk/muse-protocol"/>
-    <updated>2026-11-15T02:55:33.000Z</updated>
-    <published>2026-11-14T01:24:58.000Z</published>
-    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 1699 (242.0/day)</summary>
-    <author><name>duwqijlk</name></author>
   </entry>
   <entry>
     <id>https://github.com/Kianuni/Erosion-CN</id>
@@ -210,26 +228,17 @@
     <link href="https://github.com/Kianuni/Erosion-CN"/>
     <updated>2026-11-19T13:48:22.000Z</updated>
     <published>2026-11-10T02:37:31.000Z</published>
-    <summary>iOS / iPadOS 国行 Apple 智能、eSIM 与 MobileGestalt 系统配置工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-Safe iOS / iPadOS MobileGestalt, Apple Intelligence &amp; eSIM Toolbox (EN/ZH) — ★ 2638 (240.4/day)</summary>
+    <summary>iOS / iPadOS 国行 Apple 智能、eSIM 与 MobileGestalt 系统配置工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-Safe iOS / iPadOS MobileGestalt, Apple Intelligence &amp; eSIM Toolbox (EN/ZH) — ★ 2659 (236.0/day)</summary>
     <author><name>Kianuni</name></author>
   </entry>
   <entry>
-    <id>https://github.com/joshpuckett/allo</id>
-    <title>joshpuckett/allo</title>
-    <link href="https://github.com/joshpuckett/allo"/>
-    <updated>2026-11-18T07:19:43.000Z</updated>
-    <published>2026-11-15T17:33:42.000Z</published>
-    <summary>Allo is your friendly neighborhood typeface, free and open source — ★ 1254 (234.4/day)</summary>
-    <author><name>joshpuckett</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/haziqahmedqasmi/PeakCut</id>
-    <title>haziqahmedqasmi/PeakCut</title>
-    <link href="https://github.com/haziqahmedqasmi/PeakCut"/>
-    <updated>2026-11-20T13:52:57.000Z</updated>
-    <published>2026-11-14T07:38:20.000Z</published>
-    <summary>AI clipping for long videos and live streams. Self-hosted, bring your own AI key. — ★ 1544 (228.3/day)</summary>
-    <author><name>haziqahmedqasmi</name></author>
+    <id>https://github.com/duwqijlk/muse-protocol</id>
+    <title>duwqijlk/muse-protocol</title>
+    <link href="https://github.com/duwqijlk/muse-protocol"/>
+    <updated>2026-11-15T02:55:33.000Z</updated>
+    <published>2026-11-14T01:24:58.000Z</published>
+    <summary>muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） — ★ 1714 (234.2/day)</summary>
+    <author><name>duwqijlk</name></author>
   </entry>
   <entry>
     <id>https://github.com/ZiChuanLan/freebie-radar</id>
@@ -237,8 +246,17 @@
     <link href="https://github.com/ZiChuanLan/freebie-radar"/>
     <updated>2026-11-20T15:30:35.000Z</updated>
     <published>2026-11-12T09:08:11.000Z</published>
-    <summary>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送 — ★ 1964 (225.7/day)</summary>
+    <summary>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送 — ★ 2035 (226.2/day)</summary>
     <author><name>ZiChuanLan</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/joshpuckett/allo</id>
+    <title>joshpuckett/allo</title>
+    <link href="https://github.com/joshpuckett/allo"/>
+    <updated>2026-11-18T07:19:43.000Z</updated>
+    <published>2026-11-15T17:33:42.000Z</published>
+    <summary>Allo is your friendly neighborhood typeface, free and open source — ★ 1268 (224.6/day)</summary>
+    <author><name>joshpuckett</name></author>
   </entry>
   <entry>
     <id>https://github.com/Eynnzerr/TelemetryCleaner</id>
@@ -246,34 +264,16 @@
     <link href="https://github.com/Eynnzerr/TelemetryCleaner"/>
     <updated>2026-11-17T08:45:38.000Z</updated>
     <published>2026-11-11T06:25:10.000Z</published>
-    <summary>基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块 — ★ 2207 (224.9/day)</summary>
+    <summary>基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块 — ★ 2257 (223.3/day)</summary>
     <author><name>Eynnzerr</name></author>
   </entry>
   <entry>
-    <id>https://github.com/HolyArrs/HolyArrs</id>
-    <title>HolyArrs/HolyArrs</title>
-    <link href="https://github.com/HolyArrs/HolyArrs"/>
-    <updated>2026-11-20T19:49:10.000Z</updated>
-    <published>2026-11-09T23:53:25.000Z</published>
-    <summary>One self-hosted app for your shows, movies and music. — ★ 2474 (223.2/day)</summary>
-    <author><name>HolyArrs</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/chuanqisun/spaceship</id>
-    <title>chuanqisun/spaceship</title>
-    <link href="https://github.com/chuanqisun/spaceship"/>
-    <updated>2026-11-20T15:52:59.000Z</updated>
-    <published>2026-11-16T14:43:45.000Z</published>
-    <summary>Steer ideas like a space pilot! — ★ 994 (222.5/day)</summary>
-    <author><name>chuanqisun</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/duwqijlk/google-trial-tool</id>
-    <title>duwqijlk/google-trial-tool</title>
-    <link href="https://github.com/duwqijlk/google-trial-tool"/>
-    <updated>2026-11-19T11:54:58.000Z</updated>
-    <published>2026-11-19T11:06:16.000Z</published>
-    <summary>No description. — ★ 360 (222.5/day)</summary>
-    <author><name>duwqijlk</name></author>
+    <id>https://github.com/haziqahmedqasmi/PeakCut</id>
+    <title>haziqahmedqasmi/PeakCut</title>
+    <link href="https://github.com/haziqahmedqasmi/PeakCut"/>
+    <updated>2026-11-20T13:52:57.000Z</updated>
+    <published>2026-11-14T07:38:20.000Z</published>
+    <summary>AI clipping for long videos and live streams. Self-hosted, bring your own AI key. — ★ 1575 (223.1/day)</summary>
+    <author><name>haziqahmedqasmi</name></author>
   </entry>
 </feed>
