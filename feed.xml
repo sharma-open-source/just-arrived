@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-22T17:17:40.487Z</updated>
+  <updated>2026-11-22T22:40:06.104Z</updated>
   <entry>
     <id>https://github.com/ItsNotRexed/Leonida</id>
     <title>ItsNotRexed/Leonida</title>
     <link href="https://github.com/ItsNotRexed/Leonida"/>
-    <updated>2026-11-22T16:37:17.000Z</updated>
+    <updated>2026-11-22T22:09:03.000Z</updated>
     <published>2026-11-20T20:07:13.000Z</published>
-    <summary>Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6 — ★ 12199 (6481.0/day)</summary>
+    <summary>Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6 — ★ 14399 (6836.6/day)</summary>
     <author><name>ItsNotRexed</name></author>
   </entry>
   <entry>
@@ -21,26 +21,17 @@
     <link href="https://github.com/EL4CTEO/fast-anything"/>
     <updated>2026-11-22T17:14:51.000Z</updated>
     <published>2026-11-21T14:40:27.000Z</published>
-    <summary>Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. — ★ 1440 (1298.3/day)</summary>
+    <summary>Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. — ★ 1810 (1357.7/day)</summary>
     <author><name>EL4CTEO</name></author>
   </entry>
   <entry>
     <id>https://github.com/erkamyaman/rust-anything</id>
     <title>erkamyaman/rust-anything</title>
     <link href="https://github.com/erkamyaman/rust-anything"/>
-    <updated>2026-11-22T12:26:06.000Z</updated>
+    <updated>2026-11-22T20:06:02.000Z</updated>
     <published>2026-11-16T12:10:36.000Z</published>
-    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 7853 (1263.9/day)</summary>
+    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 7954 (1235.6/day)</summary>
     <author><name>erkamyaman</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</id>
-    <title>krisgfx9/Wireless-Device-Battery-Monitor</title>
-    <link href="https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"/>
-    <updated>2026-11-22T17:11:09.000Z</updated>
-    <published>2026-11-16T19:28:29.000Z</published>
-    <summary>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices. — ★ 6080 (1028.9/day)</summary>
-    <author><name>krisgfx9</name></author>
   </entry>
   <entry>
     <id>https://github.com/bookwjitchieni1986/blender-ai-mcp-addon</id>
@@ -48,26 +39,17 @@
     <link href="https://github.com/bookwjitchieni1986/blender-ai-mcp-addon"/>
     <updated>2026-11-22T13:29:36.000Z</updated>
     <published>2026-11-19T14:43:10.000Z</published>
-    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 2744 (883.1/day)</summary>
+    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 2745 (824.0/day)</summary>
     <author><name>bookwjitchieni1986</name></author>
   </entry>
   <entry>
     <id>https://github.com/omonkeyz/xbox-emulator</id>
     <title>omonkeyz/xbox-emulator</title>
     <link href="https://github.com/omonkeyz/xbox-emulator"/>
-    <updated>2026-11-22T17:11:04.000Z</updated>
+    <updated>2026-11-22T22:04:12.000Z</updated>
     <published>2026-11-21T08:08:39.000Z</published>
-    <summary>Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9) — ★ 1178 (852.8/day)</summary>
+    <summary>Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9) — ★ 1263 (786.8/day)</summary>
     <author><name>omonkeyz</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/hatsunemiku-ai/google-one-tools</id>
-    <title>hatsunemiku-ai/google-one-tools</title>
-    <link href="https://github.com/hatsunemiku-ai/google-one-tools"/>
-    <updated>2026-11-21T07:02:02.000Z</updated>
-    <published>2026-11-20T22:12:47.000Z</published>
-    <summary>No description. — ★ 1238 (689.7/day)</summary>
-    <author><name>hatsunemiku-ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/huami1314/GestaltX</id>
@@ -75,17 +57,8 @@
     <link href="https://github.com/huami1314/GestaltX"/>
     <updated>2026-11-17T02:00:13.000Z</updated>
     <published>2026-11-09T05:15:48.000Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8797 (651.6/day)</summary>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. — ★ 8805 (641.5/day)</summary>
     <author><name>huami1314</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/R0Y00/Xbox2Windows</id>
-    <title>R0Y00/Xbox2Windows</title>
-    <link href="https://github.com/R0Y00/Xbox2Windows"/>
-    <updated>2026-11-22T17:16:10.000Z</updated>
-    <published>2026-11-20T17:43:52.000Z</published>
-    <summary>GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified. — ★ 1220 (615.6/day)</summary>
-    <author><name>R0Y00</name></author>
   </entry>
   <entry>
     <id>https://github.com/iamajmeena/neonclipping</id>
@@ -93,8 +66,17 @@
     <link href="https://github.com/iamajmeena/neonclipping"/>
     <updated>2026-11-21T22:46:46.000Z</updated>
     <published>2026-11-19T10:00:43.000Z</published>
-    <summary>Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). — ★ 2033 (615.4/day)</summary>
+    <summary>Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). — ★ 2086 (591.4/day)</summary>
     <author><name>iamajmeena</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/R0Y00/Xbox2Windows</id>
+    <title>R0Y00/Xbox2Windows</title>
+    <link href="https://github.com/R0Y00/Xbox2Windows"/>
+    <updated>2026-11-22T22:38:22.000Z</updated>
+    <published>2026-11-20T17:43:52.000Z</published>
+    <summary>GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified. — ★ 1286 (583.0/day)</summary>
+    <author><name>R0Y00</name></author>
   </entry>
   <entry>
     <id>https://github.com/deepseek-ai/chat-demo</id>
@@ -102,178 +84,196 @@
     <link href="https://github.com/deepseek-ai/chat-demo"/>
     <updated>2026-11-20T08:48:26.000Z</updated>
     <published>2026-11-12T08:08:19.000Z</published>
-    <summary>Chat Demo — ★ 5276 (508.2/day)</summary>
+    <summary>Chat Demo — ★ 5278 (497.7/day)</summary>
     <author><name>deepseek-ai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/gylive/google-ultra</id>
-    <title>gylive/google-ultra</title>
-    <link href="https://github.com/gylive/google-ultra"/>
-    <updated>2026-11-21T15:55:25.000Z</updated>
-    <published>2026-11-17T10:21:54.000Z</published>
-    <summary>No description. — ★ 2678 (506.4/day)</summary>
-    <author><name>gylive</name></author>
   </entry>
   <entry>
     <id>https://github.com/danx1905k8/war-thunder-realistic-tank-outline-thermal-portable-x64</id>
     <title>danx1905k8/war-thunder-realistic-tank-outline-thermal-portable-x64</title>
     <link href="https://github.com/danx1905k8/war-thunder-realistic-tank-outline-thermal-portable-x64"/>
-    <updated>2026-11-22T07:09:51.000Z</updated>
+    <updated>2026-11-22T19:52:42.000Z</updated>
     <published>2026-11-21T21:27:22.000Z</published>
-    <summary>War Thunder Realistic Tank Outline &amp; Thermal Sight Mod: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 343 (415.0/day)</summary>
+    <summary>War Thunder Realistic Tank Outline &amp; Thermal Sight Mod: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 342 (325.6/day)</summary>
     <author><name>danx1905k8</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/nickcode-01e6/samsung-android-mtp-unlocktool-portable-loader-xiaomi-port</id>
-    <title>nickcode-01e6/samsung-android-mtp-unlocktool-portable-loader-xiaomi-port</title>
-    <link href="https://github.com/nickcode-01e6/samsung-android-mtp-unlocktool-portable-loader-xiaomi-port"/>
-    <updated>2026-11-22T06:58:37.000Z</updated>
-    <published>2026-11-21T21:31:58.000Z</published>
-    <summary>Samsung &amp; Android mtp-csc Toolkit UnlockTool Portable Loader — Xiaomi HyperOS 2.0 &amp; Auth service-helper: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 340 (412.9/day)</summary>
-    <author><name>nickcode-01e6</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ryanhall-2095a5/xeno-bootstrapper-multi-instance-roblox-account-portable-x</id>
-    <title>ryanhall-2095a5/xeno-bootstrapper-multi-instance-roblox-account-portable-x</title>
-    <link href="https://github.com/ryanhall-2095a5/xeno-bootstrapper-multi-instance-roblox-account-portable-x"/>
-    <updated>2026-11-22T07:04:18.000Z</updated>
-    <published>2026-11-21T21:34:07.000Z</published>
-    <summary>Xeno bootstrapper Multi-Instance Roblox Account Manager &amp; FPS extension: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 337 (410.0/day)</summary>
-    <author><name>ryanhall-2095a5</name></author>
   </entry>
   <entry>
     <id>https://github.com/kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64</id>
     <title>kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64</title>
     <link href="https://github.com/kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64"/>
-    <updated>2026-11-22T07:07:52.000Z</updated>
+    <updated>2026-11-22T19:51:27.000Z</updated>
     <published>2026-11-21T20:43:48.000Z</published>
-    <summary>DAW &amp; Synth Studio Suite FL Studio 2026.1 Producer All-Plugins Edition Runtime: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 351 (409.6/day)</summary>
+    <summary>DAW &amp; Synth Studio Suite FL Studio 2026.1 Producer All-Plugins Edition Runtime: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 351 (324.8/day)</summary>
     <author><name>kyle-millerx2098t3</name></author>
   </entry>
   <entry>
-    <id>https://github.com/nikita-deveng1999g0/switch-emulator-keys-firmware-nsp-box-xci-nsp-portable-x64</id>
-    <title>nikita-deveng1999g0/switch-emulator-keys-firmware-nsp-box-xci-nsp-portable-x64</title>
-    <link href="https://github.com/nikita-deveng1999g0/switch-emulator-keys-firmware-nsp-box-xci-nsp-portable-x64"/>
-    <updated>2026-11-22T07:08:49.000Z</updated>
-    <published>2026-11-21T21:29:45.000Z</published>
-    <summary>Switch Emulator Keys &amp; Firmware NSP-Box Switch 2 XCI/NSP Decryption &amp; Merge Toolkit: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 335 (406.1/day)</summary>
-    <author><name>nikita-deveng1999g0</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/leonmiller-io01l1/gta-6-vice-city-ps5-remote-play-60fps-portable-x64</id>
-    <title>leonmiller-io01l1/gta-6-vice-city-ps5-remote-play-60fps-portable-x64</title>
-    <link href="https://github.com/leonmiller-io01l1/gta-6-vice-city-ps5-remote-play-60fps-portable-x64"/>
-    <updated>2026-11-22T07:05:29.000Z</updated>
-    <published>2026-11-21T21:03:42.000Z</published>
-    <summary>GTA 6 Vice City PS5 Remote Play 60FPS FrameGen Enhancer: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 342 (405.7/day)</summary>
-    <author><name>leonmiller-io01l1</name></author>
+    <id>https://github.com/nickcode-01e6/samsung-android-mtp-unlocktool-portable-loader-xiaomi-port</id>
+    <title>nickcode-01e6/samsung-android-mtp-unlocktool-portable-loader-xiaomi-port</title>
+    <link href="https://github.com/nickcode-01e6/samsung-android-mtp-unlocktool-portable-loader-xiaomi-port"/>
+    <updated>2026-11-22T19:46:08.000Z</updated>
+    <published>2026-11-21T21:31:58.000Z</published>
+    <summary>Samsung &amp; Android mtp-csc Toolkit UnlockTool Portable Loader — Xiaomi HyperOS 2.0 &amp; Auth service-helper: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 339 (323.7/day)</summary>
+    <author><name>nickcode-01e6</name></author>
   </entry>
   <entry>
     <id>https://github.com/antonhall-x91s9/discord-local-uncensored-ai-activity-utility-quest-auto-po</id>
     <title>antonhall-x91s9/discord-local-uncensored-ai-activity-utility-quest-auto-po</title>
     <link href="https://github.com/antonhall-x91s9/discord-local-uncensored-ai-activity-utility-quest-auto-po"/>
-    <updated>2026-11-22T07:09:01.000Z</updated>
+    <updated>2026-11-22T19:52:19.000Z</updated>
     <published>2026-11-21T20:49:06.000Z</published>
-    <summary>Discord &amp; Local Uncensored AI Discord Activity serial-utility, Quest Auto-Completer &amp; Badge Booster: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 343 (402.0/day)</summary>
+    <summary>Discord &amp; Local Uncensored AI Discord Activity serial-utility, Quest Auto-Completer &amp; Badge Booster: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 340 (315.7/day)</summary>
     <author><name>antonhall-x91s9</name></author>
   </entry>
   <entry>
-    <id>https://github.com/opokukopoku/gta-6-pc-release</id>
-    <title>opokukopoku/gta-6-pc-release</title>
-    <link href="https://github.com/opokukopoku/gta-6-pc-release"/>
-    <updated>2026-11-22T15:49:55.000Z</updated>
-    <published>2026-11-21T14:16:44.000Z</published>
-    <summary>GTA 6 PC Release: Full Access, Zero Hassle — ★ 450 (399.8/day)</summary>
-    <author><name>opokukopoku</name></author>
+    <id>https://github.com/sybil-solutions/inference-optimisation-skill</id>
+    <title>sybil-solutions/inference-optimisation-skill</title>
+    <link href="https://github.com/sybil-solutions/inference-optimisation-skill"/>
+    <updated>2026-11-16T18:40:08.000Z</updated>
+    <published>2026-11-16T18:40:04.000Z</published>
+    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 1945 (315.4/day)</summary>
+    <author><name>sybil-solutions</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Hut-hzf/ung220z-tool</id>
+    <title>Hut-hzf/ung220z-tool</title>
+    <link href="https://github.com/Hut-hzf/ung220z-tool"/>
+    <updated>2026-11-22T07:06:43.000Z</updated>
+    <published>2026-11-15T11:16:46.000Z</published>
+    <summary>ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 2355 (315.1/day)</summary>
+    <author><name>Hut-hzf</name></author>
   </entry>
   <entry>
     <id>https://github.com/markdevx1901r4/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-portabl</id>
     <title>markdevx1901r4/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-portabl</title>
     <link href="https://github.com/markdevx1901r4/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-portabl"/>
-    <updated>2026-11-22T07:05:05.000Z</updated>
+    <updated>2026-11-22T19:50:43.000Z</updated>
     <published>2026-11-21T20:41:14.000Z</published>
-    <summary>ShadPS4 Bloodborne PC 60FPS Patch, Vertex Explosion Fix &amp; SysModules Pack: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 340 (396.0/day)</summary>
+    <summary>ShadPS4 Bloodborne PC 60FPS Patch, Vertex Explosion Fix &amp; SysModules Pack: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 339 (313.2/day)</summary>
     <author><name>markdevx1901r4</name></author>
   </entry>
   <entry>
-    <id>https://github.com/CETPROAR/rob-run-ares-enhancer</id>
-    <title>CETPROAR/rob-run-ares-enhancer</title>
-    <link href="https://github.com/CETPROAR/rob-run-ares-enhancer"/>
-    <updated>2026-11-22T10:39:22.000Z</updated>
-    <published>2026-11-21T17:09:17.000Z</published>
-    <summary>Rob Run Ares Enhancer - Elevate Your Gameplay — ★ 341 (339.0/day)</summary>
-    <author><name>CETPROAR</name></author>
+    <id>https://github.com/simplexai-labs/linger</id>
+    <title>simplexai-labs/linger</title>
+    <link href="https://github.com/simplexai-labs/linger"/>
+    <updated>2026-11-22T17:53:23.000Z</updated>
+    <published>2026-11-10T03:50:38.000Z</published>
+    <summary>Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own. — ★ 3812 (298.2/day)</summary>
+    <author><name>simplexai-labs</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Adabi0304/studioonepro7-release</id>
-    <title>Adabi0304/studioonepro7-release</title>
-    <link href="https://github.com/Adabi0304/studioonepro7-release"/>
-    <updated>2026-11-22T15:12:24.000Z</updated>
-    <published>2026-11-21T17:13:14.000Z</published>
-    <summary>Studioonepro7 Release: Complete Desktop Suite with All Features Included — ★ 339 (338.0/day)</summary>
-    <author><name>Adabi0304</name></author>
+    <id>https://github.com/Immortal-Protocols/lastbook</id>
+    <title>Immortal-Protocols/lastbook</title>
+    <link href="https://github.com/Immortal-Protocols/lastbook"/>
+    <updated>2026-11-22T12:31:57.000Z</updated>
+    <published>2026-11-12T23:49:03.000Z</published>
+    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2948 (296.2/day)</summary>
+    <author><name>Immortal-Protocols</name></author>
   </entry>
   <entry>
-    <id>https://github.com/aathreynair22-bit/wifi-password-tester</id>
-    <title>aathreynair22-bit/wifi-password-tester</title>
-    <link href="https://github.com/aathreynair22-bit/wifi-password-tester"/>
-    <updated>2026-11-22T11:05:34.000Z</updated>
-    <published>2026-11-21T17:21:30.000Z</published>
-    <summary>WiFi Credential Strength Auditor: PowerShell Brute-Force Tester for Wireless Networks — ★ 337 (337.9/day)</summary>
-    <author><name>aathreynair22-bit</name></author>
+    <id>https://github.com/buildpixelwind/photoshop-win</id>
+    <title>buildpixelwind/photoshop-win</title>
+    <link href="https://github.com/buildpixelwind/photoshop-win"/>
+    <updated>2026-11-21T17:00:20.000Z</updated>
+    <published>2026-11-21T16:55:48.000Z</published>
+    <summary>Adobe Photoshop - raster graphics editor for layered composition, photo retouching and format conversion on Windows 10/11 — ★ 350 (282.5/day)</summary>
+    <author><name>buildpixelwind</name></author>
   </entry>
   <entry>
-    <id>https://github.com/praseesh369/youtube-ai-video-editing-system</id>
-    <title>praseesh369/youtube-ai-video-editing-system</title>
-    <link href="https://github.com/praseesh369/youtube-ai-video-editing-system"/>
-    <updated>2026-11-22T10:49:57.000Z</updated>
-    <published>2026-11-21T17:21:17.000Z</published>
-    <summary>Storyboard, capture, and animate: an AI editing workflow for YouTube — ★ 337 (337.8/day)</summary>
-    <author><name>praseesh369</name></author>
+    <id>https://github.com/G4rdner26/luminar-neo-win</id>
+    <title>G4rdner26/luminar-neo-win</title>
+    <link href="https://github.com/G4rdner26/luminar-neo-win"/>
+    <updated>2026-11-21T17:10:57.000Z</updated>
+    <published>2026-11-21T17:06:29.000Z</published>
+    <summary>Skylum Luminar Neo - photo editing software for AI-powered enhancements, layer editing and raw file processing on Windows 10/11 — ★ 346 (280.9/day)</summary>
+    <author><name>G4rdner26</name></author>
   </entry>
   <entry>
-    <id>https://github.com/rockford007/xyplorer-file-manager</id>
-    <title>rockford007/xyplorer-file-manager</title>
-    <link href="https://github.com/rockford007/xyplorer-file-manager"/>
-    <updated>2026-11-22T10:25:33.000Z</updated>
-    <published>2026-11-21T17:20:56.000Z</published>
-    <summary>XYplorer File Manager: Advanced Tabbed Browsing Dual-Pane Workflow for Desktop — ★ 337 (337.8/day)</summary>
-    <author><name>rockford007</name></author>
+    <id>https://github.com/Nilespand/acronis-true-image-win</id>
+    <title>Nilespand/acronis-true-image-win</title>
+    <link href="https://github.com/Nilespand/acronis-true-image-win"/>
+    <updated>2026-11-21T17:07:57.000Z</updated>
+    <published>2026-11-21T17:02:46.000Z</published>
+    <summary>Acronis True Image - backup and disaster recovery software for disk imaging, file backup and ransomware protection on Windows 10/11 — ★ 346 (280.3/day)</summary>
+    <author><name>Nilespand</name></author>
   </entry>
   <entry>
-    <id>https://github.com/hariachayan5-dotcom/sp-flash-tool</id>
-    <title>hariachayan5-dotcom/sp-flash-tool</title>
-    <link href="https://github.com/hariachayan5-dotcom/sp-flash-tool"/>
-    <updated>2026-11-22T10:36:14.000Z</updated>
-    <published>2026-11-21T17:13:58.000Z</published>
-    <summary>SP Flash Tool: command-line setup and configuration utility for supported MediaTek devices — ★ 338 (337.1/day)</summary>
-    <author><name>hariachayan5-dotcom</name></author>
+    <id>https://github.com/Nilespand/tableau-desktop-win</id>
+    <title>Nilespand/tableau-desktop-win</title>
+    <link href="https://github.com/Nilespand/tableau-desktop-win"/>
+    <updated>2026-11-21T16:24:25.000Z</updated>
+    <published>2026-11-21T16:19:50.000Z</published>
+    <summary>Tableau - business intelligence and data visualization platform for interactive dashboards, data blending and calculated analytics on Windows 10/11 — ★ 354 (280.0/day)</summary>
+    <author><name>Nilespand</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Daax116/startall-back-utility</id>
-    <title>Daax116/startall-back-utility</title>
-    <link href="https://github.com/Daax116/startall-back-utility"/>
-    <updated>2026-11-22T10:28:50.000Z</updated>
-    <published>2026-11-21T17:13:40.000Z</published>
-    <summary>Startall Back Utility: Desktop Manager with Interface Customization — ★ 338 (337.1/day)</summary>
-    <author><name>Daax116</name></author>
+    <id>https://github.com/deep-patch-true/synchro-arts-revoice-pro-5-win</id>
+    <title>deep-patch-true/synchro-arts-revoice-pro-5-win</title>
+    <link href="https://github.com/deep-patch-true/synchro-arts-revoice-pro-5-win"/>
+    <updated>2026-11-21T16:44:34.000Z</updated>
+    <published>2026-11-21T16:39:14.000Z</published>
+    <summary>Synchro Arts Revoice Pro 5 - vocal editing and pitch correction software for automatic timing alignment, pitch shifting and double-track generation on Windows 10/11 — ★ 350 (279.9/day)</summary>
+    <author><name>deep-patch-true</name></author>
   </entry>
   <entry>
-    <id>https://github.com/saadiraq2025-cyber/rob-run-mod-menu</id>
-    <title>saadiraq2025-cyber/rob-run-mod-menu</title>
-    <link href="https://github.com/saadiraq2025-cyber/rob-run-mod-menu"/>
-    <updated>2026-11-22T10:38:14.000Z</updated>
-    <published>2026-11-21T17:09:09.000Z</published>
-    <summary>ROB RUN Mod Menu: Aimbot and Hack Enhancer Setup — ★ 339 (337.0/day)</summary>
-    <author><name>saadiraq2025-cyber</name></author>
+    <id>https://github.com/sloweastlab1987/wise-care-365-pro-win</id>
+    <title>sloweastlab1987/wise-care-365-pro-win</title>
+    <link href="https://github.com/sloweastlab1987/wise-care-365-pro-win"/>
+    <updated>2026-11-21T16:51:05.000Z</updated>
+    <published>2026-11-21T16:46:19.000Z</published>
+    <summary>WiseCleaner Wise Care 365 Pro - system optimization and cleaning utility for registry cleaning, disk cleanup and privacy protection on Windows 10/11 — ★ 348 (279.4/day)</summary>
+    <author><name>sloweastlab1987</name></author>
   </entry>
   <entry>
-    <id>https://github.com/official00shivansh-eng/ultra-iso</id>
-    <title>official00shivansh-eng/ultra-iso</title>
-    <link href="https://github.com/official00shivansh-eng/ultra-iso"/>
-    <updated>2026-11-22T10:41:06.000Z</updated>
-    <published>2026-11-21T17:16:55.000Z</published>
-    <summary>Ultra ISO: Desktop Disc Image Authoring, Mounting, and Conversion Toolkit — ★ 337 (336.8/day)</summary>
-    <author><name>official00shivansh-eng</name></author>
+    <id>https://github.com/Fast-black-tech5681/archicad-win</id>
+    <title>Fast-black-tech5681/archicad-win</title>
+    <link href="https://github.com/Fast-black-tech5681/archicad-win"/>
+    <updated>2026-11-21T17:09:19.000Z</updated>
+    <published>2026-11-21T17:04:28.000Z</published>
+    <summary>Graphisoft Archicad - building information modeling software for architectural design, BIM collaboration and construction documentation on Windows 10/11 — ★ 344 (279.0/day)</summary>
+    <author><name>Fast-black-tech5681</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Link-script-new/notion-win</id>
+    <title>Link-script-new/notion-win</title>
+    <link href="https://github.com/Link-script-new/notion-win"/>
+    <updated>2026-11-21T16:52:07.000Z</updated>
+    <published>2026-11-21T16:47:36.000Z</published>
+    <summary>Notion - productivity and note-taking application for wikis, task management and databases on Windows 10/11 — ★ 346 (278.0/day)</summary>
+    <author><name>Link-script-new</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/serkanellis/spire-win</id>
+    <title>serkanellis/spire-win</title>
+    <link href="https://github.com/serkanellis/spire-win"/>
+    <updated>2026-11-21T16:42:02.000Z</updated>
+    <published>2026-11-21T16:36:57.000Z</published>
+    <summary>Spire - .NET document processing library for PDF generation, Office file conversion and barcode creation on Windows 10/11 — ★ 347 (277.1/day)</summary>
+    <author><name>serkanellis</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/alexeytarasov8/filmora-win</id>
+    <title>alexeytarasov8/filmora-win</title>
+    <link href="https://github.com/alexeytarasov8/filmora-win"/>
+    <updated>2026-11-21T16:52:20.000Z</updated>
+    <published>2026-11-21T16:47:09.000Z</published>
+    <summary>Wondershare Filmora - video editing software for timeline editing, AI-assisted effects and audio mixing on Windows 10/11 — ★ 345 (277.1/day)</summary>
+    <author><name>alexeytarasov8</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/VitalyMukherjee92/lightroom-classic-win</id>
+    <title>VitalyMukherjee92/lightroom-classic-win</title>
+    <link href="https://github.com/VitalyMukherjee92/lightroom-classic-win"/>
+    <updated>2026-11-21T16:34:56.000Z</updated>
+    <published>2026-11-21T16:30:00.000Z</published>
+    <summary>Adobe Lightroom Classic - photo management and editing software for RAW processing, non-destructive adjustments and catalog organization on Windows 10/11 — ★ 348 (276.8/day)</summary>
+    <author><name>VitalyMukherjee92</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/aminatapolat/plugin-alliance-mega-bundle-win</id>
+    <title>aminatapolat/plugin-alliance-mega-bundle-win</title>
+    <link href="https://github.com/aminatapolat/plugin-alliance-mega-bundle-win"/>
+    <updated>2026-11-21T17:00:52.000Z</updated>
+    <published>2026-11-21T16:55:21.000Z</published>
+    <summary>Plugin Alliance - audio plugin bundle for virtual mixing, mastering and effects processing on Windows 10/11 — ★ 343 (276.7/day)</summary>
+    <author><name>aminatapolat</name></author>
   </entry>
 </feed>
