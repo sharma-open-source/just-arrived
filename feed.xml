@@ -5,42 +5,33 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-23T03:26:27.151Z</updated>
+  <updated>2026-11-23T13:26:00.005Z</updated>
   <entry>
     <id>https://github.com/ItsNotRexed/Leonida</id>
     <title>ItsNotRexed/Leonida</title>
     <link href="https://github.com/ItsNotRexed/Leonida"/>
-    <updated>2026-11-23T02:19:14.000Z</updated>
+    <updated>2026-11-23T11:36:50.000Z</updated>
     <published>2026-11-20T20:07:13.000Z</published>
-    <summary>Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6 — ★ 15976 (6930.9/day)</summary>
+    <summary>Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6 — ★ 19798 (7275.0/day)</summary>
     <author><name>ItsNotRexed</name></author>
   </entry>
   <entry>
     <id>https://github.com/EL4CTEO/fast-anything</id>
     <title>EL4CTEO/fast-anything</title>
     <link href="https://github.com/EL4CTEO/fast-anything"/>
-    <updated>2026-11-23T01:28:18.000Z</updated>
+    <updated>2026-11-23T12:17:49.000Z</updated>
     <published>2026-11-21T14:40:27.000Z</published>
-    <summary>Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. — ★ 2047 (1336.2/day)</summary>
+    <summary>Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. — ★ 2746 (1409.4/day)</summary>
     <author><name>EL4CTEO</name></author>
   </entry>
   <entry>
     <id>https://github.com/erkamyaman/rust-anything</id>
     <title>erkamyaman/rust-anything</title>
     <link href="https://github.com/erkamyaman/rust-anything"/>
-    <updated>2026-11-22T20:06:02.000Z</updated>
+    <updated>2026-11-23T13:12:28.000Z</updated>
     <published>2026-11-16T12:10:36.000Z</published>
-    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 8076 (1217.0/day)</summary>
+    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 8478 (1202.2/day)</summary>
     <author><name>erkamyaman</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/bookwjitchieni1986/blender-ai-mcp-addon</id>
-    <title>bookwjitchieni1986/blender-ai-mcp-addon</title>
-    <link href="https://github.com/bookwjitchieni1986/blender-ai-mcp-addon"/>
-    <updated>2026-11-22T13:29:36.000Z</updated>
-    <published>2026-11-19T14:43:10.000Z</published>
-    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 2752 (779.6/day)</summary>
-    <author><name>bookwjitchieni1986</name></author>
   </entry>
   <entry>
     <id>https://github.com/os6/nospeaker</id>
@@ -48,16 +39,25 @@
     <link href="https://github.com/os6/nospeaker"/>
     <updated>2026-11-22T13:14:23.000Z</updated>
     <published>2026-11-22T12:05:54.000Z</published>
-    <summary>make your macbook&#39;s trackpad talk using its haptic motor — ★ 492 (769.6/day)</summary>
+    <summary>make your macbook&#39;s trackpad talk using its haptic motor — ★ 939 (889.5/day)</summary>
     <author><name>os6</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/bookwjitchieni1986/blender-ai-mcp-addon</id>
+    <title>bookwjitchieni1986/blender-ai-mcp-addon</title>
+    <link href="https://github.com/bookwjitchieni1986/blender-ai-mcp-addon"/>
+    <updated>2026-11-22T13:29:36.000Z</updated>
+    <published>2026-11-19T14:43:10.000Z</published>
+    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. — ★ 2760 (699.4/day)</summary>
+    <author><name>bookwjitchieni1986</name></author>
   </entry>
   <entry>
     <id>https://github.com/omonkeyz/xbox-emulator</id>
     <title>omonkeyz/xbox-emulator</title>
     <link href="https://github.com/omonkeyz/xbox-emulator"/>
-    <updated>2026-11-23T03:11:21.000Z</updated>
+    <updated>2026-11-23T11:58:17.000Z</updated>
     <published>2026-11-21T08:08:39.000Z</published>
-    <summary>Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9) — ★ 1354 (750.5/day)</summary>
+    <summary>Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9) — ★ 1501 (676.0/day)</summary>
     <author><name>omonkeyz</name></author>
   </entry>
   <entry>
@@ -66,26 +66,44 @@
     <link href="https://github.com/iamajmeena/neonclipping"/>
     <updated>2026-11-21T22:46:46.000Z</updated>
     <published>2026-11-19T10:00:43.000Z</published>
-    <summary>Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). — ★ 2112 (566.8/day)</summary>
+    <summary>Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). — ★ 2239 (540.5/day)</summary>
     <author><name>iamajmeena</name></author>
   </entry>
   <entry>
     <id>https://github.com/R0Y00/Xbox2Windows</id>
     <title>R0Y00/Xbox2Windows</title>
     <link href="https://github.com/R0Y00/Xbox2Windows"/>
-    <updated>2026-11-23T03:23:47.000Z</updated>
+    <updated>2026-11-23T13:24:12.000Z</updated>
     <published>2026-11-20T17:43:52.000Z</published>
-    <summary>GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified. — ★ 1330 (553.1/day)</summary>
+    <summary>Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified. — ★ 1394 (494.2/day)</summary>
     <author><name>R0Y00</name></author>
   </entry>
   <entry>
     <id>https://github.com/deepseek-ai/chat-demo</id>
     <title>deepseek-ai/chat-demo</title>
     <link href="https://github.com/deepseek-ai/chat-demo"/>
-    <updated>2026-11-20T08:48:26.000Z</updated>
+    <updated>2026-11-23T10:14:13.000Z</updated>
     <published>2026-11-12T08:08:19.000Z</published>
-    <summary>Chat Demo — ★ 5297 (490.3/day)</summary>
+    <summary>Chat Demo — ★ 5333 (475.3/day)</summary>
     <author><name>deepseek-ai</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/chanke17/KuroCat</id>
+    <title>chanke17/KuroCat</title>
+    <link href="https://github.com/chanke17/KuroCat"/>
+    <updated>2026-11-23T13:12:42.000Z</updated>
+    <published>2026-11-23T01:06:18.000Z</published>
+    <summary>🐱 Native macOS &amp; Windows desktop cat pet with full-state keyboard/mouse capture (typing &amp; gaming), 2.5D head tracking, hunting boba eyes, and Black/Siamese skins — ★ 194 (377.7/day)</summary>
+    <author><name>chanke17</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/AFK-surf/xnulinux</id>
+    <title>AFK-surf/xnulinux</title>
+    <link href="https://github.com/AFK-surf/xnulinux"/>
+    <updated>2026-11-23T11:25:48.000Z</updated>
+    <published>2026-11-20T10:18:31.000Z</published>
+    <summary>XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux) — ★ 1002 (320.1/day)</summary>
+    <author><name>AFK-surf</name></author>
   </entry>
   <entry>
     <id>https://github.com/Hut-hzf/ung220z-tool</id>
@@ -93,8 +111,17 @@
     <link href="https://github.com/Hut-hzf/ung220z-tool"/>
     <updated>2026-11-22T07:06:43.000Z</updated>
     <published>2026-11-15T11:16:46.000Z</published>
-    <summary>ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 2394 (312.0/day)</summary>
+    <summary>ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 2513 (310.6/day)</summary>
     <author><name>Hut-hzf</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/simplexai-labs/linger</id>
+    <title>simplexai-labs/linger</title>
+    <link href="https://github.com/simplexai-labs/linger"/>
+    <updated>2026-11-23T13:24:33.000Z</updated>
+    <published>2026-11-10T03:50:38.000Z</published>
+    <summary>Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own. — ★ 4095 (305.6/day)</summary>
+    <author><name>simplexai-labs</name></author>
   </entry>
   <entry>
     <id>https://github.com/sybil-solutions/inference-optimisation-skill</id>
@@ -102,170 +129,17 @@
     <link href="https://github.com/sybil-solutions/inference-optimisation-skill"/>
     <updated>2026-11-16T18:40:08.000Z</updated>
     <published>2026-11-16T18:40:04.000Z</published>
-    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 1969 (309.3/day)</summary>
+    <summary>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization — ★ 2051 (302.4/day)</summary>
     <author><name>sybil-solutions</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/simplexai-labs/linger</id>
-    <title>simplexai-labs/linger</title>
-    <link href="https://github.com/simplexai-labs/linger"/>
-    <updated>2026-11-23T03:12:49.000Z</updated>
-    <published>2026-11-10T03:50:38.000Z</published>
-    <summary>Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own. — ★ 3910 (301.2/day)</summary>
-    <author><name>simplexai-labs</name></author>
   </entry>
   <entry>
     <id>https://github.com/Immortal-Protocols/lastbook</id>
     <title>Immortal-Protocols/lastbook</title>
     <link href="https://github.com/Immortal-Protocols/lastbook"/>
-    <updated>2026-11-23T02:17:57.000Z</updated>
+    <updated>2026-11-23T04:22:24.000Z</updated>
     <published>2026-11-12T23:49:03.000Z</published>
-    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2961 (291.7/day)</summary>
+    <summary>Offline knowledge AI, maps and videos for survival and rebuilding — ★ 2988 (282.8/day)</summary>
     <author><name>Immortal-Protocols</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/G4rdner26/luminar-neo-win</id>
-    <title>G4rdner26/luminar-neo-win</title>
-    <link href="https://github.com/G4rdner26/luminar-neo-win"/>
-    <updated>2026-11-21T17:10:57.000Z</updated>
-    <published>2026-11-21T17:06:29.000Z</published>
-    <summary>Skylum Luminar Neo - photo editing software for AI-powered enhancements, layer editing and raw file processing on Windows 10/11 — ★ 392 (274.0/day)</summary>
-    <author><name>G4rdner26</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/buildpixelwind/photoshop-win</id>
-    <title>buildpixelwind/photoshop-win</title>
-    <link href="https://github.com/buildpixelwind/photoshop-win"/>
-    <updated>2026-11-21T17:00:20.000Z</updated>
-    <published>2026-11-21T16:55:48.000Z</published>
-    <summary>Adobe Photoshop - raster graphics editor for layered composition, photo retouching and format conversion on Windows 10/11 — ★ 387 (269.1/day)</summary>
-    <author><name>buildpixelwind</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/serkanellis/spire-win</id>
-    <title>serkanellis/spire-win</title>
-    <link href="https://github.com/serkanellis/spire-win"/>
-    <updated>2026-11-21T16:42:02.000Z</updated>
-    <published>2026-11-21T16:36:57.000Z</published>
-    <summary>Spire - .NET document processing library for PDF generation, Office file conversion and barcode creation on Windows 10/11 — ★ 389 (268.1/day)</summary>
-    <author><name>serkanellis</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/volkov-ping/camtasia-win</id>
-    <title>volkov-ping/camtasia-win</title>
-    <link href="https://github.com/volkov-ping/camtasia-win"/>
-    <updated>2026-11-21T17:10:55.000Z</updated>
-    <published>2026-11-21T17:05:33.000Z</published>
-    <summary>TechSmith Camtasia - screen recording and video editing software for screen capture, timeline editing and direct publishing on Windows 10/11 — ★ 383 (267.6/day)</summary>
-    <author><name>volkov-ping</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Nilespand/tableau-desktop-win</id>
-    <title>Nilespand/tableau-desktop-win</title>
-    <link href="https://github.com/Nilespand/tableau-desktop-win"/>
-    <updated>2026-11-21T16:24:25.000Z</updated>
-    <published>2026-11-21T16:19:50.000Z</published>
-    <summary>Tableau - business intelligence and data visualization platform for interactive dashboards, data blending and calculated analytics on Windows 10/11 — ★ 391 (267.3/day)</summary>
-    <author><name>Nilespand</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Aroralayla99/capcut-seedance-win</id>
-    <title>Aroralayla99/capcut-seedance-win</title>
-    <link href="https://github.com/Aroralayla99/capcut-seedance-win"/>
-    <updated>2026-11-21T17:01:30.000Z</updated>
-    <published>2026-11-21T16:56:32.000Z</published>
-    <summary>CapCut Seedance - AI video generation tool for text-to-video synthesis, image animation and motion effects on Windows 10/11 — ★ 384 (267.1/day)</summary>
-    <author><name>Aroralayla99</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/aminatapolat/plugin-alliance-mega-bundle-win</id>
-    <title>aminatapolat/plugin-alliance-mega-bundle-win</title>
-    <link href="https://github.com/aminatapolat/plugin-alliance-mega-bundle-win"/>
-    <updated>2026-11-21T17:00:52.000Z</updated>
-    <published>2026-11-21T16:55:21.000Z</published>
-    <summary>Plugin Alliance - audio plugin bundle for virtual mixing, mastering and effects processing on Windows 10/11 — ★ 384 (267.0/day)</summary>
-    <author><name>aminatapolat</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/worksdepl0y/bbc-symphony-orchestra-win</id>
-    <title>worksdepl0y/bbc-symphony-orchestra-win</title>
-    <link href="https://github.com/worksdepl0y/bbc-symphony-orchestra-win"/>
-    <updated>2026-11-21T16:59:15.000Z</updated>
-    <published>2026-11-21T16:54:21.000Z</published>
-    <summary>Bbc Symphony Orchestra - orchestral sample library for realistic strings, brass and woodwind articulations on Windows 10/11 — ★ 384 (266.9/day)</summary>
-    <author><name>worksdepl0y</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/VitalyMukherjee92/lightroom-classic-win</id>
-    <title>VitalyMukherjee92/lightroom-classic-win</title>
-    <link href="https://github.com/VitalyMukherjee92/lightroom-classic-win"/>
-    <updated>2026-11-21T16:34:56.000Z</updated>
-    <published>2026-11-21T16:30:00.000Z</published>
-    <summary>Adobe Lightroom Classic - photo management and editing software for RAW processing, non-destructive adjustments and catalog organization on Windows 10/11 — ★ 388 (266.5/day)</summary>
-    <author><name>VitalyMukherjee92</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/deep-patch-true/synchro-arts-revoice-pro-5-win</id>
-    <title>deep-patch-true/synchro-arts-revoice-pro-5-win</title>
-    <link href="https://github.com/deep-patch-true/synchro-arts-revoice-pro-5-win"/>
-    <updated>2026-11-21T16:44:34.000Z</updated>
-    <published>2026-11-21T16:39:14.000Z</published>
-    <summary>Synchro Arts Revoice Pro 5 - vocal editing and pitch correction software for automatic timing alignment, pitch shifting and double-track generation on Windows 10/11 — ★ 386 (266.3/day)</summary>
-    <author><name>deep-patch-true</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Fast-black-tech5681/archicad-win</id>
-    <title>Fast-black-tech5681/archicad-win</title>
-    <link href="https://github.com/Fast-black-tech5681/archicad-win"/>
-    <updated>2026-11-21T17:09:19.000Z</updated>
-    <published>2026-11-21T17:04:28.000Z</published>
-    <summary>Graphisoft Archicad - building information modeling software for architectural design, BIM collaboration and construction documentation on Windows 10/11 — ★ 381 (266.1/day)</summary>
-    <author><name>Fast-black-tech5681</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/alexeytarasov8/jetbrains-pycharm-professional-win</id>
-    <title>alexeytarasov8/jetbrains-pycharm-professional-win</title>
-    <link href="https://github.com/alexeytarasov8/jetbrains-pycharm-professional-win"/>
-    <updated>2026-11-21T16:24:27.000Z</updated>
-    <published>2026-11-21T16:19:17.000Z</published>
-    <summary>JetBrains PyCharm - Python integrated development environment for scientific computing, web frameworks and data analysis on Windows 10/11 — ★ 389 (265.8/day)</summary>
-    <author><name>alexeytarasov8</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/andrewpandey/total-commander-win</id>
-    <title>andrewpandey/total-commander-win</title>
-    <link href="https://github.com/andrewpandey/total-commander-win"/>
-    <updated>2026-11-21T16:24:53.000Z</updated>
-    <published>2026-11-21T16:21:42.000Z</published>
-    <summary>Ghisler Software Total Commander - file manager for dual-pane navigation, archive handling and FTP transfers on Windows 10/11 — ★ 388 (265.5/day)</summary>
-    <author><name>andrewpandey</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/loudonline/metatrader-5-pro-win</id>
-    <title>loudonline/metatrader-5-pro-win</title>
-    <link href="https://github.com/loudonline/metatrader-5-pro-win"/>
-    <updated>2026-11-21T16:51:45.000Z</updated>
-    <published>2026-11-21T16:46:40.000Z</published>
-    <summary>MetaQuotes MetaTrader 5 Pro - electronic trading platform for algorithmic trading, technical analysis and multi-asset charting on Windows 10/11 — ★ 383 (265.2/day)</summary>
-    <author><name>loudonline</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/michellemurphy2001/affinity-designer-2-win</id>
-    <title>michellemurphy2001/affinity-designer-2-win</title>
-    <link href="https://github.com/michellemurphy2001/affinity-designer-2-win"/>
-    <updated>2026-11-21T17:01:57.000Z</updated>
-    <published>2026-11-21T16:56:50.000Z</published>
-    <summary>Serif Affinity Designer 2 - vector graphics and illustration software for raster and vector workflows, typography and export on Windows 10/11 — ★ 381 (265.1/day)</summary>
-    <author><name>michellemurphy2001</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Clientplus1990/streamlabs-desktop-win</id>
-    <title>Clientplus1990/streamlabs-desktop-win</title>
-    <link href="https://github.com/Clientplus1990/streamlabs-desktop-win"/>
-    <updated>2026-11-21T16:33:51.000Z</updated>
-    <published>2026-11-21T16:28:12.000Z</published>
-    <summary>Streamlabs - live streaming software for stream overlays, chat integration and donation alerts on Windows 10/11 — ★ 386 (264.9/day)</summary>
-    <author><name>Clientplus1990</name></author>
   </entry>
   <entry>
     <id>https://github.com/Noniv/abyssal-garden</id>
@@ -273,7 +147,133 @@
     <link href="https://github.com/Noniv/abyssal-garden"/>
     <updated>2026-11-14T17:41:33.000Z</updated>
     <published>2026-11-12T13:57:34.000Z</published>
-    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 2796 (264.7/day)</summary>
+    <summary>A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file. — ★ 2841 (258.8/day)</summary>
     <author><name>Noniv</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/leanprover-community/riemann-hypothesis</id>
+    <title>leanprover-community/riemann-hypothesis</title>
+    <link href="https://github.com/leanprover-community/riemann-hypothesis"/>
+    <updated>2026-11-23T13:13:08.000Z</updated>
+    <published>2026-11-20T14:47:49.000Z</published>
+    <summary>Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20) — ★ 738 (250.7/day)</summary>
+    <author><name>leanprover-community</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop</id>
+    <title>Avaneesh-Inamdar/Stream-Tube-Desktop</title>
+    <link href="https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop"/>
+    <updated>2026-11-23T11:11:43.000Z</updated>
+    <published>2026-11-22T18:50:17.000Z</published>
+    <summary>Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in — ★ 192 (247.8/day)</summary>
+    <author><name>Avaneesh-Inamdar</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/FrigadeHQ/yogurt</id>
+    <title>FrigadeHQ/yogurt</title>
+    <link href="https://github.com/FrigadeHQ/yogurt"/>
+    <updated>2026-11-23T10:44:42.000Z</updated>
+    <published>2026-11-10T20:01:01.000Z</published>
+    <summary>Private AI meeting notes that stay on your computer. No meeting bot. Free and open source for Mac, Windows and Linux. An alternative to Granola, Otter and Fireflies. — ★ 3024 (237.6/day)</summary>
+    <author><name>FrigadeHQ</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/apex-compute/ANR</id>
+    <title>apex-compute/ANR</title>
+    <link href="https://github.com/apex-compute/ANR"/>
+    <updated>2026-11-19T12:40:35.000Z</updated>
+    <published>2026-11-11T04:27:17.000Z</published>
+    <summary>Apex Neural Rendering (ANR) by Apex Compute — ★ 2940 (237.6/day)</summary>
+    <author><name>apex-compute</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Eynnzerr/TelemetryCleaner</id>
+    <title>Eynnzerr/TelemetryCleaner</title>
+    <link href="https://github.com/Eynnzerr/TelemetryCleaner"/>
+    <updated>2026-11-23T09:59:34.000Z</updated>
+    <published>2026-11-11T06:25:10.000Z</published>
+    <summary>基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块 — ★ 2775 (225.8/day)</summary>
+    <author><name>Eynnzerr</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Lemxy/WinRust</id>
+    <title>Lemxy/WinRust</title>
+    <link href="https://github.com/Lemxy/WinRust"/>
+    <updated>2026-11-22T21:12:31.000Z</updated>
+    <published>2026-11-17T14:27:06.000Z</published>
+    <summary>Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe. — ★ 1321 (221.7/day)</summary>
+    <author><name>Lemxy</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ZiChuanLan/freebie-radar</id>
+    <title>ZiChuanLan/freebie-radar</title>
+    <link href="https://github.com/ZiChuanLan/freebie-radar"/>
+    <updated>2026-11-20T15:30:35.000Z</updated>
+    <published>2026-11-12T09:08:11.000Z</published>
+    <summary>白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送 — ★ 2412 (215.8/day)</summary>
+    <author><name>ZiChuanLan</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/XinaTian/MROffice</id>
+    <title>XinaTian/MROffice</title>
+    <link href="https://github.com/XinaTian/MROffice"/>
+    <updated>2026-11-23T02:37:02.000Z</updated>
+    <published>2026-11-10T17:54:07.000Z</published>
+    <summary>MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line. — ★ 2702 (210.9/day)</summary>
+    <author><name>XinaTian</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/w01fb0ss/PiBot</id>
+    <title>w01fb0ss/PiBot</title>
+    <link href="https://github.com/w01fb0ss/PiBot"/>
+    <updated>2026-11-23T07:55:47.000Z</updated>
+    <published>2026-11-21T06:54:24.000Z</published>
+    <summary>Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi. — ★ 474 (208.6/day)</summary>
+    <author><name>w01fb0ss</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/CzzzzzzJ/mdldm-maitian</id>
+    <title>CzzzzzzJ/mdldm-maitian</title>
+    <link href="https://github.com/CzzzzzzJ/mdldm-maitian"/>
+    <updated>2026-11-23T07:51:11.000Z</updated>
+    <published>2026-11-14T03:59:22.000Z</published>
+    <summary>麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏 — ★ 1925 (204.9/day)</summary>
+    <author><name>CzzzzzzJ</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Kianuni/Erosion-CN</id>
+    <title>Kianuni/Erosion-CN</title>
+    <link href="https://github.com/Kianuni/Erosion-CN"/>
+    <updated>2026-11-19T13:48:22.000Z</updated>
+    <published>2026-11-10T02:37:31.000Z</published>
+    <summary>iOS / iPadOS 国行 Apple 智能、eSIM 与 MobileGestalt 系统配置工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-Safe iOS / iPadOS MobileGestalt, Apple Intelligence &amp; eSIM Toolbox (EN/ZH) — ★ 2736 (203.4/day)</summary>
+    <author><name>Kianuni</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/haziqahmedqasmi/PeakCut</id>
+    <title>haziqahmedqasmi/PeakCut</title>
+    <link href="https://github.com/haziqahmedqasmi/PeakCut"/>
+    <updated>2026-11-20T13:52:57.000Z</updated>
+    <published>2026-11-14T07:38:20.000Z</published>
+    <summary>AI clipping for long videos and live streams. Self-hosted, bring your own AI key. — ★ 1817 (196.6/day)</summary>
+    <author><name>haziqahmedqasmi</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/danielwh2/sprite-stacking</id>
+    <title>danielwh2/sprite-stacking</title>
+    <link href="https://github.com/danielwh2/sprite-stacking"/>
+    <updated>2026-11-21T01:28:57.000Z</updated>
+    <published>2026-11-20T14:32:43.000Z</published>
+    <summary>Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi. — ★ 578 (195.7/day)</summary>
+    <author><name>danielwh2</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/sybil-solutions/skill-distill</id>
+    <title>sybil-solutions/skill-distill</title>
+    <link href="https://github.com/sybil-solutions/skill-distill"/>
+    <updated>2026-11-21T03:48:01.000Z</updated>
+    <published>2026-11-21T01:43:00.000Z</published>
+    <summary>Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task — ★ 480 (192.9/day)</summary>
+    <author><name>sybil-solutions</name></author>
   </entry>
 </feed>
