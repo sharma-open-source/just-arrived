@@ -5,14 +5,14 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-24T10:32:05.989Z</updated>
+  <updated>2026-11-24T11:20:14.611Z</updated>
   <entry>
     <id>https://github.com/Marvisak/VIctory</id>
     <title>Marvisak/VIctory</title>
     <link href="https://github.com/Marvisak/VIctory"/>
     <updated>2026-11-24T09:55:08.000Z</updated>
     <published>2026-11-23T21:47:25.000Z</published>
-    <summary>An attempt at running GTA VI on PC — ★ 7402 (13938.9/day)</summary>
+    <summary>An attempt at running GTA VI on PC — ★ 7869 (13940.7/day)</summary>
     <author><name>Marvisak</name></author>
   </entry>
   <entry>
@@ -21,26 +21,17 @@
     <link href="https://github.com/ubiquitarianism/leonida"/>
     <updated>2026-11-24T09:50:35.000Z</updated>
     <published>2026-11-23T23:54:39.000Z</published>
-    <summary>A continuation of Leonida, the Xbox &gt; PC port of GTA VI — ★ 926 (2091.8/day)</summary>
+    <summary>A continuation of Leonida, the Xbox &gt; PC port of GTA VI — ★ 1000 (2100.4/day)</summary>
     <author><name>ubiquitarianism</name></author>
   </entry>
   <entry>
     <id>https://github.com/ivall/xcl</id>
     <title>ivall/xcl</title>
     <link href="https://github.com/ivall/xcl"/>
-    <updated>2026-11-24T10:10:05.000Z</updated>
+    <updated>2026-11-24T11:03:43.000Z</updated>
     <published>2026-11-20T20:03:21.000Z</published>
-    <summary>Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL — ★ 5923 (1643.8/day)</summary>
+    <summary>Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL — ★ 6173 (1697.4/day)</summary>
     <author><name>ivall</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/yousufsy-ai/rob-run-menu</id>
-    <title>yousufsy-ai/rob-run-menu</title>
-    <link href="https://github.com/yousufsy-ai/rob-run-menu"/>
-    <updated>2026-11-24T09:30:53.000Z</updated>
-    <published>2026-11-24T09:29:42.000Z</published>
-    <summary>No description. — ★ 338 (1352.0/day)</summary>
-    <author><name>yousufsy-ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/EL4CTEO/fast-anything</id>
@@ -48,16 +39,16 @@
     <link href="https://github.com/EL4CTEO/fast-anything"/>
     <updated>2026-11-24T00:18:49.000Z</updated>
     <published>2026-11-21T14:40:27.000Z</published>
-    <summary>Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. — ★ 3393 (1200.0/day)</summary>
+    <summary>Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. — ★ 3410 (1191.9/day)</summary>
     <author><name>EL4CTEO</name></author>
   </entry>
   <entry>
     <id>https://github.com/erkamyaman/rust-anything</id>
     <title>erkamyaman/rust-anything</title>
     <link href="https://github.com/erkamyaman/rust-anything"/>
-    <updated>2026-11-24T07:32:08.000Z</updated>
+    <updated>2026-11-24T11:16:57.000Z</updated>
     <published>2026-11-16T12:10:36.000Z</published>
-    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 8974 (1131.4/day)</summary>
+    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 9000 (1129.9/day)</summary>
     <author><name>erkamyaman</name></author>
   </entry>
   <entry>
@@ -66,8 +57,179 @@
     <link href="https://github.com/os6/nospeaker"/>
     <updated>2026-11-24T02:43:05.000Z</updated>
     <published>2026-11-22T12:05:54.000Z</published>
-    <summary>make your macbook&#39;s trackpad talk using its haptic motor — ★ 1603 (828.5/day)</summary>
+    <summary>make your macbook&#39;s trackpad talk using its haptic motor — ★ 1615 (820.5/day)</summary>
     <author><name>os6</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/carllouisepamittan/sketchup-pro-befalor</id>
+    <title>carllouisepamittan/sketchup-pro-befalor</title>
+    <link href="https://github.com/carllouisepamittan/sketchup-pro-befalor"/>
+    <updated>2026-11-24T07:18:01.000Z</updated>
+    <published>2026-11-24T07:17:02.000Z</published>
+    <summary>Sketchup Pro Befalor delivers focused modeling tools with structured workflows for design work. — ★ 177 (708.0/day)</summary>
+    <author><name>carllouisepamittan</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/damianenriquegonzalez31-maker/bloxstrap-roblox-fflags-2026</id>
+    <title>damianenriquegonzalez31-maker/bloxstrap-roblox-fflags-2026</title>
+    <link href="https://github.com/damianenriquegonzalez31-maker/bloxstrap-roblox-fflags-2026"/>
+    <updated>2026-11-24T07:13:09.000Z</updated>
+    <published>2026-11-24T07:11:41.000Z</published>
+    <summary>Configures Roblox FastFlags through Bloxstrap for granular client-side control. — ★ 177 (708.0/day)</summary>
+    <author><name>damianenriquegonzalez31-maker</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/James28100/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-dakalin</id>
+    <title>James28100/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-dakalin</title>
+    <link href="https://github.com/James28100/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-dakalin"/>
+    <updated>2026-11-24T07:23:47.000Z</updated>
+    <published>2026-11-24T07:22:11.000Z</published>
+    <summary>Tame vertex explosions while pushing Bloodborne toward 60fps on shadps4. — ★ 177 (708.0/day)</summary>
+    <author><name>James28100</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/fitronnurkhair953-beep/grow-a-garden-script-roblox-maderin</id>
+    <title>fitronnurkhair953-beep/grow-a-garden-script-roblox-maderin</title>
+    <link href="https://github.com/fitronnurkhair953-beep/grow-a-garden-script-roblox-maderin"/>
+    <updated>2026-11-24T07:23:02.000Z</updated>
+    <published>2026-11-24T07:21:06.000Z</published>
+    <summary>Maderin streamlines your Grow A Garden runs with live info and quick actions. — ★ 177 (708.0/day)</summary>
+    <author><name>fitronnurkhair953-beep</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/aqib-techie/solara-roblox-executor-2026</id>
+    <title>aqib-techie/solara-roblox-executor-2026</title>
+    <link href="https://github.com/aqib-techie/solara-roblox-executor-2026"/>
+    <updated>2026-11-24T07:06:59.000Z</updated>
+    <published>2026-11-24T07:04:47.000Z</published>
+    <summary>Run Lua scripts in Roblox with a focused executor built for . — ★ 177 (708.0/day)</summary>
+    <author><name>aqib-techie</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/HavocSaif/avast-premium-security-kacerin</id>
+    <title>HavocSaif/avast-premium-security-kacerin</title>
+    <link href="https://github.com/HavocSaif/avast-premium-security-kacerin"/>
+    <updated>2026-11-24T07:37:13.000Z</updated>
+    <published>2026-11-24T07:35:46.000Z</published>
+    <summary>Directory listing for the Avast Premium Security Kacerin project. — ★ 177 (708.0/day)</summary>
+    <author><name>HavocSaif</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/korliolian-crypto/matlab-r2026a-dakalor</id>
+    <title>korliolian-crypto/matlab-r2026a-dakalor</title>
+    <link href="https://github.com/korliolian-crypto/matlab-r2026a-dakalor"/>
+    <updated>2026-11-24T07:30:47.000Z</updated>
+    <published>2026-11-24T07:29:10.000Z</published>
+    <summary>MATLAB R2026A environment for numerical computing, matrix operations, and data visualization. — ★ 177 (708.0/day)</summary>
+    <author><name>korliolian-crypto</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/yessinefaires/slay-the-spire-2-trainer</id>
+    <title>yessinefaires/slay-the-spire-2-trainer</title>
+    <link href="https://github.com/yessinefaires/slay-the-spire-2-trainer"/>
+    <updated>2026-11-24T07:19:57.000Z</updated>
+    <published>2026-11-24T07:18:35.000Z</published>
+    <summary>Live combat aids and readable status panels for Slay the Spire 2 runs. — ★ 177 (708.0/day)</summary>
+    <author><name>yessinefaires</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/joelkreasey-tech/samsung-android-mtp-samfw-tool-v5-mtp-bemaron</id>
+    <title>joelkreasey-tech/samsung-android-mtp-samfw-tool-v5-mtp-bemaron</title>
+    <link href="https://github.com/joelkreasey-tech/samsung-android-mtp-samfw-tool-v5-mtp-bemaron"/>
+    <updated>2026-11-24T07:29:21.000Z</updated>
+    <published>2026-11-24T07:27:36.000Z</published>
+    <summary>Connects Samsung Android devices over MTP to transfer files through a guided desktop workflow. — ★ 177 (708.0/day)</summary>
+    <author><name>joelkreasey-tech</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Domantas924/cs2-cheat-esp-aimbot</id>
+    <title>Domantas924/cs2-cheat-esp-aimbot</title>
+    <link href="https://github.com/Domantas924/cs2-cheat-esp-aimbot"/>
+    <updated>2026-11-24T07:36:33.000Z</updated>
+    <published>2026-11-24T07:35:05.000Z</published>
+    <summary>See threats through walls, lock targets on point, stay a step ahead. — ★ 177 (708.0/day)</summary>
+    <author><name>Domantas924</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/cortesprospera777-maker/polymarket-trading-arbitrage-bot-banolen</id>
+    <title>cortesprospera777-maker/polymarket-trading-arbitrage-bot-banolen</title>
+    <link href="https://github.com/cortesprospera777-maker/polymarket-trading-arbitrage-bot-banolen"/>
+    <updated>2026-11-24T07:12:09.000Z</updated>
+    <published>2026-11-24T07:11:04.000Z</published>
+    <summary>Community-driven bot for spotting arbitrage opportunities across Polymarket markets. — ★ 177 (708.0/day)</summary>
+    <author><name>cortesprospera777-maker</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Crazy710/blox-fruits-script</id>
+    <title>Crazy710/blox-fruits-script</title>
+    <link href="https://github.com/Crazy710/blox-fruits-script"/>
+    <updated>2026-11-24T07:16:17.000Z</updated>
+    <published>2026-11-24T07:15:13.000Z</published>
+    <summary>Blox Fruits script delivering in-game overlays for fruit and quest tracking. — ★ 177 (708.0/day)</summary>
+    <author><name>Crazy710</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/200abbas/solara-executor-v3-karalin</id>
+    <title>200abbas/solara-executor-v3-karalin</title>
+    <link href="https://github.com/200abbas/solara-executor-v3-karalin"/>
+    <updated>2026-11-24T10:07:10.000Z</updated>
+    <published>2026-11-24T07:04:16.000Z</published>
+    <summary>Delivers in-game execution support and live info panels for your sessions. — ★ 177 (708.0/day)</summary>
+    <author><name>200abbas</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/VIDHISHA-ATTRI/deep-live-cam-cuda-notaven</id>
+    <title>VIDHISHA-ATTRI/deep-live-cam-cuda-notaven</title>
+    <link href="https://github.com/VIDHISHA-ATTRI/deep-live-cam-cuda-notaven"/>
+    <updated>2026-11-24T07:14:37.000Z</updated>
+    <published>2026-11-24T07:12:55.000Z</published>
+    <summary>Visual workflow for CUDA face swapping — build scenes, refine, repeat. — ★ 177 (708.0/day)</summary>
+    <author><name>VIDHISHA-ATTRI</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/andrea240405-max/polar-client-skyblock-mining-2026</id>
+    <title>andrea240405-max/polar-client-skyblock-mining-2026</title>
+    <link href="https://github.com/andrea240405-max/polar-client-skyblock-mining-2026"/>
+    <updated>2026-11-24T07:07:45.000Z</updated>
+    <published>2026-11-24T07:05:22.000Z</published>
+    <summary>Track mining runs while Polar Client supplies the on-screen data. — ★ 177 (708.0/day)</summary>
+    <author><name>andrea240405-max</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/limjimmyyager-11/ios-ramdisk-mdm-iremoval-pro-windows-client-decelan</id>
+    <title>limjimmyyager-11/ios-ramdisk-mdm-iremoval-pro-windows-client-decelan</title>
+    <link href="https://github.com/limjimmyyager-11/ios-ramdisk-mdm-iremoval-pro-windows-client-decelan"/>
+    <updated>2026-11-24T07:34:10.000Z</updated>
+    <published>2026-11-24T07:32:41.000Z</published>
+    <summary>Windows client for iOS ramdisk and MDM workflows - built for iRemoval Pro compatible operations. — ★ 177 (708.0/day)</summary>
+    <author><name>limjimmyyager-11</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/loveplug7/wave-velocity-executor-keyless-lite-loader-100-bemarin</id>
+    <title>loveplug7/wave-velocity-executor-keyless-lite-loader-100-bemarin</title>
+    <link href="https://github.com/loveplug7/wave-velocity-executor-keyless-lite-loader-100-bemarin"/>
+    <updated>2026-11-24T07:01:58.000Z</updated>
+    <published>2026-11-24T07:00:33.000Z</published>
+    <summary>Wave Velocity Executor Keyless Lite Loader 100 Bemarin delivers in-game script execution and live — ★ 177 (708.0/day)</summary>
+    <author><name>loveplug7</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/l7jimenez1008/deadlock-minimap-cooldown-jungle-timer-tadamir</id>
+    <title>l7jimenez1008/deadlock-minimap-cooldown-jungle-timer-tadamir</title>
+    <link href="https://github.com/l7jimenez1008/deadlock-minimap-cooldown-jungle-timer-tadamir"/>
+    <updated>2026-11-24T07:33:48.000Z</updated>
+    <published>2026-11-24T07:32:49.000Z</published>
+    <summary>Live minimap overlays with cooldown tracking and jungle timers for Deadlock. — ★ 177 (708.0/day)</summary>
+    <author><name>l7jimenez1008</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/aswanthsolai2808-ai/swift-executor-roblox-dalan</id>
+    <title>aswanthsolai2808-ai/swift-executor-roblox-dalan</title>
+    <link href="https://github.com/aswanthsolai2808-ai/swift-executor-roblox-dalan"/>
+    <updated>2026-11-24T07:00:31.000Z</updated>
+    <published>2026-11-24T06:59:09.000Z</published>
+    <summary>Swift Executor Roblox Dalan delivers fast script execution with live info panels built for gamers. — ★ 177 (708.0/day)</summary>
+    <author><name>aswanthsolai2808-ai</name></author>
   </entry>
   <entry>
     <id>https://github.com/AFK-surf/xnulinux</id>
@@ -75,7 +237,7 @@
     <link href="https://github.com/AFK-surf/xnulinux"/>
     <updated>2026-11-24T09:51:12.000Z</updated>
     <published>2026-11-20T10:18:31.000Z</published>
-    <summary>XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux) — ★ 2752 (686.4/day)</summary>
+    <summary>XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux) — ★ 2786 (689.1/day)</summary>
     <author><name>AFK-surf</name></author>
   </entry>
   <entry>
@@ -84,26 +246,17 @@
     <link href="https://github.com/RyanLebedev6104/robrun-cheat"/>
     <updated>2026-11-24T08:05:17.000Z</updated>
     <published>2026-11-23T15:34:36.000Z</published>
-    <summary>ROB RUN external-overlay &amp; External runtime-mod — Spatial Bone ESP, Loot Radar &amp; frame-unlocker: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 534 (676.0/day)</summary>
+    <summary>ROB RUN external-overlay &amp; External runtime-mod — Spatial Bone ESP, Loot Radar &amp; frame-unlocker: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release. — ★ 534 (648.6/day)</summary>
     <author><name>RyanLebedev6104</name></author>
   </entry>
   <entry>
     <id>https://github.com/4lwayz/portwatch-vi</id>
     <title>4lwayz/portwatch-vi</title>
     <link href="https://github.com/4lwayz/portwatch-vi"/>
-    <updated>2026-11-24T10:23:53.000Z</updated>
+    <updated>2026-11-24T11:14:05.000Z</updated>
     <published>2026-11-21T23:16:41.000Z</published>
-    <summary>Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily. — ★ 1474 (597.0/day)</summary>
+    <summary>Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily. — ★ 1538 (614.6/day)</summary>
     <author><name>4lwayz</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Meetsaini/emulator</id>
-    <title>Meetsaini/emulator</title>
-    <link href="https://github.com/Meetsaini/emulator"/>
-    <updated>2026-11-24T05:07:01.000Z</updated>
-    <published>2026-11-23T20:30:08.000Z</published>
-    <summary>No description. — ★ 338 (578.1/day)</summary>
-    <author><name>Meetsaini</name></author>
   </entry>
   <entry>
     <id>https://github.com/omonkeyz/xbox-emulator</id>
@@ -111,169 +264,16 @@
     <link href="https://github.com/omonkeyz/xbox-emulator"/>
     <updated>2026-11-23T11:58:17.000Z</updated>
     <published>2026-11-21T08:08:39.000Z</published>
-    <summary>Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9) — ★ 1738 (560.7/day)</summary>
+    <summary>Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9) — ★ 1738 (554.7/day)</summary>
     <author><name>omonkeyz</name></author>
   </entry>
   <entry>
-    <id>https://github.com/lianmarcelo/ea-sports-fc-26-fut-web-app-sniping-kacelan</id>
-    <title>lianmarcelo/ea-sports-fc-26-fut-web-app-sniping-kacelan</title>
-    <link href="https://github.com/lianmarcelo/ea-sports-fc-26-fut-web-app-sniping-kacelan"/>
-    <updated>2026-11-24T02:29:52.000Z</updated>
-    <published>2026-11-24T02:27:53.000Z</published>
-    <summary>Built by the community, for the community - sniping tools and features for FC 26 — ★ 177 (526.4/day)</summary>
-    <author><name>lianmarcelo</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/cfiset41-lab/fiddler-everywhere-fasaron</id>
-    <title>cfiset41-lab/fiddler-everywhere-fasaron</title>
-    <link href="https://github.com/cfiset41-lab/fiddler-everywhere-fasaron"/>
-    <updated>2026-11-24T02:28:58.000Z</updated>
-    <published>2026-11-24T02:27:46.000Z</published>
-    <summary>Inspect, intercept, and modify HTTP traffic to debug web requests. — ★ 177 (526.2/day)</summary>
-    <author><name>cfiset41-lab</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/velorcolllections/capcut-pro-jafalor-video-editor</id>
-    <title>velorcolllections/capcut-pro-jafalor-video-editor</title>
-    <link href="https://github.com/velorcolllections/capcut-pro-jafalor-video-editor"/>
-    <updated>2026-11-24T02:24:56.000Z</updated>
-    <published>2026-11-24T02:23:57.000Z</published>
-    <summary>Video editing workspace with multi-track timeline, effects, and export controls. — ★ 177 (522.1/day)</summary>
-    <author><name>velorcolllections</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/elfman096/war-dogs-money-glitch</id>
-    <title>elfman096/war-dogs-money-glitch</title>
-    <link href="https://github.com/elfman096/war-dogs-money-glitch"/>
-    <updated>2026-11-24T02:23:40.000Z</updated>
-    <published>2026-11-24T02:22:35.000Z</published>
-    <summary>War Dogs money route planning with live overlay guidance for faster in-game decisions. — ★ 177 (520.7/day)</summary>
-    <author><name>elfman096</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/AiiHayashi/movavi-video-editor-license</id>
-    <title>AiiHayashi/movavi-video-editor-license</title>
-    <link href="https://github.com/AiiHayashi/movavi-video-editor-license"/>
-    <updated>2026-11-24T02:22:54.000Z</updated>
-    <published>2026-11-24T02:21:14.000Z</published>
-    <summary>Configures Movavi Video Editor project files for editing workflows and media export. — ★ 177 (519.2/day)</summary>
-    <author><name>AiiHayashi</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/saravanan1219/marvel-rivals-cheat-download</id>
-    <title>saravanan1219/marvel-rivals-cheat-download</title>
-    <link href="https://github.com/saravanan1219/marvel-rivals-cheat-download"/>
-    <updated>2026-11-24T02:21:04.000Z</updated>
-    <published>2026-11-24T02:19:43.000Z</published>
-    <summary>Marvel Rivals tooling that puts live match intel and aim support right where you need — ★ 177 (517.6/day)</summary>
-    <author><name>saravanan1219</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/injectingon5m-alt/pubg-map-hack</id>
-    <title>injectingon5m-alt/pubg-map-hack</title>
-    <link href="https://github.com/injectingon5m-alt/pubg-map-hack"/>
-    <updated>2026-11-24T02:15:52.000Z</updated>
-    <published>2026-11-24T02:14:55.000Z</published>
-    <summary>Live map intel and HUD overlays that keep PUBG squad decisions sharp. — ★ 178 (515.5/day)</summary>
-    <author><name>injectingon5m-alt</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/alonzoalejandro579-pixel/lightroom-classic-fakalan-photo-workflow</id>
-    <title>alonzoalejandro579-pixel/lightroom-classic-fakalan-photo-workflow</title>
-    <link href="https://github.com/alonzoalejandro579-pixel/lightroom-classic-fakalan-photo-workflow"/>
-    <updated>2026-11-24T02:18:27.000Z</updated>
-    <published>2026-11-24T02:17:27.000Z</published>
-    <summary>Streamline RAW culling, develop edits, and export with a repeatable Lightroom Classic workflow. — ★ 177 (515.3/day)</summary>
-    <author><name>alonzoalejandro579-pixel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Achyuta998/polymarket-perp-dex-hyperliquid-vault-market-maker-bedaren</id>
-    <title>Achyuta998/polymarket-perp-dex-hyperliquid-vault-market-maker-bedaren</title>
-    <link href="https://github.com/Achyuta998/polymarket-perp-dex-hyperliquid-vault-market-maker-bedaren"/>
-    <updated>2026-11-24T02:18:38.000Z</updated>
-    <published>2026-11-24T02:17:08.000Z</published>
-    <summary>Community-built tools for Polymarket perp, Hyperliquid vaults, and market making. — ★ 177 (514.9/day)</summary>
-    <author><name>Achyuta998</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/isadhanjana-cpu/gta-5-enhanced-mod-menu</id>
-    <title>isadhanjana-cpu/gta-5-enhanced-mod-menu</title>
-    <link href="https://github.com/isadhanjana-cpu/gta-5-enhanced-mod-menu"/>
-    <updated>2026-11-24T02:13:24.000Z</updated>
-    <published>2026-11-24T02:11:30.000Z</published>
-    <summary>In-game tools and live stats for GTA 5 Enhanced, built for quick access. — ★ 178 (512.0/day)</summary>
-    <author><name>isadhanjana-cpu</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/ViMonts12/polymarket-perp-dex-clob-15m-crypto-up-talerin</id>
-    <title>ViMonts12/polymarket-perp-dex-clob-15m-crypto-up-talerin</title>
-    <link href="https://github.com/ViMonts12/polymarket-perp-dex-clob-15m-crypto-up-talerin"/>
-    <updated>2026-11-24T02:15:48.000Z</updated>
-    <published>2026-11-24T02:14:14.000Z</published>
-    <summary>Build and share community tools for 15-minute crypto up markets. — ★ 177 (511.9/day)</summary>
-    <author><name>ViMonts12</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/mrekk-pixel/fivem-hwid-spoofer</id>
-    <title>mrekk-pixel/fivem-hwid-spoofer</title>
-    <link href="https://github.com/mrekk-pixel/fivem-hwid-spoofer"/>
-    <updated>2026-11-24T02:14:59.000Z</updated>
-    <published>2026-11-24T02:13:29.000Z</published>
-    <summary>FiveM tool that masks hardware identifiers for cleaner session resets. — ★ 177 (511.2/day)</summary>
-    <author><name>mrekk-pixel</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/manukrishnasreeji748-collab/gta-5-enhanced-mod-menu-cebamar</id>
-    <title>manukrishnasreeji748-collab/gta-5-enhanced-mod-menu-cebamar</title>
-    <link href="https://github.com/manukrishnasreeji748-collab/gta-5-enhanced-mod-menu-cebamar"/>
-    <updated>2026-11-24T02:14:26.000Z</updated>
-    <published>2026-11-24T02:13:14.000Z</published>
-    <summary>Cebamar tunes GTA 5 Enhanced sessions with on-screen aids and live game readouts. — ★ 177 (510.9/day)</summary>
-    <author><name>manukrishnasreeji748-collab</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/zdffdffs/polar-client-skyblock-mining-tafalin</id>
-    <title>zdffdffs/polar-client-skyblock-mining-tafalin</title>
-    <link href="https://github.com/zdffdffs/polar-client-skyblock-mining-tafalin"/>
-    <updated>2026-11-24T02:14:16.000Z</updated>
-    <published>2026-11-24T02:12:57.000Z</published>
-    <summary>Polar Client: Skyblock mining workflows with live stat tracking for Tafalin. — ★ 177 (510.6/day)</summary>
-    <author><name>zdffdffs</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/R0Y00/Xbox2Windows</id>
-    <title>R0Y00/Xbox2Windows</title>
-    <link href="https://github.com/R0Y00/Xbox2Windows"/>
-    <updated>2026-11-24T10:28:08.000Z</updated>
-    <published>2026-11-20T17:43:52.000Z</published>
-    <summary>Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified. — ★ 1747 (472.1/day)</summary>
-    <author><name>R0Y00</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/iamajmeena/neonclipping</id>
-    <title>iamajmeena/neonclipping</title>
-    <link href="https://github.com/iamajmeena/neonclipping"/>
-    <updated>2026-11-24T10:17:23.000Z</updated>
-    <published>2026-11-19T10:00:43.000Z</published>
-    <summary>Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). — ★ 2369 (471.7/day)</summary>
-    <author><name>iamajmeena</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Hut-hzf/ung220z-tool</id>
-    <title>Hut-hzf/ung220z-tool</title>
-    <link href="https://github.com/Hut-hzf/ung220z-tool"/>
-    <updated>2026-11-22T07:06:43.000Z</updated>
-    <published>2026-11-15T11:16:46.000Z</published>
-    <summary>ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 4019 (448.1/day)</summary>
-    <author><name>Hut-hzf</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/deepseek-ai/chat-demo</id>
-    <title>deepseek-ai/chat-demo</title>
-    <link href="https://github.com/deepseek-ai/chat-demo"/>
-    <updated>2026-11-24T06:12:27.000Z</updated>
-    <published>2026-11-12T08:08:19.000Z</published>
-    <summary>Chat Demo — ★ 5374 (444.1/day)</summary>
-    <author><name>deepseek-ai</name></author>
+    <id>https://github.com/Meetsaini/emulator</id>
+    <title>Meetsaini/emulator</title>
+    <link href="https://github.com/Meetsaini/emulator"/>
+    <updated>2026-11-24T05:07:01.000Z</updated>
+    <published>2026-11-23T20:30:08.000Z</published>
+    <summary>No description. — ★ 338 (546.8/day)</summary>
+    <author><name>Meetsaini</name></author>
   </entry>
 </feed>
