@@ -54,7 +54,7 @@
 }
 </script>
 <meta name="theme-color" content="#ffc72c">
-<link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="theme.css?v=2">
 <script>
 try { const t = localStorage.getItem("ja-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
 </script>
@@ -303,7 +303,6 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
      crossorigin="anonymous"></script>
 </head>
 <body>
-<a class="skip" href="#hall">Skip to repos</a>
 <header class="sign"><div class="in">
   <a class="logo" href="./"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="4" fill="#15233b"/><path d="M10 9v14h14M10 23 24 9" fill="none" stroke="#ffc72c" stroke-width="4"/></svg>Just Arrived</a>
   <div class="landed" id="landed" hidden>
@@ -902,7 +901,16 @@ function avatarHTML(r, size) {
   return `<img class="av" data-img src="${esc(r.avatar)}" width="${size}" height="${size}" alt="" loading="lazy" decoding="async">`;
 }
 
+// A repo under a day old has no full day to average, so show the stars it has
+// rather than a projection bigger than its total. Ranking still uses the pace.
+function paceOf(r) {
+  const hours = (Date.now() - new Date(r.createdAt)) / 36e5;
+  if (hours >= 24) return { n: r.starsPerDay, label: "stars a day" };
+  return { n: r.stars, label: "so far (" + (hours < 1 ? "under 1h" : Math.floor(hours) + "h") + ")", partial: true };
+}
+
 function cardHTML(r) {
+  const pace = paceOf(r);
   return `<article class="card" data-id="${r.id}">
     ${r.image ? `<img class="card-img" data-img src="${esc(r.image)}" alt="" loading="lazy" decoding="async">` : ""}
     <div class="card-main">
@@ -915,7 +923,7 @@ function cardHTML(r) {
     </div>
     ${bookmarkHTML(r)}
     <div class="stub">
-      <div><b class="up">+${num(r.starsPerDay)}</b><small>stars a day</small></div>
+      <div><b class="up">+${num(pace.n)}</b><small>${pace.label}</small></div>
       <div><b>${num(r.stars)}</b><small>stars</small></div>
       ${sparklineHTML(state.history[r.id])}
     </div>
@@ -929,7 +937,7 @@ function tableHTML(rs) {
     <td>${avatarHTML(r, 20)}<a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
     <td>${esc(r.lang) || "–"}</td>
     <td class="n">${fmt(r.stars)}</td>
-    <td class="n">${r.starsPerDay.toFixed(1)}</td>
+    <td class="n">${paceOf(r).partial ? num(r.stars) + " so far" : r.starsPerDay.toFixed(1)}</td>
     <td class="n">${fmt(r.forks)}</td>
     <td class="n">${fmt(r.issues)}</td>
     <td class="n">${Math.round(r.ageDays)}d</td>
@@ -979,7 +987,7 @@ function similarHTML(r) {
   const list = similarRepos(r);
   if (!list.length) return "";
   return '<h3>Similar repos</h3><div class="similar">' + list.map((x) =>
-    `<button data-similar="${x.id}"><span class="who">${avatarHTML(x, 20)}<strong>${esc(x.fullName)}</strong></span><span>+${num(x.starsPerDay)}</span></button>`
+    `<button data-similar="${x.id}"><span class="who">${avatarHTML(x, 20)}<strong>${esc(x.fullName)}</strong></span><span>+${num(paceOf(x).n)}</span></button>`
   ).join("") + "</div>";
 }
 
@@ -1082,7 +1090,7 @@ function previewHTML(r) {
     </div>
     <div class="facts">
       <div><b>${num(r.stars)}</b><span>stars</span></div>
-      <div><b>+${num(r.starsPerDay)}</b><span>a day</span></div>
+      <div><b>+${num(paceOf(r).n)}</b><span>${paceOf(r).label}</span></div>
       <div><b>${num(r.forks)}</b><span>forks</span></div>
     </div>
     ${gainHTML(r)}
@@ -1204,6 +1212,9 @@ async function loadReadme(r, seq) {
   try {
     const res = await fetch("https://api.github.com/repos/" + r.fullName + "/readme", {
       headers: { ...apiHeaders(), Accept: "application/vnd.github.html+json" },
+      // GitHub's Markdown and HTML versions share an ETag, so a cached Markdown
+      // copy would pass revalidation and come back instead of the HTML.
+      cache: "no-store",
     });
     if (seq !== previewSeq) return; // dialog moved on to a different repo
     let body;

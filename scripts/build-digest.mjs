@@ -39,7 +39,7 @@ function page({ title, desc, path, body }) {
 <meta property="og:url" content="${SITE}${path}">
 <meta property="og:image" content="${SITE}og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="../theme.css">
+<link rel="stylesheet" href="../theme.css?v=2">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4743008845908654"
      crossorigin="anonymous"></script>
 </head>
