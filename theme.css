@@ -3,22 +3,28 @@
 @font-face { font-family: "Overpass Mono"; src: url(fonts/overpass-mono.woff2) format("woff2"); font-weight: 500 700; font-display: swap; }
 :root {
   color-scheme: light;
-  --hall: #e9eef3; --ticket: #ffffff; --ink: #15233b; --soft: #4d5d77; --line: #c6d0dc;
+  --hall: #e9eef3; --ticket: #ffffff; --ink: #15233b; --soft: #4d5d77; --line: #c6d0dc; --edge: #728198; --sign-edge: #15233b;
   --sign: #ffc72c; --sign-ink: #15233b; --link: #0b5cad; --up: #0a7355; --up-fill: #d5efe5; --warn: #b3261e;
   --face: "Overpass", "Highway Gothic", "Segoe UI", Arial, sans-serif;
   --mono: "Overpass Mono", ui-monospace, Consolas, monospace;
   --g: 18px;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  color-scheme: dark; --hall: #0f1a2c; --ticket: #1a2840; --ink: #eef3fa; --soft: #a9b8cf; --line: #354663;
+  color-scheme: dark; --hall: #0f1a2c; --ticket: #1a2840; --ink: #eef3fa; --soft: #a9b8cf; --line: #354663; --edge: #8294b3; --sign-edge: #f5bd1f;
   --sign: #f5bd1f; --link: #85bcf7; --up: #5fd3a8; --up-fill: #173d3a; --warn: #ff9d94; } }
 :root[data-theme="dark"] {
-  color-scheme: dark; --hall: #0f1a2c; --ticket: #1a2840; --ink: #eef3fa; --soft: #a9b8cf; --line: #354663;
+  color-scheme: dark; --hall: #0f1a2c; --ticket: #1a2840; --ink: #eef3fa; --soft: #a9b8cf; --line: #354663; --edge: #8294b3; --sign-edge: #f5bd1f;
   --sign: #f5bd1f; --link: #85bcf7; --up: #5fd3a8; --up-fill: #173d3a; --warn: #ff9d94; }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 body { margin: 0; background: var(--hall); color: var(--ink); font: 400 1rem/1.5 var(--face); }
-a { color: var(--link); overflow-wrap: anywhere; }
+a { color: var(--link); overflow-wrap: anywhere; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+::selection { background: #ffc72c; color: #15233b; }
+html { scrollbar-color: var(--edge) transparent; }
+input, textarea { caret-color: var(--link); }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.skip { position: absolute; left: 16px; top: -60px; z-index: 60; padding: 10px 16px; border-radius: 4px; background: var(--ink); color: var(--hall); font-weight: 700; }
+.skip:focus { top: 12px; }
 :focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
 .in { max-width: 1320px; margin-inline: auto; padding-inline: max(16px, env(safe-area-inset-left, 0px)) max(16px, env(safe-area-inset-right, 0px)); }
 .sign { position: sticky; top: 0; z-index: 30; background: var(--sign); color: var(--sign-ink); }

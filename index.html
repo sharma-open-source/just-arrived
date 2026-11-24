@@ -53,6 +53,7 @@
   }
 }
 </script>
+<meta name="theme-color" content="#ffc72c">
 <link rel="stylesheet" href="theme.css">
 <script>
 try { const t = localStorage.getItem("ja-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
@@ -63,28 +64,29 @@ button, input, select { font: inherit; color: inherit; }
 button, select, summary { cursor: pointer; }
 summary { list-style: none; }
 summary::-webkit-details-marker { display: none; }
-.landed { flex: 1 1 260px; display: flex; align-items: stretch; min-width: 0; border-radius: 4px; background: var(--sign-ink); color: #fff; }
+.landed { flex: 1 1 260px; display: flex; align-items: stretch; min-width: 0; border-radius: 4px; background: var(--sign-ink); color: #fff; overflow: hidden; }
 .landed-label { flex: none; align-self: center; padding: 0 12px; color: var(--sign); font-size: .82rem; font-weight: 800; }
 .landed button { border: 0; background: none; color: inherit; }
 .landed-repo { flex: 1; min-width: 0; padding: 9px 0; overflow: hidden; text-align: left; text-overflow: ellipsis; white-space: nowrap; font: 500 .9rem var(--mono); }
 .landed-repo:hover { text-decoration: underline; }
-.landed { overflow: hidden; }
 .landed-item { flex: 1; display: flex; min-width: 0; }
-.landed-pause { flex: none; padding: 0 8px; }
+.landed-pause { display: grid; place-items: center; flex: none; min-width: 36px; padding: 0; }
+.landed-pause:hover, .landed-next:hover { background: rgb(255 255 255 / .14); }
 .landed-pause[aria-pressed="true"] .i-pause, .landed-pause[aria-pressed="false"] .i-play { display: none; }
 @media (prefers-reduced-motion: reduce) { .landed-pause { display: none; } }
-.landed-next { flex: none; padding: 0 14px; font-size: 1.3rem; }
+.landed-next { display: grid; place-items: center; flex: none; min-width: 40px; padding: 0; }
 .landed :focus-visible { outline-color: var(--sign); outline-offset: -3px; }
 .sign nav { margin-left: 0; }
 .sign summary { border: 2px solid var(--sign-ink); border-radius: 4px; padding: 5px 12px; font-weight: 700; }
 details { position: relative; }
-.pop { position: absolute; z-index: 25; top: calc(100% + 6px); left: 0; width: 240px; padding: 14px; background: var(--ticket); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 10px 30px rgb(10 20 40 / .18); }
+.pop { position: absolute; z-index: 25; top: calc(100% + 6px); left: 0; width: 240px; padding: 14px; background: var(--ticket); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 10px 30px rgb(0 0 0 / .18); }
 .sign .pop { left: auto; right: 0; padding: 6px; }
 .sign .pop :focus-visible { outline-color: var(--link); }
 .pop button { display: block; width: 100%; padding: 9px 10px; border: 0; border-radius: 4px; background: none; text-align: left; font-weight: 600; }
 .pop button:hover, .pop button.active { background: var(--hall); }
 .pop input { width: 100%; accent-color: var(--link); }
-.spin .refresh-glyph { display: inline-block; animation: spin .9s linear infinite; }
+.refresh-glyph { vertical-align: -2px; }
+.spin .refresh-glyph { animation: spin .9s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 .intro { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--g); padding-block: 30px 22px; align-items: end; }
@@ -99,16 +101,26 @@ h1 { font-weight: 900; font-size: clamp(1.9rem, 3.6vw, 2.75rem); line-height: 1.
 
 .tabs { display: flex; gap: 24px; overflow-x: auto; border-bottom: 1px solid var(--line); scroll-margin-top: 90px; }
 .tab { flex: none; padding: 8px 0; border: 0; border-bottom: 4px solid transparent; background: none; color: var(--soft); font-weight: 700; }
-.tab.active { color: var(--ink); border-color: var(--sign); }
+.tab[data-tab].active { color: var(--ink); border-color: var(--sign); }
 .tab .count { font: 700 .82rem var(--mono); }
 .filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding-block: 14px 18px; }
-.filters input[type="search"] { flex: 0 1 200px; min-width: 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--ticket); }
-.filters select, .filters summary { max-width: 100%; padding: 8px 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--ticket); font-weight: 600; }
-.seg { display: inline-flex; margin-left: auto; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; background: var(--ticket); }
+.filters input[type="search"] { flex: 0 1 200px; min-width: 0; padding: 8px 12px; border: 1px solid var(--edge); border-radius: 4px; background: var(--ticket); }
+.filters select, .filters summary { max-width: 100%; padding: 8px 12px; border: 1px solid var(--edge); border-radius: 4px; background: var(--ticket); font-weight: 600; }
+.seg { display: inline-flex; margin-left: auto; border: 1px solid var(--edge); border-radius: 4px; overflow: hidden; background: var(--ticket); }
 .seg button { padding: 8px 12px; border: 0; background: none; color: var(--soft); font-weight: 600; }
+.tab:hover { color: var(--ink); border-color: var(--line); }
+.tab.active:hover { border-color: var(--sign); }
+.tab:focus-visible { outline-offset: -3px; }
+.filters select:hover, .filters summary:hover, .filters input:hover, .btn:not(:disabled):hover { border-color: var(--ink); }
+.seg button:not(.active):hover { color: var(--ink); background: var(--hall); }
+.seg button:focus-visible { outline-offset: -3px; }
+.filters ::placeholder { color: var(--soft); opacity: 1; }
+.sign summary:hover { background: var(--sign-ink); color: var(--sign); }
+.bookmark-btn:hover svg { stroke: var(--ink); }
 .seg button.active { background: var(--ink); color: var(--hall); }
 .error-box { margin-bottom: 16px; padding: 12px 16px; border: 2px solid var(--warn); border-radius: 6px; background: var(--ticket); }
 
+#hall:focus { outline: none; }
 .hall { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--g); align-items: start; }
 .feed { grid-column: 1 / -1; min-width: 0; }
 .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--g); }
@@ -121,9 +133,10 @@ h1 { font-weight: 900; font-size: clamp(1.9rem, 3.6vw, 2.75rem); line-height: 1.
 }
 
 .card { position: relative; display: grid; grid-template-rows: 1fr auto; min-height: 250px; border-radius: 8px; background: var(--ticket); cursor: pointer; scroll-margin: 90px 0 20px; }
-.card.on { box-shadow: 0 0 0 3px var(--sign); }
+.card.on { outline: 3px solid var(--sign-edge); }
 .card-main { display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 18px 18px 14px; }
 .repo-name { padding: 0 44px 0 0; border: 0; background: none; text-align: left; font-weight: 800; font-size: 1.15rem; line-height: 1.2; overflow-wrap: anywhere; }
+.card-h { font: inherit; }
 .card:hover .repo-name { color: var(--link); }
 .av { flex: none; border-radius: 50%; background: var(--hall); object-fit: cover; }
 .who { display: flex; align-items: center; gap: 8px; min-width: 0; }
@@ -144,7 +157,7 @@ td .av { margin-right: 8px; vertical-align: middle; }
 .card .desc { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
 .topics { display: flex; flex-wrap: wrap; gap: 6px; }
 .card .topics { margin-top: auto; }
-.chip { max-width: 100%; padding: 1px 8px; border: 1px solid var(--line); border-radius: 4px; background: none; color: var(--soft); font-size: .82rem; overflow-wrap: anywhere; }
+.chip { min-height: 26px; max-width: 100%; padding: 1px 8px; border: 1px solid var(--line); border-radius: 4px; background: none; color: var(--soft); font-size: .82rem; overflow-wrap: anywhere; }
 .chip:hover { border-color: var(--link); color: var(--link); }
 .chip.active { border-color: var(--sign); background: var(--sign); color: var(--sign-ink); }
 .lang-dot { display: inline-block; width: 9px; height: 9px; margin-right: 5px; border-radius: 50%; }
@@ -175,13 +188,22 @@ td .av { margin-right: 8px; vertical-align: middle; }
 .ad-label { display: block; margin-bottom: 4px; color: var(--soft); font-size: .78rem; }
 
 .more-wrap { margin-top: 26px; text-align: center; color: var(--soft); font-size: .88rem; }
+.more-wrap button:hover { background: var(--link); color: var(--ticket); }
 .more-wrap button { display: block; margin: 0 auto 8px; padding: 12px 28px; border: 0; border-radius: 4px; background: var(--ink); color: var(--hall); font-weight: 700; }
+.state .btn { margin-top: 12px; }
 .state { padding: 50px 0; color: var(--soft); }
 .table-wrap { overflow-x: auto; border-radius: 8px; background: var(--ticket); }
 table { width: 100%; border-collapse: collapse; font-size: .92rem; }
 th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; }
 td { font-variant-numeric: tabular-nums; }
-th { color: var(--soft); white-space: nowrap; cursor: pointer; }
+th { color: var(--soft); white-space: nowrap; }
+th button { padding: 0; border: 0; background: none; font-weight: 700; }
+th button:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+th[aria-sort] button { color: var(--ink); box-shadow: 0 3px 0 var(--sign); }
+th.n, td.n { text-align: right; }
+.row-acts { white-space: nowrap; }
+.row-acts .btn { padding: 4px 10px; }
+.row-acts .bookmark-btn { min-width: 36px; min-height: 36px; vertical-align: middle; }
 tr[data-id] { cursor: pointer; scroll-margin: 90px 0 20px; }
 tr.on { background: var(--up-fill); }
 
@@ -190,13 +212,13 @@ tr.on { background: var(--up-fill); }
 .pane[open] { display: flex; flex-direction: column; min-width: 0; }
 .bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 18px; border-bottom: 1px solid var(--line); }
 .bar.foot { border-top: 2px dashed var(--line); border-bottom: 0; font: 500 .85rem var(--mono); }
-.btn { padding: 7px 14px; border: 1px solid var(--line); border-radius: 4px; background: none; color: var(--ink); font: 700 .9rem var(--face); text-decoration: none; }
+.btn { padding: 7px 14px; border: 1px solid var(--edge); border-radius: 4px; background: none; color: var(--ink); font: 700 .9rem var(--face); text-decoration: none; }
 .btn.go { border-color: var(--sign); background: var(--sign); color: var(--sign-ink); }
 .btn:disabled { opacity: .4; cursor: default; }
 #previewBody { flex: 1; display: flex; flex-direction: column; gap: 16px; min-height: 0; padding: 20px 18px; overflow-y: auto; }
 #previewBody > * { flex-shrink: 0; }
 #previewBody h2 { font-weight: 900; font-size: 1.6rem; line-height: 1.1; letter-spacing: -.02em; overflow-wrap: anywhere; }
-#previewBody > h3 { margin-bottom: -8px; font-size: .95rem; font-weight: 800; }
+#previewBody > h3 { margin: 10px 0 -8px; font-size: .95rem; font-weight: 800; }
 #previewOwner { color: var(--soft); overflow-wrap: anywhere; }
 .acts, .meta { display: flex; flex-wrap: wrap; gap: 8px 14px; }
 .acts { gap: 8px; }
@@ -259,6 +281,9 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
   body:has(.pane[open]) { overflow: hidden; }
 }
 @media (max-width: 640px) {
+  /* two header rows are too much to keep on a phone screen */
+  .sign { position: static; }
+  .card, tr[data-id], .tabs { scroll-margin-top: 16px; }
   .grid { grid-template-columns: minmax(0, 1fr); }
   .intro { padding-top: 20px; }
   .landed { order: 3; flex-basis: 100%; }
@@ -278,6 +303,7 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
      crossorigin="anonymous"></script>
 </head>
 <body>
+<a class="skip" href="#hall">Skip to repos</a>
 <header class="sign"><div class="in">
   <a class="logo" href="./"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="4" fill="#15233b"/><path d="M10 9v14h14M10 23 24 9" fill="none" stroke="#ffc72c" stroke-width="4"/></svg>Just Arrived</a>
   <div class="landed" id="landed" hidden>
@@ -285,14 +311,14 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
     <div class="landed-item" id="landedItem"><span id="landedAv" style="display:flex"></span>
     <button type="button" class="landed-repo" id="landedRepo"></button></div>
     <button type="button" class="landed-pause" id="landedPause" aria-pressed="false" aria-label="Pause new repos"><svg viewBox="0 0 12 12" width="12" height="12" fill="currentColor" aria-hidden="true"><path class="i-pause" d="M2 1h3v10H2zM7 1h3v10H7z"/><path class="i-play" d="M3 1l8 5-8 5z"/></svg></button>
-    <button type="button" class="landed-next" id="landedNext" aria-label="Next new repo">›</button>
+    <button type="button" class="landed-next" id="landedNext" aria-label="Next new repo"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
   </div>
   <nav aria-label="Site">
     <a href="digest/index.html">Digest</a>
     <details id="menu"><summary>Menu</summary><div class="pop">
       <button type="button" id="themeBtn">Light or dark theme</button>
-      <button type="button" id="refreshBtn"><span class="refresh-glyph">↻</span> Refresh data</button>
-      <button type="button" id="autoBtn" title="Refresh every 5 minutes">▶ Auto</button>
+      <button type="button" id="refreshBtn"><svg class="refresh-glyph" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 3v5h-5"/></svg> Refresh data</button>
+      <button type="button" id="autoBtn" aria-pressed="false">Refresh every 5 minutes: off</button>
       <button type="button" id="shuffleBtn">Surprise me</button>
       <button type="button" id="tokenBtn">GitHub token</button>
     </div></details>
@@ -308,7 +334,7 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
   <div class="spotlight" id="spotlight" hidden></div>
 </section>
 
-<div class="tabs" id="tabs">
+<div class="tabs" id="tabs" role="group" aria-label="Lists">
   <button class="tab active" data-tab="all">All <span class="count">0</span></button>
   <button class="tab" data-tab="fresh" hidden>Since last visit <span class="count">0</span></button>
   <button class="tab" data-tab="trend">Trending <span class="count">0</span></button>
@@ -346,7 +372,7 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
 <noscript><p class="state">Just Arrived needs JavaScript to list repositories. The <a href="digest/index.html">weekly digests</a> work without it.</p></noscript>
 
 <div id="errorBox" class="error-box" role="alert" hidden></div>
-<main class="hall" id="hall">
+<main class="hall" id="hall" tabindex="-1">
   <div class="feed">
     <div id="content"><div id="plainView"><p class="state">Loading new arrivals…</p></div><div id="cardGrid" class="grid" hidden></div></div>
     <div id="moreWrap" class="more-wrap" hidden><button id="moreBtn">Show more</button><span id="moreInfo" aria-live="polite"></span></div>
@@ -394,12 +420,12 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
 </footer>
 </div>
 
-<dialog id="tokenDialog">
-  <h3>GitHub token (optional)</h3>
+<dialog id="tokenDialog" aria-labelledby="tokenTitle">
+  <h3 id="tokenTitle">GitHub token (optional)</h3>
   <p>Without a token the GitHub Search API allows 10 requests/min. Paste a
   <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">fine-grained personal access token</a>
   (no scopes needed — public read only) to raise the limit to 30/min. It is stored only in your browser's localStorage.</p>
-  <input type="password" id="tokenInput" placeholder="github_pat_…" autocomplete="off">
+  <input type="password" id="tokenInput" aria-label="GitHub token" placeholder="github_pat_…" autocomplete="off">
   <div class="row">
     <button class="btn" id="tokenClear">Clear</button>
     <button class="btn" id="tokenCancel">Cancel</button>
@@ -634,7 +660,7 @@ function gainHTML(r) {
   const s = getSavedMap()[r.id];
   if (!s || s.saved_stars == null || !(r.stars > s.saved_stars)) return "";
   const day = new Date(s.saved_at).toLocaleDateString(undefined, { month: "short", day: "numeric" });
-  return `<div class="gain">+${fmt(r.stars - s.saved_stars)} ★ since ${esc(day)}</div>`;
+  return `<div class="gain">+${fmt(r.stars - s.saved_stars)} stars since ${esc(day)}</div>`;
 }
 
 /* ============ new since last visit ============ */
@@ -742,7 +768,7 @@ async function fetchData(force) {
     recordSeen();
     render();
   } catch (err) {
-    $("#errorBox").textContent = "⚠ " + err.message;
+    $("#errorBox").textContent = err.message;
     $("#errorBox").hidden = false;
     if (!state.repos.length) showPlain(
       '<div class="state"><p>Nothing loaded yet — see the message above.</p></div>');
@@ -882,7 +908,7 @@ function cardHTML(r) {
     <div class="card-main">
       ${isFresh(r) ? '<span class="badge fresh">New to you</span>' : ""}
       <div class="who">${avatarHTML(r, 24)}<span class="repo-owner">${esc(r.owner)}</span></div>
-      <button class="repo-name" type="button">${esc(r.name)}</button>
+      <h2 class="card-h"><button class="repo-name" type="button">${esc(r.name)}</button></h2>
       <p class="desc">${esc(r.desc) || "No description."}</p>
       ${gainHTML(r)}
       ${chipsHTML(r, 2)}
@@ -896,22 +922,27 @@ function cardHTML(r) {
   </article>`;
 }
 
+const TABLE_COLS = [["Repository"], ["Language"], ["Stars", "stars"], ["Stars a day", "velocity"], ["Forks", "forks"], ["Issues"], ["Age", "newest"], ["Score", "score"]];
 function tableHTML(rs) {
   const rows = rs.map((r) => {
     return `<tr data-id="${r.id}">
     <td>${avatarHTML(r, 20)}<a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
     <td>${esc(r.lang) || "–"}</td>
-    <td>${fmt(r.stars)}</td>
-    <td>${r.starsPerDay.toFixed(1)}</td>
-    <td>${fmt(r.forks)}</td>
-    <td>${fmt(r.issues)}</td>
-    <td>${Math.round(r.ageDays)}d</td>
-    <td>${r.score.toFixed(1)}</td>
-    <td>${bookmarkHTML(r)}</td>
+    <td class="n">${fmt(r.stars)}</td>
+    <td class="n">${r.starsPerDay.toFixed(1)}</td>
+    <td class="n">${fmt(r.forks)}</td>
+    <td class="n">${fmt(r.issues)}</td>
+    <td class="n">${Math.round(r.ageDays)}d</td>
+    <td class="n">${r.score.toFixed(1)}</td>
+    <td class="row-acts"><button class="btn row-open" type="button" aria-label="Preview ${esc(r.name)}">Preview</button>${bookmarkHTML(r)}</td>
   </tr>`;
   }).join("");
   return `<div class="table-wrap"><table>
-    <thead><tr><th>Repository</th><th>Language</th><th>Stars</th><th>★/day</th><th>Forks</th><th>Issues</th><th>Age</th><th>Score</th><th></th></tr></thead>
+    <thead><tr>${TABLE_COLS.map(([label, key]) => {
+      const on = key && key === state.sort;
+      const cls = /Repository|Language/.test(label) ? "" : ' class="n"';
+      return key ? `<th scope="col"${cls}${on ? ` aria-sort="${key === "newest" ? "ascending" : "descending"}"` : ""}><button type="button" data-sort="${key}">${label}</button></th>` : `<th scope="col"${cls}>${label}</th>`;
+    }).join("")}<th><span class="vh">Actions</span></th></tr></thead>
     <tbody>${rows}</tbody></table></div>`;
 }
 
@@ -1020,7 +1051,7 @@ function renderSpotlight() {
     return `<button class="spot" data-spot="${r.id}"><span class="label">${label}</span><span class="who">${avatarHTML(r, 28)}<strong>${esc(r.name)}</strong></span><span class="sub">${sub}</span></button>`;
   };
   const html = (day ? tile("Repo of the day", day, esc(day.desc)) : "") +
-    (jump ? tile("Biggest jump yesterday", jump.r, `+${fmt(jump.gain)} ★ · ${esc(jump.r.desc) || "No description."}`) : "");
+    (jump ? tile("Biggest jump yesterday", jump.r, `+${fmt(jump.gain)} stars · ${esc(jump.r.desc) || "No description."}`) : "");
   $("#spotlight").innerHTML = html;
   $("#spotlight").hidden = !html;
 }
@@ -1184,7 +1215,7 @@ async function loadReadme(r, seq) {
       body = '<p class="readme-empty">Couldn’t load the README.</p>';
     } else {
       const text = await res.text();
-      body = `<div class="md">${readmeHTML(text, r)}</div><a class="readme-more" href="${withUTM(r.url + "#readme")}" target="_blank" rel="noopener">Read it on GitHub ↗</a>`;
+      body = `<div class="md">${readmeHTML(text, r)}</div><a class="readme-more" href="${withUTM(r.url + "#readme")}" target="_blank" rel="noopener">Read it on GitHub</a>`;
     }
     if (res.ok || res.status === 404) readmeCache.set(r.fullName, body); // let failures retry
     showReadme(body);
@@ -1339,6 +1370,7 @@ function render(start = 0) {
     if (t.dataset.tab === "fresh") t.hidden = !hasBaseline() && state.tab !== "fresh";
   });
 
+  document.querySelectorAll(".tab, #viewSeg button").forEach((b) => b.setAttribute("aria-pressed", b.classList.contains("active")));
   $("#stTotal").textContent = num(counts.all) + " repos from the last " + state.ageDays + " days";
 
   if (!start) { renderSpotlight(); renderLanded(); }
@@ -1352,11 +1384,15 @@ function render(start = 0) {
 
   // body
   if (!rs.length) {
-    showPlain(state.tab === "saved"
-      ? '<div class="state"><p>Nothing saved yet. Use the bookmark on any repo to keep it here.</p></div>'
-      : state.tab === "fresh"
-      ? '<div class="state"><p>Nothing new here since your last visit. Data refreshes about every 30 minutes.</p></div>'
-      : '<div class="state"><p>No repos match these filters. Loosen the star threshold or widen the window.</p></div>');
+    // Filters hiding everything is a different problem from having nothing.
+    const filtered = state.lang || state.q || state.minStars !== 50;
+    const any = state.tab === "saved" ? savedRepos().length : state.tab === "fresh" ? state.repos.some(isFresh) : true;
+    const reset = filtered ? '<p><button class="btn" type="button" id="clearFilters">Clear filters</button></p>' : "";
+    showPlain('<div class="state">' + (!any && state.tab === "saved"
+      ? "<p>Nothing saved yet. Use the bookmark on any repo to keep it here.</p>"
+      : !any && state.tab === "fresh"
+      ? "<p>Nothing new here since your last visit. Data refreshes about every 30 minutes.</p>"
+      : "<p>No repos match these filters. Loosen the star threshold or widen the window.</p>" + reset) + "</div>");
     syncURLFromState();
     return;
   }
@@ -1446,11 +1482,35 @@ $("#moreBtn").addEventListener("click", () => {
   shown += PAGE_SIZE;
   render(start);
 });
+// render() rebuilds the list, which would drop keyboard focus.
+function refocus(sel) {
+  const el = document.querySelector("#content " + sel);
+  if (el) el.focus({ preventScroll: true });
+}
 $("#content").addEventListener("click", (e) => {
   const b = e.target.closest(".bookmark-btn");
   if (b) {
     e.preventDefault();
     toggleSaved(+b.dataset.id);
+    refocus(`.bookmark-btn[data-id="${b.dataset.id}"]`);
+    return;
+  }
+  const th = e.target.closest("[data-sort]");
+  if (th) {
+    state.sort = th.dataset.sort;
+    $("#sortSel").value = state.sort;
+    render();
+    refocus(`[data-sort="${state.sort}"]`);
+    return;
+  }
+  if (e.target.closest("#clearFilters")) {
+    state.lang = ""; state.q = ""; state.minStars = 50;
+    clearTimeout(qTimer);
+    $("#searchBox").value = "";
+    $("#minStars").value = 50;
+    $("#minStarsVal").textContent = 50;
+    render();
+    $("#hall").focus({ preventScroll: true });
     return;
   }
   if (applyChip(e.target)) return;
@@ -1510,7 +1570,7 @@ async function openSharedRepo(name) {
     extraRepos.set(r.id, r);
     openPreview(r.id);
   } catch (e) {
-    $("#errorBox").textContent = "⚠ Couldn’t open " + name + ". It may have been removed, or GitHub’s rate limit was reached.";
+    $("#errorBox").textContent = "Couldn’t open " + name + ". It may have been removed, or GitHub’s rate limit was reached.";
     $("#errorBox").hidden = false;
   }
 }
@@ -1535,8 +1595,10 @@ $("#previewNext").addEventListener("click", () => stepPreview(1));
 previewDlg.addEventListener("close", () => {
   clearTimeout(readmeTimer);
   previewSeq++;
-  const el = markOpenRow() || document.querySelector(`#content .card[data-id="${previewId}"]`);
-  const name = el && el.querySelector(".repo-name");
+  markOpenRow();
+  // Cards stay in the page, hidden, behind the table view.
+  const el = document.querySelector(`${state.view === "table" ? "#content tr" : "#content .card"}[data-id="${previewId}"]`);
+  const name = el && el.querySelector(".repo-name, .row-open");
   if (name) name.focus({ preventScroll: true });
 });
 // On document: focus leaves the dialog's buttons when one becomes disabled.
@@ -1629,24 +1691,12 @@ $("#shuffleBtn").addEventListener("click", () => {
 $("#autoBtn").addEventListener("click", (e) => {
   if (state.auto) {
     clearInterval(state.auto); state.auto = null;
-    e.target.textContent = "▶ Auto"; e.target.classList.remove("active");
+    e.target.textContent = "Refresh every 5 minutes: off"; e.target.classList.remove("active");
   } else {
     state.auto = setInterval(() => fetchData(true), CACHE_TTL);
-    e.target.textContent = "⏸ Auto"; e.target.classList.add("active");
+    e.target.textContent = "Refresh every 5 minutes: on"; e.target.classList.add("active");
   }
-});
-
-/* table header sorting */
-document.addEventListener("click", (e) => {
-  const th = e.target.closest("th");
-  if (!th) return;
-  const map = ["fullName", "lang", "stars", "velocity", "forks", "issues", "newest", "score"];
-  const key = map[[...th.parentNode.children].indexOf(th)];
-  if (["stars", "velocity", "forks", "score", "newest"].includes(key)) {
-    state.sort = key === "issues" ? state.sort : key;
-    $("#sortSel").value = ["stars","velocity","forks","score","newest"].includes(state.sort) ? state.sort : "score";
-    render();
-  }
+  e.target.setAttribute("aria-pressed", !!state.auto);
 });
 
 initFromURL();
