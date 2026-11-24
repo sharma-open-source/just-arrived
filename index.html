@@ -355,6 +355,23 @@ footer a { color: var(--ink-2); }
   .brand h1 { font-size: 1.5rem; }
 }
 
+/* chips, paging, preview navigation */
+.chip {
+  background: none; border: 1px solid var(--border); border-radius: 999px;
+  padding: 2px 9px; font-size: 0.76rem; line-height: 1.5; color: var(--ink-2);
+}
+.chip:hover, .chip.active { border-color: var(--accent); color: var(--ink-1); }
+.chip.active { box-shadow: inset 0 0 0 1px var(--accent); }
+.card .topics { margin: 0; }
+.more-wrap { margin-top: 20px; text-align: center; color: var(--muted); font-size: 0.85rem; }
+.more-wrap button { display: block; margin: 0 auto 8px; padding: 10px 24px; }
+.preview-nav {
+  position: sticky; bottom: -24px; display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  margin: 12px -24px -24px; padding: 10px 24px; background: var(--surface-1); border-top: 1px solid var(--grid);
+  color: var(--muted); font-size: 0.82rem; font-variant-numeric: tabular-nums;
+}
+.preview-nav button:disabled { opacity: .4; cursor: default; }
+
 /* in-feed ads: same surface as a repo card, but labelled and without hover lift */
 .grid[hidden] { display: none; }
 .ad-card {
@@ -450,7 +467,8 @@ footer a { color: var(--ink-2); }
 </div>
 
 <div class="tabs" id="tabs">
-  <button class="tab active" data-tab="all">✨ All <span class="count">0</span></button>
+  <button class="tab active" data-tab="all">🗂 All <span class="count">0</span></button>
+  <button class="tab" data-tab="fresh" hidden>✨ Since last visit <span class="count">0</span></button>
   <button class="tab" data-tab="new">🚀 New this week <span class="count">0</span></button>
   <button class="tab" data-tab="growing">📈 Fastest growing <span class="count">0</span></button>
   <button class="tab" data-tab="gems">💎 Hidden gems <span class="count">0</span></button>
@@ -469,6 +487,7 @@ footer a { color: var(--ink-2); }
 
 <div id="errorBox" class="error-box" hidden></div>
 <div id="content"><div id="plainView"><div class="state"><span class="loader"></span><p style="margin-top:12px">Scanning GitHub for fresh arrivals…</p></div></div><div id="cardGrid" class="grid" hidden></div></div>
+<div id="moreWrap" class="more-wrap" hidden><button class="btn-primary" id="moreBtn">Show more</button><span id="moreInfo" aria-live="polite"></span></div>
 
 <!-- AdSense "after results": paste the unit's ID into data-ad-slot; hidden while empty -->
 <aside class="ad-slot" aria-label="Advertisement" hidden>
@@ -519,6 +538,11 @@ footer a { color: var(--ink-2); }
   <div class="preview-wrap">
     <button class="preview-close" id="previewClose" aria-label="Close preview">✕</button>
     <div id="previewBody"></div>
+    <div class="preview-nav">
+      <button class="btn-ghost" id="previewPrev">← Previous</button>
+      <span id="previewPos" aria-live="polite"></span>
+      <button class="btn-ghost" id="previewNext">Next →</button>
+    </div>
   </div>
 </dialog>
 
@@ -720,6 +744,34 @@ function refreshSavedFromLoaded() {
   if (changed) localStorage.setItem(SAVED_KEY, JSON.stringify(map));
 }
 
+/* ============ new since last visit ============ */
+// Remembers repo ids per age window, so a window opened for the first time
+// isn't reported as all-new. `prev` is the baseline, frozen for the visit.
+const VISIT_KEY = "ja-visit-v1";
+const VISIT_GAP = 30 * 60 * 1000; // a longer pause starts a new visit
+const visit = (() => {
+  let v = null;
+  try { v = JSON.parse(localStorage.getItem(VISIT_KEY)); } catch (e) {}
+  if (!v || !v.seen || !v.prev) v = { seen: {}, prev: {}, at: Date.now() };
+  else if (Date.now() - v.at > VISIT_GAP) v.prev = { ...v.seen };
+  return v;
+})();
+const baselines = {};
+for (const w in visit.prev) baselines[w] = new Set(visit.prev[w]);
+const hasBaseline = () => Object.keys(baselines).length > 0;
+
+function isFresh(r) {
+  const b = baselines[state.ageDays];
+  return !!b && !b.has(r.id);
+}
+function recordSeen() {
+  const w = state.ageDays;
+  const ids = new Set([...(visit.seen[w] || []), ...state.repos.map((r) => r.id)]);
+  visit.seen[w] = [...ids].slice(-4000);
+  visit.at = Date.now();
+  try { localStorage.setItem(VISIT_KEY, JSON.stringify(visit)); } catch (e) {}
+}
+
 let snapshotPromise = null;
 function loadSnapshot() {
   // Same-origin static file refreshed every ~30 min by a GitHub Actions job
@@ -756,6 +808,7 @@ async function fetchData(force) {
         if (c && Date.now() - c.at < CACHE_TTL) {
           state.repos = c.repos;
           setDataAsOf(c.dataAsOf || null);
+          recordSeen();
           render();
           return;
         }
@@ -772,6 +825,7 @@ async function fetchData(force) {
             }));
           } catch (e) {}
           setDataAsOf(snap.generatedAt);
+          recordSeen();
           render();
           return;
         }
@@ -792,6 +846,7 @@ async function fetchData(force) {
       localStorage.setItem(cacheId, JSON.stringify({ at: Date.now(), repos: state.repos, dataAsOf: now }));
     } catch (e) {}
     setDataAsOf(now);
+    recordSeen();
     render();
   } catch (err) {
     $("#errorBox").textContent = "⚠ " + err.message;
@@ -804,12 +859,19 @@ async function fetchData(force) {
 }
 
 /* ============ filtering / sections ============ */
+// "topic:rust" in the search box matches that topic exactly.
+function topicQuery() {
+  const m = /^topic:\s*(\S+)$/i.exec(state.q);
+  return m ? m[1].toLowerCase() : "";
+}
+
 function applyCommonFilters(list) {
   let rs = list.filter((r) => r.stars >= state.minStars);
   if (state.lang) rs = rs.filter((r) => r.lang === state.lang);
   if (state.q) {
     const q = state.q.toLowerCase();
-    rs = rs.filter((r) =>
+    const topic = topicQuery();
+    rs = rs.filter((r) => topic ? r.topics.includes(topic) :
       r.fullName.toLowerCase().includes(q) ||
       r.desc.toLowerCase().includes(q) ||
       r.topics.some((t) => t.includes(q)));
@@ -821,6 +883,7 @@ function currentSet() {
   const source = state.tab === "saved" ? savedRepos() : state.repos;
   let rs = applyCommonFilters(source);
   switch (state.tab) {
+    case "fresh":   rs = rs.filter(isFresh); break;
     case "new":     rs = rs.filter((r) => r.isNew); break;
     case "growing": rs = rs.filter((r) => r.starsPerDay >= 15); break;
     case "gems":    rs = rs.filter((r) => r.hiddenGem); break;
@@ -841,6 +904,7 @@ function tabCounts() {
   const savedBase = applyCommonFilters(savedRepos());
   return {
     all: base.length,
+    fresh: base.filter(isFresh).length,
     new: base.filter((r) => r.isNew).length,
     growing: base.filter((r) => r.starsPerDay >= 15).length,
     gems: base.filter((r) => r.hiddenGem).length,
@@ -903,6 +967,7 @@ function sparklineHTML(hist) {
 
 function badgesFor(r) {
   const b = [];
+  if (isFresh(r)) b.push('<span class="badge new">✨ new to you</span>');
   if (r.aboutToTrend) b.push('<span class="badge trend">🔥 about to trend</span>');
   else if (r.hiddenGem) b.push('<span class="badge gem">💎 hidden gem</span>');
   else if (r.starsPerDay >= 15) b.push('<span class="badge grow">📈 growing</span>');
@@ -910,10 +975,20 @@ function badgesFor(r) {
   return b.join("");
 }
 
+function langChip(lang) {
+  if (!lang) return "";
+  return `<button class="chip${lang === state.lang ? " active" : ""}" data-lang="${esc(lang)}" aria-pressed="${lang === state.lang}" title="Filter by ${esc(lang)}"><span class="lang-dot" style="background:${LANG_COLORS[lang] || "#8b949e"}"></span>${esc(lang)}</button>`;
+}
+function topicChips(topics, max) {
+  const cur = topicQuery();
+  const html = topics.slice(0, max).map((t) =>
+    `<button class="chip${t === cur ? " active" : ""}" data-topic="${esc(t)}" aria-pressed="${t === cur}" title="Filter by topic ${esc(t)}">${esc(t)}</button>`).join("");
+  return html ? `<div class="topics">${html}</div>` : "";
+}
+
 function cardHTML(r, i, maxVel) {
   const pct = Math.max(3, Math.round((r.starsPerDay / maxVel) * 100));
-  const langDot = r.lang
-    ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.lang] || "#8b949e"}"></span>${esc(r.lang)}</span>` : "";
+  const langDot = langChip(r.lang);
   const saved = !!getSavedMap()[r.id];
   return `<article class="card" data-id="${r.id}" style="animation-delay:${Math.min(i * 30, 400)}ms">
     <div class="badges">${badgesFor(r)}</div>
@@ -926,6 +1001,7 @@ function cardHTML(r, i, maxVel) {
       <button class="bookmark-btn${saved ? " active" : ""}" data-id="${r.id}" title="${saved ? "Remove from saved" : "Save for later"}">${saved ? "★" : "☆"}</button>
     </div>
     <p class="desc">${esc(r.desc) || "<em>No description.</em>"}</p>
+    ${topicChips(r.topics, 3)}
     <div class="meta">
       ${langDot}
       <span title="Stars">★ ${fmt(r.stars)}</span>
@@ -981,9 +1057,7 @@ function safeHref(u) {
 
 function previewHTML(r) {
   const saved = !!getSavedMap()[r.id];
-  const langDot = r.lang
-    ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.lang] || "#8b949e"}"></span>${esc(r.lang)}</span>` : "";
-  const topics = r.topics.slice(0, 8).map((t) => `<span class="topic-pill">${esc(t)}</span>`).join("");
+  const langDot = langChip(r.lang);
   const links = [];
   if (r.homepage) {
     links.push(`<a href="${esc(withUTM(safeHref(r.homepage)))}" target="_blank" rel="noopener">🔗 ${esc(r.homepage.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</a>`);
@@ -999,7 +1073,7 @@ function previewHTML(r) {
       </div>
     </div>
     <p class="desc">${esc(r.desc) || "<em>No description.</em>"}</p>
-    ${topics ? `<div class="topics">${topics}</div>` : ""}
+    ${topicChips(r.topics, 8)}
     ${links.length ? `<div class="meta">${links.join("")}</div>` : ""}
     <div class="meta">
       ${langDot}
@@ -1094,6 +1168,9 @@ function mdLiteHTML(md) {
 
 const readmeCache = new Map();
 let previewSeq = 0;
+let previewIds = []; // the filtered list, frozen when the preview opens
+let previewId = null;
+let readmeTimer;
 async function loadReadme(r, seq) {
   if (readmeCache.has(r.fullName)) {
     const el = $("#previewReadme");
@@ -1117,7 +1194,7 @@ async function loadReadme(r, seq) {
       body = mdLiteHTML(text.slice(0, 4000)) +
         `<a class="readme-more" href="${withUTM(r.url + "#readme")}" target="_blank" rel="noopener">Read full README on GitHub ↗</a>`;
     }
-    readmeCache.set(r.fullName, body);
+    if (res.ok || res.status === 404) readmeCache.set(r.fullName, body); // let failures retry
     const el = $("#previewReadme");
     if (el) el.innerHTML = body;
   } catch (e) {
@@ -1130,10 +1207,29 @@ async function loadReadme(r, seq) {
 function openPreview(id) {
   const r = findRepo(id);
   if (!r) return;
+  previewId = id;
   const seq = ++previewSeq;
+  const dlg = $("#previewDialog");
+  const wasOpen = dlg.open;
+  if (!wasOpen) previewIds = currentSet().map((x) => x.id);
+  const i = previewIds.indexOf(id);
   $("#previewBody").innerHTML = previewHTML(r);
-  $("#previewDialog").showModal();
-  loadReadme(r, seq);
+  $("#previewPos").textContent = (i + 1) + " / " + previewIds.length;
+  $("#previewPrev").disabled = i <= 0;
+  $("#previewNext").disabled = i < 0 || i >= previewIds.length - 1;
+  if (!wasOpen) dlg.showModal();
+  dlg.scrollTop = 0;
+  // Wait while flicking through, so skipped repos don't use up the GitHub rate limit.
+  clearTimeout(readmeTimer);
+  if (wasOpen && !readmeCache.has(r.fullName)) readmeTimer = setTimeout(() => loadReadme(r, seq), 400);
+  else loadReadme(r, seq);
+}
+function stepPreview(d) {
+  const at = previewIds.indexOf(previewId);
+  // Skip repos that a background refresh or un-save has removed.
+  for (let i = at + d; at >= 0 && i >= 0 && i < previewIds.length; i += d) {
+    if (findRepo(previewIds[i])) { openPreview(previewIds[i]); return; }
+  }
 }
 
 /* ============ in-feed ads ============ */
@@ -1171,21 +1267,23 @@ const feedAds = FEED_AD.slot && FEED_AD.layoutKey ? FEED_AD_AFTER.map(() => {
 }) : [];
 
 function showPlain(html) {
+  $("#moreWrap").hidden = true;
   $("#cardGrid").hidden = true;
   $("#plainView").innerHTML = html;
   $("#plainView").hidden = false;
 }
 
 // Rebuild only the repo cards; ad nodes stay put, since moving them reloads the ad.
-function showCards(cards) {
+// With start > 0 the first `start` cards are already there and only the rest are added.
+function showCards(cards, start = 0) {
   const grid = $("#cardGrid");
-  grid.querySelectorAll(":scope > .card").forEach((el) => el.remove());
-  let from = 0;
+  if (!start) grid.querySelectorAll(":scope > .card").forEach((el) => el.remove());
+  let from = start;
   feedAds.forEach((ad, k) => {
     const to = FEED_AD_AFTER[k];
-    ad.insertAdjacentHTML("beforebegin", cards.slice(from, to).join(""));
+    ad.insertAdjacentHTML("beforebegin", cards.slice(from, Math.max(from, to)).join(""));
     ad.hidden = cards.length <= to;
-    from = to;
+    from = Math.max(from, to);
   });
   grid.insertAdjacentHTML("beforeend", cards.slice(from).join(""));
   grid.classList.toggle("list-view", state.view === "list");
@@ -1194,14 +1292,23 @@ function showCards(cards) {
   grid.hidden = false;
 }
 
-function render() {
+const PAGE_SIZE = 24;
+let shown = PAGE_SIZE;
+let shownKey = "";
+
+function render(start = 0) {
   refreshSavedFromLoaded();
-  const rs = currentSet();
+  const all = currentSet();
+  // Back to the first page when the filters change, but not on a data refresh or bookmark.
+  const key = JSON.stringify([state.tab, state.lang, state.minStars, state.q, state.sort, state.ageDays, state.view]);
+  if (key !== shownKey) { shownKey = key; shown = PAGE_SIZE; }
+  const rs = all.slice(0, shown);
 
   // tab counts
   const counts = tabCounts();
   document.querySelectorAll(".tab").forEach((t) => {
     t.querySelector(".count").textContent = counts[t.dataset.tab];
+    if (t.dataset.tab === "fresh") t.hidden = !hasBaseline() && state.tab !== "fresh";
   });
 
   // stat tiles
@@ -1234,6 +1341,8 @@ function render() {
   if (!rs.length) {
     showPlain(state.tab === "saved"
       ? '<div class="state"><div class="big">💾</div><p>Nothing saved yet — click ☆ on a repo to keep it here.</p></div>'
+      : state.tab === "fresh"
+      ? '<div class="state"><div class="big">✅</div><p>Nothing new here since your last visit. Data refreshes about every 30 minutes.</p></div>'
       : '<div class="state"><div class="big">🌌</div><p>No repos match these filters. Loosen the star threshold or widen the window.</p></div>');
     syncURLFromState();
     return;
@@ -1241,17 +1350,20 @@ function render() {
   if (state.view === "table") {
     showPlain(tableHTML(rs));
   } else {
-    const maxVel = Math.max(...rs.map((r) => r.starsPerDay), 1);
-    showCards(rs.map((r, i) => cardHTML(r, i, maxVel)));
+    const maxVel = Math.max(...all.map((r) => r.starsPerDay), 1);
+    showCards(rs.map((r, i) => cardHTML(r, Math.max(0, i - start), maxVel)), start);
     requestAnimationFrame(() => requestAnimationFrame(() => {
       content.querySelectorAll(".bar-fill").forEach((el) => { el.style.width = el.dataset.w + "%"; });
     }));
   }
+  $("#moreWrap").hidden = all.length <= rs.length;
+  $("#moreBtn").textContent = "Show " + Math.min(PAGE_SIZE, all.length - rs.length) + " more";
+  $("#moreInfo").textContent = "Showing " + rs.length + " of " + all.length;
   syncURLFromState();
 }
 
 /* ============ shareable URL state ============ */
-const VALID_TABS = ["all", "new", "growing", "gems", "trend", "saved"];
+const VALID_TABS = ["all", "fresh", "new", "growing", "gems", "trend", "saved"];
 const VALID_VIEWS = ["grid", "list", "table"];
 const VALID_SORTS = ["score", "velocity", "stars", "forks", "newest"];
 
@@ -1295,6 +1407,27 @@ function initFromURL() {
 }
 
 /* ============ wiring ============ */
+// Language/topic chips toggle their filter. Returns true if a chip was clicked.
+function applyChip(target) {
+  const c = target.closest(".chip");
+  if (!c) return false;
+  if (c.dataset.lang) {
+    state.lang = state.lang === c.dataset.lang ? "" : c.dataset.lang;
+  } else {
+    clearTimeout(qTimer);
+    state.q = topicQuery() === c.dataset.topic ? "" : "topic:" + c.dataset.topic;
+    $("#searchBox").value = state.q;
+  }
+  if (previewDlg.open) previewDlg.close();
+  render();
+  $("#tabs").scrollIntoView({ block: "center" });
+  return true;
+}
+$("#moreBtn").addEventListener("click", () => {
+  const start = shown;
+  shown += PAGE_SIZE;
+  render(start);
+});
 $("#content").addEventListener("click", (e) => {
   const b = e.target.closest(".bookmark-btn");
   if (b) {
@@ -1302,6 +1435,7 @@ $("#content").addEventListener("click", (e) => {
     toggleSaved(+b.dataset.id);
     return;
   }
+  if (applyChip(e.target)) return;
   if (e.target.closest("a")) return; // let the repo link navigate on its own
   const row = e.target.closest(".card[data-id], tr[data-id]");
   if (row) openPreview(+row.dataset.id);
@@ -1313,7 +1447,30 @@ $("#previewClose").addEventListener("click", () => previewDlg.close());
 previewDlg.addEventListener("click", (e) => {
   if (e.target === previewDlg) previewDlg.close(); // click on the backdrop
 });
+$("#previewPrev").addEventListener("click", () => stepPreview(-1));
+$("#previewNext").addEventListener("click", () => stepPreview(1));
+previewDlg.addEventListener("close", () => { clearTimeout(readmeTimer); previewSeq++; });
+// On document: focus leaves the dialog's buttons when one becomes disabled.
+document.addEventListener("keydown", (e) => {
+  if (!previewDlg.open || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+  if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+  e.preventDefault();
+  stepPreview(e.key === "ArrowLeft" ? -1 : 1);
+});
+let touch = null;
+previewDlg.addEventListener("touchstart", (e) => {
+  // Code blocks scroll sideways themselves; two fingers means zoom.
+  touch = e.touches.length === 1 && !e.target.closest("pre") ? e.touches[0] : null;
+}, { passive: true });
+previewDlg.addEventListener("touchend", (e) => {
+  if (!touch || e.touches.length) return;
+  const dx = e.changedTouches[0].clientX - touch.clientX;
+  const dy = e.changedTouches[0].clientY - touch.clientY;
+  touch = null;
+  if (Math.abs(dx) > 60 && Math.abs(dx) > 2 * Math.abs(dy)) stepPreview(dx < 0 ? 1 : -1);
+}, { passive: true });
 $("#previewBody").addEventListener("click", (e) => {
+  if (applyChip(e.target)) return;
   const b = e.target.closest(".preview-bookmark");
   if (!b) return;
   e.preventDefault();
