@@ -6,6 +6,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://sharma-open-source.github.io/just-arrived/digest/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sharma-open-source.github.io/just-arrived/digest/2026-W47.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sharma-open-source.github.io/just-arrived/privacy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

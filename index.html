@@ -355,6 +355,22 @@ footer a { color: var(--ink-2); }
   .brand h1 { font-size: 1.5rem; }
 }
 
+/* daily spotlight, similar repos, saved gains */
+.spotlight { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 12px; margin: 0 0 20px; }
+.spot, .similar button {
+  text-align: left; color: var(--ink-1); background: var(--surface-1);
+  border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; min-width: 0;
+}
+.spot:hover, .similar button:hover { border-color: var(--accent); }
+.spot .label { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.spot strong, .similar strong { display: block; overflow-wrap: anywhere; }
+.spot .sub, .similar .sub {
+  font-size: 0.8rem; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.similar { display: grid; gap: 8px; margin: 0 0 14px; }
+.gain { font-size: 0.78rem; font-weight: 600; color: var(--good); }
+.preview-actions { flex-wrap: wrap; }
+
 /* chips, paging, preview navigation */
 .chip {
   background: none; border: 1px solid var(--border); border-radius: 999px;
@@ -398,6 +414,7 @@ footer a { color: var(--ink-2); }
     <p>Brand-new GitHub repositories, ranked by growth velocity — catch them <em>before</em> they hit Trending. Live data from the GitHub Search API.</p>
   </div>
   <div class="header-actions">
+    <a class="icon-btn" href="digest/index.html" title="Top new repos, week by week">🗞 Weekly digest</a>
     <button class="icon-btn" id="themeBtn" title="Toggle light / dark">🌗 Theme</button>
     <button class="icon-btn" id="tokenBtn" title="Add a GitHub token for higher rate limits">🔑 Token</button>
     <button class="icon-btn" id="refreshBtn" title="Refresh data"><span class="refresh-glyph">↻</span> Refresh</button>
@@ -410,6 +427,8 @@ footer a { color: var(--ink-2); }
   <div class="stat"><div class="label">Median ★ / day</div><div class="value" id="stMedian">–</div><div class="sub">across current results</div></div>
   <div class="stat"><div class="label">Top language</div><div class="value" id="stLang">–</div><div class="sub" id="stLangSub"></div></div>
 </div>
+
+<div class="spotlight" id="spotlight" hidden></div>
 
 <!-- AdSense "top banner": paste the unit's ID into data-ad-slot; hidden while empty -->
 <aside class="ad-slot" aria-label="Advertisement" hidden>
@@ -516,6 +535,7 @@ footer a { color: var(--ink-2); }
   auto-refreshed every ~30 min <span id="dataAsOf"></span> ·
   score = ★/day × 0.5 + forks/day × 0.2 + push-freshness × 0.2 + community × 0.1 ·
   <a href="feed.xml">📡 RSS feed</a> ·
+  <a href="digest/index.html">Weekly digests</a> ·
   <a href="privacy.html">Privacy policy</a> ·
   built with Claude Code
 </footer>
@@ -726,22 +746,44 @@ function toggleSaved(id) {
   if (map[id]) {
     delete map[id];
   } else {
-    const r = state.repos.find((x) => x.id === id);
+    const r = findRepo(id);
     if (!r) return;
-    map[id] = toRaw(r);
+    map[id] = { ...toRaw(r), saved_stars: r.stars, saved_at: Date.now() };
   }
   localStorage.setItem(SAVED_KEY, JSON.stringify(map));
   render();
 }
 // Keeps a saved repo's stored snapshot fresh whenever it also shows up in a
 // freshly loaded window, so bookmarks don't quietly go stale for months.
-function refreshSavedFromLoaded() {
+function refreshSavedFromLoaded(repos = state.repos) {
   const map = getSavedMap();
   let changed = false;
-  for (const r of state.repos) {
-    if (map[r.id]) { map[r.id] = toRaw(r); changed = true; }
+  for (const r of repos) {
+    const old = map[r.id];
+    if (!old) continue;
+    // Repos saved before gains were tracked start counting from here.
+    map[r.id] = { ...toRaw(r), saved_stars: old.saved_stars ?? old.stargazers_count, saved_at: old.saved_at ?? Date.now() };
+    changed = true;
   }
   if (changed) localStorage.setItem(SAVED_KEY, JSON.stringify(map));
+}
+
+// The Saved tab also covers repos outside the current window.
+let savedRefreshed = false;
+function refreshSavedFromSnapshot() {
+  if (savedRefreshed || !Object.keys(getSavedMap()).length) return;
+  savedRefreshed = true;
+  loadSnapshot().then((snap) => {
+    const map = getSavedMap();
+    refreshSavedFromLoaded(Object.values(snap.windows).flat().filter((x) => map[x.id]).map(enrich));
+    if (state.tab === "saved") render();
+  }).catch(() => { savedRefreshed = false; });
+}
+function gainHTML(r) {
+  const s = getSavedMap()[r.id];
+  if (!s || s.saved_stars == null || !(r.stars > s.saved_stars)) return "";
+  const day = new Date(s.saved_at).toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  return `<div class="gain">+${fmt(r.stars - s.saved_stars)} ★ since ${esc(day)}</div>`;
 }
 
 /* ============ new since last visit ============ */
@@ -1012,6 +1054,7 @@ function cardHTML(r, i, maxVel) {
       <div class="bar-track"><div class="bar-fill" data-w="${pct}"></div></div>
       <span class="v-label">${r.starsPerDay.toFixed(1)} ★/day</span>
     </div>
+    ${gainHTML(r)}
     ${sparklineHTML(state.history[r.id])}
     <div class="score-row">
       <span class="score-pill" title="stars/day×0.5 + forks/day×0.2 + push-freshness×0.2 + community×0.1">score ${r.score.toFixed(1)}</span>
@@ -1046,7 +1089,79 @@ function tableHTML(rs) {
 // the "saved" tab is active removes it from savedRepos() but it's fine —
 // findRepo just needs *a* source of truth, not the currently-filtered one).
 function findRepo(id) {
-  return state.repos.find((r) => r.id === id) || savedRepos().find((r) => r.id === id);
+  return state.repos.find((r) => r.id === id) || savedRepos().find((r) => r.id === id) || extraRepos.get(id);
+}
+// Repos opened from a shared link or the spotlight that may not be in the current window.
+const extraRepos = new Map();
+
+// Shared topics count for more the rarer they are; language breaks ties.
+function similarRepos(r) {
+  const freq = {};
+  for (const x of state.repos) for (const t of x.topics) freq[t] = (freq[t] || 0) + 1;
+  const mine = new Set(r.topics);
+  return state.repos
+    .filter((x) => x.id !== r.id && x.stars >= state.minStars)
+    .map((x) => {
+      let s = 0;
+      for (const t of x.topics) if (mine.has(t)) s += 1 / Math.log2(1 + freq[t]);
+      if (r.lang && x.lang === r.lang) s += 0.1;
+      return { x, s };
+    })
+    .filter((o) => o.s > 0)
+    .sort((a, b) => b.s - a.s || b.x.score - a.x.score)
+    .slice(0, 4)
+    .map((o) => o.x);
+}
+function similarHTML(r) {
+  const list = similarRepos(r);
+  if (!list.length) return "";
+  return '<div class="readme-label">Similar repos</div><div class="similar">' + list.map((x) =>
+    `<button data-similar="${x.id}"><strong>${esc(x.fullName)}</strong><span class="sub">★ ${fmt(x.stars)}${x.lang ? " · " + esc(x.lang) : ""} · ${esc(x.desc) || "No description."}</span></button>`
+  ).join("") + "</div>";
+}
+
+/* ============ daily spotlight ============ */
+const SPOT_KEY = "ja-spot-v1";
+const utcDay = (offset = 0) => new Date(Date.now() + offset * 864e5).toISOString().slice(0, 10);
+function hashStr(s) {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
+  return h >>> 0;
+}
+// Same pick all day for this visitor: kept in storage, since data changes every 30 min.
+function repoOfTheDay() {
+  const day = utcDay();
+  try {
+    const c = JSON.parse(localStorage.getItem(SPOT_KEY));
+    if (c && c.day === day) return state.repos.find((r) => r.id === c.repo.id) || enrich(c.repo);
+  } catch (e) {}
+  const pick = state.repos
+    .filter((r) => r.isNew && r.desc && (r.aboutToTrend || r.hiddenGem))
+    .sort((a, b) => hashStr(day + a.id) - hashStr(day + b.id))[0];
+  if (pick) try { localStorage.setItem(SPOT_KEY, JSON.stringify({ day, repo: toRaw(pick) })); } catch (e) {}
+  return pick;
+}
+// Yesterday's full UTC day; today's point is still moving.
+function biggestJump() {
+  const to = utcDay(-1), from = utcDay(-2);
+  let best = null;
+  for (const r of state.repos) {
+    const h = state.history[r.id] || [];
+    const gain = (h.find((p) => p.t === to) || {}).s - (h.find((p) => p.t === from) || {}).s;
+    if (gain > (best ? best.gain : 0)) best = { r, gain };
+  }
+  return best;
+}
+function renderSpotlight() {
+  const day = repoOfTheDay(), jump = biggestJump();
+  const tile = (label, r, sub) => {
+    extraRepos.set(r.id, r);
+    return `<button class="spot" data-spot="${r.id}"><span class="label">${label}</span><strong>${esc(r.fullName)}</strong><span class="sub">${sub}</span></button>`;
+  };
+  const html = (day ? tile("🌟 Repo of the day", day, esc(day.desc)) : "") +
+    (jump ? tile("⚡ Biggest jump yesterday", jump.r, `+${fmt(jump.gain)} ★ · ${esc(jump.r.desc) || "No description."}`) : "");
+  $("#spotlight").innerHTML = html;
+  $("#spotlight").hidden = !html;
 }
 
 // Blocks javascript:/data:/vbscript: URIs from README links and the
@@ -1085,11 +1200,14 @@ function previewHTML(r) {
     <div class="velocity" title="Star velocity relative to the fastest repo in view">
       <span class="v-label">${r.starsPerDay.toFixed(1)} ★/day · score ${r.score.toFixed(1)}</span>
     </div>
+    ${gainHTML(r)}
     ${sparklineHTML(state.history[r.id])}
     <div class="readme-label">Readme</div>
     <div class="readme" id="previewReadme"><p class="readme-empty">Loading…</p></div>
+    ${similarHTML(r)}
     <div class="row preview-actions">
       <button class="btn-ghost preview-bookmark" data-id="${r.id}">${saved ? "★ Saved" : "☆ Save for later"}</button>
+      <button class="btn-ghost preview-share" data-repo="${esc(r.fullName)}">Share</button>
       <a class="btn-primary" href="${withUTM(r.url)}" target="_blank" rel="noopener">Open on GitHub ↗</a>
     </div>`;
 }
@@ -1207,11 +1325,14 @@ async function loadReadme(r, seq) {
 function openPreview(id) {
   const r = findRepo(id);
   if (!r) return;
+  const prevId = previewId;
   previewId = id;
   const seq = ++previewSeq;
   const dlg = $("#previewDialog");
   const wasOpen = dlg.open;
   if (!wasOpen) previewIds = currentSet().map((x) => x.id);
+  // Repos outside the list (similar, spotlight, shared link) slot in after the current one.
+  if (!previewIds.includes(id)) previewIds.splice(wasOpen ? previewIds.indexOf(prevId) + 1 : 0, 0, id);
   const i = previewIds.indexOf(id);
   $("#previewBody").innerHTML = previewHTML(r);
   $("#previewPos").textContent = (i + 1) + " / " + previewIds.length;
@@ -1329,6 +1450,8 @@ function render(start = 0) {
     $("#stLangSub").textContent = top ? top[1] + " repos" : "";
   }
 
+  if (!start) renderSpotlight();
+
   // language dropdown (preserve selection)
   const langs = [...new Set(state.repos.map((r) => r.lang).filter(Boolean))].sort();
   const sel = $("#langSel");
@@ -1441,6 +1564,49 @@ $("#content").addEventListener("click", (e) => {
   if (row) openPreview(+row.dataset.id);
 });
 
+$("#spotlight").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-spot]");
+  if (b) openPreview(+b.dataset.spot);
+});
+
+/* ============ sharing ============ */
+async function shareRepo(btn) {
+  const url = location.origin + location.pathname + "?repo=" + encodeURIComponent(btn.dataset.repo);
+  if (navigator.share) {
+    try { await navigator.share({ title: btn.dataset.repo + " — Just Arrived", url }); return; }
+    catch (e) { if (e.name === "AbortError") return; } // closed by the user; otherwise copy instead
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    btn.textContent = "Link copied";
+    setTimeout(() => { btn.textContent = "Share"; }, 2000);
+  } catch (e) {
+    btn.textContent = "Couldn’t copy";
+  }
+}
+// Opens ?repo=owner/name: from the loaded window, then the snapshot, then GitHub.
+async function openSharedRepo(name) {
+  const same = (n) => n.toLowerCase() === name.toLowerCase();
+  let r = state.repos.find((x) => same(x.fullName));
+  try {
+    if (!r) {
+      const snap = await loadSnapshot().catch(() => null);
+      let raw = snap && Object.values(snap.windows).flat().find((x) => same(x.full_name));
+      if (!raw) {
+        const res = await fetch("https://api.github.com/repos/" + name, { headers: apiHeaders() });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        raw = await res.json();
+      }
+      r = enrich(raw);
+    }
+    extraRepos.set(r.id, r);
+    openPreview(r.id);
+  } catch (e) {
+    $("#errorBox").textContent = "⚠ Couldn’t open " + name + ". It may have been removed, or GitHub’s rate limit was reached.";
+    $("#errorBox").hidden = false;
+  }
+}
+
 /* ============ preview dialog wiring ============ */
 const previewDlg = $("#previewDialog");
 $("#previewClose").addEventListener("click", () => previewDlg.close());
@@ -1471,6 +1637,10 @@ previewDlg.addEventListener("touchend", (e) => {
 }, { passive: true });
 $("#previewBody").addEventListener("click", (e) => {
   if (applyChip(e.target)) return;
+  const sim = e.target.closest("[data-similar]");
+  if (sim) { openPreview(+sim.dataset.similar); return; }
+  const share = e.target.closest(".preview-share");
+  if (share) { shareRepo(share); return; }
   const b = e.target.closest(".preview-bookmark");
   if (!b) return;
   e.preventDefault();
@@ -1499,6 +1669,7 @@ $("#tabs").addEventListener("click", (e) => {
   if (!t) return;
   document.querySelectorAll(".tab").forEach((x) => x.classList.toggle("active", x === t));
   state.tab = t.dataset.tab;
+  if (state.tab === "saved") refreshSavedFromSnapshot();
   render();
 });
 
@@ -1541,7 +1712,12 @@ document.addEventListener("click", (e) => {
 });
 
 initFromURL();
-fetchData();
+// Read before the first render rewrites the URL.
+const sharedRepo = new URLSearchParams(location.search).get("repo") || "";
+if (state.tab === "saved") refreshSavedFromSnapshot();
+fetchData().then(() => {
+  if (/^[\w.-]+\/[\w.-]+$/.test(sharedRepo)) openSharedRepo(sharedRepo);
+});
 // Re-render only if fetchData already painted cards — otherwise this would
 // briefly flash an empty state over the loading spinner, and fetchData's
 // own render() call will pick up state.history via closure once it lands.

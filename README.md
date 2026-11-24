@@ -71,6 +71,10 @@ routed through a single shared, serialized delay to stay under GitHub's
 30 req/min (authenticated) search limit even while paginating. If one band's
 request fails, the rest of the snapshot still gets written.
 
-`.github/workflows/refresh-data.yml` runs the script on a 30-minute schedule
+`scripts/build-digest.mjs` writes one `digest/<year>-W<week>.html` page per
+complete week, plus `digest/index.html` and `sitemap.xml`. Existing week pages
+are never overwritten, so you can add commentary to them by hand.
+
+`.github/workflows/refresh-data.yml` runs the scripts on a 30-minute schedule
 (and on demand via `workflow_dispatch`) and commits the result. Run it
 yourself with `GITHUB_TOKEN=<token> node scripts/fetch-data.mjs`.
