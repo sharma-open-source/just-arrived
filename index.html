@@ -211,6 +211,14 @@ tr.on { background: var(--up-fill); }
 .pane { position: sticky; top: 84px; inset-inline: auto; width: auto; max-width: none; height: calc(100vh - 104px); max-height: none; margin: 0; padding: 0; border: 0; border-radius: 8px; background: var(--ticket); color: var(--ink); overflow: hidden; }
 .pane[open] { display: flex; flex-direction: column; min-width: 0; }
 .bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 18px; border-bottom: 1px solid var(--line); }
+/* same outline as the open card, so the two read as a pair */
+.pane { outline: 3px solid var(--sign-edge); box-shadow: 0 12px 32px rgb(0 0 0 / .16); }
+.pane-head { border-bottom: 0; background: var(--sign); color: var(--sign-ink); }
+.pane-head #previewOwner, .pane-head .repo-owner { color: inherit; font-weight: 700; }
+.pane-head .btn, .pane-head .btn:not(:disabled):hover { border-color: var(--sign-ink); }
+.pane-head .btn { color: var(--sign-ink); }
+.pane-head .btn:hover { background: var(--sign-ink); color: var(--sign); }
+.pane-head :focus-visible { outline-color: var(--sign-ink); }
 .bar.foot { border-top: 2px dashed var(--line); border-bottom: 0; font: 500 .85rem var(--mono); }
 .btn { padding: 7px 14px; border: 1px solid var(--edge); border-radius: 4px; background: none; color: var(--ink); font: 700 .9rem var(--face); text-decoration: none; }
 .btn.go { border-color: var(--sign); background: var(--sign); color: var(--sign-ink); }
@@ -277,7 +285,7 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
   .grid.list-view { grid-template-columns: minmax(0, 1fr); }
   .intro { grid-template-columns: minmax(0, 1fr); }
   .spotlight { grid-column: auto; }
-  .pane { position: fixed; inset: 0; z-index: 50; width: 100%; height: 100%; border-radius: 0; padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px); }
+  .pane { outline: 0; box-shadow: none; position: fixed; inset: 0; z-index: 50; width: 100%; height: 100%; border-radius: 0; padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px); }
   body:has(.pane[open]) { overflow: hidden; }
 }
 @media (max-width: 640px) {
@@ -377,7 +385,7 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
     <div id="moreWrap" class="more-wrap" hidden><button id="moreBtn">Show more</button><span id="moreInfo" aria-live="polite"></span></div>
   </div>
   <dialog class="pane" id="previewDialog" aria-label="Repo preview">
-    <div class="bar"><span id="previewOwner"></span><button class="btn" id="previewClose">Close</button></div>
+    <div class="bar pane-head"><span id="previewOwner"></span><button class="btn" id="previewClose">Close</button></div>
     <div id="previewBody"></div>
     <div class="bar foot">
       <button class="btn" id="previewPrev">Previous</button>
@@ -1254,6 +1262,12 @@ function openPreview(id) {
   // Beside the feed on wide screens, a full-screen modal on narrow ones.
   if (!wasOpen) { if (wideScreen.matches) dlg.show(); else dlg.showModal(); }
   $("#previewBody").scrollTop = 0;
+  // The whole box slides in when it opens; after that only its contents move.
+  const moved = wasOpen ? $("#previewBody") : dlg;
+  if (moved.animate && !reducedMotion.matches && !(wasOpen && prevId === id)) {
+    moved.animate([{ transform: wasOpen ? "translateX(16px)" : "translateY(24px)", opacity: wasOpen ? .3 : 0 }, { transform: "none", opacity: 1 }],
+      { duration: wasOpen ? 200 : 280, easing: "cubic-bezier(.16, 1, .3, 1)" });
+  }
   markOpenRow();
   // Wait while flicking through, so skipped repos don't use up the GitHub rate limit.
   clearTimeout(readmeTimer);
