@@ -120,6 +120,22 @@ h1 { font-weight: 900; font-size: clamp(1.9rem, 3.6vw, 2.75rem); line-height: 1.
 .card-main { display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 18px 18px 14px; }
 .repo-name { padding: 0 44px 0 0; border: 0; background: none; text-align: left; font-weight: 800; font-size: 1.15rem; line-height: 1.2; overflow-wrap: anywhere; }
 .card:hover .repo-name { color: var(--link); }
+.av { flex: none; border-radius: 50%; background: var(--hall); object-fit: cover; }
+.who { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.card .who { padding-right: 40px; }
+.who .repo-owner, .who strong { min-width: 0; }
+.landed .av { align-self: center; margin-right: 8px; }
+td .av { margin-right: 8px; vertical-align: middle; }
+/* only repos whose owner uploaded a preview image have a banner */
+.card-img { display: block; width: 100%; height: 130px; border-bottom: 1px solid var(--line); border-radius: 8px 8px 0 0; background: var(--hall); object-fit: cover; }
+.card:has(.card-img) { grid-template-rows: auto 1fr auto; }
+.card:has(.card-img) .desc { -webkit-line-clamp: 2; }
+.card:has(.card-img) .bookmark-btn { top: 142px; }
+.list-view .card-img { display: none; }
+.list-view .card:has(.card-img) { grid-template-rows: 1fr auto; }
+.list-view .card:has(.card-img) .bookmark-btn { top: 12px; }
+.pane-img { display: block; width: 100%; height: auto; aspect-ratio: 2; border-radius: 6px; background: var(--hall); object-fit: contain; }
+.readme-img { display: block; max-height: 260px; border-radius: 6px; }
 .repo-owner { color: var(--soft); font-size: .88rem; overflow-wrap: anywhere; }
 .card .desc { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
 .topics { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -241,6 +257,7 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
   <a class="logo" href="./"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="4" fill="#15233b"/><path d="M10 9v14h14M10 23 24 9" fill="none" stroke="#ffc72c" stroke-width="4"/></svg>Just Arrived</a>
   <div class="landed" id="landed" hidden>
     <span class="landed-label">Just landed</span>
+    <span id="landedAv" style="display:flex"></span>
     <button type="button" class="landed-repo" id="landedRepo"></button>
     <button type="button" class="landed-next" id="landedNext" aria-label="Next new repo">›</button>
   </div>
@@ -483,6 +500,14 @@ async function fetchBand(query) {
   return items;
 }
 
+// data.json carries a repo's custom preview image. Live search results don't,
+// so images already seen are remembered by id.
+const imageById = new Map();
+function repoImage(item) {
+  if (/^https:\/\/repository-images\.githubusercontent\.com\//.test(item.image || "")) imageById.set(item.id, item.image);
+  return imageById.get(item.id) || "";
+}
+
 function enrich(item) {
   const created = new Date(item.created_at);
   const pushed = new Date(item.pushed_at);
@@ -501,6 +526,7 @@ function enrich(item) {
     name: item.name,
     owner: item.owner.login,
     avatar: item.owner.avatar_url + "&s=72",
+    image: repoImage(item),
     url: item.html_url,
     desc: item.description || "",
     lang: item.language || "",
@@ -530,6 +556,7 @@ function toRaw(r) {
   return {
     id: r.id, full_name: r.fullName, name: r.name,
     owner: { login: r.owner, avatar_url: r.avatar.replace(/&s=\d+$/, "") },
+    image: r.image || undefined,
     html_url: r.url, description: r.desc, language: r.lang, topics: r.topics,
     license: r.license ? { spdx_id: r.license } : null, homepage: r.homepage || null,
     stargazers_count: r.stars, forks_count: r.forks, open_issues_count: r.issues,
@@ -819,12 +846,17 @@ function bookmarkHTML(r) {
   return `<button class="bookmark-btn${saved ? " active" : ""}" data-id="${r.id}" aria-pressed="${saved}" aria-label="Save ${esc(r.name)}"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 3h12v18l-6-5-6 5z"/></svg></button>`;
 }
 
+function avatarHTML(r, size) {
+  return `<img class="av" data-img src="${esc(r.avatar)}" width="${size}" height="${size}" alt="" loading="lazy" decoding="async">`;
+}
+
 function cardHTML(r) {
   return `<article class="card" data-id="${r.id}">
+    ${r.image ? `<img class="card-img" data-img src="${esc(r.image)}" alt="" loading="lazy" decoding="async">` : ""}
     <div class="card-main">
       ${isFresh(r) ? '<span class="badge fresh">New to you</span>' : ""}
+      <div class="who">${avatarHTML(r, 24)}<span class="repo-owner">${esc(r.owner)}</span></div>
       <button class="repo-name" type="button">${esc(r.name)}</button>
-      <div class="repo-owner">${esc(r.owner)}</div>
       <p class="desc">${esc(r.desc) || "No description."}</p>
       ${gainHTML(r)}
       ${chipsHTML(r, 2)}
@@ -841,7 +873,7 @@ function cardHTML(r) {
 function tableHTML(rs) {
   const rows = rs.map((r) => {
     return `<tr data-id="${r.id}">
-    <td><a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
+    <td>${avatarHTML(r, 20)}<a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
     <td>${esc(r.lang) || "–"}</td>
     <td>${fmt(r.stars)}</td>
     <td>${r.starsPerDay.toFixed(1)}</td>
@@ -890,7 +922,7 @@ function similarHTML(r) {
   const list = similarRepos(r);
   if (!list.length) return "";
   return '<h3>Similar repos</h3><div class="similar">' + list.map((x) =>
-    `<button data-similar="${x.id}"><strong>${esc(x.fullName)}</strong><span>+${num(x.starsPerDay)}</span></button>`
+    `<button data-similar="${x.id}"><span class="who">${avatarHTML(x, 20)}<strong>${esc(x.fullName)}</strong></span><span>+${num(x.starsPerDay)}</span></button>`
   ).join("") + "</div>";
 }
 
@@ -936,6 +968,7 @@ function renderLanded() {
   const r = rs[landedAt % rs.length];
   const hours = Math.floor((Date.now() - new Date(r.createdAt)) / 36e5);
   extraRepos.set(r.id, r);
+  $("#landedAv").innerHTML = avatarHTML(r, 22);
   $("#landedRepo").dataset.id = r.id;
   $("#landedRepo").textContent = r.name + " · " + (hours < 1 ? "under 1h ago" : hours < 48 ? hours + "h ago" : Math.floor(hours / 24) + "d ago") + " · " + fmt(r.stars) + " stars";
 }
@@ -943,7 +976,7 @@ function renderSpotlight() {
   const day = repoOfTheDay(), jump = biggestJump();
   const tile = (label, r, sub) => {
     extraRepos.set(r.id, r);
-    return `<button class="spot" data-spot="${r.id}"><span class="label">${label}</span><strong>${esc(r.name)}</strong><span class="sub">${sub}</span></button>`;
+    return `<button class="spot" data-spot="${r.id}"><span class="label">${label}</span><span class="who">${avatarHTML(r, 28)}<strong>${esc(r.name)}</strong></span><span class="sub">${sub}</span></button>`;
   };
   const html = (day ? tile("Repo of the day", day, esc(day.desc)) : "") +
     (jump ? tile("Biggest jump yesterday", jump.r, `+${fmt(jump.gain)} ★ · ${esc(jump.r.desc) || "No description."}`) : "");
@@ -966,6 +999,7 @@ function previewHTML(r) {
   if (r.license) links.push(`<span title="License">${esc(r.license)}</span>`);
   const hist = state.history[r.id] || [];
   return `
+    ${r.image ? `<img class="pane-img" data-img src="${esc(r.image)}" alt="Preview image for ${esc(r.name)}" decoding="async">` : ""}
     <div class="badges">${badgesFor(r)}</div>
     <h2 class="preview-name"><a href="${withUTM(r.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(r.name)}</a></h2>
     <p>${esc(r.desc) || "No description."}</p>
@@ -1060,6 +1094,22 @@ function mdLiteHTML(md) {
   return html || '<p class="readme-empty">Nothing to preview.</p>';
 }
 
+// First real picture near the top of a README. Only GitHub-hosted files are
+// shown: any other host could log visitors, and most are badges.
+function readmeImageHTML(md, r) {
+  const text = md.slice(0, 8000).replace(/<!--[\s\S]*?-->/g, "").replace(/```[\s\S]*?(```|$)/g, "");
+  for (const m of text.matchAll(/!\[[^\]]*\]\(\s*<?([^\s)>]+)|<img\b[^>]*?\bsrc\s*=\s*["']?([^"'\s>]+)/gi)) {
+    let u;
+    try { u = new URL(decodeEntities(m[1] || m[2]).replace(/^\/(?!\/)/, ""), "https://raw.githubusercontent.com/" + r.fullName + "/HEAD/"); } catch (e) { continue; }
+    if (u.hostname === "github.com") u.pathname = u.pathname.replace(/^(\/[^/]+\/[^/]+)\/blob\//, "$1/raw/");
+    const ok = u.protocol === "https:" && (
+      /^(raw|user-images|private-user-images|camo|repository-images)\.githubusercontent\.com$/.test(u.hostname) ||
+      (u.hostname === "github.com" && (u.pathname.startsWith("/user-attachments/assets/") || /^\/[^/]+\/[^/]+\/raw\//.test(u.pathname))));
+    if (!ok || /badge|shield|\.(mp4|mov|webm)$/i.test(u.pathname)) continue;
+    return `<img class="readme-img" data-img src="${esc(u.href)}" alt="" decoding="async">`;
+  }
+  return "";
+}
 const readmeCache = new Map();
 const wideScreen = matchMedia("(min-width: 1001px)");
 let previewSeq = 0;
@@ -1086,7 +1136,7 @@ async function loadReadme(r, seq) {
       body = '<p class="readme-empty">Couldn’t load the README.</p>';
     } else {
       const text = await res.text();
-      body = mdLiteHTML(text.slice(0, 4000)) +
+      body = (r.image ? "" : readmeImageHTML(text, r)) + mdLiteHTML(text.slice(0, 4000)) +
         `<a class="readme-more" href="${withUTM(r.url + "#readme")}" target="_blank" rel="noopener">Read full README on GitHub ↗</a>`;
     }
     if (res.ok || res.status === 404) readmeCache.set(r.fullName, body); // let failures retry
@@ -1111,7 +1161,7 @@ function openPreview(id) {
   // Repos outside the list (similar, spotlight, shared link) slot in after the current one.
   if (!previewIds.includes(id)) previewIds.splice(wasOpen ? previewIds.indexOf(prevId) + 1 : 0, 0, id);
   $("#previewBody").innerHTML = previewHTML(r);
-  $("#previewOwner").textContent = r.owner;
+  $("#previewOwner").innerHTML = `<span class="who">${avatarHTML(r, 28)}<span class="repo-owner">${esc(r.owner)}</span></span>`;
   updatePreviewNav();
   // Beside the feed on wide screens, a full-screen modal on narrow ones.
   if (!wasOpen) { if (wideScreen.matches) dlg.show(); else dlg.showModal(); }
@@ -1325,6 +1375,13 @@ function initFromURL() {
 }
 
 /* ============ wiring ============ */
+// Images that fail to load disappear; so do README icons too small to be a picture.
+document.addEventListener("error", (e) => {
+  if (e.target.matches && e.target.matches("img[data-img]")) e.target.remove();
+}, true);
+document.addEventListener("load", (e) => {
+  if (e.target.matches && e.target.matches("img.readme-img") && e.target.naturalWidth < 200) e.target.remove();
+}, true);
 // Language/topic chips toggle their filter. Returns true if a chip was clicked.
 function applyChip(target) {
   const c = target.closest(".chip");

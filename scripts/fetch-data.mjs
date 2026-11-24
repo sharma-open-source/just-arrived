@@ -73,6 +73,7 @@ async function fetchBand(query) {
 function trim(item) {
   return {
     id: item.id,
+    node_id: item.node_id, // dropped once addImages() has used it
     full_name: item.full_name,
     name: item.name,
     owner: { login: item.owner.login, avatar_url: item.owner.avatar_url },
@@ -108,6 +109,46 @@ async function fetchWindow(days) {
     }
   });
   return items.filter((r) => !seen.has(r.id) && seen.add(r.id)).map(trim);
+}
+
+// Adds `image` to repos whose owner uploaded a custom preview image. GitHub's
+// auto-generated ones are skipped: they repeat the card text and are
+// rate-limited. Never fatal; a failed batch keeps the previous run's images.
+async function addImages(windows) {
+  const items = Object.values(windows).flat();
+  const images = new Map();
+  try {
+    const prev = JSON.parse(await readFile(new URL("../data.json", import.meta.url), "utf8"));
+    for (const r of Object.values(prev.windows).flat()) if (r.image) images.set(r.id, r.image);
+  } catch (e) {}
+  const ids = [...new Map(items.map((r) => [r.id, r.node_id])).values()].filter(Boolean);
+  for (let i = 0; i < ids.length; i += 100) {
+    try {
+      const res = await fetch("https://api.github.com/graphql", {
+        method: "POST",
+        headers: { Authorization: "Bearer " + token, "Content-Type": "application/json" },
+        body: JSON.stringify({
+          query: "query($ids:[ID!]!){nodes(ids:$ids){... on Repository{databaseId usesCustomOpenGraphImage openGraphImageUrl}}}",
+          variables: { ids: ids.slice(i, i + 100) },
+        }),
+        signal: AbortSignal.timeout(30000),
+      });
+      const json = await res.json();
+      if (!json.data?.nodes) throw new Error(`${res.status} ${json.message || JSON.stringify(json.errors)}`);
+      for (const n of json.data.nodes) {
+        if (!n) continue; // deleted or made private since the search
+        if (n.usesCustomOpenGraphImage) images.set(n.databaseId, n.openGraphImageUrl);
+        else images.delete(n.databaseId);
+      }
+    } catch (e) {
+      console.error(`preview images, batch ${i / 100 + 1} failed: ${e.message}`);
+    }
+  }
+  for (const r of items) {
+    delete r.node_id;
+    if (images.has(r.id)) r.image = images.get(r.id);
+  }
+  console.log(`${new Set(items.filter((r) => r.image).map((r) => r.id)).size} repos with a preview image`);
 }
 
 // Lightweight versions of the UI's derived-field logic, just enough to rank
@@ -194,6 +235,7 @@ async function main() {
     windows[days] = await fetchWindow(days);
     console.log(`window ${days}d: ${windows[days].length} repos`);
   }
+  await addImages(windows);
   const generatedAt = new Date().toISOString();
   const snapshot = { generatedAt, windows };
   await writeFile(new URL("../data.json", import.meta.url), JSON.stringify(snapshot));
