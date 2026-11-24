@@ -68,6 +68,11 @@ summary::-webkit-details-marker { display: none; }
 .landed button { border: 0; background: none; color: inherit; }
 .landed-repo { flex: 1; min-width: 0; padding: 9px 0; overflow: hidden; text-align: left; text-overflow: ellipsis; white-space: nowrap; font: 500 .9rem var(--mono); }
 .landed-repo:hover { text-decoration: underline; }
+.landed { overflow: hidden; }
+.landed-item { flex: 1; display: flex; min-width: 0; }
+.landed-pause { flex: none; padding: 0 8px; }
+.landed-pause[aria-pressed="true"] .i-pause, .landed-pause[aria-pressed="false"] .i-play { display: none; }
+@media (prefers-reduced-motion: reduce) { .landed-pause { display: none; } }
 .landed-next { flex: none; padding: 0 14px; font-size: 1.3rem; }
 .landed :focus-visible { outline-color: var(--sign); outline-offset: -3px; }
 .sign nav { margin-left: 0; }
@@ -135,7 +140,6 @@ td .av { margin-right: 8px; vertical-align: middle; }
 .list-view .card:has(.card-img) { grid-template-rows: 1fr auto; }
 .list-view .card:has(.card-img) .bookmark-btn { top: 12px; }
 .pane-img { display: block; width: 100%; height: auto; aspect-ratio: 2; border-radius: 6px; background: var(--hall); object-fit: contain; }
-.readme-img { display: block; max-height: 260px; border-radius: 6px; }
 .repo-owner { color: var(--soft); font-size: .88rem; overflow-wrap: anywhere; }
 .card .desc { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
 .topics { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -204,14 +208,35 @@ tr.on { background: var(--up-fill); }
 .similar button { display: flex; justify-content: space-between; gap: 12px; width: 100%; padding: 10px 0; border: 0; border-top: 1px solid var(--line); background: none; text-align: left; }
 .similar strong { overflow-wrap: anywhere; }
 .similar button:hover strong { color: var(--link); }
-.similar span { color: var(--up); font-family: var(--mono); white-space: nowrap; }
-.readme { min-width: 0; font-size: .92rem; overflow-wrap: anywhere; }
-.readme > * + * { margin-top: 8px; }
-.readme h1, .readme h2, .readme h3, .readme h4, #previewBody .readme h2 { font-size: 1rem; font-weight: 800; line-height: 1.3; letter-spacing: 0; }
-.readme ul, .readme ol { padding-left: 20px; }
-.readme pre { max-width: 100%; padding: 10px; border-radius: 4px; background: var(--hall); overflow-x: auto; overflow-wrap: normal; }
-.readme code { font-family: var(--mono); font-size: .86em; }
-.readme img { max-width: 100%; }
+.similar button > span:last-child { color: var(--up); font-family: var(--mono); white-space: nowrap; }
+.readme { min-width: 0; font-size: .95rem; overflow-wrap: anywhere; }
+.md > * + *, .md li > * + p, .md blockquote > * + *, .md details > * + *, .md div > * + * { margin-top: 12px; }
+.md.folded { max-height: 640px; overflow: hidden; -webkit-mask: linear-gradient(#000 85%, transparent); mask: linear-gradient(#000 85%, transparent); }
+.readme-expand { display: block; margin: 12px 0; }
+.readme-more { display: inline-block; margin-top: 12px; }
+.md h1, #previewBody .md h1, .md h2, #previewBody .md h2, .md h3, .md h4, .md h5, .md h6 { margin-top: 22px; font-size: 1rem; font-weight: 800; line-height: 1.25; letter-spacing: 0; scroll-margin-top: 12px; }
+#previewBody .md h1 { font-size: 1.35rem; }
+#previewBody .md h2 { padding-bottom: 5px; border-bottom: 1px solid var(--line); font-size: 1.15rem; }
+.md > :first-child { margin-top: 0 !important; }
+.md ul, .md ol { margin-block: 0; padding-left: 22px; }
+.md li + li { margin-top: 4px; }
+.md .task-list-item { list-style: none; margin-left: -20px; }
+.md pre { max-width: 100%; margin-block: 0; padding: 12px; border-radius: 4px; background: var(--hall); overflow-x: auto; overflow-wrap: normal; line-height: 1.45; }
+.md code, .md kbd, .md samp { font-family: var(--mono); font-size: .88em; }
+.md :not(pre) > code, .md kbd { padding: 1px 5px; border-radius: 3px; background: var(--hall); }
+.md img { max-width: 100%; height: auto; vertical-align: middle; }
+.md table { display: block; width: max-content; max-width: 100%; overflow-x: auto; font-size: .88rem; overflow-wrap: normal; }
+.md th, .md td { padding: 6px 10px; border: 1px solid var(--line); cursor: auto; white-space: normal; }
+.md th { color: var(--ink); }
+.md blockquote, .md .markdown-alert { margin-inline: 0; padding-left: 12px; border-left: 3px solid var(--line); color: var(--soft); }
+.md .markdown-alert { border-color: var(--sign); color: inherit; }
+.md .markdown-alert-title { font-weight: 800; }
+.md hr { border: 0; border-top: 1px solid var(--line); }
+.md summary { list-style: revert; display: list-item; font-weight: 700; }
+.md .pl-c { color: var(--soft); }
+.md .pl-k, .md .pl-ent { color: var(--link); }
+.md .pl-s, .md .pl-pds { color: var(--up); }
+.md .pl-c1, .md .pl-v { color: var(--warn); }
 .readme-empty { color: var(--soft); }
 
 #tokenDialog { width: min(440px, 92vw); padding: 24px; border: 0; border-radius: 8px; background: var(--ticket); color: var(--ink); }
@@ -257,8 +282,9 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
   <a class="logo" href="./"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="4" fill="#15233b"/><path d="M10 9v14h14M10 23 24 9" fill="none" stroke="#ffc72c" stroke-width="4"/></svg>Just Arrived</a>
   <div class="landed" id="landed" hidden>
     <span class="landed-label">Just landed</span>
-    <span id="landedAv" style="display:flex"></span>
-    <button type="button" class="landed-repo" id="landedRepo"></button>
+    <div class="landed-item" id="landedItem"><span id="landedAv" style="display:flex"></span>
+    <button type="button" class="landed-repo" id="landedRepo"></button></div>
+    <button type="button" class="landed-pause" id="landedPause" aria-pressed="false" aria-label="Pause new repos"><svg viewBox="0 0 12 12" width="12" height="12" fill="currentColor" aria-hidden="true"><path class="i-pause" d="M2 1h3v10H2zM7 1h3v10H7z"/><path class="i-play" d="M3 1l8 5-8 5z"/></svg></button>
     <button type="button" class="landed-next" id="landedNext" aria-label="Next new repo">›</button>
   </div>
   <nav aria-label="Site">
@@ -483,7 +509,7 @@ async function fetchPage(query, page) {
   if (res.status === 403 || res.status === 429) {
     const reset = res.headers.get("x-ratelimit-reset");
     const wait = reset ? Math.max(0, Math.ceil((reset * 1000 - Date.now()) / 1000)) : 60;
-    throw new Error("GitHub rate limit reached. Try again in ~" + wait + "s, or add a token (🔑) for 3× the limit.");
+    throw new Error("GitHub rate limit reached. Try again in ~" + wait + "s, or add a token from the Menu for 3× the limit.");
   }
   if (!res.ok) throw new Error("GitHub API error " + res.status);
   return res.json();
@@ -972,6 +998,21 @@ function renderLanded() {
   $("#landedRepo").dataset.id = r.id;
   $("#landedRepo").textContent = r.name + " · " + (hours < 1 ? "under 1h ago" : hours < 48 ? hours + "h ago" : Math.floor(hours / 24) + "d ago") + " · " + fmt(r.stars) + " stars";
 }
+let landedPaused = false, landedSlide = null;
+const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
+// The old repo slides up and out, the next one up and in.
+function stepLanded() {
+  const el = $("#landedItem");
+  if (landedSlide) { landedSlide.onfinish = null; landedSlide.cancel(); landedSlide = null; }
+  landedAt++;
+  if (!el.animate || reducedMotion.matches) { renderLanded(); return; }
+  landedSlide = el.animate([{ transform: "none", opacity: 1 }, { transform: "translateY(-100%)", opacity: 0 }], { duration: 180, easing: "ease-in" });
+  landedSlide.onfinish = () => {
+    renderLanded();
+    landedSlide = el.animate([{ transform: "translateY(100%)", opacity: 0 }, { transform: "none", opacity: 1 }], { duration: 240, easing: "ease-out" });
+    landedSlide.onfinish = () => { landedSlide = null; };
+  };
+}
 function renderSpotlight() {
   const day = repoOfTheDay(), jump = biggestJump();
   const tile = (label, r, sub) => {
@@ -1022,93 +1063,101 @@ function previewHTML(r) {
     ${similarHTML(r)}`;
 }
 
-// Deliberately not a full markdown renderer — just enough of the common
-// syntax (headings, lists, code, bold/italic, links) to make a truncated
-// README opening readable. Raw HTML and images are stripped rather than
-// rendered: READMEs lean on both heavily for badges/centered banners, which
-// read as noise (or, for HTML, would need real sanitizing) in a quick preview.
-// Un-escapes HTML entities left over from stripped raw-HTML markup (e.g. a
-// README heading like `<h1>R&amp;D</h1>` loses its tags but not the entity)
-// so esc() below re-escapes each character exactly once instead of doubling
-// it into a literal "&amp;" on screen.
-function decodeEntities(s) {
-  return s.replace(/&(#x?[0-9a-f]+|amp|lt|gt|quot|apos|nbsp);/gi, (m, e) => {
-    if (e[0] === "#") {
-      const code = e[1].toLowerCase() === "x" ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
-      return Number.isFinite(code) ? String.fromCodePoint(code) : m;
-    }
-    return { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " }[e.toLowerCase()] || m;
+// GitHub renders the README; this rebuilds it from an allowlist, since it is
+// repo-owner-controlled content. Anything not listed is unwrapped or dropped,
+// and the parsed document is inert, so nothing in it loads or runs.
+const MD_TAGS = new Set("h1 h2 h3 h4 h5 h6 p br hr a img strong b em i u s del ins sub sup kbd code pre samp var mark q small abbr ul ol li dl dt dd blockquote table thead tbody tfoot tr th td caption details summary div span input ruby rt rp".split(" "));
+const MD_DROP = "script,style,svg,math,template,iframe,object,embed,form,button,textarea,select,video,audio,canvas,link,meta,noscript,title,.anchor,.zeroclipboard-container";
+const MD_ATTRS = { td: ["align", "colspan", "rowspan"], th: ["align", "colspan", "rowspan"], ol: ["start"], details: ["open"], img: ["width", "height", "align", "alt"],
+  p: ["align"], div: ["align"], h1: ["align"], h2: ["align"], h3: ["align"], h4: ["align"] };
+
+// Relative links start from the README's own folder; a leading slash is the repo root.
+function readmeURL(u, base, dir) {
+  u = (u || "").replace(/[\t\n\r]/g, "").trim(); // URL parsing ignores these too
+  if (!u) return null;
+  try {
+    const rel = !/^([a-z][a-z0-9+.-]*:|\/\/)/i.test(u);
+    const url = rel ? new URL(u.startsWith("/") ? u.slice(1) : dir + u, base) : new URL(u, base);
+    return url;
+  } catch (e) { return null; }
+}
+// Other image hosts could log visitors, so only GitHub's load.
+function readmeImg(src, r, dir) {
+  const u = readmeURL(src, "https://raw.githubusercontent.com/" + r.fullName + "/HEAD/", dir);
+  if (!u || u.protocol !== "https:") return "";
+  if (u.hostname === "github.com") u.pathname = u.pathname.replace(/^(\/[^/]+\/[^/]+)\/blob\//, "$1/raw/");
+  const ok = /^(raw|user-images|private-user-images|camo|repository-images|avatars)\.githubusercontent\.com$/.test(u.hostname) ||
+    (u.hostname === "github.com" && (u.pathname.startsWith("/user-attachments/assets/") || /^\/[^/]+\/[^/]+\/raw\//.test(u.pathname)));
+  return ok ? u.href : "";
+}
+function readmeHTML(html, r) {
+  const doc = new DOMParser().parseFromString(html, "text/html");
+  const root = doc.querySelector("article") || doc.body;
+  const path = (doc.querySelector("[data-path]") || doc.body).getAttribute("data-path") || "";
+  const dir = path.slice(0, path.lastIndexOf("/") + 1);
+  // Section links need ids; GitHub keeps them on the anchor it puts beside each heading.
+  const ids = new Map();
+  root.querySelectorAll(".markdown-heading").forEach((d) => {
+    const a = d.querySelector(".anchor[id]");
+    if (a) ids.set(d.firstElementChild, a.id.replace(/^user-content-/, ""));
   });
-}
+  root.querySelectorAll(MD_DROP).forEach((e) => e.remove());
 
-function mdLiteHTML(md) {
-  const text = decodeEntities(
-    md
-      .replace(/<!--[\s\S]*?-->/g, "")
-      .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
-      .replace(/<[^>]+>/g, "")
-  );
-
-  const inline = (s) => esc(s)
-    .replace(/`([^`]+)`/g, "<code>$1</code>")
-    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
-    .replace(/\*([^*]+)\*/g, "<em>$1</em>")
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, t, u) => `<a href="${safeHref(u)}" target="_blank" rel="noopener">${t}</a>`);
-
-  // Consecutive non-blank lines are one paragraph in markdown (a single
-  // newline is a soft wrap, not a break) — buffer them and only flush on a
-  // blank line or the start of another block, instead of emitting a <p> per
-  // source line, which reads as choppy wall-of-text for hard-wrapped prose.
-  let html = "", listType = null, inCode = false, codeBuf = [], paraBuf = [];
-  const closeList = () => { if (listType) { html += `</${listType}>`; listType = null; } };
-  const flushCode = () => { if (codeBuf.length) html += `<pre><code>${esc(codeBuf.join("\n"))}</code></pre>`; codeBuf = []; };
-  const flushPara = () => { if (paraBuf.length) html += `<p>${inline(paraBuf.join(" "))}</p>`; paraBuf = []; };
-
-  for (const raw of text.split("\n")) {
-    const line = raw.trimEnd();
-    if (line.trim().startsWith("```")) {
-      flushPara();
-      if (inCode) flushCode();
-      inCode = !inCode;
-      continue;
+  const copy = (from, to) => {
+    for (const n of from.childNodes) {
+      if (n.nodeType === 3) { to.append(n.data); continue; }
+      if (n.nodeType !== 1) continue;
+      const tag = n.localName;
+      if (!MD_TAGS.has(tag)) { copy(n, to); continue; } // keep the text, lose the tag
+      if (tag === "input" && n.getAttribute("type") !== "checkbox") continue;
+      const el = doc.createElement(tag);
+      for (const name of MD_ATTRS[tag] || []) if (n.hasAttribute(name)) el.setAttribute(name, n.getAttribute(name));
+      const cls = [...n.classList].filter((c) => /^(pl-[a-z0-9]+|markdown-alert(-[a-z]+)?|task-list-item)$/.test(c));
+      if (cls.length) el.className = cls.join(" ");
+      const id = ids.get(n) || (n.id || "").replace(/^user-content-/, "");
+      if (id) el.id = "rm-" + id;
+      if (tag === "img") {
+        const src = readmeImg(n.getAttribute("src"), r, dir);
+        if (!src) continue;
+        el.setAttribute("src", src);
+        el.setAttribute("data-img", "");
+        el.setAttribute("loading", "lazy");
+      } else if (tag === "input") {
+        el.setAttribute("type", "checkbox");
+        el.setAttribute("disabled", "");
+        if (n.hasAttribute("checked")) el.setAttribute("checked", "");
+      } else if (tag === "a") {
+        const href = n.getAttribute("href") || "";
+        if (href.startsWith("#")) el.setAttribute("href", "#rm-" + href.slice(1).replace(/^user-content-/, ""));
+        else {
+          const u = readmeURL(href, "https://github.com/" + r.fullName + "/blob/HEAD/", dir);
+          if (u && /^(https?|mailto):$/.test(u.protocol)) {
+            el.setAttribute("href", u.href);
+            el.setAttribute("target", "_blank");
+            el.setAttribute("rel", "noopener nofollow ugc");
+          }
+        }
+      }
+      copy(n, el);
+      // Links and paragraphs that only held a dropped badge would leave gaps.
+      if ((tag === "a" || tag === "p") && !el.textContent.trim() && !el.querySelector("img,input")) continue;
+      to.append(el);
     }
-    if (inCode) { codeBuf.push(raw); continue; }
-    const h = line.match(/^(#{1,6})\s+(.*)/);
-    if (h) { flushPara(); closeList(); const n = Math.min(h[1].length, 4); html += `<h${n}>${inline(h[2])}</h${n}>`; continue; }
-    const ol = line.match(/^\s*\d+[.)]\s+(.*)/);
-    const ul = line.match(/^\s*[-*]\s+(.*)/);
-    if (ol || ul) {
-      flushPara();
-      const type = ol ? "ol" : "ul";
-      if (listType !== type) { closeList(); html += `<${type}>`; listType = type; }
-      html += `<li>${inline((ol || ul)[1])}</li>`;
-      continue;
-    }
-    if (!line.trim()) { flushPara(); closeList(); continue; }
-    closeList();
-    paraBuf.push(line.trim());
-  }
-  flushPara();
-  closeList();
-  flushCode();
-  return html || '<p class="readme-empty">Nothing to preview.</p>';
+  };
+  const out = doc.createElement("div");
+  copy(root, out);
+  return out.innerHTML.trim() || '<p class="readme-empty">The README is empty.</p>';
 }
-
-// First real picture near the top of a README. Only GitHub-hosted files are
-// shown: any other host could log visitors, and most are badges.
-function readmeImageHTML(md, r) {
-  const text = md.slice(0, 8000).replace(/<!--[\s\S]*?-->/g, "").replace(/```[\s\S]*?(```|$)/g, "");
-  for (const m of text.matchAll(/!\[[^\]]*\]\(\s*<?([^\s)>]+)|<img\b[^>]*?\bsrc\s*=\s*["']?([^"'\s>]+)/gi)) {
-    let u;
-    try { u = new URL(decodeEntities(m[1] || m[2]).replace(/^\/(?!\/)/, ""), "https://raw.githubusercontent.com/" + r.fullName + "/HEAD/"); } catch (e) { continue; }
-    if (u.hostname === "github.com") u.pathname = u.pathname.replace(/^(\/[^/]+\/[^/]+)\/blob\//, "$1/raw/");
-    const ok = u.protocol === "https:" && (
-      /^(raw|user-images|private-user-images|camo|repository-images)\.githubusercontent\.com$/.test(u.hostname) ||
-      (u.hostname === "github.com" && (u.pathname.startsWith("/user-attachments/assets/") || /^\/[^/]+\/[^/]+\/raw\//.test(u.pathname))));
-    if (!ok || /badge|shield|\.(mp4|mov|webm)$/i.test(u.pathname)) continue;
-    return `<img class="readme-img" data-img src="${esc(u.href)}" alt="" decoding="async">`;
+// Long READMEs start folded so similar repos stay within reach.
+function showReadme(body) {
+  const el = $("#previewReadme");
+  if (!el) return;
+  el.innerHTML = body;
+  const md = el.querySelector(".md");
+  if (md && md.scrollHeight > 900) {
+    md.classList.add("folded");
+    md.insertAdjacentHTML("afterend", '<button class="btn readme-expand" type="button">Show the whole README</button>');
   }
-  return "";
 }
 const readmeCache = new Map();
 const wideScreen = matchMedia("(min-width: 1001px)");
@@ -1118,30 +1167,27 @@ let previewId = null;
 let readmeTimer;
 async function loadReadme(r, seq) {
   if (readmeCache.has(r.fullName)) {
-    const el = $("#previewReadme");
-    if (el) el.innerHTML = readmeCache.get(r.fullName);
+    showReadme(readmeCache.get(r.fullName));
     return;
   }
   try {
     const res = await fetch("https://api.github.com/repos/" + r.fullName + "/readme", {
-      headers: { ...apiHeaders(), Accept: "application/vnd.github.raw+json" },
+      headers: { ...apiHeaders(), Accept: "application/vnd.github.html+json" },
     });
     if (seq !== previewSeq) return; // dialog moved on to a different repo
     let body;
     if (res.status === 404) {
       body = '<p class="readme-empty">No README found.</p>';
     } else if (res.status === 403 || res.status === 429) {
-      body = '<p class="readme-empty">Rate limited — try again shortly, or add a token (🔑) for a higher limit.</p>';
+      body = '<p class="readme-empty">Rate limited — try again shortly, or add a token from the Menu for a higher limit.</p>';
     } else if (!res.ok) {
       body = '<p class="readme-empty">Couldn’t load the README.</p>';
     } else {
       const text = await res.text();
-      body = (r.image ? "" : readmeImageHTML(text, r)) + mdLiteHTML(text.slice(0, 4000)) +
-        `<a class="readme-more" href="${withUTM(r.url + "#readme")}" target="_blank" rel="noopener">Read full README on GitHub ↗</a>`;
+      body = `<div class="md">${readmeHTML(text, r)}</div><a class="readme-more" href="${withUTM(r.url + "#readme")}" target="_blank" rel="noopener">Read it on GitHub ↗</a>`;
     }
     if (res.ok || res.status === 404) readmeCache.set(r.fullName, body); // let failures retry
-    const el = $("#previewReadme");
-    if (el) el.innerHTML = body;
+    showReadme(body);
   } catch (e) {
     if (seq !== previewSeq) return;
     const el = $("#previewReadme");
@@ -1375,12 +1421,9 @@ function initFromURL() {
 }
 
 /* ============ wiring ============ */
-// Images that fail to load disappear; so do README icons too small to be a picture.
+// Images that fail to load disappear.
 document.addEventListener("error", (e) => {
   if (e.target.matches && e.target.matches("img[data-img]")) e.target.remove();
-}, true);
-document.addEventListener("load", (e) => {
-  if (e.target.matches && e.target.matches("img.readme-img") && e.target.naturalWidth < 200) e.target.remove();
 }, true);
 // Language/topic chips toggle their filter. Returns true if a chip was clicked.
 function applyChip(target) {
@@ -1417,7 +1460,18 @@ $("#content").addEventListener("click", (e) => {
 });
 
 $("#landedRepo").addEventListener("click", (e) => openPreview(+e.currentTarget.dataset.id));
-$("#landedNext").addEventListener("click", () => { landedAt++; renderLanded(); });
+$("#landedNext").addEventListener("click", () => stepLanded());
+$("#landedPause").addEventListener("click", (e) => {
+  landedPaused = !landedPaused;
+  e.currentTarget.setAttribute("aria-pressed", landedPaused);
+  e.currentTarget.setAttribute("aria-label", landedPaused ? "Resume new repos" : "Pause new repos");
+});
+// Moves on by itself, but never under the pointer or keyboard, in a hidden tab,
+// beside an open preview, or for people who prefer less motion.
+setInterval(() => {
+  if (!landedPaused && !document.hidden && !reducedMotion.matches && !$("#landed").hidden &&
+    !$("#previewDialog").open && !document.querySelector("#landed:hover, #landed:focus-within")) stepLanded();
+}, 5000);
 $("#spotlight").addEventListener("click", (e) => {
   const b = e.target.closest("[data-spot]");
   if (b) openPreview(+b.dataset.spot);
@@ -1497,8 +1551,8 @@ document.addEventListener("keydown", (e) => {
 });
 let touch = null;
 previewDlg.addEventListener("touchstart", (e) => {
-  // Code blocks scroll sideways themselves; two fingers means zoom.
-  touch = e.touches.length === 1 && !e.target.closest("pre") ? e.touches[0] : null;
+  // Code blocks and tables scroll sideways themselves; two fingers means zoom.
+  touch = e.touches.length === 1 && !e.target.closest("pre, table") ? e.touches[0] : null;
 }, { passive: true });
 previewDlg.addEventListener("touchend", (e) => {
   if (!touch || e.touches.length) return;
@@ -1511,6 +1565,18 @@ $("#previewBody").addEventListener("click", (e) => {
   if (applyChip(e.target)) return;
   const sim = e.target.closest("[data-similar]");
   if (sim) { openPreview(+sim.dataset.similar); return; }
+  const more = e.target.closest(".readme-expand");
+  if (more) { more.previousElementSibling.classList.remove("folded"); more.remove(); return; }
+  const jump = e.target.closest('.readme a[href^="#rm-"]');
+  if (jump) {
+    e.preventDefault(); // scroll the pane, leave the page URL alone
+    let id = jump.getAttribute("href").slice(1);
+    try { id = decodeURIComponent(id); } catch (err) {}
+    const to = document.getElementById(id), btn = $("#previewReadme .readme-expand");
+    if (to && btn) btn.click();
+    if (to) to.scrollIntoView({ block: "start" });
+    return;
+  }
   const share = e.target.closest(".preview-share");
   if (share) { shareRepo(share); return; }
   const b = e.target.closest(".preview-bookmark");
