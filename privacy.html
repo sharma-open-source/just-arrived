@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Just Arrived</title>
+<meta name="description" content="How Just Arrived handles data: browser storage, the GitHub API, Google Tag Manager and Google AdSense.">
+<link rel="canonical" href="https://sharma-open-source.github.io/just-arrived/privacy.html">
+<style>
+:root { color-scheme: light dark; --page: #f9f9f7; --ink: #0b0b0b; --muted: #52514e; --link: #1f66bb; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --page: #0d0d0d; --ink: #fff; --muted: #c3c2b7; --link: #6da9ef; } }
+:root[data-theme="dark"] { color-scheme: dark; --page: #0d0d0d; --ink: #fff; --muted: #c3c2b7; --link: #6da9ef; }
+:root[data-theme="light"] { color-scheme: light; }
+body { margin: 0; background: var(--page); color: var(--ink); font: 1rem/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+h1 { line-height: 1.2; } h2 { margin-top: 32px; font-size: 1.15rem; }
+a { color: var(--link); overflow-wrap: anywhere; } .muted { color: var(--muted); }
+</style>
+</head>
+<body>
+<script>
+try { const t = localStorage.getItem("ja-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<main>
+<p><a href="index.html">← Just Arrived</a></p>
+<h1>Privacy Policy</h1>
+<p class="muted">Last updated: 24 November 2026</p>
+<p>This policy covers Just Arrived at https://sharma-open-source.github.io/just-arrived/, run by Sharma SK. The site has no accounts and no backend of its own. Third-party services it uses do process data about visitors, as described below.</p>
+
+<h2>Data stored in your browser</h2>
+<p>The dashboard uses your browser's localStorage to keep:</p>
+<ul>
+<li>your light or dark theme choice;</li>
+<li>repositories you save;</li>
+<li>a temporary copy of repository data, so pages load faster;</li>
+<li>your GitHub token, if you choose to add one.</li>
+</ul>
+<p>We do not receive this data. Your token is sent to the GitHub API with your requests. Scripts running on this page, including third-party scripts, can technically read localStorage, so if you add a token, use one with no permissions. You can delete it with “Clear” in the token dialog, or clear everything through your browser's site data settings.</p>
+
+<h2>Hosting and GitHub</h2>
+<p>The site is hosted on GitHub Pages, and loads avatars, READMEs and live search results from GitHub. GitHub receives your IP address and standard request information. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. Links to GitHub include tags identifying Just Arrived as the source of the visit.</p>
+
+<h2>Google Tag Manager</h2>
+<p>The dashboard loads Google Tag Manager, which can load measurement tags. Google receives your IP address and browser information when it loads, and those tags may use cookies to measure site usage.</p>
+
+<h2>Google AdSense</h2>
+<p>We use Google AdSense to show ads.</p>
+<ul>
+<li>Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites.</li>
+<li>Google's use of advertising cookies enables it and its partners to serve ads to you based on your visits to this site and other sites on the Internet.</li>
+<li>Google and its partners may also use web beacons, IP addresses, device information and other identifiers to deliver and measure ads and prevent fraud.</li>
+</ul>
+<p>You can opt out of personalized advertising in <a href="https://myadcenter.google.com/">Google My Ad Center</a>, or opt out of some third-party vendors' use of cookies for personalized advertising at <a href="https://www.aboutads.info/choices/">aboutads.info</a>. Opting out does not remove ads. Learn <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from sites that use its services</a> and <a href="https://policies.google.com/technologies/ads">how Google uses cookies in advertising</a>.</p>
+
+<h2>Your choices and rights</h2>
+<p>You can block or delete cookies in your browser. Depending on where you live, you may have rights to access, correct, delete or object to the use of your personal data, or to withdraw consent. Where a consent message is shown, you can use it to make your choice. Because Google and GitHub hold the data they collect, requests about that data usually need to go to them.</p>
+
+<h2>Children</h2>
+<p>This site is not directed to children under 13.</p>
+
+<h2>Changes and contact</h2>
+<p>Changes will be posted here with a new date. For questions, <a href="https://github.com/sharma-open-source/just-arrived/issues">open an issue on GitHub</a>. Issues are public, so please do not include personal information.</p>
+</main>
+</body>
+</html>

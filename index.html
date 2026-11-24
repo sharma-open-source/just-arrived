@@ -354,7 +354,23 @@ footer a { color: var(--ink-2); }
   .controls { position: static; }
   .brand h1 { font-size: 1.5rem; }
 }
+
+/* in-feed ads: same surface as a repo card, but labelled and without hover lift */
+.grid[hidden] { display: none; }
+.ad-card {
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 16px;
+  padding: 16px; box-shadow: var(--card-shadow); min-width: 0; min-height: 220px; overflow: hidden;
+}
+.list-view .ad-card { min-height: 120px; }
+.ad-card[hidden], .ad-card:has(ins[data-ad-status="unfilled"]) { display: none; }
+
+/* ad slots */
+.ad-slot { margin: 28px 0; min-height: 120px; text-align: center; overflow: hidden; }
+.ad-slot[hidden], .ad-slot:has(ins[data-ad-status="unfilled"]) { display: none; }
+.ad-label { display: block; margin-bottom: 4px; font-size: 0.7rem; color: var(--muted); }
 </style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4743008845908654"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="wrap">
@@ -377,6 +393,12 @@ footer a { color: var(--ink-2); }
   <div class="stat"><div class="label">Median ★ / day</div><div class="value" id="stMedian">–</div><div class="sub">across current results</div></div>
   <div class="stat"><div class="label">Top language</div><div class="value" id="stLang">–</div><div class="sub" id="stLangSub"></div></div>
 </div>
+
+<!-- AdSense "top banner": paste the unit's ID into data-ad-slot; hidden while empty -->
+<aside class="ad-slot" aria-label="Advertisement" hidden>
+  <span class="ad-label">Advertisement</span>
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4743008845908654" data-ad-slot="" data-ad-format="auto" data-full-width-responsive="true"></ins>
+</aside>
 
 <div class="controls">
   <div class="ctl">
@@ -446,7 +468,13 @@ footer a { color: var(--ink-2); }
 </noscript>
 
 <div id="errorBox" class="error-box" hidden></div>
-<div id="content"><div class="state"><span class="loader"></span><p style="margin-top:12px">Scanning GitHub for fresh arrivals…</p></div></div>
+<div id="content"><div id="plainView"><div class="state"><span class="loader"></span><p style="margin-top:12px">Scanning GitHub for fresh arrivals…</p></div></div><div id="cardGrid" class="grid" hidden></div></div>
+
+<!-- AdSense "after results": paste the unit's ID into data-ad-slot; hidden while empty -->
+<aside class="ad-slot" aria-label="Advertisement" hidden>
+  <span class="ad-label">Advertisement</span>
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4743008845908654" data-ad-slot="" data-ad-format="auto" data-full-width-responsive="true"></ins>
+</aside>
 
 <section style="max-width:860px;margin:40px auto 0;color:var(--ink-2);font-size:0.95rem;line-height:1.7">
   <h2 style="font-size:1.1rem;color:var(--ink-1);margin-bottom:8px">About Just Arrived</h2>
@@ -459,7 +487,7 @@ footer a { color: var(--ink-2); }
   </p>
   <p>
     Filter by language, age window (7–90 days), and minimum stars, then sort by trend score, star
-    velocity, or forks. No account, no backend, no tracking — your optional GitHub token (for a higher
+    velocity, or forks. No account and no backend — the site is supported by ads served by Google, and your optional GitHub token (for a higher
     API rate limit) stays in your browser's localStorage only.
   </p>
 </section>
@@ -469,6 +497,7 @@ footer a { color: var(--ink-2); }
   auto-refreshed every ~30 min <span id="dataAsOf"></span> ·
   score = ★/day × 0.5 + forks/day × 0.2 + push-freshness × 0.2 + community × 0.1 ·
   <a href="feed.xml">📡 RSS feed</a> ·
+  <a href="privacy.html">Privacy policy</a> ·
   built with Claude Code
 </footer>
 </div>
@@ -767,8 +796,8 @@ async function fetchData(force) {
   } catch (err) {
     $("#errorBox").textContent = "⚠ " + err.message;
     $("#errorBox").hidden = false;
-    if (!state.repos.length) $("#content").innerHTML =
-      '<div class="state"><div class="big">🛰️</div><p>Nothing loaded yet — see the message above.</p></div>';
+    if (!state.repos.length) showPlain(
+      '<div class="state"><div class="big">🛰️</div><p>Nothing loaded yet — see the message above.</p></div>');
   } finally {
     btn.classList.remove("spin");
   }
@@ -1107,6 +1136,64 @@ function openPreview(id) {
   loadReadme(r, seq);
 }
 
+/* ============ in-feed ads ============ */
+// From AdSense → Ads → By ad unit → In-feed ad. No ads appear while slot is empty.
+const FEED_AD = { slot: "", layoutKey: "" };
+const FEED_AD_AFTER = [6, 18, 30]; // cards shown before each ad
+
+// Request an ad only once its card nears the viewport. The <ins> is created at
+// that moment because push() fills the first unfilled <ins> in the page.
+const feedAdObserver = new IntersectionObserver((entries) => {
+  entries.forEach(({ isIntersecting, target }) => {
+    if (!isIntersecting) return;
+    feedAdObserver.unobserve(target);
+    const ins = document.createElement("ins");
+    ins.className = "adsbygoogle";
+    ins.style.display = "block";
+    ins.dataset.adClient = "ca-pub-4743008845908654";
+    ins.dataset.adSlot = FEED_AD.slot;
+    ins.dataset.adFormat = "fluid";
+    ins.dataset.adLayoutKey = FEED_AD.layoutKey;
+    target.append(ins);
+    try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) { console.warn("AdSense:", e); }
+  });
+}, { rootMargin: "300px" });
+
+const feedAds = FEED_AD.slot && FEED_AD.layoutKey ? FEED_AD_AFTER.map(() => {
+  const el = document.createElement("aside");
+  el.className = "ad-card";
+  el.setAttribute("aria-label", "Advertisement");
+  el.innerHTML = '<span class="ad-label">Advertisement</span>';
+  el.hidden = true;
+  $("#cardGrid").append(el);
+  feedAdObserver.observe(el);
+  return el;
+}) : [];
+
+function showPlain(html) {
+  $("#cardGrid").hidden = true;
+  $("#plainView").innerHTML = html;
+  $("#plainView").hidden = false;
+}
+
+// Rebuild only the repo cards; ad nodes stay put, since moving them reloads the ad.
+function showCards(cards) {
+  const grid = $("#cardGrid");
+  grid.querySelectorAll(":scope > .card").forEach((el) => el.remove());
+  let from = 0;
+  feedAds.forEach((ad, k) => {
+    const to = FEED_AD_AFTER[k];
+    ad.insertAdjacentHTML("beforebegin", cards.slice(from, to).join(""));
+    ad.hidden = cards.length <= to;
+    from = to;
+  });
+  grid.insertAdjacentHTML("beforeend", cards.slice(from).join(""));
+  grid.classList.toggle("list-view", state.view === "list");
+  $("#plainView").hidden = true;
+  $("#plainView").innerHTML = "";
+  grid.hidden = false;
+}
+
 function render() {
   refreshSavedFromLoaded();
   const rs = currentSet();
@@ -1145,18 +1232,17 @@ function render() {
   // body
   const content = $("#content");
   if (!rs.length) {
-    content.innerHTML = state.tab === "saved"
+    showPlain(state.tab === "saved"
       ? '<div class="state"><div class="big">💾</div><p>Nothing saved yet — click ☆ on a repo to keep it here.</p></div>'
-      : '<div class="state"><div class="big">🌌</div><p>No repos match these filters. Loosen the star threshold or widen the window.</p></div>';
+      : '<div class="state"><div class="big">🌌</div><p>No repos match these filters. Loosen the star threshold or widen the window.</p></div>');
     syncURLFromState();
     return;
   }
   if (state.view === "table") {
-    content.innerHTML = tableHTML(rs);
+    showPlain(tableHTML(rs));
   } else {
     const maxVel = Math.max(...rs.map((r) => r.starsPerDay), 1);
-    content.innerHTML = `<div class="grid${state.view === "list" ? " list-view" : ""}">` +
-      rs.map((r, i) => cardHTML(r, i, maxVel)).join("") + "</div>";
+    showCards(rs.map((r, i) => cardHTML(r, i, maxVel)));
     requestAnimationFrame(() => requestAnimationFrame(() => {
       content.querySelectorAll(".bar-fill").forEach((el) => { el.style.width = el.dataset.w + "%"; });
     }));
@@ -1314,5 +1400,14 @@ loadHistory().then((h) => {
   gtag('js', new Date());
 </script>
 
+<script>
+/* Show and request only the ad slots that have an ID. */
+document.querySelectorAll(".ad-slot").forEach((box) => {
+  // An ID-less <ins> left in the page would be claimed by the next push().
+  if (!box.querySelector("ins").dataset.adSlot) { box.remove(); return; }
+  box.hidden = false;
+  try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) { console.warn("AdSense:", e); }
+});
+</script>
 </body>
 </html>
