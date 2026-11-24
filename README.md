@@ -14,11 +14,11 @@ second query instead.
 
 ## Sections
 
-- ✨ **All** — everything in the window, ranked by trend score
-- 🚀 **New this week** — created in the last 7 days
-- 📈 **Fastest growing** — ≥ 15 stars/day
-- 💎 **Hidden gems** — high velocity but still under 500 stars
-- 🔥 **About to trend** — < 14 days old, > 50 stars, > 20 stars/day
+- **All** — everything in the window, ranked by trend score
+- **Since last visit** — repos not listed when you were last here
+- **Trending** — ≥ 15 stars/day, or < 14 days old with > 50 stars and > 20 stars/day
+- **Hidden gems** — high velocity but still under 500 stars
+- **Saved** — repos you bookmarked
 
 ## Scoring
 

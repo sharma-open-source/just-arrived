@@ -11,7 +11,7 @@
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://sharma-open-source.github.io/just-arrived/">
 <link rel="alternate" type="application/atom+xml" title="Just Arrived — About to trend" href="feed.xml">
-<meta name="theme-color" content="#0d0d0d">
+<meta name="theme-color" content="#ffc72c">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Just Arrived">
@@ -29,7 +29,7 @@
 <meta name="twitter:description" content="Brand-new, fast-growing GitHub repositories ranked by growth velocity — catch them before they hit Trending.">
 <meta name="twitter:image" content="https://sharma-open-source.github.io/just-arrived/og-image.png">
 
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 34'><rect width='34' height='34' rx='4' fill='%2315233b'/><path d='M10 9v14h14M10 23 24 9' fill='none' stroke='%23ffc72c' stroke-width='4'/></svg>">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,460 +53,271 @@
   }
 }
 </script>
+<link rel="stylesheet" href="theme.css">
+<script>
+try { const t = localStorage.getItem("ja-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
 <style>
-:root {
-  --surface-1: #fcfcfb;
-  --page: #f9f9f7;
-  --ink-1: #0b0b0b;
-  --ink-2: #52514e;
-  --muted: #898781;
-  --grid: #e1e0d9;
-  --baseline: #c3c2b7;
-  --border: rgba(11,11,11,0.10);
-  --accent: #2a78d6;
-  --accent-soft: #cde2fb;
-  --seq-250: #86b6ef;
-  --seq-450: #2a78d6;
-  --seq-650: #104281;
-  --good: #006300;
-  --hot: #d03b3b;
-  --gem: #4a3aa7;
-  --grow: #1baf7a;
-  --card-shadow: 0 1px 2px rgba(11,11,11,0.05), 0 4px 16px rgba(11,11,11,0.05);
-  --card-shadow-hover: 0 2px 4px rgba(11,11,11,0.08), 0 12px 32px rgba(11,11,11,0.10);
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --surface-1: #1a1a19;
-    --page: #0d0d0d;
-    --ink-1: #ffffff;
-    --ink-2: #c3c2b7;
-    --muted: #898781;
-    --grid: #2c2c2a;
-    --baseline: #383835;
-    --border: rgba(255,255,255,0.10);
-    --accent: #3987e5;
-    --accent-soft: #184f95;
-    --seq-250: #1c5cab;
-    --seq-450: #3987e5;
-    --seq-650: #86b6ef;
-    --good: #0ca30c;
-    --hot: #e66767;
-    --gem: #9085e9;
-    --grow: #199e70;
-    --card-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 4px 16px rgba(0,0,0,0.3);
-    --card-shadow-hover: 0 2px 4px rgba(0,0,0,0.5), 0 12px 32px rgba(0,0,0,0.45);
-  }
-}
-:root[data-theme="light"] {
-  --surface-1: #fcfcfb; --page: #f9f9f7; --ink-1: #0b0b0b; --ink-2: #52514e;
-  --muted: #898781; --grid: #e1e0d9; --baseline: #c3c2b7; --border: rgba(11,11,11,0.10);
-  --accent: #2a78d6; --accent-soft: #cde2fb; --seq-250: #86b6ef; --seq-450: #2a78d6; --seq-650: #104281;
-  --good: #006300; --hot: #d03b3b; --gem: #4a3aa7; --grow: #1baf7a;
-  --card-shadow: 0 1px 2px rgba(11,11,11,0.05), 0 4px 16px rgba(11,11,11,0.05);
-  --card-shadow-hover: 0 2px 4px rgba(11,11,11,0.08), 0 12px 32px rgba(11,11,11,0.10);
-}
-:root[data-theme="dark"] {
-  --surface-1: #1a1a19; --page: #0d0d0d; --ink-1: #ffffff; --ink-2: #c3c2b7;
-  --muted: #898781; --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
-  --accent: #3987e5; --accent-soft: #184f95; --seq-250: #1c5cab; --seq-450: #3987e5; --seq-650: #86b6ef;
-  --good: #0ca30c; --hot: #e66767; --gem: #9085e9; --grow: #199e70;
-  --card-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 4px 16px rgba(0,0,0,0.3);
-  --card-shadow-hover: 0 2px 4px rgba(0,0,0,0.5), 0 12px 32px rgba(0,0,0,0.45);
-}
-
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  background: var(--page);
-  color: var(--ink-1);
-  line-height: 1.5;
-  min-height: 100vh;
-}
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
-button { font: inherit; cursor: pointer; }
-
-.wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px 80px; }
-
-/* ---------- header ---------- */
-header {
-  padding: 36px 0 8px;
-  display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap;
-}
-.brand h1 { font-size: 1.9rem; letter-spacing: -0.02em; }
-.brand h1 .rocket { display: inline-block; animation: liftoff 3s ease-in-out infinite; }
-@keyframes liftoff {
-  0%,100% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-4px) rotate(-6deg); }
-}
-.brand p { color: var(--ink-2); font-size: 0.95rem; max-width: 560px; }
-.header-actions { display: flex; gap: 8px; align-items: center; }
-.icon-btn {
-  background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
-  padding: 8px 12px; color: var(--ink-1); font-size: 0.9rem;
-  display: inline-flex; align-items: center; gap: 6px;
-  transition: transform .15s ease, box-shadow .15s ease;
-}
-.icon-btn:hover { transform: translateY(-1px); box-shadow: var(--card-shadow); }
-.icon-btn.spin .refresh-glyph { animation: spin 0.9s linear infinite; }
+h1, h2, h3, p { margin: 0; }
+button, input, select { font: inherit; color: inherit; }
+button, select, summary { cursor: pointer; }
+summary { list-style: none; }
+summary::-webkit-details-marker { display: none; }
+.landed { flex: 1 1 260px; display: flex; align-items: stretch; min-width: 0; border-radius: 4px; background: var(--sign-ink); color: #fff; }
+.landed-label { flex: none; align-self: center; padding: 0 12px; color: var(--sign); font-size: .82rem; font-weight: 800; }
+.landed button { border: 0; background: none; color: inherit; }
+.landed-repo { flex: 1; min-width: 0; padding: 9px 0; overflow: hidden; text-align: left; text-overflow: ellipsis; white-space: nowrap; font: 500 .9rem var(--mono); }
+.landed-repo:hover { text-decoration: underline; }
+.landed-next { flex: none; padding: 0 14px; font-size: 1.3rem; }
+.landed :focus-visible { outline-color: var(--sign); outline-offset: -3px; }
+.sign nav { margin-left: 0; }
+.sign summary { border: 2px solid var(--sign-ink); border-radius: 4px; padding: 5px 12px; font-weight: 700; }
+details { position: relative; }
+.pop { position: absolute; z-index: 25; top: calc(100% + 6px); left: 0; width: 240px; padding: 14px; background: var(--ticket); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 10px 30px rgb(10 20 40 / .18); }
+.sign .pop { left: auto; right: 0; padding: 6px; }
+.sign .pop :focus-visible { outline-color: var(--link); }
+.pop button { display: block; width: 100%; padding: 9px 10px; border: 0; border-radius: 4px; background: none; text-align: left; font-weight: 600; }
+.pop button:hover, .pop button.active { background: var(--hall); }
+.pop input { width: 100%; accent-color: var(--link); }
+.spin .refresh-glyph { display: inline-block; animation: spin .9s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* ---------- stat tiles ---------- */
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 20px 0; }
-.stat {
-  background: var(--surface-1); border: 1px solid var(--border); border-radius: 14px;
-  padding: 14px 16px; box-shadow: var(--card-shadow);
-}
-.stat .label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-.stat .value { font-size: 1.7rem; font-weight: 700; letter-spacing: -0.02em; margin-top: 2px; }
-.stat .sub { font-size: 0.8rem; color: var(--ink-2); }
+.intro { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--g); padding-block: 30px 22px; align-items: end; }
+h1 { font-weight: 900; font-size: clamp(1.9rem, 3.6vw, 2.75rem); line-height: 1.05; letter-spacing: -.03em; text-wrap: balance; }
+.intro p { margin-top: 8px; color: var(--soft); }
+.spotlight { grid-column: 2 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--g); align-self: stretch; }
+.spot { display: flex; flex-direction: column; justify-content: flex-end; min-width: 0; padding: 0 0 12px; border: 0; border-bottom: 3px solid var(--ink); background: none; text-align: left; }
+.spot .label, .spot .sub { color: var(--soft); font-size: .9rem; }
+.spot .sub { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+.spot strong { font-size: 1.2rem; font-weight: 800; overflow-wrap: anywhere; }
+.spot:hover strong { color: var(--link); }
 
-/* ---------- controls ---------- */
-.controls {
-  background: var(--surface-1); border: 1px solid var(--border); border-radius: 16px;
-  padding: 14px 16px; box-shadow: var(--card-shadow);
-  display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: flex-end;
-  position: sticky; top: 10px; z-index: 30;
-}
-.ctl { display: flex; flex-direction: column; gap: 4px; }
-.ctl label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-.ctl select, .ctl input[type="search"], .ctl input[type="password"] {
-  background: var(--page); color: var(--ink-1); border: 1px solid var(--border);
-  border-radius: 8px; padding: 7px 10px; font: inherit; font-size: 0.9rem; min-width: 120px;
-}
-.ctl input[type="search"] { min-width: 180px; }
-.ctl input[type="range"] { accent-color: var(--accent); width: 130px; }
-.range-val { font-size: 0.8rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
-.ctl-grow { flex: 1; }
-.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
-.seg button {
-  background: var(--page); color: var(--ink-2); border: none; padding: 7px 12px; font-size: 0.85rem;
-}
-.seg button + button { border-left: 1px solid var(--border); }
-.seg button.active { background: var(--accent); color: #fff; }
+.tabs { display: flex; gap: 24px; overflow-x: auto; border-bottom: 1px solid var(--line); scroll-margin-top: 90px; }
+.tab { flex: none; padding: 8px 0; border: 0; border-bottom: 4px solid transparent; background: none; color: var(--soft); font-weight: 700; }
+.tab.active { color: var(--ink); border-color: var(--sign); }
+.tab .count { font: 700 .82rem var(--mono); }
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding-block: 14px 18px; }
+.filters input[type="search"] { flex: 0 1 200px; min-width: 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--ticket); }
+.filters select, .filters summary { max-width: 100%; padding: 8px 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--ticket); font-weight: 600; }
+.seg { display: inline-flex; margin-left: auto; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; background: var(--ticket); }
+.seg button { padding: 8px 12px; border: 0; background: none; color: var(--soft); font-weight: 600; }
+.seg button.active { background: var(--ink); color: var(--hall); }
+.error-box { margin-bottom: 16px; padding: 12px 16px; border: 2px solid var(--warn); border-radius: 6px; background: var(--ticket); }
 
-/* ---------- tabs ---------- */
-.tabs { display: flex; gap: 8px; margin: 22px 0 14px; flex-wrap: wrap; }
-.tab {
-  background: var(--surface-1); border: 1px solid var(--border); border-radius: 999px;
-  padding: 8px 16px; font-size: 0.92rem; color: var(--ink-2);
-  transition: transform .15s ease, box-shadow .15s ease;
-  display: inline-flex; align-items: center; gap: 7px;
-}
-.tab:hover { transform: translateY(-1px); box-shadow: var(--card-shadow); }
-.tab.active { border-color: var(--accent); color: var(--ink-1); box-shadow: inset 0 0 0 1px var(--accent); }
-.tab .count {
-  background: var(--page); border: 1px solid var(--border); border-radius: 999px;
-  font-size: 0.72rem; padding: 1px 8px; font-variant-numeric: tabular-nums;
-}
-.tab.active .count { background: var(--accent); border-color: var(--accent); color: #fff; }
-
-/* ---------- grid & cards ---------- */
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
-.grid.list-view { grid-template-columns: 1fr; }
-.card {
-  background: var(--surface-1); border: 1px solid var(--border); border-radius: 16px;
-  padding: 16px; box-shadow: var(--card-shadow);
-  display: flex; flex-direction: column; gap: 10px;
-  transition: transform .18s ease, box-shadow .18s ease;
-  animation: pop-in .35s ease backwards;
-  position: relative;
-}
-.card:hover { transform: translateY(-3px); box-shadow: var(--card-shadow-hover); }
-.card { cursor: pointer; }
-@keyframes pop-in { from { opacity: 0; transform: translateY(10px) scale(0.98); } }
-.card-top { display: flex; align-items: center; gap: 10px; }
-.card-top img { width: 36px; height: 36px; border-radius: 9px; border: 1px solid var(--border); }
-.repo-name { font-weight: 650; font-size: 1rem; line-height: 1.25; word-break: break-word; }
-.repo-owner { font-size: 0.78rem; color: var(--muted); }
-.bookmark-btn {
-  margin-left: auto; background: none; border: none; font-size: 1.15rem; line-height: 1;
-  color: var(--muted); padding: 2px; flex-shrink: 0;
-}
-.bookmark-btn.active { color: var(--accent); }
-.bookmark-btn:hover { color: var(--accent); }
-.hist { display: flex; align-items: center; gap: 6px; font-size: 0.75rem; color: var(--ink-2); }
-.hist .spark { display: block; flex-shrink: 0; }
-.badges { display: flex; gap: 6px; flex-wrap: wrap; position: absolute; top: -9px; right: 12px; }
-.badge {
-  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.03em;
-  border-radius: 999px; padding: 3px 9px; color: #fff;
-  box-shadow: var(--card-shadow);
-}
-.badge.trend { background: var(--hot); }
-.badge.gem { background: var(--gem); }
-.badge.new { background: var(--accent); }
-.badge.grow { background: var(--grow); color: #073; color: #fff; }
-.desc {
-  color: var(--ink-2); font-size: 0.88rem;
-  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-  min-height: 2.6em;
-}
-.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.82rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
-.meta .lang-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; border: 1px solid var(--border); }
-.velocity { display: flex; align-items: center; gap: 10px; }
-.velocity .bar-track {
-  flex: 1; height: 8px; border-radius: 4px; background: var(--grid); overflow: hidden;
-}
-.velocity .bar-fill {
-  height: 100%; border-radius: 4px;
-  background: linear-gradient(90deg, var(--seq-250), var(--seq-450), var(--seq-650));
-  width: 0; transition: width .8s cubic-bezier(.2,.8,.2,1);
-}
-.velocity .v-label { font-size: 0.78rem; color: var(--ink-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
-.score-row { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--grid); padding-top: 9px; }
-.score-pill {
-  font-size: 0.8rem; font-weight: 700; font-variant-numeric: tabular-nums;
-  background: var(--accent-soft); color: var(--ink-1);
-  border-radius: 999px; padding: 3px 11px;
-}
-.age { font-size: 0.78rem; color: var(--muted); }
-
-/* ---------- table view ---------- */
-.table-wrap { overflow-x: auto; background: var(--surface-1); border: 1px solid var(--border); border-radius: 16px; box-shadow: var(--card-shadow); }
-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 760px; }
-th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--grid); }
-th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); position: sticky; top: 0; background: var(--surface-1); cursor: pointer; user-select: none; }
-td { font-variant-numeric: tabular-nums; }
-tr[data-id] { cursor: pointer; }
-tr:hover td { background: var(--page); }
-
-/* ---------- states ---------- */
-.state { text-align: center; padding: 60px 20px; color: var(--ink-2); }
-.state .big { font-size: 2.4rem; }
-.loader { display: inline-block; width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--grid); border-top-color: var(--accent); animation: spin .8s linear infinite; }
-.error-box {
-  background: var(--surface-1); border: 1px solid var(--hot); border-radius: 12px;
-  padding: 14px 16px; margin: 16px 0; color: var(--ink-2); font-size: 0.9rem;
+.hall { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--g); align-items: start; }
+.feed { grid-column: 1 / -1; min-width: 0; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--g); }
+/* The preview takes exactly the third column, so cards and ads keep their width. */
+@media (min-width: 1001px) {
+  .hall:has(.pane[open]) .feed { grid-column: 1 / 3; }
+  .hall:has(.pane[open]) .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .feed .grid.list-view { grid-template-columns: minmax(0, 1fr); width: calc((100% - 2 * var(--g)) * 2 / 3 + var(--g)); }
+  .hall:has(.pane[open]) .feed .grid.list-view { grid-template-columns: minmax(0, 1fr); width: 100%; }
 }
 
-/* ---------- token dialog ---------- */
-dialog {
-  background: var(--surface-1); color: var(--ink-1); border: 1px solid var(--border);
-  border-radius: 16px; padding: 24px; max-width: 440px; box-shadow: var(--card-shadow-hover);
-  margin: auto; /* the global `* { margin: 0 }` reset would otherwise defeat dialog:modal's auto-centering */
-}
-dialog::backdrop { background: rgba(0,0,0,0.45); }
-dialog h3 { margin-bottom: 8px; }
-dialog p { font-size: 0.88rem; color: var(--ink-2); margin-bottom: 12px; }
-dialog input { width: 100%; margin-bottom: 12px; background: var(--page); color: var(--ink-1); border: 1px solid var(--border); border-radius: 8px; padding: 9px 10px; font: inherit; }
-dialog .row { display: flex; gap: 8px; justify-content: flex-end; }
-.btn-primary { background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 8px 16px; }
-.btn-ghost { background: transparent; color: var(--ink-2); border: 1px solid var(--border); border-radius: 8px; padding: 8px 16px; }
-.btn-primary:hover, .btn-ghost:hover { filter: brightness(1.08); }
+.card { position: relative; display: grid; grid-template-rows: 1fr auto; min-height: 250px; border-radius: 8px; background: var(--ticket); cursor: pointer; scroll-margin: 90px 0 20px; }
+.card.on { box-shadow: 0 0 0 3px var(--sign); }
+.card-main { display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 18px 18px 14px; }
+.repo-name { padding: 0 44px 0 0; border: 0; background: none; text-align: left; font-weight: 800; font-size: 1.15rem; line-height: 1.2; overflow-wrap: anywhere; }
+.card:hover .repo-name { color: var(--link); }
+.repo-owner { color: var(--soft); font-size: .88rem; overflow-wrap: anywhere; }
+.card .desc { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
+.topics { display: flex; flex-wrap: wrap; gap: 6px; }
+.card .topics { margin-top: auto; }
+.chip { max-width: 100%; padding: 1px 8px; border: 1px solid var(--line); border-radius: 4px; background: none; color: var(--soft); font-size: .82rem; overflow-wrap: anywhere; }
+.chip:hover { border-color: var(--link); color: var(--link); }
+.chip.active { border-color: var(--sign); background: var(--sign); color: var(--sign-ink); }
+.lang-dot { display: inline-block; width: 9px; height: 9px; margin-right: 5px; border-radius: 50%; }
+.card .bookmark-btn { position: absolute; top: 12px; right: 12px; display: grid; place-items: center; width: 36px; height: 36px; }
+.bookmark-btn { padding: 4px; border: 0; border-radius: 4px; background: none; }
+.bookmark-btn svg { width: 20px; height: 20px; fill: none; stroke: var(--soft); stroke-width: 2; }
+.bookmark-btn.active svg { fill: var(--sign); stroke: var(--ink); }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.badge { align-self: flex-start; padding: 2px 7px; border: 1px solid var(--line); border-radius: 3px; font-size: .78rem; font-weight: 700; }
+.badge.fresh { border-color: var(--sign); background: var(--sign); color: var(--sign-ink); }
+.gain { color: var(--up); font-size: .85rem; font-weight: 700; }
+/* perforation: dashed tear line between two punched notches */
+.stub { position: relative; display: flex; align-items: center; gap: 14px; padding: 12px 18px; border-top: 2px dashed var(--line); }
+.stub::before, .stub::after { content: ""; position: absolute; top: -9px; width: 16px; height: 16px; border-radius: 50%; background: var(--hall); }
+.stub::before { left: -8px; }
+.stub::after { right: -8px; }
+.stub b { display: block; font: 700 1.3rem/1.1 var(--mono); white-space: nowrap; }
+.stub b.up { color: var(--up); }
+.stub small { display: block; color: var(--soft); font-size: .78rem; }
+.stub .spark { flex: 0 1 90px; min-width: 40px; margin-left: auto; }
+.spark { display: block; overflow: visible; }
 
-/* ---------- preview dialog ---------- */
-#previewDialog { max-width: 480px; width: min(480px, 92vw); max-height: 88vh; overflow-y: auto; }
-#previewDialog::backdrop { background: rgba(0,0,0,0.45); }
-.preview-wrap { position: relative; }
-.preview-banner {
-  display: block; width: calc(100% + 48px); aspect-ratio: 1200 / 630; object-fit: cover;
-  margin: -24px -24px 14px; border-radius: 16px 16px 0 0; background: var(--page);
-}
-.preview-close {
-  position: absolute; top: 14px; right: 14px; width: 30px; height: 30px;
-  display: flex; align-items: center; justify-content: center;
-  background: rgba(0,0,0,0.45); color: #fff; border: none; border-radius: 50%;
-  font-size: 1rem; line-height: 1; padding: 0;
-}
-.preview-close:hover { background: rgba(0,0,0,0.65); }
-.preview-top { display: flex; align-items: center; gap: 12px; }
-.preview-top img { width: 52px; height: 52px; border-radius: 12px; border: 1px solid var(--border); flex-shrink: 0; }
-.preview-name a { font-size: 1.1rem; font-weight: 700; color: var(--ink-1); word-break: break-word; }
-.preview-name a:hover { text-decoration: underline; }
-#previewBody .badges { position: static; margin-top: 4px; }
-#previewBody .desc { -webkit-line-clamp: unset; overflow: visible; min-height: 0; margin: 14px 0; }
-#previewBody .meta { margin-bottom: 12px; }
-#previewBody .velocity { margin-bottom: 12px; }
-#previewBody .hist { margin-bottom: 14px; }
-.topics { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
-.topic-pill {
-  background: var(--page); border: 1px solid var(--border); border-radius: 999px;
-  padding: 3px 10px; font-size: 0.76rem; color: var(--ink-2);
-}
-.preview-actions { justify-content: space-between; border-top: 1px solid var(--grid); padding-top: 14px; margin-top: 4px; }
-
-.readme-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 0 0 6px; }
-.readme {
-  border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; margin-bottom: 14px;
-  max-height: 260px; overflow-y: auto; font-size: 0.85rem; color: var(--ink-2); background: var(--page);
-}
-.readme h1, .readme h2, .readme h3, .readme h4 { color: var(--ink-1); margin: 10px 0 4px; line-height: 1.3; }
-.readme h1 { font-size: 1.05rem; }
-.readme h2 { font-size: 1rem; }
-.readme h3, .readme h4 { font-size: 0.92rem; }
-.readme p { margin: 0 0 8px; }
-.readme ul, .readme ol { margin: 0 0 8px 18px; }
-.readme li { margin-bottom: 2px; }
-.readme code { background: var(--surface-1); border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; font-size: 0.82em; }
-.readme pre { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; overflow-x: auto; margin: 0 0 8px; }
-.readme pre code { border: none; padding: 0; background: none; }
-.readme a { color: var(--accent); }
-.readme-empty { color: var(--muted); font-style: italic; }
-.readme-more { display: inline-block; margin-top: 2px; font-size: 0.82rem; }
-
-footer { margin-top: 48px; color: var(--muted); font-size: 0.8rem; text-align: center; }
-footer a { color: var(--ink-2); }
-
-@media (max-width: 640px) {
-  .controls { position: static; }
-  .brand h1 { font-size: 1.5rem; }
-}
-
-/* daily spotlight, similar repos, saved gains */
-.spotlight { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 12px; margin: 0 0 20px; }
-.spot, .similar button {
-  text-align: left; color: var(--ink-1); background: var(--surface-1);
-  border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; min-width: 0;
-}
-.spot:hover, .similar button:hover { border-color: var(--accent); }
-.spot .label { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-.spot strong, .similar strong { display: block; overflow-wrap: anywhere; }
-.spot .sub, .similar .sub {
-  font-size: 0.8rem; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-}
-.similar { display: grid; gap: 8px; margin: 0 0 14px; }
-.gain { font-size: 0.78rem; font-weight: 600; color: var(--good); }
-.preview-actions { flex-wrap: wrap; }
-
-/* chips, paging, preview navigation */
-.chip {
-  background: none; border: 1px solid var(--border); border-radius: 999px;
-  padding: 2px 9px; font-size: 0.76rem; line-height: 1.5; color: var(--ink-2);
-}
-.chip:hover, .chip.active { border-color: var(--accent); color: var(--ink-1); }
-.chip.active { box-shadow: inset 0 0 0 1px var(--accent); }
-.card .topics { margin: 0; }
-.more-wrap { margin-top: 20px; text-align: center; color: var(--muted); font-size: 0.85rem; }
-.more-wrap button { display: block; margin: 0 auto 8px; padding: 10px 24px; }
-.preview-nav {
-  position: sticky; bottom: -24px; display: flex; align-items: center; justify-content: space-between; gap: 10px;
-  margin: 12px -24px -24px; padding: 10px 24px; background: var(--surface-1); border-top: 1px solid var(--grid);
-  color: var(--muted); font-size: 0.82rem; font-variant-numeric: tabular-nums;
-}
-.preview-nav button:disabled { opacity: .4; cursor: default; }
-
-/* in-feed ads: same surface as a repo card, but labelled and without hover lift */
-.grid[hidden] { display: none; }
-.ad-card {
-  background: var(--surface-1); border: 1px solid var(--border); border-radius: 16px;
-  padding: 16px; box-shadow: var(--card-shadow); min-width: 0; min-height: 220px; overflow: hidden;
-}
+/* in-feed ads: plain and labelled, without the ticket stub */
+.ad-card { min-width: 0; min-height: 250px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
 .list-view .ad-card { min-height: 120px; }
-.ad-card[hidden], .ad-card:has(ins[data-ad-status="unfilled"]) { display: none; }
+.ad-card:has(ins[data-ad-status="unfilled"]), .ad-slot:has(ins[data-ad-status="unfilled"]) { display: none; }
+.ad-slot { min-height: 120px; margin: 28px 0; text-align: center; overflow: hidden; }
+.ad-label { display: block; margin-bottom: 4px; color: var(--soft); font-size: .78rem; }
 
-/* ad slots */
-.ad-slot { margin: 28px 0; min-height: 120px; text-align: center; overflow: hidden; }
-.ad-slot[hidden], .ad-slot:has(ins[data-ad-status="unfilled"]) { display: none; }
-.ad-label { display: block; margin-bottom: 4px; font-size: 0.7rem; color: var(--muted); }
+.more-wrap { margin-top: 26px; text-align: center; color: var(--soft); font-size: .88rem; }
+.more-wrap button { display: block; margin: 0 auto 8px; padding: 12px 28px; border: 0; border-radius: 4px; background: var(--ink); color: var(--hall); font-weight: 700; }
+.state { padding: 50px 0; color: var(--soft); }
+.table-wrap { overflow-x: auto; border-radius: 8px; background: var(--ticket); }
+table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; }
+td { font-variant-numeric: tabular-nums; }
+th { color: var(--soft); white-space: nowrap; cursor: pointer; }
+tr[data-id] { cursor: pointer; scroll-margin: 90px 0 20px; }
+tr.on { background: var(--up-fill); }
+
+/* preview: third column on wide screens, full screen below */
+.pane { position: sticky; top: 84px; inset-inline: auto; width: auto; max-width: none; height: calc(100vh - 104px); max-height: none; margin: 0; padding: 0; border: 0; border-radius: 8px; background: var(--ticket); color: var(--ink); overflow: hidden; }
+.pane[open] { display: flex; flex-direction: column; min-width: 0; }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 18px; border-bottom: 1px solid var(--line); }
+.bar.foot { border-top: 2px dashed var(--line); border-bottom: 0; font: 500 .85rem var(--mono); }
+.btn { padding: 7px 14px; border: 1px solid var(--line); border-radius: 4px; background: none; color: var(--ink); font: 700 .9rem var(--face); text-decoration: none; }
+.btn.go { border-color: var(--sign); background: var(--sign); color: var(--sign-ink); }
+.btn:disabled { opacity: .4; cursor: default; }
+#previewBody { flex: 1; display: flex; flex-direction: column; gap: 16px; min-height: 0; padding: 20px 18px; overflow-y: auto; }
+#previewBody > * { flex-shrink: 0; }
+#previewBody h2 { font-weight: 900; font-size: 1.6rem; line-height: 1.1; letter-spacing: -.02em; overflow-wrap: anywhere; }
+#previewBody > h3 { margin-bottom: -8px; font-size: .95rem; font-weight: 800; }
+#previewOwner { color: var(--soft); overflow-wrap: anywhere; }
+.acts, .meta { display: flex; flex-wrap: wrap; gap: 8px 14px; }
+.acts { gap: 8px; }
+.meta { color: var(--soft); font-size: .88rem; }
+.facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.facts b { display: block; font: 700 1.15rem var(--mono); }
+.facts span { color: var(--soft); font-size: .84rem; }
+.axis { display: flex; justify-content: space-between; margin-top: 6px; color: var(--soft); font: 500 .75rem var(--mono); }
+.similar button { display: flex; justify-content: space-between; gap: 12px; width: 100%; padding: 10px 0; border: 0; border-top: 1px solid var(--line); background: none; text-align: left; }
+.similar strong { overflow-wrap: anywhere; }
+.similar button:hover strong { color: var(--link); }
+.similar span { color: var(--up); font-family: var(--mono); white-space: nowrap; }
+.readme { min-width: 0; font-size: .92rem; overflow-wrap: anywhere; }
+.readme > * + * { margin-top: 8px; }
+.readme h1, .readme h2, .readme h3, .readme h4, #previewBody .readme h2 { font-size: 1rem; font-weight: 800; line-height: 1.3; letter-spacing: 0; }
+.readme ul, .readme ol { padding-left: 20px; }
+.readme pre { max-width: 100%; padding: 10px; border-radius: 4px; background: var(--hall); overflow-x: auto; overflow-wrap: normal; }
+.readme code { font-family: var(--mono); font-size: .86em; }
+.readme img { max-width: 100%; }
+.readme-empty { color: var(--soft); }
+
+#tokenDialog { width: min(440px, 92vw); padding: 24px; border: 0; border-radius: 8px; background: var(--ticket); color: var(--ink); }
+dialog::backdrop { background: rgb(10 20 40 / .5); }
+#tokenDialog p { margin: 8px 0 14px; font-size: .92rem; color: var(--soft); }
+#tokenDialog input { width: 100%; padding: 9px 10px; border: 1px solid var(--line); border-radius: 4px; background: var(--hall); }
+#tokenDialog .row { display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px; }
+
+.about { max-width: 70ch; margin-top: 56px; color: var(--soft); }
+.about h2 { margin-bottom: 8px; color: var(--ink); font-size: 1.2rem; font-weight: 800; }
+.about p + p { margin-top: 10px; }
+.foot-links { margin-top: 40px; padding-block: 22px 40px; border-top: 1px solid var(--line); color: var(--soft); font-size: .88rem; }
+
+@media (max-width: 1000px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid.list-view { grid-template-columns: minmax(0, 1fr); }
+  .intro { grid-template-columns: minmax(0, 1fr); }
+  .spotlight { grid-column: auto; }
+  .pane { position: fixed; inset: 0; z-index: 50; width: 100%; height: 100%; border-radius: 0; padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px); }
+  body:has(.pane[open]) { overflow: hidden; }
+}
+@media (max-width: 640px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .intro { padding-top: 20px; }
+  .landed { order: 3; flex-basis: 100%; }
+  .filters input[type="search"] { flex: 1 1 100%; }
+  .sign .logo { margin-right: auto; }
+  .card { min-height: 0; }
+  .ad-card { min-height: 160px; }
+  .seg { margin-left: 0; }
+}
+@media (max-width: 480px) { .spotlight { grid-template-columns: minmax(0, 1fr); } }
+@media (prefers-reduced-motion: no-preference) {
+  .card { transition: transform .15s; }
+  .card:hover { transform: translateY(-2px); }
+}
 </style>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4743008845908654"
      crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="wrap">
+<header class="sign"><div class="in">
+  <a class="logo" href="./"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="4" fill="#15233b"/><path d="M10 9v14h14M10 23 24 9" fill="none" stroke="#ffc72c" stroke-width="4"/></svg>Just Arrived</a>
+  <div class="landed" id="landed" hidden>
+    <span class="landed-label">Just landed</span>
+    <button type="button" class="landed-repo" id="landedRepo"></button>
+    <button type="button" class="landed-next" id="landedNext" aria-label="Next new repo">›</button>
+  </div>
+  <nav aria-label="Site">
+    <a href="digest/index.html">Digest</a>
+    <details id="menu"><summary>Menu</summary><div class="pop">
+      <button type="button" id="themeBtn">Light or dark theme</button>
+      <button type="button" id="refreshBtn"><span class="refresh-glyph">↻</span> Refresh data</button>
+      <button type="button" id="autoBtn" title="Refresh every 5 minutes">▶ Auto</button>
+      <button type="button" id="shuffleBtn">Surprise me</button>
+      <button type="button" id="tokenBtn">GitHub token</button>
+    </div></details>
+  </nav>
+</div></header>
 
-<header>
-  <div class="brand">
-    <h1><span class="rocket">🚀</span> Just Arrived</h1>
-    <p>Brand-new GitHub repositories, ranked by growth velocity — catch them <em>before</em> they hit Trending. Live data from the GitHub Search API.</p>
+<div class="in">
+<section class="intro">
+  <div>
+    <h1>New on GitHub, before it trends.</h1>
+    <p><span id="stTotal"></span> <span id="dataAsOf"></span></p>
   </div>
-  <div class="header-actions">
-    <a class="icon-btn" href="digest/index.html" title="Top new repos, week by week">🗞 Weekly digest</a>
-    <button class="icon-btn" id="themeBtn" title="Toggle light / dark">🌗 Theme</button>
-    <button class="icon-btn" id="tokenBtn" title="Add a GitHub token for higher rate limits">🔑 Token</button>
-    <button class="icon-btn" id="refreshBtn" title="Refresh data"><span class="refresh-glyph">↻</span> Refresh</button>
-  </div>
-</header>
-
-<div class="stats" id="stats" hidden>
-  <div class="stat"><div class="label">Repos discovered</div><div class="value" id="stTotal">–</div><div class="sub" id="stWindow"></div></div>
-  <div class="stat"><div class="label">Fastest riser</div><div class="value" id="stFastest">–</div><div class="sub" id="stFastestSub"></div></div>
-  <div class="stat"><div class="label">Median ★ / day</div><div class="value" id="stMedian">–</div><div class="sub">across current results</div></div>
-  <div class="stat"><div class="label">Top language</div><div class="value" id="stLang">–</div><div class="sub" id="stLangSub"></div></div>
-</div>
-
-<div class="spotlight" id="spotlight" hidden></div>
-
-<!-- AdSense "top banner": paste the unit's ID into data-ad-slot; hidden while empty -->
-<aside class="ad-slot" aria-label="Advertisement" hidden>
-  <span class="ad-label">Advertisement</span>
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4743008845908654" data-ad-slot="" data-ad-format="auto" data-full-width-responsive="true"></ins>
-</aside>
-
-<div class="controls">
-  <div class="ctl">
-    <label for="ageSel">Created within</label>
-    <select id="ageSel">
-      <option value="7">7 days</option>
-      <option value="14" selected>14 days</option>
-      <option value="30">30 days</option>
-      <option value="90">90 days</option>
-    </select>
-  </div>
-  <div class="ctl">
-    <label for="langSel">Language</label>
-    <select id="langSel"><option value="">All languages</option></select>
-  </div>
-  <div class="ctl">
-    <label for="minStars">Min stars <span class="range-val" id="minStarsVal">50</span></label>
-    <input type="range" id="minStars" min="0" max="500" step="10" value="50">
-  </div>
-  <div class="ctl">
-    <label for="sortSel">Sort by</label>
-    <select id="sortSel">
-      <option value="score" selected>Trend score</option>
-      <option value="velocity">★ per day</option>
-      <option value="stars">Total stars</option>
-      <option value="forks">Forks</option>
-      <option value="newest">Newest</option>
-    </select>
-  </div>
-  <div class="ctl ctl-grow">
-    <label for="searchBox">Search</label>
-    <input type="search" id="searchBox" placeholder="name, description, topic…">
-  </div>
-  <div class="ctl">
-    <label>View</label>
-    <span class="seg" id="viewSeg">
-      <button data-view="grid" class="active" title="Card grid">▦ Cards</button>
-      <button data-view="list" title="Single column">☰ List</button>
-      <button data-view="table" title="Accessible data table">⊞ Table</button>
-    </span>
-  </div>
-  <div class="ctl">
-    <label>Play</label>
-    <span class="seg">
-      <button id="shuffleBtn" title="Show me something random">🎲 Surprise</button>
-      <button id="autoBtn" title="Auto-refresh every 5 minutes">▶ Auto</button>
-    </span>
-  </div>
-</div>
+  <div class="spotlight" id="spotlight" hidden></div>
+</section>
 
 <div class="tabs" id="tabs">
-  <button class="tab active" data-tab="all">🗂 All <span class="count">0</span></button>
-  <button class="tab" data-tab="fresh" hidden>✨ Since last visit <span class="count">0</span></button>
-  <button class="tab" data-tab="new">🚀 New this week <span class="count">0</span></button>
-  <button class="tab" data-tab="growing">📈 Fastest growing <span class="count">0</span></button>
-  <button class="tab" data-tab="gems">💎 Hidden gems <span class="count">0</span></button>
-  <button class="tab" data-tab="trend">🔥 About to trend <span class="count">0</span></button>
-  <button class="tab" data-tab="saved">💾 Saved <span class="count">0</span></button>
+  <button class="tab active" data-tab="all">All <span class="count">0</span></button>
+  <button class="tab" data-tab="fresh" hidden>Since last visit <span class="count">0</span></button>
+  <button class="tab" data-tab="trend">Trending <span class="count">0</span></button>
+  <button class="tab" data-tab="gems">Hidden gems <span class="count">0</span></button>
+  <button class="tab" data-tab="saved">Saved <span class="count">0</span></button>
 </div>
 
-<noscript>
-  <p style="max-width:760px;margin:16px auto;padding:16px;border:1px solid #c3c2b7;border-radius:8px;">
-    Just Arrived needs JavaScript to fetch live results from the GitHub Search API.
-    It surfaces brand-new, fast-growing GitHub repositories before they hit GitHub Trending —
-    grouped into New this week, Fastest growing, Hidden gems, and About to trend — ranked by a
-    stars/day and forks/day growth-velocity score. Please enable JavaScript to use the dashboard.
-  </p>
-</noscript>
+<div class="filters">
+  <select id="ageSel" aria-label="Created within">
+    <option value="7">Last 7 days</option>
+    <option value="14" selected>Last 14 days</option>
+    <option value="30">Last 30 days</option>
+    <option value="90">Last 90 days</option>
+  </select>
+  <select id="langSel" aria-label="Language"><option value="">All languages</option></select>
+  <select id="sortSel" aria-label="Sort by">
+    <option value="score" selected>Trend score</option>
+    <option value="velocity">Fastest growing</option>
+    <option value="stars">Most stars</option>
+    <option value="forks">Most forks</option>
+    <option value="newest">Newest</option>
+  </select>
+  <input type="search" id="searchBox" placeholder="Search or topic:name" aria-label="Search repos and topics">
+  <details id="moreFilters"><summary>More filters</summary><div class="pop">
+    <label for="minStars">Minimum stars: <b id="minStarsVal">50</b></label>
+    <input type="range" id="minStars" min="0" max="500" step="10" value="50">
+  </div></details>
+  <span class="seg" id="viewSeg" role="group" aria-label="View">
+    <button data-view="grid" class="active">Cards</button>
+    <button data-view="list">List</button>
+    <button data-view="table">Table</button>
+  </span>
+</div>
 
-<div id="errorBox" class="error-box" hidden></div>
-<div id="content"><div id="plainView"><div class="state"><span class="loader"></span><p style="margin-top:12px">Scanning GitHub for fresh arrivals…</p></div></div><div id="cardGrid" class="grid" hidden></div></div>
-<div id="moreWrap" class="more-wrap" hidden><button class="btn-primary" id="moreBtn">Show more</button><span id="moreInfo" aria-live="polite"></span></div>
+<noscript><p class="state">Just Arrived needs JavaScript to list repositories. The <a href="digest/index.html">weekly digests</a> work without it.</p></noscript>
+
+<div id="errorBox" class="error-box" role="alert" hidden></div>
+<main class="hall" id="hall">
+  <div class="feed">
+    <div id="content"><div id="plainView"><p class="state">Loading new arrivals…</p></div><div id="cardGrid" class="grid" hidden></div></div>
+    <div id="moreWrap" class="more-wrap" hidden><button id="moreBtn">Show more</button><span id="moreInfo" aria-live="polite"></span></div>
+  </div>
+  <dialog class="pane" id="previewDialog" aria-label="Repo preview">
+    <div class="bar"><span id="previewOwner"></span><button class="btn" id="previewClose">Close</button></div>
+    <div id="previewBody"></div>
+    <div class="bar foot">
+      <button class="btn" id="previewPrev">Previous</button>
+      <span id="previewPos" aria-live="polite"></span>
+      <button class="btn" id="previewNext">Next</button>
+    </div>
+  </dialog>
+</main>
 
 <!-- AdSense "after results": paste the unit's ID into data-ad-slot; hidden while empty -->
 <aside class="ad-slot" aria-label="Advertisement" hidden>
@@ -514,8 +325,8 @@ footer a { color: var(--ink-2); }
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4743008845908654" data-ad-slot="" data-ad-format="auto" data-full-width-responsive="true"></ins>
 </aside>
 
-<section style="max-width:860px;margin:40px auto 0;color:var(--ink-2);font-size:0.95rem;line-height:1.7">
-  <h2 style="font-size:1.1rem;color:var(--ink-1);margin-bottom:8px">About Just Arrived</h2>
+<section class="about">
+  <h2>About Just Arrived</h2>
   <p>
     <strong>Just Arrived</strong> is a free GitHub Trending alternative that catches rising repositories
     earlier — while they're still gaining momentum, not after they've already peaked. It scans the
@@ -530,11 +341,10 @@ footer a { color: var(--ink-2); }
   </p>
 </section>
 
-<footer>
-  Data: <a href="https://docs.github.com/en/rest/search" target="_blank" rel="noopener">GitHub Search API</a>,
-  auto-refreshed every ~30 min <span id="dataAsOf"></span> ·
-  score = ★/day × 0.5 + forks/day × 0.2 + push-freshness × 0.2 + community × 0.1 ·
-  <a href="feed.xml">📡 RSS feed</a> ·
+<footer class="foot-links">
+  Data from the <a href="https://docs.github.com/en/rest/search" target="_blank" rel="noopener">GitHub Search API</a>, refreshed about every 30 minutes ·
+  score = stars a day × 0.5 + forks a day × 0.2 + push freshness × 0.2 + community × 0.1 ·
+  <a href="feed.xml">RSS feed</a> ·
   <a href="digest/index.html">Weekly digests</a> ·
   <a href="privacy.html">Privacy policy</a> ·
   built with Claude Code
@@ -542,27 +352,15 @@ footer a { color: var(--ink-2); }
 </div>
 
 <dialog id="tokenDialog">
-  <h3>🔑 GitHub token (optional)</h3>
+  <h3>GitHub token (optional)</h3>
   <p>Without a token the GitHub Search API allows 10 requests/min. Paste a
   <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">fine-grained personal access token</a>
   (no scopes needed — public read only) to raise the limit to 30/min. It is stored only in your browser's localStorage.</p>
   <input type="password" id="tokenInput" placeholder="github_pat_…" autocomplete="off">
   <div class="row">
-    <button class="btn-ghost" id="tokenClear">Clear</button>
-    <button class="btn-ghost" id="tokenCancel">Cancel</button>
-    <button class="btn-primary" id="tokenSave">Save</button>
-  </div>
-</dialog>
-
-<dialog id="previewDialog">
-  <div class="preview-wrap">
-    <button class="preview-close" id="previewClose" aria-label="Close preview">✕</button>
-    <div id="previewBody"></div>
-    <div class="preview-nav">
-      <button class="btn-ghost" id="previewPrev">← Previous</button>
-      <span id="previewPos" aria-live="polite"></span>
-      <button class="btn-ghost" id="previewNext">Next →</button>
-    </div>
+    <button class="btn" id="tokenClear">Clear</button>
+    <button class="btn" id="tokenCancel">Cancel</button>
+    <button class="btn go" id="tokenSave">Save</button>
   </div>
 </dialog>
 
@@ -835,7 +633,7 @@ function setDataAsOf(iso) {
   if (!iso) { el.textContent = ""; return; }
   const mins = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
   const age = mins < 1 ? "just now" : mins === 1 ? "1 min ago" : mins + " min ago";
-  el.textContent = "· data as of " + age;
+  el.textContent = "· updated " + age;
 }
 
 async function fetchData(force) {
@@ -894,7 +692,7 @@ async function fetchData(force) {
     $("#errorBox").textContent = "⚠ " + err.message;
     $("#errorBox").hidden = false;
     if (!state.repos.length) showPlain(
-      '<div class="state"><div class="big">🛰️</div><p>Nothing loaded yet — see the message above.</p></div>');
+      '<div class="state"><p>Nothing loaded yet — see the message above.</p></div>');
   } finally {
     btn.classList.remove("spin");
   }
@@ -921,15 +719,15 @@ function applyCommonFilters(list) {
   return rs;
 }
 
+const isTrending = (r) => r.aboutToTrend || r.starsPerDay >= 15;
+
 function currentSet() {
   const source = state.tab === "saved" ? savedRepos() : state.repos;
   let rs = applyCommonFilters(source);
   switch (state.tab) {
     case "fresh":   rs = rs.filter(isFresh); break;
-    case "new":     rs = rs.filter((r) => r.isNew); break;
-    case "growing": rs = rs.filter((r) => r.starsPerDay >= 15); break;
     case "gems":    rs = rs.filter((r) => r.hiddenGem); break;
-    case "trend":   rs = rs.filter((r) => r.aboutToTrend); break;
+    case "trend":   rs = rs.filter(isTrending); break;
   }
   const cmp = {
     score:    (a, b) => b.score - a.score,
@@ -947,15 +745,14 @@ function tabCounts() {
   return {
     all: base.length,
     fresh: base.filter(isFresh).length,
-    new: base.filter((r) => r.isNew).length,
-    growing: base.filter((r) => r.starsPerDay >= 15).length,
     gems: base.filter((r) => r.hiddenGem).length,
-    trend: base.filter((r) => r.aboutToTrend).length,
+    trend: base.filter(isTrending).length,
     saved: savedBase.length,
   };
 }
 
 /* ============ rendering ============ */
+const num = (n) => Math.round(n).toLocaleString("en-US");
 const fmt = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(Math.round(n));
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const agoStr = (d) => d < 1 ? "today" : d < 2 ? "1 day old" : Math.round(d) + " days old";
@@ -987,33 +784,23 @@ function loadHistory() {
   return historyPromise;
 }
 
-function sparklineHTML(hist) {
+function sparklineHTML(hist, w = 90, h = 36) {
   if (!hist || hist.length < 2) return "";
   const vals = hist.map((p) => p.s);
-  const min = Math.min(...vals), max = Math.max(...vals);
-  const w = 64, h = 20, pad = 2, range = Math.max(1, max - min);
-  const pts = hist.map((p, i) => {
-    const x = pad + (i / (hist.length - 1)) * (w - pad * 2);
-    const y = h - pad - ((p.s - min) / range) * (h - pad * 2);
-    return x.toFixed(1) + "," + y.toFixed(1);
-  }).join(" ");
-  const delta = vals[vals.length - 1] - vals[0];
-  const color = delta >= 0 ? "var(--grow)" : "var(--muted)";
-  const svg = `<svg class="spark" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-hidden="true">
-    <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>`;
-  return `<div class="hist" title="${delta >= 0 ? "+" : ""}${delta} ★ over the last ${hist.length} days">
-    ${svg}<span>${delta >= 0 ? "+" : ""}${fmt(delta)} / ${hist.length}d</span>
-  </div>`;
+  const min = Math.min(...vals), range = Math.max(1, Math.max(...vals) - min);
+  const pts = vals.map((v, i) => [4 + i / (vals.length - 1) * (w - 8), h - 4 - (v - min) / range * (h - 8)]);
+  const line = pts.map(([x, y]) => x.toFixed(1) + "," + y.toFixed(1)).join(" ");
+  const [ex, ey] = pts[pts.length - 1];
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" width="100%" aria-hidden="true"><polygon points="4,${h} ${line} ${ex},${h}" fill="var(--up-fill)"/><polyline points="${line}" fill="none" stroke="var(--up)" stroke-width="2"/><circle cx="${ex}" cy="${ey}" r="3.5" fill="var(--up)"/></svg>`;
 }
 
 function badgesFor(r) {
   const b = [];
-  if (isFresh(r)) b.push('<span class="badge new">✨ new to you</span>');
-  if (r.aboutToTrend) b.push('<span class="badge trend">🔥 about to trend</span>');
-  else if (r.hiddenGem) b.push('<span class="badge gem">💎 hidden gem</span>');
-  else if (r.starsPerDay >= 15) b.push('<span class="badge grow">📈 growing</span>');
-  else if (r.isNew) b.push('<span class="badge new">🚀 new</span>');
+  if (isFresh(r)) b.push('<span class="badge fresh">New to you</span>');
+  if (r.aboutToTrend) b.push('<span class="badge trend">About to trend</span>');
+  else if (r.hiddenGem) b.push('<span class="badge gem">Hidden gem</span>');
+  else if (r.starsPerDay >= 15) b.push('<span class="badge grow">Growing fast</span>');
+  else if (r.isNew) b.push('<span class="badge new">New</span>');
   return b.join("");
 }
 
@@ -1021,51 +808,38 @@ function langChip(lang) {
   if (!lang) return "";
   return `<button class="chip${lang === state.lang ? " active" : ""}" data-lang="${esc(lang)}" aria-pressed="${lang === state.lang}" title="Filter by ${esc(lang)}"><span class="lang-dot" style="background:${LANG_COLORS[lang] || "#8b949e"}"></span>${esc(lang)}</button>`;
 }
-function topicChips(topics, max) {
+function chipsHTML(r, max) {
   const cur = topicQuery();
-  const html = topics.slice(0, max).map((t) =>
+  const html = langChip(r.lang) + r.topics.slice(0, max).map((t) =>
     `<button class="chip${t === cur ? " active" : ""}" data-topic="${esc(t)}" aria-pressed="${t === cur}" title="Filter by topic ${esc(t)}">${esc(t)}</button>`).join("");
   return html ? `<div class="topics">${html}</div>` : "";
 }
-
-function cardHTML(r, i, maxVel) {
-  const pct = Math.max(3, Math.round((r.starsPerDay / maxVel) * 100));
-  const langDot = langChip(r.lang);
+function bookmarkHTML(r) {
   const saved = !!getSavedMap()[r.id];
-  return `<article class="card" data-id="${r.id}" style="animation-delay:${Math.min(i * 30, 400)}ms">
-    <div class="badges">${badgesFor(r)}</div>
-    <div class="card-top">
-      <img src="${r.avatar}" alt="" loading="lazy">
-      <div>
-        <div class="repo-name"><a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a></div>
-        <div class="repo-owner">${esc(r.owner)}</div>
-      </div>
-      <button class="bookmark-btn${saved ? " active" : ""}" data-id="${r.id}" title="${saved ? "Remove from saved" : "Save for later"}">${saved ? "★" : "☆"}</button>
+  return `<button class="bookmark-btn${saved ? " active" : ""}" data-id="${r.id}" aria-pressed="${saved}" aria-label="Save ${esc(r.name)}"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 3h12v18l-6-5-6 5z"/></svg></button>`;
+}
+
+function cardHTML(r) {
+  return `<article class="card" data-id="${r.id}">
+    <div class="card-main">
+      ${isFresh(r) ? '<span class="badge fresh">New to you</span>' : ""}
+      <button class="repo-name" type="button">${esc(r.name)}</button>
+      <div class="repo-owner">${esc(r.owner)}</div>
+      <p class="desc">${esc(r.desc) || "No description."}</p>
+      ${gainHTML(r)}
+      ${chipsHTML(r, 2)}
     </div>
-    <p class="desc">${esc(r.desc) || "<em>No description.</em>"}</p>
-    ${topicChips(r.topics, 3)}
-    <div class="meta">
-      ${langDot}
-      <span title="Stars">★ ${fmt(r.stars)}</span>
-      <span title="Forks">⑂ ${fmt(r.forks)}</span>
-      <span title="Open issues + PRs">◎ ${fmt(r.issues)}</span>
-    </div>
-    <div class="velocity" title="Star velocity relative to the fastest repo in view">
-      <div class="bar-track"><div class="bar-fill" data-w="${pct}"></div></div>
-      <span class="v-label">${r.starsPerDay.toFixed(1)} ★/day</span>
-    </div>
-    ${gainHTML(r)}
-    ${sparklineHTML(state.history[r.id])}
-    <div class="score-row">
-      <span class="score-pill" title="stars/day×0.5 + forks/day×0.2 + push-freshness×0.2 + community×0.1">score ${r.score.toFixed(1)}</span>
-      <span class="age">${agoStr(r.ageDays)}</span>
+    ${bookmarkHTML(r)}
+    <div class="stub">
+      <div><b class="up">+${num(r.starsPerDay)}</b><small>stars a day</small></div>
+      <div><b>${num(r.stars)}</b><small>stars</small></div>
+      ${sparklineHTML(state.history[r.id])}
     </div>
   </article>`;
 }
 
 function tableHTML(rs) {
   const rows = rs.map((r) => {
-    const saved = !!getSavedMap()[r.id];
     return `<tr data-id="${r.id}">
     <td><a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
     <td>${esc(r.lang) || "–"}</td>
@@ -1075,7 +849,7 @@ function tableHTML(rs) {
     <td>${fmt(r.issues)}</td>
     <td>${Math.round(r.ageDays)}d</td>
     <td>${r.score.toFixed(1)}</td>
-    <td><button class="bookmark-btn${saved ? " active" : ""}" data-id="${r.id}" title="${saved ? "Remove from saved" : "Save for later"}">${saved ? "★" : "☆"}</button></td>
+    <td>${bookmarkHTML(r)}</td>
   </tr>`;
   }).join("");
   return `<div class="table-wrap"><table>
@@ -1115,8 +889,8 @@ function similarRepos(r) {
 function similarHTML(r) {
   const list = similarRepos(r);
   if (!list.length) return "";
-  return '<div class="readme-label">Similar repos</div><div class="similar">' + list.map((x) =>
-    `<button data-similar="${x.id}"><strong>${esc(x.fullName)}</strong><span class="sub">★ ${fmt(x.stars)}${x.lang ? " · " + esc(x.lang) : ""} · ${esc(x.desc) || "No description."}</span></button>`
+  return '<h3>Similar repos</h3><div class="similar">' + list.map((x) =>
+    `<button data-similar="${x.id}"><strong>${esc(x.fullName)}</strong><span>+${num(x.starsPerDay)}</span></button>`
   ).join("") + "</div>";
 }
 
@@ -1152,14 +926,27 @@ function biggestJump() {
   }
   return best;
 }
+// The newest repos in the header, one at a time.
+let landedAt = 0;
+function renderLanded() {
+  const rs = state.repos.filter((r) => r.stars >= state.minStars)
+    .sort((a, b) => a.ageDays - b.ageDays).slice(0, 10);
+  $("#landed").hidden = !rs.length;
+  if (!rs.length) return;
+  const r = rs[landedAt % rs.length];
+  const hours = Math.floor((Date.now() - new Date(r.createdAt)) / 36e5);
+  extraRepos.set(r.id, r);
+  $("#landedRepo").dataset.id = r.id;
+  $("#landedRepo").textContent = r.name + " · " + (hours < 1 ? "under 1h ago" : hours < 48 ? hours + "h ago" : Math.floor(hours / 24) + "d ago") + " · " + fmt(r.stars) + " stars";
+}
 function renderSpotlight() {
   const day = repoOfTheDay(), jump = biggestJump();
   const tile = (label, r, sub) => {
     extraRepos.set(r.id, r);
-    return `<button class="spot" data-spot="${r.id}"><span class="label">${label}</span><strong>${esc(r.fullName)}</strong><span class="sub">${sub}</span></button>`;
+    return `<button class="spot" data-spot="${r.id}"><span class="label">${label}</span><strong>${esc(r.name)}</strong><span class="sub">${sub}</span></button>`;
   };
-  const html = (day ? tile("🌟 Repo of the day", day, esc(day.desc)) : "") +
-    (jump ? tile("⚡ Biggest jump yesterday", jump.r, `+${fmt(jump.gain)} ★ · ${esc(jump.r.desc) || "No description."}`) : "");
+  const html = (day ? tile("Repo of the day", day, esc(day.desc)) : "") +
+    (jump ? tile("Biggest jump yesterday", jump.r, `+${fmt(jump.gain)} ★ · ${esc(jump.r.desc) || "No description."}`) : "");
   $("#spotlight").innerHTML = html;
   $("#spotlight").hidden = !html;
 }
@@ -1172,44 +959,33 @@ function safeHref(u) {
 
 function previewHTML(r) {
   const saved = !!getSavedMap()[r.id];
-  const langDot = langChip(r.lang);
   const links = [];
   if (r.homepage) {
-    links.push(`<a href="${esc(withUTM(safeHref(r.homepage)))}" target="_blank" rel="noopener">🔗 ${esc(r.homepage.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</a>`);
+    links.push(`<a href="${esc(withUTM(safeHref(r.homepage)))}" target="_blank" rel="noopener">${esc(r.homepage.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</a>`);
   }
-  if (r.license) links.push(`<span title="License">📄 ${esc(r.license)}</span>`);
+  if (r.license) links.push(`<span title="License">${esc(r.license)}</span>`);
+  const hist = state.history[r.id] || [];
   return `
-    <img class="preview-banner" src="https://opengraph.githubassets.com/1/${encodeURIComponent(r.fullName)}" alt="" loading="lazy" onerror="this.remove()">
-    <div class="preview-top">
-      <img src="${r.avatar}" alt="" loading="lazy">
-      <div>
-        <div class="preview-name"><a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.fullName)}</a></div>
-        <div class="badges">${badgesFor(r)}</div>
-      </div>
+    <div class="badges">${badgesFor(r)}</div>
+    <h2 class="preview-name"><a href="${withUTM(r.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(r.name)}</a></h2>
+    <p>${esc(r.desc) || "No description."}</p>
+    <div class="acts">
+      <a class="btn go" href="${withUTM(r.url)}" target="_blank" rel="noopener">Open on GitHub</a>
+      <button class="btn preview-bookmark" data-id="${r.id}">${saved ? "Saved" : "Save"}</button>
+      <button class="btn preview-share" data-repo="${esc(r.fullName)}">Share</button>
     </div>
-    <p class="desc">${esc(r.desc) || "<em>No description.</em>"}</p>
-    ${topicChips(r.topics, 8)}
-    ${links.length ? `<div class="meta">${links.join("")}</div>` : ""}
-    <div class="meta">
-      ${langDot}
-      <span title="Stars">★ ${fmt(r.stars)}</span>
-      <span title="Forks">⑂ ${fmt(r.forks)}</span>
-      <span title="Open issues + PRs">◎ ${fmt(r.issues)}</span>
-      <span title="Repo age">${agoStr(r.ageDays)}</span>
-    </div>
-    <div class="velocity" title="Star velocity relative to the fastest repo in view">
-      <span class="v-label">${r.starsPerDay.toFixed(1)} ★/day · score ${r.score.toFixed(1)}</span>
+    <div class="facts">
+      <div><b>${num(r.stars)}</b><span>stars</span></div>
+      <div><b>+${num(r.starsPerDay)}</b><span>a day</span></div>
+      <div><b>${num(r.forks)}</b><span>forks</span></div>
     </div>
     ${gainHTML(r)}
-    ${sparklineHTML(state.history[r.id])}
-    <div class="readme-label">Readme</div>
+    ${hist.length > 1 ? `<h3>Star history</h3><div>${sparklineHTML(hist, 320, 90)}<div class="axis"><span>${num(hist[0].s)}</span><span>${hist.length} daily samples</span><span>${num(hist[hist.length - 1].s)}</span></div></div>` : ""}
+    ${chipsHTML(r, 8)}
+    <div class="meta"><span>${agoStr(r.ageDays)}</span><span>${num(r.issues)} open issues</span><span>score ${r.score.toFixed(1)}</span>${links.join("")}</div>
+    <h3>README</h3>
     <div class="readme" id="previewReadme"><p class="readme-empty">Loading…</p></div>
-    ${similarHTML(r)}
-    <div class="row preview-actions">
-      <button class="btn-ghost preview-bookmark" data-id="${r.id}">${saved ? "★ Saved" : "☆ Save for later"}</button>
-      <button class="btn-ghost preview-share" data-repo="${esc(r.fullName)}">Share</button>
-      <a class="btn-primary" href="${withUTM(r.url)}" target="_blank" rel="noopener">Open on GitHub ↗</a>
-    </div>`;
+    ${similarHTML(r)}`;
 }
 
 // Deliberately not a full markdown renderer — just enough of the common
@@ -1285,6 +1061,7 @@ function mdLiteHTML(md) {
 }
 
 const readmeCache = new Map();
+const wideScreen = matchMedia("(min-width: 1001px)");
 let previewSeq = 0;
 let previewIds = []; // the filtered list, frozen when the preview opens
 let previewId = null;
@@ -1333,23 +1110,48 @@ function openPreview(id) {
   if (!wasOpen) previewIds = currentSet().map((x) => x.id);
   // Repos outside the list (similar, spotlight, shared link) slot in after the current one.
   if (!previewIds.includes(id)) previewIds.splice(wasOpen ? previewIds.indexOf(prevId) + 1 : 0, 0, id);
-  const i = previewIds.indexOf(id);
   $("#previewBody").innerHTML = previewHTML(r);
-  $("#previewPos").textContent = (i + 1) + " / " + previewIds.length;
-  $("#previewPrev").disabled = i <= 0;
-  $("#previewNext").disabled = i < 0 || i >= previewIds.length - 1;
-  if (!wasOpen) dlg.showModal();
-  dlg.scrollTop = 0;
+  $("#previewOwner").textContent = r.owner;
+  updatePreviewNav();
+  // Beside the feed on wide screens, a full-screen modal on narrow ones.
+  if (!wasOpen) { if (wideScreen.matches) dlg.show(); else dlg.showModal(); }
+  $("#previewBody").scrollTop = 0;
+  markOpenRow();
   // Wait while flicking through, so skipped repos don't use up the GitHub rate limit.
   clearTimeout(readmeTimer);
   if (wasOpen && !readmeCache.has(r.fullName)) readmeTimer = setTimeout(() => loadReadme(r, seq), 400);
   else loadReadme(r, seq);
 }
+function updatePreviewNav() {
+  const i = previewIds.indexOf(previewId);
+  $("#previewPos").textContent = (i + 1) + " / " + previewIds.length;
+  $("#previewPrev").disabled = i <= 0;
+  $("#previewNext").disabled = i < 0 || i >= previewIds.length - 1;
+}
+function markOpenRow() {
+  const id = $("#previewDialog").open ? String(previewId) : "";
+  document.querySelectorAll("#content [data-id].on").forEach((el) => el.classList.remove("on"));
+  const el = id && document.querySelector(`#content .card[data-id="${id}"], #content tr[data-id="${id}"]`);
+  if (el) el.classList.add("on");
+  return el;
+}
+// Keep the feed beside the pane on the repo being previewed, loading more cards if needed.
+function followInFeed() {
+  if (!wideScreen.matches) return;
+  const i = currentSet().findIndex((r) => r.id === previewId);
+  if (i >= shown) {
+    const start = shown;
+    shown = Math.ceil((i + 1) / PAGE_SIZE) * PAGE_SIZE;
+    render(start);
+  }
+  const el = markOpenRow();
+  if (el) el.scrollIntoView({ block: "nearest" });
+}
 function stepPreview(d) {
   const at = previewIds.indexOf(previewId);
   // Skip repos that a background refresh or un-save has removed.
   for (let i = at + d; at >= 0 && i >= 0 && i < previewIds.length; i += d) {
-    if (findRepo(previewIds[i])) { openPreview(previewIds[i]); return; }
+    if (findRepo(previewIds[i])) { openPreview(previewIds[i]); followInFeed(); return; }
   }
 }
 
@@ -1422,7 +1224,16 @@ function render(start = 0) {
   const all = currentSet();
   // Back to the first page when the filters change, but not on a data refresh or bookmark.
   const key = JSON.stringify([state.tab, state.lang, state.minStars, state.q, state.sort, state.ageDays, state.view]);
-  if (key !== shownKey) { shownKey = key; shown = PAGE_SIZE; }
+  if (key !== shownKey) {
+    shownKey = key;
+    shown = PAGE_SIZE;
+    // The pane stays open beside the feed, so Previous/Next follow the new filters.
+    if (previewDlg.open) {
+      previewIds = all.map((r) => r.id);
+      if (!previewIds.includes(previewId)) previewIds.unshift(previewId);
+      updatePreviewNav();
+    }
+  }
   const rs = all.slice(0, shown);
 
   // tab counts
@@ -1432,25 +1243,9 @@ function render(start = 0) {
     if (t.dataset.tab === "fresh") t.hidden = !hasBaseline() && state.tab !== "fresh";
   });
 
-  // stat tiles
-  $("#stats").hidden = false;
-  $("#stTotal").textContent = counts.all;
-  $("#stWindow").textContent = "created in the last " + state.ageDays + " days";
-  const base = state.repos.filter((r) => r.stars >= state.minStars);
-  if (base.length) {
-    const fastest = base.reduce((a, b) => (b.starsPerDay > a.starsPerDay ? b : a));
-    $("#stFastest").textContent = fastest.name;
-    $("#stFastestSub").textContent = fastest.starsPerDay.toFixed(0) + " ★/day · " + fastest.owner;
-    const vels = base.map((r) => r.starsPerDay).sort((a, b) => a - b);
-    $("#stMedian").textContent = vels[Math.floor(vels.length / 2)].toFixed(1);
-    const langCount = {};
-    base.forEach((r) => { if (r.lang) langCount[r.lang] = (langCount[r.lang] || 0) + 1; });
-    const top = Object.entries(langCount).sort((a, b) => b[1] - a[1])[0];
-    $("#stLang").textContent = top ? top[0] : "–";
-    $("#stLangSub").textContent = top ? top[1] + " repos" : "";
-  }
+  $("#stTotal").textContent = num(counts.all) + " repos from the last " + state.ageDays + " days";
 
-  if (!start) renderSpotlight();
+  if (!start) { renderSpotlight(); renderLanded(); }
 
   // language dropdown (preserve selection)
   const langs = [...new Set(state.repos.map((r) => r.lang).filter(Boolean))].sort();
@@ -1460,25 +1255,21 @@ function render(start = 0) {
     langs.map((l) => `<option value="${esc(l)}"${l === cur ? " selected" : ""}>${esc(l)}</option>`).join("");
 
   // body
-  const content = $("#content");
   if (!rs.length) {
     showPlain(state.tab === "saved"
-      ? '<div class="state"><div class="big">💾</div><p>Nothing saved yet — click ☆ on a repo to keep it here.</p></div>'
+      ? '<div class="state"><p>Nothing saved yet. Use the bookmark on any repo to keep it here.</p></div>'
       : state.tab === "fresh"
-      ? '<div class="state"><div class="big">✅</div><p>Nothing new here since your last visit. Data refreshes about every 30 minutes.</p></div>'
-      : '<div class="state"><div class="big">🌌</div><p>No repos match these filters. Loosen the star threshold or widen the window.</p></div>');
+      ? '<div class="state"><p>Nothing new here since your last visit. Data refreshes about every 30 minutes.</p></div>'
+      : '<div class="state"><p>No repos match these filters. Loosen the star threshold or widen the window.</p></div>');
     syncURLFromState();
     return;
   }
   if (state.view === "table") {
     showPlain(tableHTML(rs));
   } else {
-    const maxVel = Math.max(...all.map((r) => r.starsPerDay), 1);
-    showCards(rs.map((r, i) => cardHTML(r, Math.max(0, i - start), maxVel)), start);
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-      content.querySelectorAll(".bar-fill").forEach((el) => { el.style.width = el.dataset.w + "%"; });
-    }));
+    showCards(rs.map(cardHTML), start);
   }
+  markOpenRow();
   $("#moreWrap").hidden = all.length <= rs.length;
   $("#moreBtn").textContent = "Show " + Math.min(PAGE_SIZE, all.length - rs.length) + " more";
   $("#moreInfo").textContent = "Showing " + rs.length + " of " + all.length;
@@ -1486,7 +1277,7 @@ function render(start = 0) {
 }
 
 /* ============ shareable URL state ============ */
-const VALID_TABS = ["all", "fresh", "new", "growing", "gems", "trend", "saved"];
+const VALID_TABS = ["all", "fresh", "trend", "gems", "saved"];
 const VALID_VIEWS = ["grid", "list", "table"];
 const VALID_SORTS = ["score", "velocity", "stars", "forks", "newest"];
 
@@ -1505,7 +1296,11 @@ function syncURLFromState() {
 
 function readStateFromURL() {
   const p = new URLSearchParams(location.search);
-  if (VALID_TABS.includes(p.get("tab"))) state.tab = p.get("tab");
+  const tab = p.get("tab");
+  if (VALID_TABS.includes(tab)) state.tab = tab;
+  // Links shared before these tabs were merged.
+  else if (tab === "growing") state.tab = "trend";
+  else if (tab === "new") state.ageDays = 7;
   const w = +p.get("window");
   if ([7, 14, 30, 90].includes(w)) state.ageDays = w;
   if (p.has("lang")) state.lang = p.get("lang");
@@ -1543,7 +1338,7 @@ function applyChip(target) {
   }
   if (previewDlg.open) previewDlg.close();
   render();
-  $("#tabs").scrollIntoView({ block: "center" });
+  $("#tabs").scrollIntoView({ block: "nearest" });
   return true;
 }
 $("#moreBtn").addEventListener("click", () => {
@@ -1564,6 +1359,8 @@ $("#content").addEventListener("click", (e) => {
   if (row) openPreview(+row.dataset.id);
 });
 
+$("#landedRepo").addEventListener("click", (e) => openPreview(+e.currentTarget.dataset.id));
+$("#landedNext").addEventListener("click", () => { landedAt++; renderLanded(); });
 $("#spotlight").addEventListener("click", (e) => {
   const b = e.target.closest("[data-spot]");
   if (b) openPreview(+b.dataset.spot);
@@ -1610,15 +1407,33 @@ async function openSharedRepo(name) {
 /* ============ preview dialog wiring ============ */
 const previewDlg = $("#previewDialog");
 $("#previewClose").addEventListener("click", () => previewDlg.close());
-previewDlg.addEventListener("click", (e) => {
-  if (e.target === previewDlg) previewDlg.close(); // click on the backdrop
-});
+// Crossing the breakpoint swaps pane and modal; closing avoids a half-state.
+wideScreen.addEventListener("change", () => previewDlg.close());
+for (const id of ["#menu", "#moreFilters"]) {
+  const box = $(id);
+  document.addEventListener("click", (e) => { if (!box.contains(e.target)) box.open = false; });
+  box.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape" || !box.open) return;
+    e.stopPropagation();
+    box.open = false;
+    box.querySelector("summary").focus();
+  });
+}
 $("#previewPrev").addEventListener("click", () => stepPreview(-1));
 $("#previewNext").addEventListener("click", () => stepPreview(1));
-previewDlg.addEventListener("close", () => { clearTimeout(readmeTimer); previewSeq++; });
+previewDlg.addEventListener("close", () => {
+  clearTimeout(readmeTimer);
+  previewSeq++;
+  const el = markOpenRow() || document.querySelector(`#content .card[data-id="${previewId}"]`);
+  const name = el && el.querySelector(".repo-name");
+  if (name) name.focus({ preventScroll: true });
+});
 // On document: focus leaves the dialog's buttons when one becomes disabled.
 document.addEventListener("keydown", (e) => {
   if (!previewDlg.open || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+  // The page stays usable beside the pane, so leave form fields and other dialogs alone.
+  if (dlg.open || e.target.closest("input, select, textarea, details")) return;
+  if (e.key === "Escape" && wideScreen.matches) { previewDlg.close(); return; }
   if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
   e.preventDefault();
   stepPreview(e.key === "ArrowLeft" ? -1 : 1);
@@ -1647,7 +1462,7 @@ $("#previewBody").addEventListener("click", (e) => {
   const id = +b.dataset.id;
   toggleSaved(id);
   const nowSaved = !!getSavedMap()[id];
-  b.textContent = nowSaved ? "★ Saved" : "☆ Save for later";
+  b.textContent = nowSaved ? "Saved" : "Save";
 });
 $("#ageSel").addEventListener("change", (e) => { state.ageDays = +e.target.value; fetchData(); });
 $("#langSel").addEventListener("change", (e) => { state.lang = e.target.value; render(); });

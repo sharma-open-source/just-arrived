@@ -1,0 +1,41 @@
+/* Shared look for every page: an arrivals hall. Dark values appear twice, for the OS setting and for the Theme button. */
+@font-face { font-family: "Overpass"; src: url(fonts/overpass.woff2) format("woff2"); font-weight: 400 900; font-display: swap; }
+@font-face { font-family: "Overpass Mono"; src: url(fonts/overpass-mono.woff2) format("woff2"); font-weight: 500 700; font-display: swap; }
+:root {
+  color-scheme: light;
+  --hall: #e9eef3; --ticket: #ffffff; --ink: #15233b; --soft: #4d5d77; --line: #c6d0dc;
+  --sign: #ffc72c; --sign-ink: #15233b; --link: #0b5cad; --up: #0a7355; --up-fill: #d5efe5; --warn: #b3261e;
+  --face: "Overpass", "Highway Gothic", "Segoe UI", Arial, sans-serif;
+  --mono: "Overpass Mono", ui-monospace, Consolas, monospace;
+  --g: 18px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  color-scheme: dark; --hall: #0f1a2c; --ticket: #1a2840; --ink: #eef3fa; --soft: #a9b8cf; --line: #354663;
+  --sign: #f5bd1f; --link: #85bcf7; --up: #5fd3a8; --up-fill: #173d3a; --warn: #ff9d94; } }
+:root[data-theme="dark"] {
+  color-scheme: dark; --hall: #0f1a2c; --ticket: #1a2840; --ink: #eef3fa; --soft: #a9b8cf; --line: #354663;
+  --sign: #f5bd1f; --link: #85bcf7; --up: #5fd3a8; --up-fill: #173d3a; --warn: #ff9d94; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--hall); color: var(--ink); font: 400 1rem/1.5 var(--face); }
+a { color: var(--link); overflow-wrap: anywhere; }
+:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+.in { max-width: 1320px; margin-inline: auto; padding-inline: max(16px, env(safe-area-inset-left, 0px)) max(16px, env(safe-area-inset-right, 0px)); }
+.sign { position: sticky; top: 0; z-index: 30; background: var(--sign); color: var(--sign-ink); }
+.sign .in { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; padding-block: 12px; }
+.sign :focus-visible { outline-color: var(--sign-ink); }
+.logo { display: flex; align-items: center; gap: 10px; color: var(--sign-ink); font-weight: 900; font-size: 1.3rem; letter-spacing: -.02em; text-decoration: none; }
+.logo svg { width: 34px; height: 34px; }
+.sign nav { display: flex; align-items: center; gap: 16px; margin-left: auto; }
+.sign nav > a { color: var(--sign-ink); font-weight: 700; text-decoration: none; }
+.sign nav > a:hover { text-decoration: underline; }
+
+/* text pages: privacy and digests */
+.doc { max-width: 760px; margin-inline: auto; padding: 32px 20px 64px; line-height: 1.65; }
+.doc h1 { font-weight: 900; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.08; letter-spacing: -.03em; text-wrap: balance; }
+.doc h2 { margin-top: 36px; font-size: 1.2rem; font-weight: 800; }
+.doc .muted { color: var(--soft); font-size: .9rem; }
+.doc ol, .doc ul { padding-left: 24px; }
+.doc footer { margin-top: 40px; }
+.digest li { padding: 12px 0; border-bottom: 2px dashed var(--line); }
+.digest li p { margin: 2px 0; }
