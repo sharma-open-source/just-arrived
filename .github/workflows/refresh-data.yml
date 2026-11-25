@@ -39,6 +39,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json history.json feed.xml sitemap.xml digest index.html new
+          git add data.json data-14.json history.json feed.xml sitemap.xml digest index.html new
           git diff --cached --quiet || git commit -m "chore: refresh data snapshot"
           git push

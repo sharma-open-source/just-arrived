@@ -24,6 +24,19 @@ export function homeItems(data, now) {
     .sort((a, b) => score(b, now) - score(a, now));
 }
 
+// Pre-rendered counts for the "All", "Trending" and "Hidden gems" tabs, so
+// the first paint already shows real numbers instead of placeholder zeros.
+export function homeCounts(data, now) {
+  const base = homeItems(data, now);
+  let trend = 0, gems = 0;
+  for (const r of base) {
+    const m = measure(r, now);
+    if (m.aboutToTrend || m.pace >= 15) trend++;
+    if (m.hiddenGem) gems++;
+  }
+  return { all: base.length, trend, gems };
+}
+
 export function langItems(data, lang, now) {
   return (data.windows["30"] || [])
     .filter((r) => r.language === lang && r.stargazers_count >= 50 && !isBlocked(r))
@@ -75,15 +88,47 @@ function paceLabel(item, now) {
   return `★ ${num(item.stargazers_count)} · ${num(Math.round(pace(item, now)))} stars a day${item.recent_per_day != null ? " lately" : ""}`;
 }
 
-export function staticCardHTML(item) {
-  const who = `<span class="repo-owner">${[item.owner?.login, item.language].filter(Boolean).map(esc).join(" · ")}</span>`;
+const IMG_HOST = /^https:\/\/repository-images\.githubusercontent\.com\//;
+const AVATAR_HOST = "https://avatars.githubusercontent.com/";
+
+function staticCardImgHTML(item) {
+  return IMG_HOST.test(item.image || "")
+    ? `<img class="card-img" data-img src="${esc(item.image)}" alt="" loading="lazy" decoding="async">`
+    : "";
+}
+
+function staticAvatarHTML(item) {
+  const avatarUrl = item.owner?.avatar_url || "";
+  if (!avatarUrl.startsWith(AVATAR_HOST)) return "";
+  return `<img class="av" data-img src="${esc(avatarUrl + "&s=72")}" width="24" height="24" alt="" loading="lazy" decoding="async">`;
+}
+
+function staticChipsHTML(item) {
+  const chips = [];
+  if (item.language) chips.push(`<span class="chip"><span class="lang-dot"></span>${esc(item.language)}</span>`);
+  for (const t of (item.topics || []).slice(0, 2)) chips.push(`<span class="chip">${esc(t)}</span>`);
+  return chips.length ? `<div class="topics">${chips.join("")}</div>` : "";
+}
+
+// Mirrors paceOf() in index.html's client script.
+function staticPaceInfo(item, now) {
+  const hours = (now - Date.parse(item.created_at)) / 36e5;
+  if (hours < 24) return { n: item.stargazers_count, label: `so far (${hours < 1 ? "under 1h" : Math.floor(hours) + "h"})` };
+  return { n: pace(item, now), label: item.recent_per_day != null ? "stars a day lately" : "stars a day" };
+}
+
+export function staticCardHTML(item, now) {
+  const info = staticPaceInfo(item, now);
   return `<article class="card static-card">
+${staticCardImgHTML(item)}
 <div class="card-main">
-<div class="who">${who}</div>
+<div class="who">${staticAvatarHTML(item)}<span class="repo-owner">${esc(item.owner?.login)}</span></div>
 <h2 class="card-h"><a class="repo-name" href="${esc(item.html_url)}" rel="noopener nofollow">${esc(item.name)}</a></h2>
 <p class="desc">${esc(item.description) || "No description."}</p>
+${staticChipsHTML(item)}
 </div>
 <div class="stub">
+<div><b class="up">+${num(Math.round(info.n))}</b><small>${esc(info.label)}</small></div>
 <div><b>${num(item.stargazers_count)}</b><small>stars</small></div>
 </div>
 </article>`;
@@ -176,7 +221,7 @@ async function exists(fileUrl) {
   return access(fileUrl).then(() => true, () => false);
 }
 
-async function main() {
+export async function main() {
   const read = async (p) => JSON.parse(await readFile(new URL(p, ROOT), "utf8"));
   const data = await read("data.json");
   const now = Date.parse(data.generatedAt);
@@ -222,9 +267,16 @@ async function main() {
   const homeAll = homeItems(data, now);
   const home = homeAll.slice(0, 24);
   let indexHtml = await readFile(new URL("index.html", ROOT), "utf8");
-  indexHtml = replaceBlock(indexHtml, "static-list", `<div class="grid">\n${home.map(staticCardHTML).join("\n")}\n</div>`);
+  indexHtml = replaceBlock(indexHtml, "static-list", `<div class="grid">\n${home.map((r) => staticCardHTML(r, now)).join("\n")}\n</div>`);
   indexHtml = replaceBlock(indexHtml, "static-total", `${num(homeTotal(data))} repos from the last 14 days`);
   indexHtml = replaceBlock(indexHtml, "browse", browseHTML(finalPages, latestDigest));
+  const counts = homeCounts(data, now);
+  indexHtml = replaceBlock(indexHtml, "static-count-all", String(counts.all));
+  indexHtml = replaceBlock(indexHtml, "static-count-trend", String(counts.trend));
+  indexHtml = replaceBlock(indexHtml, "static-count-gems", String(counts.gems));
+  const themeCss = await readFile(new URL("theme.css", ROOT), "utf8");
+  if (themeCss.includes("</style")) throw new Error("theme.css contains </style");
+  indexHtml = replaceBlock(indexHtml, "theme", `<style>${themeCss}</style>`);
   await writeFile(new URL("index.html", ROOT), indexHtml);
 
   // sitemap.xml

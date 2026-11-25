@@ -54,7 +54,55 @@
 }
 </script>
 <meta name="theme-color" content="#ffc72c">
-<link rel="stylesheet" href="theme.css?v=2">
+<link rel="preload" href="fonts/overpass.woff2" as="font" type="font/woff2" crossorigin>
+<!-- theme:start --><style>/* Shared look for every page: an arrivals hall. Dark values appear twice, for the OS setting and for the Theme button. */
+@font-face { font-family: "Overpass"; src: url(fonts/overpass.woff2) format("woff2"); font-weight: 400 900; font-display: swap; }
+@font-face { font-family: "Overpass Mono"; src: url(fonts/overpass-mono.woff2) format("woff2"); font-weight: 500 700; font-display: swap; }
+:root {
+  color-scheme: light;
+  --hall: #e9eef3; --ticket: #ffffff; --ink: #15233b; --soft: #4d5d77; --line: #c6d0dc; --edge: #728198; --sign-edge: #15233b;
+  --sign: #ffc72c; --sign-ink: #15233b; --link: #0b5cad; --up: #0a7355; --up-fill: #d5efe5; --warn: #b3261e;
+  --face: "Overpass", "Highway Gothic", "Segoe UI", Arial, sans-serif;
+  --mono: "Overpass Mono", ui-monospace, Consolas, monospace;
+  --g: 18px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  color-scheme: dark; --hall: #0f1a2c; --ticket: #1a2840; --ink: #eef3fa; --soft: #a9b8cf; --line: #354663; --edge: #8294b3; --sign-edge: #f5bd1f;
+  --sign: #f5bd1f; --link: #85bcf7; --up: #5fd3a8; --up-fill: #173d3a; --warn: #ff9d94; } }
+:root[data-theme="dark"] {
+  color-scheme: dark; --hall: #0f1a2c; --ticket: #1a2840; --ink: #eef3fa; --soft: #a9b8cf; --line: #354663; --edge: #8294b3; --sign-edge: #f5bd1f;
+  --sign: #f5bd1f; --link: #85bcf7; --up: #5fd3a8; --up-fill: #173d3a; --warn: #ff9d94; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--hall); color: var(--ink); font: 400 1rem/1.5 var(--face); }
+a { color: var(--link); overflow-wrap: anywhere; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+::selection { background: #ffc72c; color: #15233b; }
+html { scrollbar-color: var(--edge) transparent; }
+input, textarea { caret-color: var(--link); }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.skip { position: absolute; left: 16px; top: -60px; z-index: 60; padding: 10px 16px; border-radius: 4px; background: var(--ink); color: var(--hall); font-weight: 700; }
+.skip:focus { top: 12px; }
+:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+.in { max-width: 1320px; margin-inline: auto; padding-inline: max(16px, env(safe-area-inset-left, 0px)) max(16px, env(safe-area-inset-right, 0px)); }
+.sign { position: sticky; top: 0; z-index: 30; background: var(--sign); color: var(--sign-ink); }
+.sign .in { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; padding-block: 12px; }
+.sign :focus-visible { outline-color: var(--sign-ink); }
+.logo { display: flex; align-items: center; gap: 10px; color: var(--sign-ink); font-weight: 900; font-size: 1.3rem; letter-spacing: -.02em; text-decoration: none; }
+.logo svg { width: 34px; height: 34px; }
+.sign nav { display: flex; align-items: center; gap: 16px; margin-left: auto; }
+.sign nav > a { color: var(--sign-ink); font-weight: 700; text-decoration: none; }
+.sign nav > a:hover { text-decoration: underline; }
+
+/* text pages: privacy and digests */
+.doc { max-width: 760px; margin-inline: auto; padding: 32px 20px 64px; line-height: 1.65; }
+.doc h1 { font-weight: 900; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.08; letter-spacing: -.03em; text-wrap: balance; }
+.doc h2 { margin-top: 36px; font-size: 1.2rem; font-weight: 800; }
+.doc .muted { color: var(--soft); font-size: .9rem; }
+.doc ol, .doc ul { padding-left: 24px; }
+.doc footer { margin-top: 40px; }
+.digest li { padding: 12px 0; border-bottom: 2px dashed var(--line); }
+.digest li p { margin: 2px 0; }
+</style><!-- theme:end -->
 <script>
 try { const t = localStorage.getItem("ja-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
 </script>
@@ -64,7 +112,8 @@ button, input, select { font: inherit; color: inherit; }
 button, select, summary { cursor: pointer; }
 summary { list-style: none; }
 summary::-webkit-details-marker { display: none; }
-.landed { flex: 1 1 260px; display: flex; align-items: stretch; min-width: 0; border-radius: 4px; background: var(--sign-ink); color: #fff; overflow: hidden; }
+.landed { flex: 1 1 260px; display: flex; align-items: stretch; min-width: 0; min-height: 40px; border-radius: 4px; background: var(--sign-ink); color: #fff; overflow: hidden; }
+.pending { visibility: hidden; }
 .landed-label { flex: none; align-self: center; padding: 0 12px; color: var(--sign); font-size: .82rem; font-weight: 800; }
 .landed button { border: 0; background: none; color: inherit; }
 .landed-repo { flex: 1; min-width: 0; padding: 9px 0; overflow: hidden; text-align: left; text-overflow: ellipsis; white-space: nowrap; font: 500 .9rem var(--mono); }
@@ -92,6 +141,7 @@ details { position: relative; }
 .intro { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--g); padding-block: 30px 22px; align-items: end; }
 h1 { font-weight: 900; font-size: clamp(1.9rem, 3.6vw, 2.75rem); line-height: 1.05; letter-spacing: -.03em; text-wrap: balance; }
 .intro p { margin-top: 8px; color: var(--soft); }
+#dataAsOf:not(:empty)::before { content: "· "; }
 .spotlight { grid-column: 2 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--g); align-self: stretch; }
 .spot { display: flex; flex-direction: column; justify-content: flex-end; min-width: 0; padding: 0 0 12px; border: 0; border-bottom: 3px solid var(--ink); background: none; text-align: left; }
 .spot .label, .spot .sub { color: var(--soft); font-size: .9rem; }
@@ -102,10 +152,11 @@ h1 { font-weight: 900; font-size: clamp(1.9rem, 3.6vw, 2.75rem); line-height: 1.
 .tabs { display: flex; gap: 24px; overflow-x: auto; border-bottom: 1px solid var(--line); scroll-margin-top: 90px; }
 .tab { flex: none; padding: 8px 0; border: 0; border-bottom: 4px solid transparent; background: none; color: var(--soft); font-weight: 700; }
 .tab[data-tab].active { color: var(--ink); border-color: var(--sign); }
-.tab .count { font: 700 .82rem var(--mono); }
+.tab .count { display: inline-block; min-width: 3ch; font: 700 .82rem var(--mono); }
 .filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding-block: 14px 18px; }
 .filters input[type="search"] { flex: 0 1 200px; min-width: 0; padding: 8px 12px; border: 1px solid var(--edge); border-radius: 4px; background: var(--ticket); }
 .filters select, .filters summary { max-width: 100%; padding: 8px 12px; border: 1px solid var(--edge); border-radius: 4px; background: var(--ticket); font-weight: 600; }
+#langSel { width: 10.5rem; }
 .seg { display: inline-flex; margin-left: auto; border: 1px solid var(--edge); border-radius: 4px; overflow: hidden; background: var(--ticket); }
 .seg button { padding: 8px 12px; border: 0; background: none; color: var(--soft); font-weight: 600; }
 .tab:hover { color: var(--ink); border-color: var(--line); }
@@ -303,6 +354,10 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
   .card { min-height: 0; }
   .ad-card { min-height: 160px; }
   .seg { margin-left: 0; }
+  .spot strong { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .spot .who { width: 100%; }
+  #dataAsOf { display: block; min-height: 1.5em; }
+  #dataAsOf:not(:empty)::before { content: none; }
 }
 @media (max-width: 480px) { .spotlight { grid-template-columns: minmax(0, 1fr); } }
 @media (prefers-reduced-motion: no-preference) {
@@ -316,7 +371,7 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
 <body>
 <header class="sign"><div class="in">
   <a class="logo" href="./"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="4" fill="#15233b"/><path d="M10 9v14h14M10 23 24 9" fill="none" stroke="#ffc72c" stroke-width="4"/></svg>Just Arrived</a>
-  <div class="landed" id="landed" hidden>
+  <div class="landed pending" id="landed">
     <span class="landed-label">Just landed</span>
     <div class="landed-item" id="landedItem"><span id="landedAv" style="display:flex"></span>
     <button type="button" class="landed-repo" id="landedRepo"></button></div>
@@ -341,14 +396,17 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
     <h1>New on GitHub, before it trends.</h1>
     <p><span id="stTotal"><!-- static-total:start -->606 repos from the last 14 days<!-- static-total:end --></span> <span id="dataAsOf"></span></p>
   </div>
-  <div class="spotlight" id="spotlight" hidden></div>
+  <div class="spotlight pending" id="spotlight">
+    <div class="spot" aria-hidden="true"><span class="label">&nbsp;</span><span class="who"><span style="width:28px;height:28px"></span><strong>&nbsp;</strong></span><span class="sub">&nbsp;</span></div>
+    <div class="spot" aria-hidden="true"><span class="label">&nbsp;</span><span class="who"><span style="width:28px;height:28px"></span><strong>&nbsp;</strong></span><span class="sub">&nbsp;</span></div>
+  </div>
 </section>
 
 <div class="tabs" id="tabs" role="group" aria-label="Lists">
-  <button class="tab active" data-tab="all">All <span class="count">0</span></button>
+  <button class="tab active" data-tab="all">All <span class="count"><!-- static-count-all:start -->606<!-- static-count-all:end --></span></button>
   <button class="tab" data-tab="fresh" hidden>Since last visit <span class="count">0</span></button>
-  <button class="tab" data-tab="trend">Trending <span class="count">0</span></button>
-  <button class="tab" data-tab="gems">Hidden gems <span class="count">0</span></button>
+  <button class="tab" data-tab="trend">Trending <span class="count"><!-- static-count-trend:start -->196<!-- static-count-trend:end --></span></button>
+  <button class="tab" data-tab="gems">Hidden gems <span class="count"><!-- static-count-gems:start -->127<!-- static-count-gems:end --></span></button>
   <button class="tab" data-tab="saved">Saved <span class="count">0</span></button>
 </div>
 
@@ -386,242 +444,314 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
   <div class="feed">
     <div id="content"><div id="plainView"><!-- static-list:start --><div class="grid">
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">Marvisak · Rust</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/60314886?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">Marvisak</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/Marvisak/VIctory" rel="noopener nofollow">VIctory</a></h2>
 <p class="desc">An attempt at running GTA VI on PC</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Rust</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+9,061</b><small>stars a day</small></div>
 <div><b>11,574</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">xcl-dev · Rust</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/360790281?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">xcl-dev</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/xcl-dev/xcl" rel="noopener nofollow">xcl</a></h2>
 <p class="desc">Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Rust</span><span class="chip">d3d12</span><span class="chip">gdk</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+6,368</b><small>stars a day lately</small></div>
 <div><b>7,933</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">4lwayz · JavaScript</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/359682649?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">4lwayz</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/4lwayz/portwatch-vi" rel="noopener nofollow">portwatch-vi</a></h2>
 <p class="desc">Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>JavaScript</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+2,453</b><small>stars a day lately</small></div>
 <div><b>3,028</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">fxceless · Rust</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/36782933?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">fxceless</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/fxceless/victory-fork" rel="noopener nofollow">victory-fork</a></h2>
 <p class="desc">Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Rust</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+2,172</b><small>so far (10h)</small></div>
 <div><b>2,172</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">AFK-surf · Objective-C++</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/221804798?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">AFK-surf</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/AFK-surf/xnulinux" rel="noopener nofollow">xnulinux</a></h2>
 <p class="desc">XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Objective-C++</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+2,091</b><small>stars a day lately</small></div>
 <div><b>3,482</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">ubiquitarianism · Python</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/283527159?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">ubiquitarianism</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/ubiquitarianism/leonida" rel="noopener nofollow">leonida</a></h2>
 <p class="desc">A continuation of Leonida, the Xbox &gt; PC port interface for GTA VI</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Python</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+1,653</b><small>stars a day</small></div>
 <div><b>1,966</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">Hut-hzf · Python</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/192405006?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">Hut-hzf</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/Hut-hzf/ung220z-tool" rel="noopener nofollow">ung220z-tool</a></h2>
 <p class="desc">ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Python</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+1,714</b><small>stars a day lately</small></div>
 <div><b>4,544</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">EL4CTEO · Rust</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/215285446?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">EL4CTEO</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/EL4CTEO/fast-anything" rel="noopener nofollow">fast-anything</a></h2>
 <p class="desc">Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Rust</span><span class="chip">agent-skills</span><span class="chip">ai-agents</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+781</b><small>stars a day lately</small></div>
 <div><b>3,673</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">os6 · Swift</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/239950?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">os6</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/os6/nospeaker" rel="noopener nofollow">nospeaker</a></h2>
 <p class="desc">make your macbook&#39;s trackpad talk using its haptic motor</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Swift</span><span class="chip">haptics</span><span class="chip">macos</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+708</b><small>stars a day lately</small></div>
 <div><b>1,779</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+<img class="card-img" data-img src="https://repository-images.githubusercontent.com/1459971684/e23b2257-98c7-4ff9-b6c5-b0967d4eee7b" alt="" loading="lazy" decoding="async">
 <div class="card-main">
-<div class="who"><span class="repo-owner">erkamyaman · Rust</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/88717125?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">erkamyaman</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/erkamyaman/rust-anything" rel="noopener nofollow">rust-anything</a></h2>
 <p class="desc">Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Rust</span><span class="chip">agent-skills</span><span class="chip">claude-code</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+684</b><small>stars a day lately</small></div>
 <div><b>9,290</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+<img class="card-img" data-img src="https://repository-images.githubusercontent.com/1469329665/88399653-d97c-4eae-88b2-8461e87f205d" alt="" loading="lazy" decoding="async">
 <div class="card-main">
-<div class="who"><span class="repo-owner">Indigo-0167 · Rust</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/360265394?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">Indigo-0167</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/Indigo-0167/universal-game-mod-manager" rel="noopener nofollow">universal-game-mod-manager</a></h2>
 <p class="desc">Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Rust</span><span class="chip">automation</span><span class="chip">desktop</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+627</b><small>stars a day</small></div>
 <div><b>808</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">Zettrox · Rust</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/360911071?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">Zettrox</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/Zettrox/ztrx" rel="noopener nofollow">ztrx</a></h2>
 <p class="desc">Run the Xbox Series build of the game natively on Windows PCs with NVIDIA GPUs</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Rust</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+581</b><small>so far (3h)</small></div>
 <div><b>581</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+<img class="card-img" data-img src="https://repository-images.githubusercontent.com/1469337059/8f1900fd-7c5f-4758-b361-99ee0a14e080" alt="" loading="lazy" decoding="async">
 <div class="card-main">
-<div class="who"><span class="repo-owner">zero5122 · Python</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/358666762?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">zero5122</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/zero5122/offline-file-converter-windows" rel="noopener nofollow">offline-file-converter-windows</a></h2>
 <p class="desc">Free offline file converter for Windows – convert PDF, documents, images, audio and video privately.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Python</span><span class="chip">audio-converter</span><span class="chip">batch-conversion</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+621</b><small>stars a day</small></div>
 <div><b>797</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">rowanbyte3329 · C#</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/358001200?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">rowanbyte3329</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/rowanbyte3329/stardew-valley-mod-manager" rel="noopener nofollow">stardew-valley-mod-manager</a></h2>
 <p class="desc">Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates, and custom mod profiles.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>C#</span><span class="chip">avaloniaui</span><span class="chip">cross-platform</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+615</b><small>stars a day</small></div>
 <div><b>797</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">Avaneesh-Inamdar · Rust</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/104128879?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">Avaneesh-Inamdar</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop" rel="noopener nofollow">Stream-Tube-Desktop</a></h2>
 <p class="desc">Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Rust</span><span class="chip">dearrow</span><span class="chip">desktop-app</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+602</b><small>stars a day lately</small></div>
 <div><b>905</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+<img class="card-img" data-img src="https://repository-images.githubusercontent.com/1460452633/46cc0a06-33e1-4a65-a13b-88575b4d0b0f" alt="" loading="lazy" decoding="async">
 <div class="card-main">
-<div class="who"><span class="repo-owner">pierridotite · Python</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/132000863?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">pierridotite</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/pierridotite/mobile-agent-testers" rel="noopener nofollow">mobile-agent-testers</a></h2>
 <p class="desc">20 AI testers on 20 different phones, in parallel, on GitHub&#39;s free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Python</span><span class="chip">accessibility-testing</span><span class="chip">ai-agents</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+603</b><small>stars a day lately</small></div>
 <div><b>1,897</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+<img class="card-img" data-img src="https://repository-images.githubusercontent.com/1469338376/46082c3e-02e7-416c-bccb-6700d496a87c" alt="" loading="lazy" decoding="async">
 <div class="card-main">
-<div class="who"><span class="repo-owner">Umbra9179 · C#</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/357439170?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">Umbra9179</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/Umbra9179/clipboard-history-manager-windows" rel="noopener nofollow">clipboard-history-manager-windows</a></h2>
 <p class="desc">Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>C#</span><span class="chip">clipboard</span><span class="chip">clipboard-history</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+611</b><small>stars a day</small></div>
 <div><b>783</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+<img class="card-img" data-img src="https://repository-images.githubusercontent.com/1469330932/f6ec2e5a-f462-4501-9eb1-c126423b0859" alt="" loading="lazy" decoding="async">
 <div class="card-main">
-<div class="who"><span class="repo-owner">solv4626 · Rust</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/358033547?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">solv4626</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/solv4626/steam-achievement-manager-windows" rel="noopener nofollow">steam-achievement-manager-windows</a></h2>
 <p class="desc">Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Rust</span><span class="chip">achievement-management</span><span class="chip">achievements</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+605</b><small>stars a day</small></div>
 <div><b>780</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">kai415-debug · C++</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/357971194?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">kai415-debug</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/kai415-debug/ffmpeg-video-audio-converter" rel="noopener nofollow">ffmpeg-video-audio-converter</a></h2>
 <p class="desc">Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>C++</span><span class="chip">audio</span><span class="chip">audio-converter</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+604</b><small>stars a day</small></div>
 <div><b>777</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">olive527 · C#</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/358474442?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">olive527</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/olive527/steam-library-manager-windows" rel="noopener nofollow">steam-library-manager-windows</a></h2>
 <p class="desc">Free Windows game library manager and backup tool for Steam, Origin and Ubisoft Connect with multi-library support.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>C#</span><span class="chip">backup</span><span class="chip">backup-tool</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+556</b><small>stars a day</small></div>
 <div><b>722</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">open-goat · Lean</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/360687667?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">open-goat</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/open-goat/pequalnp-proofs" rel="noopener nofollow">pequalnp-proofs</a></h2>
 <p class="desc">Lean 4 proofs from the public AI attempt at P vs NP (pequalnp.com). Open gaps welcome pull requests.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Lean</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+77</b><small>stars a day</small></div>
 <div><b>176</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">Nebula4207 · C#</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/358296278?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">Nebula4207</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/Nebula4207/av1-video-encoder-gui" rel="noopener nofollow">av1-video-encoder-gui</a></h2>
 <p class="desc">Free Windows AV1 video encoder GUI for aomenc, rav1e, SVT-AV1, NVENC, Quick Sync and VP9 with parallel encoding.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>C#</span><span class="chip">aom</span><span class="chip">aomenc</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+532</b><small>stars a day</small></div>
 <div><b>685</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">Basil0879 · TypeScript</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/358019030?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">Basil0879</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/Basil0879/steam-game-idler" rel="noopener nofollow">steam-game-idler</a></h2>
 <p class="desc">Free Steam idler for trading card farming, achievement management, playtime boosting and multi-account automation on Windows.</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>TypeScript</span><span class="chip">achievement-management</span><span class="chip">archisteamfarm</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+526</b><small>stars a day</small></div>
 <div><b>682</b><small>stars</small></div>
 </div>
 </article>
 <article class="card static-card">
+
 <div class="card-main">
-<div class="who"><span class="repo-owner">sybil-solutions · Python</span></div>
+<div class="who"><img class="av" data-img src="https://avatars.githubusercontent.com/u/284200730?v=4&amp;s=72" width="24" height="24" alt="" loading="lazy" decoding="async"><span class="repo-owner">sybil-solutions</span></div>
 <h2 class="card-h"><a class="repo-name" href="https://github.com/sybil-solutions/inference-optimisation-skill" rel="noopener nofollow">inference-optimisation-skill</a></h2>
 <p class="desc">Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization</p>
+<div class="topics"><span class="chip"><span class="lang-dot"></span>Python</span><span class="chip">agent-skill</span><span class="chip">benchmarking</span></div>
 </div>
 <div class="stub">
+<div><b class="up">+461</b><small>stars a day lately</small></div>
 <div><b>2,598</b><small>stars</small></div>
 </div>
 </article>
@@ -949,6 +1079,25 @@ function loadSnapshot() {
   return snapshotPromise;
 }
 
+// Same as loadSnapshot, but for the default 14-day window alone: a much
+// smaller file for the common case of a first load that never changes window.
+let window14Promise = null;
+function loadWindow14() {
+  if (!window14Promise) {
+    window14Promise = fetch("data-14.json", { cache: "no-store" }).then((res) => {
+      if (!res.ok) throw new Error("no window snapshot");
+      return res.json();
+    }).then((snap) => {
+      if (!snap.windows || !snap.windows["14"]) throw new Error("no window snapshot");
+      return snap;
+    }).catch(() => loadSnapshot());
+  }
+  return window14Promise;
+}
+function loadWindow(days) {
+  return days === 14 ? loadWindow14() : loadSnapshot();
+}
+
 function setDataAsOf(iso) {
   state.dataAsOf = iso;
   const el = $("#dataAsOf");
@@ -956,7 +1105,7 @@ function setDataAsOf(iso) {
   if (!iso) { el.textContent = ""; return; }
   const mins = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
   const age = mins < 1 ? "just now" : mins === 1 ? "1 min ago" : mins + " min ago";
-  el.textContent = "· updated " + age;
+  el.textContent = "updated " + age;
 }
 
 async function fetchData(force) {
@@ -978,7 +1127,7 @@ async function fetchData(force) {
       } catch (e) { /* stale/corrupt cache — refetch */ }
 
       try {
-        const snap = await loadSnapshot();
+        const snap = await loadWindow(state.ageDays);
         const items = snap.windows && snap.windows[String(state.ageDays)];
         if (items && items.length) {
           state.repos = items.filter((x) => !JA.isBlocked(x)).map(enrich);
@@ -1014,8 +1163,12 @@ async function fetchData(force) {
   } catch (err) {
     $("#errorBox").textContent = err.message;
     $("#errorBox").hidden = false;
-    if (!state.repos.length && !$("#plainView .static-card")) showPlain(
-      '<div class="state"><p>Nothing loaded yet — see the message above.</p></div>');
+    if (!state.repos.length) {
+      $("#landed").hidden = true;
+      $("#spotlight").hidden = true;
+      if (!$("#plainView .static-card")) showPlain(
+        '<div class="state"><p>Nothing loaded yet — see the message above.</p></div>');
+    }
   } finally {
     btn.classList.remove("spin");
   }
@@ -1273,8 +1426,9 @@ let landedAt = 0;
 function renderLanded() {
   const rs = state.repos.filter((r) => r.stars >= state.minStars)
     .sort((a, b) => a.ageDays - b.ageDays).slice(0, 10);
-  $("#landed").hidden = !rs.length;
-  if (!rs.length) return;
+  if (!rs.length) { $("#landed").hidden = true; return; }
+  $("#landed").hidden = false;
+  $("#landed").classList.remove("pending");
   const r = rs[landedAt % rs.length];
   const hours = Math.floor((Date.now() - new Date(r.createdAt)) / 36e5);
   extraRepos.set(r.id, r);
@@ -1305,6 +1459,7 @@ function renderSpotlight() {
   };
   const html = (day ? tile("Repo of the day", day, esc(day.desc)) : "") +
     (jump ? tile("Biggest jump yesterday", jump.r, `+${fmt(jump.gain)} stars · ${esc(jump.r.desc) || "No description."}`) : "");
+  $("#spotlight").classList.remove("pending");
   $("#spotlight").innerHTML = html;
   $("#spotlight").hidden = !html;
 }

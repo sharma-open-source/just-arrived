@@ -241,6 +241,12 @@ async function main() {
   await writeFile(new URL("../data.json", import.meta.url), JSON.stringify(snapshot));
   console.log("wrote data.json");
 
+  // A phone's first load only needs the default (14-day) window, so it can
+  // fetch this instead of the full multi-window snapshot above.
+  const window14 = { generatedAt, windows: { "14": windows[14] } };
+  await writeFile(new URL("../data-14.json", import.meta.url), JSON.stringify(window14));
+  console.log("wrote data-14.json");
+
   await writeFile(new URL("../history.json", import.meta.url), JSON.stringify(history));
   console.log(`wrote history.json (${Object.keys(history).length} repos)`);
 

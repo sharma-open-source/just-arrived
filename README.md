@@ -66,7 +66,8 @@ Just open `index.html` — or serve it: `python3 -m http.server`.
 `scripts/fetch-data.mjs` pulls the newest/fastest-growing repos for each
 supported age window and writes:
 
-- `data.json` — the full snapshot the UI loads on a normal page view
+- `data.json` — the full snapshot, loaded for other windows, saved repos and shared links
+- `data-14.json` — the default 14-day window alone, loaded on a normal page view
 - `history.json` — a rolling ≤14-day, one-point-per-day star history per
   repo, used for the trend sparklines
 - `feed.xml` — an Atom feed of the top "about to trend" repos
@@ -82,7 +83,7 @@ complete week, plus `digest/index.html`. Existing week pages
 are never overwritten, so you can add commentary to them by hand.
 
 `scripts/build-pages.mjs` then writes the static repo list in `index.html`
-(between the `static-list`, `static-total` and `browse` comment markers; don't
+(between the `*:start` and `*:end` comment markers, including a copy of `theme.css`; don't
 edit inside them), the list pages in `new/`, and `sitemap.xml`. A list page with
 fewer than 10 repos keeps its previous version. Test with
 `node --test scripts/*.test.mjs`.
