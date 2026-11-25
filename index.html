@@ -133,9 +133,12 @@ h1 { font-weight: 900; font-size: clamp(1.9rem, 3.6vw, 2.75rem); line-height: 1.
 }
 
 .card { position: relative; display: grid; grid-template-rows: 1fr auto; min-height: 250px; border-radius: 8px; background: var(--ticket); cursor: pointer; scroll-margin: 90px 0 20px; }
+.static-card { cursor: auto; }
 .card.on { outline: 3px solid var(--sign-edge); }
 .card-main { display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 18px 18px 14px; }
 .repo-name { padding: 0 44px 0 0; border: 0; background: none; text-align: left; font-weight: 800; font-size: 1.15rem; line-height: 1.2; overflow-wrap: anywhere; }
+a.repo-name { display: inline-block; color: inherit; text-decoration: none; }
+a.repo-name:hover { text-decoration: underline; }
 .card-h { font: inherit; }
 .card:hover .repo-name { color: var(--link); }
 .av { flex: none; border-radius: 50%; background: var(--hall); object-fit: cover; }
@@ -321,7 +324,7 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
     <button type="button" class="landed-next" id="landedNext" aria-label="Next new repo"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
   </div>
   <nav aria-label="Site">
-    <a href="digest/index.html">Digest</a>
+    <a href="digest/">Digest</a>
     <details id="menu"><summary>Menu</summary><div class="pop">
       <button type="button" id="themeBtn">Light or dark theme</button>
       <button type="button" id="refreshBtn"><svg class="refresh-glyph" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 3v5h-5"/></svg> Refresh data</button>
@@ -336,7 +339,7 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
 <section class="intro">
   <div>
     <h1>New on GitHub, before it trends.</h1>
-    <p><span id="stTotal"></span> <span id="dataAsOf"></span></p>
+    <p><span id="stTotal"><!-- static-total:start -->606 repos from the last 14 days<!-- static-total:end --></span> <span id="dataAsOf"></span></p>
   </div>
   <div class="spotlight" id="spotlight" hidden></div>
 </section>
@@ -376,12 +379,253 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
   </span>
 </div>
 
-<noscript><p class="state">Just Arrived needs JavaScript to list repositories. The <a href="digest/index.html">weekly digests</a> work without it.</p></noscript>
+<noscript><p class="state">Filters and previews need JavaScript. The list below is a snapshot; the <a href="digest/">weekly digests</a> work without it.</p></noscript>
 
 <div id="errorBox" class="error-box" role="alert" hidden></div>
 <main class="hall" id="hall" tabindex="-1">
   <div class="feed">
-    <div id="content"><div id="plainView"><p class="state">Loading new arrivals…</p></div><div id="cardGrid" class="grid" hidden></div></div>
+    <div id="content"><div id="plainView"><!-- static-list:start --><div class="grid">
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">Marvisak · Rust</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/Marvisak/VIctory" rel="noopener nofollow">VIctory</a></h2>
+<p class="desc">An attempt at running GTA VI on PC</p>
+</div>
+<div class="stub">
+<div><b>11,574</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">xcl-dev · Rust</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/xcl-dev/xcl" rel="noopener nofollow">xcl</a></h2>
+<p class="desc">Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL</p>
+</div>
+<div class="stub">
+<div><b>7,933</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">4lwayz · JavaScript</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/4lwayz/portwatch-vi" rel="noopener nofollow">portwatch-vi</a></h2>
+<p class="desc">Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.</p>
+</div>
+<div class="stub">
+<div><b>3,028</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">fxceless · Rust</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/fxceless/victory-fork" rel="noopener nofollow">victory-fork</a></h2>
+<p class="desc">Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.</p>
+</div>
+<div class="stub">
+<div><b>2,172</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">AFK-surf · Objective-C++</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/AFK-surf/xnulinux" rel="noopener nofollow">xnulinux</a></h2>
+<p class="desc">XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)</p>
+</div>
+<div class="stub">
+<div><b>3,482</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">ubiquitarianism · Python</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/ubiquitarianism/leonida" rel="noopener nofollow">leonida</a></h2>
+<p class="desc">A continuation of Leonida, the Xbox &gt; PC port interface for GTA VI</p>
+</div>
+<div class="stub">
+<div><b>1,966</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">Hut-hzf · Python</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/Hut-hzf/ung220z-tool" rel="noopener nofollow">ung220z-tool</a></h2>
+<p class="desc">ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。</p>
+</div>
+<div class="stub">
+<div><b>4,544</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">EL4CTEO · Rust</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/EL4CTEO/fast-anything" rel="noopener nofollow">fast-anything</a></h2>
+<p class="desc">Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.</p>
+</div>
+<div class="stub">
+<div><b>3,673</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">os6 · Swift</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/os6/nospeaker" rel="noopener nofollow">nospeaker</a></h2>
+<p class="desc">make your macbook&#39;s trackpad talk using its haptic motor</p>
+</div>
+<div class="stub">
+<div><b>1,779</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">erkamyaman · Rust</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/erkamyaman/rust-anything" rel="noopener nofollow">rust-anything</a></h2>
+<p class="desc">Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.</p>
+</div>
+<div class="stub">
+<div><b>9,290</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">Indigo-0167 · Rust</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/Indigo-0167/universal-game-mod-manager" rel="noopener nofollow">universal-game-mod-manager</a></h2>
+<p class="desc">Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods.</p>
+</div>
+<div class="stub">
+<div><b>808</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">Zettrox · Rust</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/Zettrox/ztrx" rel="noopener nofollow">ztrx</a></h2>
+<p class="desc">Run the Xbox Series build of the game natively on Windows PCs with NVIDIA GPUs</p>
+</div>
+<div class="stub">
+<div><b>581</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">zero5122 · Python</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/zero5122/offline-file-converter-windows" rel="noopener nofollow">offline-file-converter-windows</a></h2>
+<p class="desc">Free offline file converter for Windows – convert PDF, documents, images, audio and video privately.</p>
+</div>
+<div class="stub">
+<div><b>797</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">rowanbyte3329 · C#</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/rowanbyte3329/stardew-valley-mod-manager" rel="noopener nofollow">stardew-valley-mod-manager</a></h2>
+<p class="desc">Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates, and custom mod profiles.</p>
+</div>
+<div class="stub">
+<div><b>797</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">Avaneesh-Inamdar · Rust</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop" rel="noopener nofollow">Stream-Tube-Desktop</a></h2>
+<p class="desc">Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in</p>
+</div>
+<div class="stub">
+<div><b>905</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">pierridotite · Python</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/pierridotite/mobile-agent-testers" rel="noopener nofollow">mobile-agent-testers</a></h2>
+<p class="desc">20 AI testers on 20 different phones, in parallel, on GitHub&#39;s free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs</p>
+</div>
+<div class="stub">
+<div><b>1,897</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">Umbra9179 · C#</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/Umbra9179/clipboard-history-manager-windows" rel="noopener nofollow">clipboard-history-manager-windows</a></h2>
+<p class="desc">Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.</p>
+</div>
+<div class="stub">
+<div><b>783</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">solv4626 · Rust</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/solv4626/steam-achievement-manager-windows" rel="noopener nofollow">steam-achievement-manager-windows</a></h2>
+<p class="desc">Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics.</p>
+</div>
+<div class="stub">
+<div><b>780</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">kai415-debug · C++</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/kai415-debug/ffmpeg-video-audio-converter" rel="noopener nofollow">ffmpeg-video-audio-converter</a></h2>
+<p class="desc">Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding.</p>
+</div>
+<div class="stub">
+<div><b>777</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">olive527 · C#</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/olive527/steam-library-manager-windows" rel="noopener nofollow">steam-library-manager-windows</a></h2>
+<p class="desc">Free Windows game library manager and backup tool for Steam, Origin and Ubisoft Connect with multi-library support.</p>
+</div>
+<div class="stub">
+<div><b>722</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">open-goat · Lean</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/open-goat/pequalnp-proofs" rel="noopener nofollow">pequalnp-proofs</a></h2>
+<p class="desc">Lean 4 proofs from the public AI attempt at P vs NP (pequalnp.com). Open gaps welcome pull requests.</p>
+</div>
+<div class="stub">
+<div><b>176</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">Nebula4207 · C#</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/Nebula4207/av1-video-encoder-gui" rel="noopener nofollow">av1-video-encoder-gui</a></h2>
+<p class="desc">Free Windows AV1 video encoder GUI for aomenc, rav1e, SVT-AV1, NVENC, Quick Sync and VP9 with parallel encoding.</p>
+</div>
+<div class="stub">
+<div><b>685</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">Basil0879 · TypeScript</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/Basil0879/steam-game-idler" rel="noopener nofollow">steam-game-idler</a></h2>
+<p class="desc">Free Steam idler for trading card farming, achievement management, playtime boosting and multi-account automation on Windows.</p>
+</div>
+<div class="stub">
+<div><b>682</b><small>stars</small></div>
+</div>
+</article>
+<article class="card static-card">
+<div class="card-main">
+<div class="who"><span class="repo-owner">sybil-solutions · Python</span></div>
+<h2 class="card-h"><a class="repo-name" href="https://github.com/sybil-solutions/inference-optimisation-skill" rel="noopener nofollow">inference-optimisation-skill</a></h2>
+<p class="desc">Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization</p>
+</div>
+<div class="stub">
+<div><b>2,598</b><small>stars</small></div>
+</div>
+</article>
+</div><!-- static-list:end --></div><div id="cardGrid" class="grid" hidden></div></div>
     <div id="moreWrap" class="more-wrap" hidden><button id="moreBtn">Show more</button><span id="moreInfo" aria-live="polite"></span></div>
   </div>
   <dialog class="pane" id="previewDialog" aria-label="Repo preview">
@@ -415,13 +659,14 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
     velocity, or forks. No account and no backend — the site is supported by ads served by Google, and your optional GitHub token (for a higher
     API rate limit) stays in your browser's localStorage only.
   </p>
+  <!-- browse:start --><p><a href="new/python.html">New Python repos</a> · <a href="new/rust.html">New Rust repos</a> · <a href="new/javascript.html">New JavaScript repos</a> · <a href="new/typescript.html">New TypeScript repos</a> · <a href="new/go.html">New Go repos</a> · <a href="new/cpp.html">New C++ repos</a> · <a href="new/swift.html">New Swift repos</a> · <a href="new/hidden-gems.html">Hidden gems</a> · <a href="digest/2026-W47.html">Latest digest: Week 47, 2026</a></p><!-- browse:end -->
 </section>
 
 <footer class="foot-links">
-  Data from the <a href="https://docs.github.com/en/rest/search" target="_blank" rel="noopener">GitHub Search API</a>, refreshed about every 30 minutes ·
-  score = stars a day × 0.5 + forks a day × 0.2 + push freshness × 0.2 + community × 0.1 ·
+  Data from the <a href="https://docs.github.com/en/rest/search" target="_blank" rel="noopener">GitHub Search API</a>, refreshed several times a day ·
+  score = recent stars a day × 0.5 + forks a day × 0.2 + push freshness × 0.2 + community × 0.1 ·
   <a href="feed.xml">RSS feed</a> ·
-  <a href="digest/index.html">Weekly digests</a> ·
+  <a href="digest/">Weekly digests</a> ·
   <a href="privacy.html">Privacy policy</a> ·
   built with Claude Code
 </footer>
@@ -440,6 +685,7 @@ dialog::backdrop { background: rgb(10 20 40 / .5); }
   </div>
 </dialog>
 
+<script src="rules.js?v=2"></script>
 <script>
 "use strict";
 /* ============ state ============ */
@@ -457,7 +703,7 @@ const state = {
   dataAsOf: null,
   history: {},
 };
-const CACHE_KEY = "ja-cache-v1";
+const CACHE_KEY = "ja-cache-v3";
 const TOKEN_KEY = "ja-token";
 const THEME_KEY = "ja-theme";
 const SAVED_KEY = "ja-saved-v1";
@@ -567,18 +813,11 @@ function repoImage(item) {
   return imageById.get(item.id) || "";
 }
 
+const recentById = new Map();
 function enrich(item) {
-  const created = new Date(item.created_at);
-  const pushed = new Date(item.pushed_at);
-  const ageDays = Math.max((Date.now() - created) / 864e5, 0.25);
-  const daysSincePush = (Date.now() - pushed) / 864e5;
-  const starsPerDay = item.stargazers_count / ageDays;
-  const forksPerDay = item.forks_count / ageDays;
-  // push freshness 0..10: pushed within the hour ≈ 10, a week ago ≈ 0
-  const pushFresh = Math.max(0, 10 - daysSincePush * 1.5);
-  // community proxy 0..10 from open issues+PRs (search API has no contributor count)
-  const community = Math.min(10, Math.sqrt(item.open_issues_count || 0) * 2);
-  const score = starsPerDay * 0.5 + forksPerDay * 0.2 + pushFresh * 0.2 + community * 0.1;
+  // Live search results and saved repos don't carry recent growth.
+  if (item.recent_per_day != null) recentById.set(item.id, item.recent_per_day);
+  const recent = recentById.get(item.id) ?? JA.recentPace(state.history[item.id], item.stargazers_count, Date.now()) ?? undefined;
   return {
     id: item.id,
     fullName: item.full_name,
@@ -597,10 +836,8 @@ function enrich(item) {
     issues: item.open_issues_count,
     createdAt: item.created_at,
     pushedAt: item.pushed_at,
-    ageDays, starsPerDay, forksPerDay, score,
-    isNew: ageDays <= 7,
-    aboutToTrend: ageDays < 14 && item.stargazers_count > 50 && starsPerDay > 20,
-    hiddenGem: item.stargazers_count < 500 && starsPerDay > 8,
+    ...JA.measure(item, Date.now(), recent),
+    recentPerDay: recent,
   };
 }
 
@@ -700,7 +937,7 @@ function recordSeen() {
 
 let snapshotPromise = null;
 function loadSnapshot() {
-  // Same-origin static file refreshed every ~30 min by a GitHub Actions job
+  // Same-origin static file refreshed several times a day by a GitHub Actions job
   // (see scripts/fetch-data.mjs) — lets normal page loads skip the
   // rate-limited GitHub Search API entirely.
   if (!snapshotPromise) {
@@ -744,7 +981,7 @@ async function fetchData(force) {
         const snap = await loadSnapshot();
         const items = snap.windows && snap.windows[String(state.ageDays)];
         if (items && items.length) {
-          state.repos = items.map(enrich);
+          state.repos = items.filter((x) => !JA.isBlocked(x)).map(enrich);
           try {
             localStorage.setItem(cacheId, JSON.stringify({
               at: Date.now(), repos: state.repos, dataAsOf: snap.generatedAt,
@@ -765,7 +1002,7 @@ async function fetchData(force) {
     if (!fulfilled.length) throw bandResults[0].reason;
     const seen = new Set();
     state.repos = fulfilled.flatMap((r) => r.value)
-      .filter((r) => !seen.has(r.id) && seen.add(r.id))
+      .filter((r) => !JA.isBlocked(r) && !seen.has(r.id) && seen.add(r.id))
       .map(enrich);
     const now = new Date().toISOString();
     try {
@@ -777,7 +1014,7 @@ async function fetchData(force) {
   } catch (err) {
     $("#errorBox").textContent = err.message;
     $("#errorBox").hidden = false;
-    if (!state.repos.length) showPlain(
+    if (!state.repos.length && !$("#plainView .static-card")) showPlain(
       '<div class="state"><p>Nothing loaded yet — see the message above.</p></div>');
   } finally {
     btn.classList.remove("spin");
@@ -805,7 +1042,7 @@ function applyCommonFilters(list) {
   return rs;
 }
 
-const isTrending = (r) => r.aboutToTrend || r.starsPerDay >= 15;
+const isTrending = (r) => r.aboutToTrend || r.pace >= 15;
 
 function currentSet() {
   const source = state.tab === "saved" ? savedRepos() : state.repos;
@@ -817,7 +1054,7 @@ function currentSet() {
   }
   const cmp = {
     score:    (a, b) => b.score - a.score,
-    velocity: (a, b) => b.starsPerDay - a.starsPerDay,
+    velocity: (a, b) => b.pace - a.pace,
     stars:    (a, b) => b.stars - a.stars,
     forks:    (a, b) => b.forks - a.forks,
     newest:   (a, b) => new Date(b.createdAt) - new Date(a.createdAt),
@@ -885,7 +1122,7 @@ function badgesFor(r) {
   if (isFresh(r)) b.push('<span class="badge fresh">New to you</span>');
   if (r.aboutToTrend) b.push('<span class="badge trend">About to trend</span>');
   else if (r.hiddenGem) b.push('<span class="badge gem">Hidden gem</span>');
-  else if (r.starsPerDay >= 15) b.push('<span class="badge grow">Growing fast</span>');
+  else if (r.pace >= 15) b.push('<span class="badge grow">Growing fast</span>');
   else if (r.isNew) b.push('<span class="badge new">New</span>');
   return b.join("");
 }
@@ -910,10 +1147,10 @@ function avatarHTML(r, size) {
 }
 
 // A repo under a day old has no full day to average, so show the stars it has
-// rather than a projection bigger than its total. Ranking still uses the pace.
+// rather than a projection bigger than its total. Ranking does the same (see rules.js).
 function paceOf(r) {
   const hours = (Date.now() - new Date(r.createdAt)) / 36e5;
-  if (hours >= 24) return { n: r.starsPerDay, label: "stars a day" };
+  if (hours >= 24) return { n: r.pace, label: r.recentPerDay != null ? "stars a day lately" : "stars a day" };
   return { n: r.stars, label: "so far (" + (hours < 1 ? "under 1h" : Math.floor(hours) + "h") + ")", partial: true };
 }
 
@@ -945,7 +1182,7 @@ function tableHTML(rs) {
     <td>${avatarHTML(r, 20)}<a href="${withUTM(r.url)}" target="_blank" rel="noopener">${esc(r.fullName)}</a></td>
     <td>${esc(r.lang) || "–"}</td>
     <td class="n">${fmt(r.stars)}</td>
-    <td class="n">${paceOf(r).partial ? num(r.stars) + " so far" : r.starsPerDay.toFixed(1)}</td>
+    <td class="n">${paceOf(r).partial ? num(r.stars) + " so far" : r.pace.toFixed(1)}</td>
     <td class="n">${fmt(r.forks)}</td>
     <td class="n">${fmt(r.issues)}</td>
     <td class="n">${Math.round(r.ageDays)}d</td>
@@ -1007,7 +1244,7 @@ function hashStr(s) {
   for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
   return h >>> 0;
 }
-// Same pick all day for this visitor: kept in storage, since data changes every 30 min.
+// Same pick all day for this visitor: kept in storage, since data changes through the day.
 function repoOfTheDay() {
   const day = utcDay();
   try {
@@ -1416,7 +1653,7 @@ function render(start = 0) {
     showPlain('<div class="state">' + (!any && state.tab === "saved"
       ? "<p>Nothing saved yet. Use the bookmark on any repo to keep it here.</p>"
       : !any && state.tab === "fresh"
-      ? "<p>Nothing new here since your last visit. Data refreshes about every 30 minutes.</p>"
+      ? "<p>Nothing new here since your last visit. Data refreshes several times a day.</p>"
       : "<p>No repos match these filters. Loosen the star threshold or widen the window.</p>" + reset) + "</div>");
     syncURLFromState();
     return;

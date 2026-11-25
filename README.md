@@ -6,7 +6,7 @@
 
 A single-page dashboard that surfaces brand-new, fast-growing repos from the
 GitHub Search API — no backend, no server. A GitHub Actions job refreshes a
-static `data.json` snapshot every ~30 min so a normal page load never has to
+static `data.json` snapshot several times a day so a normal page load never has to
 make a rate-limited API call itself; hit 🔑 Refresh for a live, up-to-the-
 second query instead.
 
@@ -23,11 +23,17 @@ second query instead.
 ## Scoring
 
 ```
-score = stars_per_day  × 0.5
+score = recent_stars_per_day × 0.5
       + forks_per_day  × 0.2
       + push_freshness × 0.2   (how recently it was pushed, 0–10)
       + community      × 0.1   (open issues + PRs proxy, 0–10)
 ```
+
+`recent_stars_per_day` compares today with the newest daily sample that is 1–4
+days old, and falls back to the lifetime average when there is none. A repo under
+24 hours old counts its actual stars and forks. This and the cheat/spam filter
+live in `rules.js`, shared by the dashboard and the scripts (bump its `?v=` in
+`index.html` when you change it).
 
 The Search API doesn't expose contributor counts or commit frequency directly,
 so push recency and issue/PR activity are used as lightweight proxies.
@@ -72,9 +78,15 @@ routed through a single shared, serialized delay to stay under GitHub's
 request fails, the rest of the snapshot still gets written.
 
 `scripts/build-digest.mjs` writes one `digest/<year>-W<week>.html` page per
-complete week, plus `digest/index.html` and `sitemap.xml`. Existing week pages
+complete week, plus `digest/index.html`. Existing week pages
 are never overwritten, so you can add commentary to them by hand.
 
-`.github/workflows/refresh-data.yml` runs the scripts on a 30-minute schedule
+`scripts/build-pages.mjs` then writes the static repo list in `index.html`
+(between the `static-list`, `static-total` and `browse` comment markers; don't
+edit inside them), the list pages in `new/`, and `sitemap.xml`. A list page with
+fewer than 10 repos keeps its previous version. Test with
+`node --test scripts/*.test.mjs`.
+
+`.github/workflows/refresh-data.yml` runs the scripts on a 30-minute schedule (GitHub often skips runs; expect one every several hours)
 (and on demand via `workflow_dispatch`) and commits the result. Run it
 yourself with `GITHUB_TOKEN=<token> node scripts/fetch-data.mjs`.

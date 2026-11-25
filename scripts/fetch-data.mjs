@@ -6,6 +6,8 @@
 // sampled at most once/day, for the UI's trend sparklines) and feed.xml (an
 // Atom feed of "about to trend" repos for subscribers).
 import { writeFile, readFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
+import "../rules.js";
 
 const WINDOWS = [7, 14, 30, 90];
 // GitHub search only sorts by total stars, so a single stars-desc query is
@@ -151,24 +153,15 @@ async function addImages(windows) {
   console.log(`${new Set(items.filter((r) => r.image).map((r) => r.id)).size} repos with a preview image`);
 }
 
-// Lightweight versions of the UI's derived-field logic, just enough to rank
-// "about to trend" repos for the Atom feed without duplicating the full
-// scoring model.
-function starsPerDay(item) {
-  const ageDays = Math.max((Date.now() - new Date(item.created_at)) / 864e5, 0.25);
-  return item.stargazers_count / ageDays;
-}
-function isAboutToTrend(item) {
-  const ageDays = (Date.now() - new Date(item.created_at)) / 864e5;
-  return ageDays < 14 && item.stargazers_count > 50 && starsPerDay(item) > 20;
-}
+const measure = (r, now) => globalThis.JA.measure(r, now, r.recent_per_day);
 
 function buildFeed(windows, generatedAt) {
+  const now = Date.parse(generatedAt);
   const byId = new Map();
   for (const item of windows[14] || []) byId.set(item.id, item);
   const entries = [...byId.values()]
-    .filter(isAboutToTrend)
-    .sort((a, b) => starsPerDay(b) - starsPerDay(a))
+    .filter((r) => measure(r, now).aboutToTrend)
+    .sort((a, b) => measure(b, now).pace - measure(a, now).pace)
     .slice(0, 30);
 
   const esc = (s) =>
@@ -182,7 +175,7 @@ function buildFeed(windows, generatedAt) {
     <link href="${esc(r.html_url)}"/>
     <updated>${new Date(r.pushed_at).toISOString()}</updated>
     <published>${new Date(r.created_at).toISOString()}</published>
-    <summary>${esc(r.description || "No description.")} — ★ ${r.stargazers_count} (${starsPerDay(r).toFixed(1)}/day)</summary>
+    <summary>${esc(r.description || "No description.")} — ★ ${r.stargazers_count} (${measure(r, now).pace.toFixed(1)}/day)</summary>
     <author><name>${esc(r.owner.login)}</name></author>
   </entry>`
     )
@@ -209,7 +202,7 @@ async function loadHistory() {
   }
 }
 
-// One point per repo per UTC day (the job runs every ~30 min, but a sparkline
+// One point per repo per UTC day (the job runs several times a day, but a sparkline
 // only needs daily resolution). Repos no longer present in any window today
 // are dropped so the file doesn't grow without bound.
 function updateHistory(prevHistory, windows, today) {
@@ -232,17 +225,22 @@ async function main() {
   if (!token) throw new Error("GITHUB_TOKEN env var is required");
   const windows = {};
   for (const days of WINDOWS) {
-    windows[days] = await fetchWindow(days);
+    const found = await fetchWindow(days);
+    windows[days] = found.filter((r) => !globalThis.JA.isBlocked(r));
+    if (found.length > windows[days].length) console.log(`window ${days}d: left out ${found.length - windows[days].length} cheat or spam repos`);
     console.log(`window ${days}d: ${windows[days].length} repos`);
   }
   await addImages(windows);
   const generatedAt = new Date().toISOString();
+  const history = updateHistory(await loadHistory(), windows, generatedAt.slice(0, 10));
+  for (const r of Object.values(windows).flat()) {
+    const recent = globalThis.JA.recentPace(history[r.id], r.stargazers_count, Date.parse(generatedAt));
+    if (recent != null) r.recent_per_day = Math.round(recent * 100) / 100;
+  }
   const snapshot = { generatedAt, windows };
   await writeFile(new URL("../data.json", import.meta.url), JSON.stringify(snapshot));
   console.log("wrote data.json");
 
-  const prevHistory = await loadHistory();
-  const history = updateHistory(prevHistory, windows, generatedAt.slice(0, 10));
   await writeFile(new URL("../history.json", import.meta.url), JSON.stringify(history));
   console.log(`wrote history.json (${Object.keys(history).length} repos)`);
 
@@ -251,7 +249,7 @@ async function main() {
   console.log("wrote feed.xml");
 }
 
-main().catch((err) => {
+if (import.meta.url === pathToFileURL(process.argv[1] || "").href) main().catch((err) => {
   console.error(err);
   process.exit(1);
 });

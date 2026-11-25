@@ -2,22 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sharma-open-source.github.io/just-arrived/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-25</lastmod>
   </url>
   <url>
     <loc>https://sharma-open-source.github.io/just-arrived/digest/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-11-24</lastmod>
   </url>
   <url>
     <loc>https://sharma-open-source.github.io/just-arrived/digest/2026-W47.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://sharma-open-source.github.io/just-arrived/new/python.html</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://sharma-open-source.github.io/just-arrived/new/rust.html</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://sharma-open-source.github.io/just-arrived/new/javascript.html</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://sharma-open-source.github.io/just-arrived/new/typescript.html</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://sharma-open-source.github.io/just-arrived/new/go.html</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://sharma-open-source.github.io/just-arrived/new/cpp.html</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://sharma-open-source.github.io/just-arrived/new/swift.html</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://sharma-open-source.github.io/just-arrived/new/hidden-gems.html</loc>
+    <lastmod>2026-11-25</lastmod>
   </url>
   <url>
     <loc>https://sharma-open-source.github.io/just-arrived/privacy.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-11-24</lastmod>
   </url>
 </urlset>

@@ -1,18 +1,12 @@
 #!/usr/bin/env node
 // Builds digest/<year>-W<week>.html for the last complete ISO week (Mon–Sun,
-// UTC) from data.json and history.json, then rebuilds digest/index.html and
-// sitemap.xml. An existing week page is never overwritten, so its numbers stay
-// put and it is safe to add commentary to it by hand.
+// UTC) from data.json and history.json, then rebuilds digest/index.html. An
+// existing week page is never overwritten, so its numbers stay put and it is
+// safe to add commentary to it by hand.
 import { readFile, writeFile, readdir, mkdir, access } from "node:fs/promises";
+import { DAY, iso, esc, num, nice, page, isBlocked } from "./site.mjs";
 
 const ROOT = new URL("../", import.meta.url);
-const SITE = "https://sharma-open-source.github.io/just-arrived/";
-const DAY = 864e5;
-const iso = (ms) => new Date(ms).toISOString().slice(0, 10);
-const esc = (s) =>
-  String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const num = (n) => n.toLocaleString("en-US");
-const nice = (d) => new Date(d).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 
 function lastWeek(now) {
   const midnight = Date.parse(iso(now));
@@ -24,43 +18,16 @@ function lastWeek(now) {
   return { monday, id: `${year}-W${String(week).padStart(2, "0")}` };
 }
 
-function page({ title, desc, path, body }) {
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(title)}</title>
-<meta name="description" content="${esc(desc)}">
-<link rel="canonical" href="${SITE}${path}">
-<meta property="og:type" content="article">
-<meta property="og:title" content="${esc(title)}">
-<meta property="og:description" content="${esc(desc)}">
-<meta property="og:url" content="${SITE}${path}">
-<meta property="og:image" content="${SITE}og-image.png">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="../theme.css?v=2">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4743008845908654"
-     crossorigin="anonymous"></script>
-</head>
-<body>
-<script>
-try { const t = localStorage.getItem("ja-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
-</script>
-<header class="sign"><div class="in"><a class="logo" href="../index.html"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="4" fill="#15233b"/><path d="M10 9v14h14M10 23 24 9" fill="none" stroke="#ffc72c" stroke-width="4"/></svg>Just Arrived</a><nav aria-label="Site"><a href="../digest/index.html">Digest</a></nav></div></header>
-<main class="doc digest">
-${body}
-<footer class="muted"><a href="../index.html">Just Arrived</a> · <a href="index.html">All digests</a> · <a href="../privacy.html">Privacy policy</a></footer>
-</main>
-</body>
-</html>
-`;
+function median(nums) {
+  const s = [...nums].sort((a, b) => a - b);
+  const mid = Math.floor(s.length / 2);
+  return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
 }
 
 function buildWeek({ monday, id }, data, history) {
   const repos = new Map();
   for (const items of Object.values(data.windows)) for (const r of items) repos.set(r.id, r);
-  const all = [...repos.values()];
+  const all = [...repos.values()].filter((r) => !isBlocked(r));
   const next = monday + 7 * DAY;
   const fresh = all
     .filter((r) => Date.parse(r.created_at) >= monday && Date.parse(r.created_at) < next)
@@ -79,10 +46,17 @@ function buildWeek({ monday, id }, data, history) {
   for (const r of fresh) if (r.language) langs[r.language] = (langs[r.language] || 0) + 1;
   const topLangs = Object.entries(langs).sort((a, b) => b[1] - a[1]).slice(0, 5);
 
+  const topics = {};
+  for (const r of fresh) for (const t of r.topics || []) topics[t] = (topics[t] || 0) + 1;
+  const topTopics = Object.entries(topics).sort((a, b) => b[1] - a[1]).slice(0, 3);
+
+  const medianStars = median(fresh.map((r) => r.stargazers_count));
+  const atLeast1000 = fresh.filter((r) => r.stargazers_count >= 1000).length;
+
   const item = (r, stat) => `<li>
 <a href="${esc(r.html_url)}" rel="noopener nofollow"><strong>${esc(r.full_name)}</strong></a>
 <p>${esc(r.description || "No description.")}</p>
-<p class="muted">${[stat, r.language].filter(Boolean).map(esc).join(" · ")} · <a href="../index.html?repo=${esc(encodeURIComponent(r.full_name))}">View on Just Arrived</a></p>
+<p class="muted">${[stat, r.language].filter(Boolean).map(esc).join(" · ")} · <a href="../?repo=${esc(encodeURIComponent(r.full_name))}">View on Just Arrived</a></p>
 </li>`;
 
   const range = `${nice(monday)} – ${nice(next - DAY)}`;
@@ -92,11 +66,13 @@ function buildWeek({ monday, id }, data, history) {
     title: `Top new GitHub repos, ${range} — Just Arrived`,
     desc,
     path: `digest/${id}.html`,
-    body: `<p><a href="index.html">← Weekly digests</a></p>
-<h1>Top new GitHub repos</h1>
-<p class="muted">${range} · star counts as of ${nice(data.generatedAt)}</p>
+    body: `<p><a href="./">← Weekly digests</a></p>
+<h1>Top new GitHub repos, ${range}</h1>
+<p class="muted">Star counts as of ${nice(data.generatedAt)}</p>
 <p>Just Arrived sampled ${num(fresh.length)} repositories created this week. <strong>${esc(top.full_name)}</strong> leads with ${num(top.stargazers_count)} stars.${
       topLangs.length ? ` The most common languages were ${topLangs.map(([l, n]) => `${esc(l)} (${n})`).join(", ")}.` : ""}</p>
+<p>The median new repo has ${num(Math.round(medianStars))} stars, and ${num(atLeast1000)} of them already have at least 1,000.${
+      topTopics.length ? ` The most common topics were ${topTopics.map(([t, n]) => `${esc(t)} (${n})`).join(", ")}.` : ""}</p>
 <h2>Top 20 created this week</h2>
 <ol>
 ${fresh.slice(0, 20).map((r) => item(r, `★ ${num(r.stargazers_count)}`)).join("\n")}
@@ -133,24 +109,13 @@ async function main() {
     title: "Weekly GitHub digests — Just Arrived",
     desc: "Weekly lists of the top new and fastest-growing GitHub repositories.",
     path: "digest/",
-    body: `<p><a href="../index.html">← Just Arrived</a></p>
+    body: `<p><a href="../">← Just Arrived</a></p>
 <h1>Weekly digests</h1>
 <p>The top new and fastest-growing GitHub repositories, week by week.</p>
 <ul>
 ${ids.map((id) => `<li><a href="${id}.html">Week ${+id.slice(6)}, ${id.slice(0, 4)}</a></li>`).join("\n")}
 </ul>`,
   }));
-
-  const url = (path, freq, prio) => `  <url>
-    <loc>${SITE}${path}</loc>
-    <changefreq>${freq}</changefreq>
-    <priority>${prio}</priority>
-  </url>`;
-  await writeFile(new URL("sitemap.xml", ROOT), `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${[url("", "weekly", "1.0"), url("digest/", "weekly", "0.7"), ...ids.map((id) => url(`digest/${id}.html`, "yearly", "0.6")), url("privacy.html", "yearly", "0.3")].join("\n")}
-</urlset>
-`);
 }
 
 main().catch((err) => {

@@ -21,7 +21,7 @@ Taken from the existing site copy and code, not separately confirmed: it ranks r
 ## Operating Context
 
 - Live at https://sharma-open-source.github.io/just-arrived/, hosted on GitHub Pages.
-- A GitHub Actions job aims to refresh `data.json`, `history.json` and `feed.xml` about every 30 minutes. Normal visits load that snapshot; the Refresh control queries GitHub live.
+- A GitHub Actions job aims to refresh `data.json`, `history.json` and `feed.xml` every 30 minutes, though GitHub often skips runs. Normal visits load that snapshot; the Refresh control queries GitHub live.
 - Reasons to return: Since last visit, saved repos with star gains, repo of the day, Just landed, weekly digests and an Atom feed.
 - Visitors filter, open a repo preview with its README, then continue to GitHub. Filters and individual repos have shareable URLs.
 
