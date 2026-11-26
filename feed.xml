@@ -5,42 +5,42 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-26T11:29:54.892Z</updated>
+  <updated>2026-11-26T20:33:12.906Z</updated>
+  <entry>
+    <id>https://github.com/avatarmanz/VIctory-7900XTX</id>
+    <title>avatarmanz/VIctory-7900XTX</title>
+    <link href="https://github.com/avatarmanz/VIctory-7900XTX"/>
+    <updated>2026-11-26T20:29:47.000Z</updated>
+    <published>2026-11-25T22:18:14.000Z</published>
+    <summary>Goal: an Xbox Series title (your own dump) on PC as the Series X version at 4K with ray tracing, picture matching the Xbox first (textures, lighting), then 30+ fps. Porting, not emulating. RX 7900 XTX first. No game files. — ★ 1816 (1816.0/day)</summary>
+    <author><name>avatarmanz</name></author>
+  </entry>
   <entry>
     <id>https://github.com/Belobug/VIctory-Belobug-AMD</id>
     <title>Belobug/VIctory-Belobug-AMD</title>
     <link href="https://github.com/Belobug/VIctory-Belobug-AMD"/>
-    <updated>2026-11-26T00:57:17.000Z</updated>
+    <updated>2026-11-26T17:52:43.000Z</updated>
     <published>2026-11-25T09:41:37.000Z</published>
-    <summary>No description. — ★ 1717 (1596.9/day)</summary>
+    <summary>No description. — ★ 2330 (1604.1/day)</summary>
     <author><name>Belobug</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/fxceless/victory-fork</id>
-    <title>fxceless/victory-fork</title>
-    <link href="https://github.com/fxceless/victory-fork"/>
-    <updated>2026-11-26T11:18:50.000Z</updated>
-    <published>2026-11-24T18:02:37.000Z</published>
-    <summary>Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files. — ★ 3187 (1542.8/day)</summary>
-    <author><name>fxceless</name></author>
   </entry>
   <entry>
     <id>https://github.com/4lwayz/portwatch-vi</id>
     <title>4lwayz/portwatch-vi</title>
     <link href="https://github.com/4lwayz/portwatch-vi"/>
-    <updated>2026-11-26T10:25:43.000Z</updated>
+    <updated>2026-11-26T19:16:16.000Z</updated>
     <published>2026-11-21T23:16:41.000Z</published>
-    <summary>Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily. — ★ 4852 (1504.3/day)</summary>
+    <summary>Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily. — ★ 5509 (1552.5/day)</summary>
     <author><name>4lwayz</name></author>
   </entry>
   <entry>
-    <id>https://github.com/avatarmanz/VIctory-7900XTX</id>
-    <title>avatarmanz/VIctory-7900XTX</title>
-    <link href="https://github.com/avatarmanz/VIctory-7900XTX"/>
-    <updated>2026-11-26T10:17:57.000Z</updated>
-    <published>2026-11-25T22:18:14.000Z</published>
-    <summary>Goal: an Xbox Series title (your own dump) at a stable 30+ fps on PC without ray tracing, then higher. Porting, not emulating: renderer patches + ahead-of-time shaders, RX 7900 XTX first. No game files. — ★ 1477 (1477.0/day)</summary>
-    <author><name>avatarmanz</name></author>
+    <id>https://github.com/fxceless/victory-fork</id>
+    <title>fxceless/victory-fork</title>
+    <link href="https://github.com/fxceless/victory-fork"/>
+    <updated>2026-11-26T18:08:14.000Z</updated>
+    <published>2026-11-24T18:02:37.000Z</published>
+    <summary>Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files. — ★ 3262 (1269.7/day)</summary>
+    <author><name>fxceless</name></author>
   </entry>
   <entry>
     <id>https://github.com/Marvisak/VIctory</id>
@@ -48,7 +48,7 @@
     <link href="https://github.com/Marvisak/VIctory"/>
     <updated>2026-11-25T23:27:48.000Z</updated>
     <published>2026-11-23T21:47:25.000Z</published>
-    <summary>An attempt at running GTA VI on PC — ★ 12912 (1297.4/day)</summary>
+    <summary>An attempt at running GTA VI on PC — ★ 13238 (1209.3/day)</summary>
     <author><name>Marvisak</name></author>
   </entry>
   <entry>
@@ -57,7 +57,7 @@
     <link href="https://github.com/RMvdesi/obsidian-prism"/>
     <updated>2026-11-26T02:04:56.000Z</updated>
     <published>2026-11-17T02:50:21.000Z</published>
-    <summary>Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots &amp; dual-mode thought suite for Antigravity (GPL-3.0) — ★ 1766 (945.8/day)</summary>
+    <summary>Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots &amp; dual-mode thought suite for Antigravity (GPL-3.0) — ★ 2206 (990.6/day)</summary>
     <author><name>RMvdesi</name></author>
   </entry>
   <entry>
@@ -66,17 +66,8 @@
     <link href="https://github.com/alesha-pro/llm.asm"/>
     <updated>2026-11-25T15:42:44.000Z</updated>
     <published>2026-11-25T07:28:51.000Z</published>
-    <summary>Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies. — ★ 913 (782.1/day)</summary>
+    <summary>Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies. — ★ 1368 (885.6/day)</summary>
     <author><name>alesha-pro</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/crhywun/g1-acq</id>
-    <title>crhywun/g1-acq</title>
-    <link href="https://github.com/crhywun/g1-acq"/>
-    <updated>2026-11-26T07:05:45.000Z</updated>
-    <published>2026-11-22T10:53:17.000Z</published>
-    <summary>No description. — ★ 1478 (696.4/day)</summary>
-    <author><name>crhywun</name></author>
   </entry>
   <entry>
     <id>https://github.com/lsernau/grh-lean</id>
@@ -84,26 +75,35 @@
     <link href="https://github.com/lsernau/grh-lean"/>
     <updated>2026-11-25T20:45:04.000Z</updated>
     <published>2026-11-25T20:42:55.000Z</published>
-    <summary>A short Lean 4 proof of the Generalized Riemann Hypothesis — ★ 688 (688.0/day)</summary>
+    <summary>A short Lean 4 proof of the Generalized Riemann Hypothesis — ★ 847 (847.0/day)</summary>
     <author><name>lsernau</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Indigo-0167/universal-game-mod-manager</id>
-    <title>Indigo-0167/universal-game-mod-manager</title>
-    <link href="https://github.com/Indigo-0167/universal-game-mod-manager"/>
-    <updated>2026-11-23T21:30:46.000Z</updated>
-    <published>2026-11-23T21:30:10.000Z</published>
-    <summary>Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods. — ★ 1300 (649.0/day)</summary>
-    <author><name>Indigo-0167</name></author>
+    <id>https://github.com/Reukix/Reloc</id>
+    <title>Reukix/Reloc</title>
+    <link href="https://github.com/Reukix/Reloc"/>
+    <updated>2026-11-26T17:30:26.000Z</updated>
+    <published>2026-11-25T17:29:48.000Z</published>
+    <summary>iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA) — ★ 713 (632.4/day)</summary>
+    <author><name>Reukix</name></author>
   </entry>
   <entry>
-    <id>https://github.com/AFK-surf/xnulinux</id>
-    <title>AFK-surf/xnulinux</title>
-    <link href="https://github.com/AFK-surf/xnulinux"/>
-    <updated>2026-11-26T09:38:39.000Z</updated>
-    <published>2026-11-20T10:18:31.000Z</published>
-    <summary>XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux) — ★ 4095 (555.1/day)</summary>
-    <author><name>AFK-surf</name></author>
+    <id>https://github.com/crhywun/g1-acq</id>
+    <title>crhywun/g1-acq</title>
+    <link href="https://github.com/crhywun/g1-acq"/>
+    <updated>2026-11-26T14:29:58.000Z</updated>
+    <published>2026-11-22T10:53:17.000Z</published>
+    <summary>No description. — ★ 1620 (631.3/day)</summary>
+    <author><name>crhywun</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/DoubleGhosty/cool_fox</id>
+    <title>DoubleGhosty/cool_fox</title>
+    <link href="https://github.com/DoubleGhosty/cool_fox"/>
+    <updated>2026-11-26T20:26:42.000Z</updated>
+    <published>2026-11-26T08:48:31.000Z</published>
+    <summary>cool_fox: Leading CGBJ runtime continuation for GTA VI PC - Pareto residency, Wine/Vulkan fixes, FPS unlock, Port 5 CBV — ★ 619 (619.0/day)</summary>
+    <author><name>DoubleGhosty</name></author>
   </entry>
   <entry>
     <id>https://github.com/Hut-hzf/ung220z-tool</id>
@@ -111,8 +111,62 @@
     <link href="https://github.com/Hut-hzf/ung220z-tool"/>
     <updated>2026-11-22T07:06:43.000Z</updated>
     <published>2026-11-15T11:16:46.000Z</published>
-    <summary>ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 5201 (542.9/day)</summary>
+    <summary>ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 5472 (578.5/day)</summary>
     <author><name>Hut-hzf</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Indigo-0167/universal-game-mod-manager</id>
+    <title>Indigo-0167/universal-game-mod-manager</title>
+    <link href="https://github.com/Indigo-0167/universal-game-mod-manager"/>
+    <updated>2026-11-23T21:30:46.000Z</updated>
+    <published>2026-11-23T21:30:10.000Z</published>
+    <summary>Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods. — ★ 1301 (517.7/day)</summary>
+    <author><name>Indigo-0167</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/erkamyaman/rust-anything</id>
+    <title>erkamyaman/rust-anything</title>
+    <link href="https://github.com/erkamyaman/rust-anything"/>
+    <updated>2026-11-26T19:14:31.000Z</updated>
+    <published>2026-11-16T12:10:36.000Z</published>
+    <summary>Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell. — ★ 10132 (515.5/day)</summary>
+    <author><name>erkamyaman</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/AFK-surf/xnulinux</id>
+    <title>AFK-surf/xnulinux</title>
+    <link href="https://github.com/AFK-surf/xnulinux"/>
+    <updated>2026-11-26T17:00:56.000Z</updated>
+    <published>2026-11-20T10:18:31.000Z</published>
+    <summary>XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux) — ★ 4215 (506.9/day)</summary>
+    <author><name>AFK-surf</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/nexu-io/opengame</id>
+    <title>nexu-io/opengame</title>
+    <link href="https://github.com/nexu-io/opengame"/>
+    <updated>2026-11-26T18:30:56.000Z</updated>
+    <published>2026-11-25T10:35:45.000Z</published>
+    <summary>The Super Game Agent — the Unity &amp; Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D &amp; mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more. — ★ 700 (494.7/day)</summary>
+    <author><name>nexu-io</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/xcl-dev/xcl</id>
+    <title>xcl-dev/xcl</title>
+    <link href="https://github.com/xcl-dev/xcl"/>
+    <updated>2026-11-26T18:26:53.000Z</updated>
+    <published>2026-11-20T20:03:21.000Z</published>
+    <summary>Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL — ★ 8573 (464.3/day)</summary>
+    <author><name>xcl-dev</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/WhiteBr1ck/agy-powertools</id>
+    <title>WhiteBr1ck/agy-powertools</title>
+    <link href="https://github.com/WhiteBr1ck/agy-powertools"/>
+    <updated>2026-11-26T16:58:41.000Z</updated>
+    <published>2026-11-16T21:35:31.000Z</published>
+    <summary>Antigravity 2.0 原生界面增强插件：界面汉化、类 Codex 紧凑排版与阶段汇报、上下文与缓存监控、会话分支及本地用量面板 — ★ 1285 (456.3/day)</summary>
+    <author><name>WhiteBr1ck</name></author>
   </entry>
   <entry>
     <id>https://github.com/Umbra9179/clipboard-history-manager-windows</id>
@@ -120,62 +174,44 @@
     <link href="https://github.com/Umbra9179/clipboard-history-manager-windows"/>
     <updated>2026-11-23T21:40:42.000Z</updated>
     <published>2026-11-23T21:40:15.000Z</published>
-    <summary>Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup. — ★ 1262 (489.9/day)</summary>
+    <summary>Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup. — ★ 1263 (427.6/day)</summary>
     <author><name>Umbra9179</name></author>
   </entry>
   <entry>
-    <id>https://github.com/WhiteBr1ck/agy-powertools</id>
-    <title>WhiteBr1ck/agy-powertools</title>
-    <link href="https://github.com/WhiteBr1ck/agy-powertools"/>
-    <updated>2026-11-26T10:52:23.000Z</updated>
-    <published>2026-11-16T21:35:31.000Z</published>
-    <summary>Antigravity 2.0 原生界面增强插件：界面汉化、类 Codex 紧凑排版与阶段汇报、上下文与缓存监控、会话分支及本地用量面板 — ★ 1159 (487.5/day)</summary>
-    <author><name>WhiteBr1ck</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/xcl-dev/xcl</id>
-    <title>xcl-dev/xcl</title>
-    <link href="https://github.com/xcl-dev/xcl"/>
-    <updated>2026-11-26T06:10:46.000Z</updated>
-    <published>2026-11-20T20:03:21.000Z</published>
-    <summary>Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL — ★ 8422 (480.7/day)</summary>
-    <author><name>xcl-dev</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/qianyiai/kurocat</id>
-    <title>qianyiai/kurocat</title>
-    <link href="https://github.com/qianyiai/kurocat"/>
-    <updated>2026-11-26T10:39:37.000Z</updated>
+    <id>https://github.com/qianyiai/KuroCat</id>
+    <title>qianyiai/KuroCat</title>
+    <link href="https://github.com/qianyiai/KuroCat"/>
+    <updated>2026-11-26T18:29:35.000Z</updated>
     <published>2026-11-21T15:49:31.000Z</published>
-    <summary>KuroCat — Free open-source 3D/2D desktop typing cat &amp; AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣 — ★ 1240 (433.4/day)</summary>
+    <summary>KuroCat — Free open-source 3D/2D desktop typing cat &amp; AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣 — ★ 1330 (393.8/day)</summary>
     <author><name>qianyiai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/erkamyaman/rust-anything</id>
-    <title>erkamyaman/rust-anything</title>
-    <link href="https://github.com/erkamyaman/rust-anything"/>
-    <updated>2026-11-26T10:22:32.000Z</updated>
-    <published>2026-11-16T12:10:36.000Z</published>
-    <summary>Rewrite your whole app in Rust, one piece at a time, checked against the original&#39;s recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. — ★ 9814 (432.0/day)</summary>
-    <author><name>erkamyaman</name></author>
   </entry>
   <entry>
     <id>https://github.com/ubiquitarianism/leonida</id>
     <title>ubiquitarianism/leonida</title>
     <link href="https://github.com/ubiquitarianism/leonida"/>
-    <updated>2026-11-26T03:35:47.000Z</updated>
+    <updated>2026-11-26T19:43:42.000Z</updated>
     <published>2026-11-23T23:54:39.000Z</published>
-    <summary>A continuation of Leonida, the Xbox &gt; PC port interface for GTA VI — ★ 2417 (430.0/day)</summary>
+    <summary>A continuation of Leonida, the Xbox &gt; PC port interface for GTA VI — ★ 2509 (392.2/day)</summary>
     <author><name>ubiquitarianism</name></author>
   </entry>
   <entry>
     <id>https://github.com/pierridotite/mobile-agent-testers</id>
     <title>pierridotite/mobile-agent-testers</title>
     <link href="https://github.com/pierridotite/mobile-agent-testers"/>
-    <updated>2026-11-26T11:19:29.000Z</updated>
+    <updated>2026-11-26T14:33:04.000Z</updated>
     <published>2026-11-16T19:11:44.000Z</published>
-    <summary>20 AI testers on 20 different phones, in parallel, on GitHub&#39;s free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs — ★ 2421 (419.9/day)</summary>
+    <summary>20 AI testers on 20 different phones, in parallel, on GitHub&#39;s free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs — ★ 2490 (371.7/day)</summary>
     <author><name>pierridotite</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/hunterhughes74/PClabs</id>
+    <title>hunterhughes74/PClabs</title>
+    <link href="https://github.com/hunterhughes74/PClabs"/>
+    <updated>2026-11-26T10:19:33.000Z</updated>
+    <published>2026-11-26T10:19:13.000Z</published>
+    <summary>No description. — ★ 364 (364.0/day)</summary>
+    <author><name>hunterhughes74</name></author>
   </entry>
   <entry>
     <id>https://github.com/zero5122/offline-file-converter-windows</id>
@@ -183,7 +219,7 @@
     <link href="https://github.com/zero5122/offline-file-converter-windows"/>
     <updated>2026-11-23T21:39:16.000Z</updated>
     <published>2026-11-23T21:38:47.000Z</published>
-    <summary>Free offline file converter for Windows – convert PDF, documents, images, audio and video privately. — ★ 1064 (412.9/day)</summary>
+    <summary>Free offline file converter for Windows – convert PDF, documents, images, audio and video privately. — ★ 1071 (362.5/day)</summary>
     <author><name>zero5122</name></author>
   </entry>
   <entry>
@@ -192,7 +228,7 @@
     <link href="https://github.com/solv4626/steam-achievement-manager-windows"/>
     <updated>2026-11-23T21:32:09.000Z</updated>
     <published>2026-11-23T21:31:33.000Z</published>
-    <summary>Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics. — ★ 1058 (409.7/day)</summary>
+    <summary>Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics. — ★ 1058 (357.5/day)</summary>
     <author><name>solv4626</name></author>
   </entry>
   <entry>
@@ -201,7 +237,7 @@
     <link href="https://github.com/kai415-debug/ffmpeg-video-audio-converter"/>
     <updated>2026-11-23T21:33:23.000Z</updated>
     <published>2026-11-23T21:32:56.000Z</published>
-    <summary>Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding. — ★ 1020 (395.2/day)</summary>
+    <summary>Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding. — ★ 1020 (344.8/day)</summary>
     <author><name>kai415-debug</name></author>
   </entry>
   <entry>
@@ -210,7 +246,7 @@
     <link href="https://github.com/EL4CTEO/fast-anything"/>
     <updated>2026-11-25T16:23:36.000Z</updated>
     <published>2026-11-21T14:40:27.000Z</published>
-    <summary>Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. — ★ 4111 (367.1/day)</summary>
+    <summary>Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. — ★ 4205 (343.1/day)</summary>
     <author><name>EL4CTEO</name></author>
   </entry>
   <entry>
@@ -219,61 +255,25 @@
     <link href="https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop"/>
     <updated>2026-11-26T11:03:33.000Z</updated>
     <published>2026-11-22T18:50:17.000Z</published>
-    <summary>Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in — ★ 1350 (360.4/day)</summary>
+    <summary>Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in — ★ 1450 (341.0/day)</summary>
     <author><name>Avaneesh-Inamdar</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/HoangMinh-sikula/rob-run-mod-trainer</id>
-    <title>HoangMinh-sikula/rob-run-mod-trainer</title>
-    <link href="https://github.com/HoangMinh-sikula/rob-run-mod-trainer"/>
-    <updated>2026-11-26T09:53:13.000Z</updated>
-    <published>2026-11-25T14:47:37.000Z</published>
-    <summary>Rob Run Mod Trainer: Shape Your Run, Bend the Rules, Build the Mod — ★ 335 (335.0/day)</summary>
-    <author><name>HoangMinh-sikula</name></author>
   </entry>
   <entry>
     <id>https://github.com/INK-Q/agy-fast</id>
     <title>INK-Q/agy-fast</title>
     <link href="https://github.com/INK-Q/agy-fast"/>
-    <updated>2026-11-26T06:12:41.000Z</updated>
+    <updated>2026-11-26T14:57:13.000Z</updated>
     <published>2026-11-19T04:58:46.000Z</published>
-    <summary>Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs. — ★ 1628 (324.5/day)</summary>
+    <summary>Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs. — ★ 1703 (299.0/day)</summary>
     <author><name>INK-Q</name></author>
   </entry>
   <entry>
-    <id>https://github.com/deterministic-machines/deslop-please</id>
-    <title>deterministic-machines/deslop-please</title>
-    <link href="https://github.com/deterministic-machines/deslop-please"/>
-    <updated>2026-11-25T23:08:48.000Z</updated>
-    <published>2026-11-22T05:36:03.000Z</published>
-    <summary>Bring (back) sanity to your code — ★ 1108 (297.5/day)</summary>
-    <author><name>deterministic-machines</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/olive527/steam-library-manager-windows</id>
-    <title>olive527/steam-library-manager-windows</title>
-    <link href="https://github.com/olive527/steam-library-manager-windows"/>
-    <updated>2026-11-23T21:18:52.000Z</updated>
-    <published>2026-11-23T21:18:03.000Z</published>
-    <summary>Free Windows game library manager and backup tool for Steam, Origin and Ubisoft Connect with multi-library support. — ★ 719 (277.4/day)</summary>
-    <author><name>olive527</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Nebula4207/av1-video-encoder-gui</id>
-    <title>Nebula4207/av1-video-encoder-gui</title>
-    <link href="https://github.com/Nebula4207/av1-video-encoder-gui"/>
-    <updated>2026-11-23T21:35:03.000Z</updated>
-    <published>2026-11-23T21:34:14.000Z</published>
-    <summary>Free Windows AV1 video encoder GUI for aomenc, rav1e, SVT-AV1, NVENC, Quick Sync and VP9 with parallel encoding. — ★ 681 (263.9/day)</summary>
-    <author><name>Nebula4207</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Basil0879/steam-game-idler</id>
-    <title>Basil0879/steam-game-idler</title>
-    <link href="https://github.com/Basil0879/steam-game-idler"/>
-    <updated>2026-11-23T21:20:45.000Z</updated>
-    <published>2026-11-23T21:19:48.000Z</published>
-    <summary>Free Steam idler for trading card farming, achievement management, playtime boosting and multi-account automation on Windows. — ★ 681 (262.9/day)</summary>
-    <author><name>Basil0879</name></author>
+    <id>https://github.com/Moh4696/inkworks-skill</id>
+    <title>Moh4696/inkworks-skill</title>
+    <link href="https://github.com/Moh4696/inkworks-skill"/>
+    <updated>2026-11-25T13:53:35.000Z</updated>
+    <published>2026-11-25T09:26:33.000Z</published>
+    <summary>Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet. — ★ 429 (293.2/day)</summary>
+    <author><name>Moh4696</name></author>
   </entry>
 </feed>
