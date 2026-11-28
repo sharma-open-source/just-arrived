@@ -5,42 +5,15 @@
   <link href="https://sharma-open-source.github.io/just-arrived/feed.xml" rel="self"/>
   <link href="https://sharma-open-source.github.io/just-arrived/"/>
   <id>https://sharma-open-source.github.io/just-arrived/</id>
-  <updated>2026-11-27T21:58:23.025Z</updated>
-  <entry>
-    <id>https://github.com/4lwayz/portwatch-vi</id>
-    <title>4lwayz/portwatch-vi</title>
-    <link href="https://github.com/4lwayz/portwatch-vi"/>
-    <updated>2026-11-27T19:38:52.000Z</updated>
-    <published>2026-11-21T23:16:41.000Z</published>
-    <summary>Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily. — ★ 6661 (1508.2/day)</summary>
-    <author><name>4lwayz</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer</id>
-    <title>Pixel679-cmyk/windows-titlebar-blur-customizer</title>
-    <link href="https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer"/>
-    <updated>2026-11-26T21:27:28.000Z</updated>
-    <published>2026-11-26T21:26:56.000Z</published>
-    <summary>Customize Windows 10 and 11 title bar effects with Aero, Acrylic, Mica and advanced DWM blur effects. — ★ 1505 (1472.8/day)</summary>
-    <author><name>Pixel679-cmyk</name></author>
-  </entry>
+  <updated>2026-11-28T03:53:34.686Z</updated>
   <entry>
     <id>https://github.com/trustno1-coder/VIctory-NVIDIA</id>
     <title>trustno1-coder/VIctory-NVIDIA</title>
     <link href="https://github.com/trustno1-coder/VIctory-NVIDIA"/>
-    <updated>2026-11-27T21:31:30.000Z</updated>
+    <updated>2026-11-28T02:44:56.000Z</updated>
     <published>2026-11-25T23:35:29.000Z</published>
-    <summary>VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included. — ★ 2687 (1390.4/day)</summary>
+    <summary>VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included. — ★ 3783 (3163.8/day)</summary>
     <author><name>trustno1-coder</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/RMvdesi/obsidian-prism</id>
-    <title>RMvdesi/obsidian-prism</title>
-    <link href="https://github.com/RMvdesi/obsidian-prism"/>
-    <updated>2026-11-27T12:08:29.000Z</updated>
-    <published>2026-11-17T02:50:21.000Z</published>
-    <summary>Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots &amp; dual-mode thought suite for Antigravity (GPL-3.0) — ★ 2919 (1057.7/day)</summary>
-    <author><name>RMvdesi</name></author>
   </entry>
   <entry>
     <id>https://github.com/nexu-io/opengame</id>
@@ -48,26 +21,26 @@
     <link href="https://github.com/nexu-io/opengame"/>
     <updated>2026-11-27T21:15:04.000Z</updated>
     <published>2026-11-25T10:35:45.000Z</published>
-    <summary>The Super Game Agent — the Unity &amp; Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D &amp; mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more. — ★ 2173 (878.3/day)</summary>
+    <summary>The Super Game Agent — the Unity &amp; Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D &amp; mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more. — ★ 2365 (1432.6/day)</summary>
     <author><name>nexu-io</name></author>
   </entry>
   <entry>
-    <id>https://github.com/alesha-pro/llm.asm</id>
-    <title>alesha-pro/llm.asm</title>
-    <link href="https://github.com/alesha-pro/llm.asm"/>
-    <updated>2026-11-27T20:40:20.000Z</updated>
-    <published>2026-11-25T07:28:51.000Z</published>
-    <summary>Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies. — ★ 2128 (817.3/day)</summary>
-    <author><name>alesha-pro</name></author>
+    <id>https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer</id>
+    <title>Pixel679-cmyk/windows-titlebar-blur-customizer</title>
+    <link href="https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer"/>
+    <updated>2026-11-26T21:27:28.000Z</updated>
+    <published>2026-11-26T21:26:56.000Z</published>
+    <summary>Customize Windows 10 and 11 title bar effects with Aero, Acrylic, Mica and advanced DWM blur effects. — ★ 1505 (1186.4/day)</summary>
+    <author><name>Pixel679-cmyk</name></author>
   </entry>
   <entry>
-    <id>https://github.com/Marvisak/VIctory</id>
-    <title>Marvisak/VIctory</title>
-    <link href="https://github.com/Marvisak/VIctory"/>
-    <updated>2026-11-25T23:27:48.000Z</updated>
-    <published>2026-11-23T21:47:25.000Z</published>
-    <summary>An attempt at running GTA VI on PC — ★ 13779 (700.1/day)</summary>
-    <author><name>Marvisak</name></author>
+    <id>https://github.com/4lwayz/portwatch-vi</id>
+    <title>4lwayz/portwatch-vi</title>
+    <link href="https://github.com/4lwayz/portwatch-vi"/>
+    <updated>2026-11-28T01:31:30.000Z</updated>
+    <published>2026-11-21T23:16:41.000Z</published>
+    <summary>Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily. — ★ 6825 (1126.3/day)</summary>
+    <author><name>4lwayz</name></author>
   </entry>
   <entry>
     <id>https://github.com/Reukix/Reloc</id>
@@ -75,8 +48,161 @@
     <link href="https://github.com/Reukix/Reloc"/>
     <updated>2026-11-27T11:21:20.000Z</updated>
     <published>2026-11-25T17:29:48.000Z</published>
-    <summary>iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA) — ★ 1527 (698.4/day)</summary>
+    <summary>iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA) — ★ 1772 (911.2/day)</summary>
     <author><name>Reukix</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/alesha-pro/llm.asm</id>
+    <title>alesha-pro/llm.asm</title>
+    <link href="https://github.com/alesha-pro/llm.asm"/>
+    <updated>2026-11-27T20:40:20.000Z</updated>
+    <published>2026-11-25T07:28:51.000Z</published>
+    <summary>Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies. — ★ 2285 (789.0/day)</summary>
+    <author><name>alesha-pro</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/ZigZagBoi1/ScarlettPort</id>
+    <title>ZigZagBoi1/ScarlettPort</title>
+    <link href="https://github.com/ZigZagBoi1/ScarlettPort"/>
+    <updated>2026-11-28T00:57:27.000Z</updated>
+    <published>2026-11-24T09:36:26.000Z</published>
+    <summary>Native PC port layer for an Xbox Series X|S title: the game&#39;s x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files. — ★ 1349 (715.0/day)</summary>
+    <author><name>ZigZagBoi1</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/riveran0226/windows-explorer-blur-mica</id>
+    <title>riveran0226/windows-explorer-blur-mica</title>
+    <link href="https://github.com/riveran0226/windows-explorer-blur-mica"/>
+    <updated>2026-11-27T15:23:08.000Z</updated>
+    <published>2026-11-27T15:22:34.000Z</published>
+    <summary>Free Windows 10 &amp; 11 Explorer customization tool for Acrylic, Mica, transparency and background blur effects. — ★ 706 (706.0/day)</summary>
+    <author><name>riveran0226</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/mist-8659/windows-mouse-keyboard-sharing-kvm</id>
+    <title>mist-8659/windows-mouse-keyboard-sharing-kvm</title>
+    <link href="https://github.com/mist-8659/windows-mouse-keyboard-sharing-kvm"/>
+    <updated>2026-11-27T15:28:38.000Z</updated>
+    <published>2026-11-27T15:27:54.000Z</published>
+    <summary>Free open-source KVM software to share one keyboard and mouse across multiple Windows, macOS and Linux computers. — ★ 702 (702.0/day)</summary>
+    <author><name>mist-8659</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/flint63-code/gitdesk-windows</id>
+    <title>flint63-code/gitdesk-windows</title>
+    <link href="https://github.com/flint63-code/gitdesk-windows"/>
+    <updated>2026-11-27T15:15:14.000Z</updated>
+    <published>2026-11-27T15:14:35.000Z</published>
+    <summary>Free open-source Git GUI client for Windows with visual commit history, branch management, SSH, Git LFS and more. — ★ 696 (696.0/day)</summary>
+    <author><name>flint63-code</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Red2076-arch/waifu2x-image-upscaler-windows</id>
+    <title>Red2076-arch/waifu2x-image-upscaler-windows</title>
+    <link href="https://github.com/Red2076-arch/waifu2x-image-upscaler-windows"/>
+    <updated>2026-11-27T15:19:42.000Z</updated>
+    <published>2026-11-27T15:17:56.000Z</published>
+    <summary>Free AI image upscaler and photo denoiser for Windows powered by Vulkan GPU acceleration and ncnn neural networks. — ★ 694 (694.0/day)</summary>
+    <author><name>Red2076-arch</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/hollow-445/windows-keyboard-manager</id>
+    <title>hollow-445/windows-keyboard-manager</title>
+    <link href="https://github.com/hollow-445/windows-keyboard-manager"/>
+    <updated>2026-11-27T15:16:42.000Z</updated>
+    <published>2026-11-27T15:16:16.000Z</published>
+    <summary>Free open-source keyboard remapping software for Windows with custom layouts, programmable keys, layers and tap-hold actions. — ★ 693 (693.0/day)</summary>
+    <author><name>hollow-445</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/leaf7684/windows-modern-media-player</id>
+    <title>leaf7684/windows-modern-media-player</title>
+    <link href="https://github.com/leaf7684/windows-modern-media-player"/>
+    <updated>2026-11-27T15:35:31.000Z</updated>
+    <published>2026-11-27T15:34:01.000Z</published>
+    <summary>Free open-source Windows media player with VLC playback, video streaming, subtitles and picture-in-picture. — ★ 693 (693.0/day)</summary>
+    <author><name>leaf7684</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/nocta1554/windows-video-downloader-gui</id>
+    <title>nocta1554/windows-video-downloader-gui</title>
+    <link href="https://github.com/nocta1554/windows-video-downloader-gui"/>
+    <updated>2026-11-27T15:41:56.000Z</updated>
+    <published>2026-11-27T15:39:05.000Z</published>
+    <summary>Free open-source Windows video downloader GUI for YouTube and 1,000+ websites, powered by yt-dlp. — ★ 691 (691.0/day)</summary>
+    <author><name>nocta1554</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Riven-639/windows-dwm-blur-glass-customizer</id>
+    <title>Riven-639/windows-dwm-blur-glass-customizer</title>
+    <link href="https://github.com/Riven-639/windows-dwm-blur-glass-customizer"/>
+    <updated>2026-11-27T15:21:21.000Z</updated>
+    <published>2026-11-27T15:20:45.000Z</published>
+    <summary>Free Windows 10 &amp; 11 DWM customization tool for Aero, Acrylic, Mica, blur and transparent title bar effects. — ★ 683 (683.0/day)</summary>
+    <author><name>Riven-639</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Leaf82770/windows-mica-backdrop-customizer</id>
+    <title>Leaf82770/windows-mica-backdrop-customizer</title>
+    <link href="https://github.com/Leaf82770/windows-mica-backdrop-customizer"/>
+    <updated>2026-11-27T15:26:21.000Z</updated>
+    <published>2026-11-27T15:24:42.000Z</published>
+    <summary>Free Windows 11 desktop app to customize Mica, Acrylic, and system backdrop effects for Win32 applications. — ★ 679 (679.0/day)</summary>
+    <author><name>Leaf82770</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/quartzdev666/windows-pdf-editor</id>
+    <title>quartzdev666/windows-pdf-editor</title>
+    <link href="https://github.com/quartzdev666/windows-pdf-editor"/>
+    <updated>2026-11-27T15:09:33.000Z</updated>
+    <published>2026-11-27T15:09:07.000Z</published>
+    <summary>Free open-source Windows PDF editor to merge, split, rotate, crop, reorder and organize PDF pages with a visual interface. — ★ 678 (678.0/day)</summary>
+    <author><name>quartzdev666</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Ash793318/windows-hardware-monitor</id>
+    <title>Ash793318/windows-hardware-monitor</title>
+    <link href="https://github.com/Ash793318/windows-hardware-monitor"/>
+    <updated>2026-11-27T15:11:04.000Z</updated>
+    <published>2026-11-27T15:10:30.000Z</published>
+    <summary>Free open-source Windows hardware monitoring app for CPU, GPU, RAM, SSD temperatures, fan speeds and system performance. — ★ 678 (678.0/day)</summary>
+    <author><name>Ash793318</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Loris-593/notebook-fan-control-windows</id>
+    <title>Loris-593/notebook-fan-control-windows</title>
+    <link href="https://github.com/Loris-593/notebook-fan-control-windows"/>
+    <updated>2026-11-27T15:12:28.000Z</updated>
+    <published>2026-11-27T15:11:59.000Z</published>
+    <summary>Free open-source Windows laptop fan control software with custom cooling profiles and notebook temperature management. — ★ 675 (675.0/day)</summary>
+    <author><name>Loris-593</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Quill400/windows-image-viewer</id>
+    <title>Quill400/windows-image-viewer</title>
+    <link href="https://github.com/Quill400/windows-image-viewer"/>
+    <updated>2026-11-27T15:37:50.000Z</updated>
+    <published>2026-11-27T15:36:56.000Z</published>
+    <summary>Fast, free Windows image viewer with photo browsing, editing, folder management, and optional video playback. — ★ 674 (674.0/day)</summary>
+    <author><name>Quill400</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/Codelab781/windows-clipboard-sync-manager</id>
+    <title>Codelab781/windows-clipboard-sync-manager</title>
+    <link href="https://github.com/Codelab781/windows-clipboard-sync-manager"/>
+    <updated>2026-11-27T15:31:55.000Z</updated>
+    <published>2026-11-27T15:29:52.000Z</published>
+    <summary>Free open-source clipboard manager for Windows with cross-device sync, clipboard history, and text, image &amp; file sharing. — ★ 671 (671.0/day)</summary>
+    <author><name>Codelab781</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/RMvdesi/obsidian-prism</id>
+    <title>RMvdesi/obsidian-prism</title>
+    <link href="https://github.com/RMvdesi/obsidian-prism"/>
+    <updated>2026-11-27T12:08:29.000Z</updated>
+    <published>2026-11-17T02:50:21.000Z</published>
+    <summary>Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots &amp; dual-mode thought suite for Antigravity (GPL-3.0) — ★ 2962 (650.5/day)</summary>
+    <author><name>RMvdesi</name></author>
   </entry>
   <entry>
     <id>https://github.com/erkamyaman/rust-anything</id>
@@ -84,196 +210,70 @@
     <link href="https://github.com/erkamyaman/rust-anything"/>
     <updated>2026-11-27T21:25:43.000Z</updated>
     <published>2026-11-16T12:10:36.000Z</published>
-    <summary>Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell. — ★ 10744 (627.0/day)</summary>
+    <summary>Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell. — ★ 10835 (604.9/day)</summary>
     <author><name>erkamyaman</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/sergeijang/windows-11-activator</id>
+    <title>sergeijang/windows-11-activator</title>
+    <link href="https://github.com/sergeijang/windows-11-activator"/>
+    <updated>2026-11-28T03:34:22.000Z</updated>
+    <published>2026-11-28T03:34:12.000Z</published>
+    <summary>Windows 11 Activator — Windows 11 Activator — ★ 569 (569.0/day)</summary>
+    <author><name>sergeijang</name></author>
   </entry>
   <entry>
     <id>https://github.com/WhiteBr1ck/agy-powertools</id>
     <title>WhiteBr1ck/agy-powertools</title>
     <link href="https://github.com/WhiteBr1ck/agy-powertools"/>
-    <updated>2026-11-27T19:35:35.000Z</updated>
+    <updated>2026-11-28T01:03:10.000Z</updated>
     <published>2026-11-16T21:35:31.000Z</published>
-    <summary>Antigravity 2.0 原生界面增强插件：界面汉化、类 Codex 紧凑排版与阶段汇报、上下文与缓存监控、会话分支及本地用量面板 — ★ 1887 (575.3/day)</summary>
+    <summary>Antigravity 2.0 原生界面增强插件：界面汉化、类 Codex 紧凑排版与阶段汇报、上下文与缓存监控、会话分支及本地用量面板 — ★ 1937 (561.0/day)</summary>
     <author><name>WhiteBr1ck</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Hut-hzf/ung220z-tool</id>
-    <title>Hut-hzf/ung220z-tool</title>
-    <link href="https://github.com/Hut-hzf/ung220z-tool"/>
-    <updated>2026-11-22T07:06:43.000Z</updated>
-    <published>2026-11-15T11:16:46.000Z</published>
-    <summary>ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。 — ★ 5862 (554.4/day)</summary>
-    <author><name>Hut-hzf</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/DoubleGhosty/cool_fox</id>
-    <title>DoubleGhosty/cool_fox</title>
-    <link href="https://github.com/DoubleGhosty/cool_fox"/>
-    <updated>2026-11-27T11:03:32.000Z</updated>
-    <published>2026-11-26T08:48:31.000Z</published>
-    <summary>cool_fox: Leading CGBJ runtime continuation for GTA VI PC - Pareto residency, Wine/Vulkan fixes, FPS unlock, Port 5 CBV — ★ 851 (549.6/day)</summary>
-    <author><name>DoubleGhosty</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/lsernau/grh-lean</id>
-    <title>lsernau/grh-lean</title>
-    <link href="https://github.com/lsernau/grh-lean"/>
-    <updated>2026-11-25T20:45:04.000Z</updated>
-    <published>2026-11-25T20:42:55.000Z</published>
-    <summary>A short Lean 4 proof of the Generalized Riemann Hypothesis — ★ 1036 (504.8/day)</summary>
-    <author><name>lsernau</name></author>
   </entry>
   <entry>
     <id>https://github.com/gary23w/f-ck_data_brokers</id>
     <title>gary23w/f-ck_data_brokers</title>
     <link href="https://github.com/gary23w/f-ck_data_brokers"/>
-    <updated>2026-11-27T21:12:28.000Z</updated>
+    <updated>2026-11-27T22:09:21.000Z</updated>
     <published>2026-11-26T17:53:07.000Z</published>
-    <summary>fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf. — ★ 577 (493.0/day)</summary>
+    <summary>fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf. — ★ 768 (542.0/day)</summary>
     <author><name>gary23w</name></author>
   </entry>
   <entry>
-    <id>https://github.com/ZigZagBoi1/ScarlettPort</id>
-    <title>ZigZagBoi1/ScarlettPort</title>
-    <link href="https://github.com/ZigZagBoi1/ScarlettPort"/>
-    <updated>2026-11-27T21:43:34.000Z</updated>
-    <published>2026-11-24T09:36:26.000Z</published>
-    <summary>Native PC port layer for an Xbox Series X|S title: the game&#39;s x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files. — ★ 1247 (471.4/day)</summary>
-    <author><name>ZigZagBoi1</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/qianyiai/KuroCat</id>
-    <title>qianyiai/KuroCat</title>
-    <link href="https://github.com/qianyiai/KuroCat"/>
-    <updated>2026-11-27T06:32:21.000Z</updated>
-    <published>2026-11-21T15:49:31.000Z</published>
-    <summary>KuroCat — Free open-source 3D/2D desktop typing cat &amp; AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣 — ★ 1757 (423.9/day)</summary>
-    <author><name>qianyiai</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/0x1A6C1A9Y/focus-clock</id>
-    <title>0x1A6C1A9Y/focus-clock</title>
-    <link href="https://github.com/0x1A6C1A9Y/focus-clock"/>
-    <updated>2026-11-26T13:57:06.000Z</updated>
-    <published>2026-11-26T13:54:20.000Z</published>
-    <summary>Un minuteur web minimal pour se concentrer, faire une pause et avancer une chose à la fois. — ★ 564 (422.1/day)</summary>
-    <author><name>0x1A6C1A9Y</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/crhywun/g1-acq</id>
-    <title>crhywun/g1-acq</title>
-    <link href="https://github.com/crhywun/g1-acq"/>
-    <updated>2026-11-26T23:51:35.000Z</updated>
-    <published>2026-11-22T10:53:17.000Z</published>
-    <summary>No description. — ★ 1783 (314.3/day)</summary>
-    <author><name>crhywun</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/HSgod/ps5-fpsunlocker-gta6</id>
-    <title>HSgod/ps5-fpsunlocker-gta6</title>
-    <link href="https://github.com/HSgod/ps5-fpsunlocker-gta6"/>
-    <updated>2026-11-27T20:34:52.000Z</updated>
-    <published>2026-11-26T08:38:39.000Z</published>
-    <summary>Unlock FPS on Grand Theft Auto VI for jailbroken PS5 — ★ 441 (283.5/day)</summary>
-    <author><name>HSgod</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/EL4CTEO/fast-anything</id>
-    <title>EL4CTEO/fast-anything</title>
-    <link href="https://github.com/EL4CTEO/fast-anything"/>
-    <updated>2026-11-27T19:01:24.000Z</updated>
-    <published>2026-11-21T14:40:27.000Z</published>
-    <summary>Don&#39;t rewrite it in Rust. Rewrite the 5% that&#39;s slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R. — ★ 4440 (278.8/day)</summary>
-    <author><name>EL4CTEO</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/robbietilton/Editroom</id>
-    <title>robbietilton/Editroom</title>
-    <link href="https://github.com/robbietilton/Editroom"/>
-    <updated>2026-11-27T21:30:09.000Z</updated>
-    <published>2026-11-16T03:14:43.000Z</published>
-    <summary>Fast and powerful video editing for Mac — ★ 950 (261.5/day)</summary>
-    <author><name>robbietilton</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/AFK-surf/xnulinux</id>
-    <title>AFK-surf/xnulinux</title>
-    <link href="https://github.com/AFK-surf/xnulinux"/>
-    <updated>2026-11-27T16:37:40.000Z</updated>
-    <published>2026-11-20T10:18:31.000Z</published>
-    <summary>XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux) — ★ 4357 (256.3/day)</summary>
-    <author><name>AFK-surf</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/xcl-dev/xcl</id>
-    <title>xcl-dev/xcl</title>
-    <link href="https://github.com/xcl-dev/xcl"/>
-    <updated>2026-11-27T21:27:54.000Z</updated>
-    <published>2026-11-20T20:03:21.000Z</published>
-    <summary>Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL — ★ 8723 (245.4/day)</summary>
-    <author><name>xcl-dev</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop</id>
-    <title>Avaneesh-Inamdar/Stream-Tube-Desktop</title>
-    <link href="https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop"/>
-    <updated>2026-11-27T19:03:23.000Z</updated>
-    <published>2026-11-22T18:50:17.000Z</published>
-    <summary>Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in — ★ 1644 (245.4/day)</summary>
-    <author><name>Avaneesh-Inamdar</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/INK-Q/agy-fast</id>
-    <title>INK-Q/agy-fast</title>
-    <link href="https://github.com/INK-Q/agy-fast"/>
-    <updated>2026-11-27T06:04:03.000Z</updated>
-    <published>2026-11-19T04:58:46.000Z</published>
-    <summary>Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs. — ★ 1963 (244.8/day)</summary>
-    <author><name>INK-Q</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/scottsturrock/mate-wayland-desktop</id>
-    <title>scottsturrock/mate-wayland-desktop</title>
-    <link href="https://github.com/scottsturrock/mate-wayland-desktop"/>
-    <updated>2026-11-17T17:50:57.000Z</updated>
-    <published>2026-11-16T03:12:11.000Z</published>
-    <summary>MATE Wayland Desktop: the MATE desktop on Wayland with labwc, on an Ubuntu 26.04 base. Sources and build system. — ★ 892 (236.5/day)</summary>
-    <author><name>scottsturrock</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/fxceless/victory-fork</id>
-    <title>fxceless/victory-fork</title>
-    <link href="https://github.com/fxceless/victory-fork"/>
-    <updated>2026-11-27T20:14:54.000Z</updated>
-    <published>2026-11-24T18:02:37.000Z</published>
-    <summary>Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files. — ★ 3357 (218.2/day)</summary>
-    <author><name>fxceless</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/TaynanGT/Vice-Tay</id>
-    <title>TaynanGT/Vice-Tay</title>
-    <link href="https://github.com/TaynanGT/Vice-Tay"/>
-    <updated>2026-11-27T21:16:21.000Z</updated>
-    <published>2026-11-26T08:32:46.000Z</published>
-    <summary>VIctory tuned and fixed for an RTX 4090: runs the Xbox Series title from your own files. Built on Marvisak/VIctory and its forks; everyone is credited in the README and docs/credits.md. — ★ 340 (218.0/day)</summary>
-    <author><name>TaynanGT</name></author>
-  </entry>
-  <entry>
-    <id>https://github.com/Moh4696/inkworks-skill</id>
-    <title>Moh4696/inkworks-skill</title>
-    <link href="https://github.com/Moh4696/inkworks-skill"/>
-    <updated>2026-11-25T13:53:35.000Z</updated>
-    <published>2026-11-25T09:26:33.000Z</published>
-    <summary>Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet. — ★ 533 (211.3/day)</summary>
-    <author><name>Moh4696</name></author>
+    <id>https://github.com/Marvisak/VIctory</id>
+    <title>Marvisak/VIctory</title>
+    <link href="https://github.com/Marvisak/VIctory"/>
+    <updated>2026-11-25T23:27:48.000Z</updated>
+    <published>2026-11-23T21:47:25.000Z</published>
+    <summary>An attempt at running GTA VI on PC — ★ 13847 (523.1/day)</summary>
+    <author><name>Marvisak</name></author>
   </entry>
   <entry>
     <id>https://github.com/zortos293/XSEmu</id>
     <title>zortos293/XSEmu</title>
     <link href="https://github.com/zortos293/XSEmu"/>
-    <updated>2026-11-27T21:55:07.000Z</updated>
+    <updated>2026-11-28T02:56:11.000Z</updated>
     <published>2026-11-23T12:57:17.000Z</published>
-    <summary>Experimental Xbox Series X|S (GDK) title runner for Windows, built on the XCL translation layer: D3D12.X to D3D12, RDNA2 shaders to DXIL. — ★ 897 (205.0/day)</summary>
+    <summary>Experimental Xbox Series X|S (GDK) title runner for Windows, built on the XCL translation layer: D3D12.X to D3D12, RDNA2 shaders to DXIL. — ★ 928 (479.3/day)</summary>
     <author><name>zortos293</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/SecoteFiv29/polymarket-bot</id>
+    <title>SecoteFiv29/polymarket-bot</title>
+    <link href="https://github.com/SecoteFiv29/polymarket-bot"/>
+    <updated>2026-11-28T03:34:23.000Z</updated>
+    <published>2026-11-28T03:34:12.000Z</published>
+    <summary>Polymarket Bot — Polymarket Bot — ★ 454 (454.0/day)</summary>
+    <author><name>SecoteFiv29</name></author>
+  </entry>
+  <entry>
+    <id>https://github.com/peak85-sketch/stardew-valley-mod-manager</id>
+    <title>peak85-sketch/stardew-valley-mod-manager</title>
+    <link href="https://github.com/peak85-sketch/stardew-valley-mod-manager"/>
+    <updated>2026-11-23T21:29:15.000Z</updated>
+    <published>2026-11-23T21:28:46.000Z</published>
+    <summary>Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates and custom profiles. — ★ 993 (416.4/day)</summary>
+    <author><name>peak85-sketch</name></author>
   </entry>
 </feed>
